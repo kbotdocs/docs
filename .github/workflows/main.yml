@@ -14,5 +14,10 @@ jobs:
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
           source-dir: ./
-      - name: Print result
-        run: echo "${{ result }}"
+  result:
+    runs-on: ubuntu-latest
+    needs: upload
+    steps:
+      - run: |
+            echo "${{ needs.upload.outputs.result }}"
+            echo "${{ needs.upload.outputs.file-urls }}"
