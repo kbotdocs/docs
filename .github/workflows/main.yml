@@ -2,6 +2,8 @@ name: Upload Docs to R2
 on:
   push:
     branches: [ main ]
+    paths: 
+      - 'docs/**'
 jobs:
   setup:
     runs-on: ubuntu-latest
