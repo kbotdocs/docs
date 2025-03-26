@@ -3,14 +3,17 @@ on:
   push:
     branches: [ main ]
 jobs:
-  upload:
+  install:
     runs-on: ubuntu-latest
     steps:
-      - name: R2 Upload Action
-        uses: ryand56/r2-upload-action@v1.4
-        with:
-          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: ./
+      - name: Install rclone
+        run: |
+            curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+            unzip rclone-current-linux-amd64.zip
+            cd rclone-*-linux-amd64
+            sudo cp rclone /usr/bin/
+            sudo chown root:root /usr/bin/rclone
+            sudo chmod 755 /usr/bin/rclone
+            sudo mkdir -p /usr/local/share/man/man1
+            sudo cp rclone.1 /usr/local/share/man/man1/
+            sudo mandb
