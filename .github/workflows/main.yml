@@ -25,4 +25,4 @@ jobs:
         run: rclone config create r2 s3 provider=Cloudflare access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} region=auto endpoint=${{ secrets.R2_ENDPOINT }} acl=private
       - name: Upload to R2
         run: |
-          rclone copy ${{ github.workspace }}/docs r2:${{ secrets.R2_BUCKET }} -P --header-upload 'Type: text/markdown'
+          rclone copy ${{ github.workspace }}/docs r2:${{ secrets.R2_BUCKET }} -P --header 'Type: text/markdown'
