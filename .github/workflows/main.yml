@@ -23,4 +23,8 @@ jobs:
       - run: pwd
       - name: Configure rclone
         run: rclone config create r2 s3 provider=Cloudflare access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} region=auto endpoint=${{ secrets.R2_ENDPOINT }} acl=private
-
+      - name: Upload to R2
+        run: |
+            rclone lsf r2:
+            rclone lsf r2:kbotdocs-docs
+            rclone copy ${{ github.workspace }} r2:kbotdocs-docs
