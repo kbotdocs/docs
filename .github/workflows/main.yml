@@ -29,4 +29,4 @@ jobs:
         run: |
             rclone lsf r2:
             rclone lsf r2:kbotdocs-docs
-            rclone copy ${{ github.workspace }} r2:kbotdocs-docs
+            rclone copy ${{ github.workspace }}/docs r2:kbotdocs-docs
