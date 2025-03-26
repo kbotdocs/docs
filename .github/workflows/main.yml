@@ -25,5 +25,5 @@ jobs:
       - name: Upload to R2
         run: |
             rclone lsf r2:
-            rclone lsf r2:kbotdocs-docs
-            rclone copy ${{ github.workspace }}/docs r2:kbotdocs-docs
+            rclone lsf r2:${{ secrets.R2_BUCKET }}
+            rclone copy ${{ github.workspace }}/docs r2:${{ secrets.R2_BUCKET }}
