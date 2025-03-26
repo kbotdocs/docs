@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
 jobs:
-  install:
+  setup:
     runs-on: ubuntu-latest
     steps:
       - name: Install rclone
@@ -17,4 +17,10 @@ jobs:
             sudo mkdir -p /usr/local/share/man/man1
             sudo cp rclone.1 /usr/local/share/man/man1/
             sudo mandb
-            rclone config create r2 s3 provider=Cloudflare access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} region=auto endpoint=${{ secrets.ENDPOINT }} acl=private
+      - name: Configure rclone
+        run: rclone config create r2 s3 provider=Cloudflare access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} region=auto endpoint=${{ secrets.R2_ENDPOINT }} acl=private
+      - name: Upload to R2
+        run: |
+            rclone lsf r2:
+            rclone lsf r2:kbotdocs-docs
+            rclone copy ./ r2:kbotdocs-docs
