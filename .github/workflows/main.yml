@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
-      - run: pwd
-      - run: ls -al
       - name: Install rclone
         run: |
             curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
@@ -22,7 +20,6 @@ jobs:
             sudo mkdir -p /usr/local/share/man/man1
             sudo cp rclone.1 /usr/local/share/man/man1/
             sudo mandb
-      - run: pwd
       - name: Configure rclone
         run: rclone config create r2 s3 provider=Cloudflare access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} region=auto endpoint=${{ secrets.R2_ENDPOINT }} acl=private
       - name: Upload to R2
