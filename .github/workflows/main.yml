@@ -6,6 +6,8 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4.2.2
+      - run: ls -al
       - name: Install rclone
         run: |
             curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
@@ -19,8 +21,4 @@ jobs:
             sudo mandb
       - name: Configure rclone
         run: rclone config create r2 s3 provider=Cloudflare access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} region=auto endpoint=${{ secrets.R2_ENDPOINT }} acl=private
-      - name: Upload to R2
-        run: |
-            rclone lsf r2:
-            rclone lsf r2:kbotdocs-docs
-            rclone copy ./ r2:kbotdocs-docs
+
