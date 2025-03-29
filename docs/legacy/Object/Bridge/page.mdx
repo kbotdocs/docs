@@ -22,49 +22,49 @@ compat:
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`evaluateStringIn`](/legacy/Bridge/evaluateStringIn)`(scriptName: String, src: String)` \
+          [`evaluateStringIn`](/legacy/Object/Bridge/evaluateStringIn)`(scriptName: String, src: String)` \
           특정 스크립트의 전역 스코프에서 문자열로 표현된 JavaScript 코드를 실행합니다. 실행 성공 여부를 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`String`</span></Td>
         <Td>
-          <Feature status={["api2/Object/Bridge", "getGlobalVariable"]}>[`getGlobalVariable`](/legacy/Bridge/getGlobalVariable)`(name: String)`</Feature> \
+          <Feature status={["api2/Object/Bridge", "getGlobalVariable"]}>[`getGlobalVariable`](/legacy/Object/Bridge/getGlobalVariable)`(name: String)`</Feature> \
           단순 자동응답에 대하여 특정 이름을 가진 `[[전체변수]]`의 값을 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`org.mozilla.javascript.ScripTableObject`</span></Td>
         <Td>
-          [`getScopeOf`](/legacy/Bridge/getScopeOf)`(scriptName: String)` \
+          [`getScopeOf`](/legacy/Object/Bridge/getScopeOf)`(scriptName: String)` \
           특정 스크립트의 전역 스코프를 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`String`</span></Td>
         <Td>
-          <Feature status={["api2/Object/Bridge", "getVariable"]}>[`getVariable`](/legacy/Bridge/getVariable)`(room: String, name: String)`</Feature> \
+          <Feature status={["api2/Object/Bridge", "getVariable"]}>[`getVariable`](/legacy/Object/Bridge/getVariable)`(room: String, name: String)`</Feature> \
           단순 자동응답에 대하여 특정 방에서 특정 이름을 가진 `[[변수]]`의 값을 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`isAllowed`](/legacy/Bridge/isAllowed)`(scriptName: String)` \
+          [`isAllowed`](/legacy/Object/Bridge/isAllowed)`(scriptName: String)` \
           `Bridge` 객체로 특정 스크립트에 접근이 가능한지의 여부를 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          <Feature status={["api2/Object/Bridge", "setGlobalVariable"]}>[`setGlobalVariable`](/legacy/Bridge/setGlobalVariable)`(name: String, value: String)`</Feature> \
+          <Feature status={["api2/Object/Bridge", "setGlobalVariable"]}>[`setGlobalVariable`](/legacy/Object/Bridge/setGlobalVariable)`(name: String, value: String)`</Feature> \
           단순 자동응답에 대하여 특정 이름을 가진 `[[전체변수]]`에 값을 저장합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          <Feature status={["api2/Object/Bridge", "setVariable"]}>[`setVariable`](/legacy/Bridge/setVariable)`(room: String, name: String, value: String)`</Feature> \
+          <Feature status={["api2/Object/Bridge", "setVariable"]}>[`setVariable`](/legacy/Object/Bridge/setVariable)`(room: String, name: String, value: String)`</Feature> \
           단순 자동응답에 대하여 특정 방에서 특정 이름을 가진 `[[변수]]`에 값을 저장합니다.
         </Td>
       </Tr>

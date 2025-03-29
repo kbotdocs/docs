@@ -19,21 +19,21 @@ category: StarLight
       <Tr>
         <Td><span>`Number`</span></Td>
         <Td>
-          [`STATE_CREATED`](/starlight/Notification/STATE_CREATED)` = 1` \
+          [`STATE_CREATED`](/starlight/Object/Notification/STATE_CREATED)` = 1` \
           알림이 생성되었습니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`Number`</span></Td>
         <Td>
-          [`STATE_DEFAULT`](/starlight/Notification/STATE_DEFAULT)` = 0` \
+          [`STATE_DEFAULT`](/starlight/Object/Notification/STATE_DEFAULT)` = 0` \
           알림이 생성되지 않았습니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`Number`</span></Td>
         <Td>
-          [`STATE_DISMISSED`](/starlight/Notification/STATE_DISMISSED)` = -1` \
+          [`STATE_DISMISSED`](/starlight/Object/Notification/STATE_DISMISSED)` = -1` \
           알림이 제거되었습니다.
         </Td>
       </Tr>
@@ -53,7 +53,7 @@ category: StarLight
       <Tr>
         <Td><span>`Number`</span></Td>
         <Td>
-          [`state`](/starlight/Notification/state) \
+          [`state`](/starlight/Object/Notification/state) \
           알림의 상태를 나타내는 상수입니다.
         </Td>
       </Tr>
@@ -71,23 +71,23 @@ category: StarLight
     </Thead>
     <Tbody>
       <Tr>
-        <Td><span>[`NotificationBuilder`](/starlight/NotificationBuilder)</span></Td>
+        <Td><span>[`NotificationBuilder`](/starlight/Object/NotificationBuilder)</span></Td>
         <Td>
-          [`create`](/starlight/Notification/create)`(id: Number)` \
+          [`create`](/starlight/Object/Notification/create)`(id: Number)` \
           특정 ID의 알림을 생성하는 `NotificationBuilder` 객체를 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          [`delete`](/starlight/Notification/delete)`()` \
+          [`delete`](/starlight/Object/Notification/delete)`()` \
           알림을 상단바에서 제거합니다. 이미 알림이 제거된 상태일 경우 `java.lang.IllegalStateException`을 throw합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          [`update`](/starlight/Notification/update)`(title?: String, message?: String)` \
+          [`update`](/starlight/Object/Notification/update)`(title?: String, message?: String)` \
           생성된 알림의 제목과 내용을 수정합니다. `null`이 제공된 값은 수정하지 않습니다.
         </Td>
       </Tr>

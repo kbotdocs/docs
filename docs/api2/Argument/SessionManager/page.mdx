@@ -8,7 +8,7 @@ compat:
 
 <Section>
   `SessionManager` 객체는 방 세션을 수동으로 등록할 수 있게 해주는 객체입니다. 해당 객체는 직접 호출할 수 없습니다.
-  [`notificationPosted`](/api2/notificationPosted) 이벤트의 인자로 주어집니다.
+  [`notificationPosted`](/api2/Event/notificationPosted) 이벤트의 인자로 주어집니다.
 </Section>
 <Section>
   ## 메소드
@@ -17,13 +17,13 @@ compat:
     <Thead>
       <Tr>
         <Th colSpan="2">`SessionManager` 객체의 메소드</Th>
-      </Tr>
+      </Tr>R
     </Thead>
     <Tbody>
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`bindSession`](/api2/SessionManager/bindSession(String,Action$))`(room: String, action?:
+          [`bindSession`](/api2/Argument/SessionManager/bindSession(String,Action$))`(room: String, action?:
           android.app.Notification.Action)` \
           다른 메신저 앱의 `room` 방에 채팅이 왔을 때 메시지를 전송합니다. `action`과 앱이 자동 분석한 답장 액션 모두 `null`이 아닌지의 여부를 반환합니다.
         </Td>
@@ -31,7 +31,7 @@ compat:
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`bindSession`](/api2/SessionManager/bindSession(String,String,Action$))`(packageName: String, room: String,
+          [`bindSession`](/api2/Argument/SessionManager/bindSession(String,String,Action$))`(packageName: String, room: String,
           action?: android.app.Notification.Action)` \
           `packageName`이 패키지명인 메신저 앱의 `room` 방에 채팅이 왔을 때 메시지를 전송합니다. `action`과 앱이 자동 분석한 답장 액션 모두 `null`이 아닌지의 여부를
           반환합니다.
