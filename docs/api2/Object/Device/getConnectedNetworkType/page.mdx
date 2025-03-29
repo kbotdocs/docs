@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Device";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Device.getConnectedNetworkType() - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Device.getConnectedNetworkType() - API2"
-    }
-}
+---
+title: Device.getConnectedNetworkType()
+category: API2
+compat:
+  - category: api2/Object/Device
+    feature: getConnectedNetworkType
+---
 
 <Section>
-    # Device.getConnectedNetworkType()
-
-    연결되어 있는 네트워크의 타입을 반환합니다.
+  연결되어 있는 네트워크의 타입을 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Device.getConnectedNetworkType();
-    ~~~
+  ~~~js
+  Device.getConnectedNetworkType();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `String` - 연결되어 있는 네트워크의 타입을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getConnectedNetworkType"]}/>
+    `String` - 연결되어 있는 네트워크의 타입을 반환합니다.
+  </Section>
 </Section>

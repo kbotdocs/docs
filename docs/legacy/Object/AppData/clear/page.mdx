@@ -1,29 +1,18 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/AppData";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "AppData.clear() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "AppData.clear() - 레거시 API"
-    }
-}
+---
+title: AppData.clear()
+category: 레거시 API
+compat:
+  - category: legacy/Object/AppData
+    feature: clear
+---
 
 <Section>
-    # AppData.clear()
-
-    `AppData` 객체로 저장한 모든 데이터를 삭제합니다.
+  `AppData` 객체로 저장한 모든 데이터를 삭제합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    AppData.clear();
-    ~~~
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["clear"]}/>
+  ~~~js
+  AppData.clear();
+  ~~~
 </Section>

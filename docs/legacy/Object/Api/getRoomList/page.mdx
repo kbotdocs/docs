@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/Api";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Api.getRoomList() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "Api.getRoomList() - 레거시 API"
-    }
-}
+---
+title: Api.getRoomList()
+category: 레거시 API
+compat:
+  - category: legacy/Object/Api
+    feature: getRoomList
+---
 
 <Section>
-    # Api.getRoomList()
-
-    메시지 전송이 가능한 방 이름을 배열로 반환합니다.
+  메시지 전송이 가능한 방 이름을 배열로 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Api.getRoomList();
-    ~~~
+  ~~~js
+  Api.getRoomList();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `String[]` - 메시지 전송이 가능한 방 이름이 담긴 배열을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getRoomList"]}/>
+    `String[]` - 메시지 전송이 가능한 방 이름이 담긴 배열을 반환합니다.
+  </Section>
 </Section>

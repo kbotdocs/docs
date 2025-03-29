@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Security";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Security.desKey() - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Security.desKey() - API2"
-    }
-}
+---
+title: Security.desKey()
+category: API2
+compat:
+  - category: api2/Object/Security
+    feature: desKey
+---
 
 <Section>
-    # Security.desKey()
-
-    DES 보조키를 생성하여 반환합니다.
+  DES 보조키를 생성하여 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Security.desKey();
-    ~~~
+  ~~~js
+  Security.desKey();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `String` - 생성한 DES 보조키를 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["desKey"]}/>
+    `String` - 생성한 DES 보조키를 반환합니다.
+  </Section>
 </Section>

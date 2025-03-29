@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/legacy/argument/ImageDB";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "ImageDB.getProfileBitmap() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "ImageDB.getProfileBitmap() - 레거시 API"
-    }
-}
+---
+title: ImageDB.getProfileBitmap()
+category: 레거시 API
+compat:
+  - category: legacy/Argument/ImageDB
+    feature: getProfileBitmap
+---
 
 <Section>
-    # ImageDB.getProfileBitmap()
-
-    발신자의 프로필 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
+  발신자의 프로필 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    imageDB.getProfileBitmap();
-    ~~~
+  ~~~js
+  imageDB.getProfileBitmap();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `android.graphics.Bitmap` - 발신자의 프로필 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getProfileBitmap"]}/>
+    `android.graphics.Bitmap` - 발신자의 프로필 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
+  </Section>
 </Section>

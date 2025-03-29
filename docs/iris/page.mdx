@@ -1,17 +1,9 @@
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-  metadataBase: new URL("https://kbotdocs.dev"),
-  title: "Iris",
-  openGraph: {
-    ...openGraph,
-    title: "Iris"
-  }
-}
+---
+title: Iris
+category: Iris
+---
 
 <Section>
-  # Iris
-
   [Iris](https://github.com/dolidolih/Iris)는 카카오톡과의 상호작용을 자동화하고, 데이터베이스에서 데이터를 추출하며, HTTP 서버를 통해 원격으로 제어하기 위한 서버
   어플리케이션입니다. Java로 빌드되었으며 Android 기기에서 실행되도록 설계되었고, 시스템 서비스와 직접적인 데이터베이스 접근을 활용합니다.
 </Section>
@@ -128,14 +120,14 @@ export const metadata = {
     "room": "[CHAT_ROOM_NAME]",          // 채팅방 이름 또는 1:1 채팅의 경우 발신자 이름
     "sender": "[SENDER_NAME]",          // 메시지 발신자 이름
     "json": {                            // 'chat_logs' 테이블의 원시 데이터베이스 행을 JSON으로 표현
-    "_id": "...",
-    "chat_id": "...",
-    "user_id": "...",
-    "message": "[DECRYPTED_MESSAGE_CONTENT]", // 복호화된 메시지 내용, "msg" 필드와 동일
-    "attachment": "[DECRYPTED_ATTACHMENT_INFO]", // 복호화된 첨부 파일 정보 (있는 경우)
-    "v": "{\"enc\": 0, ...}",           // 원본 'v' 열 값 (JSON 형식)
-    // ... chat_logs 테이블의 기타 열 ...
-  }
+      "_id": "...",
+      "chat_id": "...",
+      "user_id": "...",
+      "message": "[DECRYPTED_MESSAGE_CONTENT]", // 복호화된 메시지 내용, "msg" 필드와 동일
+      "attachment": "[DECRYPTED_ATTACHMENT_INFO]", // 복호화된 첨부 파일 정보 (있는 경우)
+      "v": "{\"enc\": 0, ...}",           // 원본 'v' 열 값 (JSON 형식)
+      // ... chat_logs 테이블의 기타 열 ...
+    }
   }
   ~~~
 </Section>

@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/Device";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Device.getBatteryLevel() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "Device.getBatteryLevel() - 레거시 API"
-    }
-}
+---
+title: Device.getBatteryLevel()
+category: 레거시 API
+compat:
+  - category: legacy/Object/Device
+    feature: getBatteryLevel
+---
 
 <Section>
-    # Device.getBatteryLevel()
-
-    앱 구동 기기의 배터리 잔량(%)을 반환합니다.
+  앱 구동 기기의 배터리 잔량(%)을 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Device.getBatteryLevel();
-    ~~~
+  ~~~js
+  Device.getBatteryLevel();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `Number` - 앱 구동 기기의 배터리 잔량(%)을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getBatteryLevel"]}/>
+    `Number` - 앱 구동 기기의 배터리 잔량(%)을 반환합니다.
+  </Section>
 </Section>

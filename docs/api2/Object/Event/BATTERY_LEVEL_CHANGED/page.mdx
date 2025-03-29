@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Event";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Event.BATTERY_LEVEL_CHANGED - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Event.BATTERY_LEVEL_CHANGED - API2"
-    }
-}
+---
+title: Event.BATTERY_LEVEL_CHANGED
+category: API2
+compat:
+  - category: api2/Object/Event
+    feature: BATTERY_LEVEL_CHANGED
+---
 
 <Section>
-    # Event.BATTERY_LEVEL_CHANGED
-
-    API2의 [`batteryLevelChanged`](/api2/batteryLevelChanged) 이벤트입니다.
+  API2의 [`batteryLevelChanged`](/api2/batteryLevelChanged) 이벤트입니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Event.BATTERY_LEVEL_CHANGED;
-    ~~~
+  ~~~js
+  Event.BATTERY_LEVEL_CHANGED;
+  ~~~
 
-    <Section>
-        ### 상수값
+  <Section>
+    ### 상수값
 
-        `String` - `"batteryLevelChanged"`
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["BATTERY_LEVEL_CHANGED"]}/>
+    `String` - `"batteryLevelChanged"`
+  </Section>
 </Section>

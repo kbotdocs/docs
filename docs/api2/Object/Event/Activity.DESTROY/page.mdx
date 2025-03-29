@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Event";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Event.Activity.DESTROY - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Event.Activity.DESTROY - API2"
-    }
-}
+---
+title: Event.Activity.DESTROY
+category: API2
+compat:
+  - category: api2/Object/Event
+    feature: Activity.DESTROY
+---
 
 <Section>
-    # Event.Activity.DESTROY
-
-    API2의 [`activityDestroy`](/api2/activityDestroy) 이벤트입니다.
+  API2의 [`activityDestroy`](/api2/activityDestroy) 이벤트입니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Event.Activity.DESTROY;
-    ~~~
+  ~~~js
+  Event.Activity.DESTROY;
+  ~~~
 
-    <Section>
-        ### 상수값
+  <Section>
+    ### 상수값
 
-        `String` - `"activityDestroy"`
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["Activity.DESTROY"]}/>
+    `String` - `"activityDestroy"`
+  </Section>
 </Section>

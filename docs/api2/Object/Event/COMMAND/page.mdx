@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Event";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Event.COMMAND - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Event.COMMAND - API2"
-    }
-}
+---
+title: Event.COMMAND
+category: API2
+compat:
+  - category: api2/Object/Event
+    feature: COMMAND
+---
 
 <Section>
-    # Event.COMMAND
-
-    API2의 [`command`](/api2/command) 이벤트입니다.
+  API2의 [`command`](/api2/command) 이벤트입니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Event.COMMAND;
-    ~~~
+  ~~~js
+  Event.COMMAND;
+  ~~~
 
-    <Section>
-        ### 상수값
+  <Section>
+    ### 상수값
 
-        `String` - `"command"`
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["COMMAND"]}/>
+    `String` - `"command"`
+  </Section>
 </Section>

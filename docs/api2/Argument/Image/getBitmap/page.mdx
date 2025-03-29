@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/argument/Image";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Image.getBitmap() - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Image.getBitmap() - API2"
-    }
-}
+---
+title: Image.getBitmap()
+category: API2
+compat:
+  - category: api2/Argument/Image
+    feature: getBitmap
+---
 
 <Section>
-    # Image.getBitmap()
-
-    이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
+  이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    image.getBitmap();
-    ~~~
+  ~~~js
+  image.getBitmap();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `android.graphics.Bitmap` - 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getBitmap"]}/>
+    `android.graphics.Bitmap` - 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
+  </Section>
 </Section>

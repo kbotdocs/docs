@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Device";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Device.getModelName() - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Device.getModelName() - API2"
-    }
-}
+---
+title: Device.getModelName()
+category: API2
+compat:
+  - category: api2/Object/Device
+    feature: getModelName
+---
 
 <Section>
-    # Device.getModelName()
-
-    앱 구동 기기의 모델명을 반환합니다.
+  앱 구동 기기의 모델명을 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Device.getModelName();
-    ~~~
+  ~~~js
+  Device.getModelName();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `String` - 앱 구동 기기의 모델명을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getModelName"]}/>
+    `String` - 앱 구동 기기의 모델명을 반환합니다.
+  </Section>
 </Section>

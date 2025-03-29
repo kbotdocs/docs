@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/argument/Command";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Command.isDebugRoom - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Command.isDebugRoom - API2"
-    }
-}
+---
+title: Command.isDebugRoom
+category: API2
+compat:
+  - category: api2/Argument/Command
+    feature: isDebugRoom
+---
 
 <Section>
-    # Command.isDebugRoom
-
-    방이 디버깅 룸인지의 여부입니다.
+  방이 디버깅 룸인지의 여부입니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    cmd.isDebugRoom;
-    ~~~
+  ~~~js
+  cmd.isDebugRoom;
+  ~~~
 
-    <Section>
-        ### 값
+  <Section>
+    ### 값
 
-        `Boolean` - 방이 디버깅 룸인지의 여부입니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["isDebugRoom"]}/>
+    `Boolean` - 방이 디버깅 룸인지의 여부입니다.
+  </Section>
 </Section>

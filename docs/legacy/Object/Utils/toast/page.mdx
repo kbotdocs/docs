@@ -1,39 +1,28 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/Utils";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Utils.toast() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "Utils.toast() - 레거시 API"
-    }
-}
+---
+title: Utils.toast()
+category: 레거시 API
+compat:
+  - category: legacy/Object/Utils
+    feature: toast
+---
 
 <Section>
-    # Utils.toast()
-
-    토스트 메시지를 표시합니다.
+  토스트 메시지를 표시합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Utils.toast(msg);
-    ~~~
+  ~~~js
+  Utils.toast(msg);
+  ~~~
 
-    <Section>
-        ### 매개변수
+  <Section>
+    ### 매개변수
 
-        <ParamList>
-            <ParamItem param={"msg"} type={"String"}>
-                표시할 토스트 메시지의 내용
-            </ParamItem>
-        </ParamList>
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["toast"]}/>
+    <ParamList>
+      <ParamItem param={"msg"} type={"String"}>
+        표시할 토스트 메시지의 내용
+      </ParamItem>
+    </ParamList>
+  </Section>
 </Section>

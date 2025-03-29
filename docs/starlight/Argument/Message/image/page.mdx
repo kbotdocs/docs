@@ -1,30 +1,24 @@
-import {openGraph} from "@/constants/metadata";
+---
+title: Message.image
+category: StarLight
+---
 
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Message.image - StarLight",
-    openGraph: {
-        ...openGraph,
-        title: "Message.image - StarLight"
-    }
-}
-
-<FeatureStatusNoti featureStatus={{ experimental: true }} />
+<FeatureStatusNoti status={{experimental: true}}/>
 <Section>
-    ## Message.image
+  ## Message.image
 
-    메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
+  메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    msg.image;
-    ~~~
+  ~~~js
+  msg.image;
+  ~~~
 
-    <Section>
-        ### 값
+  <Section>
+    ### 값
 
-        `android.graphics.Bitmap` - 메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
-    </Section>
+    `android.graphics.Bitmap` - 메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
+  </Section>
 </Section>

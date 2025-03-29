@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/Utils";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Utils.getPhoneModel() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "Utils.getPhoneModel() - 레거시 API"
-    }
-}
+---
+title: Utils.getPhoneModel()
+category: 레거시 API
+compat:
+  - category: legacy/Object/Utils
+    feature: getPhoneModel
+---
 
 <Section>
-    # Utils.getPhoneModel()
-
-    앱 구동 기기의 모델명을 반환합니다.
+  앱 구동 기기의 모델명을 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Utils.getPhoneModel();
-    ~~~
+  ~~~js
+  Utils.getPhoneModel();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `String` - 앱 구동 기기의 모델명을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getPhoneModel"]}/>
+    `String` - 앱 구동 기기의 모델명을 반환합니다.
+  </Section>
 </Section>

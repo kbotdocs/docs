@@ -1,44 +1,33 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/FileStream";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "FileStream.read() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "FileStream.read() - 레거시 API"
-    }
-}
+---
+title: FileStream.read()
+category: 레거시 API
+compat:
+  - category: legacy/Object/FileStream
+    feature: read
+---
 
 <Section>
-    # FileStream.read()
-
-    `path` 경로의 파일 내용을 문자열로 반환합니다.
+  `path` 경로의 파일 내용을 문자열로 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    FileStream.read(path);
-    ~~~
+  ~~~js
+  FileStream.read(path);
+  ~~~
 
-    <Section>
-        ### 매개변수
+  <Section>
+    ### 매개변수
 
-        <ParamList>
-            <ParamItem param={"path"} type={"String"}>
-                내용을 문자열로 읽을 파일의 경로
-            </ParamItem>
-        </ParamList>
-    </Section>
-    <Section>
-        ### 반환값
+    <ParamList>
+      <ParamItem param={"path"} type={"String"}>
+        내용을 문자열로 읽을 파일의 경로
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
 
-        `String` - `path` 경로의 파일 내용을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["read"]}/>
+    `String` - `path` 경로의 파일 내용을 반환합니다.
+  </Section>
 </Section>

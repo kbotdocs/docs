@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Event";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Event.Activity.CREATE - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Event.Activity.CREATE - API2"
-    }
-}
+---
+title: Event.Activity.CREATE
+category: API2
+compat:
+  - category: api2/Object/Event
+    feature: Activity.CREATE
+---
 
 <Section>
-    # Event.Activity.CREATE
-
-    API2의 [`activityCreate`](/api2/activityCreate) 이벤트입니다.
+  API2의 [`activityCreate`](/api2/activityCreate) 이벤트입니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Event.Activity.CREATE;
-    ~~~
+  ~~~js
+  Event.Activity.CREATE;
+  ~~~
 
-    <Section>
-        ### 상수값
+  <Section>
+    ### 상수값
 
-        `String` - `"activityCreate"`
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["Activity.CREATE"]}/>
+    `String` - `"activityCreate"`
+  </Section>
 </Section>

@@ -1,39 +1,28 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/Utils";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Utils.copyToClipboard() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "Utils.copyToClipboard() - 레거시 API"
-    }
-}
+---
+title: Utils.copyToClipboard()
+category: 레거시 API
+compat:
+  - category: legacy/Object/Utils
+    feature: copyToClipboard
+---
 
 <Section>
-    # Utils.copyToClipboard()
-
-    문자열 `value`를 클립보드에 복사합니다.
+  문자열 `value`를 클립보드에 복사합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Utils.copyToClipboard(value);
-    ~~~
+  ~~~js
+  Utils.copyToClipboard(value);
+  ~~~
 
-    <Section>
-        ### 매개변수
+  <Section>
+    ### 매개변수
 
-        <ParamList>
-            <ParamItem param={"value"} type={"String"}>
-                클립보드에 복사할 문자열 값
-            </ParamItem>
-        </ParamList>
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["copyToClipboard"]}/>
+    <ParamList>
+      <ParamItem param={"value"} type={"String"}>
+        클립보드에 복사할 문자열 값
+      </ParamItem>
+    </ParamList>
+  </Section>
 </Section>

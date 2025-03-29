@@ -1,15 +1,9 @@
-import {openGraph} from "@/constants/metadata";
-import {Docs} from "@/constants/docs";
-import { Link } from "react-transition-progress/next";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "기초 자습서",
-    openGraph: {
-        ...openGraph,
-        title: "기초 자습서"
-    }
-}
+---
+title: 기초 자습서
+category: 기초 자습서
+milestone:
+  next: /basic/1-javascript-and-kakaotalkbot
+---
 
 <Section>
     # 개요
@@ -28,7 +22,4 @@ export const metadata = {
             ))
         }
     </ol>
-</Section>
-<Section>
-    <MileStone next={Docs["learn"].docs[0].children[0]} />
 </Section>

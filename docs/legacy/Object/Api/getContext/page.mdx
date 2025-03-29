@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/Api";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Api.getContext() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "Api.getContext() - 레거시 API"
-    }
-}
+---
+title: Api.getContext()
+category: 레거시 API
+compat:
+  - category: legacy/Object/Api
+    feature: getContext
+---
 
 <Section>
-    # Api.getContext()
-
-    앱의 Context(컨텍스트)를 반환합니다.
+  앱의 Context(컨텍스트)를 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Api.getContext();
-    ~~~
+  ~~~js
+  Api.getContext();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `android.content.Context` - 앱의 Context(컨텍스트)를 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getContext"]}/>
+    `android.content.Context` - 앱의 Context(컨텍스트)를 반환합니다.
+  </Section>
 </Section>

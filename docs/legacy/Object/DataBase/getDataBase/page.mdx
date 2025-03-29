@@ -1,44 +1,33 @@
-import {compatibility} from "@/constants/compatibility/legacy/object/DataBase";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "DataBase.getDataBase() - 레거시 API",
-    openGraph: {
-        ...openGraph,
-        title: "DataBase.getDataBase() - 레거시 API"
-    }
-}
+---
+title: DataBase.getDataBase()
+category: 레거시 API
+compat:
+  - category: legacy/Object/DataBase
+    feature: getDataBase
+---
 
 <Section>
-    # DataBase.getDataBase()
-
-    `fileName` 이름의 파일의 내용을 문자열로 반환합니다.
+  `fileName` 이름의 파일의 내용을 문자열로 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    DataBase.getDataBase(fileName);
-    ~~~
+  ~~~js
+  DataBase.getDataBase(fileName);
+  ~~~
 
-    <Section>
-        ### 매개변수
+  <Section>
+    ### 매개변수
 
-        <ParamList>
-            <ParamItem param={"fileName"} type={"String"}>
-                내용을 문자열로 읽을 파일의 이름
-            </ParamItem>
-        </ParamList>
-    </Section>
-    <Section>
-        ### 반환값
+    <ParamList>
+      <ParamItem param={"fileName"} type={"String"}>
+        내용을 문자열로 읽을 파일의 이름
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
 
-        `Boolean` - `fileName` 이름의 파일의 내용을 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getDataBase"]}/>
+    `Boolean` - `fileName` 이름의 파일의 내용을 반환합니다.
+  </Section>
 </Section>

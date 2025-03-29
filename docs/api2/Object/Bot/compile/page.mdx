@@ -1,29 +1,18 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Bot";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Bot.compile() - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Bot.compile() - API2"
-    }
-}
+---
+title: Bot.compile()
+category: API2
+compat:
+  - category: api2/Object/Bot
+    feature: compile
+---
 
 <Section>
-    # Bot.compile()
-
-    `Bot`객체에 대응하는 스크립트를 컴파일합니다.
+  `Bot`객체에 대응하는 스크립트를 컴파일합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    bot.compile();
-    ~~~
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["compile"]}/>
+  ~~~js
+  bot.compile();
+  ~~~
 </Section>

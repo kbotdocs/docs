@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Event";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Event.TICK - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Event.TICK - API2"
-    }
-}
+---
+title: Event.TICK
+category: API2
+compat:
+  - category: api2/Object/Event
+    feature: TICK
+---
 
 <Section>
-    # Event.TICK
-
-    API2의 [`tick`](/api2/tick) 이벤트입니다.
+  API2의 [`tick`](/api2/tick) 이벤트입니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Event.TICK;
-    ~~~
+  ~~~js
+  Event.TICK;
+  ~~~
 
-    <Section>
-        ### 상수값
+  <Section>
+    ### 상수값
 
-        `String` - `"tick"`
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["TICK"]}/>
+    `String` - `"tick"`
+  </Section>
 </Section>

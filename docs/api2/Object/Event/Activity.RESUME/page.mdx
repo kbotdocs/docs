@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Event";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Event.Activity.RESUME - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Event.Activity.RESUME - API2"
-    }
-}
+---
+title: Event.Activity.RESUME
+category: API2
+compat:
+  - category: api2/Object/Event
+    feature: Activity.RESUME
+---
 
 <Section>
-    # Event.Activity.RESUME
-
-    API2의 [`activityResume`](/api2/activityResume) 이벤트입니다.
+  API2의 [`activityResume`](/api2/activityResume) 이벤트입니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Event.Activity.RESUME;
-    ~~~
+  ~~~js
+  Event.Activity.RESUME;
+  ~~~
 
-    <Section>
-        ### 상수값
+  <Section>
+    ### 상수값
 
-        `String` - `"activityResume"`
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["Activity.RESUME"]}/>
+    `String` - `"activityResume"`
+  </Section>
 </Section>

@@ -1,39 +1,21 @@
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Project.getDataDirectory() - StarLight",
-    openGraph: {
-        ...openGraph,
-        title: "Project.getDataDirectory() - StarLight"
-    }
-}
+---
+title: Project.getDataDirectory()
+category: StarLight
+---
 
 <Section>
-    # Project.getDataDirectory()
-
-    프로젝트의 데이터(데이터베이스 파일, 유저 데이터 등)가 저장된 디렉터리에 대한 `java.io.File`을 반환합니다.
+  프로젝트의 데이터(데이터베이스 파일, 유저 데이터 등)가 저장된 디렉터리에 대한 `java.io.File`을 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Project.getDataDirectory();
-    ~~~
+  ~~~js
+  Project.getDataDirectory();
+  ~~~
 
-    <Section>
-        ### 매개변수
+  <Section>
+    ### 반환값
 
-        <Dl>
-            <Dt>`throwException?`</Dt>
-            <Dd>
-                컴파일 에러 시 에러 throw 여부
-            </Dd>
-        </Dl>
-    </Section>
-    <Section>
-        ### 반환값
-
-        `java.io.File` - 프로젝트의 데이터가 저장된 디렉터리에 대한 `java.io.File`을 반환합니다.
-    </Section>
+    `java.io.File` - 프로젝트의 데이터가 저장된 디렉터리에 대한 `java.io.File`을 반환합니다.
+  </Section>
 </Section>

@@ -1,14 +1,10 @@
-import {compatibility} from "@/constants/compatibility/api2/object/App";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "App.runOnUiThread() - API2",
-    openGraph: {
-        ...openGraph,
-        title: "App.runOnUiThread() - API2"
-    }
-}
+---
+title: App.runOnUiThread()
+category: API2
+compat:
+  - category: api2/Object/App
+    feature: runOnUiThread
+---
 
 <Section>
     # App.runOnUiThread()
@@ -44,9 +40,4 @@ export const metadata = {
             </ParamItem>
         </ParamList>
     </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["runOnUiThread"]} />
 </Section>

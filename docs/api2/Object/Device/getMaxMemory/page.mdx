@@ -1,35 +1,24 @@
-import {compatibility} from "@/constants/compatibility/api2/object/Device";
-import {openGraph} from "@/constants/metadata";
-
-export const metadata = {
-    metadataBase: new URL("https://kbotdocs.dev"),
-    title: "Device.getMaxMemory() - API2",
-    openGraph: {
-        ...openGraph,
-        title: "Device.getMaxMemory() - API2"
-    }
-}
+---
+title: Device.getMaxMemory()
+category: API2
+compat:
+  - category: api2/Object/Device
+    feature: getMaxMemory
+---
 
 <Section>
-    # Device.getMaxMemory()
-
-    앱이 사용하려고 시도하는 최대 메모리 크기(Byte)를 반환합니다.
+  앱이 사용하려고 시도하는 최대 메모리 크기(Byte)를 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    Device.getMaxMemory();
-    ~~~
+  ~~~js
+  Device.getMaxMemory();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `Number` - 앱이 사용하려고 시도하는 최대 메모리 크기(Byte)를 반환합니다.
-    </Section>
-</Section>
-<Section>
-    ## 앱 호환성
-
-    <AppCompat compats={compatibility["getMaxMemory"]}/>
+    `Number` - 앱이 사용하려고 시도하는 최대 메모리 크기(Byte)를 반환합니다.
+  </Section>
 </Section>
