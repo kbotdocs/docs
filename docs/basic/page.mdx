@@ -2,7 +2,7 @@
 title: 기초 자습서
 category: 기초 자습서
 milestone:
-  next: /basic/1-javascript-and-kakaotalkbot
+  next: basic/1-javascript-and-kakaotalkbot
 ---
 
 <Section>
@@ -13,13 +13,4 @@ milestone:
     <Noti type={"info"}>
         해당 자습서는 완성되지 않았습니다. 지속적으로 내용이 추가/수정/삭제될 수 있습니다.
     </Noti>
-</Section>
-<Section>
-    <ol className={"flex flex-col gap-[16px]"}>
-        {
-            Docs["learn"].docs[0].children.map((e, i) => (
-                <li key={i} className={"p-[8px_12px] rounded-md border border-layer1 bg-layer1"}><Link href={e.path}>{e.label}</Link></li>
-            ))
-        }
-    </ol>
 </Section>
