@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
-      - run: file -i docs/reference/api2/page.mdx
       - name: Install rclone
         run: |
             curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
