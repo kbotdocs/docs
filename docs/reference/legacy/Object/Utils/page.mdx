@@ -1,0 +1,201 @@
+---
+title: Utils
+category: 레거시 API
+compat:
+  data: legacy/Object/Utils
+  feature: "*"
+---
+
+<Section>
+  `Utils` 객체는 카카오톡봇의 기능 구현에 도움이 되는 메소드들을 모은 객체입니다.
+</Section>
+<Section>
+  ## 메소드
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan="2">`Utils` 객체의 메소드</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`compress`](/reference/legacy/Object/Utils/compress)`()` \
+          전체보기 메시지를 위한 단축문자(`"\u200b".repeat(1000) + "\n"`)를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`copyToClipboard`](/reference/legacy/Object/Utils/copyToClipboard)`(value: String)` \
+          문자열 `value`를 클립보드에 복사합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`delay`](/reference/legacy/Object/Utils/delay)`(mil: Number)` \
+          일정 시간(밀리초; ms)만큼 지연합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Number`</span></Td>
+        <Td>
+          [`getAndroidVersionCode`](/reference/legacy/Object/Utils/getAndroidVersionCode)`()` \
+          앱 구동 환경의 안드로이드 버전 코드를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getAndroidVersionName`](/reference/legacy/Object/Utils/getAndroidVersionName)`()` \
+          앱 구동 환경의 안드로이드 버전 이름을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getLw`](/reference/legacy/Object/Utils/getLw)`()` \
+          전체보기 메시지를 위한 단축문자(`"\u200b".repeat(500)`)를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getLwLined`](/reference/legacy/Object/Utils/getLwLined)`()` \
+          전체보기 메시지를 위한 선이 포함된 단축문자 세트(`"\u200b".repeat(500) + "\n" + "\u2500".repeat(20) + "\n"`)를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getPhoneBrand`](/reference/legacy/Object/Utils/getPhoneBrand)`()` \
+          앱 구동 기기의 브랜드명을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getPhoneModel`](/reference/legacy/Object/Utils/getPhoneModel)`()` \
+          앱 구동 기기의 모델명을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getRandomUserAgent`](/reference/legacy/Object/Utils/getRandomUserAgent)`()` \
+          `User-Agent` 요청 헤더 값을 무작위 생성해 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getWeatherJSON`](/reference/legacy/Object/Utils/getWeatherJSON)`(locationOrZoneId: String)` \
+          특정 지역 또는 특정 행정구역코드로 식별되는 지역의 기상 정보를 JSON 형태의 문자열로 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getWebText`](/reference/legacy/Object/Utils/getWebText)`(url: String, removeTags?: Boolean = false)` \
+          [`jsoup`](https://jsoup.org/)을 이용해 `url`에 동기 GET request를 보냅니다. 요청에 대한 응답을 문자열로 반환합니다. `removeTags`가 `true`일
+          경우 HTML 태그를 삭제한 응답을 문자열로 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getWebText2`](/reference/legacy/Object/Utils/getWebText2)`(url: String, encoding?: String = "UTF-8")` \
+          `java.net` 패키지를 이용해 `url`에 동기 GET request를 보냅니다. 지정한 인코딩 형식의 요청에 대한 응답을 문자열로 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getZoneIdByName`](/reference/legacy/Object/Utils/getZoneIdByName)`(location: String)` \
+          특정 지역의 행정구역코드를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Boolean`</span></Td>
+        <Td>
+          [`isUndefined`](/reference/legacy/Object/Utils/isUndefined)`(value: Any?)` \
+          `value`가 `undefined`인지의 여부를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Number`</span></Td>
+        <Td>
+          [`measureNanoTime`](/reference/legacy/Object/Utils/measureNanoTime)`(func: () => Any?)` \
+          `func` 함수의 실행에 소요된 시간을 반환합니다.(나노초; ns)
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Number`</span></Td>
+        <Td>
+          [`measureTimeMillis`](/reference/legacy/Object/Utils/measureTimeMillis)`(func: () => Any?)` \
+          `func` 함수의 실행에 소요된 시간을 반환합니다.(밀리초; ms)
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`org.jsoup.nodes.Document`</span></Td>
+        <Td>
+          [`parse`](/reference/legacy/Object/Utils/parse)`(url: String)` \
+          [`jsoup`](https://jsoup.org/)을 이용해 `url`에 동기 GET request를 보냅니다. 요청에 대한 응답을 `org.jsoup.nodes.Document` 값으로
+          반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`randomAlphanumeric`](/reference/legacy/Object/Utils/randomAlphanumeric)`(length: Number)` \
+          길이가 `length`인 영숫자(alphanumeric characters)를 무작위 생성해 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`removeRLO`](/reference/legacy/Object/Utils/removeRLO)`(str: String)` \
+          문자열 `str`에서 반전 문자를 삭제한 값을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`removeTags`](/reference/legacy/Object/Utils/removeTags)`(html: String)` \
+          문자열 `html`에서 HTML 태그를 삭제한 값을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`sleep`](/reference/legacy/Object/Utils/sleep)`(mil: Number)` \
+          일정 시간(밀리초; ms)만큼 지연합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`toast`](/reference/legacy/Object/Utils/toast)`(msg: String)` \
+          토스트 메시지를 표시합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`vibrate`](/reference/legacy/Object/Utils/vibrate)`(sec: Number)` \
+          주어진 시간(초; s)동안 진동을 울립니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`xmlToJson`](/reference/legacy/Object/Utils/xmlToJson)`(xml: String)` \
+          XML 형식의 문자열을 `JSON String`으로 변환한 값을 반환합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>

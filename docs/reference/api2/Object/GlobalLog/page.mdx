@@ -1,0 +1,73 @@
+---
+title: GlobalLog
+category: API2
+compat:
+  data: api2/Object/GlobalLog
+  feature: "*"
+---
+
+<Section>
+  `GlobalLog` 객체는 앱 내 글로벌 로그에 로그를 기록할 수 있게 하는 객체입니다.
+</Section>
+<Section>
+  ## 메소드
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan="2">`GlobalLog` 객체의 메소드</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`clear`](/reference/api2/Object/GlobalLog/clear)`()` \
+          글로벌 로그를 모두 삭제합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`d`](/reference/api2/Object/GlobalLog/d)`(data: String, showToast?: Boolean = false)` \
+          디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`debug`](/reference/api2/Object/GlobalLog/debug)`(data: String, showToast?: Boolean = false)` \
+          디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`e`](/reference/api2/Object/GlobalLog/e)`(data: String, showToast?: Boolean = false)` \
+          에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`error`](/reference/api2/Object/GlobalLog/error)`(data: String, showToast?: Boolean = false)` \
+          에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`i`](/reference/api2/Object/GlobalLog/i)`(data: String, showToast?: Boolean = false)` \
+          정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`info`](/reference/api2/Object/GlobalLog/info)`(data: String, showToast?: Boolean = false)` \
+          정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>

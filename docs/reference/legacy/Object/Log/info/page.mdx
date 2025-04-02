@@ -1,0 +1,32 @@
+---
+title: Log.info()
+category: 레거시 API
+compat:
+  data: legacy/Object/Log
+  feature: info
+---
+
+<Section>
+  정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다. 해당 메소드의 동작은 [`Log.i()`](/reference/legacy/Object/Log/i)와 같습니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  Log.info(data);
+  Log.info(data, showToast);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"data"} type={"String"}>
+        작성할 정보 로그의 내용
+      </ParamItem>
+      <ParamItem param={"showToast"} type={"Boolean"} defaultVal={"`false`"} optional>
+        작성된 로그를 토스트 메시지로 출력할 것인지의 여부
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>

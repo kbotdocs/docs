@@ -1,0 +1,34 @@
+---
+title: onNotificationPosted 이벤트 리스너
+category: 레거시 API
+compat:
+  data: legacy/EventListener/onNotificationPosted
+  feature: "*"
+---
+
+<Section>
+  `onNotificationPosted`는 알림이 발생할 때 동작하는 이벤트 리스너입니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  function onNotificationPosted(statusBarNotification, sessionManager) {
+
+  }
+  ~~~
+
+  <Section>
+    ### 인자
+
+    <ParamList>
+      <ParamItem param={"statusBarNotification"} type={"android.service.notification.StatusBarNotification"}>
+        알림에 관한 정보가 담긴
+        [`android.service.notification.StatusBarNotification`](https://developer.android.com/reference/android/service/notification/StatusBarNotification)입니다.
+      </ParamItem>
+      <ParamItem param={"sessionManager"} type={"SessionManager"}>
+        앱이 공식적으로 지원하지 않는 메신저에 사용하기 위한 [`SessionManager`](/reference/legacy/Argument/SessionManager) 객체입니다.
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>
