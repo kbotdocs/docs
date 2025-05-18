@@ -1,0 +1,28 @@
+name: \[Dev\] Upload Docs to R2
+on:
+  workflow_dispatch:
+  push:
+    branches: [ dev ]
+    paths: 
+      - 'docs/**'
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - name: Install rclone
+        run: |
+            curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+            unzip rclone-current-linux-amd64.zip
+            cd rclone-*-linux-amd64
+            sudo cp rclone /usr/bin/
+            sudo chown root:root /usr/bin/rclone
+            sudo chmod 755 /usr/bin/rclone
+            sudo mkdir -p /usr/local/share/man/man1
+            sudo cp rclone.1 /usr/local/share/man/man1/
+            sudo mandb
+      - name: Configure rclone
+        run: rclone config create r2 s3 provider=Cloudflare access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} region=auto endpoint=${{ secrets.R2_ENDPOINT }} acl=private
+      - name: Upload to R2
+        run: |
+          rclone sync ${{ github.workspace }}/docs r2:dev-${{ secrets.R2_BUCKET }} -P --header-upload 'Content-Type: text/html;charset=utf-8'
