@@ -1,4 +1,4 @@
-name: \[Prod\] Upload Docs to R2
+name: "[Prod] Upload Docs to R2"
 on:
   workflow_dispatch:
   push:
