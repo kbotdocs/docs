@@ -7,25 +7,23 @@ compat:
 ---
 
 <Section>
-  에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+  에러 로그를 작성합니다. 여러 개의 인자를 전달할 수 있으며, 각 인자는 공백으로 구분되어 작성됩니다.
 </Section>
 <Section>
   ## 구문
 
   ~~~js
-  console.error(str);
-  console.error(str, showToast);
+  console.error();
+  console.error(arg1);
+  console.error(arg1, arg2, /* ..., */ argN);
   ~~~
 
   <Section>
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"str"} type={"String"}>
-        작성할 에러 로그의 내용
-      </ParamItem>
-      <ParamItem param={"showToast"} type={"Boolean"} defaultVal={"`false`"} optional>
-        작성된 로그를 토스트 메시지로 출력할 것인지의 여부
+      <ParamItem param={"...args"} type={"any"} optional>
+        작성할 에러 로그의 내용 
       </ParamItem>
     </ParamList>
   </Section>
