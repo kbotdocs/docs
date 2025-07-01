@@ -1,0 +1,29 @@
+---
+title: console.timeEnd()
+category: 레거시 API
+compat:
+  data: legacy/Object/console
+  feature: timeEnd
+---
+
+<Section>
+  특정 레이블의 타이머를 종료하고 타이머 시작부터 종료까지의 시간을 로그에 작성합니다. 존재하지 않는 레이블을 지정할 경우 주의 로그(`Timer '{label}' does not exist`)를 작성합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  console.timeEnd();
+  console.timeEnd(label);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"label"} type={"String"} defaultVal={"\"default\""} optional>
+        시작할 타이머에 대한 레이블
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>
