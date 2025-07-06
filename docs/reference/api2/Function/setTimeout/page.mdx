@@ -1,0 +1,44 @@
+---
+title: setTimeout()
+category: API2
+compat:
+  data: api2/Object/Function/setTimeout
+  feature: "*"
+---
+
+<Section>
+  # setTimeout()
+
+  설정한 시간 경과 후 실행되는 타임아웃을 생성합니다. 이 함수는 비동기적으로 동작하며, 지정된 시간이 지난 후에 콜백 함수를 실행합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  setTimeout(func);
+  setTimeout(func, delay);
+  setTimeout(func, delay, arg1);
+  setTimeout(func, delay, arg1, arg2, /* ..., */ argN);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"func"} type={"Function"}>
+        타이머가 만료된 후 실행할 함수
+      </ParamItem>
+      <ParamItem param={"delay"} type={"Number"} defaultVal={"`0`"} optional>
+        타이머가 만료되기까지의 지연 시간(밀리초; ms)
+      </ParamItem>
+      <ParamItem param={"...args"} type={"any"} optional>
+        `func`에 전달할 인자
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `Number` - 생성된 타임아웃을 식별할 수 있는 ID를 반환합니다.
+  </Section>
+</Section>
