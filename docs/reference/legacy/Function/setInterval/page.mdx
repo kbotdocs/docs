@@ -1,0 +1,42 @@
+---
+title: setInterval()
+category: 레거시 API
+compat:
+  data: legacy/Function/setInterval
+  feature: "*"
+---
+
+<Section>
+  일정한 시간 간격을 두고 함수를 호출하는 반복 작업을 생성합니다. 이 함수는 비동기적으로 동작하며, 지정된 시간이 지난 후에 콜백 함수를 실행합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  setInterval(func);
+  setInterval(func, delay);
+  setInterval(func, delay, arg1);
+  setInterval(func, delay, arg1, arg2, /* ..., */ argN);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"func"} type={"Function"}>
+        반복해서 호출할 함수
+      </ParamItem>
+      <ParamItem param={"delay"} type={"Number"} defaultVal={"`0`"} optional>
+        반복 작업 사이의 지연 시간(밀리초; ms)
+      </ParamItem>
+      <ParamItem param={"...args"} type={"any"} optional>
+        `func`에 전달할 인자
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `Number` - 생성된 반복 작업을 식별할 수 있는 ID를 반환합니다.
+  </Section>
+</Section>
