@@ -9,6 +9,10 @@ compat:
 <Section>
   모듈이나 `.json` 파일을 불러옵니다(import). 모듈은 프로젝트 폴더 내 `modules` 폴더에 위치하며, 사용자가 임의로 추가할 수 있습니다. 
   전역 모듈은 카카오톡봇 앱이 사용하는 데이터 폴더 내 `global_modules` 폴더에 위치하며, 마찬가지로 사용자가 임의로 추가할 수 있습니다.
+
+  <Noti type="info">
+    메신저봇R 0.7.40-alpha.03 이상 버전의 경우 [별도의 설명](#GraalJS-기반에서)을 추가로 확인해야 합니다.
+  </Noti>
 </Section>
 <Section>
   ## 구문
@@ -45,4 +49,15 @@ compat:
     - `__dirname`과 `__filename`은 메신저봇R 0.7.39a 버전부터 지원됩니다. 그외 버전과 다른 카카오톡봇 앱에서는 지원하지 않습니다.
     - 두 변수는 모듈 스코프에서 제대로 동작하지 않을 수 있습니다.
   </Noti>
+
+  <Section>
+    ### GraalJS 기반에서
+
+    메신저봇R 0.7.40-alpha.03 이상 버전에서는 더 이상 Rhino 엔진을 사용하지 않고 GraalJS 엔진을 사용합니다. 
+    GraalJS는 Rhino 엔진과 다르게 모듈의 경로를 여러 개 지정할 수 없어 전역 모듈(`global_modules`)을 지원하지 않습니다. 또한, 프로젝트 폴더 내 `modules` 폴더는 `node_modules` 폴더로 변경됩니다.
+
+    <Noti type="warning">
+      ESM(ECMAScript Modules) 방식의 모듈을 사용하기 위해선, 모듈 파일의 확장자를 `.mjs`로 변경해야 합니다. 그렇지 않은 파일은 CJS(CommonJS) 방식의 모듈로 간주됩니다.
+    </Noti>
+  </Section>
 </Section>
