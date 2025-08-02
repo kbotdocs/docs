@@ -89,7 +89,7 @@ milestone:
 
   ~~~js
   let arr = [1, "hello", true];
-  msg.reply(arr); // 메시지: "1,hello,true"
+  msg.reply(arr.toString()); // 메시지: "1,hello,true"
   ~~~
 </Section>
 <Section>
@@ -142,7 +142,7 @@ milestone:
   ~~~js
   let arr = ["apple", "banana", "orange"];
   arr.push("grape");
-  msg.reply(arr); // 메시지: "apple,banana,orange,grape"
+  msg.reply(arr.toString()); // 메시지: "apple,banana,orange,grape"
   ~~~
 
   배열의 처음 부분에 요소를 추가할 땐 아래와 같이 `unshift()` 메소드를 사용합니다.
@@ -150,7 +150,7 @@ milestone:
   ~~~js
   let arr = ["apple", "banana", "orange"];
   arr.unshift("grape");
-  msg.reply(arr); // 메시지: "grape,apple,banana,orange"
+  msg.reply(arr.toString()); // 메시지: "grape,apple,banana,orange"
   ~~~
 
   배열의 중간 부분에 요소를 추가할 땐 `splice()` 메소드를 사용할 수 있습니다.
@@ -162,7 +162,7 @@ milestone:
   ~~~js
   let arr = ["apple", "banana", "orange"];
   arr.splice(1, 0, "grape"); // 1번째 인덱스에 "grape"를 추가합니다.
-  msg.reply(arr); // 메시지: "apple,grape,banana,orange"
+  msg.reply(arr.toString()); // 메시지: "apple,grape,banana,orange"
   ~~~
 </Section>
 <Section>
@@ -175,7 +175,7 @@ milestone:
   ~~~js
   let arr = ["apple", "banana", "orange"];
   arr.pop();
-  msg.reply(arr); // 메시지: "apple,banana"
+  msg.reply(arr.toString()); // 메시지: "apple,banana"
   ~~~
 
   배열의 처음 요소를 제거할 땐 아래와 같이 `shift()` 메소드를 사용합니다.
@@ -183,7 +183,7 @@ milestone:
   ~~~js
   let arr = ["apple", "banana", "orange"];
   arr.shift();
-  msg.reply(arr); // 메시지: "banana,orange"
+  msg.reply(arr.toString()); // 메시지: "banana,orange"
   ~~~
 
   배열의 중간에 존재하는 요소를 추가할 때 또한 `splice()` 메소드를 사용할 수 있습니다. 다만 추가할 때와 조금 다르게 사용합니다.
@@ -195,6 +195,6 @@ milestone:
   ~~~js
   let arr = ["apple", "banana", "orange"];
   arr.splice(1, 1); // 1번째 인덱스에 존재하는 요소를 제거합니다.
-  msg.reply(arr); // 메시지: "apple,orange"
+  msg.reply(arr.toString()); // 메시지: "apple,orange"
   ~~~
 </Section>
