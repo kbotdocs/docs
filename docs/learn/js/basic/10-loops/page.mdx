@@ -32,7 +32,7 @@ milestone:
 
   ~~~js
   for (let i = 1; i <= 100; i++) {
-    msg.reply(i);
+    msg.reply(String(i));
   }
   ~~~
 
@@ -325,7 +325,7 @@ milestone:
 
     function onCommand(msg) {
       if (msg.command === "timer") {
-        let sec = Number(msg.args[0]); // 사용자가 입력한 시간(초)를 숫자로 형 변환
+        let sec = Number(msg.args[0]); // 사용자가 입력한 시간(초)를 숫자로 형변환
 
         for (let i = sec; i > 0; i--) {
           msg.reply(`카운트다운: ${i}초`);
@@ -343,7 +343,7 @@ milestone:
 
     function onCommand(msg) {
       if (msg.command === "timer") {
-        let sec = Number(msg.args[0]); // 사용자가 입력한 시간(초)를 숫자로 형 변환
+        let sec = Number(msg.args[0]); // 사용자가 입력한 시간(초)를 숫자로 형변환
         let i = sec;
 
         while (i > 0) {

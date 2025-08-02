@@ -27,12 +27,12 @@ milestone:
   ~~~js
   /* 올바른 예 */
   if (msg.content === "/date") {
-    msg.reply(new Date());
+    msg.reply(new Date().toString());
   }
 
   /* 잘못된 예: 닫는 중괄호가 존재하지 않습니다. */
   if (msg.content === "/date") {
-    msg.reply(new Date());
+    msg.reply(new Date().toString());
   ~~~
   </Section>
   <Section>
