@@ -26,30 +26,234 @@ milestone:
 <Section>
   ## 이벤트 리스너 등록하기
 
-  이벤트 리스너의 등록은 [`Bot.addEventListener()`](/reference/api2/Object/Bot/addEventListener) 또는 [`Bot.on()`](/reference/api2/Object/Bot/on) 메소드를 사용합니다.
-
   우선, 레거시 API의 각 이벤트 리스너가 API2의 어떤 이벤트에 대응하는지 알아야 합니다.
 
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">레거시 API의 이벤트 리스너에 대응하는 API2의 이벤트</Th>
+        <Th colSpan="2">레거시 API의 이벤트 리스너에 대응하는 API2의 이벤트의 이름</Th>
       </Tr>
     </Thead>
     <Tbody>
       <Tr>
         <Td><span>`onBackPressed` 이벤트 리스너</span></Td>
         <Td>
-          `activityBackPressed` 이벤트
+          `Event.Activity.BACK_PRESSED = "activityBackPressed"`
         </Td>
       </Tr>
       <Tr>
-        <Td><span>`void`</span></Td>
+        <Td><span>`onCreate` 이벤트 리스너</span></Td>
         <Td>
-          [`runOnUiThread`](/reference/api2/Object/App/runOnUiThread)`(task: () => Any, onComplete: (error, result) => Any)` \
-          UI쓰레드 상에서 특정 함수를 실행합니다.
+          `Event.Activity.CREATE = "activityCreate"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onDestroy` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.Activity.DESTROY = "activityDestroy"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onNotificationPosted` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.NOTIFICATION_POSTED = "notificationPosted"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onNotificationRemoved` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.NOTIFICATION_REMOVED = "notificationRemoved"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onPause` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.Activity.PAUSE = "activityPause"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onRestart` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.Activity.RESTART = "activityRestart"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onResume` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.Activity.RESUME = "activityResume"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onStart` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.Activity.START = "activityStart"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onStartCompile` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.START_COMPILE = "startCompile"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`onStop` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.Activity.STOP = "activityStop"`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`response` 이벤트 리스너</span></Td>
+        <Td>
+          `Event.MESSAGE = "message"`
         </Td>
       </Tr>
     </Tbody>
   </Table>
+
+  이벤트 리스너의 등록은 [`Bot.addListener()`](/reference/api2/Object/Bot/addListener) 또는 [`Bot.on()`](/reference/api2/Object/Bot/on) 메소드를 사용합니다.
+  사용법은 아래와 같습니다.
+
+  ~~~js
+  bot.addListener(eventName, listener);
+  // 또는
+  bot.on(eventName, listener);
+  ~~~
+
+  예를 들어, `onStartCompile` 이벤트 리스너를 등록하려면 아래와 같이 작성합니다.
+
+  ~~~js
+  // 기존 레거시 API 코드에 존재한 onStartCompile 이벤트 리스너
+  function onStartCompile() {
+    // ...
+  }
+
+  // API2에서의 정상적인 동작을 위해 이벤트 리스너를 등록합니다.
+  // 아래 4가지 코드 중 하나를 선택하여 사용합니다.
+  bot.addListener(Event.START_COMPILE, onStartCompile);
+  bot.addListener("startCompile", onStartCompile);
+  bot.on(Event.START_COMPILE, onStartCompile);
+  bot.on("startCompile", onStartCompile);
+  ~~~
+
+  레거시 API의 이벤트 리스너의 매개변수는 API2의 이벤트 리스너의 매개변수와 호환됩니다. 하지만 `response` 이벤트 리스너의 매개변수는 API2의 `message` 이벤트의 리스너와 호환되지 않습니다.
+</Section>
+<Section>
+  ## response 함수의 인자 수정하기
+
+  `response` 이벤트 리스너의 인자는 API2의 `message` 이벤트 리스너와 호환되지 않습니다. 
+  `response` 이벤트 리스너의 경우 방 이름, 메시지의 내용 등의 값을 독립된 매개변수로 관리하지만, API2의 `message` 이벤트는 `msg` 라는 하나의 매개변수로 모든 정보를 관리합니다.
+  그러므로 `response` 이벤트 리스너의 인자를 아래와 같이 수정합니다.
+
+  ~~~js
+  function response(msg) {
+    // 기존 레거시 API 코드
+  }
+  bot.addListener(Event.MESSAGE, response);
+  ~~~
+
+  해당 가이드에서는 어떤 이벤트에 대한 리스너인지 더 명확하게 하기 위해 `response` 함수의 이름을 `onMessage`로 변경하겠습니다.
+
+  ~~~js
+  function onMessage(msg) {
+    // 기존 레거시 API 코드
+  }
+  bot.addListener(Event.MESSAGE, onMessage);
+  ~~~
+
+  이제 기존 코드에 남아있는 `response` 이벤트 리스너의 각 매개변수를 대응하는 API2 `message` 이벤트의 매개변수 `msg`의 프로퍼티 및 메소드로 수정해야합니다. 아래 표를 참고해 수정하세요.
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan="2">`response` 이벤트 리스너의 매개변수에 대응하는 `message` 이벤트의 매개변수</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`room`</span></Td>
+        <Td>
+          `msg.room`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`msg`</span></Td>
+        <Td>
+          `msg.content`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`sender`</span></Td>
+        <Td>
+          `msg.author.name`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`isGroupChat`</span></Td>
+        <Td>
+          `msg.isGroupChat`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`replier.reply()`</span></Td>
+        <Td>
+          `msg.reply()`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`replier.markAsRead()`</span></Td>
+        <Td>
+          `msg.markAsRead()`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td>
+          <span>`imageDB.getImage()`</span>
+          <span>`imageDB.getImageBase64()`</span>
+        </Td>
+        <Td>
+          `msg.image.getBase64()`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`imageDB.getImageBitmap()`</span></Td>
+        <Td>
+          `msg.image.getBitmap()`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`packageName`</span></Td>
+        <Td>
+          `msg.packageName`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`isMention`</span></Td>
+        <Td>
+          `msg.isMention`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`logId`</span></Td>
+        <Td>
+          `msg.logId`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`channelId`</span></Td>
+        <Td>
+          `msg.channelId`
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`userHash`</span></Td>
+        <Td>
+          `msg.author.hash`
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+
+  <Noti type="info">
+    `message` 이벤트의 매개변수에 대한 더 자세한 정보는 [여기](/reference/api2/Argument/Message)를 참고하세요.
+  </Noti>
 </Section>
