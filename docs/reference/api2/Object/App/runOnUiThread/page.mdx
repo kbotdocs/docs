@@ -27,17 +27,15 @@ compat:
             </ParamItem>
             <ParamItem param={"onComplete"} type={"(error, result) => Any"}>
                 결과를 처리할 함수
-                <Details summary={"매개변수"}>
-                    <ParamList>
-                        <ParamItem param={"error"} type={"org.mozilla.javascript.JavaScriptException"}>
-                            `task` 함수 실행 도중 일어난 에러의 객체를 전달받는 인자
-                        </ParamItem>
-                        <ParamItem param={"result"} type={"Any"}>
-                            `task` 함수의 반환값을 전달받는 인자
-                        </ParamItem>
-                    </ParamList>
-                </Details>
             </ParamItem>
+            <ParamList>
+                <ParamItem param={"error"} type={"org.mozilla.javascript.JavaScriptException"}>
+                    `task` 함수 실행 도중 일어난 에러의 객체를 전달받는 인자
+                </ParamItem>
+                <ParamItem param={"result"} type={"Any"}>
+                    `task` 함수의 반환값을 전달받는 인자
+                </ParamItem>
+            </ParamList>
         </ParamList>
     </Section>
 </Section>
