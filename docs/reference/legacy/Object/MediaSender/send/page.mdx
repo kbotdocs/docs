@@ -1,0 +1,40 @@
+---
+title: MediaSender.send()
+category: 레거시 API
+compat:
+  data: legacy/Object/MediaSender
+  feature: send
+---
+
+<Section>
+  특정 방에 미디어 파일을 전송하고 미디어 파일의 전송 성공 여부를 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  mediaSender.send(roomIdentifier, mediaResource);
+  mediaSender.send(roomIdentifier, mediaResource, timeoutMs);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"roomIdentifier"} type={"any"}>
+        미디어 파일을 전송할 방의 식별자. 식별자는 방의 이름(`String`) 또는 방의 ID(`BigInt`)를 사용할 수 있습니다.
+      </ParamItem>
+      <ParamItem param={"mediaResource"} type={"any"}>
+        전송할 미디어 파일의 리소스
+      </ParamItem>
+      <ParamItem param={"timeoutMs"} type={"Number"} defaultVal={"`25000`"} optional>
+        미디어 파일 전송의 타임아웃(밀리초; ms)
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `Boolean` - 미디어 파일의 전송에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
+  </Section>
+</Section>
