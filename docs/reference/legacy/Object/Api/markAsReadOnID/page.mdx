@@ -1,9 +1,9 @@
 ---
-title: Api.markAsReadOnID(String)
+title: Api.markAsReadOnID()
 category: 레거시 API
 compat:
   data: legacy/Object/Api
-  feature: markAsReadOnID(String)
+  feature: markAsReadOnID
 ---
 
 <Section>
@@ -20,8 +20,8 @@ compat:
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"roomId"} type={"String"}>
-        메시지를 읽음 처리할 방의 고유 ID
+      <ParamItem param={"roomId"} type={"String | BigInt"}>
+        메시지를 보낼 방의 ID
       </ParamItem>
     </ParamList>
   </Section>

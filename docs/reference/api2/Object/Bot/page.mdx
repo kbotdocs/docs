@@ -30,7 +30,7 @@ compat:
         <Td><span>`Boolean`</span></Td>
         <Td>
           [`canReply`](/reference/api2/Object/Bot/canReply)`(room: String, packageName?: String)` \
-          특정 방에 메시지를 발신할 수 있는지의 여부를 반환합니다.
+          특정 방에 메시지를 보낼 수 있는지의 여부를 반환합니다.
         </Td>
       </Tr>
       <Tr>
@@ -64,7 +64,7 @@ compat:
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`markAsRead`](/reference/api2/Object/Bot/markAsRead)`(room: String, packageName?: String)` \
+          [`markAsRead`](/reference/api2/Object/Bot/markAsRead)`(room: String | BigInt, packageName?: String)` \
           특정 방의 메시지를 읽음 처리합니다. 방에 대한 알림 읽기 세션을 찾을 수 있는지의 여부를 반환합니다.
         </Td>
       </Tr>
@@ -108,7 +108,7 @@ compat:
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`send`](/reference/api2/Object/Bot/send)`(room: String, msg: String, packageName?: String = null)` \
+          [`send`](/reference/api2/Object/Bot/send)`(room: String | BigInt, msg: String, packageName?: String = null)` \
           특정 방에 메시지를 보냅니다. 메시지를 보낼 방에 대한 세션의 존재 여부를 반환합니다.
         </Td>
       </Tr>

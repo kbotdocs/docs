@@ -1,9 +1,9 @@
 ---
-title: Api.replyToID(String, String, Boolean?)
+title: Api.replyToID()
 category: 레거시 API
 compat:
   data: legacy/Object/Api
-  feature: replyToID(String,String,Boolean$)
+  feature: replyToID
 ---
 
 <Section>
@@ -21,14 +21,14 @@ compat:
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"roomId"} type={"String"}>
-        메시지를 발신할 방의 고유 ID
+      <ParamItem param={"roomId"} type={"String | BigInt"}>
+        메시지를 보낼 방의 ID
       </ParamItem>
       <ParamItem param={"message"} type={"String"}>
-        발신할 메시지의 내용
+        보낼 메시지의 내용
       </ParamItem>
       <ParamItem param={"hideToast"} type={"Boolean"} defaultVal={"`false`"} optional>
-        메시지를 발신할 방의 세션 존재 여부를 토스트 메시지로 출력할 것인지의 여부
+        메시지를 보낼 방의 세션 존재 여부를 토스트 메시지로 출력할 것인지의 여부
       </ParamItem>
     </ParamList>
   </Section>
