@@ -1,0 +1,31 @@
+---
+title: Broadcast.sendLocal()
+category: API2
+compat:
+  data: api2/Object/Broadcast
+  feature: sendLocal
+---
+
+<Section>
+  호출한 스크립트만을 대상으로 브로드캐스트를 전송합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  Broadcast.sendLocal(broadcastName, value);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"broadcastName"} type={"String"}>
+        호출한 스크립트에 전송할 브로드캐스트 이름
+      </ParamItem>
+      <ParamItem param={"value"} type={"Any"}>
+        브로드캐스트로 송출할 값
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>
