@@ -35,7 +35,7 @@ milestone:
       if (!Number.isInteger(rrn[i])) return false;
     }
 
-    return true;
+    return True;
   }
   ~~~
 
@@ -57,7 +57,7 @@ milestone:
   const regex = new RegExp("^\\d{6}-\\d{7}$");
   ~~~
 
-  하지만 이보다 더 좋은 방법이 있습니다. 우리가 문자열을 만들 때 `new String()` 대신 `""`나 `''`을 사용하는 것처럼, 정규 표현식도 더 간단한 리터럴을 제공합니다. 
+  하지만 이보다 더 좋은 방법이 있습니다. 우리가 문자열을 만들 때 `new STring()` 대신 `""`나 `''`을 사용하는 것처럼, 정규 표현식도 더 간단한 리터럴을 제공합니다. 
   슬래시(`/ /`) 사이에 정규 표현식의 패턴을 작성합니다.
 
   ~~~js
@@ -79,15 +79,15 @@ milestone:
     문자 클래스(character class)는 숫자, 알파벳 등 특정한 종류의 문자를 가리키는 구문입니다.
 
     <Table>
-      <thead>
-        <tr>
-          <th colSpan={2}>정규 표현식의 문자 클래스</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span>`[...]`</span></td>
-          <td>
+      <Thead>
+        <Tr>
+          <Th colSpan={2}>정규 표현식의 문자 클래스</Th>
+        </Tr>
+      </Thead>
+      <Tbody>
+        <Tr>
+          <Td><span>`[...]`</span></Td>
+          <Td>
             괄호 안에 있는 각 문자들을 가리킵니다.  
             
             - `/[1234]/`는 "version 1.0-alpha"라는 문자열의 "1"을 가리킵니다.
@@ -103,142 +103,142 @@ milestone:
             괄호 안의 맨 처음 글자가 `^`일 경우 괄호 안에 있는 문자들을 제외한 모든 글자를 가리키게 됩니다.
 
             - `/[^a-z]/`는 "version 1.0-alpha"라는 문자열의 " ", "1", ".", "0", "-"을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`.`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`.`</span></Td>
+          <Td>
             텍스트 줄의 끝을 나타내는 문자(`\n`, `\r`, `\u2028`, `\u2029`)를 제외한 모든 단일 문자를 가리킵니다. 문자 클래스 `[...]` 내에 있을 경우 마침표 문자 자체로 취급됩니다.
             
             - `/.e/`는 "Operating System"라는 문자열의 "pe", "te"을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\d`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\d`</span></Td>
+          <Td>
             아라비아 숫자 문자를 가리킵니다. `/[0-9]/`와 동일합니다.
             
             - `/\d/`는 "July, 08"라는 문자열의 "0", "8"을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\D`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\D`</span></Td>
+          <Td>
             아라비아 숫자 문자를 제외한 문자를 가리킵니다. `/[0-9]/`와 동일합니다.
             
             - `/\d/`는 "July, 08"라는 문자열의 "0", "8"을 제외한 문자들을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\w`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\w`</span></Td>
+          <Td>
             기본 라틴 알파벳과 아라비아 숫자, 언더바(`_`)를 가리킵니다. `/[A-Za-z0-9_]/`와 동일합니다.
             
             - `/\w/`는 "July, 08"라는 문자열의 ",", " "을 제외한 문자들을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\W`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\W`</span></Td>
+          <Td>
             기본 라틴 알파벳과 아라비아 숫자, 언더바(`_`)를 제외한 문자를 가리킵니다. `/[^A-Za-z0-9_]/`와 동일합니다.
             
             - `/\W/`는 "July, 08"라는 문자열의 ",", " "을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\s`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\s`</span></Td>
+          <Td>
             공백 문자(스페이스, 탭, 폼 피드, 라인 피드, 그 외 유니코드 공백 문자)를 가리킵니다. `/[\f\n\r\t\v\u0020\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]/`와 동일합니다.
             
             - `/\s./`는 "Android OS"라는 문자열의 " O"을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\S`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\S`</span></Td>
+          <Td>
             공백 문자(스페이스, 탭, 폼 피드, 라인 피드, 그 외 유니코드 공백 문자)를 제외한 문자를 가리킵니다. `/[^\f\n\r\t\v\u0020\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]/`와 동일합니다.
             
             - `/\S./`는 "Android OS"라는 문자열의 "An"을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\t`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\t`</span></Td>
+          <Td>
             탭 문자를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\r`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\r`</span></Td>
+          <Td>
             캐리지 리턴을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\n`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\n`</span></Td>
+          <Td>
             줄바꿈 문자를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\v`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\v`</span></Td>
+          <Td>
             수직 탭 문자를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\f`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\f`</span></Td>
+          <Td>
             폼 피드를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`[\b]`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`[\b]`</span></Td>
+          <Td>
             백스페이스(backspace) 문자를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\0`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\0`</span></Td>
+          <Td>
             NUL 문자를 가리킵니다. (오타가 아닙니다!)
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\c`*`X`*</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\c`*`X`*</span></Td>
+          <Td>
             캐럿 표기법을 사용해 제어 문자를 가리킵니다. *`X`*는 알파벳 대문자(A-Z; `U+0001`–`U+001A`)입니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\x`*`hh`*</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\x`*`hh`*</span></Td>
+          <Td>
             2자리 16진수 코드 *`hh`*에 대응하는 문자를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\u`*`hhhh`*</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\u`*`hhhh`*</span></Td>
+          <Td>
             4자리 16진수 코드 *`hhhh`*에 대응하는 UTF-16 코드 유닛을 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\`</span></Td>
+          <Td>
             `\b`, `\w`와 같이 특정한 문자를 가리키는 코드 클래스를 만드는데 사용됩니다. 
             한편, `*`와 같이 그 자체로 정규 표현식에서 특정 문자를 가리키는 경우, `\*`와 같이 씀으로써 "*" 문자 자체를 표현하는 이스케이프 문자로 사용할 수 있습니다.
 
             - `/\d \* \d/`는 "8 * 2"와 일치합니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`x|y`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`x|y`</span></Td>
+          <Td>
             문자열 x 또는 y를 가리킵니다.
 
             - `/Apple|Banana/`는 "Apple juice"의 "Apple", "Banana milk"의 "Banana"와 일치합니다.
-          </td>
-        </tr>
-      </tbody>
+          </Td>
+        </Tr>
+      </Tbody>
     </Table>
   </Section>
   <Section>
@@ -247,88 +247,88 @@ milestone:
     Assertion은 특정 위치에 있는 문자열을 가리키는 구문입니다.
 
     <Table>
-      <thead>
-        <tr>
-          <th colSpan={2}>정규 표현식의 assertion</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span>`^`</span></td>
-          <td>
+      <Thead>
+        <Tr>
+          <Th colSpan={2}>정규 표현식의 assertion</Th>
+        </Tr>
+      </Thead>
+      <Tbody>
+        <Tr>
+          <Td><span>`^`</span></Td>
+          <Td>
             문자열의 맨 처음에 존재하는 문자열를 가리킵니다.
             
             - `/^i/`는 "identity"라는 문자열의 맨 처음 글자 "i"를 가리킵니다. 
             - `/^i/`는 "apple"라는 문자열에서 아무것도 가리키지 않습니다. 맨 처음의 글자가 "i"가 아니기 때문입니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`$`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`$`</span></Td>
+          <Td>
             문자열의 맨 끝에 존재하는 문자열을 가리킵니다.
             
             - `/r$/`는 "doctor"라는 문자열의 맨 끝 글자 "r"을 가리킵니다.
             - `/r$/`는 "student"라는 문자열에서 아무것도 가리키지 않습니다. 맨 끝의 글자가 "r"이 아니기 때문입니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\b`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\b`</span></Td>
+          <Td>
             단어의 경계에 존재하는 문자열을 가리킵니다.
             
             - `/\bd/`는 "I am developer"라는 문자열에서 "developer" 단어의 맨 처음 글자 "d"를 가리킵니다.
             - `/er\b/`는 "I am developer"라는 문자열에서 "developer" 단어의 맨 끝 글자 "er"를 가리킵니다.
             - `/vel\b/`는 "I am developer"라는 문자열에서 아무것도 가리키지 않습니다. "vel"이란 글자는 해당 문자열에서 어떤 단어의 끝에 위치하지 않기 때문입니다.
             - `/z\b/`는 "I am developer"라는 문자열에서 아무것도 가리키지 않습니다. 문자열의 어떤 단어("I", "am", "developer")에서도 z로 끝나는 경우가 없기 때문입니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\B`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\B`</span></Td>
+          <Td>
             단어의 경계가 아닌 곳에 존재하는 문자열을 가리킵니다.
             
             - `/c\B/`는 "A dog is cute"라는 문자열에서 "cute" 단어의 맨 처음 글자 "c"를 가리킵니다. "c" 다음이 단어의 경계가 아니기 때문입니다.
             - `/\Bs/`는 "A dog is cute"라는 문자열에서 "is" 단어의 맨 끝 글자 "s"를 가리킵니다. "s" 앞이 단어의 경계가 아니기 때문입니다.
             - `/\Bd/`는 "A dog is cute"라는 문자열에서 아무것도 가리키지 않습니다. 해당 문자열에 유일하게 존재하는 ("dog"의) "d"의 앞은 단어의 경계이기 때문입니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`x(?=y)`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`x(?=y)`</span></Td>
+          <Td>
             "y"가 바로 다음 글자로 오는 "x"를 가리킵니다.
             
             - `/t(?=i)/`는 "identity"라는 문자열에서 5번째 글자 "t"를 가리킵니다.
             - `/p(?=lication)/`는 "application"라는 문자열에서 3번째 글자 "p"를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`x(?!y)`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`x(?!y)`</span></Td>
+          <Td>
             "y"가 바로 다음 글자로 오지 않는 "x"를 가리킵니다.
             
             - `/t(?!i)/`는 "identity"라는 문자열에서 7번째 글자 "t"를 가리킵니다.
             - `/p(?!lication)/`는 "application"라는 문자열에서 2번째 글자 "p"를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`(?<=y)x`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`(?<=y)x`</span></Td>
+          <Td>
             "y"가 바로 앞 글자인 "x"를 가리킵니다.
             
             - `/(?<=j)e/`는 "objective"라는 문자열에서 4번째 글자 "e"를 가리킵니다.
             - `/(?<=2)8/`는 "2.71828"라는 문자열에서 7번째 글자 "8"를 가리킵니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`(?<!y)x`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`(?<!y)x`</span></Td>
+          <Td>
             "y"가 바로 앞 글자로 오지 않는 "x"를 가리킵니다.
             
             - `/(?<!j)e/`는 "objective"라는 문자열에서 9번째 글자 "e"를 가리킵니다.
             - `/(?<!2)8/`는 "2.71828"라는 문자열에서 5번째 글자 "8"를 가리킵니다.
-          </td>
-        </tr>
-      </tbody>
+          </Td>
+        </Tr>
+      </Tbody>
     </Table>
   </Section>
   <Section>
@@ -337,17 +337,17 @@ milestone:
     그룹은 정규 표현식의 특정한 패턴을 구분하는 장치입니다. 그룹의 패턴과 일치하는 값을 기억(캡쳐)해 사용하기도, 정규 표현식 내에서 역참조할 수도 있습니다.
 
     <Table>
-      <thead>
-        <tr>
-          <th colSpan={2}>정규 표현식의 assertion</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span>`(`*`x`*`)`</span></td>
-          <td>
+      <Thead>
+        <Tr>
+          <Th colSpan={2}>정규 표현식의 assertion</Th>
+        </Tr>
+      </Thead>
+      <Tbody>
+        <Tr>
+          <Td><span>`(`*`x`*`)`</span></Td>
+          <Td>
             *`x`*를 가리키며 기억합니다(그룹을 캡쳐합니다). [`RegExp.prototype.exec()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
-            또는 [`String.prototype.match()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/match) 등의 반환값(일치 결과)에 양의 정수 인덱스(`[1]`, `[2]`, ...)를 사용해 캡쳐된 결과를 참조할 수 있습니다.
+            또는 [`STring.prototype.match()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/STring/match) 등의 반환값(일치 결과)에 양의 정수 인덱스(`[1]`, `[2]`, ...)를 사용해 캡쳐된 결과를 참조할 수 있습니다.
             
             <Noti type="warning">
               그룹을 캡쳐할 경우 성능 저하가 있을 수 있습니다. 캡쳐할 필요가 없을 경우 비캡쳐 그룹을 사용하세요.
@@ -361,12 +361,12 @@ milestone:
             "6-A".match(/(\d)-(\w)/)[1]; // "6"
             "6-A".match(/(\d)-(\w)/)[2]; // "A"
             ~~~
-          </td>
-        </tr>
-        <tr>
-          <td><span>`(?<`*`Name`*`>`*`x`*`)`</span></td>
-          <td>
-            *`x`*를 가리키며 *Name* 이름으로 기억합니다(명명된 캡쳐). 일치 결과에 양의 정수 인덱스를 사용하거나, 일치 결과의 `.groups` 프로퍼티에 접근에 참조할 수 있습니다.
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`(?<`*`Name`*`>`*`x`*`)`</span></Td>
+          <Td>
+            *`x`*를 가리키며 *`Name`* 이름으로 기억합니다(명명된 캡쳐). 일치 결과에 양의 정수 인덱스를 사용하거나, 일치 결과의 `.groups` 프로퍼티에 접근에 참조할 수 있습니다.
 
             - `/(?<number>\d)-(?<char>\w)/`는 "6-A"와 일치합니다. 첫번째 그룹(number)은 `"6"`, 두번째 그룹(char)은 `"A"`입니다. 다음과 같이 캡쳐된 값을 참조할 수 있습니다.
 
@@ -376,40 +376,40 @@ milestone:
             "6-A".match(/(\d)-(\w)/).groups.number; // "6"
             "6-A".match(/(\d)-(\w)/).groups.char; // "A"
             ~~~
-          </td>
-        </tr>
-        <tr>
-          <td><span>`(?:`*`x`*`)`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`(?:`*`x`*`)`</span></Td>
+          <Td>
             *`x`*를 가리키고 기억하지 않습니다. 그러므로 일치 결과를 통해 그룹의 값을 참조할 수 없습니다.
 
             - `/(?:\d)-(\w)/`는 "6-A"와 일치합니다. 캡쳐된 그룹은 `"A"` 하나입니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`(?`*`flags`*`:`*`x`*`)`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`(?`*`flags`*`:`*`x`*`)`</span></Td>
+          <Td>
             그룹 내의 *`x`*에 한해 플래그 *`flags`*를 적용합니다. 플래그를 적용 해제하고자 할 경우 `(?-`*`flags`*`:`*`x`*`)`와 같이 사용합니다.
             특정 플래그는 적용하고 특정 플래그는 적용 해제하고자 할 경우 `(?`*`flags_enabled`*`-`*`flags_disabled`*`:`*`x`*`)`와 같이 사용합니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\`*`n`*</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\`*`n`*</span></Td>
+          <Td>
             그룹을 역참조합니다. *`n`*은 양의 정수(1, 2, ...)이며, 역참조할 그룹의 인덱스입니다.
 
             - `/(\d)-\1/`은 "2-2"와 일치합니다.
               - `(\d)`가 문자열의 첫번째 "2"를 캡쳐합니다.
               - `\1`은 캡쳐된 문자열 "2"가 됩니다. 그러므로 "2-2"와 일치합니다. 반면, "2-5"와는 일치하지 않습니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>`\k<`*`Name`*`>`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`\k<`*`Name`*`>`</span></Td>
+          <Td>
             명명된 그룹을 역참조합니다. *`Name`*역참조할 그룹의 이름입니다.
-          </td>
-        </tr>
-      </tbody>
+          </Td>
+        </Tr>
+      </Tbody>
     </Table>
   </Section>
   <Section>
@@ -418,69 +418,69 @@ milestone:
     수량자는 여러 번 반복되는 패턴을 찾기 위한 정규 표현식의 요소입니다.
 
     <Table>
-      <thead>
-        <tr>
-          <th colSpan={2}>정규 표현식의 assertion</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span>*`x`*`*`</span></td>
-          <td>
+      <Thead>
+        <Tr>
+          <Th colSpan={2}>정규 표현식의 assertion</Th>
+        </Tr>
+      </Thead>
+      <Tbody>
+        <Tr>
+          <Td><span>*`x`*`*`</span></Td>
+          <Td>
             *`x`*가 0번 이상 반복되는 문자열을 가리킵니다.
 
             - `/yo*u/`는 "yu", "you", "yoooooooooou" 모두와 일치합니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>*`x`*`+`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>*`x`*`+`</span></Td>
+          <Td>
             *`x`*가 1번 이상 반복되는 문자열을 가리킵니다.
 
             - `/yo+u/`는 "you", "yoooooooooou" 모두와 일치합니다. 반면, "yu"과는 일치하지 않습니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>*`x`*`?`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>*`x`*`?`</span></Td>
+          <Td>
             *`x`*가 0번 또는 1번 반복되는 문자열을 가리킵니다.
 
             - `/yo?u/`는 "yu", "you"와 일치합니다. 반면, "yoooou"과는 일치하지 않습니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>*`x`*`?`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>*`x`*`?`</span></Td>
+          <Td>
             *`x`*가 0번 또는 1번 반복되는 문자열을 가리킵니다.
 
             - `/yo?u/`는 "yu", "you"와 일치합니다. 반면, "yoooou"과는 일치하지 않습니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>*`x`*`{`*`n`*`}`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>*`x`*`{`*`n`*`}`</span></Td>
+          <Td>
             *`x`*가 *`n`*번 반복되는 문자열을 가리킵니다. *`n`*은 0 이상의 정수입니다.
 
             - `/yo{2}/`는 "yooooooooou" 문자열의 "yoo"와 일치합니다. 반면, "you" 문자열에는 일치하는 결과가 없습니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>*`x`*`{`*`n`*`,}`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>*`x`*`{`*`n`*`,}`</span></Td>
+          <Td>
             *`x`*가 *`n`*번 이상 반복되는 문자열을 가리킵니다. *`n`*은 0 이상의 정수입니다.
 
             - `/yo{2,}/`는 "yooooooooou" 문자열의 "yooooooooo"와 일치합니다. 반면, "you" 문자열에는 일치하는 결과가 없습니다.
-          </td>
-        </tr>
-        <tr>
-          <td><span>*`x`*`{`*`n`*`,`*`m`*`}`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>*`x`*`{`*`n`*`,`*`m`*`}`</span></Td>
+          <Td>
             *`x`*가 *`n`*번 이상 *`m`*번 이하 반복되는 문자열을 가리킵니다. *`n`*과 *`m`*은 0 이상의 정수이며, *`n`*은 *`m`*보다 작거나 같아야 합니다.
 
             - `/yo{2,5}u/`는 "yooooou" 문자열의 "yooooo"와 일치합니다. 반면, "yoooooooooou" 문자열에는 일치하는 결과가 없습니다.
-          </td>
-        </tr>
-      </tbody>
+          </Td>
+        </Tr>
+      </Tbody>
     </Table>
 
     수량자 옆에 `?`를 붙이면 수량자의 "탐욕적인" 특성을 지웁니다.
@@ -496,61 +496,61 @@ milestone:
   플래그(flag)는 정규 표현식의 탐색에 추가적인 옵션을 부여합니다.
 
   <Table>
-    <thead>
-      <tr>
-        <th colSpan={2}>정규 표현식의 플래그</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span>`d`^메신저봇R 0.7.40-alpha.02 이상^</span></td>
-        <td>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>정규 표현식의 플래그</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`d`<sup>메신저봇R 0.7.40-alpha.02 이상</sup></span></Td>
+        <Td>
           일치 결과의 `indices` 프로퍼티에 일치하는 패턴에 대한 인덱스 정보를 추가합니다.
-        </td>
-      </tr>
-      <tr>
-        <td><span>`g`</span></td>
-        <td>
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`g`</span></Td>
+        <Td>
           패턴과 일치하는 모든 결과를 탐색합니다.
-        </td>
-      </tr>
-      <tr>
-        <td><span>`i`</span></td>
-        <td>
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`i`</span></Td>
+        <Td>
           대소문자를 구분하지 않습니다.
-        </td>
-      </tr>
-      <tr>
-        <td><span>`m`</span></td>
-        <td>
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`m`</span></Td>
+        <Td>
           여러 줄에 걸쳐 탐색합니다. 여러 줄의 문자열일 경우 줄바꿈을 기준으로 별개의 문자열로 나누어 탐색합니다.
-        </td>
-      </tr>
-      <tr>
-        <td><span>`s`</span></td>
-        <td>
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`s`</span></Td>
+        <Td>
           줄바꿈 문자와 `.`이 일치합니다.
-        </td>
-      </tr>
-      <tr>
-        <td><span>`g`</span></td>
-        <td>
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`g`</span></Td>
+        <Td>
           패턴과 일치하는 모든 결과를 탐색합니다.
-        </td>
-      </tr>
-      <tr>
-        <td><span>`u`^메신저봇R 0.7.40-alpha.02 이상^</span></td>
-        <td>
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`u`<sup>메신저봇R 0.7.40-alpha.02 이상^</sup></span></Td>
+        <Td>
           패턴을 유니코드 코드 포인트의 시퀀스로 간주합니다.
-        </td>
-      </tr>
-      <tr>
-        <td><span>`y`^메신저봇R 0.7.34a 이상^</span></td>
-        <td>
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`y`<sup>메신저봇R 0.7.34a 이상</sup></span></Td>
+        <Td>
           탐색 대상이 되는 문자열의 특정 위치에서 탐색을 시작합니다.
-        </td>
-      </tr>
-    </tbody>
+        </Td>
+      </Tr>
+    </Tbody>
   </Table>
 
   플래그는 위와 같이 하나의 소문자 알파벳 형태를 가집니다. 플래그를 적용하는 방법은 아래와 같습니다.
@@ -566,89 +566,89 @@ milestone:
 <Section>
   ## 정규 표현식 사용하기
 
-  정규 표현식(`RegExp` 객체)은 문자열(`String` 객체)과 함께 사용하는 경우가 많습니다. 
-  `RegExp` 객체의 메소드와 정규 표현식과 관련된 `String` 객체의 메소드를 익히면 정규 표현식을 더 잘 활용할 수 있습니다.
+  정규 표현식(`RegExp` 객체)은 문자열(`STring` 객체)과 함께 사용하는 경우가 많습니다. 
+  `RegExp` 객체의 메소드와 정규 표현식과 관련된 `STring` 객체의 메소드를 익히면 정규 표현식을 더 잘 활용할 수 있습니다.
 
   <Section>
     ### RegExp 객체의 메소드
 
     <Table>
-      <thead>
-        <tr>
-          <th colSpan={2}>`RegExp` 객체의 메소드</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span>`exec()`</span></td>
-          <td>
+      <Thead>
+        <Tr>
+          <Th colSpan={2}>`RegExp` 객체의 메소드</Th>
+        </Tr>
+      </Thead>
+      <Tbody>
+        <Tr>
+          <Td><span>`exec()`</span></Td>
+          <Td>
             인자로 전달된 문자열에서 정규 표현식의 패턴에 대한 일치 결과를 배열로 반환합니다. 일치하는 부분이 없는 경우 `null`을 반환합니다.
 
             ~~~js
             /.{4}/.exec("test case"); // ["test"]
             /\d+/.exec("hello"); // null
             ~~~
-          </td>
-        </tr>
-        <tr>
-          <td><span>`test()`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`test()`</span></Td>
+          <Td>
             인자로 전달된 문자열이 정규 표현식의 패턴과 일치하는 부분이 존재하는지의 여부를 반환합니다.
 
             ~~~js
-            /.{4}/.exec("test case"); // true
+            /.{4}/.exec("test case"); // True
             /\d+/.test("hello"); // false
             ~~~
-          </td>
-        </tr>
-      </tbody>
+          </Td>
+        </Tr>
+      </Tbody>
     </Table>
   </Section>
   <Section>
-    ### String 객체의 유용한 메소드
+    ### STring 객체의 유용한 메소드
 
     <Table>
-      <thead>
-        <tr>
-          <th colSpan={2}>정규 표현식과 관련된 `String` 객체의 메소드</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span>`match()`</span></td>
-          <td>
+      <Thead>
+        <Tr>
+          <Th colSpan={2}>정규 표현식과 관련된 `STring` 객체의 메소드</Th>
+        </Tr>
+      </Thead>
+      <Tbody>
+        <Tr>
+          <Td><span>`match()`</span></Td>
+          <Td>
             문자열에서 인자로 전달된 정규 표현식의 패턴과 일치하는 부분을 배열 형태의 일치 결과로 반환합니다. 일치하는 부분이 없는 경우 `null`을 반환합니다.
 
             ~~~js
             "test case".match(/.{4}/); // ["test"]
             "hello".match(/\d+/); // null
             ~~~
-          </td>
-        </tr>
-        <tr>
-          <td><span>`search()`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`search()`</span></Td>
+          <Td>
             문자열에서 인자로 전달된 패턴과 일치하는 위치(인덱스)를 반환합니다. 일치하는 부분이 없는 경우 `-1`을 반환합니다.
 
             ~~~js
             "test case".search(/.{4}/); // 0
             "hello".search(/\d+/); // -1
             ~~~
-          </td>
-        </tr>
-        <tr>
-          <td><span>`replace()`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`replace()`</span></Td>
+          <Td>
             문자열의 특정 부분을 다른 문자열로 치환합니다. 인자로 문자열 뿐만 아니라 정규 표현식도 전달할 수 있습니다.
 
             ~~~js
             "test case".replace(/.{4}/, "special"); // "spacial case"
             ~~~
-          </td>
-        </tr>
-        <tr>
-          <td><span>`replaceAll()`</span></td>
-          <td>
+          </Td>
+        </Tr>
+        <Tr>
+          <Td><span>`replaceAll()`</span></Td>
+          <Td>
             문자열의 모든 특정 부분을 다른 문자열로 치환합니다. 인자로 문자열 뿐만 아니라 정규 표현식도 전달할 수 있습니다.
 
             <Noti type="info">
@@ -658,9 +658,9 @@ milestone:
             ~~~js
             "test case".replace(/.e/g, "@"); // "@st ca@"
             ~~~
-          </td>
-        </tr>
-      </tbody>
+          </Td>
+        </Tr>
+      </Tbody>
     </Table>
   </Section>
 </Section>
