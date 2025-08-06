@@ -57,7 +57,7 @@ milestone:
   const regex = new RegExp("^\\d{6}-\\d{7}$");
   ~~~
 
-  하지만 이보다 더 좋은 방법이 있습니다. 우리가 문자열을 만들 때 `new STring()` 대신 `""`나 `''`을 사용하는 것처럼, 정규 표현식도 더 간단한 리터럴을 제공합니다. 
+  하지만 이보다 더 좋은 방법이 있습니다. 우리가 문자열을 만들 때 `new String()` 대신 `""`나 `''`을 사용하는 것처럼, 정규 표현식도 더 간단한 리터럴을 제공합니다. 
   슬래시(`/ /`) 사이에 정규 표현식의 패턴을 작성합니다.
 
   ~~~js
@@ -347,7 +347,7 @@ milestone:
           <Td><span>`(`*`x`*`)`</span></Td>
           <Td>
             *`x`* 를 가리키며 기억합니다(그룹을 캡쳐합니다). [`RegExp.prototype.exec()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
-            또는 [`STring.prototype.match()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/STring/match) 등의 반환값(일치 결과)에 양의 정수 인덱스(`[1]`, `[2]`, ...)를 사용해 캡쳐된 결과를 참조할 수 있습니다.
+            또는 [`String.prototype.match()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/match) 등의 반환값(일치 결과)에 양의 정수 인덱스(`[1]`, `[2]`, ...)를 사용해 캡쳐된 결과를 참조할 수 있습니다.
             
             <Noti type="warning">
               그룹을 캡쳐할 경우 성능 저하가 있을 수 있습니다. 캡쳐할 필요가 없을 경우 비캡쳐 그룹을 사용하세요.
@@ -560,8 +560,8 @@ milestone:
 <Section>
   ## 정규 표현식 사용하기
 
-  정규 표현식(`RegExp` 객체)은 문자열(`STring` 객체)과 함께 사용하는 경우가 많습니다. 
-  `RegExp` 객체의 메소드와 정규 표현식과 관련된 `STring` 객체의 메소드를 익히면 정규 표현식을 더 잘 활용할 수 있습니다.
+  정규 표현식(`RegExp` 객체)은 문자열(`String` 객체)과 함께 사용하는 경우가 많습니다. 
+  `RegExp` 객체의 메소드와 정규 표현식과 관련된 `String` 객체의 메소드를 익히면 정규 표현식을 더 잘 활용할 수 있습니다.
 
   <Section>
     ### RegExp 객체의 메소드
