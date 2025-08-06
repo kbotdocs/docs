@@ -1,0 +1,33 @@
+---
+title: Broadcast.hasLocalListeners()
+category: API2
+compat:
+  data: api2/Object/Broadcast
+  feature: hasLocalListeners
+---
+
+<Section>
+  호출한 스크립트에서 특정 브로드캐스트에 1개 이상의 리스너가 등록되었는지의 여부를 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  Broadcast.hasLocalListeners(broadcastName);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"broadcastName"} type={"String"}>
+        로컬 리스너의 존재 여부를 확인할 브로드캐스트 이름
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `Boolean` - 호출한 스크립트에서 `broadcastName` 이름의 브로드캐스트에 1개 이상의 리스너가 등록되어있는 경우 `true`, 그렇지 않은 경우 `false`를 반환합니다.
+  </Section>
+</Section>

@@ -21,8 +21,8 @@ compat:
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"room"} type={"String"}>
-        메시지를 읽음 처리할 방의 이름
+      <ParamItem param={"room"} type={"String | BigInt"}>
+        메시지를 읽음 처리할 방의 식별자. 식별자는 방의 이름 또는 방의 ID를 사용할 수 있습니다.
       </ParamItem>
       <ParamItem param={"packageName"} type={"String"} optional>
         메시지를 읽음 처리할 메신저 앱의 패키지명

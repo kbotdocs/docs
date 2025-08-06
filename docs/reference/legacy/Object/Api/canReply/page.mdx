@@ -7,7 +7,7 @@ compat:
 ---
 
 <Section>
-  특정 방에 메시지를 발신할 수 있는지의 여부를 반환합니다.
+  특정 방에 메시지를 보낼 수 있는지의 여부를 반환합니다.
 </Section>
 <Section>
   ## 구문
@@ -20,14 +20,14 @@ compat:
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"room"} type={"String"}>
-        메시지 발신 가능 여부를 확인할 방의 이름
+      <ParamItem param={"room"} type={"String | BigInt"}>
+        메시지 발신 가능 여부를 확인할 방의 식별자. 식별자는 방의 이름 또는 방의 ID를 사용할 수 있습니다.
       </ParamItem>
     </ParamList>
   </Section>
   <Section>
     ### 반환값
 
-    `Boolean` - 메시지를 발신할 수 있을 경우 `true`, 발신할 수 없을 경우 `false`를 반환합니다.
+    `Boolean` - 메시지를 보낼 수 있을 경우 `true`, 보낼 수 없을 경우 `false`를 반환합니다.
   </Section>
 </Section>

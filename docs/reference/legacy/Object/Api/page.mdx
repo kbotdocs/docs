@@ -22,8 +22,8 @@ compat:
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`canReply`](/reference/legacy/Object/Api/canReply)`(room: String)` \
-          특정 방에 메시지를 발신할 수 있는지의 여부를 반환합니다.
+          [`canReply`](/reference/legacy/Object/Api/canReply)`(room: String | BigInt)` \
+          특정 방에 메시지를 보낼 수 있는지의 여부를 반환합니다.
         </Td>
       </Tr>
       <Tr>
@@ -134,21 +134,14 @@ compat:
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`markAsRead`](/reference/legacy/Object/Api/markAsRead)`(room: String, packageName?: String)` \
+          [`markAsRead`](/reference/legacy/Object/Api/markAsRead)`(room: String | BigInt, packageName?: String)` \
           특정 방의 메시지를 읽음 처리합니다. 방에 대한 알림 읽기 세션을 찾을 수 있는지의 여부를 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`markAsReadOnID`](/reference/legacy/Object/Api/markAsReadOnID(BigInt))`(roomId: BigInt)` \
-          특정 ID로 식별되는 방의 메시지를 읽음 처리합니다. 방에 대한 알림 읽기 세션을 찾을 수 있는지의 여부를 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Boolean`</span></Td>
-        <Td>
-          [`markAsReadOnID`](/reference/legacy/Object/Api/markAsReadOnID(String))`(roomId: String)` \
+          [`markAsReadOnID`](/reference/legacy/Object/Api/markAsReadOnID)`(roomId: String | BigInt)` \
           특정 ID로 식별되는 방의 메시지를 읽음 처리합니다. 방에 대한 알림 읽기 세션을 찾을 수 있는지의 여부를 반환합니다.
         </Td>
       </Tr>
@@ -190,22 +183,14 @@ compat:
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`replyRoom`](/reference/legacy/Object/Api/replyRoom)`(room: String, message: String, hideToast?: Boolean = false)` \
-          특정 방에 메시지를 발신하고 메시지를 발신할 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
+          [`replyRoom`](/reference/legacy/Object/Api/replyRoom)`(room: String | BigInt, message: String, hideToast?: Boolean = false)` \
+          특정 방에 메시지를 발신하고 메시지를 보낼 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`replyToID`](/reference/legacy/Object/Api/replyToID(BigInt,String,Boolean$))`(roomId: BigInt, message: String, hideToast?:
-          Boolean = false)` \
-          특정 ID로 식별되는 방에 메시지를 발신하고 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Boolean`</span></Td>
-        <Td>
-          [`replyToID`](/reference/legacy/Object/Api/replyToID(String,String,Boolean$))`(roomId: String, message: String, hideToast?:
+          [`replyToID`](/reference/legacy/Object/Api/replyToID)`(roomId: String | BigInt, message: String, hideToast?:
           Boolean = false)` \
           특정 ID로 식별되는 방에 메시지를 발신하고 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
         </Td>

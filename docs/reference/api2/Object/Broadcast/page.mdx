@@ -9,6 +9,10 @@ compat:
 <Section>
   `Broadcast` 객체는 다른 스크립트 간의 데이터 교류를 지원하는 객체입니다. [`Broadcast.send()`](/reference/api2/Object/Broadcast/send)를 통해 전송된 브로드캐스트는
   [`Broadcast.register()`](/reference/api2/Object/Broadcast/register)를 이용해 모든 스크립트에서 감지하고 접근할 수 있습니다.
+
+  <Noti type="info">
+    Android의 [브로드캐스트](https://developer.android.com/develop/background-work/background-tasks/broadcasts?hl=ko)와 다릅니다.
+  </Noti>
 </Section>
 <Section>
   ## 정적 메소드
@@ -21,6 +25,41 @@ compat:
     </Thead>
     <Tbody>
       <Tr>
+        <Td><span>`String[]`</span></Td>
+        <Td>
+          [`getAllEvents`](/reference/api2/Object/Broadcast/getAllEvents)`()` \
+          리스너가 등록된 모든 브로드캐스트의 이름을 배열로 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Number`</span></Td>
+        <Td>
+          [`getListenerCount`](/reference/api2/Object/Broadcast/getListenerCount)`(broadcastName: String)` \
+          특정 브로드캐스트에 등록된 리스너의 개수를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String[]`</span></Td>
+        <Td>
+          [`getLocalEvents`](/reference/api2/Object/Broadcast/getLocalEvents)`()` \
+          호출한 스크립트에서 리스너가 등록된 모든 브로드캐스트의 이름을 배열로 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Boolean`</span></Td>
+        <Td>
+          [`hasListeners`](/reference/api2/Object/Broadcast/hasListeners)`(broadcastName: String)` \
+          특정 브로드캐스트에 1개 이상의 리스너가 등록되었는지의 여부를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Boolean`</span></Td>
+        <Td>
+          [`hasLocalListeners`](/reference/api2/Object/Broadcast/hasLocalListeners)`(broadcastName: String)` \
+          호출한 스크립트에서 특정 브로드캐스트에 1개 이상의 리스너가 등록되었는지의 여부를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
         <Td><span>`void`</span></Td>
         <Td>
           [`register`](/reference/api2/Object/Broadcast/register)`(broadcastName: String, task: (value: Any) => Any)` \
@@ -32,6 +71,13 @@ compat:
         <Td>
           [`send`](/reference/api2/Object/Broadcast/send)`(broadcastName: String, value: Any)` \
           모든 스크립트를 대상으로 특정 값을 가진 브로드캐스트를 전송합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`sendLocal`](/reference/api2/Object/Broadcast/sendLocal)`(broadcastName: String, value: Any)` \
+          호출한 스크립트만을 대상으로 브로드캐스트를 전송합니다.
         </Td>
       </Tr>
       <Tr>
