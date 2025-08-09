@@ -44,7 +44,7 @@ compat:
         <Td><span>`Number`</span></Td>
         <Td>
           [`getActiveThreadsCount`](/reference/legacy/Object/Api/getActiveThreadsCount)`()` \
-          스크립트의 활성 쓰레드 수를 반환합니다.
+          스크립트의 활성 스레드 수를 반환합니다.
         </Td>
       </Tr>
       <Tr>
@@ -92,7 +92,7 @@ compat:
         <Td><span>`void`</span></Td>
         <Td>
           [`interruptThreads`](/reference/legacy/Object/Api/interruptThreads)`(scriptName?: String)` \
-          스크립트의 쓰레드에 `interrupt` 요청을 보냅니다.
+          스크립트의 스레드에 `interrupt` 요청을 보냅니다.
         </Td>
       </Tr>
       <Tr>
@@ -120,7 +120,7 @@ compat:
         <Td><span>`Boolean`</span></Td>
         <Td>
           [`isTerminated`](/reference/legacy/Object/Api/isTerminated)`(scriptName?: String)` \
-          [`Api.interruptThreads()`](/reference/legacy/Object/Api/interruptThreads) 실행 이후 스크립트의 모든 쓰레드의 `interrupt` 처리가 완료되었는지의 여부를
+          [`Api.interruptThreads()`](/reference/legacy/Object/Api/interruptThreads) 실행 이후 스크립트의 모든 스레드의 `interrupt` 처리가 완료되었는지의 여부를
           반환합니다.
         </Td>
       </Tr>
@@ -207,7 +207,7 @@ compat:
         <Td>
           [`UIThread`](/reference/legacy/Object/Api/UIThread)`(func: () => Any?, onComplete?: (error: java.lang.Throwable?, result: Any?)
           => Any?)` \
-          UI 쓰레드 상에서 특정 함수를 실행합니다.
+          UI 스레드 상에서 특정 함수를 실행합니다.
         </Td>
       </Tr>
       <Tr>
