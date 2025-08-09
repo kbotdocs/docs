@@ -7,7 +7,7 @@ compat:
 ---
 
 <Section>
-  `App` 객체는 봇 구동 앱에 관한 기능들을 담고 있는 객체입니다.
+  `App` 객체는 카카오톡봇 앱에 관한 기능들을 담고 있는 객체입니다.
 </Section>
 <Section>
   ## 정적 메소드
@@ -27,10 +27,31 @@ compat:
         </Td>
       </Tr>
       <Tr>
+        <Td><span>`Boolean`</span></Td>
+        <Td>
+          [`isMainThread`](/reference/api2/Object/App/isMainThread)`()` \
+          해당 메소드를 실행한 쓰레드가 메인 쓰레드인지의 여부를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          [`runOnUiThread`](/reference/api2/Object/App/runOnUiThread)`(task: () => Any, onComplete: (error, result) => Any)` \
-          UI쓰레드 상에서 특정 함수를 실행합니다.
+          [`runDelayed`](/reference/api2/Object/App/runDelayed)`(task: () => Any, delayMillis: Number)` \
+          일정 시간 후 특정 함수를 메인 쓰레드에서 실행합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`runOnBackgroundThread`](/reference/api2/Object/App/runOnBackgroundThread)`(task: () => Any, onComplete?: (error, result) => Any)` \
+          백그라운드 쓰레드 상에서 특정 함수를 실행합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`runOnUiThread`](/reference/api2/Object/App/runOnUiThread)`(task: () => Any, onComplete?: (error, result) => Any)` \
+          UI 쓰레드 상에서 특정 함수를 실행합니다.
         </Td>
       </Tr>
     </Tbody>

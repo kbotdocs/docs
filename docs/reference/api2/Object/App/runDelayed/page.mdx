@@ -1,0 +1,33 @@
+---
+title: App.runDelayed()
+category: API2
+compat:
+  data: api2/Object/App
+  feature: runDelayed
+---
+
+<Section>
+    # App.runDelayed()
+
+    일정 시간 후 특정 함수를 메인 쓰레드에서 실행합니다.
+</Section>
+<Section>
+    ## 구문
+
+    ~~~js
+    App.runDelayed(task, delayMillis);
+    ~~~
+
+    <Section>
+        ### 매개변수
+
+        <ParamList>
+            <ParamItem param={"task"} type={"() => Any"}>
+                일정 시간이 지난 후 실행할 함수
+            </ParamItem>
+            <ParamItem param={"delayMillis"} type={"Number"}>
+                지연할 시간(밀리초; ms)
+            </ParamItem>
+        </ParamList>
+    </Section>
+</Section>
