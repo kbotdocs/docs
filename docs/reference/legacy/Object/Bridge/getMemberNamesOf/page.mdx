@@ -1,0 +1,33 @@
+---
+title: Bridge.getMemberNamesOf()
+category: 레거시 API
+compat:
+  data: legacy/Object/Bridge
+  feature: getMemberNamesOf
+---
+
+<Section>
+  특정 스크립트의 전역 스코프 멤버들의 이름을 배열로 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  Bridge.getMemberNamesOf(scriptName);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"scriptName"} type={"String"}>
+        스크립트의 이름
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `String[]` - `scriptName` 스크립트의 전역 스코프 멤버들의 이름을 배열로 반환합니다.
+  </Section>
+</Section>

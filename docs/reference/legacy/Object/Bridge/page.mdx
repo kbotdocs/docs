@@ -20,6 +20,20 @@ compat:
     </Thead>
     <Tbody>
       <Tr>
+        <Td><span>`any`</span></Td>
+        <Td>
+          [`callFunctionOf`](/reference/legacy/Object/Bridge/callFunctionOf)`(scriptName: String, functionName: String, args?: any[] = [])` \
+          특정 스크립트의 전역 함수를 호출합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`any`</span></Td>
+        <Td>
+          [`evalInScript`](/reference/legacy/Object/Bridge/evalInScript)`(scriptName: String, src: String)` \
+          특정 스크립트의 전역 스코프에서 문자열로 표현된 JavaScript 코드를 실행합니다. 실행한 코드의 반환값을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
           [`evaluateStringIn`](/reference/legacy/Object/Bridge/evaluateStringIn)`(scriptName: String, src: String)` \
@@ -27,10 +41,24 @@ compat:
         </Td>
       </Tr>
       <Tr>
+        <Td><span>`String[]`</span></Td>
+        <Td>
+          [`getActiveScripts`](/reference/legacy/Object/Bridge/getActiveScripts)`()` \
+          컴파일된 스크립트의 이름을 배열로 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
         <Td><span>`String`</span></Td>
         <Td>
           <Feature status={["legacy/Object/Bridge", "getGlobalVariable"]}>[`getGlobalVariable`](/reference/legacy/Object/Bridge/getGlobalVariable)`(name: String)`</Feature> \
           단순 자동응답에 대하여 특정 이름을 가진 `[[전체변수]]`의 값을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String[]`</span></Td>
+        <Td>
+          [`getMemberNamesOf`](/reference/legacy/Object/Bridge/getMemberNamesOf)`(scriptName: String)` \
+          특정 스크립트의 전역 스코프 멤버들의 이름을 배열로 반환합니다.
         </Td>
       </Tr>
       <Tr>
@@ -48,10 +76,31 @@ compat:
         </Td>
       </Tr>
       <Tr>
+        <Td><span>`any`</span></Td>
+        <Td>
+          [`getVariableOf`](/reference/legacy/Object/Bridge/getVariableOf)`(scriptName: String, variable: String)` \
+          특정 스크립트의 전역 스코프 멤버를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Boolean`</span></Td>
+        <Td>
+          [`hasVariableOf`](/reference/legacy/Object/Bridge/hasVariableOf)`(scriptName: String, variable: String)` \
+          특정 스크립트의 전역 스코프 특정 멤버가 존재하는지의 여부를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
           [`isAllowed`](/reference/legacy/Object/Bridge/isAllowed)`(scriptName: String)` \
           `Bridge` 객체로 특정 스크립트에 접근이 가능한지의 여부를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Boolean`</span></Td>
+        <Td>
+          [`isScriptActive`](/reference/legacy/Object/Bridge/isScriptActive)`(scriptName: String)` \
+          특정 스크립트의 컴파일 여부를 반환합니다.
         </Td>
       </Tr>
       <Tr>
@@ -66,6 +115,13 @@ compat:
         <Td>
           <Feature status={["legacy/Object/Bridge", "setVariable"]}>[`setVariable`](/reference/legacy/Object/Bridge/setVariable)`(room: String, name: String, value: String)`</Feature> \
           단순 자동응답에 대하여 특정 방에서 특정 이름을 가진 `[[변수]]`에 값을 저장합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Boolean`</span></Td>
+        <Td>
+          [`setVariableOf`](/reference/legacy/Object/Bridge/setVariableOf)`(scriptName: String, variable: String, value: any)` \
+          특정 스크립트의 전역 스코프 멤버의 값을 설정합니다. 수행 성공 여부를 반환합니다.
         </Td>
       </Tr>
     </Tbody>

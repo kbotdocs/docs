@@ -1,0 +1,36 @@
+---
+title: Bridge.getVariableOf()
+category: 레거시 API
+compat:
+  data: legacy/Object/Bridge
+  feature: getVariableOf
+---
+
+<Section>
+  특정 스크립트의 전역 스코프 특정 멤버가 존재하는지의 여부를 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  Bridge.getVariableOf(scriptName, variable);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"scriptName"} type={"String"}>
+        스크립트의 이름
+      </ParamItem>
+      <ParamItem param={"variable"} type={"String"}>
+        존재 여부를 확인할 멤버의 이름
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `Boolean` - `scriptName` 스크립트의 전역 스코프에 멤버 `variable`이 존재할 경우 `true`, 존재하지 않을 경우 `false`를 반환합니다.
+  </Section>
+</Section>
