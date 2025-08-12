@@ -1,0 +1,40 @@
+---
+title: Bridge.callFunctionOf()
+category: 레거시 API
+compat:
+  data: legacy/Object/Bridge
+  feature: callFunctionOf
+---
+
+<Section>
+  특정 스크립트의 전역 함수를 호출합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  Bridge.callFunctionOf(scriptName, functionName);
+  Bridge.callFunctionOf(scriptName, functionName, args);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"scriptName"} type={"String"}>
+        전역 함수를 호출할 스크립트 이름
+      </ParamItem>
+      <ParamItem param={"functionName"} type={"String"}>
+        호출할 전역 함수의 이름
+      </ParamItem>
+      <ParamItem param={"args"} type={"any[]"} defaultVal={"`[]`"} optional>
+        호출할 함수에게 전달할 인자
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `any` - `scriptName` 스크립트에 선언된 전역 함수의 반환값을 반환합니다. 스크립트 또는 함수를 찾을 수 없는 경우 `null`을 반환합니다.
+  </Section>
+</Section>

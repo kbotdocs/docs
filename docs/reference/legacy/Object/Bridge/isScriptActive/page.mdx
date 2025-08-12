@@ -1,0 +1,33 @@
+---
+title: Bridge.isScriptActive()
+category: 레거시 API
+compat:
+  data: legacy/Object/Bridge
+  feature: isScriptActive
+---
+
+<Section>
+  특정 스크립트의 컴파일 여부를 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  Bridge.isScriptActive(scriptName);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"scriptName"} type={"String"}>
+        컴파일 여부를 확인할 스크립트의 이름
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `Boolean` - `scriptName` 스크립트가 컴파일이 완료된 상태일 경우 `true`, 컴파일되지 않은 상태일 경우 `false`를 반환합니다.
+  </Section>
+</Section>
