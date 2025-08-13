@@ -1,0 +1,33 @@
+---
+title: FileStream.getExtension()
+category: 레거시 API
+compat:
+  data: legacy/Object/FileStream
+  feature: getExtension
+---
+
+<Section>
+  `path` 경로의 확장자를 반환합니다. `path`가 존재하지 않거나 확장자를 알 수 없을 경우(디렉토리 또는 확장자없는 파일) `null`을 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  FileStream.getExtension(path);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"path"} type={"String"}>
+        확장자를 확인할 파일의 경로
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `String` - `path` 경로의 확장자를 반환합니다. `path`가 존재하지 않거나 확장자를 알 수 없을 경우(디렉토리 또는 확장자없는 파일) `null`을 반환합니다.
+  </Section>
+</Section>

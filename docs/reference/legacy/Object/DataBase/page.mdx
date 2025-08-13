@@ -29,8 +29,43 @@ compat:
       <Tr>
         <Td><span>`String`</span></Td>
         <Td>
+          [`clearDataBase`](/reference/legacy/Object/DataBase/clearDataBase)`(fileName: String)` \
+          `fileName` 이름의 파일 내용을 비웁니다. 해당 기능을 수행 후 파일의 내용을 반환합니다. `fileName` 이름의 파일이 존재하지 않을 경우 `fileName` 이름의 비어있는 파일을 생성합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Boolean`</span></Td>
+        <Td>
+          [`exists`](/reference/legacy/Object/DataBase/exists)`(fileName: String)` \
+          `fileName` 이름의 파일이 존재하는지의 여부를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
           [`getDataBase`](/reference/legacy/Object/DataBase/getDataBase)`(fileName: String)` \
           `fileName` 이름의 파일의 내용을 문자열로 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String`</span></Td>
+        <Td>
+          [`getDataBaseDir`](/reference/legacy/Object/DataBase/getDataBaseDir)`()` \
+          `DataBase` 객체가 사용하는 디렉토리의 경로를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Number`</span></Td>
+        <Td>
+          [`getFileSize`](/reference/legacy/Object/DataBase/getFileSize)`(fileName: String)` \
+          `fileName` 파일의 용량(Byte)을 반환합니다. 파일이 존재하지 않거나 디렉토리일 경우 `-1`을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String[]`</span></Td>
+        <Td>
+          [`listFiles`](/reference/legacy/Object/DataBase/listFiles)`()` \
+          `DataBase` 객체가 사용하는 디렉토리에 존재하는 파일의 이름을 배열로 반환합니다.
         </Td>
       </Tr>
       <Tr>
@@ -45,6 +80,13 @@ compat:
         <Td>
           [`setDataBase`](/reference/legacy/Object/DataBase/setDataBase)`(fileName: String, data: String)` \
           문자열을 `fileName` 이름의 파일에 덮어씁니다. 파일이 존재하지 않을 경우 `fileName` 이름의 파일을 생성합니다. 덮어쓰거나 생성한 파일의 최종 내용을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`void`</span></Td>
+        <Td>
+          [`setDataBaseDir`](/reference/legacy/Object/DataBase/setDataBaseDir)`(path: String)` \
+          `DataBase` 객체가 사용하는 디렉토리의 경로를 `path`로 바꿉니다.
         </Td>
       </Tr>
     </Tbody>

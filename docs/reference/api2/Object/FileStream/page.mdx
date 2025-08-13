@@ -15,100 +15,78 @@ compat:
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`FileStream` 객체의 정적 메소드</Th>
+        <Th colSpan="2">`DataBase` 객체의 정적 메소드</Th>
       </Tr>
     </Thead>
     <Tbody>
       <Tr>
         <Td><span>`String`</span></Td>
         <Td>
-          [`append`](/reference/api2/Object/FileStream/append)`(path: String, data: String)` \
-          `path` 경로의 파일 내용에 새로운 내용을 이어 씁니다. 이어 쓴 후 해당 파일의 최종 내용을 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Boolean`</span></Td>
-        <Td>
-          [`copyFile`](/reference/api2/Object/FileStream/copyFile)`(path1: String, path2: String)` \
-          `path1` 경로의 파일을 `path2` 경로에 복사합니다. 파일 복사의 성공 여부를 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Boolean`</span></Td>
-        <Td>
-          [`create`](/reference/api2/Object/FileStream/create)`(path: String)` \
-          `path` 경로의 파일을 생성합니다. 파일 생성의 성공 여부를 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Boolean`</span></Td>
-        <Td>
-          [`createDir`](/reference/api2/Object/FileStream/createDir)`(path: String)` \
-          `path` 경로에 폴더를 생성합니다. 폴더 생성의 성공 여부를 반환합니다.
+          [`appendDataBase`](/reference/api2/Object/DataBase/appendDataBase)`(fileName: String, data: String)` \
+          `fileName` 이름의 파일 내용에 새로운 내용을 이어 씁니다. 이어 쓴 후 해당 파일의 최종 내용을 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`String`</span></Td>
         <Td>
-          [`getSdcardPath`](/reference/api2/Object/FileStream/getSdcardPath)`()` \
-          내장 메모리의 최상위 경로를 반환합니다.
+          [`clearDataBase`](/reference/api2/Object/DataBase/clearDataBase)`(fileName: String)` \
+          `fileName` 이름의 파일 내용을 비웁니다. 해당 기능을 수행 후 파일의 내용을 반환합니다. `fileName` 이름의 파일이 존재하지 않을 경우 `fileName` 이름의 비어있는 파일을 생성합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`moveFile`](/reference/api2/Object/FileStream/moveFile)`(path1: String, path2: String)` \
-          `path1` 경로의 파일을 `path2` 경로로 이동합니다. 파일 이동의 성공 여부를 반환합니다.
+          [`exists`](/reference/api2/Object/DataBase/exists)`(fileName: String)` \
+          `fileName` 이름의 파일이 존재하는지의 여부를 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`String`</span></Td>
         <Td>
-          [`read`](/reference/api2/Object/FileStream/read)`(path: String)` \
-          `path` 경로의 파일 내용을 문자열로 반환합니다.
+          [`getDataBase`](/reference/api2/Object/DataBase/getDataBase)`(fileName: String)` \
+          `fileName` 이름의 파일의 내용을 문자열로 반환합니다.
         </Td>
       </Tr>
       <Tr>
-        <Td><span>`Object`</span></Td>
+        <Td><span>`String`</span></Td>
         <Td>
-          [`readJSON`](/reference/api2/Object/FileStream/readJSON)`(path: String)` \
-          `path` 경로의 파일 내용을 `Object` 형식으로 반환합니다. 파일 내용의 형식이 `JSON`일 경우에만 가능합니다.
+          [`getDataBaseDir`](/reference/api2/Object/DataBase/getDataBaseDir)`()` \
+          `DataBase` 객체가 사용하는 디렉토리의 경로를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`Number`</span></Td>
+        <Td>
+          [`getFileSize`](/reference/api2/Object/DataBase/getFileSize)`(fileName: String)` \
+          `fileName` 파일의 용량(Byte)을 반환합니다. 파일이 존재하지 않거나 디렉토리일 경우 `-1`을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`String[]`</span></Td>
+        <Td>
+          [`listFiles`](/reference/api2/Object/DataBase/listFiles)`()` \
+          `DataBase` 객체가 사용하는 디렉토리에 존재하는 파일의 이름을 배열로 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`Boolean`</span></Td>
         <Td>
-          [`remove`](/reference/api2/Object/FileStream/remove)`(path: String)` \
-          `path` 경로의 파일을 삭제합니다. 파일의 삭제 성공 여부를 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`save`](/reference/api2/Object/FileStream/save)`(path: String, data: String, append?: Boolean = false)` \
-          문자열을 `path` 경로의 파일에 덮어씁니다. 파일이 존재하지 않을 경우 `path` 경로의 파일을 생성합니다. `append`가 `true`일 경우 `path` 경로의 파일 내용에 새로운 내용을
-          이어 씁니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`saveJSON`](/reference/api2/Object/FileStream/saveJSON)`(path: String, json: Object)` \
-          객체를 `JSON String`으로 변환한 값을 `path` 경로의 파일에 덮어씁니다. 파일이 존재하지 않을 경우 `path` 경로의 파일을 생성합니다.
+          [`removeDataBase`](/reference/api2/Object/DataBase/removeDataBase)`(fileName: String)` \
+          `fileName` 이름의 파일을 삭제합니다. 파일의 삭제 성공 여부를 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`String`</span></Td>
         <Td>
-          [`write`](/reference/api2/Object/FileStream/write)`(path: String, data: String)` \
-          문자열을 `path` 경로의 파일에 덮어씁니다. 파일이 존재하지 않을 경우 `path` 경로의 파일을 생성합니다. 덮어쓰거나 생성한 파일의 최종 내용을 반환합니다.
+          [`setDataBase`](/reference/api2/Object/DataBase/setDataBase)`(fileName: String, data: String)` \
+          문자열을 `fileName` 이름의 파일에 덮어씁니다. 파일이 존재하지 않을 경우 `fileName` 이름의 파일을 생성합니다. 덮어쓰거나 생성한 파일의 최종 내용을 반환합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          [`writeJSON`](/reference/api2/Object/FileStream/writeJSON)`(path: String, json: Object)` \
-          객체를 `JSON String`으로 변환한 값을 `path` 경로의 파일에 덮어씁니다. 파일이 존재하지 않을 경우 `path` 경로의 파일을 생성합니다.
+          [`setDataBaseDir`](/reference/api2/Object/DataBase/setDataBaseDir)`(path: String)` \
+          `DataBase` 객체가 사용하는 디렉토리의 경로를 `path`로 바꿉니다.
         </Td>
       </Tr>
     </Tbody>

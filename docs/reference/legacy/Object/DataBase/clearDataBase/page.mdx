@@ -1,0 +1,33 @@
+---
+title: DataBase.clearDataBase()
+category: 레거시 API
+compat:
+  data: legacy/Object/DataBase
+  feature: clearDataBase
+---
+
+<Section>
+  `fileName` 이름의 파일 내용을 비웁니다. 해당 기능을 수행 후 파일의 내용을 반환합니다. `fileName` 이름의 파일이 존재하지 않을 경우 `fileName` 이름의 비어있는 파일을 생성합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  DataBase.clearDataBase(fileName);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"fileName"} type={"String"}>
+        내용을 비울 파일의 이름
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `String` - `fileName` 이름의 파일 내용을 비운 후의 파일 내용을 반환합니다.
+  </Section>
+</Section>
