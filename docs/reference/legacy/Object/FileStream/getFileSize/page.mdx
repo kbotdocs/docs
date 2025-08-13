@@ -1,0 +1,33 @@
+---
+title: FileStream.getFileSize()
+category: 레거시 API
+compat:
+  data: legacy/Object/FileStream
+  feature: getFileSize
+---
+
+<Section>
+  `path` 경로 파일의 용량(Byte)을 반환합니다. 파일이 존재하지 않거나 디렉토리일 경우 `-1`을 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~js
+  FileStream.getFileSize(path);
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"path"} type={"String"}>
+        용량을 확인할 파일의 경로
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `Number` - `path` 경로 파일의 용량(Byte)을 반환합니다. 파일이 존재하지 않거나 디렉토리일 경우 `-1`을 반환합니다.
+  </Section>
+</Section>
