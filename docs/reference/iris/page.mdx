@@ -88,6 +88,13 @@ category: Iris
           메시지 전송 속도를 업데이트합니다.
         </Td>
       </Tr>
+      <Tr>
+        <Td><span><RequestMethod method={"GET"}/></span></Td>
+        <Td>
+          [`/dashboard`](/reference/iris/Endpoint/dashboard) \
+          Iris의 구성을 위한 웹 UI입니다.
+        </Td>
+      </Tr>
     </Tbody>
   </Table>
 
@@ -109,25 +116,24 @@ category: Iris
   </Table>
 </Section>
 <Section>
-  ## 메시지 전달을 위한 API 참조
+  ## 프레임워크
 
-  Iris가 카카오톡 데이터베이스에서 새 메시지를 감지하면 `/config` 또는 `/config/endpoint`를 통해 구성된 `web_server_endpoint`로 POST 요청을 보냅니다. 요청 본문은
-  다음 구조의 JSON 객체입니다:
+  Iris를 이용한 개발을 용이하게 하는 프레임워크입니다. 사용을 희망하는 프로그래밍 언어와 각 프레임워크의 특징에 따라 선택할 수 있습니다.
 
-  ~~~json
-  {
-    "msg": "[DECRYPTED_MESSAGE_CONTENT]", // 복호화된 메시지 텍스트
-    "room": "[CHAT_ROOM_NAME]",          // 채팅방 이름 또는 1:1 채팅의 경우 발신자 이름
-    "sender": "[SENDER_NAME]",          // 메시지 발신자 이름
-    "json": {                            // 'chat_logs' 테이블의 원시 데이터베이스 행을 JSON으로 표현
-      "_id": "...",
-      "chat_id": "...",
-      "user_id": "...",
-      "message": "[DECRYPTED_MESSAGE_CONTENT]", // 복호화된 메시지 내용, "msg" 필드와 동일
-      "attachment": "[DECRYPTED_ATTACHMENT_INFO]", // 복호화된 첨부 파일 정보 (있는 경우)
-      "v": "{\"enc\": 0, ...}",           // 원본 'v' 열 값 (JSON 형식)
-      // ... chat_logs 테이블의 기타 열 ...
-    }
-  }
-  ~~~
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>Iris를 위한 프레임워크</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>irispy-client</span></Td>
+        <Td>
+          [`/config`](/reference/iris/Framework/irispy-client) \
+          Iris를 위한 Python 프레임워크입니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
 </Section>
