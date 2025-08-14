@@ -13,17 +13,19 @@ compat:
   ## 구문
 
   ~~~js
-  console.debug();
-  console.debug(arg1);
-  console.debug(arg1, arg2, /* ..., */ argN);
+  console.debug(str);
+  console.debug(str, showToast);
   ~~~
 
   <Section>
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"...args"} type={"any"} optional>
-        작성할 디버그 로그의 내용 
+      <ParamItem param={"str"} type={"String"}>
+        작성할 디버그 로그의 내용
+      </ParamItem>
+      <ParamItem param={"showToast"} type={"Boolean"} defaultVal={"`false`"} optional>
+        작성된 로그를 토스트 메시지로 출력할 것인지의 여부
       </ParamItem>
     </ParamList>
   </Section>
