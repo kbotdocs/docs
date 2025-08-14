@@ -26,13 +26,6 @@ compat:
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          <Feature status={["legacy/Object/console", "assert"]}>[`assert`](/reference/legacy/Object/console/assert)`(condition: Boolean, ...args: any?)`</Feature> \
-          주어진 조건식이 `false`일 경우 에러 로그를 작성합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
           <Feature status={["legacy/Object/console", "clear"]}>[`clear`](/reference/legacy/Object/console/clear)`()`</Feature> \
           스크립트 로그를 모두 삭제합니다.
         </Td>
@@ -40,78 +33,29 @@ compat:
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          <Feature status={["legacy/Object/console", "count"]}>[`count`](/reference/legacy/Object/console/count)`(label?: String = "default")`</Feature> \
-          특정 레이블의 호출 횟수를 기록하고 로그에 작성합니다.
+          <Feature status={["legacy/Object/console", "debug"]}>[`debug`](/reference/legacy/Object/console/debug)`(str: String, showToast?: Boolean = false)`</Feature> \
+          디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          <Feature status={["legacy/Object/console", "countReset"]}>[`countReset`](/reference/legacy/Object/console/countReset)`(label?: String = "default")`</Feature> \
-          특정 레이블의 호출 횟수를 초기화합니다.
+          <Feature status={["legacy/Object/console", "error"]}>[`error`](/reference/legacy/Object/console/error)`(str: String, showToast?: Boolean = false)`</Feature> \
+          에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          <Feature status={["legacy/Object/console", "debug"]}>[`debug`](/reference/legacy/Object/console/debug)`(...args: any?)`</Feature> \
-          디버그 로그를 작성합니다.
+          <Feature status={["legacy/Object/console", "info"]}>[`info`](/reference/legacy/Object/console/info)`(str: String, showToast?: Boolean = false)`</Feature> \
+          정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
         </Td>
       </Tr>
       <Tr>
         <Td><span>`void`</span></Td>
         <Td>
-          <Feature status={["legacy/Object/console", "error"]}>[`error`](/reference/legacy/Object/console/error)`(...args: any?)`</Feature> \
-          에러 로그를 작성합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          <Feature status={["legacy/Object/console", "info"]}>[`info`](/reference/legacy/Object/console/info)`(...args: any?)`</Feature> \
+          <Feature status={["legacy/Object/console", "log"]}>[`log`](/reference/legacy/Object/console/log)`(str: String)`</Feature> \
           정보 로그를 작성합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          <Feature status={["legacy/Object/console", "log"]}>[`log`](/reference/legacy/Object/console/log)`(...args: any?)`</Feature> \
-          정보 로그를 작성합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          <Feature status={["legacy/Object/console", "table"]}>[`table`](/reference/legacy/Object/console/table)`(data: any?)`</Feature> \
-          주어진 데이터를 표 형태의 텍스트로 로그에 작성합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          <Feature status={["legacy/Object/console", "time"]}>[`time`](/reference/legacy/Object/console/time)`(label?: String = "default")`</Feature> \
-          특정 레이블의 타이머를 시작합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          <Feature status={["legacy/Object/console", "timeEnd"]}>[`timeEnd`](/reference/legacy/Object/console/timeEnd)`(label?: String = "default")`</Feature> \
-          특정 레이블의 타이머를 종료하고 타이머 시작부터 종료까지의 시간을 로그에 작성합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          <Feature status={["legacy/Object/console", "timeLog"]}>[`timeLog`](/reference/legacy/Object/console/timeLog)`(label?: String = "default", ...args: any?)`</Feature> \
-          특정 레이블의 타이머에 로그를 작성합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          <Feature status={["legacy/Object/console", "warn"]}>[`warn`](/reference/legacy/Object/console/warn)`(...args: any?)`</Feature> \
-          주의 로그를 작성합니다.
         </Td>
       </Tr>
     </Tbody>
