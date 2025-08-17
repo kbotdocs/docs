@@ -1,0 +1,104 @@
+---
+title: iris.bot.models.ChatContext
+category: irispy-client
+---
+
+<Section>
+  `iris.bot.models.ChatContext`는 채팅 이벤트의 context입니다. 이 클래스는 데이터 클래스입니다.
+</Section>
+<Section>
+  ## 인스턴스 프로퍼티
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.bot.models.ChatContext`의 인스턴스 프로퍼티</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>[`iris.bot._internal.iris.IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI)</span></Td>
+        <Td>
+          [`api`](/reference/irispy-client/iris.bot.models/Class/ChatContext/api) \
+          Iris 서버와의 상호작용을 위한 `IrisAPI` 인스턴스입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`iris.bot.models.Message`](/reference/irispy-client/iris.bot.models/Class/Message)</span></Td>
+        <Td>
+          [`message`](/reference/irispy-client/iris.bot.models/Class/ChatContext/message) \
+          감지된 메시지에 대한 `Message` 인스턴스입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`dict`</span></Td>
+        <Td>
+          [`raw`](/reference/irispy-client/iris.bot.models/Class/ChatContext/raw) \
+          원시 이벤트 데이터입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`iris.bot.models.Room`](/reference/irispy-client/iris.bot.models/Class/Room)</span></Td>
+        <Td>
+          [`room`](/reference/irispy-client/iris.bot.models/Class/ChatContext/room) \
+          채팅이 전송된 방에 대한 `Room` 인스턴스입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`iris.bot.models.User`](/reference/irispy-client/iris.bot.models/Class/User)</span></Td>
+        <Td>
+          [`sender`](/reference/irispy-client/iris.bot.models/Class/ChatContext/sender) \
+          채팅을 전송한 사용자에 대한 `User` 인스턴스입니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
+<Section>
+  ## 인스턴스 메소드
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.bot.models.ChatContext`의 인스턴스 메소드</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>[`iris.bot.models.ChatContext`](/reference/irispy-client/iris.bot.models/Class/ChatContext)</span></Td>
+        <Td>
+          [`get_next_chat`](/reference/irispy-client/iris.bot.models/Class/ChatContext/get_next_chat)`(n: int = 1)` \
+          채팅의 다음 채팅 또는 `n`번째 이후의 채팅에 대한 `ChatContext`를 반환합니다. 목표 채팅이 존재하지 않을 경우 `None`을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`iris.bot.models.ChatContext`](/reference/irispy-client/iris.bot.models/Class/ChatContext)</span></Td>
+        <Td>
+          [`get_previous_chat`](/reference/irispy-client/iris.bot.models/Class/ChatContext/get_previous_chat)`(n: int = 1)` \
+          채팅의 이전 채팅 또는 `n`번째 이전의 채팅에 대한 `ChatContext`를 반환합니다. 목표 채팅이 존재하지 않을 경우 `None`을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`iris.bot.models.ChatContext`](/reference/irispy-client/iris.bot.models/Class/ChatContext)</span></Td>
+        <Td>
+          [`get_source`](/reference/irispy-client/iris.bot.models/Class/ChatContext/get_source)`()` \
+          답장 대상 메시지에 대한 `ChatContext`를 반환합니다. 목표 채팅이 존재하지 않을 경우 `None`을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`reply`](/reference/irispy-client/iris.bot.models/Class/ChatContext/reply)`(message: str, room_id: int = None)` \
+          메시지가 전송된 방 또는 특정 방에 메시지를 보냅니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`reply_media`](/reference/irispy-client/iris.bot.models/Class/ChatContext/reply_media)`(files: typing.List[BufferedIOBase | bytes | Image.Image | str], room_id: int = None)` \
+          메시지가 전송된 방 또는 특정 방에 미디어 파일을 보냅니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
