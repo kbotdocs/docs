@@ -7,42 +7,30 @@ category: irispy-client
   `iris.decorators` 모듈은 카카오톡봇 개발을 용이하게 하는 데코레이터를 포함합니다.
 </Section>
 <Section>
-  ## 클래스
+  ## 데코레이터
 
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>`iris.decorators`의 함수</Th>
+        <Th colSpan={2}>`iris.decorators`의 데코레이터</Th>
       </Tr>
     </Thead>
     <Tbody>
       <Tr>
-        <Td><span>[`Avatar`](/reference/irispy-client/iris.decorators/Class/Avatar)</span></Td>
-        <Td>프로필에 대한 데이터입니다.</Td>
+        <Td><span>[`has_param`](/reference/irispy-client/iris.decorators/Decorator/has_param)</span></Td>
+        <Td>메시지에 매개변수가 있는 경우에만 함수를 실행합니다.</Td>
       </Tr>
       <Tr>
-        <Td><span>[`ChatContext`](/reference/irispy-client/iris.decorators/Class/ChatContext)</span></Td>
-        <Td>채팅 이벤트의 context입니다.</Td>
+        <Td><span>[`is_admin`](/reference/irispy-client/iris.decorators/Decorator/is_admin)</span></Td>
+        <Td>메시지를 보낸 사용자가 차단되지 않은 경우에만 함수를 실행합니다.</Td>
       </Tr>
       <Tr>
-        <Td><span>[`ChatImage`](/reference/irispy-client/iris.decorators/Class/ChatImage)</span></Td>
-        <Td>채팅 메시지의 이미지에 대한 데이터입니다.</Td>
+        <Td><span>[`is_not_banned`](/reference/irispy-client/iris.decorators/Decorator/is_not_banned)</span></Td>
+        <Td>메시지를 보낸 사용자가 관리자인 경우에만 함수를 실행합니다.</Td>
       </Tr>
       <Tr>
-        <Td><span>[`ErrorContext`](/reference/irispy-client/iris.decorators/Class/ErrorContext)</span></Td>
-        <Td>에러 이벤트의 context입니다.</Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`Message`](/reference/irispy-client/iris.decorators/Class/Message)</span></Td>
-        <Td>채팅방의 메시지에 대한 데이터입니다.</Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`Room`](/reference/irispy-client/iris.decorators/Class/Room)</span></Td>
-        <Td>채팅방에 대한 데이터입니다.</Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`User`](/reference/irispy-client/iris.decorators/Class/User)</span></Td>
-        <Td>사용자에 대한 데이터입니다.</Td>
+        <Td><span>[`is_reply`](/reference/irispy-client/iris.decorators/Decorator/is_reply)</span></Td>
+        <Td>메시지가 답장일 경우 함수를 실행합니다. 답장이 아닐 경우 "메세지에 답장하여 요청하세요." 라는 메시지를 보냅니다.</Td>
       </Tr>
     </Tbody>
   </Table>
