@@ -1,0 +1,110 @@
+---
+title: iris.util.pykv.PyKV
+category: irispy-client
+---
+
+<Section>
+  `iris.util.pykv.PyKV`는 SQLite을 사용하는 key-value DB에 접근/조작하기 위한 클래스입니다.
+</Section>
+<Section>
+  ## 생성자
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th>`iris.util.pykv.PyKV`의 생성자</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td>
+          [`PyKV`](/reference/irispy-client/iris.util.pykv/Class/PyKV/PyKV)`()` \
+          새 `PyKV` 객체를 생성합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
+<Section>
+  ## 메소드
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.util.pykv.PyKV`의 메소드</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`close`](/reference/irispy-client/iris.util.pykv/Class/PyKV/close)`()` \
+          데이터베이스와의 연결을 닫습니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`delete`](/reference/irispy-client/iris.util.pykv/Class/PyKV/delete)`(key: str)` \
+          데이터베이스 내 키-값 쌍을 삭제합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>**[`Any`](https://docs.python.org/3/library/typing.html#the-any-type)**</span></Td>
+        <Td>
+          [`get`](/reference/irispy-client/iris.util.pykv/Class/PyKV/get)`(key: str)` \
+          데이터베이스에서 특정 키에 대응하는 값을 반환합니다. 키에 대응하는 값이 존재하지 않을 경우 `False`를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`dict | bool`</span></Td>
+        <Td>
+          [`get_kv`](/reference/irispy-client/iris.util.pykv/Class/PyKV/get_kv)`(key: str)` \
+          데이터베이스에서 특정 키에 대응하는 키-값 쌍을 반환합니다. 키에 대응하는 값이 존재하지 않을 경우 `False`를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`list[str]`</span></Td>
+        <Td>
+          [`list_keys`](/reference/irispy-client/iris.util.pykv/Class/PyKV/list_keys)`()` \
+          데이터베이스 내 모든 키의 리스트를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`open`](/reference/irispy-client/iris.util.pykv/Class/PyKV/open)`(filename: str)` \
+          특정 데이터베이스 파일을 엽니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`put`](/reference/irispy-client/iris.util.pykv/Class/PyKV/put)`(key: str, value: `**[`Any`](https://docs.python.org/3/library/typing.html#typing.Any)**`)` \
+          데이터베이스에 키-값 쌍을 저장합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`list[dict]`</span></Td>
+        <Td>
+          [`search`](/reference/irispy-client/iris.util.pykv/Class/PyKV/search)`(searchString: str)` \
+          데이터베이스에서 값에 특정 검색어가 포함된 키-값 쌍의 리스트를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`list[dict]`</span></Td>
+        <Td>
+          [`search_json`](/reference/irispy-client/iris.util.pykv/Class/PyKV/search_json)`(valueKey, searchString)` \
+          데이터베이스에서 키와 값을 기반으로 검색한 키-값 쌍의 리스트를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`list[dict]`</span></Td>
+        <Td>
+          [`search_key`](/reference/irispy-client/iris.util.pykv/Class/PyKV/search_key)`(searchString: str)` \
+          데이터베이스에서 키에 특정 검색어가 포함된 키-값 쌍의 리스트를 반환합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>

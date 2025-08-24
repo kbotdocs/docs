@@ -1,0 +1,34 @@
+---
+title: IrisAPI.query()
+category: irispy-client
+---
+
+<Section>
+  카카오톡 데이터베이스에 대한 SQL 쿼리를 실행합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~py
+  irisAPI.query(query)
+  irisAPI.query(query, bind)
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"query"} type={"str"}>
+        SQL 쿼리 문자열
+      </ParamItem>
+      <ParamItem param={"bind"} type={"list[Any] | None"} defaultVal="`None`" optional>
+        쿼리에 대한 선택적 바인딩
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `dict` - 쿼리 실행에 대한 결과를 반환합니다. 자세한 내용은 [여기](/reference/iris/Endpoint/query)를 참조하세요.
+  </Section>
+</Section>

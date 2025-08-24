@@ -1,0 +1,82 @@
+---
+title: iris.bot._internal.iris.IrisAPI
+category: irispy-client
+---
+
+<Section>
+  `iris.bot._internal.iris.IrisAPI`는 Iris API를 사용하기 위한 클래스입니다.
+</Section>
+<Section>
+  ## 생성자
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th>`iris.bot._internal.iris.IrisAPI`의 생성자</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td>
+          [`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/IrisAPI)`(iris_endpoint: str)` \
+          새 `IrisAPI` 객체를 생성합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
+<Section>
+  ## 인스턴스 메소드
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.bot._internal.iris.IrisAPI`의 인스턴스 메소드</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`str | None`</span></Td>
+        <Td>
+          [`decrypt`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/decrypt)`(enc: int, b64_ciphertext: str, user_id: int)` \
+          암호화된 Base64 인코딩 문자열을 복호화한 결과를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`dict`</span></Td>
+        <Td>
+          [`get_aot`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/get_aot)`()` \
+          AOT 관련 토큰을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`dict`</span></Td>
+        <Td>
+          [`get_info`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/get_info)`()` \
+          Iris의 현재 구성 정보를 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`list[dict]`</span></Td>
+        <Td>
+          [`query`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/query)`(query: str, bind: list[`**[`Any`](https://docs.python.org/3/library/typing.html#typing.Any)**`] | None = None)` \
+          카카오톡 데이터베이스에 대한 SQL 쿼리를 실행합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`dict`</span></Td>
+        <Td>
+          [`reply`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/reply)`(room_id: int, msg: str)` \
+          특정 방에 메시지를 보냅니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`dict`</span></Td>
+        <Td>
+          [`reply_media`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/reply_media)`(room_id: int, files: list[BufferedIOBase | bytes | `[`PIL.Image.Image`](https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image)` | str])` \
+          특정 방에 미디어 파일을 보냅니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>

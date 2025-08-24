@@ -23,6 +23,18 @@ category: irispy-client
         </Td>
       </Tr>
       <Tr>
+        <Td><span>[`iris.bot._internal.emitter`](/reference/irispy-client/iris.bot._internal.emitter)</span></Td>
+        <Td>
+          카카오톡봇의 개발에 필요한 이벤트의 관리를 위한 모듈입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`iris.bot._internal.iris`](/reference/irispy-client/iris.bot._internal.iris)</span></Td>
+        <Td>
+          Iris API를 사용하기 위한 모듈입니다.
+        </Td>
+      </Tr>
+      <Tr>
         <Td><span>[`iris.bot.models`](/reference/irispy-client/iris.bot.models)</span></Td>
         <Td>
           카카오톡봇의 개발에 필요한 데이터들을 위한 모듈입니다.
@@ -41,9 +53,64 @@ category: irispy-client
         </Td>
       </Tr>
       <Tr>
+        <Td><span>[`iris.kakaolink.KakaoLinkModule`](/reference/irispy-client/iris.kakaolink.KakaoLinkModule)</span></Td>
+        <Td>
+          Iris에서 카카오링크의 전송 기능을 구현하기 위한 요소들을 포함하는 모듈입니다.
+        </Td>
+      </Tr>
+      <Tr>
         <Td><span>[`iris.util.pykv`](/reference/irispy-client/iris.util.pykv)</span></Td>
         <Td>
           SQL을 사용하는 key-value DB에 접근하기 위한 모듈입니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
+<Section>
+  ## 이벤트
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>irispy-client의 이벤트</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>[`chat`](/reference/irispy-client/Event/chat)</span></Td>
+        <Td>
+          모든 유형의 메시지를 감지할 때 발생하는 이벤트입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`del_member`](/reference/irispy-client/Event/del_member)</span></Td>
+        <Td>
+          사용자가 방에서 나갈 때 발생하는 이벤트입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`error`](/reference/irispy-client/Event/error)</span></Td>
+        <Td>
+          이벤트 핸들러에서 오류가 발생할 때 발생하는 이벤트입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`message`](/reference/irispy-client/Event/message)</span></Td>
+        <Td>
+          표준 메시지를 감지할 때 발생하는 이벤트입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`new_member`](/reference/irispy-client/Event/new_member)</span></Td>
+        <Td>
+          새 사용자가 방에 들어올 때 발생하는 이벤트입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`unknown`](/reference/irispy-client/Event/unknown)</span></Td>
+        <Td>
+          알 수 없는 이벤트 유형에 대해 발생하는 이벤트입니다.
         </Td>
       </Tr>
     </Tbody>

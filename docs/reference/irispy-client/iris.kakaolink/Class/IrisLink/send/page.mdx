@@ -1,0 +1,56 @@
+---
+title: IrisLink.send()
+category: irispy-client
+---
+
+<Section>
+  메시지가 전송된 방 또는 특정 방에 메시지를 보냅니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~py
+  irisLink.send(receiver_name, template_id, template_args)
+  irisLink.send(
+    receiver_name,
+    template_id,
+    template_args,
+    app_key=app_key,
+    origin=origin,
+    search_exact=search_exact,
+    search_from=search_from,
+    search_room_type=search_room_type
+  )
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"receiver_name"} type={"str"}>
+        카카오링크를 보낼 방의 이름
+      </ParamItem>
+      <ParamItem param={"template_id"} type={"int"}>
+        카카오링크의 템플릿 id
+      </ParamItem>
+      <ParamItem param={"template_args"} type={"dict"}>
+        카카오링크의 템플릿 인자
+      </ParamItem>
+      <ParamItem param={"app_key"} type={"str"} defaultVal="`None`" optional>
+        카카오링크 API의 앱 키
+      </ParamItem>
+      <ParamItem param={"origin"} type={"str"} defaultVal="`None`" optional>
+        카카오링크 API의 origin
+      </ParamItem>
+      <ParamItem param={"search_exact"} type={"bool"} defaultVal="`True`" optional>
+        `receiver_name` 이름의 방을 정확히 검색할지의 여부. `False`일 경우 이름에 `receiver_name`을 포함하는 방도 검색합니다.
+      </ParamItem>
+      <ParamItem param={"search_from"} type={'Union["ALL", "FRIENDS", "CHATROOMS"]'} defaultVal='`"ALL"`' optional>
+        `receiver_name` 방의 검색 범위
+      </ParamItem>
+      <ParamItem param={"search_room_type"} type={'Union["ALL", "OpenMultiChat", "MultiChat", "DirectChat"]'} defaultVal='`"ALL"`' optional>
+        `receiver_name` 방의 타입에 대한 검색 범위
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>

@@ -1,0 +1,54 @@
+---
+title: iris.bot._internal.emitter.EventEmitter
+category: irispy-client
+---
+
+<Section>
+  `iris.bot._internal.emitter.EventEmitter`는 카카오톡봇의 개발에 필요한 이벤트의 관리를 위한 클래스입니다.
+</Section>
+<Section>
+  ## 생성자
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th>`iris.bot._internal.emitter.EventEmitter`의 생성자</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td>
+          [`EventEmitter`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/EventEmitter)`(max_workers: int = None)` \
+          새 `EventEmitter` 객체를 생성합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
+<Section>
+  ## 메소드
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.bot._internal.emitter.EventEmitter`의 메소드</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`emit`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/emit)`(name: str, args: list[`**[`Any`](https://docs.python.org/3/library/typing.html#typing.Any)**`])` \
+          특정 이벤트를 트리거합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`register`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/register)`(name: str, func: `[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)`)` \
+          특정 이벤트에 대한 핸들러 함수를 등록합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>

@@ -1,0 +1,47 @@
+---
+title: iris.kakaolink.KakaoLinkModule.KakaoLink
+category: irispy-client
+---
+
+<Section>
+  `iris.kakaolink.KakaoLinkModule.KakaoLink`는 카카오링크의 전송 기능을 위한 클래스입니다.
+</Section>
+<Section>
+  ## 생성자
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th>`iris.kakaolink.KakaoLinkModule.KakaoLink`의 생성자</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td>
+          [`KakaoLink`](/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink/KakaoLink)`(iris_url: str, default_app_key: str | None = None, default_origin: str | None = None)` \
+          새 `KakaoLink` 객체를 생성합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
+<Section>
+  ## 메소드
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.kakaolink.KakaoLinkModule.KakaoLink`의 메소드</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`send`](/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink/send)`(receiver_name: str, template_id: int, template_args: dict, app_key: str | None = None, origin: str | None = None, search_exact: bool = True, search_from: `**[`Union`](https://docs.python.org/3/library/typing.html#typing.Union)**`[`**[`Literal`](https://docs.python.org/3/library/typing.html#typing.Literal)**`["ALL"], `**`Literal`**`["FRIENDS"], `**`Literal`**`["CHATROOMS"]] = "ALL", search_room_type: `**`Union`**`[`**`Literal`**`["ALL"], `**`Literal`**`["OpenMultiChat"], `**`Literal`**`["MultiChat"], `**`Literal`**`["DirectChat"]] = "ALL")` \
+          카카오링크를 전송합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
