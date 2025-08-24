@@ -1,0 +1,36 @@
+---
+title: IrisAPI.decrypt()
+category: irispy-client
+---
+
+<Section>
+  암호화된 Base64 인코딩 문자열을 복호화한 결과를 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~py
+  irisAPI.decrypt(enc, b64_ciphertext, user_id)
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"enc"} type={"int"}>
+        암호화 유형
+      </ParamItem>
+      <ParamItem param={"b64_ciphertext"} type={"str"}>
+        Base64 인코딩된 암호화 메시지
+      </ParamItem>
+      <ParamItem param={"user_id"} type={"int"}>
+        사용자의 id
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `str | None` - `b64_ciphertext`를 복호화한 결과를 반환합니다.
+  </Section>
+</Section>

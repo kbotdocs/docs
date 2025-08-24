@@ -1,0 +1,32 @@
+---
+title: KakaoLink 생성자
+category: irispy-client
+---
+
+<Section>
+  새 `KakaoLink` 객체를 생성합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~py
+  KakaoLink(iris_url)
+  KakaoLink(iris_url, default_app_key=default_app_key, default_origin=default_origin)
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"iris_url"} type={"str"}>
+        Iris가 사용할 서버의 URL
+      </ParamItem>
+      <ParamItem param={"default_app_key"} type={"str"} defaultVal="`None`" optional>
+        카카오링크 API의 앱 키
+      </ParamItem>
+      <ParamItem param={"default_origin"} type={"str"} defaultVal="`None`" optional>
+        카카오링크 API의 origin
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>

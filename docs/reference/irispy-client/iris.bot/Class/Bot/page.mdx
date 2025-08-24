@@ -1,0 +1,67 @@
+---
+title: iris.bot.Bot
+category: irispy-client
+---
+
+<Section>
+  `iris.bot.Bot`는 카카오톡봇을 생성하고 관리하기 위한 클래스입니다.
+</Section>
+<Section>
+  ## 생성자
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th>`iris.bot.Bot`의 생성자</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td>
+          [`Bot`](/reference/irispy-client/iris.bot/Class/Bot/Bot)`(iris_url: str, *, max_workers: int = None)` \
+          새 `Bot` 객체를 생성합니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
+<Section>
+  ## 인스턴스 메소드
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.bot.Bot`의 인스턴스 메소드</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`None`</span></Td>
+        <Td>
+          [`run`](/reference/irispy-client/iris.bot/Class/Bot/run)`()` \
+          카카오톡봇을 시작하고 Iris 서버에 연결합니다. 블로킹 메소드입니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>
+<Section>
+  ## 인스턴스 데코레이터
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.bot.Bot`의 인스턴스 데코레이터</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>*[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)*</span></Td>
+        <Td>
+          [`on_event`](/reference/irispy-client/iris.bot/Class/Bot/on_event)`(name: str)` \
+          이벤트 핸들러를 등록하기 위한 데코레이터입니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>

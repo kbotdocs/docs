@@ -1,0 +1,84 @@
+---
+title: iris.bot.models.Message
+category: irispy-client
+---
+
+<Section>
+  `iris.bot.models.Message`는 채팅방의 메시지에 대한 데이터입니다. 이 클래스는 데이터 클래스입니다.
+</Section>
+<Section>
+  ## 인스턴스 프로퍼티
+
+  <Table>
+    <Thead>
+      <Tr>
+        <Th colSpan={2}>`iris.bot.models.Message`의 인스턴스 프로퍼티</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td><span>`dict`</span></Td>
+        <Td>
+          [`attachment`](/reference/irispy-client/iris.bot.models/Class/Message/attachment) \
+          메시지의 첨부 파일입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`str`</span></Td>
+        <Td>
+          [`command`](/reference/irispy-client/iris.bot.models/Class/Message/command) \
+          메시지의 명령어 부분입니다. 메시지의 첫번째 단어를 가리킵니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`bool`</span></Td>
+        <Td>
+          [`has_param`](/reference/irispy-client/iris.bot.models/Class/Message/has_param) \
+          메시지에 매개변수가 존재하는지의 여부입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`int`</span></Td>
+        <Td>
+          [`id`](/reference/irispy-client/iris.bot.models/Class/Message/id) \
+          메시지에 대한 id입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>[`iris.bot.models.ChatImage`](/reference/irispy-client/iris.bot.models/Class/ChatImage)` | None`</span></Td>
+        <Td>
+          [`image`](/reference/irispy-client/iris.bot.models/Class/Message/image) \
+          메시지가 1개 이상의 이미지인 경우 `ChatImage` 객체입니다. 이미지가 아닐 경우 `None`입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`str`</span></Td>
+        <Td>
+          [`msg`](/reference/irispy-client/iris.bot.models/Class/Message/msg) \
+          메시지의 내용입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`str`</span></Td>
+        <Td>
+          [`param`](/reference/irispy-client/iris.bot.models/Class/Message/param) \
+          메시지의 매개변수 부분입니다. 메시지의 첫번째 단어(명령어 부분)를 제외한 나머지입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`int`</span></Td>
+        <Td>
+          [`type`](/reference/irispy-client/iris.bot.models/Class/Message/type) \
+          메시지의 유형을 나타내는 정수입니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td><span>`dict`</span></Td>
+        <Td>
+          [`v`](/reference/irispy-client/iris.bot.models/Class/Message/v) \
+          메시지의 추가적인 데이터입니다.
+        </Td>
+      </Tr>
+    </Tbody>
+  </Table>
+</Section>

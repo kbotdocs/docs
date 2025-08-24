@@ -1,0 +1,29 @@
+---
+title: ChatContext.reply_media()
+category: irispy-client
+---
+
+<Section>
+  메시지가 전송된 방 또는 특정 방에 미디어 파일을 보냅니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~py
+  chatContext.reply_media(files)
+  chatContext.reply_media(files, room_id)
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"files"} type={"list[BufferedIOBase | bytes | PIL.Image.Image | str]"}>
+        보낼 미디어 파일의 리스트
+      </ParamItem>
+      <ParamItem param={"room_id"} type={"int"} defaultVal="`None`" optional>
+        미디어 파일을 보낼 방의 id
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>

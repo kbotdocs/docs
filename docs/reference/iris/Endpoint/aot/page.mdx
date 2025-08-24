@@ -1,0 +1,68 @@
+---
+title: /aot
+category: Iris
+---
+
+<Section>
+  AOT 관련 토큰을 반환합니다.
+
+  <Dl>
+    <Dt>엔드포인트</Dt>
+    <Dd>
+      <Endpoint method={"GET"}>`/aot`</Endpoint>
+    </Dd>
+    <Dt>Content-Type</Dt>
+    <Dd>
+      `-/-`
+    </Dd>
+  </Dl>
+</Section>
+<Section>
+  ## 요청
+
+  <Section>
+    ### 예제
+
+    ~~~bash
+    curl -X GET http://[YOUR_DEVICE_IP]:[bot_http_port]/aot
+    ~~~
+  </Section>
+</Section>
+<Section>
+  ## 응답
+
+  ~~~json
+  {
+    "success": true,
+    "aot" : {
+      "access_token" : String,
+      "refresh_token" : String,
+      "token_type" : String,
+      "d_id" : String
+    }
+  }
+  ~~~
+
+  <ParamList>
+    <ParamItem param={"success"} type={"boolean"}>
+      성공 여부입니다.
+    </ParamItem>
+    <ParamItem param={"aot"} type={"object"}>
+      AOT 관련 토큰을 포함하는 객체입니다.
+    </ParamItem>
+    <ParamList>
+      <ParamItem param={"access_token"} type={"string"}>
+        액세스 토큰입니다.
+      </ParamItem>
+      <ParamItem param={"refresh_token"} type={"string"}>
+        리프레시 토큰입니다.
+      </ParamItem>
+      <ParamItem param={"token_type"} type={"string"}>
+        토큰의 유형입니다.
+      </ParamItem>
+      <ParamItem param={"d_id"} type={"string"}>
+        `d_id`입니다.
+      </ParamItem>
+    </ParamList>
+  </ParamList>
+</Section>

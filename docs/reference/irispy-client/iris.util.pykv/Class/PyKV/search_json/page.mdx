@@ -1,0 +1,33 @@
+---
+title: PyKV.search_json()
+category: irispy-client
+---
+
+<Section>
+  데이터베이스에서 키와 값을 기반으로 검색한 키-값 쌍의 리스트를 반환합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~py
+  pyKV.search_json(valueKey, searchString)
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"valueKey"} type={"str"}>
+        데이터베이스에서 검색할 키-값 쌍의 키. `"person.name"`과 같은 형태의 문자열도 가능합니다.
+      </ParamItem>
+      <ParamItem param={"searchString"} type={"str"}>
+        데이터베이스에서 검색할 키-값 쌍의 값
+      </ParamItem>
+    </ParamList>
+  </Section>
+  <Section>
+    ### 반환값
+
+    `list[dict]` - 키가 `valueKey`이고 값에 `searchString`가 포함된 키-값 쌍의 리스트를 반환합니다.
+  </Section>
+</Section>

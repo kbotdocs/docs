@@ -23,23 +23,46 @@ category: Iris
     </Thead>
     <Tbody>
       <Tr>
-        <Td><span><RequestMethod method={"POST"}/></span></Td>
         <Td>
-          [`/decrypt`](/reference/iris/Endpoint/decrypt) \
+          <span>
+            <RequestMethod method={"GET"} />
+          </span>
+        </Td>
+        <Td>
+          [`/aot`](/reference/iris/Endpoint/aot) \ 
+          AOT 관련 토큰을 반환합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td>
+          <span>
+            <RequestMethod method={"POST"} />
+          </span>
+        </Td>
+        <Td>
+          [`/decrypt`](/reference/iris/Endpoint/decrypt) \ 
           메시지를 복호화합니다.
         </Td>
       </Tr>
       <Tr>
-        <Td><span><RequestMethod method={"POST"}/></span></Td>
         <Td>
-          [`/query`](/reference/iris/Endpoint/query) \
+          <span>
+            <RequestMethod method={"POST"} />
+          </span>
+        </Td>
+        <Td>
+          [`/query`](/reference/iris/Endpoint/query) \ 
           카카오톡 데이터베이스에 대한 SQL 쿼리를 실행합니다. 응답에서 암호화된 데이터 필드를 자동으로 복호화합니다.
         </Td>
       </Tr>
       <Tr>
-        <Td><span><RequestMethod method={"POST"}/></span></Td>
         <Td>
-          [`/reply`](/reference/iris/Endpoint/reply) \
+          <span>
+            <RequestMethod method={"POST"} />
+          </span>
+        </Td>
+        <Td>
+          [`/reply`](/reference/iris/Endpoint/reply) \ 
           방에 텍스트 메시지 또는 이미지를 보냅니다.
         </Td>
       </Tr>
@@ -54,38 +77,68 @@ category: Iris
     </Thead>
     <Tbody>
       <Tr>
-        <Td><span><RequestMethod method={"GET"}/></span></Td>
         <Td>
-          [`/config`](/reference/iris/Endpoint/config) \
-          현재 구성을 JSON 응답으로 검색합니다.
+          <span>
+            <RequestMethod method={"GET"} />
+          </span>
+        </Td>
+        <Td>
+          [`/config`](/reference/iris/Endpoint/config) \ 현재 구성을 JSON 응답으로 검색합니다.
         </Td>
       </Tr>
       <Tr>
-        <Td><span><RequestMethod method={"POST"}/></span></Td>
         <Td>
-          [`/config/botport`](/reference/iris/Endpoint/config/botport) \
+          <span>
+            <RequestMethod method={"POST"} />
+          </span>
+        </Td>
+        <Td>
+          [`/config/botport`](/reference/iris/Endpoint/config/botport) \ 
           봇 HTTP 서버 포트를 업데이트합니다.
         </Td>
       </Tr>
       <Tr>
-        <Td><span><RequestMethod method={"POST"}/></span></Td>
+        <Td>
+          <span>
+            <RequestMethod method={"POST"} />
+          </span>
+        </Td>
         <Td>
           [`/config/dbrate`](/reference/iris/Endpoint/config/dbrate) \
           데이터베이스 폴링 속도를 업데이트합니다.
         </Td>
       </Tr>
       <Tr>
-        <Td><span><RequestMethod method={"POST"}/></span></Td>
         <Td>
-          [`/config/endpoint`](/reference/iris/Endpoint/config/endpoint) \
+          <span>
+            <RequestMethod method={"POST"} />
+          </span>
+        </Td>
+        <Td>
+          [`/config/endpoint`](/reference/iris/Endpoint/config/endpoint) \ 
           메시지 전달을 위한 웹 서버 엔드포인트를 업데이트합니다.
         </Td>
       </Tr>
       <Tr>
-        <Td><span><RequestMethod method={"POST"}/></span></Td>
         <Td>
-          [`/config/sendrate`](/reference/iris/Endpoint/config/sendrate) \
+          <span>
+            <RequestMethod method={"POST"} />
+          </span>
+        </Td>
+        <Td>
+          [`/config/sendrate`](/reference/iris/Endpoint/config/sendrate) \ 
           메시지 전송 속도를 업데이트합니다.
+        </Td>
+      </Tr>
+      <Tr>
+        <Td>
+          <span>
+            <RequestMethod method={"GET"} />
+          </span>
+        </Td>
+        <Td>
+          [`/dashboard`](/reference/iris/Endpoint/dashboard) \ 
+          Iris의 구성을 위한 웹 UI입니다.
         </Td>
       </Tr>
     </Tbody>
@@ -107,27 +160,4 @@ category: Iris
       </Tr>
     </Tbody>
   </Table>
-</Section>
-<Section>
-  ## 메시지 전달을 위한 API 참조
-
-  Iris가 카카오톡 데이터베이스에서 새 메시지를 감지하면 `/config` 또는 `/config/endpoint`를 통해 구성된 `web_server_endpoint`로 POST 요청을 보냅니다. 요청 본문은
-  다음 구조의 JSON 객체입니다:
-
-  ~~~json
-  {
-    "msg": "[DECRYPTED_MESSAGE_CONTENT]", // 복호화된 메시지 텍스트
-    "room": "[CHAT_ROOM_NAME]",          // 채팅방 이름 또는 1:1 채팅의 경우 발신자 이름
-    "sender": "[SENDER_NAME]",          // 메시지 발신자 이름
-    "json": {                            // 'chat_logs' 테이블의 원시 데이터베이스 행을 JSON으로 표현
-      "_id": "...",
-      "chat_id": "...",
-      "user_id": "...",
-      "message": "[DECRYPTED_MESSAGE_CONTENT]", // 복호화된 메시지 내용, "msg" 필드와 동일
-      "attachment": "[DECRYPTED_ATTACHMENT_INFO]", // 복호화된 첨부 파일 정보 (있는 경우)
-      "v": "{\"enc\": 0, ...}",           // 원본 'v' 열 값 (JSON 형식)
-      // ... chat_logs 테이블의 기타 열 ...
-    }
-  }
-  ~~~
 </Section>

@@ -1,0 +1,29 @@
+---
+title: Bot 생성자
+category: irispy-client
+---
+
+<Section>
+  새 `Bot` 객체를 생성합니다.
+</Section>
+<Section>
+  ## 구문
+
+  ~~~py
+  Bot(iris_url)
+  Bot(iris_url, max_workers=_max_workers)
+  ~~~
+
+  <Section>
+    ### 매개변수
+
+    <ParamList>
+      <ParamItem param={"iris_url"} type={"str"}>
+        Iris가 사용할 서버의 URL
+      </ParamItem>
+      <ParamItem param={"max_workers"} type={"int"} defaultVal={"`None`"} optional>
+        이벤트 처리에 사용할 최대 스레드 수
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>

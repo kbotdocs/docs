@@ -29,15 +29,15 @@ category: Iris
       "_id": "...",
       "chat_id": "...",
       "user_id": "...",
-      "message": "[DECRYPTED_MESSAGE_CONTENT]", // 복호화된 메시지 내용, "msg" 필드와 동일
-      "attachment": "[DECRYPTED_ATTACHMENT_INFO]", // 복호화된 첨부 파일 정보 (있는 경우)
-      "v": "{\"enc\": 0, ...}",           // 원본 'v' 열 값 (JSON 형식)
+      "message": "[DECRYPTED_MESSAGE_CONTENT]",
+      "attachment": "[DECRYPTED_ATTACHMENT_INFO]",
+      "v": "{\"enc\": 0, ...}",
       // ... chat_logs 테이블의 기타 열 ...
     }
   }
   ~~~
 
-  <ParamList caption={"응답 매개변수"}>
+  <ParamList>
     <ParamItem param={"msg"} type={"string"}>
       복호화된 메시지입니다.
     </ParamItem>
@@ -50,5 +50,25 @@ category: Iris
     <ParamItem param={"json"} type={"object"}>
       `chat_logs` 테이블의 원시 데이터베이스 행입니다.
     </ParamItem>
+    <ParamList>
+      <ParamItem param={"_id"} type={"string"}>
+        메시지에 대한 id입니다.
+      </ParamItem>
+      <ParamItem param={"chat_id"} type={"string"}>
+        방에 대한 id입니다.
+      </ParamItem>
+      <ParamItem param={"user_id"} type={"string"}>
+        발신자에 대한 id입니다.
+      </ParamItem>
+      <ParamItem param={"message"} type={"string"}>
+        복호화된 메시지의 내용입니다. `msg`와 동일합니다.
+      </ParamItem>
+      <ParamItem param={"attachment"} type={"string?"}>
+        복호화된 첨부 파일에 대한 정보입니다.
+      </ParamItem>
+      <ParamItem param={"v"} type={"object"}>
+        `v` 열의 값입니다.
+      </ParamItem>
+    </ParamList>
   </ParamList>
 </Section>

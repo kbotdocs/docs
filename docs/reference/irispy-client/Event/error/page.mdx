@@ -1,0 +1,31 @@
+---
+title: error 이벤트
+category: irispy-client
+---
+
+<Section>
+  `error` 이벤트는 이벤트 핸들러에서 오류가 발생할 때 발생하는 이벤트입니다.
+</Section>
+<Section>
+  ## 구문
+
+  [`iris.bot.Bot`](/reference/irispy-client/iris.bot/Class/Bot)의 [`on_event()`](/reference/irispy-client/iris.bot/Class/Bot/on_event) 데코레이터를 이용해 
+  이벤트에 대한 핸들러를 추가할 수 있습니다.
+  ~~~py
+  from iris.bot.models import ErrorContext
+
+  @bot.on_event("error")
+  def on_error(err: ErrorContext):
+    ...
+  ~~~
+
+  <Section>
+    ### 인자
+
+    <ParamList>
+      <ParamItem param={"chat"} type={"ChatContext"}>
+        에러 이벤트에 대한 컨텍스트인 [`ErrorContext`](/reference/irispy-client/iris.bot.models/ErrorContext) 객체입니다.
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>

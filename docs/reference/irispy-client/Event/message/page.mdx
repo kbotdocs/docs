@@ -1,0 +1,31 @@
+---
+title: message 이벤트
+category: irispy-client
+---
+
+<Section>
+  `message` 이벤트는 표준 메시지를 감지할 때 발생하는 이벤트입니다.
+</Section>
+<Section>
+  ## 구문
+
+  [`iris.bot.Bot`](/reference/irispy-client/iris.bot/Class/Bot)의 [`on_event()`](/reference/irispy-client/iris.bot/Class/Bot/on_event) 데코레이터를 이용해 
+  이벤트에 대한 핸들러를 추가할 수 있습니다.
+  ~~~py
+  from iris import ChatContext
+
+  @bot.on_event("message")
+  def on_message(chat: ChatContext):
+    ...
+  ~~~
+
+  <Section>
+    ### 인자
+
+    <ParamList>
+      <ParamItem param={"chat"} type={"ChatContext"}>
+        이벤트에 대한 컨텍스트인 [`ChatContext`](/reference/irispy-client/iris.bot.models/ChatContext) 객체입니다.
+      </ParamItem>
+    </ParamList>
+  </Section>
+</Section>
