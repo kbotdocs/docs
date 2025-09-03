@@ -1,0 +1,34 @@
+---
+title: Ubuntu에 설치하기
+category: 자습서
+---
+
+<Section>
+  Ubuntu는 데스크톱과 서버 환경 모두에서 널리 사용되는 Linux 배포판입니다. 이 자습서에서는 Ubuntu에 Iris를 설치하는 방법을 안내합니다.
+</Section>
+<Section>
+  Ubuntu에서 Iris를 구동하기 위해 docker를 사용합니다. docker의 컨테이너에 [redroid](https://github.com/remote-android/redroid-doc)를 설치합니다. 
+  redroid는 안드로이드 오픈소스 프로젝트(AOSP)를 기반으로 한 안드로이드 에뮬레이터입니다. 해당 redroid에 카카오톡을 설치해 Iris가 카카오톡과 상호작용할 수 있도록 합니다.
+
+  <Image src="" />
+</Section>
+<Section>
+  ## JavaScript
+
+  **JavaScript**는 프론트엔드, 서버 등 다양한 분야에서 사용되는 프로그래밍 언어로, 다양한 런타임, 엔진이 존재합니다. 카카오톡봇 개발에 사용할 JavaScript 엔진은 Java로 구현된
+  JavaScript 엔진인 **Rhino**와 **GraalJS**입니다.
+
+  Rhino 엔진은 **채팅 자동응답 봇, StarLight 그리고 메신저봇R 0.7.40-alpha.02 이하 버전**에서 사용되며, 최신 JavaScript의 feature를 완전히 지원하지 않습니다. 
+  하지만 Java의 클래스를 객체로써 사용할 수 있습니다.
+
+  GraalJS는 **메신저봇R 0.7.40-alpha.03 이상 버전**에서 사용됩니다. GraalJS는 Rhino 엔진보다 최신 JavaScript의 feature를 더 적극적으로 지원하며, 개선된 성능을 보입니다. Rhino 엔진과 마찬가지로 Java의 클래스를 사용할 수 있습니다.
+  기초 자습서에서는 Java 클래스를 다루는 내용을 포함하지 않지만, 카카오톡봇 개발에 유용할 수 있습니다.
+
+  <Noti type={"info"}>
+    많은 사람들이 Java를 "JavaScript"의 줄임말로 알고 있지만 이는 잘못된 정보입니다. Java는 JavaScript와 별개인 또하나의 프로그래밍 언어의 이름이며, 많이 사용되는 JavaScript의
+    줄임말은 "JS"입니다.
+  </Noti>
+  <Noti type={"info"}>
+    Rhino 엔진과 GraalJS는 구현 방식 등에서 많은 차이가 있지만, 기초적인 JavaScript 언어의 문법 및 feature의 구현은 거의 동일합니다. 두 엔진 간의 유의할 만한 차이가 있을 경우 문서에서 이를 기술할 예정입니다.
+  </Noti>
+</Section>
