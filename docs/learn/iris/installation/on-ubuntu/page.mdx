@@ -20,7 +20,7 @@ category: 자습서
   [여기](#blank#https://github.com/dolidolih/Iris/releases)에서 `iris_control` 파일의 URL을 복사합니다. Ubuntu에서 아래와 같이 실행합니다.
 
   ```bash
-  $ wget https://github.com/dolidolih/Iris/releases/download/{VERSION_NAME}/iris_control
+  wget https://github.com/dolidolih/Iris/releases/download/{VERSION_NAME}/iris_control
   ```
 
   예를 들어, v0.27 버전을 설치할 경우 `wget https://github.com/dolidolih/Iris/releases/download/v0.27/iris_control`과 같이 실행합니다.
@@ -28,7 +28,7 @@ category: 자습서
   아래와 같이 `iris_control`의 실행 권한을 부여합니다.
 
   ```bash
-  $ chmod +x iris_control
+  chmod +x iris_control
   ```
 </Section>
 <Section>
@@ -37,13 +37,13 @@ category: 자습서
   Ubuntu에서 Android 환경을 사용하기 위해 redroid를 설치합니다. Iris 구동을 위한 docker와 redroid의 설치는 `iris_control`이 제공합니다. 아래 명령을 실행합니다.
 
   ```bash
-  $ ./iris_control install_redroid
+  ./iris_control install_redroid
   ```
 
   정상적으로 실행했을 경우 redroid가 docker 컨테이너에서 실행됩니다. 아래 명령을 통해 실행 중인 컨테이너의 리스트를 확인할 수 있습니다.
 
   ```bash
-  $ sudo docker ps -a
+  sudo docker ps -a
   ```
 
   정상적으로 설치되었을 경우 `redroid` 이름의 컨테이너가 실행 중일 것입니다.
@@ -112,4 +112,15 @@ category: 자습서
   </Tab>
 
   실행 후 `Success` 라는 문구가 출력될 경우 redroid에 성공적으로 카카오톡이 설치된 것입니다. scrcpy를 통해 연결한 스크린을 통해 redroid에 설치된 카카오톡을 실행하고 로그인합니다.
+</Section>
+<Section>
+  ## Iris 구동하기
+
+  Iris를 구동하기 위한 모든 준비가 끝났습니다! Iris는 아래와 같은 명령을 실행해 시작할 수 있습니다.
+
+  ```bash
+  ./iris_control start
+  ```
+
+  정상적으로 실행했을 경우 `3000`번 포트의 `/dashboard` 엔드포인트를 통해 Iris를 구성할 수 있는 대시보드에 접근할 수 있습니다.
 </Section>
