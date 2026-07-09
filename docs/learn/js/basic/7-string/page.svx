@@ -39,7 +39,7 @@ milestone:
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>이스케이프 문자</Th>
+        <Th colspan={2}>이스케이프 문자</Th>
       </Tr>
     </Thead>
     <Tbody>

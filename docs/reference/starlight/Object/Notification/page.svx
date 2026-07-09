@@ -12,7 +12,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`Notification` 객체의 상수</Th>
+        <Th colspan="2">`Notification` 객체의 상수</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -46,7 +46,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`Notification` 객체의 정적 프로퍼티</Th>
+        <Th colspan="2">`Notification` 객체의 정적 프로퍼티</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -66,7 +66,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`Notification` 객체의 정적 메소드</Th>
+        <Th colspan="2">`Notification` 객체의 정적 메소드</Th>
       </Tr>
     </Thead>
     <Tbody>

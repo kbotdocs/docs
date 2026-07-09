@@ -16,7 +16,7 @@ compat:
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`SessionManager` 객체의 인스턴스 메소드</Th>
+        <Th colspan="2">`SessionManager` 객체의 인스턴스 메소드</Th>
       </Tr>
     </Thead>
     <Tbody>

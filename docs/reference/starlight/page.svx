@@ -18,7 +18,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={"2"}>StarLight의 객체</Th>
+        <Th colspan={"2"}>StarLight의 객체</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -97,7 +97,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={"2"}>StarLight의 이벤트 리스너</Th>
+        <Th colspan={"2"}>StarLight의 이벤트 리스너</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -136,7 +136,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">StarLight의 인자</Th>
+        <Th colspan="2">StarLight의 인자</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -184,7 +184,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">StarLight의 플러그인</Th>
+        <Th colspan="2">StarLight의 플러그인</Th>
       </Tr>
     </Thead>
     <Tbody>

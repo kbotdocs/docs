@@ -31,7 +31,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>`iris.bot.Bot`의 인스턴스 프로퍼티</Th>
+        <Th colspan={2}>`iris.bot.Bot`의 인스턴스 프로퍼티</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -72,7 +72,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>`iris.bot.Bot`의 인스턴스 메소드</Th>
+        <Th colspan={2}>`iris.bot.Bot`의 인스턴스 메소드</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -92,7 +92,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>`iris.bot.Bot`의 인스턴스 데코레이터</Th>
+        <Th colspan={2}>`iris.bot.Bot`의 인스턴스 데코레이터</Th>
       </Tr>
     </Thead>
     <Tbody>

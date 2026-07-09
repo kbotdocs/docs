@@ -12,7 +12,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>irispy-client의 모듈</Th>
+        <Th colspan={2}>irispy-client의 모듈</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -73,7 +73,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>irispy-client의 이벤트</Th>
+        <Th colspan={2}>irispy-client의 이벤트</Th>
       </Tr>
     </Thead>
     <Tbody>

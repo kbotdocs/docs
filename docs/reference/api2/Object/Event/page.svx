@@ -14,7 +14,7 @@ compat:
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`Event` 객체의 상수</Th>
+        <Th colspan="2">`Event` 객체의 상수</Th>
       </Tr>
     </Thead>
     <Tbody>

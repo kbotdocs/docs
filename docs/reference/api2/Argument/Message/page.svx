@@ -15,7 +15,7 @@ compat:
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`Message` 객체의 인스턴스 프로퍼티</Th>
+        <Th colspan="2">`Message` 객체의 인스턴스 프로퍼티</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -105,7 +105,7 @@ compat:
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`Message` 객체의 인스턴스 메소드</Th>
+        <Th colspan="2">`Message` 객체의 인스턴스 메소드</Th>
       </Tr>
     </Thead>
     <Tbody>

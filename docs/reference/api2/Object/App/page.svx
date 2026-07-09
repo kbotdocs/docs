@@ -15,7 +15,7 @@ compat:
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`App` 객체의 정적 메소드</Th>
+        <Th colspan="2">`App` 객체의 정적 메소드</Th>
       </Tr>
     </Thead>
     <Tbody>

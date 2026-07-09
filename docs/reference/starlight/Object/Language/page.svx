@@ -12,7 +12,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`Language` 객체의 인스턴스 프로퍼티</Th>
+        <Th colspan="2">`Language` 객체의 인스턴스 프로퍼티</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -53,7 +53,7 @@ category: StarLight
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan="2">`Language` 객체의 인스턴스 메소드</Th>
+        <Th colspan="2">`Language` 객체의 인스턴스 메소드</Th>
       </Tr>
     </Thead>
     <Tbody>

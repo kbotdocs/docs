@@ -16,7 +16,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>`iris.kakaolink.KakaoLinkModule`의 클래스</Th>
+        <Th colspan={2}>`iris.kakaolink.KakaoLinkModule`의 클래스</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -41,7 +41,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>`iris.kakaolink.KakaoLinkModule`의 예외</Th>
+        <Th colspan={2}>`iris.kakaolink.KakaoLinkModule`의 예외</Th>
       </Tr>
     </Thead>
     <Tbody>

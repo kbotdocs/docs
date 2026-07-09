@@ -18,7 +18,7 @@ category: Iris
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>HTTP API 엔드포인트</Th>
+        <Th colspan={2}>HTTP API 엔드포인트</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -72,7 +72,7 @@ category: Iris
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>구성 API 엔드포인트</Th>
+        <Th colspan={2}>구성 API 엔드포인트</Th>
       </Tr>
     </Thead>
     <Tbody>
@@ -148,7 +148,7 @@ category: Iris
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>WebSocket 엔드포인트</Th>
+        <Th colspan={2}>WebSocket 엔드포인트</Th>
       </Tr>
     </Thead>
     <Tbody>

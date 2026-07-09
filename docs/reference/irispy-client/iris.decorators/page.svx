@@ -12,7 +12,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>`iris.decorators`의 데코레이터</Th>
+        <Th colspan={2}>`iris.decorators`의 데코레이터</Th>
       </Tr>
     </Thead>
     <Tbody>

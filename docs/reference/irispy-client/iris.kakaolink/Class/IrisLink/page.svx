@@ -31,7 +31,7 @@ category: irispy-client
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>`iris.kakaolink.IrisLink`의 인스턴스 메소드</Th>
+        <Th colspan={2}>`iris.kakaolink.IrisLink`의 인스턴스 메소드</Th>
       </Tr>
     </Thead>
     <Tbody>

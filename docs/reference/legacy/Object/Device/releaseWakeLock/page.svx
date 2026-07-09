@@ -28,7 +28,7 @@ compat:
           <Table className="table-fixed">
             <Thead>
               <Tr>
-                <Th colSpan="2"></Th>
+                <Th colspan="2"></Th>
               </Tr>
               <Tr className="hidden md:table-row">
                 <Th></Th>

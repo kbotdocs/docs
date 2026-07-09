@@ -107,7 +107,7 @@ milestone:
   <Table>
     <Thead>
       <Tr>
-        <Th colSpan={2}>JavaScript의 자료형</Th>
+        <Th colspan={2}>JavaScript의 자료형</Th>
       </Tr>
     </Thead>
     <Tbody>

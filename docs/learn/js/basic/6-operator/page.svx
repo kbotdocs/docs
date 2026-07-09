@@ -19,7 +19,7 @@ milestone:
     <Table>
       <Thead>
         <Tr>
-          <Th colSpan="2">산술 연산자</Th>
+          <Th colspan="2">산술 연산자</Th>
         </Tr>
       </Thead>
       <Tbody>
@@ -149,7 +149,7 @@ milestone:
     <Table>
       <Thead>
         <Tr>
-          <Th colSpan="2">비교 연산자</Th>
+          <Th colspan="2">비교 연산자</Th>
         </Tr>
       </Thead>
       <Tbody>
@@ -290,7 +290,7 @@ milestone:
     <Table>
       <Thead>
         <Tr>
-          <Th colSpan="2">할당 연산자</Th>
+          <Th colspan="2">할당 연산자</Th>
         </Tr>
       </Thead>
       <Tbody>
@@ -375,7 +375,7 @@ milestone:
     <Table>
       <Thead>
         <Tr>
-          <Th colSpan="2">논리 연산자</Th>
+          <Th colspan="2">논리 연산자</Th>
         </Tr>
       </Thead>
       <Tbody>

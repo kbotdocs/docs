@@ -305,7 +305,7 @@ milestone:
     <Table>
       <Thead>
         <Tr>
-          <Th colSpan={2}>메뉴 정보 (메뉴명 / 전송 문구)</Th>
+          <Th colspan={2}>메뉴 정보 (메뉴명 / 전송 문구)</Th>
         </Tr>
         <Tr className={"hidden md:table-cell"}>
           <Th>메뉴명</Th>
