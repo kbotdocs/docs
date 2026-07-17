@@ -28,7 +28,9 @@ compat:
       </ParamItem>
       <ParamItem param="delay" type="Number" optional>
         {#snippet defaultValue()}
+
           `0`
+
         {/snippet}
 
         타이머가 만료되기까지의 지연 시간
