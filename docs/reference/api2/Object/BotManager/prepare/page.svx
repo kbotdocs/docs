@@ -24,7 +24,13 @@ compat:
       <ParamItem param={"botName"} type={"String"}>
         컴파일할 `Bot` 객체의 이름
       </ParamItem>
-      <ParamItem param={"throwOnError"} type={"Boolean"} defaultVal={"`false`"} optional>
+      <ParamItem param={"throwOnError"} type={"Boolean"} optional>
+        {#snippet defaultValue()}
+
+          `false`
+
+        {/snippet}
+
         컴파일 에러 시 에러 throw 여부
       </ParamItem>
     </ParamList>

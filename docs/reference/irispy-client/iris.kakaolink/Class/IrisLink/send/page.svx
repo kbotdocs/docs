@@ -36,19 +36,49 @@ category: irispy-client
       <ParamItem param={"template_args"} type={"dict"}>
         카카오링크의 템플릿 인자
       </ParamItem>
-      <ParamItem param={"app_key"} type={"str"} defaultVal="`None`" optional>
+      <ParamItem param={"app_key"} type={"str"} optional>
+        {#snippet defaultValue()}
+
+          `None`
+
+        {/snippet}
+
         카카오링크 API의 앱 키
       </ParamItem>
-      <ParamItem param={"origin"} type={"str"} defaultVal="`None`" optional>
+      <ParamItem param={"origin"} type={"str"} optional>
+        {#snippet defaultValue()}
+
+          `None`
+
+        {/snippet}
+
         카카오링크 API의 origin
       </ParamItem>
-      <ParamItem param={"search_exact"} type={"bool"} defaultVal="`True`" optional>
+      <ParamItem param={"search_exact"} type={"bool"} optional>
+        {#snippet defaultValue()}
+
+          `True`
+
+        {/snippet}
+
         `receiver_name` 이름의 방을 정확히 검색할지의 여부. `False`일 경우 이름에 `receiver_name`을 포함하는 방도 검색합니다.
       </ParamItem>
-      <ParamItem param={"search_from"} type={'Union["ALL", "FRIENDS", "CHATROOMS"]'} defaultVal='`"ALL"`' optional>
+      <ParamItem param={"search_from"} type={'Union["ALL", "FRIENDS", "CHATROOMS"]'} optional>
+        {#snippet defaultValue()}
+
+          `"ALL"`
+
+        {/snippet}
+
         `receiver_name` 방의 검색 범위
       </ParamItem>
-      <ParamItem param={"search_room_type"} type={'Union["ALL", "OpenMultiChat", "MultiChat", "DirectChat"]'} defaultVal='`"ALL"`' optional>
+      <ParamItem param={"search_room_type"} type={'Union["ALL", "OpenMultiChat", "MultiChat", "DirectChat"]'} optional>
+        {#snippet defaultValue()}
+
+          `"ALL"`
+
+        {/snippet}
+
         `receiver_name` 방의 타입에 대한 검색 범위
       </ParamItem>
     </ParamList>

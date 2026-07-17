@@ -27,7 +27,13 @@ compat:
       <ParamItem param={"functionName"} type={"String"}>
         호출할 전역 함수의 이름
       </ParamItem>
-      <ParamItem param={"args"} type={"any[]"} defaultVal={"`[]`"} optional>
+      <ParamItem param={"args"} type={"any[]"} optional>
+        {#snippet defaultValue()}
+
+          `[]`
+
+        {/snippet}
+
         호출할 함수에게 전달할 인자
       </ParamItem>
     </ParamList>

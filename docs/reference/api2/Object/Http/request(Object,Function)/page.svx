@@ -35,13 +35,31 @@ compat:
             <ParamItem param={"url"} type={"String"}>
               request를 보낼 URL
             </ParamItem>
-            <ParamItem param={"timeout"} type={"Number"} defaultVal={"`3000`"} optional>
+            <ParamItem param={"timeout"} type={"Number"} optional>
+              {#snippet defaultValue()}
+
+                `3000`
+
+              {/snippet}
+
               request 타임아웃 (밀리초; ms)
             </ParamItem>
-            <ParamItem param={"method"} type={"String"} defaultVal={"`\"GET\"`"} optional>
+            <ParamItem param={"method"} type={"String"} optional>
+              {#snippet defaultValue()}
+
+                `"GET"`
+
+              {/snippet}
+
               request 메소드
             </ParamItem>
-            <ParamItem param={"headers"} type={"Object"} defaultVal={"`null`"} optional>
+            <ParamItem param={"headers"} type={"Object"} optional>
+              {#snippet defaultValue()}
+
+                `null`
+
+              {/snippet}
+
               request 헤더
             </ParamItem>
           </ParamList>

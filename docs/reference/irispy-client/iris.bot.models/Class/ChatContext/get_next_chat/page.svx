@@ -18,7 +18,13 @@ category: irispy-client
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"n"} type={"int"} defaultVal="`1`" optional>
+      <ParamItem param={"n"} type={"int"} optional>
+        {#snippet defaultValue()}
+
+          `1`
+
+        {/snippet}
+
         대상 메시지을 기준으로 하는 인덱스
       </ParamItem>
     </ParamList>

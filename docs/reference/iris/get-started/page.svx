@@ -56,13 +56,25 @@ category: Iris
     <ParamItem param={"Web Server Endpoint"} type={"string"}>
       새로운 카카오톡 메시지를 수신할 웹 서버의 URL입니다. (예: `http://172.17.0.2:5000/db for IrisPy`)
     </ParamItem>
-    <ParamItem param={"DB Polling Rate"} type={"int"} defaultVal={"`100`"} optional>
+    <ParamItem param={"DB Polling Rate"} type={"int"} optional>
+      {#snippet defaultValue()}
+
+        `100`
+
+      {/snippet}
+
       데이터베이스 변경 사항을 확인하는 지연 시간(밀리초; ms)입니다. (예: `200`)
       <Noti type={"warning"}>
         값이 낮을수록 데이터베이스의 변경 사항을 더 빈번하게 확인해 CPU 사용량이 증가할 수 있습니다.
       </Noti>
     </ParamItem>
-    <ParamItem param={"Message Send Rate"} type={"int"} defaultVal={"`50`"} optional>
+    <ParamItem param={"Message Send Rate"} type={"int"} optional>
+      {#snippet defaultValue()}
+
+        `50`
+
+      {/snippet}
+
       카카오톡 메시지 전송 간 최소 간격(밀리초; ms)입니다. (예: `100`)
     </ParamItem>
     <ParamItem param={"Bot Port"} type={"int"}>

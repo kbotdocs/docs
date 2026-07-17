@@ -22,7 +22,13 @@ compat:
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"scriptName"} type={"String"} defaultVal={"해당 메소드를 호출한 스크립트의 이름"} optional>
+      <ParamItem param={"scriptName"} type={"String"} optional>
+        {#snippet defaultValue()}
+
+          해당 메소드를 호출한 스크립트의 이름
+
+        {/snippet}
+
         스레드에 `interrupt` 요청을 보낼 스크립트 이름
       </ParamItem>
     </ParamList>

@@ -27,7 +27,13 @@ compat:
       <ParamItem param={"mediaResource"} type={"any"}>
         전송할 미디어 파일의 리소스
       </ParamItem>
-      <ParamItem param={"timeoutMs"} type={"Number"} defaultVal={"`25000`"} optional>
+      <ParamItem param={"timeoutMs"} type={"Number"} optional>
+        {#snippet defaultValue()}
+
+          `25000`
+
+        {/snippet}
+
         미디어 파일 전송의 타임아웃(밀리초; ms)
       </ParamItem>
     </ParamList>

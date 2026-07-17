@@ -23,7 +23,13 @@ compat:
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"label"} type={"String"} defaultVal={"`\"default\"`"} optional>
+      <ParamItem param={"label"} type={"String"} optional>
+        {#snippet defaultValue()}
+
+          `"default"`
+
+        {/snippet}
+
         평가할 조건식
       </ParamItem>
       <ParamItem param={"...args"} type={"any"} optional>

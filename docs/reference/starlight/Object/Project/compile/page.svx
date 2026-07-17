@@ -18,7 +18,13 @@ category: StarLight
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"throwException"} type={"Boolean"} defaultVal={"`false`"} optional>
+      <ParamItem param={"throwException"} type={"Boolean"} optional>
+        {#snippet defaultValue()}
+
+          `false`
+
+        {/snippet}
+
         컴파일 에러 시 에러 throw 여부
       </ParamItem>
     </ParamList>

@@ -21,7 +21,13 @@ compat:
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"flags"} type={"Number"} defaultVal={"`0`"} optional>
+      <ParamItem param={"flags"} type={"Number"} optional>
+        {#snippet defaultValue()}
+
+          `0`
+
+        {/snippet}
+
         wake lock 해제 동작을 나타내는 플래그
         <Details
           summary={"wake lock 해제 플래그 ([`android.os.PowerManager`](https://developer.android.com/reference/android/os/PowerManager))"}>

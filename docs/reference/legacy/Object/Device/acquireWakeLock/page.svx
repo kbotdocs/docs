@@ -69,12 +69,23 @@ compat:
           \* 기기가 사용자에 의해 sleep 상태로 전환되어도 실행 상태를 유지합니다.
         </Details>
       </ParamItem>
-      <ParamItem param={"tag"} type={"String"}
-                 defaultVal={"- 메신저봇R: `com.xfl.msgbot:default_wake_lock_tag`\n - StarLight: `dev.mooner.starlight:api_wakelock_tag`"}
-                 optional>
+      <ParamItem param={"tag"} type={"String"} optional>
+        {#snippet defaultValue()}
+
+          - 메신저봇R: `com.xfl.msgbot:default_wake_lock_tag`
+          - StarLight: `dev.mooner.starlight:api_wakelock_tag`
+
+        {/snippet}
+
         디버깅을 위한 클래스 이름 또는 다른 이름 태그
       </ParamItem>
-      <ParamItem param={"timeout"} type={"Number"} defaultVal={"`null`"} optional>
+      <ParamItem param={"timeout"} type={"Number"} optional>
+        {#snippet defaultValue()}
+
+          `null`
+
+        {/snippet}
+
         wake lock을 해제할 시간(밀리초; ms)
       </ParamItem>
     </ParamList>

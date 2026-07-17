@@ -30,7 +30,13 @@ compat:
       <ParamItem param={"delay"} type={"String"}>
         지연할 시간(밀리초; ms)
       </ParamItem>
-      <ParamItem param={"hideToast"} type={"Boolean"} defaultVal={"`false`"} optional>
+      <ParamItem param={"hideToast"} type={"Boolean"} optional>
+        {#snippet defaultValue()}
+
+          `false`
+
+        {/snippet}
+
         메시지를 보낼 방의 세션 존재 여부를 토스트 메시지로 출력할 것인지의 여부
       </ParamItem>
     </ParamList>
