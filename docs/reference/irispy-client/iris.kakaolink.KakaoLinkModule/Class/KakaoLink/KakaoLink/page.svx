@@ -17,22 +17,10 @@
       <ParamItem param={"iris_url"} type={"str"}>
         Iris가 사용할 서버의 URL
       </ParamItem>
-      <ParamItem param={"default_app_key"} type={"str"} optional>
-        {#snippet defaultValue()}
-
-          `None`
-
-        {/snippet}
-
+      <ParamItem param={"default_app_key"} type={"str"} defaultVal={"`None`"} optional>
         카카오링크 API의 앱 키
       </ParamItem>
-      <ParamItem param={"default_origin"} type={"str"} optional>
-        {#snippet defaultValue()}
-
-          `None`
-
-        {/snippet}
-
+      <ParamItem param={"default_origin"} type={"str"} defaultVal={"`None`"} optional>
         카카오링크 API의 origin
       </ParamItem>
     </ParamList>

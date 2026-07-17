@@ -23,13 +23,7 @@
       <ParamItem param={"content"} type={"String"}>
         번역을 수행할 텍스트
       </ParamItem>
-      <ParamItem param={"errorToString"} type={"Boolean"} optional>
-        {#snippet defaultValue()}
-
-          `false`
-
-        {/snippet}
-
+      <ParamItem param={"errorToString"} type={"Boolean"} defaultVal={"`false`"} optional>
         에러를 문자열로 반환할 것인지에 대한 여부
       </ParamItem>
     </ParamList>

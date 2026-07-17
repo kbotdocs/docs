@@ -15,22 +15,10 @@
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"title"} type={"String"} optional>
-        {#snippet defaultValue()}
-
-          `null`
-
-        {/snippet}
-
+      <ParamItem param={"title"} type={"String"} defaultVal={"`null`"} optional>
         수정할 제목
       </ParamItem>
-      <ParamItem param={"message"} type={"String"} optional>
-        {#snippet defaultValue()}
-
-          `null`
-
-        {/snippet}
-
+      <ParamItem param={"message"} type={"String"} defaultVal={"`null`"} optional>
         수정할 문자열
       </ParamItem>
     </ParamList>

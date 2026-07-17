@@ -20,13 +20,7 @@
       <ParamItem param={"content"} type={"String"}>
         알림의 내용
       </ParamItem>
-      <ParamItem param={"id"} type={"Number"} optional>
-        {#snippet defaultValue()}
-
-          `0`
-
-        {/snippet}
-
+      <ParamItem param={"id"} type={"Number"} defaultVal={"`0`"} optional>
         알림의 ID
       </ParamItem>
     </ParamList>

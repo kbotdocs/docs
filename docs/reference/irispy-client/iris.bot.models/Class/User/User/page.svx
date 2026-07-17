@@ -23,22 +23,10 @@
       <ParamItem param={"api"} type={"iris.bot._internal.iris.IrisAPI"}>
         Iris API의 조작을 위한 [`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI) 인스턴스
       </ParamItem>
-      <ParamItem param={"name"} type={"str"} optional>
-        {#snippet defaultValue()}
-
-          `None`
-
-        {/snippet}
-
+      <ParamItem param={"name"} type={"str"} defaultVal={"`None`"} optional>
         사용자의 이름
       </ParamItem>
-      <ParamItem param={"bot_id"} type={"int"} optional>
-        {#snippet defaultValue()}
-
-          `None`
-
-        {/snippet}
-
+      <ParamItem param={"bot_id"} type={"int"} defaultVal={"`None`"} optional>
         봇의 id
       </ParamItem>
     </ParamList>

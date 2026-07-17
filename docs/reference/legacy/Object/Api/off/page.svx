@@ -14,13 +14,7 @@
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"scriptName"} type={"String"} optional>
-        {#snippet defaultValue()}
-
-          해당 메소드를 호출한 스크립트의 이름
-
-        {/snippet}
-
+      <ParamItem param={"scriptName"} type={"String"} defaultVal={"해당 메소드를 호출한 스크립트의 이름"} optional>
         비활성화할 스크립트의 이름
       </ParamItem>
     </ParamList>

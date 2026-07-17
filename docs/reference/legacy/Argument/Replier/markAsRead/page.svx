@@ -15,13 +15,7 @@
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"room"} type={"String"} optional>
-        {#snippet defaultValue()}
-
-          메시지가 발신된 방의 이름
-
-        {/snippet}
-
+      <ParamItem param={"room"} type={"String"} defaultVal={"메시지가 발신된 방의 이름"} optional>
         메시지를 읽음 처리할 방의 이름
       </ParamItem>
       <ParamItem param={"packageName"} type={"String"} optional>

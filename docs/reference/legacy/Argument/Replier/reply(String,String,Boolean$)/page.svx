@@ -20,13 +20,7 @@
       <ParamItem param={"msg"} type={"String"}>
         보낼 메시지의 내용
       </ParamItem>
-      <ParamItem param={"hideToast"} type={"Boolean"} optional>
-        {#snippet defaultValue()}
-
-          `false`
-
-        {/snippet}
-
+      <ParamItem param={"hideToast"} type={"Boolean"} defaultVal={"`false`"} optional>
         메시지를 보낼 방의 세션 존재 여부를 토스트 메시지로 출력할 것인지의 여부
       </ParamItem>
     </ParamList>

@@ -33,13 +33,7 @@
       <ParamItem param={"b64_ciphertext"} type={"string"}>
         Base64 인코딩된 암호화 메시지입니다.
       </ParamItem>
-      <ParamItem param={"user_id"} type={"long"} optional>
-        {#snippet defaultValue()}
-
-          `config.json`의 `bot_id`
-
-        {/snippet}
-
+      <ParamItem param={"user_id"} type={"long"} defaultVal={"`config.json`의 `bot_id`"} optional>
         사용자 ID입니다.
       </ParamItem>
     </ParamList>

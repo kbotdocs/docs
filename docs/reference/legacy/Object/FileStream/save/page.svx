@@ -20,13 +20,7 @@
       <ParamItem param={"data"} type={"String"}>
         생성할 파일의 내용
       </ParamItem>
-      <ParamItem param={"append"} type={"Boolean"} optional>
-        {#snippet defaultValue()}
-
-          `false`
-
-        {/snippet}
-
+      <ParamItem param={"append"} type={"Boolean"} defaultVal={"`false`"} optional>
         `path` 경로의 파일이 존재할 경우 이어쓰기 여부
       </ParamItem>
     </ParamList>
