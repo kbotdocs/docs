@@ -1,7 +1,3 @@
----
-title: ChatSender
-category: StarLight
----
 
 <Section>
   `ChatSender` 객체는 발신자에 관한 정보를 담은 객체입니다.

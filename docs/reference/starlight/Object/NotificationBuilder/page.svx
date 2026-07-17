@@ -1,7 +1,3 @@
----
-title: NotificationBuilder
-category: StarLight
----
 
 <Section>
   `NotificationBuilder` 객체는 알림의 생성을 위한 빌더(Builder) 객체입니다. 해당 객체는 직접 호출할 수 없습니다.

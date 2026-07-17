@@ -1,0 +1,8 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "next" : "learn/js/basic/5-variable-and-data-type",
+      "prev" : "learn/js/basic/3-write-script"
+   },
+   "title" : "JavaScript의 기본 문법"
+}

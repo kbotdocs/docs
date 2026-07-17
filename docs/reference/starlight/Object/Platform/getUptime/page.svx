@@ -1,7 +1,3 @@
----
-title: Platform.getUptime()
-category: StarLight
----
 
 <Section>
   현재 구동중인 봇 앱의 구동 시간을 반환합니다.

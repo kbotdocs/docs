@@ -1,7 +1,3 @@
----
-title: iris.kakaolink
-category: irispy-client
----
 
 <Section>
   `iris.kakaolink` 모듈은 카카오링크의 전송을 위한 요소들을 포함합니다.

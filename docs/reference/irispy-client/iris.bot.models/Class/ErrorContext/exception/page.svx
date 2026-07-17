@@ -1,7 +1,3 @@
-s---
-title: ErrorContext.exception
-category: irispy-client
----
 
 <Section>
   에러에 대한 `Exception` 객체입니다.

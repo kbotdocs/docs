@@ -1,10 +1,3 @@
----
-title: Message.markAsRead()
-category: API2
-compat:
-  data: api2/Argument/Message
-  feature: markAsRead
----
 
 <Section>
   메시지가 발신된 방의 알림을 읽음 처리합니다.

@@ -1,10 +1,3 @@
----
-title: Command.isMention
-category: API2
-compat:
-  data: api2/Argument/Command
-  feature: isMention
----
 
 <Section>
   메시지 내 멘션 포함 여부입니다.

@@ -1,7 +1,3 @@
----
-title: ChatRoom.isGroupChat
-category: StarLight
----
 
 <Section>
   방이 그룹 채팅방인지의 여부입니다.

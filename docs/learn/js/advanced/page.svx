@@ -1,9 +1,3 @@
----
-title: JavaScript 고급
-category: 자습서
-milestone:
-  next: learn/js/advanced/1-constructor-function
----
 
 <Section>
   해당 문서는 [JavaScript 중급](/learn/js/intermediate)에 이어 고급 JavaScript의 feature를 학습하기 위한 자습서입니다. 

@@ -1,7 +1,3 @@
----
-title: EventEmitter.register()
-category: irispy-client
----
 
 <Section>
   특정 이벤트에 대한 핸들러 함수를 등록합니다.

@@ -1,7 +1,3 @@
----
-title: 레거시 API
-category: 레거시 API
----
 
 <Section>
   <Noti type="warning">

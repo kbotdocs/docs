@@ -1,10 +1,3 @@
----
-title: Database.writeString()
-category: API2
-compat:
-  data: api2/Object/Database
-  feature: writeString
----
 
 <Section>
   문자열을 `fileName` 이름의 파일에 덮어씁니다. 파일이 존재하지 않을 경우 `fileName` 이름의 파일을 생성합니다.

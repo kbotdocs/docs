@@ -1,7 +1,3 @@
----
-title: "@is_not_banned"
-category: irispy-client
----
 
 <Section>
   메시지를 보낸 사용자가 관리자인 경우에만 함수를 실행합니다.

@@ -1,9 +1,3 @@
----
-title: 생성자 함수
-category: 자습서
-milestone:
-  prev: learn/js/advanced
----
 
 <Section>
   기초 자습서에서 [기본적인 객체](/learn/js/basic/12-basic-object)에 대해 학습했습니다. 객체는 우리가 사는 세상에 존재하는 개체를 추상화해 프로그래밍 언어로 도입한 개념입니다. 

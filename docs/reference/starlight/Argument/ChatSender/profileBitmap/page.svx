@@ -1,7 +1,3 @@
----
-title: ChatSender.profileBitmap
-category: StarLight
----
 
 <Section>
   발신자의 프로필 이미지에 대한 `android.graphics.Bitmap` 값입니다.

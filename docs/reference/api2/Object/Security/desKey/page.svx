@@ -1,10 +1,3 @@
----
-title: Security.desKey()
-category: API2
-compat:
-  data: api2/Object/Security
-  feature: desKey
----
 
 <Section>
   DES 보조키를 생성하여 반환합니다.

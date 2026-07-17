@@ -1,7 +1,3 @@
----
-title: Env
-category: StarLight
----
 
 <Section>
   `Env` 객체는 Dotenv 형식 파일의 입출력을 위한 객체입니다. 기본적으로 프로젝트 폴더 내부의 `.env` 파일을 찾아 파싱합니다.

@@ -1,10 +1,3 @@
----
-title: Device.getPhoneModel()
-category: 레거시 API
-compat:
-  data: legacy/Object/Device
-  feature: getPhoneModel
----
 
 <Section>
   앱 구동 기기의 모델명을 반환합니다.

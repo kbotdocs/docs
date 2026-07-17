@@ -1,10 +1,3 @@
----
-title: MediaSender.send()
-category: 레거시 API
-compat:
-  data: legacy/Object/MediaSender
-  feature: send
----
 
 <Section>
   특정 방에 미디어 파일을 전송하고 미디어 파일의 전송 성공 여부를 반환합니다.

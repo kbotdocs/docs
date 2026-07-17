@@ -1,0 +1,7 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "prev" : "learn/js/migration-to-api2"
+   },
+   "title" : "이벤트 리스너 수정"
+}

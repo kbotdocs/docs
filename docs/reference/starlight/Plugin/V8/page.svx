@@ -1,7 +1,3 @@
----
-title: V8 플러그인
-category: StarLight
----
 
 <Section>
   <Noti type="danger">

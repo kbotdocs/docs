@@ -1,10 +1,3 @@
----
-title: secondTick 이벤트 리스너
-category: 레거시 API
-compat:
-  data: legacy/EventListener/secondTick
-  feature: "*"
----
 
 <Section>
   `secondTick`은 매 틱(1초)마다 동작하는 이벤트 리스너입니다.

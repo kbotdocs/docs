@@ -1,7 +1,3 @@
----
-title: IrisRequest.room
-category: irispy-client
----
 
 <Section>
   메시지가 온 방의 이름입니다.

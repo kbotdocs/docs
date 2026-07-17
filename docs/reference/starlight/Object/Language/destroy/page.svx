@@ -1,7 +1,3 @@
----
-title: Language.destroy()
-category: StarLight
----
 
 <Section>
   <Noti type="warning">

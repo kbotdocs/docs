@@ -1,7 +1,3 @@
----
-title: DeletedMessage.chatLogId
-category: StarLight
----
 
 <Section>
   삭제된 메시지에 대한 고유 ID입니다.

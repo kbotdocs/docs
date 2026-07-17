@@ -1,7 +1,3 @@
----
-title: Message.attachment
-category: irispy-client
----
 
 <Section>
   메시지의 첨부 파일입니다.

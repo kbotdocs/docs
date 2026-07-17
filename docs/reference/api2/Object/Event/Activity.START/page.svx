@@ -1,10 +1,3 @@
----
-title: Event.Activity.START
-category: API2
-compat:
-  data: api2/Object/Event
-  feature: Activity.START
----
 
 <Section>
   API2의 [`activityStart`](/reference/api2/Event/activityStart) 이벤트입니다.

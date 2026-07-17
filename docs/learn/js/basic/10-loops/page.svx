@@ -1,10 +1,3 @@
----
-title: 반복문
-category: 자습서
-milestone:
-  prev: learn/js/basic/9-conditionals
-  next: learn/js/basic/11-function
----
 
 <Section>
   반복문(Loop)은 비슷한 동작을 반복적으로 수행할 필요가 있을 때 이를 효율적으로 처리하기 위해 사용하는 표현문입니다. 이 문서에서는 JavaScript에 존재하는 두 가지 반복문을 소개합니다.

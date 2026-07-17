@@ -1,10 +1,3 @@
----
-title: Message.packageName
-category: API2
-compat:
-  data: api2/Argument/Message
-  feature: packageName
----
 
 <Section>
   메시지가 발신된 메신저 앱의 패키지명입니다.

@@ -1,7 +1,3 @@
----
-title: Project.directory()
-category: StarLight
----
 
 <Section>
   프로젝트의 루트 디렉터리에 대한 `java.io.File`입니다.

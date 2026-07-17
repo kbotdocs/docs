@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Argument/Image",
+      "feature" : "getBase64"
+   },
+   "title" : "Image.getBase64()"
+}

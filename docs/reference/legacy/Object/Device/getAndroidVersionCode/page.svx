@@ -1,10 +1,3 @@
----
-title: Device.getAndroidVersionCode()
-category: 레거시 API
-compat:
-  data: legacy/Object/Device
-  feature: getAndroidVersionCode
----
 
 <Section>
   앱 구동 환경의 안드로이드 버전 코드를 반환합니다.

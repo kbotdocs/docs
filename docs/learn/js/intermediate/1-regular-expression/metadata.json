@@ -1,0 +1,7 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "prev" : "learn/js/intermediate"
+   },
+   "title" : "정규 표현식"
+}

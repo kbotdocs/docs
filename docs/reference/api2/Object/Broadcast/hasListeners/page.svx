@@ -1,10 +1,3 @@
----
-title: Broadcast.hasListeners()
-category: API2
-compat:
-  data: api2/Object/Broadcast
-  feature: hasListeners
----
 
 <Section>
   특정 브로드캐스트에 1개 이상의 리스너가 등록되었는지의 여부를 반환합니다.

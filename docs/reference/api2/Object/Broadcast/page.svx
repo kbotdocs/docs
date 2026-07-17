@@ -1,10 +1,3 @@
----
-title: Broadcast
-category: API2
-compat:
-  data: api2/Object/Broadcast
-  feature: "*"
----
 
 <Section>
   `Broadcast` 객체는 다른 스크립트 간의 데이터 교류를 지원하는 객체입니다. [`Broadcast.send()`](/reference/api2/Object/Broadcast/send)를 통해 전송된 브로드캐스트는

@@ -1,7 +1,3 @@
----
-title: iris.bot.models.ErrorContext
-category: irispy-client
----
 
 <Section>
   `iris.bot.models.ErrorContext`는 에러 이벤트의 context입니다. 이 클래스는 데이터 클래스입니다.

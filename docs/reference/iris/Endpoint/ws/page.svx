@@ -1,7 +1,3 @@
----
-title: /ws
-category: Iris
----
 
 <Section>
   WebSocket 연결을 생성합니다. Iris가 메시지를 감지할 경우 해당 엔드포인트로 데이터를 전달합니다.

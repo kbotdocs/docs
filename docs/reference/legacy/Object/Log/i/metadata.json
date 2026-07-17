@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/Object/Log",
+      "feature" : "i"
+   },
+   "title" : "Log.i()"
+}

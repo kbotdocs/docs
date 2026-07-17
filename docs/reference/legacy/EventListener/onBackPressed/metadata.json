@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/EventListener/onBackPressed",
+      "feature" : "*"
+   },
+   "title" : "onBackPressed 이벤트 리스너"
+}

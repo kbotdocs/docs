@@ -1,7 +1,3 @@
----
-title: Project.requestUpdate()
-category: StarLight
----
 
 <Section>
   앱에 프로젝트 UI 업데이트를 요청합니다. 앱이 백그라운드에서 실행 중일 경우 요청은 무시됩니다.

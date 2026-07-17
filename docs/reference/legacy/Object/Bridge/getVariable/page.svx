@@ -1,10 +1,3 @@
----
-title: Bridge.getVariable()
-category: 레거시 API
-compat:
-  data: legacy/Object/Bridge
-  feature: getVariable
----
 
 <Section>
   단순 자동응답에 대하여 특정 방에서 특정 이름을 가진 `[[변수]]`의 값을 반환합니다.

@@ -1,7 +1,3 @@
----
-title: /config/dbrate
-category: Iris
----
 
 <Section>
   데이터베이스 폴링 지연 시간을 업데이트합니다. 이 값을 조정하면 Iris가 데이터베이스에서 새로운 메시지를 얼마나 자주 확인하는지 변경됩니다.

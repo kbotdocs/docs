@@ -1,7 +1,3 @@
----
-title: irispy-client
-category: irispy-client
----
 
 <Section>
   [irispy-client](https://github.com/dolidolih/irispy-client)는 [IrisPy2](https://github.com/ye-seola/IrisPy2)를 기반으로 개발된 Iris 카카오톡봇 개발을 위한 Python 라이브러리입니다.

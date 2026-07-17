@@ -1,10 +1,3 @@
----
-title: AppData.getBoolean()
-category: API2
-compat:
-  data: api2/Object/AppData
-  feature: getBoolean
----
 
 <Section>
   `key`에 대응하는 `Boolean`형 데이터를 반환합니다.

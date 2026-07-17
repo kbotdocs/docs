@@ -1,7 +1,3 @@
----
-title: IrisAPI.reply_media()
-category: irispy-client
----
 
 <Section>
   메시지가 전송된 방 또는 특정 방에 미디어 파일을 보냅니다.

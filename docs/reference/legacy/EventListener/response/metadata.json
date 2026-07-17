@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/EventListener/response",
+      "feature" : "*"
+   },
+   "title" : "response 이벤트 리스너"
+}

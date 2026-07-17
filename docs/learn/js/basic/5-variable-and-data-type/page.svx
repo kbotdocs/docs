@@ -1,10 +1,3 @@
----
-title: 변수와 자료형
-category: 자습서
-milestone:
-  prev: learn/js/basic/4-basic-syntax-of-javascript
-  next: learn/js/basic/6-operator
----
 
 <Section>
   데이터를 저장하는 개념인 변수와 JavaScript의 데이터 형식을 의미하는 자료형을 소개합니다.

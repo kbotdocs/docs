@@ -1,7 +1,3 @@
----
-title: KakaoLink 생성자
-category: irispy-client
----
 
 <Section>
   새 `KakaoLink` 객체를 생성합니다.

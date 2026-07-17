@@ -1,7 +1,3 @@
----
-title: EventEmitter.emit()
-category: irispy-client
----
 
 <Section>
   특정 이벤트를 트리거합니다.

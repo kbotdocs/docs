@@ -1,10 +1,3 @@
----
-title: 연산자
-category: 자습서
-milestone:
-  prev: learn/js/basic/5-variable-and-data-type
-  next: learn/js/basic/7-string
----
 
 <Section>
   JavaScript에서는 수학의 더하기(+), 빼기(-), 곱하기(×, JavaScript에선 `*`), 나누기(÷, JavaScript에선 `/`) 등 값을 계산하는 사칙연산자 뿐만 아니라 다른 다양한 연산을

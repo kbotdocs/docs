@@ -1,0 +1,8 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "next" : "learn/js/basic/10-loops",
+      "prev" : "learn/js/basic/8-array"
+   },
+   "title" : "조건문"
+}

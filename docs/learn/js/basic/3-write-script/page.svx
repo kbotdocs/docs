@@ -1,10 +1,3 @@
----
-title: 스크립트 작성
-category: 자습서
-milestone:
-  prev: learn/js/basic/2-ready-for-dev
-  next: learn/js/basic/4-basic-syntax-of-javascript
----
 
 <Section>
   카카오톡봇 프로젝트의 기본 스크립트를 분석하고 소스코드를 작성하는 방법을 소개합니다.

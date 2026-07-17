@@ -1,7 +1,3 @@
----
-title: Platform.getVersion()
-category: StarLight
----
 
 <Section>
   현재 구동 중인 봇 앱의 버전을 반환합니다.

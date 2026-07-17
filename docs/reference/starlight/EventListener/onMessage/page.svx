@@ -1,7 +1,3 @@
----
-title: onMessage 이벤트 리스너
-category: StarLight
----
 
 <Section>
   `onMessage`는 메시지를 수신할 때 동작하는 이벤트 리스너입니다.

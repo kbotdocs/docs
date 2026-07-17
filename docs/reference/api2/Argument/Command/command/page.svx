@@ -1,10 +1,3 @@
----
-title: Command.command
-category: API2
-compat:
-  data: api2/Argument/Command
-  feature: command
----
 
 <Section>
   명령어의 이름입니다. 예를 들어, 접두어가 `"/"`이고 전송된 메시지가 `"/angles 30 60 90"` 일 때 `"angles"` 입니다.

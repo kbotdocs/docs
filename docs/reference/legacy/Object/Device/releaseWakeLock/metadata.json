@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/Object/Device",
+      "feature" : "releaseWakeLock"
+   },
+   "title" : "Device.releaseWakeLock()"
+}

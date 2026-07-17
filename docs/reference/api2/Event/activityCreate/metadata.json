@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Event/activityCreate",
+      "feature" : "*"
+   },
+   "title" : "activityCreate 이벤트"
+}

@@ -1,10 +1,3 @@
----
-title: Security.des3Decode()
-category: API2
-compat:
-  data: api2/Object/Security
-  feature: des3Decode
----
 
 <Section>
   `value`를 DES3 복호화한 값을 반환합니다.

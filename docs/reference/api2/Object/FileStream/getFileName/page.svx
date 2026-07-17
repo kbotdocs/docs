@@ -1,10 +1,3 @@
----
-title: FileStream.getFileName()
-category: API2
-compat:
-  data: api2/Object/FileStream
-  feature: getFileName
----
 
 <Section>
   `path` 경로에서 파일의 이름을 반환합니다. 경로의 존재 여부와 디렉토리일 경우를 고려하지 않습니다.

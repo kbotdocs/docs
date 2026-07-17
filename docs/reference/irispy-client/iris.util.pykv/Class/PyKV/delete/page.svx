@@ -1,7 +1,3 @@
----
-title: PyKV.delete()
-category: irispy-client
----
 
 <Section>
   데이터베이스 내 키-값 쌍을 삭제합니다.

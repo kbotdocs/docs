@@ -1,10 +1,3 @@
----
-title: console.timeEnd()
-category: API2
-compat:
-  data: api2/Object/console
-  feature: timeEnd
----
 
 <Section>
   특정 레이블의 타이머를 종료하고 타이머 시작부터 종료까지의 시간을 로그에 작성합니다. 존재하지 않는 레이블을 지정할 경우 주의 로그(`Timer '{label}' does not exist`)를 작성합니다.

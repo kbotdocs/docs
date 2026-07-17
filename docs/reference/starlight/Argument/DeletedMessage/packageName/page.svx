@@ -1,7 +1,3 @@
----
-title: DeletedMessage.packageName
-category: StarLight
----
 
 <Section>
   메시지가 삭제된 메신저 앱의 패키지명입니다.

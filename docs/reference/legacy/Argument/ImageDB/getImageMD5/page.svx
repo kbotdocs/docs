@@ -1,10 +1,3 @@
----
-title: ImageDB.getImageMD5()
-category: 레거시 API
-compat:
-  data: legacy/Argument/ImageDB
-  feature: getImageMD5
----
 
 <Section>
   수신한 이미지를 MD5 인코딩한 값을 반환합니다.

@@ -1,7 +1,3 @@
----
-title: iris.bot.models.Message
-category: irispy-client
----
 
 <Section>
   `iris.bot.models.Message`는 채팅방의 메시지에 대한 데이터입니다. 이 클래스는 데이터 클래스입니다.

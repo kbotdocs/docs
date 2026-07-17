@@ -1,0 +1,7 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "next" : "learn/js/intermediate/1-regular-expression"
+   },
+   "title" : "JavaScript 중급"
+}

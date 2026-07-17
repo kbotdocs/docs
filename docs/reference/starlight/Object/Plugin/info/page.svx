@@ -1,7 +1,3 @@
----
-title: Plugin.info
-category: StarLight
----
 
 <Section>
   플러그인의 기본 등록 정보입니다.

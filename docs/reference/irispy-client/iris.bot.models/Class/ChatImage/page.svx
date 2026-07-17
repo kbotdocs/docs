@@ -1,7 +1,3 @@
----
-title: iris.bot.models.ChatImage
-category: irispy-client
----
 
 <Section>
   `iris.bot.models.ChatImage`는 채팅 메시지의 이미지에 대한 데이터입니다.

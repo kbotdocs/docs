@@ -1,7 +1,3 @@
----
-title: iris.bot.models.User
-category: irispy-client
----
 
 <Section>
   `iris.bot.models.User`는 채팅방에 대한 데이터입니다.

@@ -1,7 +1,3 @@
----
-title: Project.loadInfo()
-category: StarLight
----
 
 <Section>
   메모리 내 프로젝트 정보 데이터를 무효화하고 로컬 파일에서 다시 로드합니다.

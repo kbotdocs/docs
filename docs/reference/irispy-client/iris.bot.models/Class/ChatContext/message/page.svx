@@ -1,7 +1,3 @@
----
-title: ChatContext.message
-category: irispy-client
----
 
 <Section>
   감지된 메시지에 대한 `Message` 객체입니다.

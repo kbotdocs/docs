@@ -1,7 +1,3 @@
----
-title: ChatSender.id
-category: StarLight
----
 
 <Section>
   발신자의 고유 해시입니다. 해시는 같은 방 내에서 고유합니다.

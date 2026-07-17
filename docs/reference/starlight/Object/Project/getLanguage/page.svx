@@ -1,7 +1,3 @@
----
-title: Project.getLanguage()
-category: StarLight
----
 
 <Section>
   프로젝트에서 사용하는 언어에 대한 [`Language`](/reference/starlight/Object/Language) 객체를 반환합니다.

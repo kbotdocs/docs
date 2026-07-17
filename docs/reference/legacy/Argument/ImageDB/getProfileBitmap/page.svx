@@ -1,10 +1,3 @@
----
-title: ImageDB.getProfileBitmap()
-category: 레거시 API
-compat:
-  data: legacy/Argument/ImageDB
-  feature: getProfileBitmap
----
 
 <Section>
   발신자의 프로필 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.

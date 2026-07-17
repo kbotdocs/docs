@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/Argument/ImageDB",
+      "feature" : "getImageMD5"
+   },
+   "title" : "ImageDB.getImageMD5()"
+}

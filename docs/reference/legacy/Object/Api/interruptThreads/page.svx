@@ -1,10 +1,3 @@
----
-title: Api.interruptThreads()
-category: 레거시 API
-compat:
-  data: legacy/Object/Api
-  feature: interruptThreads
----
 
 <Section>
   스크립트의 스레드에 `interrupt` 요청을 보냅니다. `scriptName?` 인자가 존재할 경우 `scriptName?` 이름의 스크립트의 스레드에 `interrupt` 요청을 보냅니다.

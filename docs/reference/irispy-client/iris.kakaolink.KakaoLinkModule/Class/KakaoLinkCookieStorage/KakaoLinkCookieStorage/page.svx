@@ -1,7 +1,3 @@
----
-title: KakaoLinkCookieStorage 생성자
-category: irispy-client
----
 
 <Section>
   새 `KakaoLinkCookieStorage` 객체를 생성합니다.

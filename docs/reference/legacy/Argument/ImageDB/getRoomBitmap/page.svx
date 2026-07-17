@@ -1,10 +1,3 @@
----
-title: ImageDB.getRoomBitmap()
-category: 레거시 API
-compat:
-  data: legacy/Argument/ImageDB
-  feature: getRoomBitmap
----
 
 <Section>
   방 아이콘 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.

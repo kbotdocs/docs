@@ -1,10 +1,3 @@
----
-title: Utils.getWebText()
-category: 레거시 API
-compat:
-  data: legacy/Object/Utils
-  feature: getWebText
----
 
 <Section>
   [`jsoup`](https://jsoup.org/)을 이용해 `url`에 동기 GET request를 보냅니다. 요청에 대한 응답을 문자열로 반환합니다. `removeTags`가 `true`일 경우 HTML

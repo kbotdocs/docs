@@ -1,10 +1,3 @@
----
-title: JavaScript와 카카오톡봇
-category: 자습서
-milestone:
-  prev: learn/js/basic
-  next: learn/js/basic/2-ready-for-dev
----
 
 <Section>
   들어가기 전에 JavaScript와 카카오톡봇에 대해 알아봅니다. 무엇이든지 공부하고자 하는 것에 대해 아는 것은 가장 기본이 됩니다.

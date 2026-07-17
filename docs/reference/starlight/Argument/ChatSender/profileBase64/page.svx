@@ -1,7 +1,3 @@
----
-title: ChatSender.profileBase64
-category: StarLight
----
 
 <Section>
   발신자의 프로필 이미지를 Base64 인코딩한 값입니다.

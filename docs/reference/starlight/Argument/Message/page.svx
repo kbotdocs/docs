@@ -1,7 +1,3 @@
----
-title: Message
-category: StarLight
----
 
 <Section>
   `Message` 객체는 메시지에 대한 정보를 담고 있는 객체입니다. [`onMessage`](/reference/starlight/EventListener/onMessage)의 인자로 주어집니다.

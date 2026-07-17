@@ -1,10 +1,3 @@
----
-title: Device.acquireWakeLock()
-category: API2
-compat:
-  data: api2/Object/Device
-  feature: acquireWakeLock
----
 
 <Section>
   [wake lock](https://developer.android.com/develop/background-work/background-tasks/awake/wakelock)을 획득합니다.

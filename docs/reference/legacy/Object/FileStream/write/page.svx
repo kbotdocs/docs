@@ -1,10 +1,3 @@
----
-title: FileStream.write()
-category: 레거시 API
-compat:
-  data: legacy/Object/FileStream
-  feature: write
----
 
 <Section>
   문자열을 `path` 경로의 파일에 덮어씁니다. 파일이 존재하지 않을 경우 `path` 경로의 파일을 생성합니다. 덮어쓰거나 생성한 파일의 최종 내용을 반환합니다.

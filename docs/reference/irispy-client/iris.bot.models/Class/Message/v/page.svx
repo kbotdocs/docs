@@ -1,7 +1,3 @@
----
-title: Message.v
-category: irispy-client
----
 
 <Section>
   메시지의 추가적인 데이터입니다.

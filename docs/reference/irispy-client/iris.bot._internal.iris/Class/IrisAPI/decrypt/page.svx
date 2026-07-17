@@ -1,7 +1,3 @@
----
-title: IrisAPI.decrypt()
-category: irispy-client
----
 
 <Section>
   암호화된 Base64 인코딩 문자열을 복호화한 결과를 반환합니다.

@@ -1,7 +1,3 @@
----
-title: ChatRoom.id
-category: StarLight
----
 
 <Section>
   방의 고유 ID입니다.

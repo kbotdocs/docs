@@ -1,7 +1,3 @@
----
-title: Message.image
-category: StarLight
----
 
 <FeatureStatusNoti status={{experimental: true}}/>
 <Section>

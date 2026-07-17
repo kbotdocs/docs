@@ -1,10 +1,3 @@
----
-title: BotManager.getCurrentBot()
-category: API2
-compat:
-  data: api2/Object/BotManager
-  feature: getCurrentBot
----
 
 <Section>
   해당 메소드를 호출한 스크립트에 할당된 `Bot` 객체를 반환합니다.

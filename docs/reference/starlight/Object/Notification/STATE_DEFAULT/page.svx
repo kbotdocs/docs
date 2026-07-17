@@ -1,7 +1,3 @@
----
-title: Notification.STATE_DEFAULT
-category: StarLight
----
 
 <Section>
   알림이 생성되지 않았습니다.

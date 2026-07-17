@@ -1,7 +1,3 @@
----
-title: iris.bot._internal.iris.IrisRequest
-category: irispy-client
----
 
 <Section>
   `iris.bot._internal.iris.IrisRequest`는 Iris의 요청에 대한 데이터입니다. 이 클래스는 데이터 클래스입니다.

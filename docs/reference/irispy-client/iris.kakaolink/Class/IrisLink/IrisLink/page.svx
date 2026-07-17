@@ -1,7 +1,3 @@
----
-title: IrisLink 생성자
-category: irispy-client
----
 
 <Section>
   새 `IrisLink` 객체를 생성합니다.

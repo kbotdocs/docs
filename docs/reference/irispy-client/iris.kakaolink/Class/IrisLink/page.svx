@@ -1,7 +1,3 @@
----
-title: iris.kakaolink.IrisLink
-category: irispy-client
----
 
 <Section>
   `iris.kakaolink.IrisLink`는 카카오링크의 전송을 위한 클래스입니다.

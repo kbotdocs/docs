@@ -1,10 +1,3 @@
----
-title: Security.base64Decode()
-category: API2
-compat:
-  data: api2/Object/Security
-  feature: base64Decode
----
 
 <Section>
   `value`를 Base64 복호화한 값을 반환합니다.

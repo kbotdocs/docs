@@ -1,0 +1,7 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "next" : "learn/js/migration-to-api2/1-event-listener"
+   },
+   "title" : "API2로 마이그레이션"
+}

@@ -1,10 +1,3 @@
----
-title: FileStream.append()
-category: API2
-compat:
-  data: api2/Object/FileStream
-  feature: append
----
 
 <Section>
   `path` 경로의 파일 내용에 새로운 내용을 이어 씁니다. 이어 쓴 후 해당 파일의 최종 내용을 반환합니다.

@@ -1,10 +1,3 @@
----
-title: Bot.off()
-category: API2
-compat:
-  data: api2/Object/Bot
-  feature: off
----
 
 <Section>
   특정 이벤트에 대한 이벤트 리스너를 제거합니다. `listener` 인자가 없을 경우 리스너 이벤트의 마지막 리스너를 제거합니다. 해당 메소드의 동작은

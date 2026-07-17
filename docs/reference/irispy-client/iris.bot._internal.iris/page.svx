@@ -1,7 +1,3 @@
----
-title: iris.bot._internal.iris
-category: irispy-client
----
 
 <Section>
   `iris.bot._internal.iris` 모듈은 Iris API를 사용하기 위한 요소를 포함합니다.

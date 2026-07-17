@@ -1,7 +1,3 @@
----
-title: Message.chatLogId
-category: StarLight
----
 
 <Section>
   메시지에 대한 고유 ID입니다.

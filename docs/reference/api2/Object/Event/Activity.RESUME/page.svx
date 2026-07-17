@@ -1,10 +1,3 @@
----
-title: Event.Activity.RESUME
-category: API2
-compat:
-  data: api2/Object/Event
-  feature: Activity.RESUME
----
 
 <Section>
   API2의 [`activityResume`](/reference/api2/Event/activityResume) 이벤트입니다.

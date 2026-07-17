@@ -1,7 +1,3 @@
----
-title: Bot.iris_ws_endpoint
-category: irispy-client
----
 
 <Section>
   Iris가 사용하는 WebSocket 엔드포인트입니다.

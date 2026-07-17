@@ -1,7 +1,3 @@
----
-title: ChatSender.name
-category: StarLight
----
 
 <Section>
   발신자의 이름입니다.

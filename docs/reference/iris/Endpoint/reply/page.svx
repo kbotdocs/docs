@@ -1,7 +1,3 @@
----
-title: /reply
-category: Iris
----
 
 <Section>
   방에 텍스트 메시지 또는 이미지를 보냅니다.

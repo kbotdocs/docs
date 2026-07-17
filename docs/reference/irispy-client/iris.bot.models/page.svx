@@ -1,7 +1,3 @@
----
-title: iris.bot.models
-category: irispy-client
----
 
 <Section>
   `iris.bot.models` 모듈은 카카오톡봇의 개발에 필요한 데이터들을 포함합니다.

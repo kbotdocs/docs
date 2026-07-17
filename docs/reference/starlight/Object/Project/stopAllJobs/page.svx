@@ -1,7 +1,3 @@
----
-title: Project.stopAllJobs()
-category: StarLight
----
 
 <Section>
   작동 중인 모든 `job`을 중지합니다.

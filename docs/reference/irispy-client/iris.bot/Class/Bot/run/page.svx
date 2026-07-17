@@ -1,7 +1,3 @@
----
-title: Bot.run()
-category: irispy-client
----
 
 <Section>
   카카오톡봇을 시작하고 Iris 서버에 연결합니다. 블로킹 메소드입니다.

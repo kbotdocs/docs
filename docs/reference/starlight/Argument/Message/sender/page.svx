@@ -1,7 +1,3 @@
----
-title: Message.sender
-category: StarLight
----
 
 <Section>
   메시지의 발신자에 대한 [`ChatSender`](/reference/starlight/Argument/ChatSender) 객체입니다.

@@ -1,7 +1,3 @@
----
-title: Room.id
-category: irispy-client
----
 
 <Section>
   방의 id입니다.

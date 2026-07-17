@@ -1,7 +1,3 @@
----
-title: KakaoLinkCookieStorage.save()
-category: irispy-client
----
 
 <Section>
   쿠키를 저장합니다.

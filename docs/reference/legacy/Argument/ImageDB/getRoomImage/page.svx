@@ -1,10 +1,3 @@
----
-title: ImageDB.getRoomImage()
-category: 레거시 API
-compat:
-  data: legacy/Argument/ImageDB
-  feature: getRoomImage
----
 
 <Section>
   방 아이콘 이미지를 Base64 인코딩한 값을 반환합니다.

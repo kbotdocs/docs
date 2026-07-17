@@ -1,7 +1,3 @@
----
-title: KakaoLinkCookieStorage.load()
-category: irispy-client
----
 
 <Section>
   저장한 쿠키를 불러옵니다.

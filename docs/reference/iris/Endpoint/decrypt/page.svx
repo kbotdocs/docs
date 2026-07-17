@@ -1,7 +1,3 @@
----
-title: /decrypt
-category: Iris
----
 
 <Section>
   메시지를 복호화합니다.

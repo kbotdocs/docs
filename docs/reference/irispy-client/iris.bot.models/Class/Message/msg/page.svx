@@ -1,7 +1,3 @@
----
-title: Message.msg
-category: irispy-client
----
 
 <Section>
   메시지의 내용입니다.

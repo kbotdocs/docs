@@ -1,10 +1,3 @@
----
-title: Device.releaseWakeLock()
-category: 레거시 API
-compat:
-  data: legacy/Object/Device
-  feature: releaseWakeLock
----
 
 <Section>
   [wake lock](https://developer.android.com/develop/background-work/background-tasks/awake/wakelock)을 해제합니다.

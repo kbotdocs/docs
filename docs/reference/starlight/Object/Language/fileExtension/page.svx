@@ -1,7 +1,3 @@
----
-title: Language.fileExtension
-category: StarLight
----
 
 <Section>
   언어의 파일 확장자입니다.

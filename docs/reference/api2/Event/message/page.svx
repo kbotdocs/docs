@@ -1,10 +1,3 @@
----
-title: message 이벤트
-category: API2
-compat:
-  data: api2/Event/message
-  feature: "*"
----
 
 <Section>
   `message` 이벤트는 메시지를 수신할 때 발생하는 이벤트입니다.

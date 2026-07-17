@@ -1,7 +1,3 @@
----
-title: IrisAPI.reply()
-category: irispy-client
----
 
 <Section>
   특정 방에 메시지를 보냅니다.

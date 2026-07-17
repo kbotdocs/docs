@@ -1,10 +1,3 @@
----
-title: Image.getBitmap()
-category: API2
-compat:
-  data: api2/Argument/Image
-  feature: getBitmap
----
 
 <Section>
   이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.

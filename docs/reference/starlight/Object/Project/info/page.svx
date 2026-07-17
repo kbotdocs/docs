@@ -1,7 +1,3 @@
----
-title: Project.info
-category: StarLight
----
 
 <Section>
   프로젝트에 대한 정보입니다.

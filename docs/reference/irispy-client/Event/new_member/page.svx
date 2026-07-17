@@ -1,7 +1,3 @@
----
-title: new_member 이벤트
-category: irispy-client
----
 
 <Section>
   `new_member` 이벤트는 새 사용자가 방에 들어올 때 발생하는 이벤트입니다.

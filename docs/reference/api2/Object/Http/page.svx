@@ -1,10 +1,3 @@
----
-title: Http
-category: API2
-compat:
-  data: api2/Object/Http
-  feature: "*"
----
 
 <Section>
   `Http` 객체는 웹 상에서의 request(리퀘스트; 요청)에 관한 기능을 제공하는 객체입니다.

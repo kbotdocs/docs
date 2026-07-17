@@ -1,10 +1,3 @@
----
-title: FileStream.remove()
-category: API2
-compat:
-  data: api2/Object/FileStream
-  feature: remove
----
 
 <Section>
   `path` 경로의 파일을 삭제합니다. 파일의 삭제 성공 여부를 반환합니다.

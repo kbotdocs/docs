@@ -1,7 +1,3 @@
----
-title: IrisRequest.sender
-category: irispy-client
----
 
 <Section>
   메시지를 보낸 사용자의 이름입니다.

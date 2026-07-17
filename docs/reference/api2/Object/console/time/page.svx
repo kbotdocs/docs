@@ -1,10 +1,3 @@
----
-title: console.time()
-category: API2
-compat:
-  data: api2/Object/console
-  feature: time
----
 
 <Section>
   특정 레이블의 타이머를 시작합니다.

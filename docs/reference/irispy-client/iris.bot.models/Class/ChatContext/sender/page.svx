@@ -1,7 +1,3 @@
----
-title: ChatContext.sender
-category: irispy-client
----
 
 <Section>
   채팅을 전송한 사용자에 대한 `User` 객체입니다.

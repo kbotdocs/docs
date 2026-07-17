@@ -1,7 +1,3 @@
----
-title: ChatContext.room
-category: irispy-client
----
 
 <Section>
   채팅이 전송된 방에 대한 `Room` 객체입니다.

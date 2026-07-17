@@ -1,7 +1,3 @@
----
-title: DeletedMessage.sender
-category: StarLight
----
 
 <Section>
   삭제된 메시지의 발신자의 이름입니다.

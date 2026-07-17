@@ -1,10 +1,3 @@
----
-title: Api.getActiveThreadsCount()
-category: 레거시 API
-compat:
-  data: legacy/Object/Api
-  feature: getActiveThreadsCount
----
 
 <Section>
   스크립트의 활성 스레드 수를 반환합니다.

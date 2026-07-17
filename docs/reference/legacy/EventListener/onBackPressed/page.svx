@@ -1,10 +1,3 @@
----
-title: onBackPressed 이벤트 리스너
-category: 레거시 API
-compat:
-  data: legacy/EventListener/onBackPressed
-  feature: "*"
----
 
 <Section>
   `onBackPressed`는 스크립트 액티비티의

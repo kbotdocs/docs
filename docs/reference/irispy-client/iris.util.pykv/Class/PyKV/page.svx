@@ -1,7 +1,3 @@
----
-title: iris.util.pykv.PyKV
-category: irispy-client
----
 
 <Section>
   `iris.util.pykv.PyKV`는 SQLite을 사용하는 key-value DB에 접근/조작하기 위한 클래스입니다.

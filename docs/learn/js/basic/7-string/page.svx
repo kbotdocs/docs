@@ -1,10 +1,3 @@
----
-title: 문자열
-category: 자습서
-milestone:
-  prev: learn/js/basic/6-operator
-  next: learn/js/basic/8-array
----
 
 <Section>
   문자열(String)은 0개 이상의 문자들이 나열된 형태의 데이터입니다. 문자열을 다루는 편이 따로 존재하는 이유는 문자열이 중요한 자료형이며 문자열에 대해 알아야 할 것이 많기 때문입니다.

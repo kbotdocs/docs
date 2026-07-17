@@ -1,10 +1,3 @@
----
-title: Device.isCharging()
-category: API2
-compat:
-  data: api2/Object/Device
-  feature: isCharging
----
 
 <Section>
   앱 구동 기기가 충전 중인지의 여부를 반환합니다.

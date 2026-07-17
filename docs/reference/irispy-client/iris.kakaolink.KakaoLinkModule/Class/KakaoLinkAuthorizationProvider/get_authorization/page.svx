@@ -1,7 +1,3 @@
----
-title: KakaoLinkAuthorizationProvider.get_authorization()
-category: irispy-client
----
 
 <Section>
   카카오링크 API에 접근하기 위한 access token을 반환합니다.

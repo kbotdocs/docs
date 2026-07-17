@@ -1,7 +1,3 @@
----
-title: PyKV.open()
-category: irispy-client
----
 
 <Section>
   특정 데이터베이스 파일을 엽니다.

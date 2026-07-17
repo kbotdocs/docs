@@ -1,10 +1,3 @@
----
-title: Security.getDesKey()
-category: API2
-compat:
-  data: api2/Object/Security
-  feature: getDesKey
----
 
 <Section>
   <Noti type={"warning"}>

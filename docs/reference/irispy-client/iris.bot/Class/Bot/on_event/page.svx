@@ -1,7 +1,3 @@
----
-title: "@Bot.on_event"
-category: irispy-client
----
 
 <Section>
   이벤트 핸들러를 등록하기 위한 데코레이터입니다.

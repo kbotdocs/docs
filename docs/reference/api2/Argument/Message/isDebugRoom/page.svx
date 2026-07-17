@@ -1,10 +1,3 @@
----
-title: Message.isDebugRoom
-category: API2
-compat:
-  data: api2/Argument/Message
-  feature: isDebugRoom
----
 
 <Section>
   방이 디버깅 룸인지의 여부입니다.
