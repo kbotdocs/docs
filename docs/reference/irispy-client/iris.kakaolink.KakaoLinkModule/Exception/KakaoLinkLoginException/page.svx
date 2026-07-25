@@ -1,4 +1,4 @@
 
 <Section>
-  `iris.kakaolink.KakaoLinkModule.KakaoLinkLoginExcepetion`는 카카오링크 API 사용을 위한 로그인 중 발생한 예외 클래스입니다.
+  `iris.kakaolink.KakaoLinkModule.KakaoLinkLoginException`는 카카오링크 API 사용을 위한 로그인 중 발생한 예외 클래스입니다.
 </Section>

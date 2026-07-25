@@ -18,5 +18,5 @@
          "url" : "https://docs.python.org/3.13/library/exceptions.html#BaseException"
       }
    ],
-   "title" : "iris.kakaolink.KakaoLinkModule.KakaoLinkReceiverNotFoundExcepetion"
+   "title" : "iris.kakaolink.KakaoLinkModule.KakaoLinkReceiverNotFoundException"
 }

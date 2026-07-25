@@ -1,4 +1,4 @@
 
 <Section>
-  `iris.kakaolink.KakaoLinkModule.KakaoLinkReceiverNotFoundExcepetion`는 카카오링크를 전송할 방을 찾지 못해 발생한 예외 클래스입니다.
+  `iris.kakaolink.KakaoLinkModule.KakaoLinkReceiverNotFoundException`는 카카오링크를 전송할 방을 찾지 못해 발생한 예외 클래스입니다.
 </Section>

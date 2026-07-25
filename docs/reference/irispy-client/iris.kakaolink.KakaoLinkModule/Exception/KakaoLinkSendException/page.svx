@@ -1,4 +1,4 @@
 
 <Section>
-  `iris.kakaolink.KakaoLinkModule.KakaoLinkSendExcepetion`는 카카오링크 전송 중 발생한 예외 클래스입니다.
+  `iris.kakaolink.KakaoLinkModule.KakaoLinkSendException`는 카카오링크 전송 중 발생한 예외 클래스입니다.
 </Section>

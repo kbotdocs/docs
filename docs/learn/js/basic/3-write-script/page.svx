@@ -27,8 +27,8 @@
   * (boolean) msg.isDebugRoom: 디버그룸에서 받은 메시지일 시 true
   * (string) msg.packageName: 메시지를 받은 메신저의 패키지명
   * (void) msg.reply(string): 답장하기
-  * (boolean) msg.isMention: 메세지 맨션 포함 여부
-  * (bigint) msg.logId: 각 메세지의 고유 id
+  * (boolean) msg.isMention: 메시지 맨션 포함 여부
+  * (bigint) msg.logId: 각 메시지의 고유 id
   * (bigint) msg.channelId: 각 방의 고유 id
   */
   function onMessage(msg) {}
@@ -131,7 +131,7 @@
   bot.addListener(Event.COMMAND, onCommand);
   ~~~
 
-  해당 코드는 메시지를 감지할 때마다 'Hello, world!'라는 메시지를 보냅니다. 메시지를 보내는 코드를 작성할 때 텍스트를 큰따옴표나 작은따옴표로 감싸야합니다.
+  해당 코드는 메시지를 감지할 때마다 'Hello, world!'라는 메시지를 보냅니다. 메시지를 보내는 코드를 작성할 때 텍스트를 큰따옴표나 작은따옴표로 감싸야 합니다.
 
   ~~~js
   msg.reply("Hello, world!"); // 정상 작동

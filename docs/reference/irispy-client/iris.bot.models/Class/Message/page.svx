@@ -23,7 +23,7 @@
         <Td><span>`str`</span></Td>
         <Td>
           [`command`](/reference/irispy-client/iris.bot.models/Class/Message/command) \
-          메시지의 명령어 부분입니다. 메시지의 첫번째 단어를 가리킵니다.
+          메시지의 명령어 부분입니다. 메시지의 첫 번째 단어를 가리킵니다.
         </Td>
       </Tr>
       <Tr>
@@ -58,7 +58,7 @@
         <Td><span>`str`</span></Td>
         <Td>
           [`param`](/reference/irispy-client/iris.bot.models/Class/Message/param) \
-          메시지의 매개변수 부분입니다. 메시지의 첫번째 단어(명령어 부분)를 제외한 나머지입니다.
+          메시지의 매개변수 부분입니다. 메시지의 첫 번째 단어(명령어 부분)를 제외한 나머지입니다.
         </Td>
       </Tr>
       <Tr>

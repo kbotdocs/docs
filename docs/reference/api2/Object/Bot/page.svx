@@ -94,7 +94,7 @@
         <Td>
           [`prependListener`](/reference/api2/Object/Bot/prependListener)`(eventName: String, listener: (arg1?: Any, arg2?: Any, ...
           argN?: Any) => Any)` \
-          특정 이벤트에 대한 이벤트 리스너를 리스너 리스트의 첫번째에 추가합니다.
+          특정 이벤트에 대한 이벤트 리스너를 리스너 리스트의 첫 번째에 추가합니다.
         </Td>
       </Tr>
       <Tr>

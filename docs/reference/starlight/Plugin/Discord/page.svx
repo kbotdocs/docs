@@ -13,7 +13,7 @@
   4. StarLight 앱을 재시작하여 서버를 시작합니다.
   5. 이벤트를 수신할 프로젝트의 설정에 들어가 **호출이 허용된 이벤트** 항목에 `discord.message.*` 를 추가합니다.
 
-  위 과정을 실행하면 해당 프로젝트의 `onMessageCreate` 함수가 디스코드 메세지 수신시 호출됩니다.
+  위 과정을 실행하면 해당 프로젝트의 `onMessageCreate` 함수가 디스코드 메시지 수신 시 호출됩니다.
 </Section>
 <Section>
   ## Event 수신

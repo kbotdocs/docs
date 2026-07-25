@@ -154,7 +154,7 @@
   bot.addListener(Event.MESSAGE, onMessage);
   ~~~
 
-  이제 기존 코드에 남아있는 `response` 이벤트 리스너의 각 매개변수를 대응하는 API2 `message` 이벤트의 매개변수 `msg`의 프로퍼티 및 메소드로 수정해야합니다. 아래 표를 참고해 수정하세요.
+  이제 기존 코드에 남아있는 `response` 이벤트 리스너의 각 매개변수를 대응하는 API2 `message` 이벤트의 매개변수 `msg`의 프로퍼티 및 메소드로 수정해야 합니다. 아래 표를 참고해 수정하세요.
 
   <Table>
     <Thead>

@@ -9,7 +9,7 @@
   JavaScript 엔진인 **Rhino**와 **GraalJS**입니다.
 
   Rhino 엔진은 **채팅 자동응답 봇, StarLight 그리고 메신저봇R 0.7.40-alpha.02 이하 버전**에서 사용되며, 최신 JavaScript의 feature를 완전히 지원하지 않습니다. 
-  하지만 Java의 클래스를 객체로써 사용할 수 있습니다.
+  하지만 Java의 클래스를 객체로서 사용할 수 있습니다.
 
   GraalJS는 **메신저봇R 0.7.40-alpha.03 이상 버전**에서 사용됩니다. GraalJS는 Rhino 엔진보다 최신 JavaScript의 feature를 더 적극적으로 지원하며, 개선된 성능을 보입니다. Rhino 엔진과 마찬가지로 Java의 클래스를 사용할 수 있습니다.
   기초 자습서에서는 Java 클래스를 다루는 내용을 포함하지 않지만, 카카오톡봇 개발에 유용할 수 있습니다.
@@ -29,6 +29,6 @@
   카카오톡봇을 개발하고 작동시키기 위한 앱으로는 [메신저봇R](https://download.msgbot.app/), [채팅 자동응답 봇](https://github.com/DarkTornado/KakaoTalkBot/releases), [StarLight](https://starlight.mooner.dev/) 등이 있습니다.
 
   <Noti type={"warning"}>
-    카카오톡봇을 작동하기 위해서는 구동 기기의 운영체제가 Android여야 하며, 5.0 이상 버전이여야 합니다.
+    카카오톡봇을 작동하기 위해서는 구동 기기의 운영체제가 Android여야 하며, 5.0 이상 버전이어야 합니다.
   </Noti>
 </Section>

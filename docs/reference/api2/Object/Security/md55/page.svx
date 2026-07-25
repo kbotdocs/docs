@@ -32,6 +32,6 @@
   두 메소드 모두 MD5 암호화된 미가공 데이터(바이트 배열)를 16진수 문자열로 가공합니다. 하지만 바이트 배열을 16진수 문자열로 변환하는 방식에 차이가 있습니다.
   `Security.md5()`는 각 바이트를 2자리 16진수(`%02x`)로 변환하는 방식을 이용합니다.
   반면, `Security.md55()`는 `java.math.BigInteger` (`BigInteger(byte[] val)` 생성자)의
-  [`toString(retix)`](https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html#toString-int-) 메소드를 이용해 바이트
+  [`toString(radix)`](https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html#toString-int-) 메소드를 이용해 바이트
   배열을 16진수로 변환하는 방식을 이용합니다.
 </Section>
