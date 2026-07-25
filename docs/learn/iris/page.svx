@@ -6,6 +6,6 @@
   ## 로드맵
 
   <LearnRoadmap>
-    <Learn doc={"/learn/iris/installation"}/>
+  <Learn doc={"/learn/iris/installation"}/>
   </LearnRoadmap>
 </Section>

@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"mil"} type={"Number"}>
-        지연할 시간(밀리초; ms)
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"mil"} type={"Number"}>
+    지연할 시간(밀리초; ms)
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `Author` - 메시지의 발신자에 대한 [`Author`](/reference/api2/Argument/Author) 객체입니다.
+  `Author` - 메시지의 발신자에 대한 [`Author`](/reference/api2/Argument/Author) 객체입니다.
   </Section>
 </Section>

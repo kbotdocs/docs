@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"message"} type={"iris.bot.models.Message"}>
-        이미지를 가져올 메시지에 대한 [`Message`](/reference/irispy-client/iris.bot.models/Class/Message) 인스턴스
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"message"} type={"iris.bot.models.Message"}>
+    이미지를 가져올 메시지에 대한 [`Message`](/reference/irispy-client/iris.bot.models/Class/Message) 인스턴스
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

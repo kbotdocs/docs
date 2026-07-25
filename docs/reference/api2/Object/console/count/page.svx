@@ -11,13 +11,13 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"label"} type={"String"} defaultVal={"`\"default\"`"} optional>
-        호출 횟수를 기록할 레이블
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"label"} type={"String"} defaultVal={"`\"default\"`"} optional>
+    호출 횟수를 기록할 레이블
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>
 <Section>

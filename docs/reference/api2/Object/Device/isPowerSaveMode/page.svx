@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Boolean` - 앱 구동 기기가 절전 모드일 경우 `true`, 절전 모드가 아닐 경우 `false`를 반환합니다.
+  `Boolean` - 앱 구동 기기가 절전 모드일 경우 `true`, 절전 모드가 아닐 경우 `false`를 반환합니다.
   </Section>
 </Section>

@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `Boolean` - 메시지 내 멘션 포함 여부입니다.
+  `Boolean` - 메시지 내 멘션 포함 여부입니다.
   </Section>
 </Section>

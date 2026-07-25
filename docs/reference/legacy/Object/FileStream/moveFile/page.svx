@@ -10,20 +10,20 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"path1"} type={"String"}>
-        이동할 파일의 경로
-      </ParamItem>
-      <ParamItem param={"path2"} type={"String"}>
-        이동 위치가 되는 경로
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"path1"} type={"String"}>
+    이동할 파일의 경로
+    </ParamItem>
+    <ParamItem param={"path2"} type={"String"}>
+    이동 위치가 되는 경로
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Boolean` - 파일 이동에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
+  `Boolean` - 파일 이동에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
   </Section>
 </Section>

@@ -11,12 +11,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"max_workers"} type={"int"} defaultValue={"None"} optional>
-        이벤트 처리에 사용할 최대 스레드 수
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"max_workers"} type={"int"} defaultValue={"None"} optional>
+    이벤트 처리에 사용할 최대 스레드 수
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

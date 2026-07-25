@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `Exception` - 에러에 대한 `Exception` 객체입니다.
+  `Exception` - 에러에 대한 `Exception` 객체입니다.
   </Section>
 </Section>

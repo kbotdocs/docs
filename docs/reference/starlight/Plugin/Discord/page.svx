@@ -27,36 +27,36 @@
   ## 예제
 
   <Section>
-    ### 단순 수신&답장
+  ### 단순 수신&답장
 
-    ~~~js
-    function onMessageCreate(event) {
-      if (!event.messageAuthor.isUser()) return;
-      if (event.message.content !== "!ping") return;
+  ~~~js
+  function onMessageCreate(event) {
+    if (!event.messageAuthor.isUser()) return;
+    if (event.message.content !== "!ping") return;
 
-      event.channel.sendMessage("Pong!");
-    }
-    ~~~
+    event.channel.sendMessage("Pong!");
+  }
+  ~~~
   </Section>
   <Section>
-    ### 수신&답장 심화
+  ### 수신&답장 심화
 
-    ~~~js
-    const ms = java.lang.System.currentTimeMillis;
+  ~~~js
+  const ms = java.lang.System.currentTimeMillis;
 
-    function onMessageCreate(event) {
-      if (!event.messageAuthor.isUser()) return;
-      if (event.message.content !== "!ping") return;
+  function onMessageCreate(event) {
+    if (!event.messageAuthor.isUser()) return;
+    if (event.message.content !== "!ping") return;
 
-      let start = ms();
+    let start = ms();
 
-      event.channel.sendMessage("안녕하세요, " + event.messageAuthor.name + "님!");
-      event.channel.sendMessage("Pong!")
-      .thenAccept(msg => {
-        let now = ms();
-        msg.edit("핑은 " + (now - start) + "ms 에요!");
-      });
-    }
-    ~~~
+    event.channel.sendMessage("안녕하세요, " + event.messageAuthor.name + "님!");
+    event.channel.sendMessage("Pong!")
+    .thenAccept(msg => {
+    let now = ms();
+    msg.edit("핑은 " + (now - start) + "ms 에요!");
+    });
+  }
+  ~~~
   </Section>
 </Section>

@@ -11,15 +11,15 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"str"} type={"String"}>
-        작성할 정보 로그의 내용
-      </ParamItem>
-      <ParamItem param={"showToast"} type={"Boolean"} defaultVal={"`false`"} optional>
-        작성된 로그를 토스트 메시지로 출력할 것인지의 여부
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"str"} type={"String"}>
+    작성할 정보 로그의 내용
+    </ParamItem>
+    <ParamItem param={"showToast"} type={"Boolean"} defaultVal={"`false`"} optional>
+    작성된 로그를 토스트 메시지로 출력할 것인지의 여부
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

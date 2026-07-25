@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"msg"} type={"String"}>
-        표시할 토스트 메시지의 내용
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"msg"} type={"String"}>
+    표시할 토스트 메시지의 내용
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

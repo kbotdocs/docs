@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `String` - 명령어의 이름입니다.
+  `String` - 명령어의 이름입니다.
   </Section>
 </Section>

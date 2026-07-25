@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `str` - 방의 이름입니다.
+  `str` - 방의 이름입니다.
   </Section>
 </Section>

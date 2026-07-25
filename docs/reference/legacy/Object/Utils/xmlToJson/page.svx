@@ -10,17 +10,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"xml"} type={"String"}>
-        `JSON String`으로 변환할 XML 형식의 문자열
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"xml"} type={"String"}>
+    `JSON String`으로 변환할 XML 형식의 문자열
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `String` - `xml`을 `JSON String`으로 변환한 값을 반환합니다.
+  `String` - `xml`을 `JSON String`으로 변환한 값을 반환합니다.
   </Section>
 </Section>

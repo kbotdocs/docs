@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `int` - 방의 id입니다.
+  `int` - 방의 id입니다.
   </Section>
 </Section>

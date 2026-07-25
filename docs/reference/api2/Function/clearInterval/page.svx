@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"intervalID"} type={"Number"}>
-        취소할 반복 작업의 ID. 해당 값은 [`setInterval()`](/reference/api2/Function/setInterval) 호출 시 반환된 값입니다.
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"intervalID"} type={"Number"}>
+    취소할 반복 작업의 ID. 해당 값은 [`setInterval()`](/reference/api2/Function/setInterval) 호출 시 반환된 값입니다.
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

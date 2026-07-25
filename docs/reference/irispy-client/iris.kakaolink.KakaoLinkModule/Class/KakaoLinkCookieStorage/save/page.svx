@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"cookies"} type={"dict"}>
-        저장할 쿠키
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"cookies"} type={"dict"}>
+    저장할 쿠키
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

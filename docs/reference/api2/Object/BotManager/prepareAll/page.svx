@@ -12,17 +12,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"throwOnError"} type={"Boolean"} defaultVal={"`false`"} optional>
-        컴파일 에러 시 에러 throw 여부
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"throwOnError"} type={"Boolean"} defaultVal={"`false`"} optional>
+    컴파일 에러 시 에러 throw 여부
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Number` - 새롭게 컴파일된 `Bot` 객체의 개수를 반환합니다.
+  `Number` - 새롭게 컴파일된 `Bot` 객체의 개수를 반환합니다.
   </Section>
 </Section>

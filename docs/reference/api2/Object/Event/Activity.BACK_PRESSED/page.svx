@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 상수값
+  ### 상수값
 
-    `String` - `"activityBackPressed"`
+  `String` - `"activityBackPressed"`
   </Section>
 </Section>

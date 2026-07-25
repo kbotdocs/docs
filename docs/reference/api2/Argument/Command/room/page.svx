@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `String` - 메시지가 발신된 방의 이름입니다.
+  `String` - 메시지가 발신된 방의 이름입니다.
   </Section>
 </Section>

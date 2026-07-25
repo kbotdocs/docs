@@ -1,17 +1,17 @@
 
 <Section>
-    해당 메소드를 실행한 스레드가 UI 스레드인지의 여부를 반환합니다.
+  해당 메소드를 실행한 스레드가 UI 스레드인지의 여부를 반환합니다.
 </Section>
 <Section>
-    ## 구문
+  ## 구문
 
-    ~~~js
-    App.isMainThread();
-    ~~~
+  ~~~js
+  App.isMainThread();
+  ~~~
 
-    <Section>
-        ### 반환값
+  <Section>
+    ### 반환값
 
-        `Boolean` - 해당 메소드를 실행한 스레드가 UI 스레드이면 `true`, 아니면 `false`를 반환합니다.
-    </Section>
+    `Boolean` - 해당 메소드를 실행한 스레드가 UI 스레드이면 `true`, 아니면 `false`를 반환합니다.
+  </Section>
 </Section>

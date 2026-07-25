@@ -12,15 +12,15 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"title"} type={"String"} defaultVal={"`null`"} optional>
-        수정할 제목
-      </ParamItem>
-      <ParamItem param={"message"} type={"String"} defaultVal={"`null`"} optional>
-        수정할 문자열
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"title"} type={"String"} defaultVal={"`null`"} optional>
+    수정할 제목
+    </ParamItem>
+    <ParamItem param={"message"} type={"String"} defaultVal={"`null`"} optional>
+    수정할 문자열
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

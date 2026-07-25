@@ -10,15 +10,15 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"name"} type={"String"}>
-        값을 저장할 `[[전체변수]]`의 이름
-      </ParamItem>
-      <ParamItem param={"value"} type={"String"}>
-        저장할 값
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"name"} type={"String"}>
+    값을 저장할 `[[전체변수]]`의 이름
+    </ParamItem>
+    <ParamItem param={"value"} type={"String"}>
+    저장할 값
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

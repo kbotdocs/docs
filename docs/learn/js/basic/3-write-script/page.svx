@@ -55,10 +55,10 @@
 
 
   function onCreate(savedInstanceState, activity) {
-    var textView = new android.widget.TextView(activity);
-    textView.setText("Hello, World!");
-    textView.setTextColor(android.graphics.Color.DKGRAY);
-    activity.setContentView(textView);
+  var textView = new android.widget.TextView(activity);
+  textView.setText("Hello, World!");
+  textView.setTextColor(android.graphics.Color.DKGRAY);
+  activity.setContentView(textView);
   }
 
   function onStart(activity) {}
@@ -115,14 +115,14 @@
   작성할 때 가독성을 위해 중괄호 내부의 코드는 들여쓰기를 하고 작성하는 것을 권장합니다.
 
   <Noti type="warning">
-    아래 예제 코드는 실제 채팅방에서 작동할 경우 채팅방에 피해를 줄 수 있습니다.
+  아래 예제 코드는 실제 채팅방에서 작동할 경우 채팅방에 피해를 줄 수 있습니다.
   </Noti>
 
   ~~~js
   const bot = BotManager.getCurrentBot();
 
   function onMessage(msg) {
-    msg.reply("Hello, world!");
+  msg.reply("Hello, world!");
   }
   bot.addListener(Event.MESSAGE, onMessage);
 
@@ -150,7 +150,7 @@
   ## 테스트해보기: 디버깅룸
 
   <Noti type="warning">
-    메신저봇R 0.7.34a에서는 디버깅룸이 정상적으로 동작하지 않습니다.
+  메신저봇R 0.7.34a에서는 디버깅룸이 정상적으로 동작하지 않습니다.
   </Noti>
 
   실제 채팅방에 적용하기 곤란하거나 미리 카카오톡봇을 테스트하고자 할 경우, 디버깅룸에서 테스트할 수 있습니다. 디버깅룸은 카카오톡 채팅방을 모방한 가상의 채팅방입니다.

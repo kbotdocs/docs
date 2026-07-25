@@ -3,49 +3,49 @@
   메시지를 복호화합니다.
 
   <Dl>
-    <Dt>엔드포인트</Dt>
-    <Dd>
-      <Endpoint method={"POST"}>`/decrypt`</Endpoint>
-    </Dd>
-    <Dt>Content-Type</Dt>
-    <Dd>
-      `application/json`
-    </Dd>
+  <Dt>엔드포인트</Dt>
+  <Dd>
+    <Endpoint method={"POST"}>`/decrypt`</Endpoint>
+  </Dd>
+  <Dt>Content-Type</Dt>
+  <Dd>
+    `application/json`
+  </Dd>
   </Dl>
 </Section>
 <Section>
   ## 요청
 
   <Section>
-    ### 본문
+  ### 본문
 
-    ~~~json
-    {
-      "enc": [ENCRYPTION_TYPE],
-      "b64_ciphertext": "[BASE64_ENCODED_CIPHERTEXT]",
-      "user_id": [USER_ID]
-    }
-    ~~~
-    <ParamList>
-      <ParamItem param={"enc"} type={"int"}>
-        암호화 유형입니다. 데이터베이스에서 가져온 정수입니다.
-      </ParamItem>
-      <ParamItem param={"b64_ciphertext"} type={"string"}>
-        Base64 인코딩된 암호화 메시지입니다.
-      </ParamItem>
-      <ParamItem param={"user_id"} type={"long"} defaultVal={"`config.json`의 `bot_id`"} optional>
-        사용자 ID입니다.
-      </ParamItem>
-    </ParamList>
+  ~~~json
+  {
+    "enc": [ENCRYPTION_TYPE],
+    "b64_ciphertext": "[BASE64_ENCODED_CIPHERTEXT]",
+    "user_id": [USER_ID]
+  }
+  ~~~
+  <ParamList>
+    <ParamItem param={"enc"} type={"int"}>
+    암호화 유형입니다. 데이터베이스에서 가져온 정수입니다.
+    </ParamItem>
+    <ParamItem param={"b64_ciphertext"} type={"string"}>
+    Base64 인코딩된 암호화 메시지입니다.
+    </ParamItem>
+    <ParamItem param={"user_id"} type={"long"} defaultVal={"`config.json`의 `bot_id`"} optional>
+    사용자 ID입니다.
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 예제
+  ### 예제
 
-    ~~~bash
-    curl -d '{"enc": 0, "b64_ciphertext": "[ENCRYPTED_MESSAGE_BASE64]", "user_id": 1234567890}' \
-      -H "Content-Type: application/json" \
-      -X POST http://[YOUR_DEVICE_IP]:[bot_http_port]/decrypt
-    ~~~
+  ~~~bash
+  curl -d '{"enc": 0, "b64_ciphertext": "[ENCRYPTED_MESSAGE_BASE64]", "user_id": 1234567890}' \
+    -H "Content-Type: application/json" \
+    -X POST http://[YOUR_DEVICE_IP]:[bot_http_port]/decrypt
+  ~~~
   </Section>
 </Section>
 <Section>
@@ -53,13 +53,13 @@
 
   ~~~json
   {
-    "plain_text": "[DECRYPTED_MESSAGE_TEXT]"
+  "plain_text": "[DECRYPTED_MESSAGE_TEXT]"
   }
   ~~~
 
   <ParamList>
-    <ParamItem param={"plain_text"} type={"string"}>
-      복호화된 평문입니다.
-    </ParamItem>
+  <ParamItem param={"plain_text"} type={"string"}>
+    복호화된 평문입니다.
+  </ParamItem>
   </ParamList>
 </Section>

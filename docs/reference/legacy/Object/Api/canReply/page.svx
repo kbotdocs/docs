@@ -10,17 +10,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"room"} type={"String | BigInt"}>
-        메시지 발신 가능 여부를 확인할 방의 식별자. 식별자는 방의 이름 또는 방의 ID를 사용할 수 있습니다.
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"room"} type={"String | BigInt"}>
+    메시지 발신 가능 여부를 확인할 방의 식별자. 식별자는 방의 이름 또는 방의 ID를 사용할 수 있습니다.
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Boolean` - 메시지를 보낼 수 있을 경우 `true`, 보낼 수 없을 경우 `false`를 반환합니다.
+  `Boolean` - 메시지를 보낼 수 있을 경우 `true`, 보낼 수 없을 경우 `false`를 반환합니다.
   </Section>
 </Section>

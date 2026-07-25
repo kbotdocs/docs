@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `str` - Iris가 사용하는 서버의 URL입니다.
+  `str` - Iris가 사용하는 서버의 URL입니다.
   </Section>
 </Section>

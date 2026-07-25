@@ -6,28 +6,28 @@
   ## 데코레이터
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>`iris.decorators`의 데코레이터</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>[`has_param`](/reference/irispy-client/iris.decorators/Decorator/has_param)</span></Td>
-        <Td>메시지에 매개변수가 있는 경우에만 함수를 실행합니다.</Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`is_admin`](/reference/irispy-client/iris.decorators/Decorator/is_admin)</span></Td>
-        <Td>메시지를 보낸 사용자가 차단되지 않은 경우에만 함수를 실행합니다.</Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`is_not_banned`](/reference/irispy-client/iris.decorators/Decorator/is_not_banned)</span></Td>
-        <Td>메시지를 보낸 사용자가 관리자인 경우에만 함수를 실행합니다.</Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`is_reply`](/reference/irispy-client/iris.decorators/Decorator/is_reply)</span></Td>
-        <Td>메시지가 답장일 경우 함수를 실행합니다. 답장이 아닐 경우 "메시지에 답장하여 요청하세요."라는 메시지를 보냅니다.</Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>`iris.decorators`의 데코레이터</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>[`has_param`](/reference/irispy-client/iris.decorators/Decorator/has_param)</span></Td>
+    <Td>메시지에 매개변수가 있는 경우에만 함수를 실행합니다.</Td>
+    </Tr>
+    <Tr>
+    <Td><span>[`is_admin`](/reference/irispy-client/iris.decorators/Decorator/is_admin)</span></Td>
+    <Td>메시지를 보낸 사용자가 차단되지 않은 경우에만 함수를 실행합니다.</Td>
+    </Tr>
+    <Tr>
+    <Td><span>[`is_not_banned`](/reference/irispy-client/iris.decorators/Decorator/is_not_banned)</span></Td>
+    <Td>메시지를 보낸 사용자가 관리자인 경우에만 함수를 실행합니다.</Td>
+    </Tr>
+    <Tr>
+    <Td><span>[`is_reply`](/reference/irispy-client/iris.decorators/Decorator/is_reply)</span></Td>
+    <Td>메시지가 답장일 경우 함수를 실행합니다. 답장이 아닐 경우 "메시지에 답장하여 요청하세요."라는 메시지를 보냅니다.</Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 상수값
+  ### 상수값
 
-    `Number` - `1`
+  `Number` - `1`
   </Section>
 </Section>

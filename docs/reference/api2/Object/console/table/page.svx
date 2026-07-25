@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"data"} type={"any"} optional>
-        표 형태의 텍스트로 작성할 데이터
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"data"} type={"any"} optional>
+    표 형태의 텍스트로 작성할 데이터
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

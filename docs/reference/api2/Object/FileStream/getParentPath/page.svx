@@ -10,17 +10,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"path"} type={"String"}>
-        부모 디렉토리 경로를 확인할 경로
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"path"} type={"String"}>
+    부모 디렉토리 경로를 확인할 경로
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `String` - `path` 경로의 부모 디렉토리 경로를 반환합니다. `path`가 최상위 경로일 경우 `null`을 반환합니다.
+  `String` - `path` 경로의 부모 디렉토리 경로를 반환합니다. `path`가 최상위 경로일 경우 `null`을 반환합니다.
   </Section>
 </Section>

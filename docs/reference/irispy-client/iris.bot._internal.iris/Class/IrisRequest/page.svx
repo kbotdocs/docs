@@ -6,40 +6,40 @@
   ## 인스턴스 프로퍼티
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>`iris.bot._internal.iris.IrisRequest`의 인스턴스 프로퍼티</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>`str`</span></Td>
-        <Td>
-          [`msg`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/msg) \
-          메시지의 내용입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`dict`</span></Td>
-        <Td>
-          [`raw`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/raw) \
-          원시 이벤트 데이터입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`str`</span></Td>
-        <Td>
-          [`room`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/room) \
-          메시지가 온 방의 이름입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`str`</span></Td>
-        <Td>
-          [`sender`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/sender) \
-          메시지를 보낸 사용자의 이름입니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>`iris.bot._internal.iris.IrisRequest`의 인스턴스 프로퍼티</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>`str`</span></Td>
+    <Td>
+      [`msg`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/msg) \
+      메시지의 내용입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`dict`</span></Td>
+    <Td>
+      [`raw`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/raw) \
+      원시 이벤트 데이터입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`str`</span></Td>
+    <Td>
+      [`room`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/room) \
+      메시지가 온 방의 이름입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`str`</span></Td>
+    <Td>
+      [`sender`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/sender) \
+      메시지를 보낸 사용자의 이름입니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

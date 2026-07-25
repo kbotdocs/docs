@@ -6,99 +6,99 @@
   ## 생성자
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th>`iris.bot.Bot`의 생성자</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td>
-          [`Bot`](/reference/irispy-client/iris.bot/Class/Bot/Bot)`(iris_url: str, *, max_workers: int = None)` \
-          새 `Bot` 객체를 생성합니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th>`iris.bot.Bot`의 생성자</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td>
+      [`Bot`](/reference/irispy-client/iris.bot/Class/Bot/Bot)`(iris_url: str, *, max_workers: int = None)` \
+      새 `Bot` 객체를 생성합니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>
 <Section>
   ## 인스턴스 프로퍼티
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>`iris.bot.Bot`의 인스턴스 프로퍼티</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>[`iris.bot._internal.iris.IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI)</span></Td>
-        <Td>
-          [`api`](/reference/irispy-client/iris.bot/Class/Bot/api) \
-          Iris 서버와의 상호작용을 위한 `IrisAPI` 객체입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`iris.bot._internal.emitter.EventEmitter`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter)</span></Td>
-        <Td>
-          [`emitter`](/reference/irispy-client/iris.bot/Class/Bot/emitter) \
-          이벤트의 관리를 위한 `EventEmitter` 객체입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`str`</span></Td>
-        <Td>
-          [`iris_url`](/reference/irispy-client/iris.bot/Class/Bot/iris_url) \
-          Iris가 사용하는 서버의 URL입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`str`</span></Td>
-        <Td>
-          [`iris_ws_endpoint`](/reference/irispy-client/iris.bot/Class/Bot/iris_ws_endpoint) \
-          Iris가 사용하는 WebSocket 엔드포인트입니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>`iris.bot.Bot`의 인스턴스 프로퍼티</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>[`iris.bot._internal.iris.IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI)</span></Td>
+    <Td>
+      [`api`](/reference/irispy-client/iris.bot/Class/Bot/api) \
+      Iris 서버와의 상호작용을 위한 `IrisAPI` 객체입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>[`iris.bot._internal.emitter.EventEmitter`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter)</span></Td>
+    <Td>
+      [`emitter`](/reference/irispy-client/iris.bot/Class/Bot/emitter) \
+      이벤트의 관리를 위한 `EventEmitter` 객체입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`str`</span></Td>
+    <Td>
+      [`iris_url`](/reference/irispy-client/iris.bot/Class/Bot/iris_url) \
+      Iris가 사용하는 서버의 URL입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`str`</span></Td>
+    <Td>
+      [`iris_ws_endpoint`](/reference/irispy-client/iris.bot/Class/Bot/iris_ws_endpoint) \
+      Iris가 사용하는 WebSocket 엔드포인트입니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>
 <Section>
   ## 인스턴스 메소드
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>`iris.bot.Bot`의 인스턴스 메소드</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>`None`</span></Td>
-        <Td>
-          [`run`](/reference/irispy-client/iris.bot/Class/Bot/run)`()` \
-          카카오톡봇을 시작하고 Iris 서버에 연결합니다. 블로킹 메소드입니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>`iris.bot.Bot`의 인스턴스 메소드</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>`None`</span></Td>
+    <Td>
+      [`run`](/reference/irispy-client/iris.bot/Class/Bot/run)`()` \
+      카카오톡봇을 시작하고 Iris 서버에 연결합니다. 블로킹 메소드입니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>
 <Section>
   ## 인스턴스 데코레이터
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>`iris.bot.Bot`의 인스턴스 데코레이터</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>*[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)*</span></Td>
-        <Td>
-          [`on_event`](/reference/irispy-client/iris.bot/Class/Bot/on_event)`(name: str)` \
-          이벤트 핸들러를 등록하기 위한 데코레이터입니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>`iris.bot.Bot`의 인스턴스 데코레이터</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>*[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)*</span></Td>
+    <Td>
+      [`on_event`](/reference/irispy-client/iris.bot/Class/Bot/on_event)`(name: str)` \
+      이벤트 핸들러를 등록하기 위한 데코레이터입니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

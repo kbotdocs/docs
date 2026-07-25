@@ -6,20 +6,20 @@
   ## 클래스
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>`iris.bot._internal.iris`의 클래스</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>[`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI)</span></Td>
-        <Td>Iris API를 사용하기 위한 클래스입니다.</Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`IrisRequest`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest)</span></Td>
-        <Td>Iris의 요청에 대한 데이터입니다.</Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>`iris.bot._internal.iris`의 클래스</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>[`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI)</span></Td>
+    <Td>Iris API를 사용하기 위한 클래스입니다.</Td>
+    </Tr>
+    <Tr>
+    <Td><span>[`IrisRequest`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest)</span></Td>
+    <Td>Iris의 요청에 대한 데이터입니다.</Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

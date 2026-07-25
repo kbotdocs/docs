@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `java.io.File` - 프로젝트의 루트 디렉터리에 대한 `java.io.File`입니다.
+  `java.io.File` - 프로젝트의 루트 디렉터리에 대한 `java.io.File`입니다.
   </Section>
 </Section>

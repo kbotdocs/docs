@@ -6,33 +6,33 @@
   ## 정적 메소드
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan="2">`Platform` 객체의 정적 메소드</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>`String`</span></Td>
-        <Td>
-          [`getName`](/reference/starlight/Object/Platform/getName)`()` \
-          현재 구동 중인 봇 앱의 이름을 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Long`</span></Td>
-        <Td>
-          [`getUptime`](/reference/starlight/Object/Platform/getUptime)`()` \
-          현재 구동중인 봇 앱의 구동 시간을 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`String`</span></Td>
-        <Td>
-          [`getVersion`](/reference/starlight/Object/Platform/getVersion)`()` \
-          현재 구동 중인 봇 앱의 버전을 반환합니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan="2">`Platform` 객체의 정적 메소드</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>`String`</span></Td>
+    <Td>
+      [`getName`](/reference/starlight/Object/Platform/getName)`()` \
+      현재 구동 중인 봇 앱의 이름을 반환합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`Long`</span></Td>
+    <Td>
+      [`getUptime`](/reference/starlight/Object/Platform/getUptime)`()` \
+      현재 구동중인 봇 앱의 구동 시간을 반환합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`String`</span></Td>
+    <Td>
+      [`getVersion`](/reference/starlight/Object/Platform/getVersion)`()` \
+      현재 구동 중인 봇 앱의 버전을 반환합니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

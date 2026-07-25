@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"key"} type={"String"}>
-        삭제할 앱 데이터의 키
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"key"} type={"String"}>
+    삭제할 앱 데이터의 키
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

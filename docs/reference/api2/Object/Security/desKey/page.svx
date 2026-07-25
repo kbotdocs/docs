@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `String` - 생성한 DES 보조키를 반환합니다.
+  `String` - 생성한 DES 보조키를 반환합니다.
   </Section>
 </Section>

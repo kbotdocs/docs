@@ -10,15 +10,15 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"key"} type={"String"}>
-        쓸 앱 데이터의 키
-      </ParamItem>
-      <ParamItem param={"string"} type={"String"}>
-        `key`에 대한 `String`형 데이터
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"key"} type={"String"}>
+    쓸 앱 데이터의 키
+    </ParamItem>
+    <ParamItem param={"string"} type={"String"}>
+    `key`에 대한 `String`형 데이터
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

@@ -12,16 +12,16 @@
 
   @bot.on_event("message")
   def on_message(chat: ChatContext):
-    ...
+  ...
   ~~~
 
   <Section>
-    ### 인자
+  ### 인자
 
-    <ParamList>
-      <ParamItem param={"chat"} type={"ChatContext"}>
-        이벤트에 대한 컨텍스트인 [`ChatContext`](/reference/irispy-client/iris.bot.models/ChatContext) 객체입니다.
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"chat"} type={"ChatContext"}>
+    이벤트에 대한 컨텍스트인 [`ChatContext`](/reference/irispy-client/iris.bot.models/ChatContext) 객체입니다.
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

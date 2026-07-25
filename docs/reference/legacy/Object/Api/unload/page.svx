@@ -10,17 +10,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"scriptName"} type={"String"}>
-        언로드할 스크립트의 이름
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"scriptName"} type={"String"}>
+    언로드할 스크립트의 이름
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Boolean` - `scriptName`를 이름으로 하는 스크립트의 언로드에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
+  `Boolean` - `scriptName`를 이름으로 하는 스크립트의 언로드에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
   </Section>
 </Section>

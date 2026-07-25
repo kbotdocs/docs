@@ -6,68 +6,68 @@
   ## 정적 메소드
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan="2">`Log` 객체의 정적 메소드</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`clear`](/reference/api2/Object/Log/clear)`()` \
-          스크립트 로그를 모두 삭제합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`d`](/reference/api2/Object/Log/d)`(data: String, showToast?: Boolean = false)` \
-          디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`debug`](/reference/api2/Object/Log/debug)`(data: String, showToast?: Boolean = false)` \
-          디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`e`](/reference/api2/Object/Log/e)`(data: String, showToast?: Boolean = false)` \
-          에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`error`](/reference/api2/Object/Log/error)`(data: String, showToast?: Boolean = false)` \
-          에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`i`](/reference/api2/Object/Log/i)`(data: String, showToast?: Boolean = false)` \
-          정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`info`](/reference/api2/Object/Log/info)`(data: String, showToast?: Boolean = false)` \
-          정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`log`](/reference/api2/Object/Log/log)`(data: String, showToast?: Boolean = false)` \
-          정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan="2">`Log` 객체의 정적 메소드</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`clear`](/reference/api2/Object/Log/clear)`()` \
+      스크립트 로그를 모두 삭제합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`d`](/reference/api2/Object/Log/d)`(data: String, showToast?: Boolean = false)` \
+      디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`debug`](/reference/api2/Object/Log/debug)`(data: String, showToast?: Boolean = false)` \
+      디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`e`](/reference/api2/Object/Log/e)`(data: String, showToast?: Boolean = false)` \
+      에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`error`](/reference/api2/Object/Log/error)`(data: String, showToast?: Boolean = false)` \
+      에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`i`](/reference/api2/Object/Log/i)`(data: String, showToast?: Boolean = false)` \
+      정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`info`](/reference/api2/Object/Log/info)`(data: String, showToast?: Boolean = false)` \
+      정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`log`](/reference/api2/Object/Log/log)`(data: String, showToast?: Boolean = false)` \
+      정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

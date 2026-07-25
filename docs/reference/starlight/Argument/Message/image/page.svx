@@ -13,8 +13,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `android.graphics.Bitmap` - 메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
+  `android.graphics.Bitmap` - 메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
   </Section>
 </Section>

@@ -11,19 +11,19 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"content"} type={"String"}>
-        표시할 토스트 메시지의 내용
-      </ParamItem>
-      <ParamItem param={"length"} type={"Number"} defaultVal={"`android.widget.Toast.LENGTH_SHORT = 0 (0x00000000)`"} optional>
-        토스트 메시지의 유지 시간을 나타내는 상수
-        <Details summary={"토스트 메시지의 유지 시간 (`android.widget.Toast`)"}>
-          - `LENGTH_SHORT = 0 (0x00000000)`: 짧은 시간동안 출력
-          - `LENGTH_LONG = 1 (0x00000001)`: 긴 시간동안 출력
-        </Details>
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"content"} type={"String"}>
+    표시할 토스트 메시지의 내용
+    </ParamItem>
+    <ParamItem param={"length"} type={"Number"} defaultVal={"`android.widget.Toast.LENGTH_SHORT = 0 (0x00000000)`"} optional>
+    토스트 메시지의 유지 시간을 나타내는 상수
+    <Details summary={"토스트 메시지의 유지 시간 (`android.widget.Toast`)"}>
+      - `LENGTH_SHORT = 0 (0x00000000)`: 짧은 시간동안 출력
+      - `LENGTH_LONG = 1 (0x00000001)`: 긴 시간동안 출력
+    </Details>
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

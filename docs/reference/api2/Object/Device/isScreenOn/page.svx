@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Boolean` - 앱 구동 기기의 화면이 켜져 있을 경우 `true`, 꺼져 있을 경우 `false`를 반환합니다.
+  `Boolean` - 앱 구동 기기의 화면이 켜져 있을 경우 `true`, 꺼져 있을 경우 `false`를 반환합니다.
   </Section>
 </Section>

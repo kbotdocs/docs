@@ -8,6 +8,6 @@
   ~~~py
   @has_param
   def func(...):
-    ...
+  ...
   ~~~
 </Section>

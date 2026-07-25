@@ -6,68 +6,68 @@
   ## 정적 메소드
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan="2">`AppData` 객체의 정적 메소드</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`clear`](/reference/api2/Object/AppData/clear)`()` \
-          `AppData` 객체로 저장한 모든 데이터를 삭제합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Boolean`</span></Td>
-        <Td>
-          [`getBoolean`](/reference/api2/Object/AppData/getBoolean)`(key: String)` \
-          `key`에 대응하는 `Boolean`형 데이터를 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Number`</span></Td>
-        <Td>
-          [`getInt`](/reference/api2/Object/AppData/getInt)`(key: String)` \
-          `key`에 대응하는 `Number`(정수)형 데이터를 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`String`</span></Td>
-        <Td>
-          [`getString`](/reference/api2/Object/AppData/getString)`(key: String)` \
-          `key`에 대응하는 `String`형 데이터를 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`putBoolean`](/reference/api2/Object/AppData/putBoolean)`(key: String, boolean: Boolean)` \
-          앱 데이터에 `key: boolean` (`String: Boolean` 형식) 데이터를 씁니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`putInt`](/reference/api2/Object/AppData/putInt)`(key: String, integer: Number)` \
-          앱 데이터에 `key: integer` (`String: Number(정수)` 형식) 데이터를 씁니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`putString`](/reference/api2/Object/AppData/putString)`(key: String, string: String)` \
-          앱 데이터에 `key: string` (`String: String` 형식) 데이터를 씁니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`void`</span></Td>
-        <Td>
-          [`remove`](/reference/api2/Object/AppData/remove)`(key: String)` \
-          `key`에 대응하는 앱 데이터를 삭제합니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan="2">`AppData` 객체의 정적 메소드</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`clear`](/reference/api2/Object/AppData/clear)`()` \
+      `AppData` 객체로 저장한 모든 데이터를 삭제합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`Boolean`</span></Td>
+    <Td>
+      [`getBoolean`](/reference/api2/Object/AppData/getBoolean)`(key: String)` \
+      `key`에 대응하는 `Boolean`형 데이터를 반환합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`Number`</span></Td>
+    <Td>
+      [`getInt`](/reference/api2/Object/AppData/getInt)`(key: String)` \
+      `key`에 대응하는 `Number`(정수)형 데이터를 반환합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`String`</span></Td>
+    <Td>
+      [`getString`](/reference/api2/Object/AppData/getString)`(key: String)` \
+      `key`에 대응하는 `String`형 데이터를 반환합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`putBoolean`](/reference/api2/Object/AppData/putBoolean)`(key: String, boolean: Boolean)` \
+      앱 데이터에 `key: boolean` (`String: Boolean` 형식) 데이터를 씁니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`putInt`](/reference/api2/Object/AppData/putInt)`(key: String, integer: Number)` \
+      앱 데이터에 `key: integer` (`String: Number(정수)` 형식) 데이터를 씁니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`putString`](/reference/api2/Object/AppData/putString)`(key: String, string: String)` \
+      앱 데이터에 `key: string` (`String: String` 형식) 데이터를 씁니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`void`</span></Td>
+    <Td>
+      [`remove`](/reference/api2/Object/AppData/remove)`(key: String)` \
+      `key`에 대응하는 앱 데이터를 삭제합니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

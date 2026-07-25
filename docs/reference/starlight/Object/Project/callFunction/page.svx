@@ -10,23 +10,23 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
+  <ParamList>
+    <ParamItem param={"name"} type={"String"}>
+    호출할 함수의 이름
+    </ParamItem>
+    <ParamItem param={"args"} type={"Any[]"}>
+    호출할 함수에게 전달할 인자
+    </ParamItem>
+    <ParamItem param={"onException"} type={"(throwable) => Any"}>
+    예외가 발생할 때 호출할 콜백 함수
+    </ParamItem>
     <ParamList>
-      <ParamItem param={"name"} type={"String"}>
-        호출할 함수의 이름
-      </ParamItem>
-      <ParamItem param={"args"} type={"Any[]"}>
-        호출할 함수에게 전달할 인자
-      </ParamItem>
-      <ParamItem param={"onException"} type={"(throwable) => Any"}>
-        예외가 발생할 때 호출할 콜백 함수
-      </ParamItem>
-      <ParamList>
-        <ParamItem param={"throwable"} type={"java.lang.Throwable"}>
-          발생한 예외에 대한 `java.lang.Throwable` 값
-        </ParamItem>
-      </ParamList>
+    <ParamItem param={"throwable"} type={"java.lang.Throwable"}>
+      발생한 예외에 대한 `java.lang.Throwable` 값
+    </ParamItem>
     </ParamList>
+  </ParamList>
   </Section>
 </Section>

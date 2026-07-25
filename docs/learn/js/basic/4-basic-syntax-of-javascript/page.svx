@@ -20,12 +20,12 @@
   ~~~js
   /* 올바른 예 */
   if (msg.content === "/date") {
-    msg.reply(new Date().toString());
+  msg.reply(new Date().toString());
   }
 
   /* 잘못된 예: 닫는 중괄호가 존재하지 않습니다. */
   if (msg.content === "/date") {
-    msg.reply(new Date().toString());
+  msg.reply(new Date().toString());
   ~~~
 </Section>
 <Section>
@@ -80,7 +80,7 @@
   - num1과 num2를 합한 값
   */
   function plus(num1, num2) {
-    return num1 + num2;
+  return num1 + num2;
   }
   ~~~
 
@@ -93,7 +93,7 @@
 
   ~~~js
   {
-    여기에 코드들이 들어갑니다.
+  여기에 코드들이 들어갑니다.
   }
   ~~~
 
@@ -101,7 +101,7 @@
 
   ~~~js
   if (msg.content === "hello") {
-    msg.reply("hi.");
+  msg.reply("hi.");
   }
   ~~~
 </Section>

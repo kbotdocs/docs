@@ -8,16 +8,16 @@
   ~~~py
   @bot.on_event(name)
   def handler(...):
-    ...
+  ...
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"name"} type={"str"}>
-        핸들러를 등록할 이벤트 이름
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"name"} type={"str"}>
+    핸들러를 등록할 이벤트 이름
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

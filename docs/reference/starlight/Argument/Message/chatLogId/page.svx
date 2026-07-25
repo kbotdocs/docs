@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `Number` - 메시지에 대한 고유 ID입니다.
+  `Number` - 메시지에 대한 고유 ID입니다.
   </Section>
 </Section>

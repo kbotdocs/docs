@@ -13,23 +13,23 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"func"} type={"Function"}>
-        반복해서 호출할 함수
-      </ParamItem>
-      <ParamItem param={"delay"} type={"Number"} defaultVal={"`0`"} optional>
-        반복 작업 사이의 지연 시간(밀리초; ms)
-      </ParamItem>
-      <ParamItem param={"...args"} type={"any"} optional>
-        `func`에 전달할 인자
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"func"} type={"Function"}>
+    반복해서 호출할 함수
+    </ParamItem>
+    <ParamItem param={"delay"} type={"Number"} defaultVal={"`0`"} optional>
+    반복 작업 사이의 지연 시간(밀리초; ms)
+    </ParamItem>
+    <ParamItem param={"...args"} type={"any"} optional>
+    `func`에 전달할 인자
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Number` - 생성된 반복 작업을 식별할 수 있는 ID를 반환합니다.
+  `Number` - 생성된 반복 작업을 식별할 수 있는 ID를 반환합니다.
   </Section>
 </Section>

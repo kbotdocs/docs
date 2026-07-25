@@ -11,17 +11,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"locationOrZoneId"} type={"String"}>
-        기상 정보를 조회할 지역 또는 지역의 행정구역코드
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"locationOrZoneId"} type={"String"}>
+    기상 정보를 조회할 지역 또는 지역의 행정구역코드
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `String` - `locationOrZoneId`로 식별되는 지역의 기상 정보를 JSON 형태의 문자열로 반환합니다.
+  `String` - `locationOrZoneId`로 식별되는 지역의 기상 정보를 JSON 형태의 문자열로 반환합니다.
   </Section>
 </Section>

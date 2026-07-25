@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"value"} type={"String"}>
-        클립보드에 복사할 문자열 값
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"value"} type={"String"}>
+    클립보드에 복사할 문자열 값
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

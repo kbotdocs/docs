@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `ChatSender` - 메시지의 발신자에 대한 `ChatSender` 객체입니다.
+  `ChatSender` - 메시지의 발신자에 대한 `ChatSender` 객체입니다.
   </Section>
 </Section>

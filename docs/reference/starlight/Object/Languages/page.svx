@@ -6,26 +6,26 @@
   ## 정적 메소드
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan="2">`Languages` 객체의 정적 메소드</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>[`Language`](/reference/starlight/Object/Language)</span></Td>
-        <Td>
-          [`getSelf`](/reference/starlight/Object/Languages/getSelf)`()` \
-          프로젝트에 사용되는 언어에 대한 `Language` 객체를 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>[`Language`](/reference/starlight/Object/Language)</span></Td>
-        <Td>
-          [`ofId`](/reference/starlight/Object/Languages/ofId)`(id: String)` \
-          특정 ID로 식별되는 프로그래밍 언어 구현체에 대한 `Language` 객체를 반환합니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan="2">`Languages` 객체의 정적 메소드</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>[`Language`](/reference/starlight/Object/Language)</span></Td>
+    <Td>
+      [`getSelf`](/reference/starlight/Object/Languages/getSelf)`()` \
+      프로젝트에 사용되는 언어에 대한 `Language` 객체를 반환합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>[`Language`](/reference/starlight/Object/Language)</span></Td>
+    <Td>
+      [`ofId`](/reference/starlight/Object/Languages/ofId)`(id: String)` \
+      특정 ID로 식별되는 프로그래밍 언어 구현체에 대한 `Language` 객체를 반환합니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

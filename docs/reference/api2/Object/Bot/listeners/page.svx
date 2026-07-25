@@ -11,17 +11,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"eventName"} type={"String"}>
-        반환될 모든 이벤트 리스너의 이벤트명
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"eventName"} type={"String"}>
+    반환될 모든 이벤트 리스너의 이벤트명
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Function[]` - `eventName` 이벤트의 모든 이벤트 리스너가 담긴 배열을 반환합니다.
+  `Function[]` - `eventName` 이벤트의 모든 이벤트 리스너가 담긴 배열을 반환합니다.
   </Section>
 </Section>

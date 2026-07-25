@@ -10,22 +10,22 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
+  <ParamList>
+    <ParamItem param={"callback"} type={"(id) => Any?"}>
+    알림이 상단바에서 제거될 때 호출될 콜백 함수
+    </ParamItem>
     <ParamList>
-      <ParamItem param={"callback"} type={"(id) => Any?"}>
-        알림이 상단바에서 제거될 때 호출될 콜백 함수
-      </ParamItem>
-      <ParamList>
-        <ParamItem param={"id"} type={"Number"}>
-          알림의 ID
-        </ParamItem>
-      </ParamList>
+    <ParamItem param={"id"} type={"Number"}>
+      알림의 ID
+    </ParamItem>
     </ParamList>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `NotificationBuilder` - 해당 `NotificationBuilder` 객체
+  `NotificationBuilder` - 해당 `NotificationBuilder` 객체
   </Section>
 </Section>

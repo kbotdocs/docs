@@ -19,20 +19,20 @@
 
   ~~~js
   if (msg.command === "student") {
-    let student_num = Number(msg.args[0]);
+  let student_num = Number(msg.args[0]);
 
-    switch (student_num) {
-      case 1:
-        msg.reply(student1);
-        break;
-      case 2:
-        msg.reply(student2);
-        break;
-      // ...
-      case 20:
-        msg.reply(student20);
-        break;
-    }
+  switch (student_num) {
+    case 1:
+    msg.reply(student1);
+    break;
+    case 2:
+    msg.reply(student2);
+    break;
+    // ...
+    case 20:
+    msg.reply(student20);
+    break;
+  }
   }
   ~~~
 
@@ -49,9 +49,9 @@
 
   ~~~js
   if (msg.command === "student") {
-    let student_num = Number(msg.args[0]);
+  let student_num = Number(msg.args[0]);
 
-    msg.reply(students[student_num - 1]);
+  msg.reply(students[student_num - 1]);
   }
   ~~~
 
@@ -107,29 +107,29 @@
   ~~~
 
   <Noti type={"info"}>
-    배열의 마지막 요소에 접근하기 위해 고민할 수 있습니다. 만약 당신이 요소의 개수가 $$n$$인 배열의 마지막 요소에 접근하고자 한다면, `arr[n - 1]`과 같이 $$n - 1$$번째 요소에 접근하면
-    됩니다. 다행히, JavaScript에는 배열의 요소 개수를 쉽게 알아낼 수 있습니다.
+  배열의 마지막 요소에 접근하기 위해 고민할 수 있습니다. 만약 당신이 요소의 개수가 $$n$$인 배열의 마지막 요소에 접근하고자 한다면, `arr[n - 1]`과 같이 $$n - 1$$번째 요소에 접근하면
+  됩니다. 다행히, JavaScript에는 배열의 요소 개수를 쉽게 알아낼 수 있습니다.
 
-    `length` 프로퍼티(속성)은 배열의 요소 개수를 알려주는 속성입니다. 아래와 같이 사용할 수 있습니다.
+  `length` 프로퍼티(속성)은 배열의 요소 개수를 알려주는 속성입니다. 아래와 같이 사용할 수 있습니다.
 
-    ~~~js
-    let arr = ["Seoul", "Incheon", "Busan", "Daejeon"];
-    arr.length; // 4
-    ~~~
+  ~~~js
+  let arr = ["Seoul", "Incheon", "Busan", "Daejeon"];
+  arr.length; // 4
+  ~~~
 
-    이를 이용하면 배열의 마지막 요소에 접근할 수 있습니다.
+  이를 이용하면 배열의 마지막 요소에 접근할 수 있습니다.
 
-    ~~~js
-    let arr = ["Seoul", "Incheon", "Busan", "Daejeon"];
-    arr[arr.length - 1]; // "Daejeon"
-    ~~~
+  ~~~js
+  let arr = ["Seoul", "Incheon", "Busan", "Daejeon"];
+  arr[arr.length - 1]; // "Daejeon"
+  ~~~
 
-    특히, 메신저봇R 0.7.36a 이상 버전을 사용할 경우, 아래와 같은 방법을 사용할 수도 있습니다.
+  특히, 메신저봇R 0.7.36a 이상 버전을 사용할 경우, 아래와 같은 방법을 사용할 수도 있습니다.
 
-    ~~~js
-    let arr = ["Seoul", "Incheon", "Busan", "Daejeon"];
-    arr.at(-1); // "Daejeon"
-    ~~~
+  ~~~js
+  let arr = ["Seoul", "Incheon", "Busan", "Daejeon"];
+  arr.at(-1); // "Daejeon"
+  ~~~
   </Noti>
 </Section>
 <Section>

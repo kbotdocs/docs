@@ -8,6 +8,6 @@
   ~~~py
   @is_admin
   def func(...):
-    ...
+  ...
   ~~~
 </Section>

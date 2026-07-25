@@ -12,149 +12,149 @@
   ## 엔드포인트
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>HTTP API 엔드포인트</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"GET"} />
-          </span>
-        </Td>
-        <Td>
-          [`/aot`](/reference/iris/Endpoint/aot) \
-          AOT 관련 토큰을 반환합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"POST"} />
-          </span>
-        </Td>
-        <Td>
-          [`/decrypt`](/reference/iris/Endpoint/decrypt) \
-          메시지를 복호화합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"POST"} />
-          </span>
-        </Td>
-        <Td>
-          [`/query`](/reference/iris/Endpoint/query) \
-          카카오톡 데이터베이스에 대한 SQL 쿼리를 실행합니다. 응답에서 암호화된 데이터 필드를 자동으로 복호화합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"POST"} />
-          </span>
-        </Td>
-        <Td>
-          [`/reply`](/reference/iris/Endpoint/reply) \
-          방에 텍스트 메시지 또는 이미지를 보냅니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>HTTP API 엔드포인트</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"GET"} />
+      </span>
+    </Td>
+    <Td>
+      [`/aot`](/reference/iris/Endpoint/aot) \
+      AOT 관련 토큰을 반환합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"POST"} />
+      </span>
+    </Td>
+    <Td>
+      [`/decrypt`](/reference/iris/Endpoint/decrypt) \
+      메시지를 복호화합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"POST"} />
+      </span>
+    </Td>
+    <Td>
+      [`/query`](/reference/iris/Endpoint/query) \
+      카카오톡 데이터베이스에 대한 SQL 쿼리를 실행합니다. 응답에서 암호화된 데이터 필드를 자동으로 복호화합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"POST"} />
+      </span>
+    </Td>
+    <Td>
+      [`/reply`](/reference/iris/Endpoint/reply) \
+      방에 텍스트 메시지 또는 이미지를 보냅니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>구성 API 엔드포인트</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"GET"} />
-          </span>
-        </Td>
-        <Td>
-          [`/config`](/reference/iris/Endpoint/config) \
-          현재 구성을 JSON 응답으로 검색합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"POST"} />
-          </span>
-        </Td>
-        <Td>
-          [`/config/botport`](/reference/iris/Endpoint/config/botport) \
-          봇 HTTP 서버 포트를 업데이트합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"POST"} />
-          </span>
-        </Td>
-        <Td>
-          [`/config/dbrate`](/reference/iris/Endpoint/config/dbrate) \
-          데이터베이스 폴링 속도를 업데이트합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"POST"} />
-          </span>
-        </Td>
-        <Td>
-          [`/config/endpoint`](/reference/iris/Endpoint/config/endpoint) \
-          메시지 전달을 위한 웹 서버 엔드포인트를 업데이트합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"POST"} />
-          </span>
-        </Td>
-        <Td>
-          [`/config/sendrate`](/reference/iris/Endpoint/config/sendrate) \
-          메시지 전송 속도를 업데이트합니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td>
-          <span>
-            <RequestMethod method={"GET"} />
-          </span>
-        </Td>
-        <Td>
-          [`/dashboard`](/reference/iris/Endpoint/dashboard) \
-          Iris의 구성을 위한 웹 UI입니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>구성 API 엔드포인트</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"GET"} />
+      </span>
+    </Td>
+    <Td>
+      [`/config`](/reference/iris/Endpoint/config) \
+      현재 구성을 JSON 응답으로 검색합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"POST"} />
+      </span>
+    </Td>
+    <Td>
+      [`/config/botport`](/reference/iris/Endpoint/config/botport) \
+      봇 HTTP 서버 포트를 업데이트합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"POST"} />
+      </span>
+    </Td>
+    <Td>
+      [`/config/dbrate`](/reference/iris/Endpoint/config/dbrate) \
+      데이터베이스 폴링 속도를 업데이트합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"POST"} />
+      </span>
+    </Td>
+    <Td>
+      [`/config/endpoint`](/reference/iris/Endpoint/config/endpoint) \
+      메시지 전달을 위한 웹 서버 엔드포인트를 업데이트합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"POST"} />
+      </span>
+    </Td>
+    <Td>
+      [`/config/sendrate`](/reference/iris/Endpoint/config/sendrate) \
+      메시지 전송 속도를 업데이트합니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td>
+      <span>
+      <RequestMethod method={"GET"} />
+      </span>
+    </Td>
+    <Td>
+      [`/dashboard`](/reference/iris/Endpoint/dashboard) \
+      Iris의 구성을 위한 웹 UI입니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>WebSocket 엔드포인트</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span><RequestMethod method={"POST"}/></span></Td>
-        <Td>
-          [`/ws`](/reference/iris/Endpoint/ws) \
-          WebSocket 연결을 생성합니다. Iris가 메시지를 감지할 경우 해당 엔드포인트로 데이터를 전달합니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>WebSocket 엔드포인트</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span><RequestMethod method={"POST"}/></span></Td>
+    <Td>
+      [`/ws`](/reference/iris/Endpoint/ws) \
+      WebSocket 연결을 생성합니다. Iris가 메시지를 감지할 경우 해당 엔드포인트로 데이터를 전달합니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

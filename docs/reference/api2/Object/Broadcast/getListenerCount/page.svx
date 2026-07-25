@@ -10,17 +10,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"broadcastName"} type={"String"}>
-        브로드캐스트 이름
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"broadcastName"} type={"String"}>
+    브로드캐스트 이름
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Number` - `broadcastName` 이름의 브로드캐스트에 등록된 리스너의 개수를 반환합니다.
+  `Number` - `broadcastName` 이름의 브로드캐스트에 등록된 리스너의 개수를 반환합니다.
   </Section>
 </Section>

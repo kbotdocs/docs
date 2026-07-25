@@ -5,10 +5,10 @@
 
   ~~~js
   let nabi = {
-    name: "Nabi",
-    sexual: "female",
-    breed: "ragdoll",
-    jump: (height) => `Jump ${height}m!`
+  name: "Nabi",
+  sexual: "female",
+  breed: "ragdoll",
+  jump: (height) => `Jump ${height}m!`
   }
   ~~~
 
@@ -16,10 +16,10 @@
 
   ~~~js
   let cheese = {
-    name: "Cheese",
-    sexual: "male",
-    breed: "bengal",
-    jump: (height) => `Jump ${height}m!`
+  name: "Cheese",
+  sexual: "male",
+  breed: "bengal",
+  jump: (height) => `Jump ${height}m!`
   }
   ~~~
 
@@ -37,10 +37,10 @@
 
   ~~~js
   function Cat(name, sexual, breed) {
-    this.name = name;
-    this.sexual = sexual;
-    this.breed = breed;
-    this.jump = (height) => `Jump ${height}m!`;
+  this.name = name;
+  this.sexual = sexual;
+  this.breed = breed;
+  this.jump = (height) => `Jump ${height}m!`;
   }
   ~~~
 
@@ -50,7 +50,7 @@
   생성자 함수의 매개변수는 필요에 따라 사용할 수도, 사용하지 않을 수도 있습니다. 위 예제에서는 `name`, `sexual`, `breed` 매개변수를 사용하여 객체의 프로퍼티를 초기화(초기값을 할당)합니다.
 
   <Noti type="info">
-    생성자 함수의 이름은 일반 함수의 이름 규칙과 동일하지만, 흔히 첫 글자를 대문자로 작성합니다. 이는 생성자 함수와 일반 함수를 구분하기 위한 관례입니다.
+  생성자 함수의 이름은 일반 함수의 이름 규칙과 동일하지만, 흔히 첫 글자를 대문자로 작성합니다. 이는 생성자 함수와 일반 함수를 구분하기 위한 관례입니다.
   </Noti>
 </Section>
 <Section>

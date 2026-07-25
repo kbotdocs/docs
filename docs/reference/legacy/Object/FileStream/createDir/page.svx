@@ -10,17 +10,17 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"path"} type={"String"}>
-        생성할 폴더의 경로
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"path"} type={"String"}>
+    생성할 폴더의 경로
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `Boolean` - 폴더 생성에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
+  `Boolean` - 폴더 생성에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
   </Section>
 </Section>

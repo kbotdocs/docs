@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"str"} type={"String"}>
-        작성할 정보 로그의 내용
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"str"} type={"String"}>
+    작성할 정보 로그의 내용
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

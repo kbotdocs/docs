@@ -10,20 +10,20 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"fileName"} type={"String"}>
-        내용을 덮어쓰거나 새로 생성할 파일의 이름
-      </ParamItem>
-      <ParamItem param={"data"} type={"String"}>
-        파일 내용으로 저장할 문자열
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"fileName"} type={"String"}>
+    내용을 덮어쓰거나 새로 생성할 파일의 이름
+    </ParamItem>
+    <ParamItem param={"data"} type={"String"}>
+    파일 내용으로 저장할 문자열
+    </ParamItem>
+  </ParamList>
   </Section>
   <Section>
-    ### 반환값
+  ### 반환값
 
-    `String` - `fileName` 이름의 파일을 덮어쓰거나 생성한 후 최종 내용을 반환합니다.
+  `String` - `fileName` 이름의 파일을 덮어쓰거나 생성한 후 최종 내용을 반환합니다.
   </Section>
 </Section>

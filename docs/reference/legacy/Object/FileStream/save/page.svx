@@ -11,18 +11,18 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"path"} type={"String"}>
-        내용을 쓰거나 새로 생성할 파일의 경로
-      </ParamItem>
-      <ParamItem param={"data"} type={"String"}>
-        생성할 파일의 내용
-      </ParamItem>
-      <ParamItem param={"append"} type={"Boolean"} defaultVal={"`false`"} optional>
-        `path` 경로의 파일이 존재할 경우 이어쓰기 여부
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"path"} type={"String"}>
+    내용을 쓰거나 새로 생성할 파일의 경로
+    </ParamItem>
+    <ParamItem param={"data"} type={"String"}>
+    생성할 파일의 내용
+    </ParamItem>
+    <ParamItem param={"append"} type={"Boolean"} defaultVal={"`false`"} optional>
+    `path` 경로의 파일이 존재할 경우 이어쓰기 여부
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>

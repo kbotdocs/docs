@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `String[]` - 명령어 인자들의 배열입니다.
+  `String[]` - 명령어 인자들의 배열입니다.
   </Section>
 </Section>

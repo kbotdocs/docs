@@ -10,8 +10,8 @@
   ~~~
 
   <Section>
-    ### 값
+  ### 값
 
-    `String` - 언어의 고유 ID입니다.
+  `String` - 언어의 고유 ID입니다.
   </Section>
 </Section>

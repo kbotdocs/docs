@@ -6,40 +6,40 @@
   ## 인스턴스 프로퍼티
 
   <Table>
-    <Thead>
-      <Tr>
-        <Th colspan={2}>`iris.bot.models.ErrorContext`의 인스턴스 프로퍼티</Th>
-      </Tr>
-    </Thead>
-    <Tbody>
-      <Tr>
-        <Td><span>`list[`*[`Any`](https://docs.python.org/3/library/typing.html#typing.Any)*`]`</span></Td>
-        <Td>
-          [`args`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/args) \
-          에러가 발생한 이벤트 핸들러에 전달된 인자입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`str`</span></Td>
-        <Td>
-          [`event`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/event) \
-          에러가 발생한 이벤트의 이름입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>`Exception`</span></Td>
-        <Td>
-          [`exception`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/exception) \
-          에러에 대한 `Exception` 객체입니다.
-        </Td>
-      </Tr>
-      <Tr>
-        <Td><span>*[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)*</span></Td>
-        <Td>
-          [`func`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/func) \
-          에러가 발생한 이벤트 핸들러입니다.
-        </Td>
-      </Tr>
-    </Tbody>
+  <Thead>
+    <Tr>
+    <Th colspan={2}>`iris.bot.models.ErrorContext`의 인스턴스 프로퍼티</Th>
+    </Tr>
+  </Thead>
+  <Tbody>
+    <Tr>
+    <Td><span>`list[`*[`Any`](https://docs.python.org/3/library/typing.html#typing.Any)*`]`</span></Td>
+    <Td>
+      [`args`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/args) \
+      에러가 발생한 이벤트 핸들러에 전달된 인자입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`str`</span></Td>
+    <Td>
+      [`event`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/event) \
+      에러가 발생한 이벤트의 이름입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>`Exception`</span></Td>
+    <Td>
+      [`exception`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/exception) \
+      에러에 대한 `Exception` 객체입니다.
+    </Td>
+    </Tr>
+    <Tr>
+    <Td><span>*[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)*</span></Td>
+    <Td>
+      [`func`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/func) \
+      에러가 발생한 이벤트 핸들러입니다.
+    </Td>
+    </Tr>
+  </Tbody>
   </Table>
 </Section>

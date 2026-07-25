@@ -10,12 +10,12 @@
   ~~~
 
   <Section>
-    ### 매개변수
+  ### 매개변수
 
-    <ParamList>
-      <ParamItem param={"path"} type={"String"}>
-        `DataBase` 객체가 사용할 디렉토리의 경로
-      </ParamItem>
-    </ParamList>
+  <ParamList>
+    <ParamItem param={"path"} type={"String"}>
+    `DataBase` 객체가 사용할 디렉토리의 경로
+    </ParamItem>
+  </ParamList>
   </Section>
 </Section>
