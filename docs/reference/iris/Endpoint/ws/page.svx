@@ -18,18 +18,18 @@
 
   ~~~json
   {
-  "msg": "[DECRYPTED_MESSAGE_CONTENT]",
-  "room": "[CHAT_ROOM_NAME]",
-  "sender": "[SENDER_NAME]",
-  "json": {
-    "_id": "...",
-    "chat_id": "...",
-    "user_id": "...",
-    "message": "[DECRYPTED_MESSAGE_CONTENT]",
-    "attachment": "[DECRYPTED_ATTACHMENT_INFO]",
-    "v": "{\"enc\": 0, ...}",
-    // ... chat_logs 테이블의 기타 열 ...
-  }
+    "msg": "[DECRYPTED_MESSAGE_CONTENT]",
+    "room": "[CHAT_ROOM_NAME]",
+    "sender": "[SENDER_NAME]",
+    "json": {
+      "_id": "...",
+      "chat_id": "...",
+      "user_id": "...",
+      "message": "[DECRYPTED_MESSAGE_CONTENT]",
+      "attachment": "[DECRYPTED_ATTACHMENT_INFO]",
+      "v": "{\"enc\": 0, ...}",
+      // ... chat_logs 테이블의 기타 열 ...
+    }
   }
   ~~~
 

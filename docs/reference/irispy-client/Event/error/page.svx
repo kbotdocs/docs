@@ -12,7 +12,7 @@
 
   @bot.on_event("error")
   def on_error(err: ErrorContext):
-  ...
+    ...
   ~~~
 
   <Section>

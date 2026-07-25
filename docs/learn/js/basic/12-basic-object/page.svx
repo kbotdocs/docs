@@ -17,13 +17,13 @@
 
   ~~~js
   let obj = {
-  str: "value1",
-  num: 34,
-  bool: true,
-  add: function(a, b) {
-   return a + b;
-  }
-  minus: (a, b) => (a - b);
+    str: "value1",
+    num: 34,
+    bool: true,
+    add: function(a, b) {
+     return a + b;
+    }
+    minus: (a, b) => (a - b);
   };
   ~~~
 
@@ -115,13 +115,13 @@
 
   ~~~js
   let nabi = {
-  name: "Nabi",
-  sexual: "female",
-  breed: "ragdoll",
-  jump: (height) => `Jump ${height}m!`,
-  sendInfo: () => {
-    msg.reply(`name: ${this.name}\nsexual: ${this.sexual}\nbreed: ${this.breed}`);
-  }
+    name: "Nabi",
+    sexual: "female",
+    breed: "ragdoll",
+    jump: (height) => `Jump ${height}m!`,
+    sendInfo: () => {
+      msg.reply(`name: ${this.name}\nsexual: ${this.sexual}\nbreed: ${this.breed}`);
+    }
   }
   ~~~
 

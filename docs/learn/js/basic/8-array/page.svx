@@ -19,20 +19,20 @@
 
   ~~~js
   if (msg.command === "student") {
-  let student_num = Number(msg.args[0]);
+    let student_num = Number(msg.args[0]);
 
-  switch (student_num) {
-    case 1:
-    msg.reply(student1);
-    break;
-    case 2:
-    msg.reply(student2);
-    break;
-    // ...
-    case 20:
-    msg.reply(student20);
-    break;
-  }
+    switch (student_num) {
+      case 1:
+        msg.reply(student1);
+        break;
+      case 2:
+        msg.reply(student2);
+        break;
+      // ...
+      case 20:
+        msg.reply(student20);
+        break;
+    }
   }
   ~~~
 
@@ -49,9 +49,9 @@
 
   ~~~js
   if (msg.command === "student") {
-  let student_num = Number(msg.args[0]);
+    let student_num = Number(msg.args[0]);
 
-  msg.reply(students[student_num - 1]);
+    msg.reply(students[student_num - 1]);
   }
   ~~~
 

@@ -12,7 +12,7 @@
 
   @bot.on_event("message")
   def on_message(chat: ChatContext):
-  ...
+    ...
   ~~~
 
   <Section>

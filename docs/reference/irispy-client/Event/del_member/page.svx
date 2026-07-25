@@ -12,7 +12,7 @@
 
   @bot.on_event("del_member")
   def on_del_member(chat: ChatContext):
-  ...
+    ...
   ~~~
 
   <Section>

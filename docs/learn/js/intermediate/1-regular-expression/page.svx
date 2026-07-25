@@ -16,20 +16,20 @@
   
   ~~~js
   function isValidRRN(rrn) {
-  // 앞 6자리 검사
-  for (let i = 0; i < 6; i++) {
-    if (!Number.isInteger(rrn[i])) return false;
-  }
+    // 앞 6자리 검사
+    for (let i = 0; i < 6; i++) {
+      if (!Number.isInteger(rrn[i])) return false;
+    }
 
-  // 하이픈(-) 검사
-  if (rrn[6] !== '-') return false;
+    // 하이픈(-) 검사
+    if (rrn[6] !== '-') return false;
 
-  // 뒤 7자리 검사
-  for (let i = 7; i < 14; i++) {
-    if (!Number.isInteger(rrn[i])) return false;
-  }
+    // 뒤 7자리 검사
+    for (let i = 7; i < 14; i++) {
+      if (!Number.isInteger(rrn[i])) return false;
+    }
 
-  return True;
+    return True;
   }
   ~~~
 
@@ -37,8 +37,8 @@
 
   ~~~js
   function isValidRRN(rrn) {
-  const regex = /^\d{6}-\d{7}$/;
-  return regex.test(rrn);
+    const regex = /^\d{6}-\d{7}$/;
+    return regex.test(rrn);
   }
   ~~~
 </Section>

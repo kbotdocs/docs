@@ -55,10 +55,10 @@
 
 
   function onCreate(savedInstanceState, activity) {
-  var textView = new android.widget.TextView(activity);
-  textView.setText("Hello, World!");
-  textView.setTextColor(android.graphics.Color.DKGRAY);
-  activity.setContentView(textView);
+    var textView = new android.widget.TextView(activity);
+    textView.setText("Hello, World!");
+    textView.setTextColor(android.graphics.Color.DKGRAY);
+    activity.setContentView(textView);
   }
 
   function onStart(activity) {}
@@ -122,7 +122,7 @@
   const bot = BotManager.getCurrentBot();
 
   function onMessage(msg) {
-  msg.reply("Hello, world!");
+    msg.reply("Hello, world!");
   }
   bot.addListener(Event.MESSAGE, onMessage);
 

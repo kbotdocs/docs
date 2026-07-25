@@ -18,10 +18,10 @@
     <Details summary={"`option` 정보"}>
       ~~~json
       {
-      "url": String,
-      "timeout": Number,
-      "method": String,
-      "headers": { /* Header */}
+        "url": String,
+        "timeout": Number,
+        "method": String,
+        "headers": { /* Header */}
       }
       ~~~
       <ParamList>

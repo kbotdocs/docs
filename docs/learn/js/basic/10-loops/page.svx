@@ -25,7 +25,7 @@
 
   ~~~js
   for (let i = 1; i <= 100; i++) {
-  msg.reply(String(i));
+    msg.reply(String(i));
   }
   ~~~
 
@@ -42,7 +42,7 @@
 
   ~~~js
   for (초기화식; 조건식; 증감식) {
-  // 반복적으로 수행할 코드
+    // 반복적으로 수행할 코드
   }
   ~~~
 
@@ -57,7 +57,7 @@
 
   ~~~js
   for (let i = 0; i < 3; i++) {
-  msg.reply(`loop: ${i}`);
+    msg.reply(`loop: ${i}`);
   }
   ~~~
 
@@ -96,7 +96,7 @@
 
   ~~~js
   for (let i = 0; ; i++) {
-  msg.reply("Infinity loop!");
+    msg.reply("Infinity loop!");
   }
   ~~~
 
@@ -114,7 +114,7 @@
 
   ~~~js
   for (;;) {
-  // 반복적으로 수행할 코드
+    // 반복적으로 수행할 코드
   }
   ~~~
 </Section>
@@ -127,7 +127,7 @@
 
   ~~~js
   while (조건식) {
-  // 반복적으로 수행할 코드
+    // 반복적으로 수행할 코드
   }
   ~~~
 
@@ -140,8 +140,8 @@
   ~~~js
   let i = 0; // 초기화식
   while (i < 3) {
-  msg.reply(`loop: ${i}`);
-  i++; // 증감식
+    msg.reply(`loop: ${i}`);
+    i++; // 증감식
   }
   ~~~
 
@@ -200,8 +200,8 @@
 
   ~~~js
   for (let i = 0; ; i++) {
-  if (i > 2) break; // i가 2보다 클 경우 반복문을 탈출합니다.
-  msg.reply(`loop: ${i}`);
+    if (i > 2) break; // i가 2보다 클 경우 반복문을 탈출합니다.
+    msg.reply(`loop: ${i}`);
   }
   ~~~
 
@@ -221,8 +221,8 @@
 
   ~~~js
   for (let i = 0; i < 11; i++) {
-  if (i % 2 === 0) continue;
-  msg.reply(`loop: ${i}`);
+    if (i % 2 === 0) continue;
+    msg.reply(`loop: ${i}`);
   }
   ~~~
 
@@ -245,9 +245,9 @@
   const bot = BotManager.getCurrentBot();
 
   function onCommand(msg) {
-  if (msg.command === "timer") {
-    // 여기에 코드를 작성할겁니다.
-  }
+    if (msg.command === "timer") {
+      // 여기에 코드를 작성할겁니다.
+    }
   }
   bot.setCommandPrefix("@");
   bot.addListener(Event.COMMAND, onCommand);
@@ -259,12 +259,12 @@
   const bot = BotManager.getCurrentBot();
 
   function onCommand(msg) {
-  if (msg.command === "timer") {
-    for (let i = 10; i > 0; i--) {
-    msg.reply(`카운트다운: ${i}초`);
+    if (msg.command === "timer") {
+      for (let i = 10; i > 0; i--) {
+        msg.reply(`카운트다운: ${i}초`);
+      }
+      msg.reply("10초가 지났습니다!");
     }
-    msg.reply("10초가 지났습니다!");
-  }
   }
   bot.setCommandPrefix("@");
   bot.addListener(Event.COMMAND, onCommand);
@@ -279,13 +279,13 @@
   const bot = BotManager.getCurrentBot();
 
   function onCommand(msg) {
-  if (msg.command === "timer") {
-    for (let i = 10; i > 0; i--) {
-    msg.reply(`카운트다운: ${i}초`);
-    java.lang.Thread.sleep(1000); // 1초동안 멈춥니다.
+    if (msg.command === "timer") {
+      for (let i = 10; i > 0; i--) {
+        msg.reply(`카운트다운: ${i}초`);
+        java.lang.Thread.sleep(1000); // 1초동안 멈춥니다.
+      }
+      msg.reply("10초가 지났습니다!");
     }
-    msg.reply("10초가 지났습니다!");
-  }
   }
   bot.setCommandPrefix("@");
   bot.addListener(Event.COMMAND, onCommand);
@@ -322,13 +322,13 @@
 
   function onCommand(msg) {
     if (msg.command === "timer") {
-    let sec = Number(msg.args[0]); // 사용자가 입력한 시간(초)를 숫자로 형변환
+      let sec = Number(msg.args[0]); // 사용자가 입력한 시간(초)를 숫자로 형변환
 
-    for (let i = sec; i > 0; i--) {
-      msg.reply(`카운트다운: ${i}초`);
-      java.lang.Thread.sleep(1000);
-    }
-    msg.reply(`${sec}초가 지났습니다!`);
+      for (let i = sec; i > 0; i--) {
+        msg.reply(`카운트다운: ${i}초`);
+        java.lang.Thread.sleep(1000);
+      }
+      msg.reply(`${sec}초가 지났습니다!`);
     }
   }
   bot.setCommandPrefix("@");
@@ -340,15 +340,15 @@
 
   function onCommand(msg) {
     if (msg.command === "timer") {
-    let sec = Number(msg.args[0]); // 사용자가 입력한 시간(초)를 숫자로 형변환
-    let i = sec;
+      let sec = Number(msg.args[0]); // 사용자가 입력한 시간(초)를 숫자로 형변환
+      let i = sec;
 
-    while (i > 0) {
-      msg.reply(`카운트다운: ${i}초`);
-      java.lang.Thread.sleep(1000);
-      i--;
-    }
-    msg.reply(`${sec}초가 지났습니다!`);
+      while (i > 0) {
+        msg.reply(`카운트다운: ${i}초`);
+        java.lang.Thread.sleep(1000);
+        i--;
+      }
+      msg.reply(`${sec}초가 지났습니다!`);
     }
   }
   bot.setCommandPrefix("@");
@@ -380,14 +380,14 @@
 
   function onCommand(msg) {
     if (msg.command === "dan") {
-    let dan = Number(msg.args[0]);
-    let result = `=== ${dan}단 ===`;
+      let dan = Number(msg.args[0]);
+      let result = `=== ${dan}단 ===`;
 
-    for (let i = 1; i < 10; i++) {
-      result += `\n${dan} * ${i} = ${dan * i}`;
-    }
+      for (let i = 1; i < 10; i++) {
+        result += `\n${dan} * ${i} = ${dan * i}`;
+      }
 
-    msg.reply(result);
+      msg.reply(result);
     }
   }
   bot.setCommandPrefix("@");
@@ -399,16 +399,16 @@
 
   function onCommand(msg) {
     if (msg.command === "dan") {
-    let dan = Number(msg.args[0]);
-    let result = `=== ${dan}단 ===`;
-    let i = 1;
+      let dan = Number(msg.args[0]);
+      let result = `=== ${dan}단 ===`;
+      let i = 1;
 
-    while (i < 10) {
-      result += `\n${dan} * ${i} = ${dan * i}`;
-      i++;
-    }
+      while (i < 10) {
+        result += `\n${dan} * ${i} = ${dan * i}`;
+        i++;
+      }
 
-    msg.reply(result);
+      msg.reply(result);
     }
   }
   bot.setCommandPrefix("@");
@@ -426,15 +426,15 @@
 
   function onCommand(msg) {
     if (msg.command === "gugudan") {
-    for (let i = 2; i < 10; i++) { // 2단부터 9단까지 반복합니다.
-      let result = `=== ${i}단 ===`;
+      for (let i = 2; i < 10; i++) { // 2단부터 9단까지 반복합니다.
+        let result = `=== ${i}단 ===`;
 
-      for (let j = 1; j < 10; j++) {
-      result += `\n${i} * ${j} = ${i * j}`;
+        for (let j = 1; j < 10; j++) {
+          result += `\n${i} * ${j} = ${i * j}`;
+        }
+
+        msg.reply(result);
       }
-
-      msg.reply(result);
-    }
     }
   }
   bot.setCommandPrefix("@");
@@ -446,20 +446,20 @@
 
   function onCommand(msg) {
     if (msg.command === "gugudan") {
-    let i = 2;
+      let i = 2;
 
-    while (i < 10) { // 2단부터 9단까지 반복합니다.
-      let result = `=== ${i}단 ===`;
-      let j = 1;
+      while (i < 10) { // 2단부터 9단까지 반복합니다.
+        let result = `=== ${i}단 ===`;
+        let j = 1;
 
-      while (j < 10) {
-      result += `\n${i} * ${j} = ${i * j}`;
-      j++;
+        while (j < 10) {
+          result += `\n${i} * ${j} = ${i * j}`;
+          j++;
+        }
+
+        msg.reply(result);
+        i++;
       }
-
-      msg.reply(result);
-      i++;
-    }
     }
   }
   bot.setCommandPrefix("@");

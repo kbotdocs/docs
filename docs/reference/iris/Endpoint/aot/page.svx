@@ -29,13 +29,13 @@
 
   ~~~json
   {
-  "success": true,
-  "aot" : {
-    "access_token" : String,
-    "refresh_token" : String,
-    "token_type" : String,
-    "d_id" : String
-  }
+    "success": true,
+    "aot" : {
+      "access_token" : String,
+      "refresh_token" : String,
+      "token_type" : String,
+      "d_id" : String
+    }
   }
   ~~~
 

@@ -118,7 +118,7 @@
   ~~~js
   // 기존 레거시 API 코드에 존재한 onStartCompile 이벤트 리스너
   function onStartCompile() {
-  // ...
+    // ...
   }
 
   // API2에서의 정상적인 동작을 위해 이벤트 리스너를 등록합니다.
@@ -140,7 +140,7 @@
 
   ~~~js
   function response(msg) {
-  // 기존 레거시 API 코드
+    // 기존 레거시 API 코드
   }
   bot.addListener(Event.MESSAGE, response);
   ~~~
@@ -149,7 +149,7 @@
 
   ~~~js
   function onMessage(msg) {
-  // 기존 레거시 API 코드
+    // 기존 레거시 API 코드
   }
   bot.addListener(Event.MESSAGE, onMessage);
   ~~~

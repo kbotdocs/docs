@@ -50,7 +50,7 @@
   let nativeArr = []; // 빈 배열 (org.mozilla.javascript.NativeArray 형)
 
   for (let i = 0; i < byteBuffer.limit(); i++) {
-  nativeArr.push(byteBuffer.get(i).toString()); // 버퍼에 저장된 각 바이트들을 빈 배열에 저장
+    nativeArr.push(byteBuffer.get(i).toString()); // 버퍼에 저장된 각 바이트들을 빈 배열에 저장
   }
 
   Security.ariaDecodeRaw(key, nativeArr); // hello

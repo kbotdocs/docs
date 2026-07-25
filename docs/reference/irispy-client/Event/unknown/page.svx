@@ -12,7 +12,7 @@
 
   @bot.on_event("unknown")
   def on_unknown(chat: ChatContext):
-  ...
+    ...
   ~~~
 
   <Section>

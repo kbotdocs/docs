@@ -29,12 +29,12 @@
 
   ~~~json
   {
-  "bot_name": "[YOUR_BOT_NAME]",
-  "bot_http_port": [PORT_FOR_HTTP_SERVER],
-  "web_server_endpoint": "[YOUR_WEB_SERVER_URL_FOR_MESSAGE_FORWARDING]",
-  "db_polling_rate": [DATABASE_POLLING_INTERVAL_IN_MILLISECONDS],
-  "message_send_rate": [MESSAGE_SEND_INTERVAL_IN_MILLISECONDS],
-  "bot_id": [YOUR_KAKAO_TALK_USER_ID]
+    "bot_name": "[YOUR_BOT_NAME]",
+    "bot_http_port": [PORT_FOR_HTTP_SERVER],
+    "web_server_endpoint": "[YOUR_WEB_SERVER_URL_FOR_MESSAGE_FORWARDING]",
+    "db_polling_rate": [DATABASE_POLLING_INTERVAL_IN_MILLISECONDS],
+    "message_send_rate": [MESSAGE_SEND_INTERVAL_IN_MILLISECONDS],
+    "bot_id": [YOUR_KAKAO_TALK_USER_ID]
   }
   ~~~
 

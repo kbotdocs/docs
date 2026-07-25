@@ -8,14 +8,14 @@
   ~~~py
   kakaoLink.send(receiver_name, template_id, template_args)
   kakaoLink.send(
-  receiver_name,
-  template_id,
-  template_args,
-  app_key=app_key,
-  origin=origin,
-  search_exact=search_exact,
-  search_from=search_from,
-  search_room_type=search_room_type
+    receiver_name,
+    template_id,
+    template_args,
+    app_key=app_key,
+    origin=origin,
+    search_exact=search_exact,
+    search_from=search_from,
+    search_room_type=search_room_type
   )
   ~~~
 

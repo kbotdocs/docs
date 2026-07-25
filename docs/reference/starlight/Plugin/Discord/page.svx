@@ -53,8 +53,8 @@
     event.channel.sendMessage("안녕하세요, " + event.messageAuthor.name + "님!");
     event.channel.sendMessage("Pong!")
     .thenAccept(msg => {
-    let now = ms();
-    msg.edit("핑은 " + (now - start) + "ms 에요!");
+      let now = ms();
+      msg.edit("핑은 " + (now - start) + "ms 에요!");
     });
   }
   ~~~

@@ -9,7 +9,7 @@
 
   ~~~js
   if (condition) {
-  // condition이 true일 시 실행할 코드
+    // condition이 true일 시 실행할 코드
   }
 
   // 다음으로 실행할 코드
@@ -111,7 +111,7 @@
 
   function onMessage(msg) {
     if (msg.content === "안녕") {
-    msg.reply("안녕하세요.");
+      msg.reply("안녕하세요.");
     }
   }
   bot.addListener(Event.MESSAGE, onMessage);
@@ -126,7 +126,7 @@
 
   function onMessage(msg) {
     if (msg.content === "안녕") {
-    msg.reply("안녕하세요, " + msg.author.name + "님."); // 또는 msg.reply(`안녕하세요, ${msg.author.name}님.`);
+      msg.reply("안녕하세요, " + msg.author.name + "님."); // 또는 msg.reply(`안녕하세요, ${msg.author.name}님.`);
     }
   }
   bot.addListener(Event.MESSAGE, onMessage);
@@ -143,18 +143,18 @@
 
   ~~~js
   switch (expression) {
-  case value1:
-    // 식이 value1일 경우 실행할 코드
-    break;
-  case value2:
-    // 식이 value2일 경우 실행할 코드
-    break;
-  ...
-  case valueN:
-    // 식이 valueN일 경우 실행할 코드
-    break;
-  default:
-    // 위의 어느 값에도 해당하지 않을 경우 실행할 코드
+    case value1:
+      // 식이 value1일 경우 실행할 코드
+      break;
+    case value2:
+      // 식이 value2일 경우 실행할 코드
+      break;
+    ...
+    case valueN:
+      // 식이 valueN일 경우 실행할 코드
+      break;
+    default:
+      // 위의 어느 값에도 해당하지 않을 경우 실행할 코드
   }
   ~~~
 
@@ -189,15 +189,15 @@
 
   function onCommand(msg) {
     switch (msg.command) {
-    case "help":
-      // 명령어가 @help일 경우 처리할 메시지
-      break;
-    case "time":
-      // 명령어가 @time일 경우 처리할 메시지
-      break;
-    case "add":
-      // 명령어가 @add일 경우 처리할 메시지
-      break;
+      case "help":
+        // 명령어가 @help일 경우 처리할 메시지
+        break;
+      case "time":
+        // 명령어가 @time일 경우 처리할 메시지
+        break;
+      case "add":
+        // 명령어가 @add일 경우 처리할 메시지
+        break;
     }
   }
   bot.setCommandPrefix("@");
@@ -215,17 +215,17 @@
 
   function onCommand(msg) {
     switch (msg.command) {
-    case "help":
-      msg.reply("@help: 명령어의 목록을 전송합니다. \n@time: 현재 시간을 전송합니다. \n@add [숫자1] [숫자2]: 두 숫자를 더합니다.");
-      break;
-    case "time":
-      let date = new Date(); // 현재 날짜와 시간에 대한 "객체"입니다. 지금은 자세히 다루지 않습니다.
-      msg.reply(`현재 시간은 ${date.getHours()}시 ${date.getMinutes()}분 ${date.getSeconds()}초입니다.`);
-      break;
-    case "add":
-      let sum = Number(msg.args[0]) + Number(msg.args[1]); // 두 인자의 요소를 숫자로 형변환한 후 더합니다.
-      msg.reply(`${msg.args[0]} + ${msg.args[1]} = ${sum}`);
-      break;
+      case "help":
+        msg.reply("@help: 명령어의 목록을 전송합니다. \n@time: 현재 시간을 전송합니다. \n@add [숫자1] [숫자2]: 두 숫자를 더합니다.");
+        break;
+      case "time":
+        let date = new Date(); // 현재 날짜와 시간에 대한 "객체"입니다. 지금은 자세히 다루지 않습니다.
+        msg.reply(`현재 시간은 ${date.getHours()}시 ${date.getMinutes()}분 ${date.getSeconds()}초입니다.`);
+        break;
+      case "add":
+        let sum = Number(msg.args[0]) + Number(msg.args[1]); // 두 인자의 요소를 숫자로 형변환한 후 더합니다.
+        msg.reply(`${msg.args[0]} + ${msg.args[1]} = ${sum}`);
+        break;
     }
   }
   bot.setCommandPrefix("@");
@@ -246,10 +246,10 @@
 
   function onMessage(msg) {
     if (msg.content === "안녕") {
-    msg.reply(`안녕하세요, ${msg.author.name}님.`);
+      msg.reply(`안녕하세요, ${msg.author.name}님.`);
     }
     else if (msg.content === "잘있어") {
-    msg.reply(`안녕히가세요, ${msg.author.name}님.`);
+      msg.reply(`안녕히가세요, ${msg.author.name}님.`);
     }
   }
   bot.addListener(Event.MESSAGE, onMessage);
@@ -265,12 +265,12 @@
 
   function onMessage(msg) {
     if (msg.room === "친구들") { // 방 이름이 '친구들'일 경우 블록 내부의 코드를 실행합니다.
-    if (msg.content === "안녕") {
-      msg.reply(`안녕하세요, ${msg.author.name}님.`);
-    }
-    else if (msg.content === "잘있어") {
-      msg.reply(`안녕히가세요, ${msg.author.name}님.`);
-    }
+      if (msg.content === "안녕") {
+        msg.reply(`안녕하세요, ${msg.author.name}님.`);
+      }
+      else if (msg.content === "잘있어") {
+        msg.reply(`안녕히가세요, ${msg.author.name}님.`);
+      }
     }
   }
   bot.addListener(Event.MESSAGE, onMessage);
@@ -283,10 +283,10 @@
     if (msg.room !== "친구들") return; // 방 이름이 '친구들'이 아닐 경우 코드의 실행을 중지합니다.
 
     if (msg.content === "안녕") {
-    msg.reply(`안녕하세요, ${msg.author.name}님.`);
+      msg.reply(`안녕하세요, ${msg.author.name}님.`);
     }
     else if (msg.content === "잘있어") {
-    msg.reply(`안녕히가세요, ${msg.author.name}님.`);
+      msg.reply(`안녕히가세요, ${msg.author.name}님.`);
     }
   }
   bot.addListener(Event.MESSAGE, onMessage);
@@ -329,19 +329,19 @@
 
   function onCommand(msg) {
     if (msg.command === "order") {
-    switch (msg.args[0]) {
-      case "아메리카노":
-      msg.reply("따뜻한 아메리카노 한잔 나왔습니다~");
-      break;
-      case "바닐라라떼":
-      msg.reply("부드러운 바닐라 라떼 한잔 나왔습니다~");
-      break;
-      case "락스":
-      msg.reply("젓지 말고 흔들어서 한잔 내왔습니다.");
-      break;
-      default:
-      msg.reply("존재하지 않는 메뉴입니다.");
-    }
+      switch (msg.args[0]) {
+        case "아메리카노":
+          msg.reply("따뜻한 아메리카노 한잔 나왔습니다~");
+          break;
+        case "바닐라라떼":
+          msg.reply("부드러운 바닐라 라떼 한잔 나왔습니다~");
+          break;
+        case "락스":
+          msg.reply("젓지 말고 흔들어서 한잔 내왔습니다.");
+          break;
+        default:
+          msg.reply("존재하지 않는 메뉴입니다.");
+      }
     }
   }
   bot.setCommandPrefix("@");

@@ -28,8 +28,8 @@
   <Section>
     ~~~json
     {
-    "query": "[SQL_QUERY]",
-    "bind": ["[BINDING_VALUE_1]", "[BINDING_VALUE_2]", ...]
+      "query": "[SQL_QUERY]",
+      "bind": ["[BINDING_VALUE_1]", "[BINDING_VALUE_2]", ...]
     }
     ~~~
   </Section>
@@ -57,19 +57,19 @@
 
   ~~~json
   {
-  "success": true,
-  "data": [
-    [
-    {
-      "_id": "...",
-      "chat_id": "...",
-      "user_id": "...",
-      "message": "...",
-      // ..
-    },
-    // ...
+    "success": true,
+    "data": [
+      [
+        {
+          "_id": "...",
+          "chat_id": "...",
+          "user_id": "...",
+          "message": "...",
+          // ..
+        },
+        // ...
+      ]
     ]
-  ]
   }
   ~~~
 

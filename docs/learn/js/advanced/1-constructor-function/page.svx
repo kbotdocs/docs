@@ -5,10 +5,10 @@
 
   ~~~js
   let nabi = {
-  name: "Nabi",
-  sexual: "female",
-  breed: "ragdoll",
-  jump: (height) => `Jump ${height}m!`
+    name: "Nabi",
+    sexual: "female",
+    breed: "ragdoll",
+    jump: (height) => `Jump ${height}m!`
   }
   ~~~
 
@@ -16,10 +16,10 @@
 
   ~~~js
   let cheese = {
-  name: "Cheese",
-  sexual: "male",
-  breed: "bengal",
-  jump: (height) => `Jump ${height}m!`
+    name: "Cheese",
+    sexual: "male",
+    breed: "bengal",
+    jump: (height) => `Jump ${height}m!`
   }
   ~~~
 
@@ -37,10 +37,10 @@
 
   ~~~js
   function Cat(name, sexual, breed) {
-  this.name = name;
-  this.sexual = sexual;
-  this.breed = breed;
-  this.jump = (height) => `Jump ${height}m!`;
+    this.name = name;
+    this.sexual = sexual;
+    this.breed = breed;
+    this.jump = (height) => `Jump ${height}m!`;
   }
   ~~~
 

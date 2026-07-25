@@ -24,8 +24,8 @@
 
   ~~~js
   function 함수이름(매개변수1, 매개변수2, ..., 매개변수N) {
-  // 기능의 동작을 위한 코드
-  return 반환값;
+    // 기능의 동작을 위한 코드
+    return 반환값;
   }
   ~~~
 
@@ -35,8 +35,8 @@
 
   ~~~js
   function add(num1, num2) {
-  let result = num1 + num2;
-  return result;
+    let result = num1 + num2;
+    return result;
   }
   ~~~
 </Section>
@@ -53,8 +53,8 @@
 
   ~~~js
   function add(num1, num2) {
-  let result = num1 + num2;
-  return result;
+    let result = num1 + num2;
+    return result;
   }
   ~~~
 
@@ -73,9 +73,9 @@
 
   ~~~js
   function writeLog() {
-  Log.i("함수가 호출되었습니다.");
-  return "함수의 실행을 종료합니다.";
-  Log.i("로그를 추가로 작성합니다.");
+    Log.i("함수가 호출되었습니다.");
+    return "함수의 실행을 종료합니다.";
+    Log.i("로그를 추가로 작성합니다.");
   }
   ~~~
 
@@ -85,13 +85,13 @@
   const bot = BotManager.getCurrentBot();
 
   function writeLog() {
-  Log.i("함수가 호출되었습니다.");
-  return "함수의 실행을 종료합니다.";
-  Log.i("로그를 추가로 작성합니다.");
+    Log.i("함수가 호출되었습니다.");
+    return "함수의 실행을 종료합니다.";
+    Log.i("로그를 추가로 작성합니다.");
   }
 
   function onMessage(msg) {
-  msg.reply(writeLog());
+    msg.reply(writeLog());
   }
   bot.addListener(Event.MESSAGE, onMessage);
   ~~~
@@ -111,9 +111,9 @@
 
   ~~~js
   function writeLog() {
-  Log.i("함수가 호출되었습니다.");
-  return;
-  Log.i("로그를 추가로 작성합니다.");
+    Log.i("함수가 호출되었습니다.");
+    return;
+    Log.i("로그를 추가로 작성합니다.");
   }
   ~~~
 </Section>
@@ -124,7 +124,7 @@
 
   ~~~js
   const add = function add_fn(num1, num2) {
-  return num1 + num2;
+    return num1 + num2;
   }
   ~~~
 
@@ -202,8 +202,8 @@
 
   ~~~js
   function (매개변수1, 매개변수2, ..., 매개변수N) {
-  // 기능의 동작을 위한 코드
-  return 반환값;
+    // 기능의 동작을 위한 코드
+    return 반환값;
   }
   ~~~
 
@@ -211,7 +211,7 @@
 
   ~~~js
   const add = function (num1, num2) {
-  return num1 + num2;
+    return num1 + num2;
   }
   ~~~
 
@@ -219,7 +219,7 @@
 
   ~~~js
   [1, 2, 3, 4, 5].forEach(function (e, i) {
-  msg.reply(`arr[${i}] = ${e}`);
+    msg.reply(`arr[${i}] = ${e}`);
   });
   ~~~
 
@@ -303,7 +303,7 @@
     let result = "";
 
     for (let i = 0; i < n; i++) {
-    result += str;
+      result += str;
     }
 
     return result;
@@ -321,7 +321,7 @@
 
   function onMessage(msg) {
     setTimeout(() => {
-    msg.reply("메시지 감지!");
+      msg.reply("메시지 감지!");
     }, 5000);
   }
   bot.addListener(Event.MESSAGE, onMessage);
