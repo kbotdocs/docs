@@ -18,12 +18,12 @@
         wake lock 해제 동작을 나타내는 플래그
         <Details
           summary={"wake lock 해제 플래그 ([`android.os.PowerManager`](https://developer.android.com/reference/android/os/PowerManager))"}>
-          <Table className="table-fixed">
+          <Table class="table-fixed">
             <Thead>
               <Tr>
                 <Th colspan="2"></Th>
               </Tr>
-              <Tr className="hidden md:table-row">
+              <Tr class="hidden md:table-row">
                 <Th></Th>
                 <Th>액션</Th>
               </Tr>
