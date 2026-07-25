@@ -9,7 +9,7 @@
   <Dl>
   <Dt>엔드포인트</Dt>
   <Dd>
-    <Endpoint method={"POST"}>`/config/dbrate`</Endpoint>
+    <InlineEndpoint method={"POST"}>`/config/dbrate`</InlineEndpoint>
   </Dd>
   <Dt>Content-Type</Dt>
   <Dd>

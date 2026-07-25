@@ -5,7 +5,7 @@
   <Dl>
   <Dt>엔드포인트</Dt>
   <Dd>
-    <Endpoint method={"POST"}>`/config/endpoint`</Endpoint>
+    <InlineEndpoint method={"POST"}>`/config/endpoint`</InlineEndpoint>
   </Dd>
   <Dt>Content-Type</Dt>
   <Dd>

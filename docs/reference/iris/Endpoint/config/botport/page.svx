@@ -9,7 +9,7 @@
   <Dl>
   <Dt>엔드포인트</Dt>
   <Dd>
-    <Endpoint method={"POST"}>`/config/botport`</Endpoint>
+    <InlineEndpoint method={"POST"}>`/config/botport`</InlineEndpoint>
   </Dd>
   <Dt>Content-Type</Dt>
   <Dd>

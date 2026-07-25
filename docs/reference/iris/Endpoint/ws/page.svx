@@ -5,7 +5,7 @@
   <Dl>
   <Dt>엔드포인트</Dt>
   <Dd>
-    <Endpoint method={"POST"}>`/ws`</Endpoint>
+    <InlineEndpoint method={"POST"}>`/ws`</InlineEndpoint>
   </Dd>
   <Dt>Content-Type</Dt>
   <Dd>

@@ -5,7 +5,7 @@
   <Dl>
   <Dt>엔드포인트</Dt>
   <Dd>
-    <Endpoint method={"POST"}>`/decrypt`</Endpoint>
+    <InlineEndpoint method={"POST"}>`/decrypt`</InlineEndpoint>
   </Dd>
   <Dt>Content-Type</Dt>
   <Dd>

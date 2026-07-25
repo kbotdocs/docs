@@ -11,7 +11,7 @@
   <Dl>
   <Dt>엔드포인트</Dt>
   <Dd>
-    <Endpoint method={"POST"}>`/query`</Endpoint>
+    <InlineEndpoint method={"POST"}>`/query`</InlineEndpoint>
   </Dd>
   <Dt>Content-Type</Dt>
   <Dd>
