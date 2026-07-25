@@ -2,16 +2,7 @@
 <Section>
   메시지를 복호화합니다.
 
-  <Dl>
-  <Dt>엔드포인트</Dt>
-  <Dd>
-    <InlineEndpoint method={"POST"}>`/decrypt`</InlineEndpoint>
-  </Dd>
-  <Dt>Content-Type</Dt>
-  <Dd>
-    `application/json`
-  </Dd>
-  </Dl>
+  <Endpoint method={"POST"} endpoint={"/decrypt"} contentType={"application/json"} />
 </Section>
 <Section>
   ## 요청

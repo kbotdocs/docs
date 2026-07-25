@@ -2,16 +2,7 @@
 <Section>
   메시지 전달을 위한 웹 서버 엔드포인트를 업데이트합니다.
 
-  <Dl>
-  <Dt>엔드포인트</Dt>
-  <Dd>
-    <InlineEndpoint method={"POST"}>`/config/endpoint`</InlineEndpoint>
-  </Dd>
-  <Dt>Content-Type</Dt>
-  <Dd>
-    `application/json`
-  </Dd>
-  </Dl>
+  <Endpoint method={"POST"} endpoint={"/config/endpoint"} contentType={"application/json"} />
 </Section>
 <Section>
   ## 요청

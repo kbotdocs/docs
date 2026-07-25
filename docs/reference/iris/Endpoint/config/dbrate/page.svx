@@ -6,16 +6,7 @@
   낮은 `rate` 값은 메시지를 더 즉각적으로 감지할 수 있지만 CPU 사용량을 증가시킵니다.
   </Noti>
 
-  <Dl>
-  <Dt>엔드포인트</Dt>
-  <Dd>
-    <InlineEndpoint method={"POST"}>`/config/dbrate`</InlineEndpoint>
-  </Dd>
-  <Dt>Content-Type</Dt>
-  <Dd>
-    `application/json`
-  </Dd>
-  </Dl>
+  <Endpoint method={"POST"} endpoint={"/config/dbrate"} contentType={"application/json"} />
 </Section>
 <Section>
   ## 요청

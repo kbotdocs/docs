@@ -2,16 +2,7 @@
 <Section>
   메시지 전송 지연 시간을 업데이트합니다.
 
-  <Dl>
-  <Dt>엔드포인트</Dt>
-  <Dd>
-    <InlineEndpoint method={"POST"}>`/config/sendrate`</InlineEndpoint>
-  </Dd>
-  <Dt>Content-Type</Dt>
-  <Dd>
-    `application/json`
-  </Dd>
-  </Dl>
+  <Endpoint method={"POST"} endpoint={"/config/sendrate"} contentType={"application/json"} />
 </Section>
 <Section>
   ## 요청

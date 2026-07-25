@@ -2,16 +2,7 @@
 <Section>
   AOT 관련 토큰을 반환합니다.
 
-  <Dl>
-  <Dt>엔드포인트</Dt>
-  <Dd>
-    <InlineEndpoint method={"GET"}>`/aot`</InlineEndpoint>
-  </Dd>
-  <Dt>Content-Type</Dt>
-  <Dd>
-    `-/-`
-  </Dd>
-  </Dl>
+  <Endpoint method={"GET"} endpoint={"/aot"} contentType={"-/-"} />
 </Section>
 <Section>
   ## 요청

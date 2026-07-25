@@ -2,16 +2,7 @@
 <Section>
   현재 구성을 JSON 응답으로 검색합니다.
 
-  <Dl>
-  <Dt>엔드포인트</Dt>
-  <Dd>
-    <InlineEndpoint method={"GET"}>`/config`</InlineEndpoint>
-  </Dd>
-  <Dt>Content-Type</Dt>
-  <Dd>
-    `-/-`
-  </Dd>
-  </Dl>
+  <Endpoint method={"GET"} endpoint={"/config"} contentType={"-/-"} />
 </Section>
 <Section>
   ## 요청

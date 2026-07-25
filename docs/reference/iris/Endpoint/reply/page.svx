@@ -2,16 +2,7 @@
 <Section>
   방에 텍스트 메시지 또는 이미지를 보냅니다.
 
-  <Dl>
-  <Dt>엔드포인트</Dt>
-  <Dd>
-    <InlineEndpoint method={"POST"}>`/reply`</InlineEndpoint>
-  </Dd>
-  <Dt>Content-Type</Dt>
-  <Dd>
-    `application/json`
-  </Dd>
-  </Dl>
+  <Endpoint method={"POST"} endpoint={"/reply"} contentType={"application/json"} />
 </Section>
 <Section>
   ## 요청

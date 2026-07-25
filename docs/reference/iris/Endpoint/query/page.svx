@@ -8,16 +8,7 @@
   반환합니다.
   </Noti>
 
-  <Dl>
-  <Dt>엔드포인트</Dt>
-  <Dd>
-    <InlineEndpoint method={"POST"}>`/query`</InlineEndpoint>
-  </Dd>
-  <Dt>Content-Type</Dt>
-  <Dd>
-    `application/json`
-  </Dd>
-  </Dl>
+  <Endpoint method={"POST"} endpoint={"/query"} contentType={"application/json"} />
 </Section>
 <Section>
   ## 요청
