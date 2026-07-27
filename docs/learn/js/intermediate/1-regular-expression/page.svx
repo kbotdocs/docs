@@ -340,8 +340,8 @@
     <Tr>
       <Td><span>`(`*`x`*`)`</span></Td>
       <Td>
-      *`x`* 를 가리키며 기억합니다(그룹을 캡처합니다). [`RegExp.prototype.exec()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
-      또는 [`String.prototype.match()`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/match) 등의 반환값(일치 결과)에 양의 정수 인덱스(`[1]`, `[2]`, ...)를 사용해 캡처된 결과를 참조할 수 있습니다.
+      *`x`* 를 가리키며 기억합니다(그룹을 캡처합니다). [`RegExp.prototype.exec()`](#blank#https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
+      또는 [`String.prototype.match()`](#blank#https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/match) 등의 반환값(일치 결과)에 양의 정수 인덱스(`[1]`, `[2]`, ...)를 사용해 캡처된 결과를 참조할 수 있습니다.
       
       <Noti type="warning">
         그룹을 캡처할 경우 성능 저하가 있을 수 있습니다. 캡처할 필요가 없을 경우 비캡처 그룹을 사용하세요.
