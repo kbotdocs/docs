@@ -1,21 +1,21 @@
 
-<Section>
+<section>
   문자열 `value`를 클립보드에 복사합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Utils.copyToClipboard(value);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="value" type="String">
+  <params>
+    <param-item param="value" type="String">
     클립보드에 복사할 문자열 값
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

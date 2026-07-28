@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   메신저 앱이 듀얼 메신저인지의 여부입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   cmd.isMultiChat;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `Boolean` - 메신저 앱이 듀얼 메신저인지의 여부입니다.
-  </Section>
-</Section>
+  </section>
+</section>

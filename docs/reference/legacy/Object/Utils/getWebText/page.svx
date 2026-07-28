@@ -1,9 +1,9 @@
 
-<Section>
+<section>
   [`jsoup`](https://jsoup.org/)을 이용해 `url`에 동기 GET request를 보냅니다. 요청에 대한 응답을 문자열로 반환합니다. `removeTags`가 `true`일 경우 HTML
   태그를 삭제한 응답을 문자열로 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -11,21 +11,21 @@
   Utils.getWebText(url, removeTags);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="url" type="String">
+  <params>
+    <param-item param="url" type="String">
     GET request를 보낼 서버의 URL
-    </ParamItem>
-    <ParamItem param="removeTags" type="Boolean" defaultVal="`false`" optional>
+    </param-item>
+    <param-item param="removeTags" type="Boolean" defaultVal="`false`" optional>
     응답 값에 존재하는 HTML 태그를 삭제할 것인지의 여부
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `String` - 요청에 대한 응답을 문자열로 반환합니다. `removeTags?`가 `true`일 경우 HTML 태그를 삭제한 응답을 문자열로 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

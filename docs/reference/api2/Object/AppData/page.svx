@@ -1,73 +1,73 @@
 
-<Section>
+<section>
   `AppData` 객체는 앱의 데이터에 관한 기능들을 위한 객체입니다. `AppData` 객체로 관리하는 데이터는 `키: 값` 형태의 데이터입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 정적 메소드
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th colspan="2">`AppData` 객체의 정적 메소드</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td><span>`void`</span></Td>
-    <Td>
+  <table>
+  <thead>
+    <tr>
+    <th colspan="2">`AppData` 객체의 정적 메소드</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><span>`void`</span></td>
+    <td>
       [`clear`](/reference/api2/Object/AppData/clear)`()` \
       `AppData` 객체로 저장한 모든 데이터를 삭제합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`Boolean`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`Boolean`</span></td>
+    <td>
       [`getBoolean`](/reference/api2/Object/AppData/getBoolean)`(key: String)` \
       `key`에 대응하는 `Boolean`형 데이터를 반환합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`Number`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`Number`</span></td>
+    <td>
       [`getInt`](/reference/api2/Object/AppData/getInt)`(key: String)` \
       `key`에 대응하는 `Number`(정수)형 데이터를 반환합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`String`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`String`</span></td>
+    <td>
       [`getString`](/reference/api2/Object/AppData/getString)`(key: String)` \
       `key`에 대응하는 `String`형 데이터를 반환합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`void`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`void`</span></td>
+    <td>
       [`putBoolean`](/reference/api2/Object/AppData/putBoolean)`(key: String, boolean: Boolean)` \
       앱 데이터에 `key: boolean` (`String: Boolean` 형식) 데이터를 씁니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`void`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`void`</span></td>
+    <td>
       [`putInt`](/reference/api2/Object/AppData/putInt)`(key: String, integer: Number)` \
       앱 데이터에 `key: integer` (`String: Number(정수)` 형식) 데이터를 씁니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`void`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`void`</span></td>
+    <td>
       [`putString`](/reference/api2/Object/AppData/putString)`(key: String, string: String)` \
       앱 데이터에 `key: string` (`String: String` 형식) 데이터를 씁니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`void`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`void`</span></td>
+    <td>
       [`remove`](/reference/api2/Object/AppData/remove)`(key: String)` \
       `key`에 대응하는 앱 데이터를 삭제합니다.
-    </Td>
-    </Tr>
-  </Tbody>
-  </Table>
-</Section>
+    </td>
+    </tr>
+  </tbody>
+  </table>
+</section>

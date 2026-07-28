@@ -1,21 +1,21 @@
 
-<Section>
+<section>
   쿠키를 저장합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   kakaoLinkCookieStorage.save(cookies)
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="cookies" type="dict">
+  <params>
+    <param-item param="cookies" type="dict">
     저장할 쿠키
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

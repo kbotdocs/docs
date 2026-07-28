@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   앱이 사용하려고 시도하는 최대 메모리 크기(Byte)를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Device.getMaxMemory();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `Number` - 앱이 사용하려고 시도하는 최대 메모리 크기(Byte)를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

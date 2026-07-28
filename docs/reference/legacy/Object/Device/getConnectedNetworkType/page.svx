@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   연결되어 있는 네트워크의 타입을 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Device.getConnectedNetworkType();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `String` - 연결되어 있는 네트워크의 타입을 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

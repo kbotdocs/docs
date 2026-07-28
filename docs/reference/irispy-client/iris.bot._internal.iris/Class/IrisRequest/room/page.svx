@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   메시지가 온 방의 이름입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   irisRequest.room
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `str` - 메시지가 온 방의 이름입니다.
-  </Section>
-</Section>
+  </section>
+</section>

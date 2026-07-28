@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   반복문(Loop)은 비슷한 동작을 반복적으로 수행할 필요가 있을 때 이를 효율적으로 처리하기 위해 사용하는 표현문입니다. 이 문서에서는 JavaScript에 존재하는 두 가지 반복문을 소개합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 반복문이 필요한 이유
 
   반복문을 사용하면 불필요하게 많은 코드의 사용을 줄이고 가독성을 높일 수 있습니다. 단순한 예를 들겠습니다.
@@ -30,13 +30,13 @@
   ~~~
 
   이외에도 반복문은 배열을 다루거나, 무언가를 반복적으로 확인해야 하는 작업에도 유리합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## for 문
 
-  <Noti type="warning">
+  <noti type="warning">
   Rhino 엔진(메신저봇R 0.7.40-alpha.02 이하 버전)에서 `const` 키워드의 동작이 정상적이지 못합니다(함수 스코프를 가짐). 그러므로 해당 버전을 사용하는 경우 `const` 키워드의 사용에 유의하세요.
-  </Noti>
+  </noti>
 
   `for` 문의 구문은 아래와 같습니다.
 
@@ -90,9 +90,9 @@
 
   `for` 문의 초기화식, 조건식, 증감식은 생략이 가능합니다. 아래는 조건식을 생략한 형태의 반복문입니다.
 
-  <Noti type="danger">
+  <noti type="danger">
   아래 예제 코드는 실행할 경우 피해를 입을 수 있습니다. 디버깅룸에서도 테스트하는 것을 권장하지 않으며 실제 채팅방에서도 작동하지 마세요.
-  </Noti>
+  </noti>
 
   ~~~js
   for (let i = 0; ; i++) {
@@ -103,12 +103,12 @@
   조건식을 생략할 경우, 조건식의 결과가 항상 `true`인 것으로 간주합니다. 그러므로 `for` 문의 내부에서 반복을 탈출하는 코드가 없으면 무한 반복하게 됩니다.
   위 코드는 실행하면 `"Infinity loop!"`를 무한히 전송하게 됩니다.
 
-  <Noti type="info">
+  <noti type="info">
   만약 무한 반복을 중지하고자 한다면 절차에 따라 시행하세요.
   1. 메신저봇R 메인 화면으로 이동하세요.
   2. 작동한 코드의 프로젝트를 클릭하고 프로젝트 설정 버튼(맨 마지막 버튼)을 클릭하세요.
   3. **모든 스레드 Interrupt 요청하기**를 클릭하세요.
-  </Noti>
+  </noti>
 
   초기화식, 조건식, 증감식을 모두 생략한 `for` 문의 형태는 다음과 같습니다.
 
@@ -117,8 +117,8 @@
     // 반복적으로 수행할 코드
   }
   ~~~
-</Section>
-<Section>
+</section>
+<section>
   ## while 문
 
   `while` 문은 JavaScript에서 지원하는 또 다른 반복문으로 `for` 문보다 더 단순한 형태를 가집니다.
@@ -153,7 +153,7 @@
   loop: 2
   ~~~
 
-  <Section>
+  <section>
   ### do ... while 문
 
   `do...while` 문은 기존 `while` 문과 무언가가 다르며, 동작 방식 또한 차이가 있습니다. 구문은 아래와 같습니다.
@@ -190,9 +190,9 @@
   loop: 1
   loop: 2
   ~~~
-  </Section>
-</Section>
-<Section>
+  </section>
+</section>
+<section>
   ## 반복 탈출하기: break
 
   `break`는 `switch` 문에서만 쓰이지 않습니다. `for` 문, `while` 문과 같은 반복문에도 사용됩니다. 반복문에서 사용될 경우 해당 반복문을 탈출하고 반복문 다음의 코드를 수행하게 됩니다.
@@ -212,8 +212,8 @@
   loop: 1
   loop: 2
   ~~~
-</Section>
-<Section>
+</section>
+<section>
   ## 코드 건너뛰기: continue
 
   `continue`는 반복문 내에서 사용하는 키워드로, 반복문 내의 코드를 수행하기를 중지하고 증감식 수행 단계로 건너뜁니다. `break`와 다르게 반복을 탈출하지 않습니다. 아래는 `continue`를 사용한
@@ -235,8 +235,8 @@
   loop: 7
   loop: 9
   ~~~
-</Section>
-<Section>
+</section>
+<section>
   ## 활용: 타이머
 
   명령어를 입력하면 1초마다 카운트다운을 하며 10초를 센 후 메시지를 보내는 기능을 반복문으로 구현할 수 있습니다. 어떤 반복문을 사용해도 되지만, 여기에서는 `for` 문을 사용하겠습니다.
@@ -306,16 +306,16 @@
   카운트다운: 1초
   10초가 지났습니다!
   ~~~
-</Section>
-<Section>
+</section>
+<section>
   ## 실습하기
 
-  <Blockquote>
+  <blockquote>
   **Q1.** 위의 타이머 코드는 10초 타이머 기능만 제공합니다. 원하는 시간만큼 타이머를 설정할 수 있다면 얼마나 좋을까요? 예를 들어, '@timer 5'라고 입력하면 1초 간격으로 카운트다운한 뒤
   5초가 되었다는 메시지를 전송합니다.
   사용자가 타이머 시간을 설정할 수 있도록 코드를 수정해보세요.
-  </Blockquote>
-  <Details summary="모범답안">
+  </blockquote>
+  <details summary="모범답안">
   `for` 문:
   ~~~js
   const bot = BotManager.getCurrentBot();
@@ -354,8 +354,8 @@
   bot.setCommandPrefix("@");
   bot.addListener(Event.COMMAND, onCommand);
   ~~~
-  </Details>
-  <Blockquote>
+  </details>
+  <blockquote>
   **Q2.** 당신은 초등학생 동생을 위해 구구단을 출력해주는 카카오톡봇을 만들고자 합니다. 예를 들어, '@dan 2'를 입력하면 아래와 같이 출력합니다.
 
   ~~~text
@@ -372,8 +372,8 @@
   ~~~
 
   반복문을 사용해 코드를 작성해보세요. (하나의 메시지로 출력하세요.)
-  </Blockquote>
-  <Details summary="모범답안">
+  </blockquote>
+  <details summary="모범답안">
   `for` 문:
   ~~~js
   const bot = BotManager.getCurrentBot();
@@ -414,12 +414,12 @@
   bot.setCommandPrefix("@");
   bot.addListener(Event.COMMAND, onCommand);
   ~~~
-  </Details>
-  <Blockquote>
+  </details>
+  <blockquote>
   **Q3.** 여러분은 동생을 위해 열심히 Q2.를 해결했습니다. 하지만 동생은 2단부터 9단까지 모두 보여줬으면 좋겠다고 합니다. '@gugudan'을 입력하면 2단부터 9단까지 출력하도록 수정해보세요.
   단마다 하나의 메시지로 출력하세요. (힌트: 반복문 안에 반복문을 사용하는 것도 가능합니다.)
-  </Blockquote>
-  <Details summary="모범답안">
+  </blockquote>
+  <details summary="모범답안">
   `for` 문:
   ~~~js
   const bot = BotManager.getCurrentBot();
@@ -465,5 +465,5 @@
   bot.setCommandPrefix("@");
   bot.addListener(Event.COMMAND, onCommand);
   ~~~
-  </Details>
-</Section>
+  </details>
+</section>

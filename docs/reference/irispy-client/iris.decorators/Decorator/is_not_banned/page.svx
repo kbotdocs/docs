@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   메시지를 보낸 사용자가 관리자인 경우에만 함수를 실행합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
@@ -10,4 +10,4 @@
   def func(...):
     ...
   ~~~
-</Section>
+</section>

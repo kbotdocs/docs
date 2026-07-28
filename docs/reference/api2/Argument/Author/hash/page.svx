@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   발신자의 고유 해시입니다. 해시는 같은 방 내에서 고유합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   author.hash;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `String` - 발신자의 고유 해시입니다. 해시는 같은 방 내에서 고유합니다.
-  </Section>
-</Section>
+  </section>
+</section>

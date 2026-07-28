@@ -1,24 +1,24 @@
 
-<Section>
+<section>
   앱 데이터에 `key: boolean` (`String: Boolean` 형식) 데이터를 씁니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   AppData.putBoolean(key, boolean);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="key" type="String">
+  <params>
+    <param-item param="key" type="String">
     쓸 앱 데이터의 키
-    </ParamItem>
-    <ParamItem param="boolean" type="Boolean">
+    </param-item>
+    <param-item param="boolean" type="Boolean">
     `key`에 대한 `Boolean`형 데이터
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

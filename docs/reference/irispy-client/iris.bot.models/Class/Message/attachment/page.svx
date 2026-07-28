@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   메시지의 첨부 파일입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   message.attachment
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `dict` - 메시지의 첨부 파일입니다.
-  </Section>
-</Section>
+  </section>
+</section>

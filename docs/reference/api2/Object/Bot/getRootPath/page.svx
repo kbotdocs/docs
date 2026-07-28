@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   `Bot` 객체에 대응하는 스크립트의 프로젝트 디렉토리 경로를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   bot.getRootPath();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `String` - `Bot` 객체에 대응하는 스크립트의 프로젝트 디렉토리 경로를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

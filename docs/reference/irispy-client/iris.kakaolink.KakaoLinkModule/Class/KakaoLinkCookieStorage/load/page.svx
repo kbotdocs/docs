@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   저장한 쿠키를 불러옵니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   kakaoLinkCookieStorage.load()
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `dict` - 저장한 쿠키를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

@@ -1,16 +1,16 @@
-<Section>
+<section>
   앱 구동 기기의 배터리 잔량(%)을 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Device.getBatteryLevel();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `Number` - 앱 구동 기기의 배터리 잔량(%)을 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

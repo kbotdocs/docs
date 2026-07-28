@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   프로젝트의 로컬 디렉터리에 저장되는 프로젝트 전용 구성 데이터입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Project.config;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   [`MutableConfig`](https://github.com/mooner1022/reference/starlight/blob/nightly/PluginCore/src/main/java/dev/mooner/reference/starlight/plugincore/config/data/MutableConfig.kt) - 프로젝트의 로컬 디렉터리에 저장되는 프로젝트 전용 구성 데이터입니다.
-  </Section>
-</Section>
+  </section>
+</section>

@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   API2의 [`activityCreate`](/reference/api2/Event/activityCreate) 이벤트입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Event.Activity.CREATE;
   ~~~
 
-  <Section>
+  <section>
   ### 상수값
 
   `String` - `"activityCreate"`
-  </Section>
-</Section>
+  </section>
+</section>

@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   알림이 생성되지 않았습니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Notification.STATE_DEFAULT;
   ~~~
 
-  <Section>
+  <section>
   ### 상수값
 
   `Number` - `0`
-  </Section>
-</Section>
+  </section>
+</section>

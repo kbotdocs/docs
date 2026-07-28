@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   모든 `Bot` 객체 인스턴스의 개수를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   BotManager.getBotCount();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `Number` - 모든 `Bot` 객체 인스턴스의 개수를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

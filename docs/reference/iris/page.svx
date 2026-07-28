@@ -1,160 +1,160 @@
 
-<Section>
+<section>
   [Iris](https://github.com/dolidolih/Iris)는 카카오톡과의 상호작용을 자동화하고, 데이터베이스에서 데이터를 추출하며, HTTP 서버를 통해 원격으로 제어하기 위한 서버
   어플리케이션입니다. Java로 빌드되었으며 Android 기기에서 실행되도록 설계되었고, 시스템 서비스와 직접적인 데이터베이스 접근을 활용합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## Iris 시작하기
 
   Iris를 시작하기 위한 설정이 필요합니다. [여기](/reference/iris/get-started)를 참고해 셋업을 완료하세요.
-</Section>
-<Section>
+</section>
+<section>
   ## 엔드포인트
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th colspan="2">HTTP API 엔드포인트</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td>
+  <table>
+  <thead>
+    <tr>
+    <th colspan="2">HTTP API 엔드포인트</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="GET" />
+      <request-method method="GET" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/aot`](/reference/iris/Endpoint/aot) \
       AOT 관련 토큰을 반환합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="POST" />
+      <request-method method="POST" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/decrypt`](/reference/iris/Endpoint/decrypt) \
       메시지를 복호화합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="POST" />
+      <request-method method="POST" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/query`](/reference/iris/Endpoint/query) \
       카카오톡 데이터베이스에 대한 SQL 쿼리를 실행합니다. 응답에서 암호화된 데이터 필드를 자동으로 복호화합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="POST" />
+      <request-method method="POST" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/reply`](/reference/iris/Endpoint/reply) \
       방에 텍스트 메시지 또는 이미지를 보냅니다.
-    </Td>
-    </Tr>
-  </Tbody>
-  </Table>
+    </td>
+    </tr>
+  </tbody>
+  </table>
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th colspan="2">구성 API 엔드포인트</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td>
+  <table>
+  <thead>
+    <tr>
+    <th colspan="2">구성 API 엔드포인트</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="GET" />
+      <request-method method="GET" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/config`](/reference/iris/Endpoint/config) \
       현재 구성을 JSON 응답으로 검색합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="POST" />
+      <request-method method="POST" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/config/botport`](/reference/iris/Endpoint/config/botport) \
       봇 HTTP 서버 포트를 업데이트합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="POST" />
+      <request-method method="POST" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/config/dbrate`](/reference/iris/Endpoint/config/dbrate) \
       데이터베이스 폴링 속도를 업데이트합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="POST" />
+      <request-method method="POST" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/config/endpoint`](/reference/iris/Endpoint/config/endpoint) \
       메시지 전달을 위한 웹 서버 엔드포인트를 업데이트합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="POST" />
+      <request-method method="POST" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/config/sendrate`](/reference/iris/Endpoint/config/sendrate) \
       메시지 전송 속도를 업데이트합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td>
       <span>
-      <RequestMethod method="GET" />
+      <request-method method="GET" />
       </span>
-    </Td>
-    <Td>
+    </td>
+    <td>
       [`/dashboard`](/reference/iris/Endpoint/dashboard) \
       Iris의 구성을 위한 웹 UI입니다.
-    </Td>
-    </Tr>
-  </Tbody>
-  </Table>
+    </td>
+    </tr>
+  </tbody>
+  </table>
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th colspan="2">WebSocket 엔드포인트</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td><span><RequestMethod method="POST"/></span></Td>
-    <Td>
+  <table>
+  <thead>
+    <tr>
+    <th colspan="2">WebSocket 엔드포인트</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><span><request-method method="POST"/></span></td>
+    <td>
       [`/ws`](/reference/iris/Endpoint/ws) \
       WebSocket 연결을 생성합니다. Iris가 메시지를 감지할 경우 해당 엔드포인트로 데이터를 전달합니다.
-    </Td>
-    </Tr>
-  </Tbody>
-  </Table>
-</Section>
+    </td>
+    </tr>
+  </tbody>
+  </table>
+</section>

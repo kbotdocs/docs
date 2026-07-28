@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   `path` 경로의 디렉토리에 존재하는 파일과 디렉토리의 이름을 배열로 반환합니다. `path` 경로가 존재하지 않거나 파일일 경우 `null`을 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   FileStream.listFiles(path);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="path" type="String">
+  <params>
+    <param-item param="path" type="String">
     자식 파일/디렉토리의 이름을 불러올 디렉토리의 경로
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `String[]` - `path` 경로의 디렉토리에 존재하는 파일과 디렉토리의 이름을 배열로 반환합니다. `path` 경로가 존재하지 않거나 파일일 경우 `null`을 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   메시지가 발신된 방의 이름입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   cmd.room;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `String` - 메시지가 발신된 방의 이름입니다.
-  </Section>
-</Section>
+  </section>
+</section>

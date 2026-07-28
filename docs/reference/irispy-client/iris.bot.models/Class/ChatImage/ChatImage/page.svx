@@ -1,21 +1,21 @@
 
-<Section>
+<section>
   새 `ChatImage` 객체를 생성합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   ChatImage(message)
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="message" type="iris.bot.models.Message">
+  <params>
+    <param-item param="message" type="iris.bot.models.Message">
     이미지를 가져올 메시지에 대한 [`Message`](/reference/irispy-client/iris.bot.models/Class/Message) 인스턴스
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

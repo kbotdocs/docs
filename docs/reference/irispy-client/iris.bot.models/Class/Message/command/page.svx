@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   메시지의 명령어 부분입니다. 메시지의 첫 번째 단어를 가리킵니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   message.command
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `str` - 메시지의 명령어 부분입니다. 메시지의 첫 번째 단어를 가리킵니다.
-  </Section>
-</Section>
+  </section>
+</section>

@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   방이 디버깅 룸인지의 여부입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   msg.isDebugRoom;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `Boolean` - 방이 디버깅 룸인지의 여부입니다.
-  </Section>
-</Section>
+  </section>
+</section>

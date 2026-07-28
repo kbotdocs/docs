@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   삭제된 메시지의 발신자의 이름입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   deletedMsg.sender;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `String` - 삭제된 메시지의 발신자의 이름입니다.
-  </Section>
-</Section>
+  </section>
+</section>

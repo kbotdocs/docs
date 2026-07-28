@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   `Bot`객체에 대응하는 카카오톡봇의 이름을 반환합니다. 여기에서 카카오톡봇의 이름은 스크립트 파일의 이름을 의미합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   bot.getName();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `String` - 카카오톡봇의 이름, 즉 스크립트의 이름을 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

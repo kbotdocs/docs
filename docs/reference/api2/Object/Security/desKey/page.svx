@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   DES 보조키를 생성하여 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Security.desKey();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `String` - 생성한 DES 보조키를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

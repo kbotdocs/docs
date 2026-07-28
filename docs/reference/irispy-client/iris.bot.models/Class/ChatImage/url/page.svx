@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   이미지의 URL 리스트입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   chatImage.url
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `list[str]` - 이미지의 URL 리스트입니다.
-  </Section>
-</Section>
+  </section>
+</section>

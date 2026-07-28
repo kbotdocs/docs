@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   API2의 [`notificationRemoved`](/reference/api2/Event/notificationRemoved) 이벤트입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Event.NOTIFICATION_REMOVED;
   ~~~
 
-  <Section>
+  <section>
   ### 상수값
 
   `String` - `"notificationRemoved"`
-  </Section>
-</Section>
+  </section>
+</section>

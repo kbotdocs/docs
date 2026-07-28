@@ -1,72 +1,72 @@
 
-<Section>
+<section>
   `ChatRoom` 객체는 방에 관한 정보를 담은 객체입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 인스턴스 프로퍼티
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th colspan="2">`ChatRoom` 객체의 인스턴스 프로퍼티</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td><span>`String`</span></Td>
-    <Td>
+  <table>
+  <thead>
+    <tr>
+    <th colspan="2">`ChatRoom` 객체의 인스턴스 프로퍼티</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><span>`String`</span></td>
+    <td>
       [`id`](/reference/starlight/Argument/ChatRoom/id) \
       방의 고유 ID입니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`Boolean`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`Boolean`</span></td>
+    <td>
       [`isDebugRoom`](/reference/starlight/Argument/ChatRoom/isDebugRoom) \
       방이 디버깅 룸인지의 여부입니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`Boolean`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`Boolean`</span></td>
+    <td>
       [`isGroupChat`](/reference/starlight/Argument/ChatRoom/isGroupChat) \
       방이 그룹 채팅방인지의 여부입니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`String`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`String`</span></td>
+    <td>
       [`name`](/reference/starlight/Argument/ChatRoom/name) \
       방의 이름입니다.
-    </Td>
-    </Tr>
-  </Tbody>
-  </Table>
-</Section>
-<Section>
+    </td>
+    </tr>
+  </tbody>
+  </table>
+</section>
+<section>
   ## 인스턴스 메소드
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th colspan="2">`ChatRoom` 객체의 인스턴스 메소드</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td><span>`Boolean`</span></Td>
-    <Td>
+  <table>
+  <thead>
+    <tr>
+    <th colspan="2">`ChatRoom` 객체의 인스턴스 메소드</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><span>`Boolean`</span></td>
+    <td>
       [`markAsRead`](/reference/starlight/Argument/ChatRoom/markAsRead)`()` \
       방의 알림을 읽음 처리합니다. 읽음 처리의 성공 여부를 반환합니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`Boolean`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`Boolean`</span></td>
+    <td>
       [`send`](/reference/starlight/Argument/ChatRoom/send)`(message: String)` \
       방에 메시지를 발신합니다. 발신 성공 여부를 반환합니다.
-    </Td>
-    </Tr>
-  </Tbody>
-  </Table>
-</Section>
+    </td>
+    </tr>
+  </tbody>
+  </table>
+</section>

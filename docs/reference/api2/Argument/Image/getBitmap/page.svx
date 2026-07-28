@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   image.getBitmap();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `android.graphics.Bitmap` - 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

@@ -1,11 +1,11 @@
 
-<Section>
+<section>
   데이터베이스와의 연결을 닫습니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   pyKV.close()
   ~~~
-</Section>
+</section>

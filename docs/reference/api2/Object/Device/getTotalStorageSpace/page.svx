@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   `path` 경로의 파티션의 전체 크기(Byte)를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Device.getTotalStorageSpace(path);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="path" type="String">
+  <params>
+    <param-item param="path" type="String">
     전체 크기를 확인할 파티션의 경로
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `Number` - `path` 경로의 파티션의 전체 크기(Byte)를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

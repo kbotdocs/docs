@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   `onResume`는 스크립트 액티비티의 [`onResume`](https://developer.android.com/reference/android/app/Activity#onResume())가 호출되면 동작하는 이벤트 리스너입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -11,13 +11,13 @@
   }
   ~~~
 
-  <Section>
+  <section>
   ### 인자
 
-  <ParamList>
-    <ParamItem param="activity" type="android.app.Activity">
+  <params>
+    <param-item param="activity" type="android.app.Activity">
     해당 이벤트가 발생했을 때의 액티비티입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

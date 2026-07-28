@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   특정 레이블의 타이머를 시작합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -10,13 +10,13 @@
   console.time(label);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="label" type="String" defaultVal="`&quot;default&quot;`" optional>
+  <params>
+    <param-item param="label" type="String" defaultVal="`&quot;default&quot;`" optional>
     시작할 타이머에 대한 레이블
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

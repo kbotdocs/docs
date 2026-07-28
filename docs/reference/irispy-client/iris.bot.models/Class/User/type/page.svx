@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   사용자의 유형을 나타내는 문자열입니다. 이 프로퍼티는 캐시됩니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   user.type
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `str` - 사용자의 유형을 나타내는 문자열입니다.
-  </Section>
-</Section>
+  </section>
+</section>

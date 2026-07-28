@@ -1,24 +1,24 @@
 
-<Section>
+<section>
   앱 데이터에 `key: string` (`String: String` 형식) 데이터를 씁니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   AppData.putString(key, string);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="key" type="String">
+  <params>
+    <param-item param="key" type="String">
     쓸 앱 데이터의 키
-    </ParamItem>
-    <ParamItem param="string" type="String">
+    </param-item>
+    <param-item param="string" type="String">
     `key`에 대한 `String`형 데이터
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

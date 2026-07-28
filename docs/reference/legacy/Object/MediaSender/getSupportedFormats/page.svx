@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   `MediaSender` 객체가 지원하는 미디어 파일의 확장자를 배열 형태로 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   mediaSender.getSupportedFormats();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `String[]` - `MediaSender` 객체가 지원하는 미디어 파일의 확장자를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

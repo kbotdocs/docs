@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   API2의 [`notificationPosted`](/reference/api2/Event/notificationPosted) 이벤트입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Event.NOTIFICATION_POSTED;
   ~~~
 
-  <Section>
+  <section>
   ### 상수값
 
   `String` - `"notificationPosted"`
-  </Section>
-</Section>
+  </section>
+</section>

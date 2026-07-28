@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   **Discord**는 StarLight용 플러그인으로, 디스코드 챗봇 API의 이벤트를 수신 및 사용할 수 있게 합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 사용방법
 
   1. [`discord.slp`](https://drive.google.com/file/d/1Q_eEmqehX7Rk7xGCgzT1TIqUDRJdgNyJ/view?usp=drive_link)과
@@ -14,19 +14,19 @@
   5. 이벤트를 수신할 프로젝트의 설정에 들어가 **호출이 허용된 이벤트** 항목에 `discord.message.*` 를 추가합니다.
 
   위 과정을 실행하면 해당 프로젝트의 `onMessageCreate` 함수가 디스코드 메시지 수신 시 호출됩니다.
-</Section>
-<Section>
+</section>
+<section>
   ## Event 수신
 
   본 플러그인은 내부적으로 JavaCord 라이브러리를 사용합니다. 따라서 `onMessageCreate`의 매개변수인 `event`는 JavaCord의 `MessageCreateEvent` 객체입니다.
   자세한 사항은 JavaCord의
   [Javadoc](https://javadoc.io/doc/org.javacord/javacord-api/latest/org/javacord/api/event/message/MessageCreateEvent.html)을
   참고하세요.
-</Section>
-<Section>
+</section>
+<section>
   ## 예제
 
-  <Section>
+  <section>
   ### 단순 수신&답장
 
   ~~~js
@@ -37,8 +37,8 @@
     event.channel.sendMessage("Pong!");
   }
   ~~~
-  </Section>
-  <Section>
+  </section>
+  <section>
   ### 수신&답장 심화
 
   ~~~js
@@ -58,5 +58,5 @@
     });
   }
   ~~~
-  </Section>
-</Section>
+  </section>
+</section>

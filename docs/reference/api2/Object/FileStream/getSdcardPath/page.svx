@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   내장 메모리의 최상위 경로를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   FileStream.getSdcardPath();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `String` - 내장 메모리의 최상위 경로를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

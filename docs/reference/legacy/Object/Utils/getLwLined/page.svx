@@ -1,15 +1,15 @@
 
-<Section>
+<section>
   전체보기 메시지를 위한 선이 포함된 단축문자 세트(`"\u200b".repeat(500) + "\n" + "\u2500".repeat(20) + "\n"`)를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Utils.getLwLined();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   전체보기 메시지를 위한 선이 포함된 단축문자 세트(`"\u200b".repeat(500) + "\n" + "\u2500".repeat(20) + "\n"`)를 반환합니다.
@@ -18,5 +18,5 @@
   ────────────────────
 
   ~~~
-  </Section>
-</Section>
+  </section>
+</section>

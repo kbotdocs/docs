@@ -1,13 +1,13 @@
 
-<Section>
+<section>
   메시지 전달을 위한 웹 서버 엔드포인트를 업데이트합니다.
 
-  <Endpoint method="POST" endpoint="/config/endpoint" contentType="application/json" />
-</Section>
-<Section>
+  <api-endpoint method="POST" endpoint="/config/endpoint" contentType="application/json" />
+</section>
+<section>
   ## 요청
 
-  <Section>
+  <section>
   ### 본문
 
   ~~~json
@@ -16,13 +16,13 @@
   }
   ~~~
 
-  <ParamList>
-    <ParamItem param="endpoint" type="string">
+  <params>
+    <param-item param="endpoint" type="string">
     업데이트할 웹 서버 엔드포인트입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 예제
 
   ~~~bash
@@ -30,5 +30,5 @@
     -H "Content-Type: application/json" \
     -X POST http://[YOUR_DEVICE_IP]:[bot_http_port]/config/endpoint
   ~~~
-  </Section>
-</Section>
+  </section>
+</section>

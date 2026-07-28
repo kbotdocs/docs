@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   발신자의 프로필 이미지를 Base64 인코딩한 값입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   sender.profileBase64;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `String` - 발신자의 프로필 이미지를 Base64 인코딩한 값입니다.
-  </Section>
-</Section>
+  </section>
+</section>

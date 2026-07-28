@@ -1,4 +1,4 @@
 
-<Section>
+<section>
   `iris.kakaolink.KakaoLinkModule.KakaoLinkException`는 카카오링크를 위한 작업 중 발생한 예외 클래스입니다.
-</Section>
+</section>

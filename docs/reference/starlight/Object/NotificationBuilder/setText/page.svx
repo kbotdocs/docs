@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   알림의 내용을 설정합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   NotificationBuilder.setText(text);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="text" type="String">
+  <params>
+    <param-item param="text" type="String">
     설정할 알림의 내용
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `NotificationBuilder` - 해당 `NotificationBuilder` 객체
-  </Section>
-</Section>
+  </section>
+</section>

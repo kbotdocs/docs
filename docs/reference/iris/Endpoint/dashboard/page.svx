@@ -1,22 +1,22 @@
 
-<Section>
+<section>
   Iris의 구성을 위한 웹 UI입니다. 웹 브라우저를 통해 접속할 수 있습니다.
 
-  <Endpoint method="GET" endpoint="/dashboard" contentType="-/-" />
-</Section>
-<Section>
+  <api-endpoint method="GET" endpoint="/dashboard" contentType="-/-" />
+</section>
+<section>
   ## 요청
 
-  <Section>
+  <section>
   ### 예제
 
   ~~~bash
   curl http://[YOUR_DEVICE_IP]:[bot_http_port]/dashboard
   ~~~
-  </Section>
-</Section>
-<Section>
+  </section>
+</section>
+<section>
   ## 응답
 
    Iris의 구성을 위한 웹 UI (HTML)입니다. 웹 브라우저를 통해 접속할 수 있습니다.
-</Section>
+</section>

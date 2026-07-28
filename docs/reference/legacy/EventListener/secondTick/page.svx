@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   `secondTick`은 매 틱(1초)마다 동작하는 이벤트 리스너입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -10,4 +10,4 @@
 
   }
   ~~~
-</Section>
+</section>

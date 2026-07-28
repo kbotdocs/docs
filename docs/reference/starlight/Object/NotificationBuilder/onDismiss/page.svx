@@ -1,31 +1,31 @@
 
-<Section>
+<section>
   알림이 상단바에서 제거될 때 호출될 콜백 함수를 설정합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   NotificationBuilder.onDismiss(callback);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="callback" type="(id) =&gt; Any?">
+  <params>
+    <param-item param="callback" type="(id) =&gt; Any?">
     알림이 상단바에서 제거될 때 호출될 콜백 함수
-    </ParamItem>
-    <ParamList>
-    <ParamItem param="id" type="Number">
+    </param-item>
+    <params>
+    <param-item param="id" type="Number">
       알림의 ID
-    </ParamItem>
-    </ParamList>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+    </params>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `NotificationBuilder` - 해당 `NotificationBuilder` 객체
-  </Section>
-</Section>
+  </section>
+</section>

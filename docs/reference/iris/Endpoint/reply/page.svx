@@ -1,13 +1,13 @@
 
-<Section>
+<section>
   방에 텍스트 메시지 또는 이미지를 보냅니다.
 
-  <Endpoint method="POST" endpoint="/reply" contentType="application/json" />
-</Section>
-<Section>
+  <api-endpoint method="POST" endpoint="/reply" contentType="application/json" />
+</section>
+<section>
   ## 요청
 
-  <Section>
+  <section>
   ### 본문
 
   ~~~json
@@ -17,25 +17,25 @@
     "data": "[MESSAGE_TEXT]"
   }
   ~~~
-  <ParamList>
-    <ParamItem param="type" type="string">
+  <params>
+    <param-item param="type" type="string">
     전송할 메시지의 타입입니다.
     - `"text"`: 텍스트 메시지
     - `"image"`: 이미지
     - `"image_multiple"`: 묶음 이미지
-    </ParamItem>
-    <ParamItem param="room" type="string">
+    </param-item>
+    <param-item param="room" type="string">
     메시지를 전송할 방의 Id입니다.
-    </ParamItem>
-    <ParamItem param="data" type="string | string[]">
+    </param-item>
+    <param-item param="data" type="string | string[]">
     전송할 데이터입니다. `type`에 따라 달라질 수 있습니다.
     - `"text"` (`string`): 전송할 메시지입니다.
     - `"image"` (`string`): 전송할 이미지의 Base64 인코딩 값입니다.
     - `"image_multiple"` (`string[]`): 전송할 이미지들의 Base64 인코딩 값의 배열입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ## 응답
 
   ~~~json
@@ -44,8 +44,8 @@
     "message" : "success"
   }
   ~~~
-</Section>
-  <Section>
+</section>
+  <section>
   ### 예제
 
   - 텍스트 메시지 전송
@@ -68,5 +68,5 @@
     -H "Content-Type: application/json" \
     -X POST http://[YOUR_DEVICE_IP]:[bot_http_port]/reply
   ~~~
-  </Section>
-</Section>
+  </section>
+</section>

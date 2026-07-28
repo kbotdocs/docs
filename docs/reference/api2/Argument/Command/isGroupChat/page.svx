@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   방이 그룹 채팅방인지의 여부입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   cmd.isGroupChat;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `Boolean` - 방이 그룹 채팅방인지의 여부입니다.
-  </Section>
-</Section>
+  </section>
+</section>

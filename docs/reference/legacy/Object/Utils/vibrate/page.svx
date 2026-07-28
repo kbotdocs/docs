@@ -1,21 +1,21 @@
 
-<Section>
+<section>
   주어진 시간(초; s)동안 진동을 울립니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Utils.vibrate(sec);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="sec" type="Number">
+  <params>
+    <param-item param="sec" type="Number">
     주어진 시간(초; s)동안 진동을 울립니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

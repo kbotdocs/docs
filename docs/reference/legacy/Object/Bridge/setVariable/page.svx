@@ -1,27 +1,27 @@
 
-<Section>
+<section>
   단순 자동응답에 대하여 특정 방에서 특정 이름을 가진 `[[변수]]`에 값을 저장합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Bridge.setVariable(room, name, value);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="room" type="String">
+  <params>
+    <param-item param="room" type="String">
     값을 저장할 `[[변수]]`에 대응하는 방 이름
-    </ParamItem>
-    <ParamItem param="name" type="String">
+    </param-item>
+    <param-item param="name" type="String">
     값을 저장할 `[[변수]]`의 이름
-    </ParamItem>
-    <ParamItem param="value" type="String">
+    </param-item>
+    <param-item param="value" type="String">
     저장할 값
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

@@ -1,21 +1,21 @@
 
-<Section>
+<section>
   토스트 메시지를 표시합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Utils.toast(msg);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="msg" type="String">
+  <params>
+    <param-item param="msg" type="String">
     표시할 토스트 메시지의 내용
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

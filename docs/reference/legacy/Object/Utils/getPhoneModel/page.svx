@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   앱 구동 기기의 모델명을 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Utils.getPhoneModel();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `String` - 앱 구동 기기의 모델명을 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

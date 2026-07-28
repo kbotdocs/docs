@@ -1,9 +1,9 @@
 
-<Section>
+<section>
   모든 스크립트를 컴파일하고 컴파일 성공 여부를 반환합니다. `scriptName`이 존재할 경우 `scriptName` 이름의 스크립트에 대해 동작을 수행합니다. `throwOnError`의 값이 `true`일
   경우 컴파일 에러 시 에러를 throw합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -12,21 +12,21 @@
   Api.reload(scriptName, throwOnError);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="scriptName" type="String" optional>
+  <params>
+    <param-item param="scriptName" type="String" optional>
     컴파일할 스크립트의 이름
-    </ParamItem>
-    <ParamItem param="throwOnError" type="Boolean" defaultVal="`false`" optional>
+    </param-item>
+    <param-item param="throwOnError" type="Boolean" defaultVal="`false`" optional>
     컴파일 에러 시 에러 throw 여부
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `Boolean` - 스크립트의 컴파일에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

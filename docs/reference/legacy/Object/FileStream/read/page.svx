@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   `path` 경로의 파일 내용을 문자열로 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   FileStream.read(path);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="path" type="String">
+  <params>
+    <param-item param="path" type="String">
     내용을 문자열로 읽을 파일의 경로
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `String` - `path` 경로의 파일 내용을 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

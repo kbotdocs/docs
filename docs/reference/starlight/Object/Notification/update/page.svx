@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   생성된 알림의 제목과 내용을 수정합니다. `null`이 제공된 값은 수정하지 않습니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -11,16 +11,16 @@
   Notification.update(title, message);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="title" type="String" defaultVal="`null`" optional>
+  <params>
+    <param-item param="title" type="String" defaultVal="`null`" optional>
     수정할 제목
-    </ParamItem>
-    <ParamItem param="message" type="String" defaultVal="`null`" optional>
+    </param-item>
+    <param-item param="message" type="String" defaultVal="`null`" optional>
     수정할 문자열
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

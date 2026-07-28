@@ -1,21 +1,21 @@
 
-<Section>
+<section>
   `key`에 대응하는 앱 데이터를 삭제합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   AppData.remove(key);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="key" type="String">
+  <params>
+    <param-item param="key" type="String">
     삭제할 앱 데이터의 키
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

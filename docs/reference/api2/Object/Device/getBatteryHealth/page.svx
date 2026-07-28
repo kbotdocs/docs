@@ -1,15 +1,15 @@
 
-<Section>
+<section>
   앱 구동 기기의 배터리 건강 상태를 나타내는 상수를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Device.getBatteryHealth();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `Number` - 앱 구동 기기의 배터리 건강 상태를 나타내는 상수를 반환합니다. 관련 상수는 다음과 같습니다:
@@ -20,5 +20,5 @@
   - `android.os.BatteryManager.BATTERY_HEALTH_OVER_VOLTAGE = 5 (0x00000005)`
   - `android.os.BatteryManager.BATTERY_HEALTH_UNSPECIFIED_FAILURE = 6 (0x00000006)`
   - `android.os.BatteryManager.BATTERY_HEALTH_COLD = 7 (0x00000007)`
-  </Section>
-</Section>
+  </section>
+</section>

@@ -1,64 +1,64 @@
 
-<Section>
+<section>
   `iris.bot.models.User`는 채팅방에 대한 데이터입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 생성자
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th>`iris.bot.models.User`의 생성자</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td>
+  <table>
+  <thead>
+    <tr>
+    <th>`iris.bot.models.User`의 생성자</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>
       [`User`](/reference/irispy-client/iris.bot.models/Class/User/User)`(id: int, chat_id: int, api: IrisAPI, name: str = None, bot_id: int = None)` \
       새 `User` 객체를 생성합니다.
-    </Td>
-    </Tr>
-  </Tbody>
-  </Table>
-</Section>
-<Section>
+    </td>
+    </tr>
+  </tbody>
+  </table>
+</section>
+<section>
   ## 인스턴스 프로퍼티
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th colspan="2">`iris.bot.models.User`의 인스턴스 프로퍼티</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td><span>[`iris.bot.models.Avatar`](/reference/irispy-client/iris.bot.models/Class/Avatar)</span></Td>
-    <Td>
+  <table>
+  <thead>
+    <tr>
+    <th colspan="2">`iris.bot.models.User`의 인스턴스 프로퍼티</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><span>[`iris.bot.models.Avatar`](/reference/irispy-client/iris.bot.models/Class/Avatar)</span></td>
+    <td>
       [`avatar`](/reference/irispy-client/iris.bot.models/Class/User/avatar) \
       사용자의 프로필에 대한 `Avatar` 객체입니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`int`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`int`</span></td>
+    <td>
       [`id`](/reference/irispy-client/iris.bot.models/Class/User/id) \
       사용자의 id입니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`str`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`str`</span></td>
+    <td>
       [`name`](/reference/irispy-client/iris.bot.models/Class/User/name) \
       사용자의 이름입니다. 이 프로퍼티는 캐시됩니다.
-    </Td>
-    </Tr>
-    <Tr>
-    <Td><span>`str`</span></Td>
-    <Td>
+    </td>
+    </tr>
+    <tr>
+    <td><span>`str`</span></td>
+    <td>
       [`type`](/reference/irispy-client/iris.bot.models/Class/User/type) \
       사용자의 유형을 나타내는 문자열입니다. 이 프로퍼티는 캐시됩니다.
-    </Td>
-    </Tr>
-  </Tbody>
-  </Table>
-</Section>
+    </td>
+    </tr>
+  </tbody>
+  </table>
+</section>

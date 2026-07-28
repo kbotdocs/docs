@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   메시지가 전송된 방 또는 특정 방에 메시지를 보냅니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
@@ -10,16 +10,16 @@
   chatContext.reply(message, room_id)
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="message" type="str">
+  <params>
+    <param-item param="message" type="str">
     보낼 메시지의 내용
-    </ParamItem>
-    <ParamItem param="room_id" type="int" defaultVal="`None`" optional>
+    </param-item>
+    <param-item param="room_id" type="int" defaultVal="`None`" optional>
     메시지를 보낼 방의 id
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

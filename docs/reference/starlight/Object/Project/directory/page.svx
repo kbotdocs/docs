@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   프로젝트의 루트 디렉터리에 대한 `java.io.File`입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Project.directory;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `java.io.File` - 프로젝트의 루트 디렉터리에 대한 `java.io.File`입니다.
-  </Section>
-</Section>
+  </section>
+</section>

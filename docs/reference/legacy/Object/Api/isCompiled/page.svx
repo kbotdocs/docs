@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   특정 스크립트의 컴파일 완료 여부를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Api.isCompiled(scriptName);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="scriptName" type="String">
+  <params>
+    <param-item param="scriptName" type="String">
     컴파일 완료 여부를 확인할 스크립트의 이름
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `Boolean` - `scriptName` 이름의 스크립트의 컴파일이 완료되었을 경우 `true`, 완료되지 않았을 경우 `false`를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

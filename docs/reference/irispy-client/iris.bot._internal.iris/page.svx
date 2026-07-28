@@ -1,25 +1,25 @@
 
-<Section>
+<section>
   `iris.bot._internal.iris` 모듈은 Iris API를 사용하기 위한 요소를 포함합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 클래스
 
-  <Table>
-  <Thead>
-    <Tr>
-    <Th colspan="2">`iris.bot._internal.iris`의 클래스</Th>
-    </Tr>
-  </Thead>
-  <Tbody>
-    <Tr>
-    <Td><span>[`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI)</span></Td>
-    <Td>Iris API를 사용하기 위한 클래스입니다.</Td>
-    </Tr>
-    <Tr>
-    <Td><span>[`IrisRequest`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest)</span></Td>
-    <Td>Iris의 요청에 대한 데이터입니다.</Td>
-    </Tr>
-  </Tbody>
-  </Table>
-</Section>
+  <table>
+  <thead>
+    <tr>
+    <th colspan="2">`iris.bot._internal.iris`의 클래스</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><span>[`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI)</span></td>
+    <td>Iris API를 사용하기 위한 클래스입니다.</td>
+    </tr>
+    <tr>
+    <td><span>[`IrisRequest`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest)</span></td>
+    <td>Iris의 요청에 대한 데이터입니다.</td>
+    </tr>
+  </tbody>
+  </table>
+</section>

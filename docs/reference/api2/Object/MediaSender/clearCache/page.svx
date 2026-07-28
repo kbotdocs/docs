@@ -1,11 +1,11 @@
 
-<Section>
+<section>
   캐시를 삭제합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   mediaSender.clearCache();
   ~~~
-</Section>
+</section>

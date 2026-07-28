@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   `onLoaded`는 스크립트 컴파일이 완료되면 동작하는 이벤트 리스너입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -11,13 +11,13 @@
   }
   ~~~
 
-  <Section>
+  <section>
   ### 인자
 
-  <ParamList>
-    <ParamItem param="ctx" type="android.context.Context">
+  <params>
+    <param-item param="ctx" type="android.context.Context">
     액티비티의 Context(컨텍스트)입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

@@ -1,24 +1,24 @@
 
-<Section>
+<section>
   호출한 스크립트만을 대상으로 브로드캐스트를 전송합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Broadcast.sendLocal(broadcastName, value);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="broadcastName" type="String">
+  <params>
+    <param-item param="broadcastName" type="String">
     호출한 스크립트에 전송할 브로드캐스트 이름
-    </ParamItem>
-    <ParamItem param="value" type="Any">
+    </param-item>
+    <param-item param="value" type="Any">
     브로드캐스트로 송출할 값
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

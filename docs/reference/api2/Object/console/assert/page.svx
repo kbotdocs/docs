@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   주어진 조건식이 `false`일 경우 에러 로그를 작성합니다. 주어진 조건식이 `true`일 경우에는 아무런 로그도 작성하지 않습니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -11,20 +11,20 @@
   console.assert(condition, arg1, arg2, /* ..., */ argN);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="condition" type="Boolean">
+  <params>
+    <param-item param="condition" type="Boolean">
     평가할 조건식
-    </ParamItem>
-    <ParamItem param="...args" type="any" optional>
+    </param-item>
+    <param-item param="...args" type="any" optional>
     작성할 디버그 로그의 내용 
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
-<Section>
+    </param-item>
+  </params>
+  </section>
+</section>
+<section>
   ## 설명
 
   `console.assert()` 메소드는 주어진 조건식이 `false`일 경우에만 로그를 작성합니다. 조건식이 `true`일 경우에는 아무런 로그도 작성하지 않습니다. 이 메소드는 주로 디버깅 목적으로 사용되며, 특정 조건이 충족되지 않을 때 경고 메시지를 출력하는 데 유용합니다.
@@ -48,4 +48,4 @@
   ~~~text
   Assertion failed
   ~~~
-</Section>
+</section>

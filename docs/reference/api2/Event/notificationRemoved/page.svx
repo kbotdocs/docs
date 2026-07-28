@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   `notificationRemoved` 이벤트는 알림이 사라질 때 발생하는 이벤트입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   [`Bot.addListener()`](/reference/api2/Object/Bot/addListener)를 이용해 이벤트에 대한 리스너를 추가할 수 있습니다.
@@ -13,27 +13,27 @@
   bot.addListener(Event.NOTIFICATION_REMOVED, (sbn, rankingMap, reason) => {});
   ~~~
 
-  <Section>
+  <section>
   ### 인자
 
-  <ParamList>
-    <ParamItem param="sbn" type="android.service.notification.StatusBarNotification">
+  <params>
+    <param-item param="sbn" type="android.service.notification.StatusBarNotification">
     사라진 알림에 관한 정보가 담긴
     [`android.service.notification.StatusBarNotification`](https://developer.android.com/reference/android/service/notification/StatusBarNotification)입니다.
-    </ParamItem>
-    <ParamItem param="rankingMap" type="android.service.notification.NotificationListenerService.RankingMap">
-    <Noti type="warning">
+    </param-item>
+    <param-item param="rankingMap" type="android.service.notification.NotificationListenerService.RankingMap">
+    <noti type="warning">
       해당 인자는 안드로이드 8.0 미만에서 제공되지 않습니다.
-    </Noti>
+    </noti>
     활성 알림의 순위 정보를 담은
     Map([`android.service.notification.NotificationListenerService.RankingMap`](https://developer.android.com/reference/android/service/notification/NotificationListenerService))입니다.
-    </ParamItem>
-    <ParamItem param="reason" type="Number">
-    <Noti type="warning">
+    </param-item>
+    <param-item param="reason" type="Number">
+    <noti type="warning">
       해당 인자는 안드로이드 8.0 미만에서 제공되지 않습니다.
-    </Noti>
+    </noti>
     알림이 사라진 이유를 나타내는 상수입니다. 관련 상수는 다음과 같습니다:
-    <Details
+    <details
       summary="알람이 사라진 이유를 나타내는 상수 ([`android.service.notification.NotificationListenerService`](https://developer.android.com/reference/android/service/notification/NotificationListenerService))">
       - REASON_CLICK = 1 (0x00000001)`
       - REASON_CANCEL = 2 (0x00000002)`
@@ -58,8 +58,8 @@
       - REASON_CLEAR_DATA = 21 (0x00000015)`
       - REASON_ASSISTANT_CANCEL = 22 (0x00000016)`
       - REASON_LOCKDOWN = 23 (0x00000017)`
-    </Details>
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </details>
+    </param-item>
+  </params>
+  </section>
+</section>

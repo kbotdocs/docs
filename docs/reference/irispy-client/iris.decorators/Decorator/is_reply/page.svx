@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   메시지가 답장일 경우 함수를 실행합니다. 답장이 아닐 경우 "메시지에 답장하여 요청하세요."라는 메시지를 보냅니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
@@ -10,4 +10,4 @@
   def func(...):
     ...
   ~~~
-</Section>
+</section>

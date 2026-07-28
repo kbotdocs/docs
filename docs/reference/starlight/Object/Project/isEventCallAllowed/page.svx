@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   특정 `ProjectEvent`의 호출 허용 여부를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Project.isEventCallAllowed(eventId);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="eventId" type="String">
+  <params>
+    <param-item param="eventId" type="String">
     호출 허용 여부를 확인할 `ProjectEvent`의 ID
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `Boolean` - `eventId`로 식별되는 `ProjectEvent`의 호출이 허용된 상태일 경우 `true`, 허용되지 않은 상태일 경우 `false`를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

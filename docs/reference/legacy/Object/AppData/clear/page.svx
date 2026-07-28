@@ -1,11 +1,11 @@
 
-<Section>
+<section>
   `AppData` 객체로 저장한 모든 데이터를 삭제합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   AppData.clear();
   ~~~
-</Section>
+</section>

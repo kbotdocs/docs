@@ -1,11 +1,11 @@
 
-<Section>
+<section>
   `Project.info` 값을 파일에 저장합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Project.saveInfo();
   ~~~
-</Section>
+</section>

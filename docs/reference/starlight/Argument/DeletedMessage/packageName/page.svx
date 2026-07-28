@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   메시지가 삭제된 메신저 앱의 패키지명입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   deletedMsg.packageName;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `String` - 메시지가 삭제된 메신저 앱의 패키지명입니다.
-  </Section>
-</Section>
+  </section>
+</section>

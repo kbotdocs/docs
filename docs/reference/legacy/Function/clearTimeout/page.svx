@@ -1,21 +1,21 @@
 
-<Section>
+<section>
   [`setTimeout()`](/reference/legacy/Function/setTimeout)으로 생성한 타임아웃을 취소합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   clearTimeout(timeoutID);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="timeoutID" type="Number">
+  <params>
+    <param-item param="timeoutID" type="Number">
     취소할 타임아웃의 ID. 해당 값은 [`setTimeout()`](/reference/legacy/Function/setTimeout) 호출 시 반환된 값입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

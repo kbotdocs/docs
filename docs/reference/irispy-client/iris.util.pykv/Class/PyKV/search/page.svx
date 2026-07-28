@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   데이터베이스에서 값에 특정 검색어가 포함된 키-값 쌍의 리스트를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   pyKV.search(searchString)
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="searchString" type="str">
+  <params>
+    <param-item param="searchString" type="str">
     데이터베이스의 값 컬럼에서 검색할 값
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `list[dict]` - 값에 `searchString` 검색어가 포함된 키-값 쌍의 리스트를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

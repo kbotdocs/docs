@@ -1,11 +1,11 @@
 
-<Section>
+<section>
   저장한 쿠키를 삭제합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   kakaoLinkCookieStorage.clear()
   ~~~
-</Section>
+</section>

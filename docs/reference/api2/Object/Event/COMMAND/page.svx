@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   API2의 [`command`](/reference/api2/Event/command) 이벤트입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Event.COMMAND;
   ~~~
 
-  <Section>
+  <section>
   ### 상수값
 
   `String` - `"command"`
-  </Section>
-</Section>
+  </section>
+</section>

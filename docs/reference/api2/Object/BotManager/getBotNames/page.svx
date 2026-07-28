@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   모든 `Bot` 객체 인스턴스의 이름을 배열로 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   BotManager.getBotNames();
   ~~~
 
-  <Section>
+  <section>
   ### 반환값
 
   `String[]` - 모든 `Bot` 객체 인스턴스의 이름을 배열로 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

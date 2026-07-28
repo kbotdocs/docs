@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   데이터베이스 폴링 지연 시간을 업데이트합니다. 이 값을 조정하면 Iris가 데이터베이스에서 새로운 메시지를 얼마나 자주 확인하는지 변경됩니다.
 
-  <Noti type="warning">
+  <noti type="warning">
   낮은 `rate` 값은 메시지를 더 즉각적으로 감지할 수 있지만 CPU 사용량을 증가시킵니다.
-  </Noti>
+  </noti>
 
-  <Endpoint method="POST" endpoint="/config/dbrate" contentType="application/json" />
-</Section>
-<Section>
+  <api-endpoint method="POST" endpoint="/config/dbrate" contentType="application/json" />
+</section>
+<section>
   ## 요청
 
-  <Section>
+  <section>
   ### 본문
 
   ~~~json
@@ -20,13 +20,13 @@
   }
   ~~~
 
-  <ParamList>
-    <ParamItem param="rate" type="int">
+  <params>
+    <param-item param="rate" type="int">
     업데이트할 데이터베이스 폴링 지연 시간(밀리초; ms)입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 예제
 
   ~~~bash
@@ -34,5 +34,5 @@
     -H "Content-Type: application/json" \
     -X POST http://[YOUR_DEVICE_IP]:[bot_http_port]/config/dbrate
   ~~~
-  </Section>
-</Section>
+  </section>
+</section>

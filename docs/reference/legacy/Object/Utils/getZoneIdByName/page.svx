@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   특정 지역의 행정구역코드를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Utils.getZoneIdByName(location);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="location" type="String">
+  <params>
+    <param-item param="location" type="String">
     지역명
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `String` - `location` 지역의 행정구역코드를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

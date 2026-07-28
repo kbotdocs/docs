@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   발신자의 프로필 이미지에 대한 `android.graphics.Bitmap` 값입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   sender.profileBitmap;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `android.graphics.Bitmap` - 발신자의 프로필 이미지에 대한 `android.graphics.Bitmap` 값입니다.
-  </Section>
-</Section>
+  </section>
+</section>

@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   언어의 이름입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   language.name;
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `String` - 언어의 이름입니다.
-  </Section>
-</Section>
+  </section>
+</section>

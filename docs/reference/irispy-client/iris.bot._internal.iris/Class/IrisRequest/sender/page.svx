@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   메시지를 보낸 사용자의 이름입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~py
   irisRequest.sender
   ~~~
 
-  <Section>
+  <section>
   ### 값
 
   `str` - 메시지를 보낸 사용자의 이름입니다.
-  </Section>
-</Section>
+  </section>
+</section>

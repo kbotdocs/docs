@@ -1,17 +1,17 @@
 
-<Section>
+<section>
   봇 HTTP 서버 포트를 업데이트합니다.
 
-  <Noti type="info">
+  <noti type="info">
   포트 변경 사항은 Iris 재시작 후에 적용됩니다.
-  </Noti>
+  </noti>
 
-  <Endpoint method="POST" endpoint="/config/botport" contentType="application/json" />
-</Section>
-<Section>
+  <api-endpoint method="POST" endpoint="/config/botport" contentType="application/json" />
+</section>
+<section>
   ## 요청
 
-  <Section>
+  <section>
   ### 본문
 
   ~~~json
@@ -20,13 +20,13 @@
   }
   ~~~
 
-  <ParamList>
-    <ParamItem param="port" type="int">
+  <params>
+    <param-item param="port" type="int">
     업데이트할 HTTP 서버 포트입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 예제
 
   ~~~bash
@@ -34,5 +34,5 @@
     -H "Content-Type: application/json" \
     -X POST http://[YOUR_DEVICE_IP]:[bot_http_port]/config/botport
   ~~~
-  </Section>
-</Section>
+  </section>
+</section>

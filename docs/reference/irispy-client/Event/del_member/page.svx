@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   `del_member` 이벤트는 사용자가 방에서 나갈 때 발생하는 이벤트입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   [`iris.bot.Bot`](/reference/irispy-client/iris.bot/Class/Bot)의 [`on_event()`](/reference/irispy-client/iris.bot/Class/Bot/on_event) 데코레이터를 이용해 
@@ -15,13 +15,13 @@
     ...
   ~~~
 
-  <Section>
+  <section>
   ### 인자
 
-  <ParamList>
-    <ParamItem param="chat" type="ChatContext">
+  <params>
+    <param-item param="chat" type="ChatContext">
     이벤트에 대한 컨텍스트인 [`ChatContext`](/reference/irispy-client/iris.bot.models/ChatContext) 객체입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>

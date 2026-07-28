@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   토스트 메시지를 표시합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
@@ -10,20 +10,20 @@
   Api.showToast(content, length);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="content" type="String">
+  <params>
+    <param-item param="content" type="String">
     표시할 토스트 메시지의 내용
-    </ParamItem>
-    <ParamItem param="length" type="Number" defaultVal="`android.widget.Toast.LENGTH_SHORT = 0 (0x00000000)`" optional>
+    </param-item>
+    <param-item param="length" type="Number" defaultVal="`android.widget.Toast.LENGTH_SHORT = 0 (0x00000000)`" optional>
     토스트 메시지의 유지 시간을 나타내는 상수
-    <Details summary="토스트 메시지의 유지 시간 (`android.widget.Toast`)">
+    <details summary="토스트 메시지의 유지 시간 (`android.widget.Toast`)">
       - `LENGTH_SHORT = 0 (0x00000000)`: 짧은 시간동안 출력
       - `LENGTH_LONG = 1 (0x00000001)`: 긴 시간동안 출력
-    </Details>
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </details>
+    </param-item>
+  </params>
+  </section>
+</section>

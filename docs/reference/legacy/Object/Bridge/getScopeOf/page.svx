@@ -1,26 +1,26 @@
 
-<Section>
+<section>
   특정 스크립트의 전역 스코프를 반환합니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   ~~~js
   Bridge.getScopeOf(scriptName);
   ~~~
 
-  <Section>
+  <section>
   ### 매개변수
 
-  <ParamList>
-    <ParamItem param="scriptName" type="String">
+  <params>
+    <param-item param="scriptName" type="String">
     전역 스코프의 스크립트 이름
-    </ParamItem>
-  </ParamList>
-  </Section>
-  <Section>
+    </param-item>
+  </params>
+  </section>
+  <section>
   ### 반환값
 
   `Object` - `scriptName`를 이름으로 하는 스크립트의 전역 스코프를 반환합니다.
-  </Section>
-</Section>
+  </section>
+</section>

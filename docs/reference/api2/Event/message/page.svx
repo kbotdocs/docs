@@ -1,8 +1,8 @@
 
-<Section>
+<section>
   `message` 이벤트는 메시지를 수신할 때 발생하는 이벤트입니다.
-</Section>
-<Section>
+</section>
+<section>
   ## 구문
 
   [`Bot.addListener()`](/reference/api2/Object/Bot/addListener)를 이용해 이벤트에 대한 리스너를 추가할 수 있습니다. [`Event.MESSAGE`](/reference/api2/Object/Event/MESSAGE)를 이용해
@@ -13,13 +13,13 @@
   bot.addListener(Event.MESSAGE, (msg) => {});
   ~~~
 
-  <Section>
+  <section>
   ### 인자
 
-  <ParamList>
-    <ParamItem param="msg" type="Message">
+  <params>
+    <param-item param="msg" type="Message">
     발신된 메시지에 대한 정보를 담고 있는 [`Message`](/reference/api2/Argument/Message) 객체입니다.
-    </ParamItem>
-  </ParamList>
-  </Section>
-</Section>
+    </param-item>
+  </params>
+  </section>
+</section>
