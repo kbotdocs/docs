@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"timeoutID"} type={"Number"}>
+    <ParamItem param="timeoutID" type="Number">
     취소할 타임아웃의 ID. 해당 값은 [`setTimeout()`](/reference/api2/Function/setTimeout) 호출 시 반환된 값입니다.
     </ParamItem>
   </ParamList>

@@ -1,5 +1,5 @@
 
-<FeatureStatusNoti status={{experimental: true}}/>
+&lt;FeatureStatusNoti status=&#123;&#123;experimental: true&#125;&#125;/&gt;
 <Section>
   ## Message.image
 

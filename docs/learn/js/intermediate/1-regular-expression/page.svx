@@ -75,7 +75,7 @@
   <Table>
     <Thead>
     <Tr>
-      <Th colspan={2}>정규 표현식의 문자 클래스</Th>
+      <Th colspan="2">정규 표현식의 문자 클래스</Th>
     </Tr>
     </Thead>
     <Tbody>
@@ -243,7 +243,7 @@
   <Table>
     <Thead>
     <Tr>
-      <Th colspan={2}>정규 표현식의 assertion</Th>
+      <Th colspan="2">정규 표현식의 assertion</Th>
     </Tr>
     </Thead>
     <Tbody>
@@ -333,7 +333,7 @@
   <Table>
     <Thead>
     <Tr>
-      <Th colspan={2}>정규 표현식의 그룹/역참조</Th>
+      <Th colspan="2">정규 표현식의 그룹/역참조</Th>
     </Tr>
     </Thead>
     <Tbody>
@@ -414,7 +414,7 @@
   <Table>
     <Thead>
     <Tr>
-      <Th colspan={2}>정규 표현식의 수량자</Th>
+      <Th colspan="2">정규 표현식의 수량자</Th>
     </Tr>
     </Thead>
     <Tbody>
@@ -492,7 +492,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>정규 표현식의 플래그</Th>
+    <Th colspan="2">정규 표현식의 플래그</Th>
     </Tr>
   </Thead>
   <Tbody>
@@ -563,7 +563,7 @@
   <Table>
     <Thead>
     <Tr>
-      <Th colspan={2}>`RegExp` 객체의 메소드</Th>
+      <Th colspan="2">`RegExp` 객체의 메소드</Th>
     </Tr>
     </Thead>
     <Tbody>
@@ -598,7 +598,7 @@
   <Table>
     <Thead>
     <Tr>
-      <Th colspan={2}>정규 표현식과 관련된 `String` 객체의 메소드</Th>
+      <Th colspan="2">정규 표현식과 관련된 `String` 객체의 메소드</Th>
     </Tr>
     </Thead>
     <Tbody>

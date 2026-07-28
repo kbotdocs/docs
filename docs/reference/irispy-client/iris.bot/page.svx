@@ -8,7 +8,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>`iris.bot`의 클래스</Th>
+    <Th colspan="2">`iris.bot`의 클래스</Th>
     </Tr>
   </Thead>
   <Tbody>

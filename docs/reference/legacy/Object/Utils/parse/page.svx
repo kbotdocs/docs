@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"url"} type={"String"}>
+    <ParamItem param="url" type="String">
     GET request를 보낼 서버의 URL
     </ParamItem>
   </ParamList>

@@ -2,7 +2,7 @@
 <Section>
   방에 텍스트 메시지 또는 이미지를 보냅니다.
 
-  <Endpoint method={"POST"} endpoint={"/reply"} contentType={"application/json"} />
+  <Endpoint method="POST" endpoint="/reply" contentType="application/json" />
 </Section>
 <Section>
   ## 요청
@@ -18,16 +18,16 @@
   }
   ~~~
   <ParamList>
-    <ParamItem param={"type"} type={"string"}>
+    <ParamItem param="type" type="string">
     전송할 메시지의 타입입니다.
     - `"text"`: 텍스트 메시지
     - `"image"`: 이미지
     - `"image_multiple"`: 묶음 이미지
     </ParamItem>
-    <ParamItem param={"room"} type={"string"}>
+    <ParamItem param="room" type="string">
     메시지를 전송할 방의 Id입니다.
     </ParamItem>
-    <ParamItem param={"data"} type={"string | string[]"}>
+    <ParamItem param="data" type="string | string[]">
     전송할 데이터입니다. `type`에 따라 달라질 수 있습니다.
     - `"text"` (`string`): 전송할 메시지입니다.
     - `"image"` (`string`): 전송할 이미지의 Base64 인코딩 값입니다.

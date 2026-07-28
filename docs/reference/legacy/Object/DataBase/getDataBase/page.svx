@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"fileName"} type={"String"}>
+    <ParamItem param="fileName" type="String">
     내용을 문자열로 읽을 파일의 이름
     </ParamItem>
   </ParamList>

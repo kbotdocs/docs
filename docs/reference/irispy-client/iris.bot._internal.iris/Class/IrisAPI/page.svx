@@ -27,7 +27,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>`iris.bot._internal.iris.IrisAPI`의 인스턴스 메소드</Th>
+    <Th colspan="2">`iris.bot._internal.iris.IrisAPI`의 인스턴스 메소드</Th>
     </Tr>
   </Thead>
   <Tbody>

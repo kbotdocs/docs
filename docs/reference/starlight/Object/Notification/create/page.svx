@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"id"} type={"Number"}>
+    <ParamItem param="id" type="Number">
     생성될 알림의 ID (정수)
     </ParamItem>
   </ParamList>

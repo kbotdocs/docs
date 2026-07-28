@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"code"} type={"String"}>
+    <ParamItem param="code" type="String">
     문자열로 표현된 코드
     </ParamItem>
   </ParamList>

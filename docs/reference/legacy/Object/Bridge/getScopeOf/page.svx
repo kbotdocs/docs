@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"scriptName"} type={"String"}>
+    <ParamItem param="scriptName" type="String">
     전역 스코프의 스크립트 이름
     </ParamItem>
   </ParamList>

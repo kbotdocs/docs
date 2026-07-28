@@ -18,15 +18,15 @@
   ~~~
   3. 운영체제에 따라 적절한 방법을 택해 APK 파일을 실행합니다.
 
-  <Tab label={["Windows", "Mac/Linux"]}>
-  <TabItem>
+  <Tab>
+  <TabItem label="Windows">
     아래 명령어를 사용해 Iris를 실행할 수 있습니다.
     ~~~bash
     ./iris_control.ps1 install
     ./iris_control.ps1 start
     ~~~
   </TabItem>
-  <TabItem>
+  <TabItem label="Mac/Linux">
     `iris_control`을 실행가능한 상태로 만듭니다.
     ~~~bash
     chmod +x iris_control
@@ -46,22 +46,22 @@
   `http://[ANDROID_IP]:3000/dashboard`에 접속해 설정을 진행합니다. 구성 옵션은 다음과 같습니다.
 
   <ParamList>
-  <ParamItem param={"Bot Name"} type={"string"}>
+  <ParamItem param="Bot Name" type="string">
     봇의 이름입니다. 봇을 식별하기 위해 사용됩니다.
   </ParamItem>
-  <ParamItem param={"Web Server Endpoint"} type={"string"}>
+  <ParamItem param="Web Server Endpoint" type="string">
     새로운 카카오톡 메시지를 수신할 웹 서버의 URL입니다. (예: `http://172.17.0.2:5000/db for IrisPy`)
   </ParamItem>
-  <ParamItem param={"DB Polling Rate"} type={"int"} defaultVal={"`100`"} optional>
+  <ParamItem param="DB Polling Rate" type="int" defaultVal="`100`" optional>
     데이터베이스 변경 사항을 확인하는 지연 시간(밀리초; ms)입니다. (예: `200`)
-    <Noti type={"warning"}>
+    <Noti type="warning">
     값이 낮을수록 데이터베이스의 변경 사항을 더 빈번하게 확인해 CPU 사용량이 증가할 수 있습니다.
     </Noti>
   </ParamItem>
-  <ParamItem param={"Message Send Rate"} type={"int"} defaultVal={"`50`"} optional>
+  <ParamItem param="Message Send Rate" type="int" defaultVal="`50`" optional>
     카카오톡 메시지 전송 간 최소 간격(밀리초; ms)입니다. (예: `100`)
   </ParamItem>
-  <ParamItem param={"Bot Port"} type={"int"}>
+  <ParamItem param="Bot Port" type="int">
     HTTP 서버가 수신 대기할 포트 번호입니다. (예: `3000`)
   </ParamItem>
   </ParamList>

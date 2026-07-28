@@ -13,13 +13,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"argb"} type={"Number"}>
+    <ParamItem param="argb" type="Number">
     설정할 LED 색 (`0xAARRGGBB` 형식, 예: `0xFFFFFFFF`)
     </ParamItem>
-    <ParamItem param={"onMs"} type={"Number"}>
+    <ParamItem param="onMs" type="Number">
     LED가 켜진 채로 유지될 시간(밀리초; ms)
     </ParamItem>
-    <ParamItem param={"offMs"} type={"Number"}>
+    <ParamItem param="offMs" type="Number">
     LED가 꺼진 채로 유지될 시간(밀리초; ms)
     </ParamItem>
   </ParamList>

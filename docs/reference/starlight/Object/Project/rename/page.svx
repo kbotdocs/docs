@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"name"} type={"String"}>
+    <ParamItem param="name" type="String">
     변경할 프로젝트의 이름
     </ParamItem>
   </ParamList>

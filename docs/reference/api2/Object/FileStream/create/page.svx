@@ -2,7 +2,7 @@
 <Section>
   `path` 경로의 파일을 생성합니다. 파일 생성의 성공 여부를 반환합니다.
 
-  <Noti type={"info"}>
+  <Noti type="info">
   `path` 경로의 파일이 이미 존재하면 파일 생성에 실패합니다. 그러므로 이미 존재하는 파일을 덮어쓰지 않습니다.
   </Noti>
 </Section>
@@ -17,7 +17,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"path"} type={"String"}>
+    <ParamItem param="path" type="String">
     생성할 파일의 경로
     </ParamItem>
   </ParamList>

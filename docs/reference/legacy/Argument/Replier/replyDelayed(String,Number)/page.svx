@@ -13,10 +13,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"msg"} type={"String"}>
+    <ParamItem param="msg" type="String">
     일정 시간 후 보낼 메시지의 내용
     </ParamItem>
-    <ParamItem param={"delay"} type={"Number"}>
+    <ParamItem param="delay" type="Number">
     지연할 시간(밀리초; ms)
     </ParamItem>
   </ParamList>

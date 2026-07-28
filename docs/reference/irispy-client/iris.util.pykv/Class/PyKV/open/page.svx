@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"filename"} type={"str"}>
+    <ParamItem param="filename" type="str">
     `PyKV` 객체로 조작할 데이터베이스 파일
     </ParamItem>
   </ParamList>

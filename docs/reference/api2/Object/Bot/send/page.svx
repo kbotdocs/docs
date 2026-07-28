@@ -14,13 +14,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"room"} type={"String | BigInt"}>
+    <ParamItem param="room" type="String | BigInt">
     메시지를 보낼 방의 식별자. 식별자는 방의 이름 또는 방의 ID를 사용할 수 있습니다.
     </ParamItem>
-    <ParamItem param={"msg"} type={"String"}>
+    <ParamItem param="msg" type="String">
     보낼 메시지의 내용
     </ParamItem>
-    <ParamItem param={"packageName"} type={"String"} optional>
+    <ParamItem param="packageName" type="String" optional>
     메시지를 보낼 메신저 앱의 패키지명
     </ParamItem>
   </ParamList>

@@ -18,7 +18,7 @@
   ### 인자
 
   <ParamList>
-    <ParamItem param={"activity"} type={"android.app.Activity"}>
+    <ParamItem param="activity" type="android.app.Activity">
     해당 이벤트가 발생했을 때의 액티비티입니다.
     </ParamItem>
   </ParamList>

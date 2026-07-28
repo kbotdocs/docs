@@ -6,7 +6,7 @@
   포트 변경 사항은 Iris 재시작 후에 적용됩니다.
   </Noti>
 
-  <Endpoint method={"POST"} endpoint={"/config/botport"} contentType={"application/json"} />
+  <Endpoint method="POST" endpoint="/config/botport" contentType="application/json" />
 </Section>
 <Section>
   ## 요청
@@ -21,7 +21,7 @@
   ~~~
 
   <ParamList>
-    <ParamItem param={"port"} type={"int"}>
+    <ParamItem param="port" type="int">
     업데이트할 HTTP 서버 포트입니다.
     </ParamItem>
   </ParamList>

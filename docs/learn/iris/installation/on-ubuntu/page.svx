@@ -94,13 +94,13 @@
 
   이제 scrcpy 폴더의 경로로 터미널을 실행합니다. 그리고 아래와 같이 실행합니다.
 
-  <Tab label={["Windows", "macOS/Linux"]}>
-  <TabItem>
+  <Tab>
+  <TabItem label="Windows">
     ```bash
     ./adb -s [Ubuntu_서버의_IP] install-multiple (Get-Item [압축_해제한_폴더의_경로]/*.apk)
     ```
   </TabItem>
-  <TabItem>
+  <TabItem label="macOS/Linux">
     ```bash
     ./adb -s [Ubuntu_서버의_IP] install-multiple /[압축_해제한_폴더의_경로]/*.apk
     ```

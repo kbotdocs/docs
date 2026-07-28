@@ -8,7 +8,7 @@
   반환합니다.
   </Noti>
 
-  <Endpoint method={"POST"} endpoint={"/query"} contentType={"application/json"} />
+  <Endpoint method="POST" endpoint="/query" contentType="application/json" />
 </Section>
 <Section>
   ## 요청
@@ -25,10 +25,10 @@
     ~~~
   </Section>
   <ParamList>
-    <ParamItem param={"query"} type={"string"}>
+    <ParamItem param="query" type="string">
     SQL 쿼리 문자열입니다.
     </ParamItem>
-    <ParamItem param={"bind"} type={"string[]"}>
+    <ParamItem param="bind" type="string[]">
     쿼리에 대한 선택적 바인딩입니다.
     </ParamItem>
   </ParamList>
@@ -65,10 +65,10 @@
   ~~~
 
   <ParamList>
-  <ParamItem param={"success"} type={"boolean"}>
+  <ParamItem param="success" type="boolean">
     요청의 성공 여부입니다.
   </ParamItem>
-  <ParamItem param={"data"} type={"QueryResult[]"}>
+  <ParamItem param="data" type="QueryResult[]">
     쿼리 결과에 대한 배열이 담긴 배열입니다.
   </ParamItem>
   </ParamList>

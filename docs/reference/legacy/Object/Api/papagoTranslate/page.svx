@@ -14,16 +14,16 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"sourceLanguage"} type={"String"}>
+    <ParamItem param="sourceLanguage" type="String">
     수행할 번역의 출발어
     </ParamItem>
-    <ParamItem param={"targetLanguage"} type={"String"}>
+    <ParamItem param="targetLanguage" type="String">
     수행할 번역의 도착어
     </ParamItem>
-    <ParamItem param={"content"} type={"String"}>
+    <ParamItem param="content" type="String">
     번역을 수행할 텍스트
     </ParamItem>
-    <ParamItem param={"errorToString"} type={"Boolean"} defaultVal={"`false`"} optional>
+    <ParamItem param="errorToString" type="Boolean" defaultVal="`false`" optional>
     에러를 문자열로 반환할 것인지에 대한 여부
     </ParamItem>
   </ParamList>

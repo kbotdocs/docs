@@ -14,10 +14,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"url"} type={"String"}>
+    <ParamItem param="url" type="String">
     GET request를 보낼 서버의 URL
     </ParamItem>
-    <ParamItem param={"encoding"} type={"String"} defaultVal={"`\"UTF-8\"`"} optional>
+    <ParamItem param="encoding" type="String" defaultVal="`&quot;UTF-8&quot;`" optional>
     요청에 대한 인코딩 형식
     </ParamItem>
   </ParamList>

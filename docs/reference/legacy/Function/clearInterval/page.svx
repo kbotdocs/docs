@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"intervalID"} type={"Number"}>
+    <ParamItem param="intervalID" type="Number">
     취소할 반복 작업의 ID. 해당 값은 [`setInterval()`](/reference/legacy/Function/setInterval) 호출 시 반환된 값입니다.
     </ParamItem>
   </ParamList>

@@ -2,7 +2,7 @@
 <Section>
   AOT 관련 토큰을 반환합니다.
 
-  <Endpoint method={"GET"} endpoint={"/aot"} contentType={"-/-"} />
+  <Endpoint method="GET" endpoint="/aot" contentType="-/-" />
 </Section>
 <Section>
   ## 요청
@@ -31,23 +31,23 @@
   ~~~
 
   <ParamList>
-  <ParamItem param={"success"} type={"boolean"}>
+  <ParamItem param="success" type="boolean">
     성공 여부입니다.
   </ParamItem>
-  <ParamItem param={"aot"} type={"object"}>
+  <ParamItem param="aot" type="object">
     AOT 관련 토큰을 포함하는 객체입니다.
   </ParamItem>
   <ParamList>
-    <ParamItem param={"access_token"} type={"string"}>
+    <ParamItem param="access_token" type="string">
     액세스 토큰입니다.
     </ParamItem>
-    <ParamItem param={"refresh_token"} type={"string"}>
+    <ParamItem param="refresh_token" type="string">
     리프레시 토큰입니다.
     </ParamItem>
-    <ParamItem param={"token_type"} type={"string"}>
+    <ParamItem param="token_type" type="string">
     토큰의 유형입니다.
     </ParamItem>
-    <ParamItem param={"d_id"} type={"string"}>
+    <ParamItem param="d_id" type="string">
     `d_id`입니다.
     </ParamItem>
   </ParamList>

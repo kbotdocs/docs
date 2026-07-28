@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"enabled"} type={"Boolean"}>
+    <ParamItem param="enabled" type="Boolean">
     프로젝트의 활성화 여부
     </ParamItem>
   </ParamList>

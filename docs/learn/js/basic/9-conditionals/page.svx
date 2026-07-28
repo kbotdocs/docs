@@ -240,7 +240,7 @@
   **Q1.** 여러분은 카카오톡봇에게 작별 인사를 할 때도 반응하게 하고 싶습니다. `if` 문을 사용해 '안녕'이라는 메시지에는 '안녕하세요, (유저이름)님.'을, '잘있어'라는 메시지에는 '안녕히가세요,
   (유저이름)님'을 보내게 해보세요.
   </Blockquote>
-  <Details summary={"모범답안"}>
+  <Details summary="모범답안">
   ~~~js
   const bot = BotManager.getCurrentBot();
 
@@ -259,7 +259,7 @@
   **Q2.** 여러분은 Q1.에서 만든 카카오톡봇을 친구들이 모인 방에만 작동시키고 싶습니다. 해당 방의 이름이 '친구들'일 때 '친구들' 방에서만 동작하도록 코드를 수정해보세요. (메시지가 온 방의 이름은
   `msg.room`에 담겨 있습니다.)
   </Blockquote>
-  <Details summary={"모범답안"}>
+  <Details summary="모범답안">
   ~~~js
   const bot = BotManager.getCurrentBot();
 
@@ -298,9 +298,9 @@
   <Table>
     <Thead>
     <Tr>
-      <Th colspan={2}>메뉴 정보 (메뉴명 / 전송 문구)</Th>
+      <Th colspan="2">메뉴 정보 (메뉴명 / 전송 문구)</Th>
     </Tr>
-    <Tr class={"hidden md:table-cell"}>
+    <Tr class="hidden md:table-cell">
       <Th>메뉴명</Th>
       <Th>전송 문구</Th>
     </Tr>
@@ -323,7 +323,7 @@
 
   명령어를 감지하고 주문한 메뉴에 맞는 문구를 전송하세요. 주문한 메뉴가 존재하지 않는 메뉴일 경우 '존재하지 않는 메뉴입니다.'를 전송하세요.
   </Blockquote>
-  <Details summary={"모범답안"}>
+  <Details summary="모범답안">
   ~~~js
   const bot = BotManager.getCurrentBot();
 

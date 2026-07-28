@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"path"} type={"String"}>
+    <ParamItem param="path" type="String">
     전체 크기를 확인할 파티션의 경로
     </ParamItem>
   </ParamList>

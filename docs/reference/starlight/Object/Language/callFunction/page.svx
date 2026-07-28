@@ -13,13 +13,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"room"} type={"Any"}>
+    <ParamItem param="room" type="Any">
     사용할 스코프
     </ParamItem>
-    <ParamItem param={"functionName"} type={"String"}>
+    <ParamItem param="functionName" type="String">
     호출할 함수의 이름
     </ParamItem>
-    <ParamItem param={"args"} type={"Any[]"}>
+    <ParamItem param="args" type="Any[]">
     호출할 함수에게 전달할 인자
     </ParamItem>
   </ParamList>

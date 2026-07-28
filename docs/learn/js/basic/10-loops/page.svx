@@ -103,7 +103,7 @@
   조건식을 생략할 경우, 조건식의 결과가 항상 `true`인 것으로 간주합니다. 그러므로 `for` 문의 내부에서 반복을 탈출하는 코드가 없으면 무한 반복하게 됩니다.
   위 코드는 실행하면 `"Infinity loop!"`를 무한히 전송하게 됩니다.
 
-  <Noti type={"info"}>
+  <Noti type="info">
   만약 무한 반복을 중지하고자 한다면 절차에 따라 시행하세요.
   1. 메신저봇R 메인 화면으로 이동하세요.
   2. 작동한 코드의 프로젝트를 클릭하고 프로젝트 설정 버튼(맨 마지막 버튼)을 클릭하세요.
@@ -315,7 +315,7 @@
   5초가 되었다는 메시지를 전송합니다.
   사용자가 타이머 시간을 설정할 수 있도록 코드를 수정해보세요.
   </Blockquote>
-  <Details summary={"모범답안"}>
+  <Details summary="모범답안">
   `for` 문:
   ~~~js
   const bot = BotManager.getCurrentBot();
@@ -373,7 +373,7 @@
 
   반복문을 사용해 코드를 작성해보세요. (하나의 메시지로 출력하세요.)
   </Blockquote>
-  <Details summary={"모범답안"}>
+  <Details summary="모범답안">
   `for` 문:
   ~~~js
   const bot = BotManager.getCurrentBot();
@@ -419,7 +419,7 @@
   **Q3.** 여러분은 동생을 위해 열심히 Q2.를 해결했습니다. 하지만 동생은 2단부터 9단까지 모두 보여줬으면 좋겠다고 합니다. '@gugudan'을 입력하면 2단부터 9단까지 출력하도록 수정해보세요.
   단마다 하나의 메시지로 출력하세요. (힌트: 반복문 안에 반복문을 사용하는 것도 가능합니다.)
   </Blockquote>
-  <Details summary={"모범답안"}>
+  <Details summary="모범답안">
   `for` 문:
   ~~~js
   const bot = BotManager.getCurrentBot();

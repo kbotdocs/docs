@@ -14,13 +14,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"scriptName"} type={"String"}>
+    <ParamItem param="scriptName" type="String">
     전역 함수를 호출할 스크립트 이름
     </ParamItem>
-    <ParamItem param={"functionName"} type={"String"}>
+    <ParamItem param="functionName" type="String">
     호출할 전역 함수의 이름
     </ParamItem>
-    <ParamItem param={"args"} type={"any[]"} defaultVal={"`[]`"} optional>
+    <ParamItem param="args" type="any[]" defaultVal="`[]`" optional>
     호출할 함수에게 전달할 인자
     </ParamItem>
   </ParamList>

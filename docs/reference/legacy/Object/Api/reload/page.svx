@@ -16,10 +16,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"scriptName"} type={"String"} optional>
+    <ParamItem param="scriptName" type="String" optional>
     컴파일할 스크립트의 이름
     </ParamItem>
-    <ParamItem param={"throwOnError"} type={"Boolean"} defaultVal={"`false`"} optional>
+    <ParamItem param="throwOnError" type="Boolean" defaultVal="`false`" optional>
     컴파일 에러 시 에러 throw 여부
     </ParamItem>
   </ParamList>

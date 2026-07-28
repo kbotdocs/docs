@@ -14,13 +14,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"title"} type={"String"}>
+    <ParamItem param="title" type="String">
     알림의 제목
     </ParamItem>
-    <ParamItem param={"content"} type={"String"}>
+    <ParamItem param="content" type="String">
     알림의 내용
     </ParamItem>
-    <ParamItem param={"id"} type={"Number"} defaultVal={"`0`"} optional>
+    <ParamItem param="id" type="Number" defaultVal="`0`" optional>
     알림의 ID
     </ParamItem>
   </ParamList>

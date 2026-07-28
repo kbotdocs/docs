@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"key"} type={"str"}>
+    <ParamItem param="key" type="str">
     삭제할 키-값 쌍의 키
     </ParamItem>
   </ParamList>

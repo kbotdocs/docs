@@ -13,10 +13,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"room_id"} type={"int"}>
+    <ParamItem param="room_id" type="int">
     메시지를 보낼 방의 id
     </ParamItem>
-    <ParamItem param={"msg"} type={"str"}>
+    <ParamItem param="msg" type="str">
     보낼 메시지의 내용
     </ParamItem>
   </ParamList>

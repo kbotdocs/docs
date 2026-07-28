@@ -13,10 +13,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"name"} type={"String"}>
+    <ParamItem param="name" type="String">
     값을 저장할 `[[전체변수]]`의 이름
     </ParamItem>
-    <ParamItem param={"value"} type={"String"}>
+    <ParamItem param="value" type="String">
     저장할 값
     </ParamItem>
   </ParamList>

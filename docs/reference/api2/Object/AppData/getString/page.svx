@@ -13,7 +13,7 @@
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"key"} type={"String"}>
+      <ParamItem param="key" type="String">
         불러올 `String`형 데이터에 대응하는 키
       </ParamItem>
     </ParamList>

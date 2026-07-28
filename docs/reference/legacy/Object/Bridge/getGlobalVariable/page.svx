@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"name"} type={"String"}>
+    <ParamItem param="name" type="String">
     `[[전체변수]]`의 이름
     </ParamItem>
   </ParamList>

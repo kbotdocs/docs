@@ -8,7 +8,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>`iris.bot.models.Message`의 인스턴스 프로퍼티</Th>
+    <Th colspan="2">`iris.bot.models.Message`의 인스턴스 프로퍼티</Th>
     </Tr>
   </Thead>
   <Tbody>

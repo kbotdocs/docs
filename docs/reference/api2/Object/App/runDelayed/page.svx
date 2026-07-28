@@ -13,10 +13,10 @@
     ### 매개변수
 
     <ParamList>
-      <ParamItem param={"task"} type={"() => Any"}>
+      <ParamItem param="task" type="() =&gt; Any">
         UI 스레드에서 실행할 함수
       </ParamItem>
-      <ParamItem param={"delayMillis"} type={"Number"}>
+      <ParamItem param="delayMillis" type="Number">
         지연할 시간(밀리초; ms)
       </ParamItem>
     </ParamList>

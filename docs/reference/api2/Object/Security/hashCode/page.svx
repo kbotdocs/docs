@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"value"} type={"String"}>
+    <ParamItem param="value" type="String">
     해시코드를 추출할 값
     </ParamItem>
   </ParamList>

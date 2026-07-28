@@ -8,7 +8,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>`iris.decorators`의 데코레이터</Th>
+    <Th colspan="2">`iris.decorators`의 데코레이터</Th>
     </Tr>
   </Thead>
   <Tbody>

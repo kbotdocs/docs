@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"func"} type={"() => Any?"}>
+    <ParamItem param="func" type="() =&gt; Any?">
     실행 시간을 측정할 함수
     </ParamItem>
   </ParamList>

@@ -15,7 +15,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"scriptName"} type={"String"} defaultVal={"해당 메소드를 호출한 스크립트의 이름"} optional>
+    <ParamItem param="scriptName" type="String" defaultVal="해당 메소드를 호출한 스크립트의 이름" optional>
     컴파일할 스크립트의 이름
     </ParamItem>
   </ParamList>

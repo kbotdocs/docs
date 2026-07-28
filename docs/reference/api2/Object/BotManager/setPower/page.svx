@@ -13,10 +13,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"botName"} type={"String"}>
+    <ParamItem param="botName" type="String">
     활성화 여부를 제어할 `Bot` 객체의 이름
     </ParamItem>
-    <ParamItem param={"power"} type={"Boolean"}>
+    <ParamItem param="power" type="Boolean">
     `Bot` 객체의 활성화 여부
     </ParamItem>
   </ParamList>

@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"location"} type={"String"}>
+    <ParamItem param="location" type="String">
     지역명
     </ParamItem>
   </ParamList>

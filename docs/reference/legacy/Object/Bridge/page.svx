@@ -43,7 +43,7 @@
     <Tr>
     <Td><span>`String`</span></Td>
     <Td>
-      <Feature status={["legacy/Object/Bridge", "getGlobalVariable"]}>[`getGlobalVariable`](/reference/legacy/Object/Bridge/getGlobalVariable)`(name: String)`</Feature> \
+      <Feature source="legacy/Object/Bridge" feature="getGlobalVariable">[`getGlobalVariable`](/reference/legacy/Object/Bridge/getGlobalVariable)`(name: String)`</Feature> \
       단순 자동응답에 대하여 특정 이름을 가진 `[[전체변수]]`의 값을 반환합니다.
     </Td>
     </Tr>
@@ -64,7 +64,7 @@
     <Tr>
     <Td><span>`String`</span></Td>
     <Td>
-      <Feature status={["legacy/Object/Bridge", "getVariable"]}>[`getVariable`](/reference/legacy/Object/Bridge/getVariable)`(room: String, name: String)`</Feature> \
+      <Feature source="legacy/Object/Bridge" feature="getVariable">[`getVariable`](/reference/legacy/Object/Bridge/getVariable)`(room: String, name: String)`</Feature> \
       단순 자동응답에 대하여 특정 방에서 특정 이름을 가진 `[[변수]]`의 값을 반환합니다.
     </Td>
     </Tr>
@@ -99,14 +99,14 @@
     <Tr>
     <Td><span>`void`</span></Td>
     <Td>
-      <Feature status={["legacy/Object/Bridge", "setGlobalVariable"]}>[`setGlobalVariable`](/reference/legacy/Object/Bridge/setGlobalVariable)`(name: String, value: String)`</Feature> \
+      <Feature source="legacy/Object/Bridge" feature="setGlobalVariable">[`setGlobalVariable`](/reference/legacy/Object/Bridge/setGlobalVariable)`(name: String, value: String)`</Feature> \
       단순 자동응답에 대하여 특정 이름을 가진 `[[전체변수]]`에 값을 저장합니다.
     </Td>
     </Tr>
     <Tr>
     <Td><span>`void`</span></Td>
     <Td>
-      <Feature status={["legacy/Object/Bridge", "setVariable"]}>[`setVariable`](/reference/legacy/Object/Bridge/setVariable)`(room: String, name: String, value: String)`</Feature> \
+      <Feature source="legacy/Object/Bridge" feature="setVariable">[`setVariable`](/reference/legacy/Object/Bridge/setVariable)`(room: String, name: String, value: String)`</Feature> \
       단순 자동응답에 대하여 특정 방에서 특정 이름을 가진 `[[변수]]`에 값을 저장합니다.
     </Td>
     </Tr>

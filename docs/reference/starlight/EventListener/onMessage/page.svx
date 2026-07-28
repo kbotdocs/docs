@@ -15,7 +15,7 @@
   ### 인자
 
   <ParamList>
-    <ParamItem param={"event"} type={"Message"}>
+    <ParamItem param="event" type="Message">
     발신된 메시지에 대한 정보를 담고 있는 [`Message`](/reference/starlight/Argument/Message) 객체입니다.
     </ParamItem>
   </ParamList>

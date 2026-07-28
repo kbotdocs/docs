@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"message"} type={"String"}>
+    <ParamItem param="message" type="String">
     보낼 메시지의 내용
     </ParamItem>
   </ParamList>

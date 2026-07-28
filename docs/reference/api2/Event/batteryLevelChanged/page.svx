@@ -17,13 +17,13 @@
   ### 인자
 
   <ParamList>
-    <ParamItem param={"battery.before"} type={"Number"}>
+    <ParamItem param="battery.before" type="Number">
     변화 전 배터리 잔량입니다.
     </ParamItem>
-    <ParamItem param={"battery.after"} type={"Number"}>
+    <ParamItem param="battery.after" type="Number">
     변화 후 배터리 잔량입니다.
     </ParamItem>
-    <ParamItem param={"battery.status"} type={"Number"}>
+    <ParamItem param="battery.status" type="Number">
     앱 구동 기기의 배터리 상태를 나타내는 상수입니다. 관련 상수는 다음과 같습니다:
     - `android.os.BatteryManager.BATTERY_STATUS_UNKNOWN = 1 (0x00000001)`
     - `android.os.BatteryManager.BATTERY_STATUS_CHARGING = 2 (0x00000002)`

@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"text"} type={"String"}>
+    <ParamItem param="text" type="String">
     설정할 알림의 내용
     </ParamItem>
   </ParamList>

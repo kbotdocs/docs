@@ -13,10 +13,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"scriptName"} type={"String"}>
+    <ParamItem param="scriptName" type="String">
     전역 스코프 멤버를 가져올 스크립트의 이름
     </ParamItem>
-    <ParamItem param={"variable"} type={"String"}>
+    <ParamItem param="variable" type="String">
     반환할 멤버의 이름
     </ParamItem>
   </ParamList>

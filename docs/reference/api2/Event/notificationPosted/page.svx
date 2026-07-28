@@ -17,11 +17,11 @@
   ### 인자
 
   <ParamList>
-    <ParamItem param={"statusBarNotification"} type={"android.service.notification.StatusBarNotification"}>
+    <ParamItem param="statusBarNotification" type="android.service.notification.StatusBarNotification">
     알림에 관한 정보가 담긴
     [`android.service.notification.StatusBarNotification`](https://developer.android.com/reference/android/service/notification/StatusBarNotification)입니다.
     </ParamItem>
-    <ParamItem param={"sessionManager"} type={"SessionManager"}>
+    <ParamItem param="sessionManager" type="SessionManager">
     앱이 공식적으로 지원하지 않는 메신저에 사용하기 위한 [`SessionManager`](/reference/api2/Argument/SessionManager) 객체입니다.
     </ParamItem>
   </ParamList>

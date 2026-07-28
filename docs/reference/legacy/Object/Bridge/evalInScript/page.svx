@@ -13,10 +13,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"scriptName"} type={"String"}>
+    <ParamItem param="scriptName" type="String">
     JavaScript 코드를 실행할 스크립트의 이름
     </ParamItem>
-    <ParamItem param={"src"} type={"String"}>
+    <ParamItem param="src" type="String">
     문자열로 표현된 JavaScript 코드
     </ParamItem>
   </ParamList>

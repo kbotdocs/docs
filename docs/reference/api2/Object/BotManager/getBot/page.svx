@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"botName"} type={"String"}>
+    <ParamItem param="botName" type="String">
     반환받을 `Bot` 객체의 이름
     </ParamItem>
   </ParamList>

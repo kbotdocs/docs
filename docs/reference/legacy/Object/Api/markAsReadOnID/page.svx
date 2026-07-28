@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"roomId"} type={"String | BigInt"}>
+    <ParamItem param="roomId" type="String | BigInt">
     메시지를 읽음 처리할 방의 ID
     </ParamItem>
   </ParamList>

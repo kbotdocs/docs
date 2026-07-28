@@ -13,10 +13,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"path1"} type={"String"}>
+    <ParamItem param="path1" type="String">
     이동할 파일의 경로
     </ParamItem>
-    <ParamItem param={"path2"} type={"String"}>
+    <ParamItem param="path2" type="String">
     이동 위치가 되는 경로
     </ParamItem>
   </ParamList>

@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"id"} type={"String"}>
+    <ParamItem param="id" type="String">
     언어 구현체의 ID
     </ParamItem>
   </ParamList>

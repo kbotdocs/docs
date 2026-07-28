@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"searchString"} type={"str"}>
+    <ParamItem param="searchString" type="str">
     데이터베이스의 값 컬럼에서 검색할 값
     </ParamItem>
   </ParamList>

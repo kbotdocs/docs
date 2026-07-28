@@ -20,7 +20,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"scope"} type={"Any"}>
+    <ParamItem param="scope" type="Any">
     폐기할 스코프
     </ParamItem>
   </ParamList>

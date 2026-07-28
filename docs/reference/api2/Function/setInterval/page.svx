@@ -16,13 +16,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"func"} type={"Function"}>
+    <ParamItem param="func" type="Function">
     반복해서 호출할 함수
     </ParamItem>
-    <ParamItem param={"delay"} type={"Number"} defaultVal={"`0`"} optional>
+    <ParamItem param="delay" type="Number" defaultVal="`0`" optional>
     반복 작업 사이의 지연 시간(밀리초; ms)
     </ParamItem>
-    <ParamItem param={"...args"} type={"any"} optional>
+    <ParamItem param="...args" type="any" optional>
     `func`에 전달할 인자
     </ParamItem>
   </ParamList>

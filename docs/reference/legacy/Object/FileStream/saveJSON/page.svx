@@ -14,10 +14,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"path"} type={"String"}>
+    <ParamItem param="path" type="String">
     내용을 덮어쓰거나 새로 생성할 파일의 경로
     </ParamItem>
-    <ParamItem param={"json"} type={"Object"}>
+    <ParamItem param="json" type="Object">
     `JSON String`으로 변환 후 파일 내용으로 저장할 객체
     </ParamItem>
   </ParamList>

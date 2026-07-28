@@ -2,7 +2,7 @@
 <Section>
   메시지 전달을 위한 웹 서버 엔드포인트를 업데이트합니다.
 
-  <Endpoint method={"POST"} endpoint={"/config/endpoint"} contentType={"application/json"} />
+  <Endpoint method="POST" endpoint="/config/endpoint" contentType="application/json" />
 </Section>
 <Section>
   ## 요청
@@ -17,7 +17,7 @@
   ~~~
 
   <ParamList>
-    <ParamItem param={"endpoint"} type={"string"}>
+    <ParamItem param="endpoint" type="string">
     업데이트할 웹 서버 엔드포인트입니다.
     </ParamItem>
   </ParamList>

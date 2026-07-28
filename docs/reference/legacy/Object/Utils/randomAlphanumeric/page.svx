@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"length"} type={"Number"}>
+    <ParamItem param="length" type="Number">
     생성할 영숫자의 길이
     </ParamItem>
   </ParamList>

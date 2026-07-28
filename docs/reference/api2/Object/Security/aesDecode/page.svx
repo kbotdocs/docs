@@ -13,13 +13,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"key"} type={"String"}>
+    <ParamItem param="key" type="String">
     AES 복호화를 위한 키
     </ParamItem>
-    <ParamItem param={"initVector"} type={"String"}>
+    <ParamItem param="initVector" type="String">
     초기화 백터
     </ParamItem>
-    <ParamItem param={"value"} type={"String"}>
+    <ParamItem param="value" type="String">
     복호화할 값
     </ParamItem>
   </ParamList>

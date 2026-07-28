@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"xml"} type={"String"}>
+    <ParamItem param="xml" type="String">
     `JSON String`으로 변환할 XML 형식의 문자열
     </ParamItem>
   </ParamList>

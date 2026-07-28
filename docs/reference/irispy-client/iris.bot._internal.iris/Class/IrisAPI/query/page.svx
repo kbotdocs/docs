@@ -14,10 +14,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"query"} type={"str"}>
+    <ParamItem param="query" type="str">
     SQL 쿼리 문자열
     </ParamItem>
-    <ParamItem param={"bind"} type={"list[Any] | None"} defaultVal={"`None`"} optional>
+    <ParamItem param="bind" type="list[Any] | None" defaultVal="`None`" optional>
     쿼리에 대한 선택적 바인딩
     </ParamItem>
   </ParamList>

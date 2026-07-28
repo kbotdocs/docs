@@ -14,7 +14,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"locationOrZoneId"} type={"String"}>
+    <ParamItem param="locationOrZoneId" type="String">
     기상 정보를 조회할 지역 또는 지역의 행정구역코드
     </ParamItem>
   </ParamList>

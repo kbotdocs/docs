@@ -6,9 +6,9 @@
   ## 로드맵
 
   <LearnRoadmap>
-  <Learn doc={"/learn/js/basic"}/>
-  <Learn doc={"/learn/js/intermediate"}/>
-  <Learn doc={"/learn/js/advanced"}/>
-  <Learn doc={"/learn/js/migration-to-api2"}/>
+  <Learn doc="/learn/js/basic"/>
+  <Learn doc="/learn/js/intermediate"/>
+  <Learn doc="/learn/js/advanced"/>
+  <Learn doc="/learn/js/migration-to-api2"/>
   </LearnRoadmap>
 </Section>

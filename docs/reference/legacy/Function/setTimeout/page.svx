@@ -16,13 +16,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"func"} type={"Function"}>
+    <ParamItem param="func" type="Function">
     타이머가 만료된 후 실행할 함수
     </ParamItem>
-    <ParamItem param={"delay"} type={"Number"} defaultVal={"`0`"} optional>
+    <ParamItem param="delay" type="Number" defaultVal="`0`" optional>
     타이머가 만료되기까지의 지연 시간(밀리초; ms)
     </ParamItem>
-    <ParamItem param={"...args"} type={"any"} optional>
+    <ParamItem param="...args" type="any" optional>
     `func`에 전달할 인자
     </ParamItem>
   </ParamList>

@@ -13,9 +13,9 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"option"} type={"Object"}>
+    <ParamItem param="option" type="Object">
     보낼 요청의 옵션
-    <Details summary={"`option` 정보"}>
+    <Details summary="`option` 정보">
       ~~~json
       {
         "url": String,
@@ -25,16 +25,16 @@
       }
       ~~~
       <ParamList>
-      <ParamItem param={"url"} type={"String"}>
+      <ParamItem param="url" type="String">
         request를 보낼 URL
       </ParamItem>
-      <ParamItem param={"timeout"} type={"Number"} defaultVal={"`3000`"} optional>
+      <ParamItem param="timeout" type="Number" defaultVal="`3000`" optional>
         request 타임아웃 (밀리초; ms)
       </ParamItem>
-      <ParamItem param={"method"} type={"String"} defaultVal={"`\"GET\"`"} optional>
+      <ParamItem param="method" type="String" defaultVal="`&quot;GET&quot;`" optional>
         request 메소드
       </ParamItem>
-      <ParamItem param={"headers"} type={"Object"} defaultVal={"`null`"} optional>
+      <ParamItem param="headers" type="Object" defaultVal="`null`" optional>
         request 헤더
       </ParamItem>
       </ParamList>

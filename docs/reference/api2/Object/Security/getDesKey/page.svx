@@ -1,6 +1,6 @@
 
 <Section>
-  <Noti type={"warning"}>
+  <Noti type="warning">
   이 메소드는 미구현 상태입니다.
   </Noti>
 

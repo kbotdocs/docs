@@ -17,7 +17,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"path"} type={"String"}>
+    <ParamItem param="path" type="String">
     에셋 파일의 상대 경로
     </ParamItem>
   </ParamList>

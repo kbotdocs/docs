@@ -29,7 +29,7 @@
     <Tr>
     <Td><span>`android.graphics.Bitmap`</span></Td>
     <Td>
-      <Feature status={{experimental: true}}>[`image`](/reference/starlight/Argument/Message/image)</Feature> \
+      <Feature status="experimental">[`image`](/reference/starlight/Argument/Message/image)</Feature> \
       메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
     </Td>
     </Tr>

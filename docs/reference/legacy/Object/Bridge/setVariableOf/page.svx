@@ -13,13 +13,13 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"scriptName"} type={"String"}>
+    <ParamItem param="scriptName" type="String">
     스크립트의 이름
     </ParamItem>
-    <ParamItem param={"variable"} type={"String"}>
+    <ParamItem param="variable" type="String">
     값을 설정할 멤버의 이름
     </ParamItem>
-    <ParamItem param={"value"} type={"any"}>
+    <ParamItem param="value" type="any">
     특정 멤버에 할당할 값
     </ParamItem>
   </ParamList>

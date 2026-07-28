@@ -2,7 +2,7 @@
 <Section>
   메시지 전송 지연 시간을 업데이트합니다.
 
-  <Endpoint method={"POST"} endpoint={"/config/sendrate"} contentType={"application/json"} />
+  <Endpoint method="POST" endpoint="/config/sendrate" contentType="application/json" />
 </Section>
 <Section>
   ## 요청
@@ -17,7 +17,7 @@
   ~~~
 
   <ParamList>
-    <ParamItem param={"rate"} type={"int"}>
+    <ParamItem param="rate" type="int">
     업데이트할 메시지 전송 지연 시간(밀리초; ms)입니다.
     </ParamItem>
   </ParamList>

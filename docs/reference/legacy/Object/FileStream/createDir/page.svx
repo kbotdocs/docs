@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"path"} type={"String"}>
+    <ParamItem param="path" type="String">
     생성할 폴더의 경로
     </ParamItem>
   </ParamList>

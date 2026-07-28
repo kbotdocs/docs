@@ -2,7 +2,7 @@
 <Section>
   메시지를 복호화합니다.
 
-  <Endpoint method={"POST"} endpoint={"/decrypt"} contentType={"application/json"} />
+  <Endpoint method="POST" endpoint="/decrypt" contentType="application/json" />
 </Section>
 <Section>
   ## 요청
@@ -18,13 +18,13 @@
   }
   ~~~
   <ParamList>
-    <ParamItem param={"enc"} type={"int"}>
+    <ParamItem param="enc" type="int">
     암호화 유형입니다. 데이터베이스에서 가져온 정수입니다.
     </ParamItem>
-    <ParamItem param={"b64_ciphertext"} type={"string"}>
+    <ParamItem param="b64_ciphertext" type="string">
     Base64 인코딩된 암호화 메시지입니다.
     </ParamItem>
-    <ParamItem param={"user_id"} type={"long"} defaultVal={"`config.json`의 `bot_id`"} optional>
+    <ParamItem param="user_id" type="long" defaultVal="`config.json`의 `bot_id`" optional>
     사용자 ID입니다.
     </ParamItem>
   </ParamList>
@@ -49,7 +49,7 @@
   ~~~
 
   <ParamList>
-  <ParamItem param={"plain_text"} type={"string"}>
+  <ParamItem param="plain_text" type="string">
     복호화된 평문입니다.
   </ParamItem>
   </ParamList>

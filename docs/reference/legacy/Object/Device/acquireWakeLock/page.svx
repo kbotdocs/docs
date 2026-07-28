@@ -19,10 +19,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"levelAndFlags"} type={"Number"}>
+    <ParamItem param="levelAndFlags" type="Number">
     wake lock의 수준을 나타내는 플래그
     <Details
-      summary={"wake lock 플래그 ([`android.os.PowerManager`](https://developer.android.com/reference/android/os/PowerManager))"}>
+      summary="wake lock 플래그 ([`android.os.PowerManager`](https://developer.android.com/reference/android/os/PowerManager))">
       <Table class="table-fixed">
       <Thead>
         <Tr class="hidden md:table-row">
@@ -62,10 +62,11 @@
       \* 기기가 사용자에 의해 sleep 상태로 전환되어도 실행 상태를 유지합니다.
     </Details>
     </ParamItem>
-    <ParamItem param={"tag"} type={"String"} defaultVal={"- 메신저봇R: `com.xfl.msgbot:default_wake_lock_tag`\n- StarLight: `dev.mooner.starlight:api_wakelock_tag`"} optional>
+    <ParamItem param="tag" type="String" defaultVal="- 메신저봇R: `com.xfl.msgbot:default_wake_lock_tag`
+- StarLight: `dev.mooner.starlight:api_wakelock_tag`" optional>
     디버깅을 위한 클래스 이름 또는 다른 이름 태그
     </ParamItem>
-    <ParamItem param={"timeout"} type={"Number"} defaultVal={"`null`"} optional>
+    <ParamItem param="timeout" type="Number" defaultVal="`null`" optional>
     wake lock을 해제할 시간(밀리초; ms)
     </ParamItem>
   </ParamList>

@@ -13,14 +13,14 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"broadcastName"} type={"String"}>
+    <ParamItem param="broadcastName" type="String">
     리스너를 제거할 브로드캐스트 이름
     </ParamItem>
-    <ParamItem param={"task"} type={"(value) => Any"}>
+    <ParamItem param="task" type="(value) =&gt; Any">
     제거할 리스너
     </ParamItem>
     <ParamList>
-    <ParamItem param={"value"} type={"Any"}>
+    <ParamItem param="value" type="Any">
       브로드캐스트을 통해 송출된 값
     </ParamItem>
     </ParamList>

@@ -22,7 +22,7 @@
   - 변수 이름의 두 번째 글자부터는 영문자, 숫자, 달러기호(`$`), 언더바(`_`)만 올 수 있습니다. 예를 들어, `let log_2_10;`는 정상적으로 작동합니다.
   - JavaScript에서 이미 사용 중인 키워드(`let`, `if`, `for` 등)는 변수 이름으로 지을 수 없습니다.
 
-  <Noti type={"info"}>
+  <Noti type="info">
     JavaScript를 비롯한 프로그래밍 언어에서는 대소문자를 엄격하게 구분합니다.
 
     ~~~js
@@ -100,7 +100,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>JavaScript의 자료형</Th>
+    <Th colspan="2">JavaScript의 자료형</Th>
     </Tr>
   </Thead>
   <Tbody>

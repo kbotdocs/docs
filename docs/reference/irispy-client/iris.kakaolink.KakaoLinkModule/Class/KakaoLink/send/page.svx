@@ -23,28 +23,28 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"receiver_name"} type={"str"}>
+    <ParamItem param="receiver_name" type="str">
     카카오링크를 보낼 방의 이름
     </ParamItem>
-    <ParamItem param={"template_id"} type={"int"}>
+    <ParamItem param="template_id" type="int">
     카카오링크의 템플릿 id
     </ParamItem>
-    <ParamItem param={"template_args"} type={"dict"}>
+    <ParamItem param="template_args" type="dict">
     카카오링크의 템플릿 인자
     </ParamItem>
-    <ParamItem param={"app_key"} type={"str"} defaultVal={"`None`"} optional>
+    <ParamItem param="app_key" type="str" defaultVal="`None`" optional>
     카카오링크 API의 앱 키
     </ParamItem>
-    <ParamItem param={"origin"} type={"str"} defaultVal={"`None`"} optional>
+    <ParamItem param="origin" type="str" defaultVal="`None`" optional>
     카카오링크 API의 origin
     </ParamItem>
-    <ParamItem param={"search_exact"} type={"bool"} defaultVal={"`True`"} optional>
+    <ParamItem param="search_exact" type="bool" defaultVal="`True`" optional>
     `receiver_name` 이름의 방을 정확히 검색할지의 여부. `False`일 경우 이름에 `receiver_name`을 포함하는 방도 검색합니다.
     </ParamItem>
-    <ParamItem param={"search_from"} type={'Union["ALL", "FRIENDS", "CHATROOMS"]'} defaultVal={"`\"ALL\"`"} optional>
+    <ParamItem param="search_from" type="'Union[&quot;ALL&quot;, &quot;FRIENDS&quot;, &quot;CHATROOMS&quot;]'" defaultVal="`&quot;ALL&quot;`" optional>
     `receiver_name` 방의 검색 범위
     </ParamItem>
-    <ParamItem param={"search_room_type"} type={'Union["ALL", "OpenMultiChat", "MultiChat", "DirectChat"]'} defaultVal={"`\"ALL\"`"} optional>
+    <ParamItem param="search_room_type" type="'Union[&quot;ALL&quot;, &quot;OpenMultiChat&quot;, &quot;MultiChat&quot;, &quot;DirectChat&quot;]'" defaultVal="`&quot;ALL&quot;`" optional>
     `receiver_name` 방의 타입에 대한 검색 범위
     </ParamItem>
   </ParamList>

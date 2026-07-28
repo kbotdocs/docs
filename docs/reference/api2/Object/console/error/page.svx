@@ -15,7 +15,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"...args"} type={"any"} optional>
+    <ParamItem param="...args" type="any" optional>
     작성할 에러 로그의 내용 
     </ParamItem>
   </ParamList>

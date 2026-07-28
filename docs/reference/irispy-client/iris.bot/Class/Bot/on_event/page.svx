@@ -15,7 +15,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"name"} type={"str"}>
+    <ParamItem param="name" type="str">
     핸들러를 등록할 이벤트 이름
     </ParamItem>
   </ParamList>

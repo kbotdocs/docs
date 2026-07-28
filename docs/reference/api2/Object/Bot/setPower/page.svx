@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"power"} type={"Boolean"}>
+    <ParamItem param="power" type="Boolean">
     스크립트의 활성화 여부
     </ParamItem>
   </ParamList>

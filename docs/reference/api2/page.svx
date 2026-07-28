@@ -86,7 +86,7 @@
     </Td>
     </Tr>
     <Tr>
-    <Td><span><Feature status={["api2/Object/console", "console"]}>[`console`](/reference/api2/Object/console)</Feature></span></Td>
+    <Td><span><Feature source="api2/Object/console" feature="console">[`console`](/reference/api2/Object/console)</Feature></span></Td>
     <Td>
       앱 내 스크립트 로그에 로그를 기록할 수 있게 하는 객체입니다.
     </Td>
@@ -134,7 +134,7 @@
     </Td>
     </Tr>
     <Tr>
-    <Td><span><Feature status={["api2/Object/MediaSender", "MediaSender"]}>[`MediaSender`](/reference/api2/Object/MediaSender)</Feature></span></Td>
+    <Td><span><Feature source="api2/Object/MediaSender" feature="MediaSender">[`MediaSender`](/reference/api2/Object/MediaSender)</Feature></span></Td>
     <Td>
       텍스트 외의 미디어 파일을 전송할 수 있게 하는 객체입니다.
     </Td>

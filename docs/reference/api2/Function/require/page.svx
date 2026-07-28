@@ -18,7 +18,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"path"} type={"String"}>
+    <ParamItem param="path" type="String">
     불러올 모듈이나 JSON 파일의 이름 또는 경로.
     </ParamItem>
   </ParamList>

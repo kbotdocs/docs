@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"id"} type={"String"}>
+    <ParamItem param="id" type="String">
     플러그인의 고유 ID
     </ParamItem>
   </ParamList>

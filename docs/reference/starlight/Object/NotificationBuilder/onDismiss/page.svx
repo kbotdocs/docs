@@ -13,11 +13,11 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"callback"} type={"(id) => Any?"}>
+    <ParamItem param="callback" type="(id) =&gt; Any?">
     알림이 상단바에서 제거될 때 호출될 콜백 함수
     </ParamItem>
     <ParamList>
-    <ParamItem param={"id"} type={"Number"}>
+    <ParamItem param="id" type="Number">
       알림의 ID
     </ParamItem>
     </ParamList>

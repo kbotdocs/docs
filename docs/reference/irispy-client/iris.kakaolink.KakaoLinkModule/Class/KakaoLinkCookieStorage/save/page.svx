@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"cookies"} type={"dict"}>
+    <ParamItem param="cookies" type="dict">
     저장할 쿠키
     </ParamItem>
   </ParamList>

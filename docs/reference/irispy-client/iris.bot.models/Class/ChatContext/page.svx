@@ -8,7 +8,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>`iris.bot.models.ChatContext`의 인스턴스 프로퍼티</Th>
+    <Th colspan="2">`iris.bot.models.ChatContext`의 인스턴스 프로퍼티</Th>
     </Tr>
   </Thead>
   <Tbody>
@@ -56,7 +56,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>`iris.bot.models.ChatContext`의 인스턴스 메소드</Th>
+    <Th colspan="2">`iris.bot.models.ChatContext`의 인스턴스 메소드</Th>
     </Tr>
   </Thead>
   <Tbody>

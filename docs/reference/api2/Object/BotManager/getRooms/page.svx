@@ -14,7 +14,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"packageName"} type={"String"} optional>
+    <ParamItem param="packageName" type="String" optional>
     메시지가 발신된 방들의 메신저 앱 패키지명
     </ParamItem>
   </ParamList>

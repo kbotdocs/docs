@@ -15,7 +15,7 @@
   ### 인자
 
   <ParamList>
-    <ParamItem param={"ctx"} type={"android.context.Context"}>
+    <ParamItem param="ctx" type="android.context.Context">
     액티비티의 Context(컨텍스트)입니다.
     </ParamItem>
   </ParamList>

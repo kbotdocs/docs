@@ -15,10 +15,10 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"condition"} type={"Boolean"}>
+    <ParamItem param="condition" type="Boolean">
     평가할 조건식
     </ParamItem>
-    <ParamItem param={"...args"} type={"any"} optional>
+    <ParamItem param="...args" type="any" optional>
     작성할 디버그 로그의 내용 
     </ParamItem>
   </ParamList>

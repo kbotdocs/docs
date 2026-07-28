@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"broadcastName"} type={"String"}>
+    <ParamItem param="broadcastName" type="String">
     브로드캐스트 이름
     </ParamItem>
   </ParamList>

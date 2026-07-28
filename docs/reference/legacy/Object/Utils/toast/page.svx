@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"msg"} type={"String"}>
+    <ParamItem param="msg" type="String">
     표시할 토스트 메시지의 내용
     </ParamItem>
   </ParamList>

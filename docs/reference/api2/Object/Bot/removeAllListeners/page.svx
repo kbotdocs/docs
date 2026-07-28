@@ -13,7 +13,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"eventName"} type={"String"}>
+    <ParamItem param="eventName" type="String">
     모든 이벤트 리스너를 제거할 이벤트명
     </ParamItem>
   </ParamList>

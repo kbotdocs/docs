@@ -13,14 +13,14 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"title"} type={"String"}>
+    <ParamItem param="title" type="String">
     버튼의 제목
     </ParamItem>
-    <ParamItem param={"callback"} type={"(id) => Any?"}>
+    <ParamItem param="callback" type="(id) =&gt; Any?">
     버튼을 클릭할 때 호출될 콜백 함수
     </ParamItem>
     <ParamList>
-    <ParamItem param={"id"} type={"Number"}>
+    <ParamItem param="id" type="Number">
       알림의 ID
     </ParamItem>
     </ParamList>

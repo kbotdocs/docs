@@ -12,7 +12,7 @@
   ### 매개변수
 
   <ParamList>
-    <ParamItem param={"value"} type={"String"}>
+    <ParamItem param="value" type="String">
     암호화할 값
     </ParamItem>
   </ParamList>

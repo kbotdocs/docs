@@ -14,14 +14,14 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>HTTP API 엔드포인트</Th>
+    <Th colspan="2">HTTP API 엔드포인트</Th>
     </Tr>
   </Thead>
   <Tbody>
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"GET"} />
+      <RequestMethod method="GET" />
       </span>
     </Td>
     <Td>
@@ -32,7 +32,7 @@
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"POST"} />
+      <RequestMethod method="POST" />
       </span>
     </Td>
     <Td>
@@ -43,7 +43,7 @@
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"POST"} />
+      <RequestMethod method="POST" />
       </span>
     </Td>
     <Td>
@@ -54,7 +54,7 @@
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"POST"} />
+      <RequestMethod method="POST" />
       </span>
     </Td>
     <Td>
@@ -68,14 +68,14 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>구성 API 엔드포인트</Th>
+    <Th colspan="2">구성 API 엔드포인트</Th>
     </Tr>
   </Thead>
   <Tbody>
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"GET"} />
+      <RequestMethod method="GET" />
       </span>
     </Td>
     <Td>
@@ -86,7 +86,7 @@
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"POST"} />
+      <RequestMethod method="POST" />
       </span>
     </Td>
     <Td>
@@ -97,7 +97,7 @@
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"POST"} />
+      <RequestMethod method="POST" />
       </span>
     </Td>
     <Td>
@@ -108,7 +108,7 @@
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"POST"} />
+      <RequestMethod method="POST" />
       </span>
     </Td>
     <Td>
@@ -119,7 +119,7 @@
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"POST"} />
+      <RequestMethod method="POST" />
       </span>
     </Td>
     <Td>
@@ -130,7 +130,7 @@
     <Tr>
     <Td>
       <span>
-      <RequestMethod method={"GET"} />
+      <RequestMethod method="GET" />
       </span>
     </Td>
     <Td>
@@ -144,12 +144,12 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={2}>WebSocket 엔드포인트</Th>
+    <Th colspan="2">WebSocket 엔드포인트</Th>
     </Tr>
   </Thead>
   <Tbody>
     <Tr>
-    <Td><span><RequestMethod method={"POST"}/></span></Td>
+    <Td><span><RequestMethod method="POST"/></span></Td>
     <Td>
       [`/ws`](/reference/iris/Endpoint/ws) \
       WebSocket 연결을 생성합니다. Iris가 메시지를 감지할 경우 해당 엔드포인트로 데이터를 전달합니다.

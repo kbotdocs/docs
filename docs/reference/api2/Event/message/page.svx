@@ -17,7 +17,7 @@
   ### 인자
 
   <ParamList>
-    <ParamItem param={"msg"} type={"Message"}>
+    <ParamItem param="msg" type="Message">
     발신된 메시지에 대한 정보를 담고 있는 [`Message`](/reference/api2/Argument/Message) 객체입니다.
     </ParamItem>
   </ParamList>

@@ -79,7 +79,7 @@
     </Td>
     </Tr>
     <Tr>
-    <Td><span><Feature status={["legacy/Object/console", "console"]}>[`console`](/reference/legacy/Object/console)</Feature></span></Td>
+    <Td><span><Feature source="legacy/Object/console" feature="console">[`console`](/reference/legacy/Object/console)</Feature></span></Td>
     <Td>
       앱 내 스크립트 로그에 로그를 기록할 수 있게 하는 객체입니다.
     </Td>
@@ -109,7 +109,7 @@
     </Td>
     </Tr>
     <Tr>
-    <Td><span><Feature status={["legacy/Object/MediaSender", "MediaSender"]}>[`MediaSender`](/reference/legacy/Object/MediaSender)</Feature></span></Td>
+    <Td><span><Feature source="legacy/Object/MediaSender" feature="MediaSender">[`MediaSender`](/reference/legacy/Object/MediaSender)</Feature></span></Td>
     <Td>
       텍스트 외의 미디어 파일을 전송할 수 있게 하는 객체입니다.
     </Td>
@@ -131,7 +131,7 @@
   <Table>
   <Thead>
     <Tr>
-    <Th colspan={"2"}>레거시 API의 이벤트 리스너</Th>
+    <Th colspan="2">레거시 API의 이벤트 리스너</Th>
     </Tr>
   </Thead>
   <Tbody>
