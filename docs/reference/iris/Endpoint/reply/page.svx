@@ -2,7 +2,8 @@
 <section>
   방에 텍스트 메시지 또는 이미지를 보냅니다.
 
-  <api-endpoint method="POST" endpoint="/reply" contentType="application/json" />
+  <api-endpoint method="POST" endpoint="/reply" contentType="application/json">
+  </api-endpoint>
 </section>
 <section>
   ## 요청

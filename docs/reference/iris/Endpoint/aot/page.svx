@@ -2,7 +2,8 @@
 <section>
   AOT 관련 토큰을 반환합니다.
 
-  <api-endpoint method="GET" endpoint="/aot" contentType="-/-" />
+  <api-endpoint method="GET" endpoint="/aot" contentType="-/-">
+  </api-endpoint>
 </section>
 <section>
   ## 요청

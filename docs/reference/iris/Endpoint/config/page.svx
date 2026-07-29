@@ -2,7 +2,8 @@
 <section>
   현재 구성을 JSON 응답으로 검색합니다.
 
-  <api-endpoint method="GET" endpoint="/config" contentType="-/-" />
+  <api-endpoint method="GET" endpoint="/config" contentType="-/-">
+  </api-endpoint>
 </section>
 <section>
   ## 요청

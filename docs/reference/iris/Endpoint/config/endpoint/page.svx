@@ -2,7 +2,8 @@
 <section>
   메시지 전달을 위한 웹 서버 엔드포인트를 업데이트합니다.
 
-  <api-endpoint method="POST" endpoint="/config/endpoint" contentType="application/json" />
+  <api-endpoint method="POST" endpoint="/config/endpoint" contentType="application/json">
+  </api-endpoint>
 </section>
 <section>
   ## 요청

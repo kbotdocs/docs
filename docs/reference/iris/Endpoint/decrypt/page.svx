@@ -2,7 +2,8 @@
 <section>
   메시지를 복호화합니다.
 
-  <api-endpoint method="POST" endpoint="/decrypt" contentType="application/json" />
+  <api-endpoint method="POST" endpoint="/decrypt" contentType="application/json">
+  </api-endpoint>
 </section>
 <section>
   ## 요청

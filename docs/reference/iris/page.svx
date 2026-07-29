@@ -20,9 +20,8 @@
   <tbody>
     <tr>
     <td>
-      <span>
-      <request-method method="GET" />
-      </span>
+      <request-method method="GET"></request-method>
+
     </td>
     <td>
       [`/aot`](/reference/iris/Endpoint/aot) \
@@ -31,9 +30,8 @@
     </tr>
     <tr>
     <td>
-      <span>
-      <request-method method="POST" />
-      </span>
+      <request-method method="POST"></request-method>
+
     </td>
     <td>
       [`/decrypt`](/reference/iris/Endpoint/decrypt) \
@@ -42,9 +40,8 @@
     </tr>
     <tr>
     <td>
-      <span>
-      <request-method method="POST" />
-      </span>
+      <request-method method="POST"></request-method>
+
     </td>
     <td>
       [`/query`](/reference/iris/Endpoint/query) \
@@ -53,9 +50,8 @@
     </tr>
     <tr>
     <td>
-      <span>
-      <request-method method="POST" />
-      </span>
+      <request-method method="POST"></request-method>
+
     </td>
     <td>
       [`/reply`](/reference/iris/Endpoint/reply) \
@@ -74,9 +70,8 @@
   <tbody>
     <tr>
     <td>
-      <span>
-      <request-method method="GET" />
-      </span>
+      <request-method method="GET"></request-method>
+
     </td>
     <td>
       [`/config`](/reference/iris/Endpoint/config) \
@@ -85,9 +80,8 @@
     </tr>
     <tr>
     <td>
-      <span>
-      <request-method method="POST" />
-      </span>
+      <request-method method="POST"></request-method>
+
     </td>
     <td>
       [`/config/botport`](/reference/iris/Endpoint/config/botport) \
@@ -96,9 +90,8 @@
     </tr>
     <tr>
     <td>
-      <span>
-      <request-method method="POST" />
-      </span>
+      <request-method method="POST"></request-method>
+
     </td>
     <td>
       [`/config/dbrate`](/reference/iris/Endpoint/config/dbrate) \
@@ -107,9 +100,8 @@
     </tr>
     <tr>
     <td>
-      <span>
-      <request-method method="POST" />
-      </span>
+      <request-method method="POST"></request-method>
+
     </td>
     <td>
       [`/config/endpoint`](/reference/iris/Endpoint/config/endpoint) \
@@ -118,9 +110,8 @@
     </tr>
     <tr>
     <td>
-      <span>
-      <request-method method="POST" />
-      </span>
+      <request-method method="POST"></request-method>
+
     </td>
     <td>
       [`/config/sendrate`](/reference/iris/Endpoint/config/sendrate) \
@@ -129,9 +120,8 @@
     </tr>
     <tr>
     <td>
-      <span>
-      <request-method method="GET" />
-      </span>
+      <request-method method="GET"></request-method>
+
     </td>
     <td>
       [`/dashboard`](/reference/iris/Endpoint/dashboard) \
@@ -149,7 +139,7 @@
   </thead>
   <tbody>
     <tr>
-    <td><span><request-method method="POST"/></span></td>
+    <td><span><request-method method="POST"></request-method></span></td>
     <td>
       [`/ws`](/reference/iris/Endpoint/ws) \
       WebSocket 연결을 생성합니다. Iris가 메시지를 감지할 경우 해당 엔드포인트로 데이터를 전달합니다.

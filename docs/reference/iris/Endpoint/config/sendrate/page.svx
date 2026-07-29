@@ -2,7 +2,8 @@
 <section>
   메시지 전송 지연 시간을 업데이트합니다.
 
-  <api-endpoint method="POST" endpoint="/config/sendrate" contentType="application/json" />
+  <api-endpoint method="POST" endpoint="/config/sendrate" contentType="application/json">
+  </api-endpoint>
 </section>
 <section>
   ## 요청

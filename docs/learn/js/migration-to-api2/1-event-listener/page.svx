@@ -201,10 +201,8 @@
     </tr>
     <tr>
     <td>
-      <span>
       `imageDB.getImage()` \
       `imageDB.getImageBase64()`
-      </span>
     </td>
     <td>
       `msg.image.getBase64()`

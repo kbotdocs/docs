@@ -26,7 +26,7 @@
       <table class="table-fixed">
       <thead>
         <tr class="hidden md:table-row">
-        <th><span></span></th>
+        <th></th>
         <th>CPU</th>
         <th>화면</th>
         <th>키보드</th>
@@ -62,8 +62,7 @@
       \* 기기가 사용자에 의해 sleep 상태로 전환되어도 실행 상태를 유지합니다.
     </details>
     </param-item>
-    <param-item param="tag" type="String" defaultVal="- 메신저봇R: `com.xfl.msgbot:default_wake_lock_tag`
-- StarLight: `dev.mooner.starlight:api_wakelock_tag`" optional>
+    <param-item param="tag" type="String" defaultVal="- 메신저봇R: `com.xfl.msgbot:default_wake_lock_tag`&#10;- StarLight: `dev.mooner.starlight:api_wakelock_tag`" optional>
     디버깅을 위한 클래스 이름 또는 다른 이름 태그
     </param-item>
     <param-item param="timeout" type="Number" defaultVal="`null`" optional>

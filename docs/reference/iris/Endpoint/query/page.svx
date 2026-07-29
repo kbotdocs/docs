@@ -8,7 +8,8 @@
   반환합니다.
   </noti>
 
-  <api-endpoint method="POST" endpoint="/query" contentType="application/json" />
+  <api-endpoint method="POST" endpoint="/query" contentType="application/json">
+  </api-endpoint>
 </section>
 <section>
   ## 요청

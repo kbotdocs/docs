@@ -6,7 +6,8 @@
   포트 변경 사항은 Iris 재시작 후에 적용됩니다.
   </noti>
 
-  <api-endpoint method="POST" endpoint="/config/botport" contentType="application/json" />
+  <api-endpoint method="POST" endpoint="/config/botport" contentType="application/json">
+  </api-endpoint>
 </section>
 <section>
   ## 요청
