@@ -1,6 +1,12 @@
 name: "[Dev] Upload Docs to R2"
 on:
   workflow_dispatch:
+    inputs:
+      refresh_cache_metadata:
+        description: Re-upload all documents to refresh R2 cache metadata
+        required: false
+        default: false
+        type: boolean
   push:
     branches: [ dev ]
     paths:
@@ -27,12 +33,22 @@ jobs:
       - name: Configure rclone
         run: rclone config create r2 s3 provider=Cloudflare access_key_id=${{ secrets.R2_ACCESS_KEY_ID }} secret_access_key=${{ secrets.R2_SECRET_ACCESS_KEY }} region=auto endpoint=${{ secrets.R2_ENDPOINT }} acl=private
       - name: Upload to R2
+        env:
+          REFRESH_CACHE_METADATA: ${{ inputs.refresh_cache_metadata || 'false' }}
         run: |
+          cache_flags=()
+          if [[ "$REFRESH_CACHE_METADATA" == "true" ]]; then
+            cache_flags+=(--ignore-times)
+          fi
           rclone sync ${{ github.workspace }}/docs r2:dev-${{ secrets.R2_BUCKET }} -P \
             --include '*.svx' \
             --exclude '*' \
-            --header-upload 'Content-Type: text/html; charset=utf-8'
+            --header-upload 'Content-Type: text/html; charset=utf-8' \
+            --header-upload 'Cache-Control: public, max-age=60, stale-while-revalidate=300, stale-if-error=86400' \
+            "${cache_flags[@]}"
           rclone sync ${{ github.workspace }}/docs r2:dev-${{ secrets.R2_BUCKET }} -P \
             --include '*.json' \
             --exclude '*' \
-            --header-upload 'Content-Type: application/json; charset=utf-8'
+            --header-upload 'Content-Type: application/json; charset=utf-8' \
+            --header-upload 'Cache-Control: public, max-age=60, stale-while-revalidate=300, stale-if-error=86400' \
+            "${cache_flags[@]}"
