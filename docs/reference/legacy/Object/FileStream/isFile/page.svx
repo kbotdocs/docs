@@ -1,26 +1,18 @@
 
-<section>
-  `path` 경로가 파일인지의 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+`path` 경로가 파일인지의 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  FileStream.isFile(path);
-  ~~~
+~~~js
+FileStream.isFile(path);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="path" type="String">
-    파일인지 확인할 경로
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="path" type="String">
+파일인지 확인할 경로
+</param-item>
+</params>
+### 반환값
 
-  `Boolean` - `path` 경로가 파일일 경우 `true`, 파일이 아닐 경우 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - `path` 경로가 파일일 경우 `true`, 파일이 아닐 경우 `false`를 반환합니다.

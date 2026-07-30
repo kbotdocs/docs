@@ -1,17 +1,11 @@
 
-<section>
-  Iris가 사용하는 서버의 URL입니다.
-</section>
-<section>
-  ## 구문
+Iris가 사용하는 서버의 URL입니다.
+## 구문
 
-  ~~~py
-  bot.iris_url
-  ~~~
+~~~py
+bot.iris_url
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `str` - Iris가 사용하는 서버의 URL입니다.
-  </section>
-</section>
+`str` - Iris가 사용하는 서버의 URL입니다.

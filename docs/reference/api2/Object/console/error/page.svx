@@ -1,23 +1,17 @@
 
-<section>
-  에러 로그를 작성합니다. 여러 개의 인자를 전달할 수 있으며, 각 인자는 공백으로 구분되어 작성됩니다.
-</section>
-<section>
-  ## 구문
+에러 로그를 작성합니다. 여러 개의 인자를 전달할 수 있으며, 각 인자는 공백으로 구분되어 작성됩니다.
+## 구문
 
-  ~~~js
-  console.error();
-  console.error(arg1);
-  console.error(arg1, arg2, /* ..., */ argN);
-  ~~~
+~~~js
+console.error();
+console.error(arg1);
+console.error(arg1, arg2, /* ..., */ argN);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="...args" type="any" optional>
-    작성할 에러 로그의 내용 
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="...args" type="any" optional>
+작성할 에러 로그의 내용 
+</param-item>
+</params>

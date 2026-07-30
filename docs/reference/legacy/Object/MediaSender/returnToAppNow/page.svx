@@ -1,17 +1,11 @@
 
-<section>
-  카카오톡봇 앱으로 돌아가고 정상적인 수행 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+카카오톡봇 앱으로 돌아가고 정상적인 수행 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  mediaSender.returnToAppNow();
-  ~~~
+~~~js
+mediaSender.returnToAppNow();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `Boolean` - 카카오톡봇 앱으로의 복귀 명령에 오류가 없을 경우 `true`, 오류가 있을 경우 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - 카카오톡봇 앱으로의 복귀 명령에 오류가 없을 경우 `true`, 오류가 있을 경우 `false`를 반환합니다.

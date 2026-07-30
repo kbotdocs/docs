@@ -1,21 +1,15 @@
 
-<section>
-  새 `KakaoLinkAuthorizationProvider` 객체를 생성합니다.
-</section>
-<section>
-  ## 구문
+새 `KakaoLinkAuthorizationProvider` 객체를 생성합니다.
+## 구문
 
-  ~~~py
-  KakaoLinkAuthorizationProvider(iris_url)
-  ~~~
+~~~py
+KakaoLinkAuthorizationProvider(iris_url)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="iris_url" type="str">
-    Iris가 사용할 서버의 URL
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="iris_url" type="str">
+Iris가 사용할 서버의 URL
+</param-item>
+</params>

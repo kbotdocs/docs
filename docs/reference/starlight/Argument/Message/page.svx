@@ -1,66 +1,62 @@
 
-<section>
-  `Message` 객체는 메시지에 대한 정보를 담고 있는 객체입니다. [`onMessage`](/reference/starlight/EventListener/onMessage)의 인자로 주어집니다.
-</section>
-<section>
-  ## 인스턴스 프로퍼티
+`Message` 객체는 메시지에 대한 정보를 담고 있는 객체입니다. [`onMessage`](/reference/starlight/EventListener/onMessage)의 인자로 주어집니다.
+## 인스턴스 프로퍼티
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`Message` 객체의 인스턴스 프로퍼티</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>`Number`</span></td>
-    <td>
-      [`chatLogId`](/reference/starlight/Argument/Message/chatLogId) \
-      메시지에 대한 고유 ID입니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`Boolean`</span></td>
-    <td>
-      [`hasMention`](/reference/starlight/Argument/Message/hasMention) \
-      메시지 내 멘션 포함 여부입니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`android.graphics.Bitmap`</span></td>
-    <td>
-      <feature-status status="experimental">[`image`](/reference/starlight/Argument/Message/image)</feature-status> \
-      메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`message`](/reference/starlight/Argument/Message/message) \
-      메시지의 전체 내용입니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`packageName`](/reference/starlight/Argument/Message/packageName) \
-      메시지가 발신된 메신저 앱의 패키지명입니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>[`ChatRoom`](/reference/starlight/Argument/ChatRoom)</span></td>
-    <td>
-      [`room`](/reference/starlight/Argument/Message/room) \
-      메시지가 발신된 방에 대한 `ChatRoom` 객체입니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>[`ChatSender`](/reference/starlight/Argument/ChatSender)</span></td>
-    <td>
-      [`sender`](/reference/starlight/Argument/Message/sender) \
-      메시지의 발신자에 대한 `ChatSender` 객체입니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Message` 객체의 인스턴스 프로퍼티</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`chatLogId`](/reference/starlight/Argument/Message/chatLogId) \
+    메시지에 대한 고유 ID입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`hasMention`](/reference/starlight/Argument/Message/hasMention) \
+    메시지 내 멘션 포함 여부입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`android.graphics.Bitmap`</span></td>
+  <td>
+    <feature-status status="experimental">[`image`](/reference/starlight/Argument/Message/image)</feature-status> \
+    메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`message`](/reference/starlight/Argument/Message/message) \
+    메시지의 전체 내용입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`packageName`](/reference/starlight/Argument/Message/packageName) \
+    메시지가 발신된 메신저 앱의 패키지명입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ChatRoom`](/reference/starlight/Argument/ChatRoom)</span></td>
+  <td>
+    [`room`](/reference/starlight/Argument/Message/room) \
+    메시지가 발신된 방에 대한 `ChatRoom` 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ChatSender`](/reference/starlight/Argument/ChatSender)</span></td>
+  <td>
+    [`sender`](/reference/starlight/Argument/Message/sender) \
+    메시지의 발신자에 대한 `ChatSender` 객체입니다.
+  </td>
+  </tr>
+</tbody>
+</table>

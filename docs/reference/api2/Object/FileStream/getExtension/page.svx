@@ -1,26 +1,18 @@
 
-<section>
-  `path` 경로의 확장자를 반환합니다. `path`가 존재하지 않거나 확장자를 알 수 없을 경우(디렉토리 또는 확장자없는 파일) `null`을 반환합니다.
-</section>
-<section>
-  ## 구문
+`path` 경로의 확장자를 반환합니다. `path`가 존재하지 않거나 확장자를 알 수 없을 경우(디렉토리 또는 확장자없는 파일) `null`을 반환합니다.
+## 구문
 
-  ~~~js
-  FileStream.getExtension(path);
-  ~~~
+~~~js
+FileStream.getExtension(path);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="path" type="String">
-    확장자를 확인할 파일의 경로
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="path" type="String">
+확장자를 확인할 파일의 경로
+</param-item>
+</params>
+### 반환값
 
-  `String` - `path` 경로의 확장자를 반환합니다. `path`가 존재하지 않거나 확장자를 알 수 없을 경우(디렉토리 또는 확장자없는 파일) `null`을 반환합니다.
-  </section>
-</section>
+`String` - `path` 경로의 확장자를 반환합니다. `path`가 존재하지 않거나 확장자를 알 수 없을 경우(디렉토리 또는 확장자없는 파일) `null`을 반환합니다.

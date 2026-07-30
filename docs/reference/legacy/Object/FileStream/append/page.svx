@@ -1,29 +1,21 @@
 
-<section>
-  `path` 경로의 파일 내용에 새로운 내용을 이어 씁니다. 이어 쓴 후 해당 파일의 최종 내용을 반환합니다.
-</section>
-<section>
-  ## 구문
+`path` 경로의 파일 내용에 새로운 내용을 이어 씁니다. 이어 쓴 후 해당 파일의 최종 내용을 반환합니다.
+## 구문
 
-  ~~~js
-  FileStream.append(path, data);
-  ~~~
+~~~js
+FileStream.append(path, data);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="path" type="String">
-    내용을 이어 쓸 파일의 경로
-    </param-item>
-    <param-item param="data" type="String">
-    파일에 이어 쓸 내용
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="path" type="String">
+내용을 이어 쓸 파일의 경로
+</param-item>
+<param-item param="data" type="String">
+파일에 이어 쓸 내용
+</param-item>
+</params>
+### 반환값
 
-  `String` - `path` 경로의 파일에 이어 쓴 후 해당 파일의 최종 내용을 반환합니다.
-  </section>
-</section>
+`String` - `path` 경로의 파일에 이어 쓴 후 해당 파일의 최종 내용을 반환합니다.

@@ -1,24 +1,18 @@
 
-<section>
-  `onPause`는 스크립트 액티비티의 [`onPause`](https://developer.android.com/reference/android/app/Activity#onPause())가 호출되면 동작하는
-  이벤트 리스너입니다.
-</section>
-<section>
-  ## 구문
+`onPause`는 스크립트 액티비티의 [`onPause`](https://developer.android.com/reference/android/app/Activity#onPause())가 호출되면 동작하는
+이벤트 리스너입니다.
+## 구문
 
-  ~~~js
-  function onPause(activity) {
+~~~js
+function onPause(activity) {
 
-  }
-  ~~~
+}
+~~~
 
-  <section>
-  ### 인자
+### 인자
 
-  <params>
-    <param-item param="activity" type="android.app.Activity">
-    해당 이벤트가 발생했을 때의 액티비티입니다.
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="activity" type="android.app.Activity">
+해당 이벤트가 발생했을 때의 액티비티입니다.
+</param-item>
+</params>

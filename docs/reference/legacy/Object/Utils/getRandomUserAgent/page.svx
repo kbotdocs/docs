@@ -1,17 +1,11 @@
 
-<section>
-  `User-Agent` 요청 헤더 값을 무작위 생성해 반환합니다.
-</section>
-<section>
-  ## 구문
+`User-Agent` 요청 헤더 값을 무작위 생성해 반환합니다.
+## 구문
 
-  ~~~js
-  Utils.getRandomUserAgent();
-  ~~~
+~~~js
+Utils.getRandomUserAgent();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String` - `User-Agent` 요청 헤더 값을 무작위 생성해 반환합니다.
-  </section>
-</section>
+`String` - `User-Agent` 요청 헤더 값을 무작위 생성해 반환합니다.

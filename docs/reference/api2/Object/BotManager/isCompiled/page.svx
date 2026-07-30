@@ -1,26 +1,18 @@
 
-<section>
-  `botName` 이름의 `Bot` 객체(스크립트)의 컴파일 완료 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+`botName` 이름의 `Bot` 객체(스크립트)의 컴파일 완료 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  BotManager.isCompiled(botName);
-  ~~~
+~~~js
+BotManager.isCompiled(botName);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="botName" type="String">
-    컴파일 완료 여부를 확인할 `Bot` 객체의 이름
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="botName" type="String">
+컴파일 완료 여부를 확인할 `Bot` 객체의 이름
+</param-item>
+</params>
+### 반환값
 
-  `Boolean` - `botName` 이름의 `Bot` 객체(스크립트)의 컴파일이 완료된 경우 `true`, 완료되지 않은 경우 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - `botName` 이름의 `Bot` 객체(스크립트)의 컴파일이 완료된 경우 `true`, 완료되지 않은 경우 `false`를 반환합니다.

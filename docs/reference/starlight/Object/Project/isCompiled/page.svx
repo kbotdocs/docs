@@ -1,17 +1,11 @@
 
-<section>
-  프로젝트의 컴파일 여부입니다.
-</section>
-<section>
-  ## 구문
+프로젝트의 컴파일 여부입니다.
+## 구문
 
-  ~~~js
-  Project.isCompiled;
-  ~~~
+~~~js
+Project.isCompiled;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `Boolean` - 프로젝트의 컴파일 여부입니다.
-  </section>
-</section>
+`Boolean` - 프로젝트의 컴파일 여부입니다.

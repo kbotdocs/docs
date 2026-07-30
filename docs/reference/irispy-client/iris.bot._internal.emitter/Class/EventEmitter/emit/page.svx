@@ -1,24 +1,18 @@
 
-<section>
-  특정 이벤트를 트리거합니다.
-</section>
-<section>
-  ## 구문
+특정 이벤트를 트리거합니다.
+## 구문
 
-  ~~~py
-  eventEmitter.emit(name, args)
-  ~~~
+~~~py
+eventEmitter.emit(name, args)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="name" type="str">
-    트리거할 이벤트 이름
-    </param-item>
-    <param-item param="args" type="list[Any]">
-    핸들러에 전달할 인자
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="name" type="str">
+트리거할 이벤트 이름
+</param-item>
+<param-item param="args" type="list[Any]">
+핸들러에 전달할 인자
+</param-item>
+</params>

@@ -1,21 +1,15 @@
 
-<section>
-  [`setTimeout()`](/reference/api2/Function/setTimeout)으로 생성한 타임아웃을 취소합니다.
-</section>
-<section>
-  ## 구문
+[`setTimeout()`](/reference/api2/Function/setTimeout)으로 생성한 타임아웃을 취소합니다.
+## 구문
 
-  ~~~js
-  clearTimeout(timeoutID);
-  ~~~
+~~~js
+clearTimeout(timeoutID);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="timeoutID" type="Number">
-    취소할 타임아웃의 ID. 해당 값은 [`setTimeout()`](/reference/api2/Function/setTimeout) 호출 시 반환된 값입니다.
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="timeoutID" type="Number">
+취소할 타임아웃의 ID. 해당 값은 [`setTimeout()`](/reference/api2/Function/setTimeout) 호출 시 반환된 값입니다.
+</param-item>
+</params>

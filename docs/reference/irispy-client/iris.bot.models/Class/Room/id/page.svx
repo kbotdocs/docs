@@ -1,17 +1,11 @@
 
-<section>
-  방의 id입니다.
-</section>
-<section>
-  ## 구문
+방의 id입니다.
+## 구문
 
-  ~~~py
-  room.id
-  ~~~
+~~~py
+room.id
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `int` - 방의 id입니다.
-  </section>
-</section>
+`int` - 방의 id입니다.

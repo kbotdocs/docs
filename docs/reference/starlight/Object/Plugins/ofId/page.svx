@@ -1,26 +1,18 @@
 
-<section>
-  특정 ID로 식별되는 플러그인에 대한 [`Plugin`](/reference/starlight/Object/Plugin) 객체를 반환합니다.
-</section>
-<section>
-  ## 구문
+특정 ID로 식별되는 플러그인에 대한 [`Plugin`](/reference/starlight/Object/Plugin) 객체를 반환합니다.
+## 구문
 
-  ~~~js
-  Plugins.ofId(id);
-  ~~~
+~~~js
+Plugins.ofId(id);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="id" type="String">
-    플러그인의 고유 ID
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="id" type="String">
+플러그인의 고유 ID
+</param-item>
+</params>
+### 반환값
 
-  `Plugin` - `id`로 식별되는 플러그인에 대한 `Plugin` 객체를 반환합니다.
-  </section>
-</section>
+`Plugin` - `id`로 식별되는 플러그인에 대한 `Plugin` 객체를 반환합니다.

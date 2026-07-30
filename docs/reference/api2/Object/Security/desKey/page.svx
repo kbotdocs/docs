@@ -1,17 +1,11 @@
 
-<section>
-  DES 보조키를 생성하여 반환합니다.
-</section>
-<section>
-  ## 구문
+DES 보조키를 생성하여 반환합니다.
+## 구문
 
-  ~~~js
-  Security.desKey();
-  ~~~
+~~~js
+Security.desKey();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String` - 생성한 DES 보조키를 반환합니다.
-  </section>
-</section>
+`String` - 생성한 DES 보조키를 반환합니다.

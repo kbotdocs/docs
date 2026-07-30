@@ -1,17 +1,11 @@
 
-<section>
-  캐시의 크기(Byte)를 반환합니다.
-</section>
-<section>
-  ## 구문
+캐시의 크기(Byte)를 반환합니다.
+## 구문
 
-  ~~~js
-  mediaSender.getCacheSize();
-  ~~~
+~~~js
+mediaSender.getCacheSize();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `Number` - 캐시의 크기(Byte)를 반환합니다.
-  </section>
-</section>
+`Number` - 캐시의 크기(Byte)를 반환합니다.

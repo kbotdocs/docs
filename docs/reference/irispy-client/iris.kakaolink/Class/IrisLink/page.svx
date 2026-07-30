@@ -1,43 +1,37 @@
 
-<section>
-  `iris.kakaolink.IrisLink`는 카카오링크의 전송을 위한 클래스입니다.
-</section>
-<section>
-  ## 생성자
+`iris.kakaolink.IrisLink`는 카카오링크의 전송을 위한 클래스입니다.
+## 생성자
 
-  <table>
-  <thead>
-    <tr>
-    <th>`iris.kakaolink.IrisLink`의 생성자</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td>
-      [`IrisLink`](/reference/irispy-client/iris.kakaolink/Class/IrisLink/IrisLink)`(iris_url: str)` \
-      새 `IrisLink` 객체를 생성합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
-<section>
-  ## 인스턴스 메소드
+<table>
+<thead>
+  <tr>
+  <th>`iris.kakaolink.IrisLink`의 생성자</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td>
+    [`IrisLink`](/reference/irispy-client/iris.kakaolink/Class/IrisLink/IrisLink)`(iris_url: str)` \
+    새 `IrisLink` 객체를 생성합니다.
+  </td>
+  </tr>
+</tbody>
+</table>
+## 인스턴스 메소드
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`iris.kakaolink.IrisLink`의 인스턴스 메소드</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>`None`</span></td>
-    <td>
-      [`send`](/reference/irispy-client/iris.kakaolink/Class/IrisLink/send)`(receiver_name: str, template_id: int, template_args: dict, app_key: str | None = None, origin: str | None = None, search_exact: bool = True, search_from: `*[`Union`](https://docs.python.org/3/library/typing.html#typing.Union)*`[`*[`Literal`](https://docs.python.org/3/library/typing.html#typing.Literal)*`["ALL"], `*`Literal`*`["FRIENDS"], `*`Literal`*`["CHATROOMS"]] = "ALL", search_room_type: `*`Union`*`[`*`Literal`*`["ALL"], `*`Literal`*`["OpenMultiChat"], `*`Literal`*`["MultiChat"], `*`Literal`*`["DirectChat"]] = "ALL")` \
-      카카오링크를 전송합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`iris.kakaolink.IrisLink`의 인스턴스 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`None`</span></td>
+  <td>
+    [`send`](/reference/irispy-client/iris.kakaolink/Class/IrisLink/send)`(receiver_name: str, template_id: int, template_args: dict, app_key: str | None = None, origin: str | None = None, search_exact: bool = True, search_from: `*[`Union`](https://docs.python.org/3/library/typing.html#typing.Union)*`[`*[`Literal`](https://docs.python.org/3/library/typing.html#typing.Literal)*`["ALL"], `*`Literal`*`["FRIENDS"], `*`Literal`*`["CHATROOMS"]] = "ALL", search_room_type: `*`Union`*`[`*`Literal`*`["ALL"], `*`Literal`*`["OpenMultiChat"], `*`Literal`*`["MultiChat"], `*`Literal`*`["DirectChat"]] = "ALL")` \
+    카카오링크를 전송합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

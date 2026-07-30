@@ -1,25 +1,19 @@
 
-<section>
-  새 `Bot` 객체를 생성합니다.
-</section>
-<section>
-  ## 구문
+새 `Bot` 객체를 생성합니다.
+## 구문
 
-  ~~~py
-  Bot(iris_url)
-  Bot(iris_url, max_workers=_max_workers)
-  ~~~
+~~~py
+Bot(iris_url)
+Bot(iris_url, max_workers=_max_workers)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="iris_url" type="str">
-    Iris가 사용할 서버의 URL
-    </param-item>
-    <param-item param="max_workers" type="int" defaultVal="`None`" optional>
-    이벤트 처리에 사용할 최대 스레드 수
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="iris_url" type="str">
+Iris가 사용할 서버의 URL
+</param-item>
+<param-item param="max_workers" type="int" defaultVal="`None`" optional>
+이벤트 처리에 사용할 최대 스레드 수
+</param-item>
+</params>

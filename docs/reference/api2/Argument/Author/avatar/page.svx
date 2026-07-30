@@ -1,17 +1,11 @@
 
-<section>
-  발신자의 프로필 이미지에 대한 [`Image`](/reference/api2/Argument/Image) 객체입니다.
-</section>
-<section>
-  ## 구문
+발신자의 프로필 이미지에 대한 [`Image`](/reference/api2/Argument/Image) 객체입니다.
+## 구문
 
-  ~~~js
-  author.avatar;
-  ~~~
+~~~js
+author.avatar;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `Image` - 발신자의 프로필 이미지에 대한 [`Image`](/reference/api2/Argument/Image) 객체입니다.
-  </section>
-</section>
+`Image` - 발신자의 프로필 이미지에 대한 [`Image`](/reference/api2/Argument/Image) 객체입니다.

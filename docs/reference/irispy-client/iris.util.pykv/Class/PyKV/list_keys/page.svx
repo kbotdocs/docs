@@ -1,17 +1,11 @@
 
-<section>
-  데이터베이스 내 모든 키의 리스트를 반환합니다.
-</section>
-<section>
-  ## 구문
+데이터베이스 내 모든 키의 리스트를 반환합니다.
+## 구문
 
-  ~~~py
-  pyKV.list_keys()
-  ~~~
+~~~py
+pyKV.list_keys()
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `list[str]` - 데이터베이스 내 모든 키의 리스트를 반환합니다.
-  </section>
-</section>
+`list[str]` - 데이터베이스 내 모든 키의 리스트를 반환합니다.

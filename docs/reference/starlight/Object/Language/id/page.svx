@@ -1,17 +1,11 @@
 
-<section>
-  언어의 고유 ID입니다.
-</section>
-<section>
-  ## 구문
+언어의 고유 ID입니다.
+## 구문
 
-  ~~~js
-  language.id;
-  ~~~
+~~~js
+language.id;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `String` - 언어의 고유 ID입니다.
-  </section>
-</section>
+`String` - 언어의 고유 ID입니다.

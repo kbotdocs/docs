@@ -1,26 +1,18 @@
 
-<section>
-  특정 스크립트의 컴파일 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+특정 스크립트의 컴파일 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  Bridge.isScriptActive(scriptName);
-  ~~~
+~~~js
+Bridge.isScriptActive(scriptName);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="scriptName" type="String">
-    컴파일 여부를 확인할 스크립트의 이름
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="scriptName" type="String">
+컴파일 여부를 확인할 스크립트의 이름
+</param-item>
+</params>
+### 반환값
 
-  `Boolean` - `scriptName` 스크립트가 컴파일이 완료된 상태일 경우 `true`, 컴파일되지 않은 상태일 경우 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - `scriptName` 스크립트가 컴파일이 완료된 상태일 경우 `true`, 컴파일되지 않은 상태일 경우 `false`를 반환합니다.

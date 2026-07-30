@@ -1,17 +1,11 @@
 
-<section>
-  API2의 [`tick`](/reference/api2/Event/tick) 이벤트입니다.
-</section>
-<section>
-  ## 구문
+API2의 [`tick`](/reference/api2/Event/tick) 이벤트입니다.
+## 구문
 
-  ~~~js
-  Event.TICK;
-  ~~~
+~~~js
+Event.TICK;
+~~~
 
-  <section>
-  ### 상수값
+### 상수값
 
-  `String` - `"tick"`
-  </section>
-</section>
+`String` - `"tick"`

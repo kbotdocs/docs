@@ -1,17 +1,11 @@
 
-<section>
-  메시지가 온 방의 이름입니다.
-</section>
-<section>
-  ## 구문
+메시지가 온 방의 이름입니다.
+## 구문
 
-  ~~~py
-  irisRequest.room
-  ~~~
+~~~py
+irisRequest.room
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `str` - 메시지가 온 방의 이름입니다.
-  </section>
-</section>
+`str` - 메시지가 온 방의 이름입니다.

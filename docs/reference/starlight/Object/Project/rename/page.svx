@@ -1,21 +1,15 @@
 
-<section>
-  프로젝트의 이름을 변경합니다.
-</section>
-<section>
-  ## 구문
+프로젝트의 이름을 변경합니다.
+## 구문
 
-  ~~~js
-  Project.rename(name);
-  ~~~
+~~~js
+Project.rename(name);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="name" type="String">
-    변경할 프로젝트의 이름
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="name" type="String">
+변경할 프로젝트의 이름
+</param-item>
+</params>

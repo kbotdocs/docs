@@ -1,29 +1,23 @@
 
-<section>
-  `broadcastName`를 이름으로 하는 브로드캐스트에 대한 리스너를 추가합니다.
-</section>
-<section>
-  ## 구문
+`broadcastName`를 이름으로 하는 브로드캐스트에 대한 리스너를 추가합니다.
+## 구문
 
-  ~~~js
-  Broadcast.register(broadcastName, task);
-  ~~~
+~~~js
+Broadcast.register(broadcastName, task);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="broadcastName" type="String">
-    리스너를 추가할 브로드캐스트 이름
-    </param-item>
-    <param-item param="task" type="(value) =&gt; Any">
-    리스너로 추가할 함수
-    </param-item>
-    <params>
-    <param-item param="value" type="Any">
-      브로드캐스트을 통해 송출된 값
-    </param-item>
-    </params>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="broadcastName" type="String">
+리스너를 추가할 브로드캐스트 이름
+</param-item>
+<param-item param="task" type="(value) =&gt; Any">
+리스너로 추가할 함수
+</param-item>
+<params>
+<param-item param="value" type="Any">
+  브로드캐스트을 통해 송출된 값
+</param-item>
+</params>
+</params>

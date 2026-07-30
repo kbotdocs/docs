@@ -1,57 +1,51 @@
 
-<section>
-  `iris.bot.models.Room`는 채팅방에 대한 데이터입니다.
-</section>
-<section>
-  ## 생성자
+`iris.bot.models.Room`는 채팅방에 대한 데이터입니다.
+## 생성자
 
-  <table>
-  <thead>
-    <tr>
-    <th>`iris.bot.models.Room`의 생성자</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td>
-      [`Room`](/reference/irispy-client/iris.bot.models/Class/Room/Room)`(id: int, name: str, api: IrisAPI)` \
-      새 `Room` 객체를 생성합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
-<section>
-  ## 인스턴스 프로퍼티
+<table>
+<thead>
+  <tr>
+  <th>`iris.bot.models.Room`의 생성자</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td>
+    [`Room`](/reference/irispy-client/iris.bot.models/Class/Room/Room)`(id: int, name: str, api: IrisAPI)` \
+    새 `Room` 객체를 생성합니다.
+  </td>
+  </tr>
+</tbody>
+</table>
+## 인스턴스 프로퍼티
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`iris.bot.models.Room`의 인스턴스 프로퍼티</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>`int`</span></td>
-    <td>
-      [`id`](/reference/irispy-client/iris.bot.models/Class/Room/id) \
-      방의 id입니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`str`</span></td>
-    <td>
-      [`name`](/reference/irispy-client/iris.bot.models/Class/Room/name) \
-      방의 이름입니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`str`</span></td>
-    <td>
-      [`type`](/reference/irispy-client/iris.bot.models/Class/Room/type) \
-      방의 유형을 나타내는 문자열입니다. 이 프로퍼티는 캐시됩니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`iris.bot.models.Room`의 인스턴스 프로퍼티</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`int`</span></td>
+  <td>
+    [`id`](/reference/irispy-client/iris.bot.models/Class/Room/id) \
+    방의 id입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`str`</span></td>
+  <td>
+    [`name`](/reference/irispy-client/iris.bot.models/Class/Room/name) \
+    방의 이름입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`str`</span></td>
+  <td>
+    [`type`](/reference/irispy-client/iris.bot.models/Class/Room/type) \
+    방의 유형을 나타내는 문자열입니다. 이 프로퍼티는 캐시됩니다.
+  </td>
+  </tr>
+</tbody>
+</table>

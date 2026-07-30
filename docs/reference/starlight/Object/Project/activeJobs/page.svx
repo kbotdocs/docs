@@ -1,17 +1,11 @@
 
-<section>
-  프로젝트의 스레드 풀에서 작동 중인 `job`의 수를 반환합니다.
-</section>
-<section>
-  ## 구문
+프로젝트의 스레드 풀에서 작동 중인 `job`의 수를 반환합니다.
+## 구문
 
-  ~~~js
-  Project.activeJobs();
-  ~~~
+~~~js
+Project.activeJobs();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `Number` - 프로젝트의 스레드 풀에서 작동 중인 `job`의 수를 반환합니다.
-  </section>
-</section>
+`Number` - 프로젝트의 스레드 풀에서 작동 중인 `job`의 수를 반환합니다.

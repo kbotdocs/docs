@@ -1,28 +1,20 @@
 
-<section>
-  <noti type="warning">
-  해당 메소드는 스코프의 사용이 끝난 후 최종 단계에만 호출해야 합니다. 폐기한 스코프는 재사용이 불가합니다.
-  </noti>
-</section>
-<section>
-  ## Language.destroy()
+<noti type="warning">
+해당 메소드는 스코프의 사용이 끝난 후 최종 단계에만 호출해야 합니다. 폐기한 스코프는 재사용이 불가합니다.
+</noti>
+## Language.destroy()
 
-  컴파일된 스코프를 폐기하고 모든 리소스를 할당 해제합니다.
-</section>
-<section>
-  ## 구문
+컴파일된 스코프를 폐기하고 모든 리소스를 할당 해제합니다.
+## 구문
 
-  ~~~js
-  language.destroy(scope);
-  ~~~
+~~~js
+language.destroy(scope);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="scope" type="Any">
-    폐기할 스코프
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="scope" type="Any">
+폐기할 스코프
+</param-item>
+</params>

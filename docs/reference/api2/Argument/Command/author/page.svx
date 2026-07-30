@@ -1,17 +1,11 @@
 
-<section>
-  메시지의 발신자에 대한 [`Author`](/reference/api2/Argument/Author) 객체입니다.
-</section>
-<section>
-  ## 구문
+메시지의 발신자에 대한 [`Author`](/reference/api2/Argument/Author) 객체입니다.
+## 구문
 
-  ~~~js
-  cmd.author;
-  ~~~
+~~~js
+cmd.author;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `Author` - 메시지의 발신자에 대한 [`Author`](/reference/api2/Argument/Author) 객체입니다.
-  </section>
-</section>
+`Author` - 메시지의 발신자에 대한 [`Author`](/reference/api2/Argument/Author) 객체입니다.

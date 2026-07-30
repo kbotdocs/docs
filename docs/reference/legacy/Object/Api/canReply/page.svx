@@ -1,26 +1,18 @@
 
-<section>
-  특정 방에 메시지를 보낼 수 있는지의 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+특정 방에 메시지를 보낼 수 있는지의 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  Api.canReply(room);
-  ~~~
+~~~js
+Api.canReply(room);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="room" type="String | BigInt">
-    메시지 발신 가능 여부를 확인할 방의 식별자. 식별자는 방의 이름 또는 방의 ID를 사용할 수 있습니다.
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="room" type="String | BigInt">
+메시지 발신 가능 여부를 확인할 방의 식별자. 식별자는 방의 이름 또는 방의 ID를 사용할 수 있습니다.
+</param-item>
+</params>
+### 반환값
 
-  `Boolean` - 메시지를 보낼 수 있을 경우 `true`, 보낼 수 없을 경우 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - 메시지를 보낼 수 있을 경우 `true`, 보낼 수 없을 경우 `false`를 반환합니다.

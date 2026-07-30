@@ -1,11 +1,7 @@
 
-<section>
-  `Bot` 객체에 대응하는 스크립트를 컴파일 전 상태로 전환(언로드)합니다.
-</section>
-<section>
-  ## 구문
+`Bot` 객체에 대응하는 스크립트를 컴파일 전 상태로 전환(언로드)합니다.
+## 구문
 
-  ~~~js
-  bot.unload();
-  ~~~
-</section>
+~~~js
+bot.unload();
+~~~

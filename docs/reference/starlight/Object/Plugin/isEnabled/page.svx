@@ -1,17 +1,11 @@
 
-<section>
-  플러그인의 활성화 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+플러그인의 활성화 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  Plugin.isEnabled();
-  ~~~
+~~~js
+Plugin.isEnabled();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `Boolean` - 플러그인이 활성화 상태일 경우 `true`, 비활성화 상태일 경우 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - 플러그인이 활성화 상태일 경우 `true`, 비활성화 상태일 경우 `false`를 반환합니다.

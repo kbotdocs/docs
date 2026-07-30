@@ -1,26 +1,18 @@
 
-<section>
-  방에 메시지를 발신합니다. 발신 성공 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+방에 메시지를 발신합니다. 발신 성공 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  room.send(message);
-  ~~~
+~~~js
+room.send(message);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="message" type="String">
-    보낼 메시지의 내용
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="message" type="String">
+보낼 메시지의 내용
+</param-item>
+</params>
+### 반환값
 
-  `Boolean` - 발신에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - 발신에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.

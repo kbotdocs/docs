@@ -1,52 +1,48 @@
 
-<section>
-  `App` 객체는 카카오톡봇 앱에 관한 기능들을 담고 있는 객체입니다.
-</section>
-<section>
-  ## 정적 메소드
+`App` 객체는 카카오톡봇 앱에 관한 기능들을 담고 있는 객체입니다.
+## 정적 메소드
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`App` 객체의 정적 메소드</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>`android.content.Context`</span></td>
-    <td>
-      [`getContext`](/reference/api2/Object/App/getContext)`()` \
-      앱의 Context(컨텍스트)를 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`Boolean`</span></td>
-    <td>
-      [`isMainThread`](/reference/api2/Object/App/isMainThread)`()` \
-      해당 메소드를 실행한 스레드가 UI 스레드인지의 여부를 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`runDelayed`](/reference/api2/Object/App/runDelayed)`(task: () => Any, delayMillis: Number)` \
-      일정 시간 후 특정 함수를 UI 스레드에서 실행합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`runOnBackgroundThread`](/reference/api2/Object/App/runOnBackgroundThread)`(task: () => Any, onComplete?: (error, result) => Any)` \
-      백그라운드 스레드 상에서 특정 함수를 실행합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`runOnUiThread`](/reference/api2/Object/App/runOnUiThread)`(task: () => Any, onComplete?: (error, result) => Any)` \
-      UI 스레드 상에서 특정 함수를 실행합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`App` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`android.content.Context`</span></td>
+  <td>
+    [`getContext`](/reference/api2/Object/App/getContext)`()` \
+    앱의 Context(컨텍스트)를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`isMainThread`](/reference/api2/Object/App/isMainThread)`()` \
+    해당 메소드를 실행한 스레드가 UI 스레드인지의 여부를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`runDelayed`](/reference/api2/Object/App/runDelayed)`(task: () => Any, delayMillis: Number)` \
+    일정 시간 후 특정 함수를 UI 스레드에서 실행합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`runOnBackgroundThread`](/reference/api2/Object/App/runOnBackgroundThread)`(task: () => Any, onComplete?: (error, result) => Any)` \
+    백그라운드 스레드 상에서 특정 함수를 실행합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`runOnUiThread`](/reference/api2/Object/App/runOnUiThread)`(task: () => Any, onComplete?: (error, result) => Any)` \
+    UI 스레드 상에서 특정 함수를 실행합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

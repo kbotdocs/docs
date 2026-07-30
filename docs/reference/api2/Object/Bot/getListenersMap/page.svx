@@ -1,17 +1,11 @@
 
-<section>
-  이벤트 별 리스너들의 배열을 `키: 값` 형태의 map으로 반환합니다.
-</section>
-<section>
-  ## 구문
+이벤트 별 리스너들의 배열을 `키: 값` 형태의 map으로 반환합니다.
+## 구문
 
-  ~~~js
-  bot.getListenersMap();
-  ~~~
+~~~js
+bot.getListenersMap();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `java.util.Map<String, Function[]>` - 이벤트 별 리스너들의 배열을 `키: 값` 형태로 반환합니다.
-  </section>
-</section>
+`java.util.Map<String, Function[]>` - 이벤트 별 리스너들의 배열을 `키: 값` 형태로 반환합니다.

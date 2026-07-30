@@ -1,14 +1,10 @@
 
-<section>
-  Rhino 엔진 또는 GraalJS의 JavaScript 기반 카카오톡봇 개발을 학습합니다. 메신저봇R을 활용한 개발 환경을 구축하고 JavaScript를 사용해 카카오톡봇을 개발합니다.
-</section>
-<section>
-  ## 로드맵
+Rhino 엔진 또는 GraalJS의 JavaScript 기반 카카오톡봇 개발을 학습합니다. 메신저봇R을 활용한 개발 환경을 구축하고 JavaScript를 사용해 카카오톡봇을 개발합니다.
+## 로드맵
 
-  <learning-roadmap>
-  <learn doc="/learn/js/basic"></learn>
-  <learn doc="/learn/js/intermediate"></learn>
-  <learn doc="/learn/js/advanced"></learn>
-  <learn doc="/learn/js/migration-to-api2"></learn>
-  </learning-roadmap>
-</section>
+<learning-roadmap>
+<learn doc="/learn/js/basic"></learn>
+<learn doc="/learn/js/intermediate"></learn>
+<learn doc="/learn/js/advanced"></learn>
+<learn doc="/learn/js/migration-to-api2"></learn>
+</learning-roadmap>

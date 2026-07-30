@@ -1,17 +1,11 @@
 
-<section>
-  채팅이 전송된 방에 대한 `Room` 객체입니다.
-</section>
-<section>
-  ## 구문
+채팅이 전송된 방에 대한 `Room` 객체입니다.
+## 구문
 
-  ~~~py
-  chatContext.room
-  ~~~
+~~~py
+chatContext.room
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  [`iris.bot.models.Room`](/reference/irispy-client/iris.bot.models/Class/Room) - 채팅이 전송된 방에 대한 `Room` 객체입니다.
-  </section>
-</section>
+[`iris.bot.models.Room`](/reference/irispy-client/iris.bot.models/Class/Room) - 채팅이 전송된 방에 대한 `Room` 객체입니다.

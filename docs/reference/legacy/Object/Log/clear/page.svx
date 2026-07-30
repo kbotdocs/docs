@@ -1,11 +1,7 @@
 
-<section>
-  스크립트 로그를 모두 삭제합니다.
-</section>
-<section>
-  ## 구문
+스크립트 로그를 모두 삭제합니다.
+## 구문
 
-  ~~~js
-  Log.clear();
-  ~~~
-</section>
+~~~js
+Log.clear();
+~~~

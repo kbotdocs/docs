@@ -1,30 +1,22 @@
 
-<section>
-  `botName` 이름의 `Bot` 객체가 한번도 컴파일된 적이 없을 경우 컴파일합니다. `throwOnError`의 값이 `true`일 경우 컴파일 에러 시 에러를 throw합니다.
-</section>
-<section>
-  ## 구문
+`botName` 이름의 `Bot` 객체가 한번도 컴파일된 적이 없을 경우 컴파일합니다. `throwOnError`의 값이 `true`일 경우 컴파일 에러 시 에러를 throw합니다.
+## 구문
 
-  ~~~js
-  BotManager.prepare(botName);
-  BotManager.prepare(botName, throwOnError);
-  ~~~
+~~~js
+BotManager.prepare(botName);
+BotManager.prepare(botName, throwOnError);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="botName" type="String">
-    컴파일할 `Bot` 객체의 이름
-    </param-item>
-    <param-item param="throwOnError" type="Boolean" defaultVal="`false`" optional>
-    컴파일 에러 시 에러 throw 여부
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="botName" type="String">
+컴파일할 `Bot` 객체의 이름
+</param-item>
+<param-item param="throwOnError" type="Boolean" defaultVal="`false`" optional>
+컴파일 에러 시 에러 throw 여부
+</param-item>
+</params>
+### 반환값
 
-  `Number` - 스크립트의 컴파일 상태를 나타내는 정수를 반환합니다. 컴파일에 실패할 경우 `0`, 컴파일에 성공할 경우 `1`, 컴파일된 적이 있을 경우 `2`를 반환합니다.
-  </section>
-</section>
+`Number` - 스크립트의 컴파일 상태를 나타내는 정수를 반환합니다. 컴파일에 실패할 경우 `0`, 컴파일에 성공할 경우 `1`, 컴파일된 적이 있을 경우 `2`를 반환합니다.

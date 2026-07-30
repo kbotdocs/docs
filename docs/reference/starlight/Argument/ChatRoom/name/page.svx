@@ -1,17 +1,11 @@
 
-<section>
-  방의 이름입니다.
-</section>
-<section>
-  ## 구문
+방의 이름입니다.
+## 구문
 
-  ~~~js
-  room.name;
-  ~~~
+~~~js
+room.name;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `String` - 방의 이름입니다.
-  </section>
-</section>
+`String` - 방의 이름입니다.

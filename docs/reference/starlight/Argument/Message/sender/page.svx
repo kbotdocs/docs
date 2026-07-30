@@ -1,17 +1,11 @@
 
-<section>
-  메시지의 발신자에 대한 [`ChatSender`](/reference/starlight/Argument/ChatSender) 객체입니다.
-</section>
-<section>
-  ## 구문
+메시지의 발신자에 대한 [`ChatSender`](/reference/starlight/Argument/ChatSender) 객체입니다.
+## 구문
 
-  ~~~js
-  msg.sender;
-  ~~~
+~~~js
+msg.sender;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `ChatSender` - 메시지의 발신자에 대한 `ChatSender` 객체입니다.
-  </section>
-</section>
+`ChatSender` - 메시지의 발신자에 대한 `ChatSender` 객체입니다.

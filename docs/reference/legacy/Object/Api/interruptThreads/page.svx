@@ -1,23 +1,17 @@
 
-<section>
-  스크립트의 스레드에 `interrupt` 요청을 보냅니다. `scriptName?` 인자가 존재할 경우 `scriptName?` 이름의 스크립트의 스레드에 `interrupt` 요청을 보냅니다.
-  `scriptName?` 인자가 존재하지 않을 경우 해당 메소드를 호출한 스크립트의 스레드에 `interrupt` 요청을 보냅니다.
-</section>
-<section>
-  ## 구문
+스크립트의 스레드에 `interrupt` 요청을 보냅니다. `scriptName?` 인자가 존재할 경우 `scriptName?` 이름의 스크립트의 스레드에 `interrupt` 요청을 보냅니다.
+`scriptName?` 인자가 존재하지 않을 경우 해당 메소드를 호출한 스크립트의 스레드에 `interrupt` 요청을 보냅니다.
+## 구문
 
-  ~~~js
-  Api.interruptThreads();
-  Api.interruptThreads(scriptName);
-  ~~~
+~~~js
+Api.interruptThreads();
+Api.interruptThreads(scriptName);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="scriptName" type="String" defaultVal="해당 메소드를 호출한 스크립트의 이름" optional>
-    스레드에 `interrupt` 요청을 보낼 스크립트 이름
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="scriptName" type="String" defaultVal="해당 메소드를 호출한 스크립트의 이름" optional>
+스레드에 `interrupt` 요청을 보낼 스크립트 이름
+</param-item>
+</params>

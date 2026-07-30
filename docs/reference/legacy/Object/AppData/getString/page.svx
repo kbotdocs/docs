@@ -1,26 +1,18 @@
 
-<section>
-  `key`에 대응하는 `String`형 데이터를 반환합니다.
-</section>
-<section>
-  ## 구문
+`key`에 대응하는 `String`형 데이터를 반환합니다.
+## 구문
 
-  ~~~js
-  AppData.getString(key);
-  ~~~
+~~~js
+AppData.getString(key);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="key" type="String">
-    불러올 `String`형 데이터에 대응하는 키
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="key" type="String">
+불러올 `String`형 데이터에 대응하는 키
+</param-item>
+</params>
+### 반환값
 
-  `String` - `key`에 대응하는 `String`형 데이터를 반환합니다.
-  </section>
-</section>
+`String` - `key`에 대응하는 `String`형 데이터를 반환합니다.

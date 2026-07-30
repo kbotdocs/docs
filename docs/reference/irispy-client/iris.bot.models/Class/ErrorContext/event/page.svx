@@ -1,17 +1,11 @@
 
-<section>
-  에러가 발생한 이벤트의 이름입니다.
-</section>
-<section>
-  ## 구문
+에러가 발생한 이벤트의 이름입니다.
+## 구문
 
-  ~~~py
-  errorContext.event
-  ~~~
+~~~py
+errorContext.event
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `str` - 에러가 발생한 이벤트의 이름입니다.
-  </section>
-</section>
+`str` - 에러가 발생한 이벤트의 이름입니다.

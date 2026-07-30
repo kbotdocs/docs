@@ -1,17 +1,11 @@
 
-<section>
-  앱의 Context(컨텍스트)를 반환합니다.
-</section>
-<section>
-  ## 구문
+앱의 Context(컨텍스트)를 반환합니다.
+## 구문
 
-  ~~~js
-  Api.getContext();
-  ~~~
+~~~js
+Api.getContext();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `android.content.Context` - 앱의 Context(컨텍스트)를 반환합니다.
-  </section>
-</section>
+`android.content.Context` - 앱의 Context(컨텍스트)를 반환합니다.

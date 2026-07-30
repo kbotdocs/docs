@@ -1,17 +1,11 @@
 
-<section>
-  앱에 할당된 총 메모리 크기(Byte)를 반환합니다.
-</section>
-<section>
-  ## 구문
+앱에 할당된 총 메모리 크기(Byte)를 반환합니다.
+## 구문
 
-  ~~~js
-  Device.getTotalMemory();
-  ~~~
+~~~js
+Device.getTotalMemory();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `Number` - 앱에 할당된 총 메모리 크기(Byte)를 반환합니다.
-  </section>
-</section>
+`Number` - 앱에 할당된 총 메모리 크기(Byte)를 반환합니다.

@@ -1,17 +1,11 @@
 
-<section>
-  알림이 제거되었습니다.
-</section>
-<section>
-  ## 구문
+알림이 제거되었습니다.
+## 구문
 
-  ~~~js
-  Notification.STATE_DISMISSED;
-  ~~~
+~~~js
+Notification.STATE_DISMISSED;
+~~~
 
-  <section>
-  ### 상수값
+### 상수값
 
-  `Number` - `-1`
-  </section>
-</section>
+`Number` - `-1`

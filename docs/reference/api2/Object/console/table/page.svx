@@ -1,21 +1,15 @@
 
-<section>
-  주어진 데이터를 표 형태의 텍스트로 로그에 작성합니다.
-</section>
-<section>
-  ## 구문
+주어진 데이터를 표 형태의 텍스트로 로그에 작성합니다.
+## 구문
 
-  ~~~js
-  console.table(data);
-  ~~~
+~~~js
+console.table(data);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="data" type="any" optional>
-    표 형태의 텍스트로 작성할 데이터
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="data" type="any" optional>
+표 형태의 텍스트로 작성할 데이터
+</param-item>
+</params>

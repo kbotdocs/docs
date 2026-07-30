@@ -1,21 +1,15 @@
 
-<section>
-  데이터베이스 내 키-값 쌍을 삭제합니다.
-</section>
-<section>
-  ## 구문
+데이터베이스 내 키-값 쌍을 삭제합니다.
+## 구문
 
-  ~~~py
-  pyKV.delete(key)
-  ~~~
+~~~py
+pyKV.delete(key)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="key" type="str">
-    삭제할 키-값 쌍의 키
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="key" type="str">
+삭제할 키-값 쌍의 키
+</param-item>
+</params>

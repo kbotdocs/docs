@@ -1,17 +1,11 @@
 
-<section>
-  앱 구동 환경의 안드로이드 버전 이름을 반환합니다.
-</section>
-<section>
-  ## 구문
+앱 구동 환경의 안드로이드 버전 이름을 반환합니다.
+## 구문
 
-  ~~~js
-  Device.getAndroidVersionName();
-  ~~~
+~~~js
+Device.getAndroidVersionName();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String` - 앱 구동 환경의 안드로이드 버전 이름을 반환합니다.
-  </section>
-</section>
+`String` - 앱 구동 환경의 안드로이드 버전 이름을 반환합니다.

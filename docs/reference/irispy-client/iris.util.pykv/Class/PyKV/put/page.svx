@@ -1,24 +1,18 @@
 
-<section>
-  데이터베이스에 키-값 쌍을 저장합니다.
-</section>
-<section>
-  ## 구문
+데이터베이스에 키-값 쌍을 저장합니다.
+## 구문
 
-  ~~~py
-  pyKV.put(key, value)
-  ~~~
+~~~py
+pyKV.put(key, value)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="key" type="str">
-    저장할 쌍의 키
-    </param-item>
-    <param-item param="value" type="Any">
-    저장할 쌍의 값
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="key" type="str">
+저장할 쌍의 키
+</param-item>
+<param-item param="value" type="Any">
+저장할 쌍의 값
+</param-item>
+</params>

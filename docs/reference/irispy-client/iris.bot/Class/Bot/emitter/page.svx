@@ -1,17 +1,11 @@
 
-<section>
-  이벤트의 관리를 위한 `EventEmitter` 객체입니다.
-</section>
-<section>
-  ## 구문
+이벤트의 관리를 위한 `EventEmitter` 객체입니다.
+## 구문
 
-  ~~~py
-  bot.emitter
-  ~~~
+~~~py
+bot.emitter
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  [`iris.bot._internal.emitter.EventEmitter`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter) - 이벤트의 관리를 위한 `EventEmitter` 객체입니다.
-  </section>
-</section>
+[`iris.bot._internal.emitter.EventEmitter`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter) - 이벤트의 관리를 위한 `EventEmitter` 객체입니다.

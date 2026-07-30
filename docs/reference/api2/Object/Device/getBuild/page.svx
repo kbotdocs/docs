@@ -1,18 +1,12 @@
 
-<section>
-  [`android.os.Build`](https://developer.android.com/reference/android/os/Build)를 반환합니다.
-</section>
-<section>
-  ## 구문
+[`android.os.Build`](https://developer.android.com/reference/android/os/Build)를 반환합니다.
+## 구문
 
-  ~~~js
-  Device.getBuild();
-  ~~~
+~~~js
+Device.getBuild();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  [`android.os.Build`](https://developer.android.com/reference/android/os/Build) -
-  [`android.os.Build`](https://developer.android.com/reference/android/os/Build)를 반환합니다.
-  </section>
-</section>
+[`android.os.Build`](https://developer.android.com/reference/android/os/Build) -
+[`android.os.Build`](https://developer.android.com/reference/android/os/Build)를 반환합니다.

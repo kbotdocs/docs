@@ -1,43 +1,37 @@
 
-<section>
-  `iris.kakaolink.KakaoLinkModule.KakaoLinkAuthorizationProvider`는 카카오링크 API 접근에 필요한 인증을 위한 클래스입니다.
-</section>
-<section>
-  ## 생성자
+`iris.kakaolink.KakaoLinkModule.KakaoLinkAuthorizationProvider`는 카카오링크 API 접근에 필요한 인증을 위한 클래스입니다.
+## 생성자
 
-  <table>
-  <thead>
-    <tr>
-    <th>`iris.kakaolink.KakaoLinkModule.KakaoLinkAuthorizationProvider`의 생성자</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td>
-      [`KakaoLinkAuthorizationProvider`](/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider/KakaoLinkAuthorizationProvider)`(iris_url: str)` \
-      새 `KakaoLinkAuthorizationProvider` 객체를 생성합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
-<section>
-  ## 인스턴스 메소드
+<table>
+<thead>
+  <tr>
+  <th>`iris.kakaolink.KakaoLinkModule.KakaoLinkAuthorizationProvider`의 생성자</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td>
+    [`KakaoLinkAuthorizationProvider`](/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider/KakaoLinkAuthorizationProvider)`(iris_url: str)` \
+    새 `KakaoLinkAuthorizationProvider` 객체를 생성합니다.
+  </td>
+  </tr>
+</tbody>
+</table>
+## 인스턴스 메소드
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`iris.kakaolink.KakaoLinkModule.KakaoLinkAuthorizationProvider`의 인스턴스 메소드</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>`str`</span></td>
-    <td>
-      [`get_authorization`](/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider/get_authorization)`()` \
-      카카오링크 API에 접근하기 위한 access token을 반환합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`iris.kakaolink.KakaoLinkModule.KakaoLinkAuthorizationProvider`의 인스턴스 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`str`</span></td>
+  <td>
+    [`get_authorization`](/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider/get_authorization)`()` \
+    카카오링크 API에 접근하기 위한 access token을 반환합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

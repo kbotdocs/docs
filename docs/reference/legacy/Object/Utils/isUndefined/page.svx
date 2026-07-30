@@ -1,26 +1,18 @@
 
-<section>
-  `value`가 `undefined`인지의 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+`value`가 `undefined`인지의 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  Utils.isUndefined(value);
-  ~~~
+~~~js
+Utils.isUndefined(value);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="value" type="Any?">
-    `undefined`인지 확인할 값
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="value" type="Any?">
+`undefined`인지 확인할 값
+</param-item>
+</params>
+### 반환값
 
-  `Boolean` - `value`가 `undefined`이면 `true`, 아니면 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - `value`가 `undefined`이면 `true`, 아니면 `false`를 반환합니다.

@@ -1,17 +1,11 @@
 
-<section>
-  에러가 발생한 이벤트 핸들러입니다.
-</section>
-<section>
-  ## 구문
+에러가 발생한 이벤트 핸들러입니다.
+## 구문
 
-  ~~~py
-  errorContext.func
-  ~~~
+~~~py
+errorContext.func
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  *[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)* - 에러가 발생한 이벤트 핸들러입니다.
-  </section>
-</section>
+*[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)* - 에러가 발생한 이벤트 핸들러입니다.

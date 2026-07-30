@@ -1,57 +1,47 @@
 
-<section>
-  메시지를 복호화합니다.
+메시지를 복호화합니다.
 
-  <api-endpoint method="POST" endpoint="/decrypt" contentType="application/json">
-  </api-endpoint>
-</section>
-<section>
-  ## 요청
+<api-endpoint method="POST" endpoint="/decrypt" contentType="application/json">
+</api-endpoint>
+## 요청
 
-  <section>
-  ### 본문
+### 본문
 
-  ~~~json
-  {
-    "enc": [ENCRYPTION_TYPE],
-    "b64_ciphertext": "[BASE64_ENCODED_CIPHERTEXT]",
-    "user_id": [USER_ID]
-  }
-  ~~~
-  <params>
-    <param-item param="enc" type="int">
-    암호화 유형입니다. 데이터베이스에서 가져온 정수입니다.
-    </param-item>
-    <param-item param="b64_ciphertext" type="string">
-    Base64 인코딩된 암호화 메시지입니다.
-    </param-item>
-    <param-item param="user_id" type="long" defaultVal="`config.json`의 `bot_id`" optional>
-    사용자 ID입니다.
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 예제
+~~~json
+{
+"enc": [ENCRYPTION_TYPE],
+"b64_ciphertext": "[BASE64_ENCODED_CIPHERTEXT]",
+"user_id": [USER_ID]
+}
+~~~
+<params>
+<param-item param="enc" type="int">
+암호화 유형입니다. 데이터베이스에서 가져온 정수입니다.
+</param-item>
+<param-item param="b64_ciphertext" type="string">
+Base64 인코딩된 암호화 메시지입니다.
+</param-item>
+<param-item param="user_id" type="long" defaultVal="`config.json`의 `bot_id`" optional>
+사용자 ID입니다.
+</param-item>
+</params>
+### 예제
 
-  ~~~bash
-  curl -d '{"enc": 0, "b64_ciphertext": "[ENCRYPTED_MESSAGE_BASE64]", "user_id": 1234567890}' \
-    -H "Content-Type: application/json" \
-    -X POST http://[YOUR_DEVICE_IP]:[bot_http_port]/decrypt
-  ~~~
-  </section>
-</section>
-<section>
-  ## 응답
+~~~bash
+curl -d '{"enc": 0, "b64_ciphertext": "[ENCRYPTED_MESSAGE_BASE64]", "user_id": 1234567890}' \
+-H "Content-Type: application/json" \
+-X POST http://[YOUR_DEVICE_IP]:[bot_http_port]/decrypt
+~~~
+## 응답
 
-  ~~~json
-  {
-    "plain_text": "[DECRYPTED_MESSAGE_TEXT]"
-  }
-  ~~~
+~~~json
+{
+  "plain_text": "[DECRYPTED_MESSAGE_TEXT]"
+}
+~~~
 
-  <params>
-  <param-item param="plain_text" type="string">
-    복호화된 평문입니다.
-  </param-item>
-  </params>
-</section>
+<params>
+<param-item param="plain_text" type="string">
+  복호화된 평문입니다.
+</param-item>
+</params>

@@ -1,24 +1,18 @@
 
-<section>
-  `botName` 이름의 `Bot` 객체의 활성화 여부를 제어합니다.
-</section>
-<section>
-  ## 구문
+`botName` 이름의 `Bot` 객체의 활성화 여부를 제어합니다.
+## 구문
 
-  ~~~js
-  BotManager.setPower(botName, power);
-  ~~~
+~~~js
+BotManager.setPower(botName, power);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="botName" type="String">
-    활성화 여부를 제어할 `Bot` 객체의 이름
-    </param-item>
-    <param-item param="power" type="Boolean">
-    `Bot` 객체의 활성화 여부
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="botName" type="String">
+활성화 여부를 제어할 `Bot` 객체의 이름
+</param-item>
+<param-item param="power" type="Boolean">
+`Bot` 객체의 활성화 여부
+</param-item>
+</params>

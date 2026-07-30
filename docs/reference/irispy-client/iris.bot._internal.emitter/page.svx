@@ -1,21 +1,17 @@
 
-<section>
-  `iris.bot._internal.emitter` 모듈은 카카오톡봇의 개발에 필요한 이벤트의 관리를 위한 요소를 포함합니다.
-</section>
-<section>
-  ## 클래스
+`iris.bot._internal.emitter` 모듈은 카카오톡봇의 개발에 필요한 이벤트의 관리를 위한 요소를 포함합니다.
+## 클래스
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`iris.bot._internal.emitter`의 클래스</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>[`EventEmitter`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter)</span></td>
-    <td>카카오톡봇의 개발에 필요한 이벤트의 관리를 위한 클래스입니다.</td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`iris.bot._internal.emitter`의 클래스</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>[`EventEmitter`](/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter)</span></td>
+  <td>카카오톡봇의 개발에 필요한 이벤트의 관리를 위한 클래스입니다.</td>
+  </tr>
+</tbody>
+</table>

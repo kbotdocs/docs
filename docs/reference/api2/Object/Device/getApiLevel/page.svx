@@ -1,17 +1,11 @@
 
-<section>
-  앱 구동 환경의 안드로이드 API Level을 반환합니다.
-</section>
-<section>
-  ## 구문
+앱 구동 환경의 안드로이드 API Level을 반환합니다.
+## 구문
 
-  ~~~js
-  Device.getApiLevel();
-  ~~~
+~~~js
+Device.getApiLevel();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `Number` - 앱 구동 환경의 안드로이드 API Level을 반환합니다.
-  </section>
-</section>
+`Number` - 앱 구동 환경의 안드로이드 API Level을 반환합니다.

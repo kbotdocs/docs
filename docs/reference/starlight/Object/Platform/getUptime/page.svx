@@ -1,17 +1,11 @@
 
-<section>
-  현재 구동중인 봇 앱의 구동 시간을 반환합니다.
-</section>
-<section>
-  ## 구문
+현재 구동중인 봇 앱의 구동 시간을 반환합니다.
+## 구문
 
-  ~~~js
-  Platform.getUptime();
-  ~~~
+~~~js
+Platform.getUptime();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `Number` - 현재 구동중인 봇 앱의 구동 시간(밀리초; ms)을 반환합니다.
-  </section>
-</section>
+`Number` - 현재 구동중인 봇 앱의 구동 시간(밀리초; ms)을 반환합니다.

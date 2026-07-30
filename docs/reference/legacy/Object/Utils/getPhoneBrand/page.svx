@@ -1,17 +1,11 @@
 
-<section>
-  앱 구동 기기의 브랜드명을 반환합니다.
-</section>
-<section>
-  ## 구문
+앱 구동 기기의 브랜드명을 반환합니다.
+## 구문
 
-  ~~~js
-  Utils.getPhoneBrand();
-  ~~~
+~~~js
+Utils.getPhoneBrand();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String` - 앱 구동 기기의 브랜드명을 반환합니다.
-  </section>
-</section>
+`String` - 앱 구동 기기의 브랜드명을 반환합니다.

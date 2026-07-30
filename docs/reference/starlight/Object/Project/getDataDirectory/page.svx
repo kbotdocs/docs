@@ -1,17 +1,11 @@
 
-<section>
-  프로젝트의 데이터(데이터베이스 파일, 유저 데이터 등)가 저장된 디렉터리에 대한 `java.io.File`을 반환합니다.
-</section>
-<section>
-  ## 구문
+프로젝트의 데이터(데이터베이스 파일, 유저 데이터 등)가 저장된 디렉터리에 대한 `java.io.File`을 반환합니다.
+## 구문
 
-  ~~~js
-  Project.getDataDirectory();
-  ~~~
+~~~js
+Project.getDataDirectory();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `java.io.File` - 프로젝트의 데이터가 저장된 디렉터리에 대한 `java.io.File`을 반환합니다.
-  </section>
-</section>
+`java.io.File` - 프로젝트의 데이터가 저장된 디렉터리에 대한 `java.io.File`을 반환합니다.

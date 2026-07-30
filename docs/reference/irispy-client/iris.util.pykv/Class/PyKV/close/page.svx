@@ -1,11 +1,7 @@
 
-<section>
-  데이터베이스와의 연결을 닫습니다.
-</section>
-<section>
-  ## 구문
+데이터베이스와의 연결을 닫습니다.
+## 구문
 
-  ~~~py
-  pyKV.close()
-  ~~~
-</section>
+~~~py
+pyKV.close()
+~~~

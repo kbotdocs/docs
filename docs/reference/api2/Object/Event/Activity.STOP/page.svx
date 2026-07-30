@@ -1,17 +1,11 @@
 
-<section>
-  API2의 [`activityStop`](/reference/api2/Event/activityStop) 이벤트입니다.
-</section>
-<section>
-  ## 구문
+API2의 [`activityStop`](/reference/api2/Event/activityStop) 이벤트입니다.
+## 구문
 
-  ~~~js
-  Event.Activity.STOP;
-  ~~~
+~~~js
+Event.Activity.STOP;
+~~~
 
-  <section>
-  ### 상수값
+### 상수값
 
-  `String` - `"activityStop"`
-  </section>
-</section>
+`String` - `"activityStop"`

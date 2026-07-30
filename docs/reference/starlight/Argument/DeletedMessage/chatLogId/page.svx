@@ -1,17 +1,11 @@
 
-<section>
-  삭제된 메시지에 대한 고유 ID입니다.
-</section>
-<section>
-  ## 구문
+삭제된 메시지에 대한 고유 ID입니다.
+## 구문
 
-  ~~~js
-  deletedMsg.chatLogId;
-  ~~~
+~~~js
+deletedMsg.chatLogId;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `Number` - 삭제된 메시지에 대한 고유 ID입니다.
-  </section>
-</section>
+`Number` - 삭제된 메시지에 대한 고유 ID입니다.

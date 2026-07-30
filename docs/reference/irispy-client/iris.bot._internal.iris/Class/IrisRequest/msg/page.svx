@@ -1,17 +1,11 @@
 
-<section>
-  메시지의 내용입니다.
-</section>
-<section>
-  ## 구문
+메시지의 내용입니다.
+## 구문
 
-  ~~~py
-  irisRequest.msg
-  ~~~
+~~~py
+irisRequest.msg
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `str` - 메시지의 내용입니다.
-  </section>
-</section>
+`str` - 메시지의 내용입니다.

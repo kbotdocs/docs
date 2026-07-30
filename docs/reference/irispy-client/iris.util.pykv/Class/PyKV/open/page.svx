@@ -1,21 +1,15 @@
 
-<section>
-  특정 데이터베이스 파일을 엽니다.
-</section>
-<section>
-  ## 구문
+특정 데이터베이스 파일을 엽니다.
+## 구문
 
-  ~~~py
-  pyKV.open(filename)
-  ~~~
+~~~py
+pyKV.open(filename)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="filename" type="str">
-    `PyKV` 객체로 조작할 데이터베이스 파일
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="filename" type="str">
+`PyKV` 객체로 조작할 데이터베이스 파일
+</param-item>
+</params>

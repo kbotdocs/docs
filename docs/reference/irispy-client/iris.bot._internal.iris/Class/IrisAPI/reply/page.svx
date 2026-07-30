@@ -1,29 +1,21 @@
 
-<section>
-  특정 방에 메시지를 보냅니다.
-</section>
-<section>
-  ## 구문
+특정 방에 메시지를 보냅니다.
+## 구문
 
-  ~~~py
-  irisAPI.reply(room_id, msg)
-  ~~~
+~~~py
+irisAPI.reply(room_id, msg)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="room_id" type="int">
-    메시지를 보낼 방의 id
-    </param-item>
-    <param-item param="msg" type="str">
-    보낼 메시지의 내용
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="room_id" type="int">
+메시지를 보낼 방의 id
+</param-item>
+<param-item param="msg" type="str">
+보낼 메시지의 내용
+</param-item>
+</params>
+### 반환값
 
-  `dict` - 메시지 전송에 대한 결과를 반환합니다. 자세한 내용은 [여기](/reference/iris/Endpoint/reply)를 참조하세요.
-  </section>
-</section>
+`dict` - 메시지 전송에 대한 결과를 반환합니다. 자세한 내용은 [여기](/reference/iris/Endpoint/reply)를 참조하세요.

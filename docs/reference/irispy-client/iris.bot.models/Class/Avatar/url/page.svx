@@ -1,17 +1,11 @@
 
-<section>
-  프로필 이미지의 URL입니다. 이 프로퍼티는 캐시됩니다.
-</section>
-<section>
-  ## 구문
+프로필 이미지의 URL입니다. 이 프로퍼티는 캐시됩니다.
+## 구문
 
-  ~~~py
-  avatar.url
-  ~~~
+~~~py
+avatar.url
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `str` - 프로필 이미지의 URL입니다.
-  </section>
-</section>
+`str` - 프로필 이미지의 URL입니다.

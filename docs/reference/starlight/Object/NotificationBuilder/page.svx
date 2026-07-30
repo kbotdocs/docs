@@ -1,60 +1,56 @@
 
-<section>
-  `NotificationBuilder` 객체는 알림의 생성을 위한 빌더(Builder) 객체입니다. 해당 객체는 직접 호출할 수 없습니다.
-  [`Notification.create()`](/reference/starlight/Object/Notification/create)을 이용해 `NotificationBuilder` 객체를 반환받을 수 있습니다.
-</section>
-<section>
-  ## 인스턴스 메소드
+`NotificationBuilder` 객체는 알림의 생성을 위한 빌더(Builder) 객체입니다. 해당 객체는 직접 호출할 수 없습니다.
+[`Notification.create()`](/reference/starlight/Object/Notification/create)을 이용해 `NotificationBuilder` 객체를 반환받을 수 있습니다.
+## 인스턴스 메소드
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`NotificationBuilder` 객체의 인스턴스 메소드</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>[`Notification`](/reference/starlight/Object/Notification)</span></td>
-    <td>
-      [`build`](/reference/starlight/Object/NotificationBuilder/build)`()` \
-      설정한 값들로 알림을 생성하고 생성된 알림을 제어할 수 있는 `Notification` 객체를 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`NotificationBuilder`</span></td>
-    <td>
-      [`lights`](/reference/starlight/Object/NotificationBuilder/lights)`(argb: Number, onMs: Number, offMs: Number)` \
-      알림의 LED 발광 패턴을 설정합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`NotificationBuilder`</span></td>
-    <td>
-      [`onClick`](/reference/starlight/Object/NotificationBuilder/onClick)`(title: String, callback: (id: Number) => Any?)` \
-      알림에 클릭 가능한 버튼과 클릭할 때 호출될 콜백 함수를 설정합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`NotificationBuilder`</span></td>
-    <td>
-      [`onDismiss`](/reference/starlight/Object/NotificationBuilder/onDismiss)`(callback: (id: Number) => Any?)` \
-      알림이 상단바에서 제거될 때 호출될 콜백 함수를 설정합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`NotificationBuilder`</span></td>
-    <td>
-      [`setText`](/reference/starlight/Object/NotificationBuilder/setText)`(text: String)` \
-      알림의 내용을 설정합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`NotificationBuilder`</span></td>
-    <td>
-      [`setTitle`](/reference/starlight/Object/NotificationBuilder/setTitle)`(title: String)` \
-      알림의 제목을 설정합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`NotificationBuilder` 객체의 인스턴스 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>[`Notification`](/reference/starlight/Object/Notification)</span></td>
+  <td>
+    [`build`](/reference/starlight/Object/NotificationBuilder/build)`()` \
+    설정한 값들로 알림을 생성하고 생성된 알림을 제어할 수 있는 `Notification` 객체를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`NotificationBuilder`</span></td>
+  <td>
+    [`lights`](/reference/starlight/Object/NotificationBuilder/lights)`(argb: Number, onMs: Number, offMs: Number)` \
+    알림의 LED 발광 패턴을 설정합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`NotificationBuilder`</span></td>
+  <td>
+    [`onClick`](/reference/starlight/Object/NotificationBuilder/onClick)`(title: String, callback: (id: Number) => Any?)` \
+    알림에 클릭 가능한 버튼과 클릭할 때 호출될 콜백 함수를 설정합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`NotificationBuilder`</span></td>
+  <td>
+    [`onDismiss`](/reference/starlight/Object/NotificationBuilder/onDismiss)`(callback: (id: Number) => Any?)` \
+    알림이 상단바에서 제거될 때 호출될 콜백 함수를 설정합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`NotificationBuilder`</span></td>
+  <td>
+    [`setText`](/reference/starlight/Object/NotificationBuilder/setText)`(text: String)` \
+    알림의 내용을 설정합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`NotificationBuilder`</span></td>
+  <td>
+    [`setTitle`](/reference/starlight/Object/NotificationBuilder/setTitle)`(title: String)` \
+    알림의 제목을 설정합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

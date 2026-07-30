@@ -1,21 +1,15 @@
 
-<section>
-  메시지가 발신된 방에 메시지를 발신합니다.
-</section>
-<section>
-  ## 구문
+메시지가 발신된 방에 메시지를 발신합니다.
+## 구문
 
-  ~~~js
-  msg.reply(content);
-  ~~~
+~~~js
+msg.reply(content);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="content" type="String">
-    보낼 메시지의 내용
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="content" type="String">
+보낼 메시지의 내용
+</param-item>
+</params>

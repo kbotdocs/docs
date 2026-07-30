@@ -1,25 +1,19 @@
 
-<section>
-  메시지가 전송된 방 또는 특정 방에 메시지를 보냅니다.
-</section>
-<section>
-  ## 구문
+메시지가 전송된 방 또는 특정 방에 메시지를 보냅니다.
+## 구문
 
-  ~~~py
-  chatContext.reply(message)
-  chatContext.reply(message, room_id)
-  ~~~
+~~~py
+chatContext.reply(message)
+chatContext.reply(message, room_id)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="message" type="str">
-    보낼 메시지의 내용
-    </param-item>
-    <param-item param="room_id" type="int" defaultVal="`None`" optional>
-    메시지를 보낼 방의 id
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="message" type="str">
+보낼 메시지의 내용
+</param-item>
+<param-item param="room_id" type="int" defaultVal="`None`" optional>
+메시지를 보낼 방의 id
+</param-item>
+</params>

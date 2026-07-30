@@ -1,26 +1,18 @@
 
-<section>
-  특정 스크립트의 전역 스코프 멤버들의 이름을 배열로 반환합니다.
-</section>
-<section>
-  ## 구문
+특정 스크립트의 전역 스코프 멤버들의 이름을 배열로 반환합니다.
+## 구문
 
-  ~~~js
-  Bridge.getMemberNamesOf(scriptName);
-  ~~~
+~~~js
+Bridge.getMemberNamesOf(scriptName);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="scriptName" type="String">
-    스크립트의 이름
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="scriptName" type="String">
+스크립트의 이름
+</param-item>
+</params>
+### 반환값
 
-  `String[]` - `scriptName` 스크립트의 전역 스코프 멤버들의 이름을 배열로 반환합니다.
-  </section>
-</section>
+`String[]` - `scriptName` 스크립트의 전역 스코프 멤버들의 이름을 배열로 반환합니다.

@@ -1,30 +1,22 @@
 
-<section>
-  특정 스크립트의 전역 스코프에서 문자열로 표현된 JavaScript 코드를 실행합니다. 실행 성공 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+특정 스크립트의 전역 스코프에서 문자열로 표현된 JavaScript 코드를 실행합니다. 실행 성공 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  Bridge.evaluateStringIn(scriptName, src);
-  ~~~
+~~~js
+Bridge.evaluateStringIn(scriptName, src);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="scriptName" type="String">
-    JavaScript 코드를 실행할 스크립트의 이름
-    </param-item>
-    <param-item param="src" type="String">
-    문자열로 표현된 JavaScript 코드
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="scriptName" type="String">
+JavaScript 코드를 실행할 스크립트의 이름
+</param-item>
+<param-item param="src" type="String">
+문자열로 표현된 JavaScript 코드
+</param-item>
+</params>
+### 반환값
 
-  `Boolean` - `scriptName`를 이름으로 하는 스크립트의 전역 스코프에서 `src`를 JavaScript 코드로써 성공적으로 실행했을 경우 `true`, 실패했을 경우 `false`를
-  반환합니다.
-  </section>
-</section>
+`Boolean` - `scriptName`를 이름으로 하는 스크립트의 전역 스코프에서 `src`를 JavaScript 코드로써 성공적으로 실행했을 경우 `true`, 실패했을 경우 `false`를
+반환합니다.

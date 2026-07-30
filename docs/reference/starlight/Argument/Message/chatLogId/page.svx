@@ -1,17 +1,11 @@
 
-<section>
-  메시지에 대한 고유 ID입니다.
-</section>
-<section>
-  ## 구문
+메시지에 대한 고유 ID입니다.
+## 구문
 
-  ~~~js
-  msg.chatLogId;
-  ~~~
+~~~js
+msg.chatLogId;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `Number` - 메시지에 대한 고유 ID입니다.
-  </section>
-</section>
+`Number` - 메시지에 대한 고유 ID입니다.

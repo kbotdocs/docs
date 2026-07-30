@@ -1,23 +1,17 @@
 
-<section>
-  `onMessage`는 메시지를 수신할 때 동작하는 이벤트 리스너입니다.
-</section>
-<section>
-  ## 구문
+`onMessage`는 메시지를 수신할 때 동작하는 이벤트 리스너입니다.
+## 구문
 
-  ~~~js
-  function onMessage(event) {
+~~~js
+function onMessage(event) {
 
-  }
-  ~~~
+}
+~~~
 
-  <section>
-  ### 인자
+### 인자
 
-  <params>
-    <param-item param="event" type="Message">
-    발신된 메시지에 대한 정보를 담고 있는 [`Message`](/reference/starlight/Argument/Message) 객체입니다.
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="event" type="Message">
+발신된 메시지에 대한 정보를 담고 있는 [`Message`](/reference/starlight/Argument/Message) 객체입니다.
+</param-item>
+</params>

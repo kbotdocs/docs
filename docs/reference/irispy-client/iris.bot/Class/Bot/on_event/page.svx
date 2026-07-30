@@ -1,23 +1,17 @@
 
-<section>
-  이벤트 핸들러를 등록하기 위한 데코레이터입니다.
-</section>
-<section>
-  ## 구문
+이벤트 핸들러를 등록하기 위한 데코레이터입니다.
+## 구문
 
-  ~~~py
-  @bot.on_event(name)
-  def handler(...):
-    ...
-  ~~~
+~~~py
+@bot.on_event(name)
+def handler(...):
+  ...
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="name" type="str">
-    핸들러를 등록할 이벤트 이름
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="name" type="str">
+핸들러를 등록할 이벤트 이름
+</param-item>
+</params>

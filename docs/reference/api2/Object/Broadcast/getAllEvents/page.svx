@@ -1,17 +1,11 @@
 
-<section>
-  리스너가 등록된 모든 브로드캐스트의 이름을 배열로 반환합니다.
-</section>
-<section>
-  ## 구문
+리스너가 등록된 모든 브로드캐스트의 이름을 배열로 반환합니다.
+## 구문
 
-  ~~~js
-  Broadcast.getAllEvents();
-  ~~~
+~~~js
+Broadcast.getAllEvents();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String[]` - 리스너가 등록된 모든 브로드캐스트의 이름을 배열로 반환합니다.
-  </section>
-</section>
+`String[]` - 리스너가 등록된 모든 브로드캐스트의 이름을 배열로 반환합니다.

@@ -1,36 +1,30 @@
 
-<section>
-  [`jsoup`](https://jsoup.org/)을 이용해 `url`에 비동기 request를 보냅니다.
-</section>
-<section>
-  ## 구문
+[`jsoup`](https://jsoup.org/)을 이용해 `url`에 비동기 request를 보냅니다.
+## 구문
 
-  ~~~js
-  Http.request(url, callBack);
-  ~~~
+~~~js
+Http.request(url, callBack);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="url" type="String">
-    request를 보낼 서버의 URL
-    </param-item>
-    <param-item param="callback" type="(error, response, doc) =&gt; Any">
-    request를 보낸 후 실행할 콜백 함수
-    </param-item>
-    <params>
-    <param-item param="error" type="java.lang.Exception?">
-      (에러 발생 시) 요청 중 발생한 에러를 나타내는 `java.lang.Exception`
-    </param-item>
-    <param-item param="response" type="org.jsoup.Connection.Response?">
-      (요청 정상 처리 시) 요청에 대한 응답을 나타내는
-      [`org.jsoup.Connection.Response`](https://jsoup.org/apidocs/org/jsoup/Connection.Response.html)
-    </param-item>
-    <param-item param="doc" type="org.jsoup.nodes.Document?">
-      (요청 정상 처리 시) 응답의 body에 대한 문서 형식의 값
-    </param-item>
-    </params>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="url" type="String">
+request를 보낼 서버의 URL
+</param-item>
+<param-item param="callback" type="(error, response, doc) =&gt; Any">
+request를 보낸 후 실행할 콜백 함수
+</param-item>
+<params>
+<param-item param="error" type="java.lang.Exception?">
+  (에러 발생 시) 요청 중 발생한 에러를 나타내는 `java.lang.Exception`
+</param-item>
+<param-item param="response" type="org.jsoup.Connection.Response?">
+  (요청 정상 처리 시) 요청에 대한 응답을 나타내는
+  [`org.jsoup.Connection.Response`](https://jsoup.org/apidocs/org/jsoup/Connection.Response.html)
+</param-item>
+<param-item param="doc" type="org.jsoup.nodes.Document?">
+  (요청 정상 처리 시) 응답의 body에 대한 문서 형식의 값
+</param-item>
+</params>
+</params>

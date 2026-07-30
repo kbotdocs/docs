@@ -1,17 +1,11 @@
 
-<section>
-  메시지가 발신된 방에 대한 [`ChatRoom`](/reference/starlight/Argument/ChatRoom) 객체입니다.
-</section>
-<section>
-  ## 구문
+메시지가 발신된 방에 대한 [`ChatRoom`](/reference/starlight/Argument/ChatRoom) 객체입니다.
+## 구문
 
-  ~~~js
-  msg.room;
-  ~~~
+~~~js
+msg.room;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `ChatRoom` - 메시지가 발신된 방에 대한 `ChatRoom` 객체입니다.
-  </section>
-</section>
+`ChatRoom` - 메시지가 발신된 방에 대한 `ChatRoom` 객체입니다.

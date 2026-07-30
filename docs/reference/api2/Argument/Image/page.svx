@@ -1,31 +1,27 @@
 
-<section>
-  `Image` 객체는 이미지에 대한 기능을 제공하는 객체입니다. 해당 객체는 직접 접근할 수 없으며, 인자로 주어집니다.
-</section>
-<section>
-  ## 인스턴스 메소드
+`Image` 객체는 이미지에 대한 기능을 제공하는 객체입니다. 해당 객체는 직접 접근할 수 없으며, 인자로 주어집니다.
+## 인스턴스 메소드
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`Image` 객체의 인스턴스 메소드</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`getBase64`](/reference/api2/Argument/Image/getBase64)`()` \
-      이미지를 Base64 인코딩한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`android.graphics.Bitmap`</span></td>
-    <td>
-      [`getBitmap`](/reference/api2/Argument/Image/getBitmap)`()` \
-      이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Image` 객체의 인스턴스 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`getBase64`](/reference/api2/Argument/Image/getBase64)`()` \
+    이미지를 Base64 인코딩한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`android.graphics.Bitmap`</span></td>
+  <td>
+    [`getBitmap`](/reference/api2/Argument/Image/getBitmap)`()` \
+    이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

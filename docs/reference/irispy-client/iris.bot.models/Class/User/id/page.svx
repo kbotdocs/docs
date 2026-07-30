@@ -1,17 +1,11 @@
 
-<section>
-  사용자의 id입니다.
-</section>
-<section>
-  ## 구문
+사용자의 id입니다.
+## 구문
 
-  ~~~py
-  user.id
-  ~~~
+~~~py
+user.id
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `int` - 사용자의 id입니다.
-  </section>
-</section>
+`int` - 사용자의 id입니다.

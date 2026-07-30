@@ -1,17 +1,11 @@
 
-<section>
-  앱 구동 기기가 충전 중인지의 여부를 반환합니다.
-</section>
-<section>
-  ## 구문
+앱 구동 기기가 충전 중인지의 여부를 반환합니다.
+## 구문
 
-  ~~~js
-  Device.isCharging();
-  ~~~
+~~~js
+Device.isCharging();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `Boolean` - 앱 구동 기기가 충전 중일 경우 `true`, 충전 중이 아닐 경우 `false`를 반환합니다.
-  </section>
-</section>
+`Boolean` - 앱 구동 기기가 충전 중일 경우 `true`, 충전 중이 아닐 경우 `false`를 반환합니다.

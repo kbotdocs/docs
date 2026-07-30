@@ -1,56 +1,48 @@
 
-<section>
-  AOT 관련 토큰을 반환합니다.
+AOT 관련 토큰을 반환합니다.
 
-  <api-endpoint method="GET" endpoint="/aot" contentType="-/-">
-  </api-endpoint>
-</section>
-<section>
-  ## 요청
+<api-endpoint method="GET" endpoint="/aot" contentType="-/-">
+</api-endpoint>
+## 요청
 
-  <section>
-  ### 예제
+### 예제
 
-  ~~~bash
-  curl -X GET http://[YOUR_DEVICE_IP]:[bot_http_port]/aot
-  ~~~
-  </section>
-</section>
-<section>
-  ## 응답
+~~~bash
+curl -X GET http://[YOUR_DEVICE_IP]:[bot_http_port]/aot
+~~~
+## 응답
 
-  ~~~json
-  {
-    "success": true,
-    "aot" : {
-      "access_token" : String,
-      "refresh_token" : String,
-      "token_type" : String,
-      "d_id" : String
-    }
+~~~json
+{
+  "success": true,
+  "aot" : {
+    "access_token" : String,
+    "refresh_token" : String,
+    "token_type" : String,
+    "d_id" : String
   }
-  ~~~
+}
+~~~
 
-  <params>
-  <param-item param="success" type="boolean">
-    성공 여부입니다.
+<params>
+<param-item param="success" type="boolean">
+  성공 여부입니다.
+</param-item>
+<param-item param="aot" type="object">
+  AOT 관련 토큰을 포함하는 객체입니다.
+</param-item>
+<params>
+  <param-item param="access_token" type="string">
+  액세스 토큰입니다.
   </param-item>
-  <param-item param="aot" type="object">
-    AOT 관련 토큰을 포함하는 객체입니다.
+  <param-item param="refresh_token" type="string">
+  리프레시 토큰입니다.
   </param-item>
-  <params>
-    <param-item param="access_token" type="string">
-    액세스 토큰입니다.
-    </param-item>
-    <param-item param="refresh_token" type="string">
-    리프레시 토큰입니다.
-    </param-item>
-    <param-item param="token_type" type="string">
-    토큰의 유형입니다.
-    </param-item>
-    <param-item param="d_id" type="string">
-    `d_id`입니다.
-    </param-item>
-  </params>
-  </params>
-</section>
+  <param-item param="token_type" type="string">
+  토큰의 유형입니다.
+  </param-item>
+  <param-item param="d_id" type="string">
+  `d_id`입니다.
+  </param-item>
+</params>
+</params>

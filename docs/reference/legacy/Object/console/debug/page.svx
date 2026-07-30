@@ -1,25 +1,19 @@
 
-<section>
-  디버그 로그를 작성합니다. 여러 개의 인자를 전달할 수 있으며, 각 인자는 공백으로 구분되어 작성됩니다.
-</section>
-<section>
-  ## 구문
+디버그 로그를 작성합니다. 여러 개의 인자를 전달할 수 있으며, 각 인자는 공백으로 구분되어 작성됩니다.
+## 구문
 
-  ~~~js
-  console.debug(str);
-  console.debug(str, showToast);
-  ~~~
+~~~js
+console.debug(str);
+console.debug(str, showToast);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="str" type="String">
-    작성할 디버그 로그의 내용
-    </param-item>
-    <param-item param="showToast" type="Boolean" defaultVal="`false`" optional>
-    작성된 로그를 토스트 메시지로 출력할 것인지의 여부
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="str" type="String">
+작성할 디버그 로그의 내용
+</param-item>
+<param-item param="showToast" type="Boolean" defaultVal="`false`" optional>
+작성된 로그를 토스트 메시지로 출력할 것인지의 여부
+</param-item>
+</params>

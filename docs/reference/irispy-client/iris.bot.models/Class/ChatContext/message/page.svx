@@ -1,17 +1,11 @@
 
-<section>
-  감지된 메시지에 대한 `Message` 객체입니다.
-</section>
-<section>
-  ## 구문
+감지된 메시지에 대한 `Message` 객체입니다.
+## 구문
 
-  ~~~py
-  chatContext.message
-  ~~~
+~~~py
+chatContext.message
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  [`iris.bot.models.Message`](/reference/irispy-client/iris.bot.models/Class/Message) - 감지된 메시지에 대한 `Message` 객체입니다.
-  </section>
-</section>
+[`iris.bot.models.Message`](/reference/irispy-client/iris.bot.models/Class/Message) - 감지된 메시지에 대한 `Message` 객체입니다.

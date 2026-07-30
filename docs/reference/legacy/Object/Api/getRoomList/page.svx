@@ -1,17 +1,11 @@
 
-<section>
-  메시지 전송이 가능한 방 이름을 배열로 반환합니다.
-</section>
-<section>
-  ## 구문
+메시지 전송이 가능한 방 이름을 배열로 반환합니다.
+## 구문
 
-  ~~~js
-  Api.getRoomList();
-  ~~~
+~~~js
+Api.getRoomList();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String[]` - 메시지 전송이 가능한 방 이름이 담긴 배열을 반환합니다.
-  </section>
-</section>
+`String[]` - 메시지 전송이 가능한 방 이름이 담긴 배열을 반환합니다.

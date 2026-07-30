@@ -1,17 +1,11 @@
 
-<section>
-  Iris가 사용하는 WebSocket 엔드포인트입니다.
-</section>
-<section>
-  ## 구문
+Iris가 사용하는 WebSocket 엔드포인트입니다.
+## 구문
 
-  ~~~py
-  bot.iris_ws_endpoint
-  ~~~
+~~~py
+bot.iris_ws_endpoint
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `str` - Iris가 사용하는 WebSocket 엔드포인트입니다.
-  </section>
-</section>
+`str` - Iris가 사용하는 WebSocket 엔드포인트입니다.

@@ -1,17 +1,11 @@
 
-<section>
-  삭제된 메시지의 전체 내용입니다.
-</section>
-<section>
-  ## 구문
+삭제된 메시지의 전체 내용입니다.
+## 구문
 
-  ~~~js
-  deletedMsg.message;
-  ~~~
+~~~js
+deletedMsg.message;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `String` - 삭제된 메시지의 전체 내용입니다.
-  </section>
-</section>
+`String` - 삭제된 메시지의 전체 내용입니다.

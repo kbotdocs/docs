@@ -1,17 +1,11 @@
 
-<section>
-  원시 이벤트 데이터입니다.
-</section>
-<section>
-  ## 구문
+원시 이벤트 데이터입니다.
+## 구문
 
-  ~~~py
-  chatContext.raw
-  ~~~
+~~~py
+chatContext.raw
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `dict` - 원시 이벤트 데이터입니다.
-  </section>
-</section>
+`dict` - 원시 이벤트 데이터입니다.

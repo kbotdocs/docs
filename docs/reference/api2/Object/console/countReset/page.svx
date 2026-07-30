@@ -1,22 +1,16 @@
 
-<section>
-  특정 레이블의 호출 횟수를 초기화합니다.
-</section>
-<section>
-  ## 구문
+특정 레이블의 호출 횟수를 초기화합니다.
+## 구문
 
-  ~~~js
-  console.countReset();
-  console.countReset(label);
-  ~~~
+~~~js
+console.countReset();
+console.countReset(label);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="label" type="String" defaultVal="`&quot;default&quot;`" optional>
-    호출 횟수를 초기화할 레이블
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="label" type="String" defaultVal="`&quot;default&quot;`" optional>
+호출 횟수를 초기화할 레이블
+</param-item>
+</params>

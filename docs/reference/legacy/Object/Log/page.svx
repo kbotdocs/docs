@@ -1,73 +1,69 @@
 
-<section>
-  `Log` 객체는 앱 내 스크립트 로그에 로그를 기록할 수 있게 하는 객체입니다.
-</section>
-<section>
-  ## 정적 메소드
+`Log` 객체는 앱 내 스크립트 로그에 로그를 기록할 수 있게 하는 객체입니다.
+## 정적 메소드
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`Log` 객체의 정적 메소드</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`clear`](/reference/legacy/Object/Log/clear)`()` \
-      스크립트 로그를 모두 삭제합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`d`](/reference/legacy/Object/Log/d)`(data: String, showToast?: Boolean = false)` \
-      디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`debug`](/reference/legacy/Object/Log/debug)`(data: String, showToast?: Boolean = false)` \
-      디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`e`](/reference/legacy/Object/Log/e)`(data: String, showToast?: Boolean = false)` \
-      에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`error`](/reference/legacy/Object/Log/error)`(data: String, showToast?: Boolean = false)` \
-      에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`i`](/reference/legacy/Object/Log/i)`(data: String, showToast?: Boolean = false)` \
-      정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`info`](/reference/legacy/Object/Log/info)`(data: String, showToast?: Boolean = false)` \
-      정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`void`</span></td>
-    <td>
-      [`log`](/reference/legacy/Object/Log/log)`(data: String, showToast?: Boolean = false)` \
-      정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Log` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`clear`](/reference/legacy/Object/Log/clear)`()` \
+    스크립트 로그를 모두 삭제합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`d`](/reference/legacy/Object/Log/d)`(data: String, showToast?: Boolean = false)` \
+    디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`debug`](/reference/legacy/Object/Log/debug)`(data: String, showToast?: Boolean = false)` \
+    디버그 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`e`](/reference/legacy/Object/Log/e)`(data: String, showToast?: Boolean = false)` \
+    에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`error`](/reference/legacy/Object/Log/error)`(data: String, showToast?: Boolean = false)` \
+    에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`i`](/reference/legacy/Object/Log/i)`(data: String, showToast?: Boolean = false)` \
+    정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`info`](/reference/legacy/Object/Log/info)`(data: String, showToast?: Boolean = false)` \
+    정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`log`](/reference/legacy/Object/Log/log)`(data: String, showToast?: Boolean = false)` \
+    정보 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

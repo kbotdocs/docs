@@ -1,280 +1,276 @@
 
-<section>
-  `Security` 객체는 각종 암호화/복호화에 관한 기능들을 제공하는 객체입니다.
-</section>
-<section>
-  ## 정적 메소드
+`Security` 객체는 각종 암호화/복호화에 관한 기능들을 제공하는 객체입니다.
+## 정적 메소드
 
-  <table>
-  <thead>
-    <tr>
-    <th colspan="2">`Security` 객체의 정적 메소드</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`aesDecode`](/reference/api2/Object/Security/aesDecode)`(key: String, initVector: String, value: String)` \
-      `value`를 AES 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`aesEncode`](/reference/api2/Object/Security/aesEncode)`(key: String, initVector: String, value: String)` \
-      `value`를 AES 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`ariaDecode`](/reference/api2/Object/Security/ariaDecode)`(key: String, value: String)` \
-      `value`를 ARIA 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`ariaDecodeRaw`](/reference/api2/Object/Security/ariaDecodeRaw)`(key: String, raw: org.mozilla.javascript.NativeArray)` \
-      `raw`를 ARIA 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`ariaEncode`](/reference/api2/Object/Security/ariaEncode)`(key: String, value: String)` \
-      `value`를 ARIA 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>*`byte[]`*</span></td>
-    <td>
-      [`ariaEncodeRaw`](/reference/api2/Object/Security/ariaEncodeRaw)`(key: String, value: String)` \
-      `value`를 ARIA 암호화한 값을 미가공 데이터(바이트 배열)로 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`base32Decode`](/reference/api2/Object/Security/base32Decode)`(value: String)` \
-      `value`를 Base32 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`base32Encode`](/reference/api2/Object/Security/base32Encode)`(value: String)` \
-      `value`를 Base32 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`base64Decode`](/reference/api2/Object/Security/base64Decode)`(value: String)` \
-      `value`를 Base64 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`base64Encode`](/reference/api2/Object/Security/base64Encode)`(value: String)` \
-      `value`를 Base64 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`des3Decode`](/reference/api2/Object/Security/des3Decode)`(key: String, value: String)` \
-      `value`를 DES3 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`des3Encode`](/reference/api2/Object/Security/des3Encode)`(key: String, value: String)` \
-      `value`를 DES3 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`desDecode`](/reference/api2/Object/Security/desDecode)`(key: String, value: String)` \
-      `value`를 DES 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`desEncode`](/reference/api2/Object/Security/desEncode)`(key: String, value: String)` \
-      `value`를 DES 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`desKey`](/reference/api2/Object/Security/desKey)`()` \
-      DES 보조키를 생성하여 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`eccDecode`](/reference/api2/Object/Security/eccDecode)`(key: String, value: String)` \
-      `value`를 ECC 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`eccEncode`](/reference/api2/Object/Security/eccEncode)`(key: String, value: String)` \
-      `value`를 ECC 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      <noti type="warning">
-      이 메소드는 미구현 상태입니다.
-      </noti>
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Security` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`aesDecode`](/reference/api2/Object/Security/aesDecode)`(key: String, initVector: String, value: String)` \
+    `value`를 AES 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`aesEncode`](/reference/api2/Object/Security/aesEncode)`(key: String, initVector: String, value: String)` \
+    `value`를 AES 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`ariaDecode`](/reference/api2/Object/Security/ariaDecode)`(key: String, value: String)` \
+    `value`를 ARIA 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`ariaDecodeRaw`](/reference/api2/Object/Security/ariaDecodeRaw)`(key: String, raw: org.mozilla.javascript.NativeArray)` \
+    `raw`를 ARIA 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`ariaEncode`](/reference/api2/Object/Security/ariaEncode)`(key: String, value: String)` \
+    `value`를 ARIA 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>*`byte[]`*</span></td>
+  <td>
+    [`ariaEncodeRaw`](/reference/api2/Object/Security/ariaEncodeRaw)`(key: String, value: String)` \
+    `value`를 ARIA 암호화한 값을 미가공 데이터(바이트 배열)로 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`base32Decode`](/reference/api2/Object/Security/base32Decode)`(value: String)` \
+    `value`를 Base32 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`base32Encode`](/reference/api2/Object/Security/base32Encode)`(value: String)` \
+    `value`를 Base32 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`base64Decode`](/reference/api2/Object/Security/base64Decode)`(value: String)` \
+    `value`를 Base64 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`base64Encode`](/reference/api2/Object/Security/base64Encode)`(value: String)` \
+    `value`를 Base64 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`des3Decode`](/reference/api2/Object/Security/des3Decode)`(key: String, value: String)` \
+    `value`를 DES3 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`des3Encode`](/reference/api2/Object/Security/des3Encode)`(key: String, value: String)` \
+    `value`를 DES3 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`desDecode`](/reference/api2/Object/Security/desDecode)`(key: String, value: String)` \
+    `value`를 DES 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`desEncode`](/reference/api2/Object/Security/desEncode)`(key: String, value: String)` \
+    `value`를 DES 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`desKey`](/reference/api2/Object/Security/desKey)`()` \
+    DES 보조키를 생성하여 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`eccDecode`](/reference/api2/Object/Security/eccDecode)`(key: String, value: String)` \
+    `value`를 ECC 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`eccEncode`](/reference/api2/Object/Security/eccEncode)`(key: String, value: String)` \
+    `value`를 ECC 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    <noti type="warning">
+    이 메소드는 미구현 상태입니다.
+    </noti>
 
-      [`getDesKey`](/reference/api2/Object/Security/getDesKey)`()` \
-      DES 보조키를 생성하여 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`hashCode`](/reference/api2/Object/Security/hashCode)`(value: String)` \
-      `value`의 해시코드를 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`md2`](/reference/api2/Object/Security/md2)`(value: String)` \
-      `value`를 MD2 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`md5`](/reference/api2/Object/Security/md5)`(value: String)` \
-      `value`를 MD5 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`md55`](/reference/api2/Object/Security/md55)`(value: String)` \
-      `value`를 MD5 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`rc4Decode`](/reference/api2/Object/Security/rc4Decode)`(key: String, value: String)` \
-      `value`를 RC4 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`rc4Encode`](/reference/api2/Object/Security/rc4Encode)`(key: String, value: String)` \
-      `value`를 RC4 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`seedDecode`](/reference/api2/Object/Security/seedDecode)`(key: String, value: String)` \
-      `value`를 SEED 복호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`seedEncode`](/reference/api2/Object/Security/seedEncode)`(key: String, value: String)` \
-      `value`를 SEED 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`sha`](/reference/api2/Object/Security/sha)`(value: String)` \
-      `value`를 SHA 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`sha3_224`](/reference/api2/Object/Security/sha3_224)`(value: String)` \
-      `value`를 SHA3-224 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`sha3_256`](/reference/api2/Object/Security/sha3_256)`(value: String)` \
-      `value`를 SHA3-256 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`sha3_384`](/reference/api2/Object/Security/sha3_384)`(value: String)` \
-      `value`를 SHA3-384 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`sha3_512`](/reference/api2/Object/Security/sha3_512)`(value: String)` \
-      `value`를 SHA3-512 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`sha256`](/reference/api2/Object/Security/sha256)`(value: String)` \
-      `value`를 SHA256 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`sha384`](/reference/api2/Object/Security/sha384)`(value: String)` \
-      `value`를 SHA384 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`sha512`](/reference/api2/Object/Security/sha512)`(value: String)` \
-      `value`를 SHA512 암호화한 값을 반환합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`ulid`](/reference/api2/Object/Security/ulid)`()` \
-      ULID 값을 생성합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`uuid`](/reference/api2/Object/Security/uuid)`()` \
-      UUID 값을 생성합니다.
-    </td>
-    </tr>
-    <tr>
-    <td><span>`String`</span></td>
-    <td>
-      [`uuidv7`](/reference/api2/Object/Security/uuidv7)`()` \
-      UUIDv7 값을 생성합니다.
-    </td>
-    </tr>
-  </tbody>
-  </table>
-</section>
+    [`getDesKey`](/reference/api2/Object/Security/getDesKey)`()` \
+    DES 보조키를 생성하여 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`hashCode`](/reference/api2/Object/Security/hashCode)`(value: String)` \
+    `value`의 해시코드를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`md2`](/reference/api2/Object/Security/md2)`(value: String)` \
+    `value`를 MD2 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`md5`](/reference/api2/Object/Security/md5)`(value: String)` \
+    `value`를 MD5 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`md55`](/reference/api2/Object/Security/md55)`(value: String)` \
+    `value`를 MD5 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`rc4Decode`](/reference/api2/Object/Security/rc4Decode)`(key: String, value: String)` \
+    `value`를 RC4 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`rc4Encode`](/reference/api2/Object/Security/rc4Encode)`(key: String, value: String)` \
+    `value`를 RC4 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`seedDecode`](/reference/api2/Object/Security/seedDecode)`(key: String, value: String)` \
+    `value`를 SEED 복호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`seedEncode`](/reference/api2/Object/Security/seedEncode)`(key: String, value: String)` \
+    `value`를 SEED 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`sha`](/reference/api2/Object/Security/sha)`(value: String)` \
+    `value`를 SHA 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`sha3_224`](/reference/api2/Object/Security/sha3_224)`(value: String)` \
+    `value`를 SHA3-224 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`sha3_256`](/reference/api2/Object/Security/sha3_256)`(value: String)` \
+    `value`를 SHA3-256 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`sha3_384`](/reference/api2/Object/Security/sha3_384)`(value: String)` \
+    `value`를 SHA3-384 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`sha3_512`](/reference/api2/Object/Security/sha3_512)`(value: String)` \
+    `value`를 SHA3-512 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`sha256`](/reference/api2/Object/Security/sha256)`(value: String)` \
+    `value`를 SHA256 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`sha384`](/reference/api2/Object/Security/sha384)`(value: String)` \
+    `value`를 SHA384 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`sha512`](/reference/api2/Object/Security/sha512)`(value: String)` \
+    `value`를 SHA512 암호화한 값을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`ulid`](/reference/api2/Object/Security/ulid)`()` \
+    ULID 값을 생성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`uuid`](/reference/api2/Object/Security/uuid)`()` \
+    UUID 값을 생성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`uuidv7`](/reference/api2/Object/Security/uuidv7)`()` \
+    UUIDv7 값을 생성합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

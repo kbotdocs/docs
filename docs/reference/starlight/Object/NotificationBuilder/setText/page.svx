@@ -1,26 +1,18 @@
 
-<section>
-  알림의 내용을 설정합니다.
-</section>
-<section>
-  ## 구문
+알림의 내용을 설정합니다.
+## 구문
 
-  ~~~js
-  NotificationBuilder.setText(text);
-  ~~~
+~~~js
+NotificationBuilder.setText(text);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="text" type="String">
-    설정할 알림의 내용
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="text" type="String">
+설정할 알림의 내용
+</param-item>
+</params>
+### 반환값
 
-  `NotificationBuilder` - 해당 `NotificationBuilder` 객체
-  </section>
-</section>
+`NotificationBuilder` - 해당 `NotificationBuilder` 객체

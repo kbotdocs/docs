@@ -1,4 +1,2 @@
 
-<section>
-  `iris.kakaolink.KakaoLinkModule.KakaoLink2FAException`는 카카오링크 API 사용을 위한 2단계 인증 수행 중 발생한 예외 클래스입니다.
-</section>
+`iris.kakaolink.KakaoLinkModule.KakaoLink2FAException`는 카카오링크 API 사용을 위한 2단계 인증 수행 중 발생한 예외 클래스입니다.

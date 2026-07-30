@@ -1,21 +1,15 @@
 
-<section>
-  `Bot` 객체에 대응하는 스크립트의 활성화 여부를 제어합니다.
-</section>
-<section>
-  ## 구문
+`Bot` 객체에 대응하는 스크립트의 활성화 여부를 제어합니다.
+## 구문
 
-  ~~~js
-  bot.setPower(power);
-  ~~~
+~~~js
+bot.setPower(power);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="power" type="Boolean">
-    스크립트의 활성화 여부
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="power" type="Boolean">
+스크립트의 활성화 여부
+</param-item>
+</params>

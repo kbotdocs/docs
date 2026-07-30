@@ -1,17 +1,11 @@
 
-<section>
-  `DataBase` 객체가 사용하는 디렉토리에 존재하는 파일의 이름을 배열로 반환합니다.
-</section>
-<section>
-  ## 구문
+`DataBase` 객체가 사용하는 디렉토리에 존재하는 파일의 이름을 배열로 반환합니다.
+## 구문
 
-  ~~~js
-  DataBase.listFiles();
-  ~~~
+~~~js
+DataBase.listFiles();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String[]` - `DataBase` 객체가 사용하는 디렉토리에 존재하는 파일의 이름을 배열로 반환합니다.
-  </section>
-</section>
+`String[]` - `DataBase` 객체가 사용하는 디렉토리에 존재하는 파일의 이름을 배열로 반환합니다.

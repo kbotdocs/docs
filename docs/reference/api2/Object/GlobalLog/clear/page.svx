@@ -1,11 +1,7 @@
 
-<section>
-  글로벌 로그를 모두 삭제합니다.
-</section>
-<section>
-  ## 구문
+글로벌 로그를 모두 삭제합니다.
+## 구문
 
-  ~~~js
-  GlobalLog.clear();
-  ~~~
-</section>
+~~~js
+GlobalLog.clear();
+~~~

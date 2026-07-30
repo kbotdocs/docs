@@ -1,17 +1,11 @@
 
-<section>
-  메시지가 발신된 방의 이름입니다.
-</section>
-<section>
-  ## 구문
+메시지가 발신된 방의 이름입니다.
+## 구문
 
-  ~~~js
-  msg.room;
-  ~~~
+~~~js
+msg.room;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `String` - 메시지가 발신된 방의 이름입니다.
-  </section>
-</section>
+`String` - 메시지가 발신된 방의 이름입니다.

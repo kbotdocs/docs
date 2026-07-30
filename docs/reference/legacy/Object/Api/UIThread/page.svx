@@ -1,33 +1,27 @@
 
-<section>
-  UI 스레드 상에서 특정 함수를 실행합니다.
-</section>
-<section>
-  ## 구문
+UI 스레드 상에서 특정 함수를 실행합니다.
+## 구문
 
-  ~~~js
-  Api.UIThread(func);
-  Api.UIThread(func, onComplete);
-  ~~~
+~~~js
+Api.UIThread(func);
+Api.UIThread(func, onComplete);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="func" type="() =&gt; Any">
-    UI스레드 상에서 실행할 함수
-    </param-item>
-    <param-item param="onComplete" type="(error, result) =&gt; Any" optional>
-    결과를 처리할 함수
-    </param-item>
-    <params>
-    <param-item param="error" type="java.lang.Throwable">
-      `func` 함수 실행 도중 일어난 에러의 객체를 전달받는 인자
-    </param-item>
-    <param-item param="result" type="Any">
-      `func` 함수의 반환값을 전달받는 인자
-    </param-item>
-    </params>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="func" type="() =&gt; Any">
+UI스레드 상에서 실행할 함수
+</param-item>
+<param-item param="onComplete" type="(error, result) =&gt; Any" optional>
+결과를 처리할 함수
+</param-item>
+<params>
+<param-item param="error" type="java.lang.Throwable">
+  `func` 함수 실행 도중 일어난 에러의 객체를 전달받는 인자
+</param-item>
+<param-item param="result" type="Any">
+  `func` 함수의 반환값을 전달받는 인자
+</param-item>
+</params>
+</params>

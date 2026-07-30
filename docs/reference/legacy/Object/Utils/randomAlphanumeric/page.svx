@@ -1,26 +1,18 @@
 
-<section>
-  길이가 `length`인 영숫자(alphanumeric characters)를 무작위 생성해 반환합니다.
-</section>
-<section>
-  ## 구문
+길이가 `length`인 영숫자(alphanumeric characters)를 무작위 생성해 반환합니다.
+## 구문
 
-  ~~~js
-  Utils.randomAlphanumeric(length);
-  ~~~
+~~~js
+Utils.randomAlphanumeric(length);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="length" type="Number">
-    생성할 영숫자의 길이
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="length" type="Number">
+생성할 영숫자의 길이
+</param-item>
+</params>
+### 반환값
 
-  `String` - 길이가 `length`인 영숫자를 무작위 생성해 반환합니다.
-  </section>
-</section>
+`String` - 길이가 `length`인 영숫자를 무작위 생성해 반환합니다.

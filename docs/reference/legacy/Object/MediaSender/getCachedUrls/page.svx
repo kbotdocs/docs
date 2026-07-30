@@ -1,17 +1,11 @@
 
-<section>
-  캐시에 저장된 모든 URL을 배열 형태로 반환합니다.
-</section>
-<section>
-  ## 구문
+캐시에 저장된 모든 URL을 배열 형태로 반환합니다.
+## 구문
 
-  ~~~js
-  mediaSender.getCachedUrls();
-  ~~~
+~~~js
+mediaSender.getCachedUrls();
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String[]` - 캐시에 저장된 모든 URL을 배열 형태로 반환합니다.
-  </section>
-</section>
+`String[]` - 캐시에 저장된 모든 URL을 배열 형태로 반환합니다.

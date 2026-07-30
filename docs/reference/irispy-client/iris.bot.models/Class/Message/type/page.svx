@@ -1,17 +1,11 @@
 
-<section>
-  메시지의 유형을 나타내는 정수입니다.
-</section>
-<section>
-  ## 구문
+메시지의 유형을 나타내는 정수입니다.
+## 구문
 
-  ~~~py
-  message.type
-  ~~~
+~~~py
+message.type
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `int` - 메시지의 유형을 나타내는 정수입니다.
-  </section>
-</section>
+`int` - 메시지의 유형을 나타내는 정수입니다.

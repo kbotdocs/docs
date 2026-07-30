@@ -1,17 +1,11 @@
 
-<section>
-  방이 그룹 채팅방인지의 여부입니다.
-</section>
-<section>
-  ## 구문
+방이 그룹 채팅방인지의 여부입니다.
+## 구문
 
-  ~~~js
-  msg.isGroupChat;
-  ~~~
+~~~js
+msg.isGroupChat;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `Boolean` - 방이 그룹 채팅방인지의 여부입니다.
-  </section>
-</section>
+`Boolean` - 방이 그룹 채팅방인지의 여부입니다.

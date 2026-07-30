@@ -1,11 +1,7 @@
 
-<section>
-  새 `KakaoLinkCookieStorage` 객체를 생성합니다.
-</section>
-<section>
-  ## 구문
+새 `KakaoLinkCookieStorage` 객체를 생성합니다.
+## 구문
 
-  ~~~py
-  KakaoLinkCookieStorage()
-  ~~~
-</section>
+~~~py
+KakaoLinkCookieStorage()
+~~~

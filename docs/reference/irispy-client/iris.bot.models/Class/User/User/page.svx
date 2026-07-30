@@ -1,34 +1,28 @@
 
-<section>
-  새 `Room` 객체를 생성합니다.
-</section>
-<section>
-  ## 구문
+새 `Room` 객체를 생성합니다.
+## 구문
 
-  ~~~py
-  Room(id, chat_id, api)
-  Room(id, chat_id, api, name=name, bot_id=bot_id)
-  ~~~
+~~~py
+Room(id, chat_id, api)
+Room(id, chat_id, api, name=name, bot_id=bot_id)
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="id" type="int">
-    사용자의 id
-    </param-item>
-    <param-item param="chat_id" type="int">
-    방의 id
-    </param-item>
-    <param-item param="api" type="iris.bot._internal.iris.IrisAPI">
-    Iris API의 조작을 위한 [`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI) 인스턴스
-    </param-item>
-    <param-item param="name" type="str" defaultVal="`None`" optional>
-    사용자의 이름
-    </param-item>
-    <param-item param="bot_id" type="int" defaultVal="`None`" optional>
-    봇의 id
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="id" type="int">
+사용자의 id
+</param-item>
+<param-item param="chat_id" type="int">
+방의 id
+</param-item>
+<param-item param="api" type="iris.bot._internal.iris.IrisAPI">
+Iris API의 조작을 위한 [`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI) 인스턴스
+</param-item>
+<param-item param="name" type="str" defaultVal="`None`" optional>
+사용자의 이름
+</param-item>
+<param-item param="bot_id" type="int" defaultVal="`None`" optional>
+봇의 id
+</param-item>
+</params>

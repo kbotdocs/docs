@@ -1,17 +1,11 @@
 
-<section>
-  발신자의 이름입니다.
-</section>
-<section>
-  ## 구문
+발신자의 이름입니다.
+## 구문
 
-  ~~~js
-  sender.name;
-  ~~~
+~~~js
+sender.name;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `String` - 발신자의 이름입니다.
-  </section>
-</section>
+`String` - 발신자의 이름입니다.

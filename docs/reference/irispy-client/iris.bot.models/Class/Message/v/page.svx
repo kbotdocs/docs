@@ -1,17 +1,11 @@
 
-<section>
-  메시지의 추가적인 데이터입니다.
-</section>
-<section>
-  ## 구문
+메시지의 추가적인 데이터입니다.
+## 구문
 
-  ~~~py
-  message.v
-  ~~~
+~~~py
+message.v
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `dict` - 메시지의 추가적인 데이터입니다.
-  </section>
-</section>
+`dict` - 메시지의 추가적인 데이터입니다.

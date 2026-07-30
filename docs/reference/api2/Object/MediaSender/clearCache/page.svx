@@ -1,11 +1,7 @@
 
-<section>
-  캐시를 삭제합니다.
-</section>
-<section>
-  ## 구문
+캐시를 삭제합니다.
+## 구문
 
-  ~~~js
-  mediaSender.clearCache();
-  ~~~
-</section>
+~~~js
+mediaSender.clearCache();
+~~~

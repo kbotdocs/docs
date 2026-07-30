@@ -1,23 +1,17 @@
 
-<section>
-  `onLoaded`는 스크립트 컴파일이 완료되면 동작하는 이벤트 리스너입니다.
-</section>
-<section>
-  ## 구문
+`onLoaded`는 스크립트 컴파일이 완료되면 동작하는 이벤트 리스너입니다.
+## 구문
 
-  ~~~js
-  function onLoaded(ctx) {
+~~~js
+function onLoaded(ctx) {
 
-  }
-  ~~~
+}
+~~~
 
-  <section>
-  ### 인자
+### 인자
 
-  <params>
-    <param-item param="ctx" type="android.context.Context">
-    액티비티의 Context(컨텍스트)입니다.
-    </param-item>
-  </params>
-  </section>
-</section>
+<params>
+<param-item param="ctx" type="android.context.Context">
+액티비티의 Context(컨텍스트)입니다.
+</param-item>
+</params>

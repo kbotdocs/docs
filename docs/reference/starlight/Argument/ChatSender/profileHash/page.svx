@@ -1,17 +1,11 @@
 
-<section>
-  발신자의 프로필 이미지의 해시코드입니다.
-</section>
-<section>
-  ## 구문
+발신자의 프로필 이미지의 해시코드입니다.
+## 구문
 
-  ~~~js
-  sender.profileHash;
-  ~~~
+~~~js
+sender.profileHash;
+~~~
 
-  <section>
-  ### 반환값
+### 반환값
 
-  `String` - 발신자의 프로필 이미지의 해시코드입니다.
-  </section>
-</section>
+`String` - 발신자의 프로필 이미지의 해시코드입니다.

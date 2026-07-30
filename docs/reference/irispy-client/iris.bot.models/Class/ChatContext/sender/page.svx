@@ -1,17 +1,11 @@
 
-<section>
-  채팅을 전송한 사용자에 대한 `User` 객체입니다.
-</section>
-<section>
-  ## 구문
+채팅을 전송한 사용자에 대한 `User` 객체입니다.
+## 구문
 
-  ~~~py
-  chatContext.sender
-  ~~~
+~~~py
+chatContext.sender
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  [`iris.bot.models.User`](/reference/irispy-client/iris.bot.models/Class/User) - 채팅을 전송한 사용자에 대한 `User` 객체입니다.
-  </section>
-</section>
+[`iris.bot.models.User`](/reference/irispy-client/iris.bot.models/Class/User) - 채팅을 전송한 사용자에 대한 `User` 객체입니다.

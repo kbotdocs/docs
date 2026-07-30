@@ -1,30 +1,22 @@
 
-<section>
-  `java.net` 패키지를 이용해 `url`에 동기 GET request를 보냅니다. 지정한 인코딩 형식의 요청에 대한 응답을 문자열로 반환합니다.
-</section>
-<section>
-  ## 구문
+`java.net` 패키지를 이용해 `url`에 동기 GET request를 보냅니다. 지정한 인코딩 형식의 요청에 대한 응답을 문자열로 반환합니다.
+## 구문
 
-  ~~~js
-  Utils.getWebText2(url);
-  Utils.getWebText2(url, encoding);
-  ~~~
+~~~js
+Utils.getWebText2(url);
+Utils.getWebText2(url, encoding);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="url" type="String">
-    GET request를 보낼 서버의 URL
-    </param-item>
-    <param-item param="encoding" type="String" defaultVal="`&quot;UTF-8&quot;`" optional>
-    요청에 대한 인코딩 형식
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="url" type="String">
+GET request를 보낼 서버의 URL
+</param-item>
+<param-item param="encoding" type="String" defaultVal="`&quot;UTF-8&quot;`" optional>
+요청에 대한 인코딩 형식
+</param-item>
+</params>
+### 반환값
 
-  `String` - 인코딩 형식의 요청에 대한 응답을 `encoding?` 문자열로 반환합니다.
-  </section>
-</section>
+`String` - 인코딩 형식의 요청에 대한 응답을 `encoding?` 문자열로 반환합니다.

@@ -1,20 +1,14 @@
 
 &lt;FeatureStatusNoti status=&#123;&#123;experimental: true&#125;&#125;/&gt;
-<section>
-  ## Message.image
+## Message.image
 
-  메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
-</section>
-<section>
-  ## 구문
+메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
+## 구문
 
-  ~~~js
-  msg.image;
-  ~~~
+~~~js
+msg.image;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `android.graphics.Bitmap` - 메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.
-  </section>
-</section>
+`android.graphics.Bitmap` - 메시지에 포함된 이미지에 대한 `android.graphics.Bitmap` 값입니다.

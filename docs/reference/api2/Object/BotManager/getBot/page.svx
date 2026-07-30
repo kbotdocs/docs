@@ -1,26 +1,18 @@
 
-<section>
-  `botName` 이름의 `Bot` 객체를 반환합니다.
-</section>
-<section>
-  ## 구문
+`botName` 이름의 `Bot` 객체를 반환합니다.
+## 구문
 
-  ~~~js
-  BotManager.getBot(botName);
-  ~~~
+~~~js
+BotManager.getBot(botName);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="botName" type="String">
-    반환받을 `Bot` 객체의 이름
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="botName" type="String">
+반환받을 `Bot` 객체의 이름
+</param-item>
+</params>
+### 반환값
 
-  `String` - `botName` 이름의 `Bot` 객체를 반환합니다.
-  </section>
-</section>
+`String` - `botName` 이름의 `Bot` 객체를 반환합니다.

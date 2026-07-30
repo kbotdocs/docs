@@ -1,13 +1,9 @@
 
-<section>
-  `secondTick`은 매 틱(1초)마다 동작하는 이벤트 리스너입니다.
-</section>
-<section>
-  ## 구문
+`secondTick`은 매 틱(1초)마다 동작하는 이벤트 리스너입니다.
+## 구문
 
-  ~~~js
-  function secondTick() {
+~~~js
+function secondTick() {
 
-  }
-  ~~~
-</section>
+}
+~~~

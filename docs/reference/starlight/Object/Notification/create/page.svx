@@ -1,26 +1,18 @@
 
-<section>
-  특정 ID의 알림을 생성하는 [`NotificationBuilder`](/reference/starlight/Object/NotificationBuilder) 객체를 반환합니다.
-</section>
-<section>
-  ## 구문
+특정 ID의 알림을 생성하는 [`NotificationBuilder`](/reference/starlight/Object/NotificationBuilder) 객체를 반환합니다.
+## 구문
 
-  ~~~js
-  Notification.create(id);
-  ~~~
+~~~js
+Notification.create(id);
+~~~
 
-  <section>
-  ### 매개변수
+### 매개변수
 
-  <params>
-    <param-item param="id" type="Number">
-    생성될 알림의 ID (정수)
-    </param-item>
-  </params>
-  </section>
-  <section>
-  ### 반환값
+<params>
+<param-item param="id" type="Number">
+생성될 알림의 ID (정수)
+</param-item>
+</params>
+### 반환값
 
-  `NotificationBuilder` - `id`를 ID로 가지는 알림을 생성하는 `NotificationBuilder` 객체를 반환합니다.
-  </section>
-</section>
+`NotificationBuilder` - `id`를 ID로 가지는 알림을 생성하는 `NotificationBuilder` 객체를 반환합니다.

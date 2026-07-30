@@ -1,17 +1,11 @@
 
-<section>
-  프로젝트에 대한 정보입니다.
-</section>
-<section>
-  ## 구문
+프로젝트에 대한 정보입니다.
+## 구문
 
-  ~~~js
-  Project.info;
-  ~~~
+~~~js
+Project.info;
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  [`ProjectInfo`](https://github.com/mooner1022/reference/starlight/blob/nightly/PluginCore/src/main/java/dev/mooner/reference/starlight/plugincore/project/ProjectInfo.kt#L11) - 프로젝트에 대한 정보입니다.
-  </section>
-</section>
+[`ProjectInfo`](https://github.com/mooner1022/reference/starlight/blob/nightly/PluginCore/src/main/java/dev/mooner/reference/starlight/plugincore/project/ProjectInfo.kt#L11) - 프로젝트에 대한 정보입니다.

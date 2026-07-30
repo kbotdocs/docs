@@ -1,17 +1,11 @@
 
-<section>
-  사용자의 이름입니다. 이 프로퍼티는 캐시됩니다.
-</section>
-<section>
-  ## 구문
+사용자의 이름입니다. 이 프로퍼티는 캐시됩니다.
+## 구문
 
-  ~~~py
-  user.name
-  ~~~
+~~~py
+user.name
+~~~
 
-  <section>
-  ### 값
+### 값
 
-  `str` - 사용자의 이름입니다.
-  </section>
-</section>
+`str` - 사용자의 이름입니다.
