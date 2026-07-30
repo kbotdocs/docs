@@ -3,13 +3,16 @@ on:
   workflow_dispatch:
   push:
     branches: [ dev ]
-    paths: 
+    paths:
       - 'docs/**'
+      - 'scripts/validate-navigation.mjs'
 jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
+      - name: Validate navigation
+        run: node scripts/validate-navigation.mjs
       - name: Install rclone
         run: |
             curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
