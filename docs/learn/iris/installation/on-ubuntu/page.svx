@@ -4,7 +4,13 @@ Ubuntu는 데스크톱과 서버 환경 모두에서 널리 사용되는 Linux �
 Ubuntu에서 Iris를 구동하기 위해 docker를 사용합니다. docker의 컨테이너에 [redroid](#blank#https://github.com/remote-android/redroid-doc)를 설치합니다. 
 redroid는 안드로이드 오픈소스 프로젝트(AOSP)를 기반으로 한 안드로이드 에뮬레이터입니다. 해당 redroid에 카카오톡을 설치해 Iris가 카카오톡과 상호작용할 수 있도록 합니다.
 
-<img src="https://assets.kbotdocs.dev/learn/iris/installation/on-ubuntu/project_structure.png" />
+<img
+  src="https://assets.kbotdocs.dev/learn/iris/installation/on-ubuntu/project_structure.png"
+  width="885"
+  height="640"
+  loading="eager"
+  fetchpriority="high"
+/>
 ## iris_control 설치
 
 Ubuntu에 Iris를 설치하기 위해 `iris_control`을 설치합니다. `iris_control`은 Linux 환경에서 Iris의 설치와 제어를 위한 쉘 스크립트입니다.
