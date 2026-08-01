@@ -192,5 +192,63 @@
         }
       ]
     }
+  },
+  "replyWithMarkdown(String)": {
+    "feature": "`replyWithMarkdown(String)`",
+    "url": "/reference/legacy/Argument/Replier/replyWithMarkdown(String)",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "replyWithMarkdown(String,String,Boolean$)": {
+    "feature": "`replyWithMarkdown(String, String, Boolean?)`",
+    "url": "/reference/legacy/Argument/Replier/replyWithMarkdown(String,String,Boolean$)",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
   }
 }

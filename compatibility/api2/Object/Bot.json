@@ -507,6 +507,35 @@
       ]
     }
   },
+  "sendMarkdown": {
+    "feature": "`sendMarkdown`",
+    "url": "/reference/api2/Object/Bot/sendMarkdown",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
   "setCommandPrefix": {
     "feature": "`setCommandPrefix`",
     "url": "/reference/api2/Object/Bot/setCommandPrefix",

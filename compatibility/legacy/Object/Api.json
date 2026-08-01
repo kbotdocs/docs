@@ -718,6 +718,35 @@
       ]
     }
   },
+  "replyRoomWithMarkdown": {
+    "feature": "`replyRoomWithMarkdown`",
+    "url": "/reference/legacy/Object/Api/replyRoomWithMarkdown",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
   "replyToID": {
     "feature": "`replyToID`",
     "url": "/reference/legacy/Object/Api/replyToID",
@@ -743,6 +772,35 @@
         {
           "status": "full_support",
           "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "replyToIDWithMarkdown": {
+    "feature": "`replyToIDWithMarkdown`",
+    "url": "/reference/legacy/Object/Api/replyToIDWithMarkdown",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
         }
       ]
     }
