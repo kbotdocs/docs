@@ -1,10 +1,10 @@
 
-특정 ID로 식별되는 방에 메시지를 보내고 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
+특정 ID로 식별되는 방에 Markdown 메시지를 보내고 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
 ## 구문
 
 ~~~js
-Api.replyToID(roomId, message);
-Api.replyToID(roomId, message, hideToast);
+Api.replyToIDWithMarkdown(roomId, message);
+Api.replyToIDWithMarkdown(roomId, message, hideToast);
 ~~~
 
 ### 매개변수
@@ -14,7 +14,7 @@ Api.replyToID(roomId, message, hideToast);
 메시지를 보낼 방의 ID
 </param-item>
 <param-item param="message" type="String">
-보낼 메시지의 내용
+보낼 Markdown 메시지의 내용
 </param-item>
 <param-item param="hideToast" type="Boolean" defaultVal="`false`" optional>
 메시지를 보낼 방의 세션 존재 여부를 토스트 메시지로 출력할 것인지의 여부

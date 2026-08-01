@@ -174,7 +174,14 @@
   <td><span>`Boolean`</span></td>
   <td>
     [`replyRoom`](/reference/legacy/Object/Api/replyRoom)`(room: String | BigInt, message: String, hideToast?: Boolean = false)` \
-    특정 방에 메시지를 발신하고 메시지를 보낼 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
+    특정 방에 메시지를 보내고 메시지를 보낼 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`replyRoomWithMarkdown`](/reference/legacy/Object/Api/replyRoomWithMarkdown)`(room: String | BigInt, message: String, hideToast?: Boolean = false)` \
+    특정 방에 메시지를 보내고 Markdown 메시지를 보낼 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
   </td>
   </tr>
   <tr>
@@ -182,7 +189,15 @@
   <td>
     [`replyToID`](/reference/legacy/Object/Api/replyToID)`(roomId: String | BigInt, message: String, hideToast?:
     Boolean = false)` \
-    특정 ID로 식별되는 방에 메시지를 발신하고 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
+    특정 ID로 식별되는 방에 메시지를 보내고 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`replyToIDWithMarkdown`](/reference/legacy/Object/Api/replyToIDWithMarkdown)`(roomId: String | BigInt, message: String, hideToast?:
+    Boolean = false)` \
+    특정 ID로 식별되는 방에 Markdown 메시지를 보내고 방에 대한 세션의 존재 여부를 반환합니다. `hideToast`가 `true`일 경우 방의 세션 존재 여부를 토스트 메시지로 출력합니다.
   </td>
   </tr>
   <tr>

@@ -108,7 +108,14 @@
   <td><span>`void`</span></td>
   <td>
     [`reply`](/reference/api2/Argument/Message/reply)`(content: String)` \
-    메시지를 수신한 방에 메시지를 발신합니다.
+    메시지가 온 방에 메시지를 보냅니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`replyWithMarkdown`](/reference/api2/Argument/Message/replyWithMarkdown)`(content: String)` \
+    메시지가 온 방에 Markdown 메시지를 보냅니다.
   </td>
   </tr>
 </tbody>
