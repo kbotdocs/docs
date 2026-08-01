@@ -91,8 +91,14 @@
     "/reference/legacy/Object/Api/replyRoom": {
       "label": "`replyRoom()`"
     },
+    "/reference/legacy/Object/Api/replyRoomWithMarkdown": {
+      "label": "`replyRoomWithMarkdown()`"
+    },
     "/reference/legacy/Object/Api/replyToID": {
       "label": "`replyToID()`"
+    },
+    "/reference/legacy/Object/Api/replyToIDWithMarkdown": {
+      "label": "`replyToIDWithMarkdown()`"
     },
     "/reference/legacy/Object/Api/showToast": {
       "label": "`showToast()`"
@@ -613,6 +619,12 @@
     "/reference/legacy/Argument/Replier/replyDelayed(String,String,Number,Boolean$)": {
       "label": "`replyDelayed(String, String, Number, Boolean?)`"
     },
+    "/reference/legacy/Argument/Replier/replyWithMarkdown(String)": {
+      "label": "`replyWithMarkdown(String)`"
+    },
+    "/reference/legacy/Argument/Replier/replyWithMarkdown(String,String,Boolean$)": {
+      "label": "`replyWithMarkdown(String, String, Boolean?)`"
+    },
     "/reference/legacy/Argument/SessionManager": {
       "label": "SessionManager"
     },
@@ -732,6 +744,9 @@
     },
     "/reference/api2/Object/Bot/send": {
       "label": "`send()`"
+    },
+    "/reference/api2/Object/Bot/sendMarkdown": {
+      "label": "`sendMarkdown()`"
     },
     "/reference/api2/Object/Bot/setCommandPrefix": {
       "label": "`setCommandPrefix()`"
@@ -1390,6 +1405,9 @@
     "/reference/api2/Argument/Command/reply": {
       "label": "`reply()`"
     },
+    "/reference/api2/Argument/Command/replyWithMarkdown": {
+      "label": "`replyWithMarkdown()`"
+    },
     "/reference/api2/Argument/Image": {
       "label": "Image"
     },
@@ -1440,6 +1458,9 @@
     },
     "/reference/api2/Argument/Message/reply": {
       "label": "`reply()`"
+    },
+    "/reference/api2/Argument/Message/replyWithMarkdown": {
+      "label": "`replyWithMarkdown()`"
     },
     "/reference/api2/Argument/SessionManager": {
       "label": "SessionManager"
@@ -2350,7 +2371,9 @@
           "/reference/legacy/Object/Api/prepare",
           "/reference/legacy/Object/Api/reload",
           "/reference/legacy/Object/Api/replyRoom",
+          "/reference/legacy/Object/Api/replyRoomWithMarkdown",
           "/reference/legacy/Object/Api/replyToID",
+          "/reference/legacy/Object/Api/replyToIDWithMarkdown",
           "/reference/legacy/Object/Api/showToast",
           "/reference/legacy/Object/Api/UIThread",
           "/reference/legacy/Object/Api/unload"
@@ -2586,7 +2609,9 @@
           "/reference/legacy/Argument/Replier/reply(String)",
           "/reference/legacy/Argument/Replier/reply(String,String,Boolean$)",
           "/reference/legacy/Argument/Replier/replyDelayed(String,Number)",
-          "/reference/legacy/Argument/Replier/replyDelayed(String,String,Number,Boolean$)"
+          "/reference/legacy/Argument/Replier/replyDelayed(String,String,Number,Boolean$)",
+          "/reference/legacy/Argument/Replier/replyWithMarkdown(String)",
+          "/reference/legacy/Argument/Replier/replyWithMarkdown(String,String,Boolean$)"
         ]
       }
     ],
@@ -2712,6 +2737,7 @@
           "/reference/api2/Object/Bot/removeAllListeners",
           "/reference/api2/Object/Bot/removeListener",
           "/reference/api2/Object/Bot/send",
+          "/reference/api2/Object/Bot/sendMarkdown",
           "/reference/api2/Object/Bot/setCommandPrefix",
           "/reference/api2/Object/Bot/setPower",
           "/reference/api2/Object/Bot/unload"
@@ -3018,7 +3044,8 @@
         "label": "인스턴스 메소드",
         "docs": [
           "/reference/api2/Argument/Command/markAsRead",
-          "/reference/api2/Argument/Command/reply"
+          "/reference/api2/Argument/Command/reply",
+          "/reference/api2/Argument/Command/replyWithMarkdown"
         ]
       }
     ],
@@ -3054,7 +3081,8 @@
         "label": "인스턴스 메소드",
         "docs": [
           "/reference/api2/Argument/Message/markAsRead",
-          "/reference/api2/Argument/Message/reply"
+          "/reference/api2/Argument/Message/reply",
+          "/reference/api2/Argument/Message/replyWithMarkdown"
         ]
       }
     ],
