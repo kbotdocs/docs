@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/Argument/SessionManager",
+      "feature" : "bindSession(String,Action$)"
+   },
+   "title" : "SessionManager.bindSession(String, android.app.Notification.Action?)"
+}

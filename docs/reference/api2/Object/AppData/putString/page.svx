@@ -1,0 +1,18 @@
+
+앱 데이터에 `key: string` (`String: String` 형식) 데이터를 씁니다.
+## 구문
+
+~~~js
+AppData.putString(key, string);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="key" type="String">
+쓸 앱 데이터의 키
+</param-item>
+<param-item param="string" type="String">
+`key`에 대한 `String`형 데이터
+</param-item>
+</params>

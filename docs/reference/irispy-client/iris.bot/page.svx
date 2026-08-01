@@ -1,0 +1,19 @@
+
+`iris.bot` 모듈은 카카오톡봇의 동작을 위한 기본적인 요소들을 포함합니다.
+## 클래스
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`iris.bot`의 클래스</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>[`Bot`](/reference/irispy-client/iris.bot/Class/Bot)</span></td>
+  <td>
+    봇을 생성하고 관리하기 위한 클래스입니다.
+  </td>
+  </tr>
+</tbody>
+</table>

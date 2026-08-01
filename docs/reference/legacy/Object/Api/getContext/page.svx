@@ -1,0 +1,11 @@
+
+앱의 Context(컨텍스트)를 반환합니다.
+## 구문
+
+~~~js
+Api.getContext();
+~~~
+
+### 반환값
+
+`android.content.Context` - 앱의 Context(컨텍스트)를 반환합니다.

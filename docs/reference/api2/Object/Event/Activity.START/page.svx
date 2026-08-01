@@ -1,0 +1,11 @@
+
+API2의 [`activityStart`](/reference/api2/Event/activityStart) 이벤트입니다.
+## 구문
+
+~~~js
+Event.Activity.START;
+~~~
+
+### 상수값
+
+`String` - `"activityStart"`

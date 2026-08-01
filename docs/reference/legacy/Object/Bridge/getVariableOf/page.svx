@@ -1,0 +1,21 @@
+
+특정 스크립트의 전역 스코프 멤버를 반환합니다.
+## 구문
+
+~~~js
+Bridge.getVariableOf(scriptName, variable);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="scriptName" type="String">
+전역 스코프 멤버를 가져올 스크립트의 이름
+</param-item>
+<param-item param="variable" type="String">
+반환할 멤버의 이름
+</param-item>
+</params>
+### 반환값
+
+`any` - `scriptName` 스크립트의 전역 스코프 멤버를 반환합니다. 스크립트 또는 함수를 찾을 수 없는 경우 `null`을 반환합니다.

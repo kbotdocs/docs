@@ -1,0 +1,18 @@
+
+알림의 내용을 설정합니다.
+## 구문
+
+~~~js
+NotificationBuilder.setText(text);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="text" type="String">
+설정할 알림의 내용
+</param-item>
+</params>
+### 반환값
+
+`NotificationBuilder` - 해당 `NotificationBuilder` 객체

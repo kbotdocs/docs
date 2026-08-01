@@ -1,0 +1,15 @@
+
+`botName` 이름의 `Bot` 객체를 컴파일 전 상태로 전환(언로드)합니다.
+## 구문
+
+~~~js
+BotManager.unload(botName);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="botName" type="String">
+언로드할 `Bot` 객체의 이름
+</param-item>
+</params>

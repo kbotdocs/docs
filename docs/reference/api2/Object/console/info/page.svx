@@ -1,0 +1,17 @@
+
+정보 로그를 작성합니다. 여러 개의 인자를 전달할 수 있으며, 각 인자는 공백으로 구분되어 작성됩니다. 해당 메소드의 동작은 [`console.log()`](/reference/api2/Object/console/log)와 같습니다.
+## 구문
+
+~~~js
+console.info();
+console.info(arg1);
+console.info(arg1, arg2, /* ..., */ argN);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="...args" type="any" optional>
+작성할 정보 로그의 내용 
+</param-item>
+</params>

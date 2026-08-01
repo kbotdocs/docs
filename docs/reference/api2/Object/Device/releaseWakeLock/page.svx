@@ -1,0 +1,40 @@
+
+[wake lock](https://developer.android.com/develop/background-work/background-tasks/awake/wakelock)을 해제합니다.
+## 구문
+
+~~~js
+Device.releaseWakeLock();
+Device.releaseWakeLock(flags);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="flags" type="Number" defaultVal="`0`" optional>
+wake lock 해제 동작을 나타내는 플래그
+<details
+  summary="wake lock 해제 플래그 ([`android.os.PowerManager`](https://developer.android.com/reference/android/os/PowerManager))">
+  <table class="table-fixed">
+  <thead>
+    <tr>
+    <th colspan="2"></th>
+    </tr>
+    <tr class="hidden md:table-row">
+    <th></th>
+    <th>액션</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><span>`0 (0x00000000)`</span></td>
+    <td>wake lock을 해제합니다.</td>
+    </tr>
+    <tr>
+    <td><span>[`RELEASE_FLAG_WAIT_FOR_NO_PROXIMITY`](https://developer.android.com/reference/android/os/PowerManager#RELEASE_FLAG_WAIT_FOR_NO_PROXIMITY)` = 1 (0x00000001)`</span></td>
+    <td>근접센서가 물체를 감지하지 않을 때까지 wake lock의 해제를 연기합니다.</td>
+    </tr>
+  </tbody>
+  </table>
+</details>
+</param-item>
+</params>

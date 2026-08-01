@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/Argument/ImageDB",
+      "feature" : "getImageBitmap"
+   },
+   "title" : "ImageDB.getImageBitmap()"
+}

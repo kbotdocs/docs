@@ -1,0 +1,11 @@
+
+API2의 [`message`](/reference/api2/Event/message) 이벤트입니다.
+## 구문
+
+~~~js
+Event.MESSAGE;
+~~~
+
+### 상수값
+
+`String` - `"message"`

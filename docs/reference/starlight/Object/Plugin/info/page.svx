@@ -1,0 +1,12 @@
+
+플러그인의 기본 등록 정보입니다.
+## 구문
+
+~~~js
+Plugin.info;
+~~~
+
+### 값
+
+[`PluginInfo`](https://github.com/mooner1022/reference/starlight/blob/nightly/PluginCore/src/main/java/dev/mooner/reference/starlight/plugincore/plugin/PluginInfo.kt#L2)
+- 플러그인의 기본 등록 정보입니다.

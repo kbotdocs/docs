@@ -1,0 +1,11 @@
+
+API2의 [`batteryLevelChanged`](/reference/api2/Event/batteryLevelChanged) 이벤트입니다.
+## 구문
+
+~~~js
+Event.BATTERY_LEVEL_CHANGED;
+~~~
+
+### 상수값
+
+`String` - `"batteryLevelChanged"`

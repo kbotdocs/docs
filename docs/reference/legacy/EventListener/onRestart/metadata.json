@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/EventListener/onRestart",
+      "feature" : "*"
+   },
+   "title" : "onRestart 이벤트 리스너"
+}

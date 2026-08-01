@@ -1,0 +1,11 @@
+
+API2의 [`startCompile`](/reference/api2/Event/startCompile) 이벤트입니다.
+## 구문
+
+~~~js
+Event.START_COMPILE;
+~~~
+
+### 상수값
+
+`String` - `"startCompile"`

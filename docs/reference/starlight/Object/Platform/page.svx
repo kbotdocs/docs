@@ -1,0 +1,34 @@
+
+`Platform` 객체는 구동 중인 봇 앱의 정보를 제공하는 객체입니다.
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Platform` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`getName`](/reference/starlight/Object/Platform/getName)`()` \
+    현재 구동 중인 봇 앱의 이름을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Long`</span></td>
+  <td>
+    [`getUptime`](/reference/starlight/Object/Platform/getUptime)`()` \
+    현재 구동중인 봇 앱의 구동 시간을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`getVersion`](/reference/starlight/Object/Platform/getVersion)`()` \
+    현재 구동 중인 봇 앱의 버전을 반환합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

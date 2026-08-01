@@ -1,0 +1,15 @@
+
+새 `IrisAPI` 객체를 생성합니다.
+## 구문
+
+~~~py
+IrisAPI(iris_endpoint)
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="iris_endpoint" type="str">
+Iris가 사용할 서버의 URL
+</param-item>
+</params>

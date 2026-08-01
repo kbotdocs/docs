@@ -1,0 +1,20 @@
+
+생성된 알림의 제목과 내용을 수정합니다. `null`이 제공된 값은 수정하지 않습니다.
+## 구문
+
+~~~js
+Notification.update();
+Notification.update(title);
+Notification.update(title, message);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="title" type="String" defaultVal="`null`" optional>
+수정할 제목
+</param-item>
+<param-item param="message" type="String" defaultVal="`null`" optional>
+수정할 문자열
+</param-item>
+</params>

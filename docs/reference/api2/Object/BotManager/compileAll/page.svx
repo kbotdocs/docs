@@ -1,0 +1,7 @@
+
+각 `Bot` 객체에 대응하는 모든 스크립트를 컴파일합니다.
+## 구문
+
+~~~js
+BotManager.compileAll();
+~~~

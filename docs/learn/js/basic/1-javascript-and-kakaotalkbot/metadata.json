@@ -1,0 +1,8 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "next" : "learn/js/basic/2-ready-for-dev",
+      "prev" : "learn/js/basic"
+   },
+   "title" : "JavaScript와 카카오톡봇"
+}

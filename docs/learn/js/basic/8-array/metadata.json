@@ -1,0 +1,8 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "next" : "learn/js/basic/9-conditionals",
+      "prev" : "learn/js/basic/7-string"
+   },
+   "title" : "배열"
+}

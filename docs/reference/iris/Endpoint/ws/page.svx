@@ -1,0 +1,58 @@
+
+WebSocket 연결을 생성합니다. Iris가 메시지를 감지할 경우 해당 엔드포인트로 데이터를 전달합니다.
+
+<api-endpoint method="POST" endpoint="/ws" contentType="application/json">
+</api-endpoint>
+## 응답
+
+~~~json
+{
+  "msg": "[DECRYPTED_MESSAGE_CONTENT]",
+  "room": "[CHAT_ROOM_NAME]",
+  "sender": "[SENDER_NAME]",
+  "json": {
+    "_id": "...",
+    "chat_id": "...",
+    "user_id": "...",
+    "message": "[DECRYPTED_MESSAGE_CONTENT]",
+    "attachment": "[DECRYPTED_ATTACHMENT_INFO]",
+    "v": "{\"enc\": 0, ...}",
+    // ... chat_logs 테이블의 기타 열 ...
+  }
+}
+~~~
+
+<params>
+<param-item param="msg" type="string">
+  복호화된 메시지입니다.
+</param-item>
+<param-item param="room" type="string">
+  방의 이름입니다. 1:1 채팅의 경우 발신자의 이름입니다.
+</param-item>
+<param-item param="sender" type="string">
+  발신자의 이름입니다.
+</param-item>
+<param-item param="json" type="object">
+  `chat_logs` 테이블의 원시 데이터베이스 행입니다.
+</param-item>
+<params>
+  <param-item param="_id" type="string">
+  메시지에 대한 id입니다.
+  </param-item>
+  <param-item param="chat_id" type="string">
+  방에 대한 id입니다.
+  </param-item>
+  <param-item param="user_id" type="string">
+  발신자에 대한 id입니다.
+  </param-item>
+  <param-item param="message" type="string">
+  복호화된 메시지의 내용입니다. `msg`와 동일합니다.
+  </param-item>
+  <param-item param="attachment" type="string?">
+  복호화된 첨부 파일에 대한 정보입니다.
+  </param-item>
+  <param-item param="v" type="object">
+  `v` 열의 값입니다.
+  </param-item>
+</params>
+</params>

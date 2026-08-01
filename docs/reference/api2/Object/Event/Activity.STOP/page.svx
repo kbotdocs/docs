@@ -1,0 +1,11 @@
+
+API2의 [`activityStop`](/reference/api2/Event/activityStop) 이벤트입니다.
+## 구문
+
+~~~js
+Event.Activity.STOP;
+~~~
+
+### 상수값
+
+`String` - `"activityStop"`

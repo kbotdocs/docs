@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Event/activityStop",
+      "feature" : "*"
+   },
+   "title" : "activityStop 이벤트"
+}

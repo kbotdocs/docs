@@ -1,0 +1,108 @@
+
+`console` 객체는 앱 내 스크립트 로그에 로그를 기록할 수 있게 하는 객체입니다.
+
+<noti type="info">
+`console` 객체를 사용하기 위해 스크립트를 생성할 때 **Console API를 사용합니다 (실험적)** 항목을 선택해야 합니다.
+</noti>
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`console` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="assert">[`assert`](/reference/api2/Object/console/assert)`(condition: Boolean, ...args: any?)`</feature-status> \
+    주어진 조건식이 `false`일 경우 에러 로그를 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="clear">[`clear`](/reference/api2/Object/console/clear)`()`</feature-status> \
+    스크립트 로그를 모두 삭제합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="count">[`count`](/reference/api2/Object/console/count)`(label?: String = "default")`</feature-status> \
+    특정 레이블의 호출 횟수를 기록하고 로그에 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="countReset">[`countReset`](/reference/api2/Object/console/countReset)`(label?: String = "default")`</feature-status> \
+    특정 레이블의 호출 횟수를 초기화합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="debug">[`debug`](/reference/api2/Object/console/debug)`(...args: any?)`</feature-status> \
+    디버그 로그를 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="error">[`error`](/reference/api2/Object/console/error)`(...args: any?)`</feature-status> \
+    에러 로그를 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="info">[`info`](/reference/api2/Object/console/info)`(...args: any?)`</feature-status> \
+    정보 로그를 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="log">[`log`](/reference/api2/Object/console/log)`(...args: any?)`</feature-status> \
+    정보 로그를 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="table">[`table`](/reference/api2/Object/console/table)`(data: any?)`</feature-status> \
+    주어진 데이터를 표 형태의 텍스트로 로그에 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="time">[`time`](/reference/api2/Object/console/time)`(label?: String = "default")`</feature-status> \
+    특정 레이블의 타이머를 시작합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="timeEnd">[`timeEnd`](/reference/api2/Object/console/timeEnd)`(label?: String = "default")`</feature-status> \
+    특정 레이블의 타이머를 종료하고 타이머 시작부터 종료까지의 시간을 로그에 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="timeLog">[`timeLog`](/reference/api2/Object/console/timeLog)`(label?: String = "default", ...args: any?)`</feature-status> \
+    특정 레이블의 타이머에 로그를 작성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="api2/Object/console" feature="warn">[`warn`](/reference/api2/Object/console/warn)`(...args: any?)`</feature-status> \
+    주의 로그를 작성합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

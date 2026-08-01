@@ -1,0 +1,18 @@
+
+특정 패키지명과 이름을 가진 Java 클래스를 반환합니다.
+## 구문
+
+~~~js
+Java.type(name);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="name" type="String">
+가져올 Java 클래스의 패키지를 포함한 전체 이름 (예: `java.lang.System`)
+</param-item>
+</params>
+### 반환값
+
+`java.lang.Class<*>` - `name`에 대응하는 Java 클래스를 반환합니다.

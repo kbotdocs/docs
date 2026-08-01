@@ -1,0 +1,18 @@
+
+`value`를 Base64 복호화한 값을 반환합니다.
+## 구문
+
+~~~js
+Security.base64Decode(value);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="value" type="String">
+복호화할 값
+</param-item>
+</params>
+### 반환값
+
+`String` - `value`를 Base64 복호화한 값을 반환합니다.

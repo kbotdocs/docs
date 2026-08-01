@@ -1,0 +1,7 @@
+
+캐시를 삭제합니다.
+## 구문
+
+~~~js
+mediaSender.clearCache();
+~~~

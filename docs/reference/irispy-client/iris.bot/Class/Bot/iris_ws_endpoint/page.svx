@@ -1,0 +1,11 @@
+
+Iris가 사용하는 WebSocket 엔드포인트입니다.
+## 구문
+
+~~~py
+bot.iris_ws_endpoint
+~~~
+
+### 값
+
+`str` - Iris가 사용하는 WebSocket 엔드포인트입니다.

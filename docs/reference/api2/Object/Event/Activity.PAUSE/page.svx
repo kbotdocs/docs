@@ -1,0 +1,11 @@
+
+API2의 [`activityPause`](/reference/api2/Event/activityPause) 이벤트입니다.
+## 구문
+
+~~~js
+Event.Activity.PAUSE;
+~~~
+
+### 상수값
+
+`String` - `"activityPause"`

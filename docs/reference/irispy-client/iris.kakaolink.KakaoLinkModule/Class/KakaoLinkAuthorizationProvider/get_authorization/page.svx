@@ -1,0 +1,11 @@
+
+카카오링크 API에 접근하기 위한 access token을 반환합니다.
+## 구문
+
+~~~py
+kakaoLinkAuthorizationProvider.get_authorization()
+~~~
+
+### 반환값
+
+`str` - 카카오링크 API에 접근하기 위한 access token을 반환합니다.

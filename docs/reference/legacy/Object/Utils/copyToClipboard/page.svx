@@ -1,0 +1,15 @@
+
+문자열 `value`를 클립보드에 복사합니다.
+## 구문
+
+~~~js
+Utils.copyToClipboard(value);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="value" type="String">
+클립보드에 복사할 문자열 값
+</param-item>
+</params>

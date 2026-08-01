@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Argument/SessionManager",
+      "feature" : "bindSession(String,String,Action$)"
+   },
+   "title" : "SessionManager.bindSession(String, String, android.app.Notification.Action?)"
+}

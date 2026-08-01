@@ -1,0 +1,15 @@
+
+주어진 시간(초; s)동안 진동을 울립니다.
+## 구문
+
+~~~js
+Utils.vibrate(sec);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="sec" type="Number">
+주어진 시간(초; s)동안 진동을 울립니다.
+</param-item>
+</params>

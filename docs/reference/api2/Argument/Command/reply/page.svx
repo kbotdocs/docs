@@ -1,0 +1,15 @@
+
+메시지가 발신된 방에 메시지를 발신합니다.
+## 구문
+
+~~~js
+cmd.reply(content);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="content" type="String">
+보낼 메시지의 내용
+</param-item>
+</params>

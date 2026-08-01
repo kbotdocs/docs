@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Event/activityBackPressed",
+      "feature" : "*"
+   },
+   "title" : "activityBackPressed 이벤트"
+}

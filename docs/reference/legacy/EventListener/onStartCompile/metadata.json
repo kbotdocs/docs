@@ -1,0 +1,8 @@
+{
+   "category" : "레거시 API",
+   "compat" : {
+      "data" : "legacy/EventListener/onStartCompile",
+      "feature" : "*"
+   },
+   "title" : "onStartCompile 이벤트 리스너"
+}

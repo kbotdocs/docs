@@ -1,0 +1,11 @@
+
+사용자의 프로필에 대한 `Avatar` 객체입니다.
+## 구문
+
+~~~py
+user.avatar
+~~~
+
+### 값
+
+[`iris.bot.models.Avatar`](/reference/irispy-client/iris.bot.models/Class/Avatar) - 사용자의 프로필에 대한 `Avatar` 객체입니다.

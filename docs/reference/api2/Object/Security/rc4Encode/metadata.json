@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Object/Security",
+      "feature" : "rc4Encode"
+   },
+   "title" : "Security.rc4Encode()"
+}

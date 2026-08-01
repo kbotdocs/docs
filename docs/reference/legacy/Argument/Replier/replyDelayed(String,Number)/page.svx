@@ -1,0 +1,18 @@
+
+일정 시간 후 메시지를 수신한 방에 메시지를 발신합니다.
+## 구문
+
+~~~js
+replier.replyDelayed(msg, delay);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="msg" type="String">
+일정 시간 후 보낼 메시지의 내용
+</param-item>
+<param-item param="delay" type="Number">
+지연할 시간(밀리초; ms)
+</param-item>
+</params>

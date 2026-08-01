@@ -1,0 +1,7 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "prev" : "learn/js/advanced"
+   },
+   "title" : "생성자 함수"
+}

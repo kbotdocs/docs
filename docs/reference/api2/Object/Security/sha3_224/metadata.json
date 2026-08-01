@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Object/Security",
+      "feature" : "sha3_224"
+   },
+   "title" : "Security.sha3_224()"
+}

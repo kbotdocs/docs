@@ -1,0 +1,11 @@
+
+API2의 [`command`](/reference/api2/Event/command) 이벤트입니다.
+## 구문
+
+~~~js
+Event.COMMAND;
+~~~
+
+### 상수값
+
+`String` - `"command"`

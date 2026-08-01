@@ -1,0 +1,23 @@
+
+`broadcastName`를 이름으로 하는 브로드캐스트에 대한 특정 리스너를 제거합니다.
+## 구문
+
+~~~js
+Broadcast.unregister(broadcastName, task);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="broadcastName" type="String">
+리스너를 제거할 브로드캐스트 이름
+</param-item>
+<param-item param="task" type="(value) =&gt; Any">
+제거할 리스너
+</param-item>
+<params>
+<param-item param="value" type="Any">
+  브로드캐스트을 통해 송출된 값
+</param-item>
+</params>
+</params>

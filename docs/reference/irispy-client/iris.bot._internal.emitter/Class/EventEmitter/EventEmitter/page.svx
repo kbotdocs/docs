@@ -1,0 +1,16 @@
+
+새 `EventEmitter` 객체를 생성합니다.
+## 구문
+
+~~~py
+EventEmitter()
+EventEmitter(max_workers=max_workers)
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="max_workers" type="int" defaultValue="None" optional>
+이벤트 처리에 사용할 최대 스레드 수
+</param-item>
+</params>

@@ -1,0 +1,8 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "next" : "learn/js/basic/3-write-script",
+      "prev" : "learn/js/basic/1-javascript-and-kakaotalkbot"
+   },
+   "title" : "개발 준비"
+}

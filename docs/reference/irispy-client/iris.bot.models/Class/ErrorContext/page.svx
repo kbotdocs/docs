@@ -1,0 +1,41 @@
+
+`iris.bot.models.ErrorContext`는 에러 이벤트의 context입니다. 이 클래스는 데이터 클래스입니다.
+## 인스턴스 프로퍼티
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`iris.bot.models.ErrorContext`의 인스턴스 프로퍼티</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`list[`*[`Any`](https://docs.python.org/3/library/typing.html#typing.Any)*`]`</span></td>
+  <td>
+    [`args`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/args) \
+    에러가 발생한 이벤트 핸들러에 전달된 인자입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`str`</span></td>
+  <td>
+    [`event`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/event) \
+    에러가 발생한 이벤트의 이름입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Exception`</span></td>
+  <td>
+    [`exception`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/exception) \
+    에러에 대한 `Exception` 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>*[`Callable`](https://docs.python.org/3/library/typing.html#typing.Callable)*</span></td>
+  <td>
+    [`func`](/reference/irispy-client/iris.bot.models/Class/ErrorContext/func) \
+    에러가 발생한 이벤트 핸들러입니다.
+  </td>
+  </tr>
+</tbody>
+</table>

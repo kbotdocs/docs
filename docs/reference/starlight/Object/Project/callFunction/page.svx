@@ -1,0 +1,26 @@
+
+프로젝트의 스레드 풀에서 작동 중인 `job`의 수를 반환합니다.
+## 구문
+
+~~~js
+Project.callFunction(name: String, args: Any[], onException: (throwable: java.lang.Throwable) => Any);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="name" type="String">
+호출할 함수의 이름
+</param-item>
+<param-item param="args" type="Any[]">
+호출할 함수에게 전달할 인자
+</param-item>
+<param-item param="onException" type="(throwable) =&gt; Any">
+예외가 발생할 때 호출할 콜백 함수
+</param-item>
+<params>
+<param-item param="throwable" type="java.lang.Throwable">
+  발생한 예외에 대한 `java.lang.Throwable` 값
+</param-item>
+</params>
+</params>

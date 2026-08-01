@@ -1,0 +1,11 @@
+
+API2의 [`activityBackPressed`](/reference/api2/Event/activityBackPressed) 이벤트입니다.
+## 구문
+
+~~~js
+Event.Activity.BACK_PRESSED;
+~~~
+
+### 상수값
+
+`String` - `"activityBackPressed"`

@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Event/activityDestroy",
+      "feature" : "*"
+   },
+   "title" : "activityDestroy 이벤트"
+}

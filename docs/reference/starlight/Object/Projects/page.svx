@@ -1,0 +1,34 @@
+
+`Projects` 객체는 프로젝트에 접근하기 위한 객체입니다.
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Projects` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>[`Project`](/reference/starlight/Object/Project)</span></td>
+  <td>
+    [`getSelf`](/reference/starlight/Object/Projects/getSelf)`()` \
+    프로젝트에 대한 `Project` 객체를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`Project`](/reference/starlight/Object/Project)</span></td>
+  <td>
+    [`ofId`](/reference/starlight/Object/Projects/ofId)`(id: String)` \
+    특정 ID로 식별되는 프로젝트에 대한 `Project` 객체를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`Project`](/reference/starlight/Object/Project)</span></td>
+  <td>
+    [`ofName`](/reference/starlight/Object/Projects/ofName)`(name: String)` \
+    특정 이름의 프로젝트에 대한 `Project` 객체를 반환합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

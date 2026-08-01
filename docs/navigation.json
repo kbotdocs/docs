@@ -1,0 +1,3882 @@
+{
+  "schemaVersion": 1,
+  "docs": {
+    "/reference/legacy": {
+      "label": "레거시 API"
+    },
+    "/reference/legacy/Function/clearInterval": {
+      "label": "`clearInterval()`"
+    },
+    "/reference/legacy/Function/clearTimeout": {
+      "label": "`clearTimeout()`"
+    },
+    "/reference/legacy/Function/require": {
+      "label": "`require()`"
+    },
+    "/reference/legacy/Function/setInterval": {
+      "label": "`setInterval()`"
+    },
+    "/reference/legacy/Function/setTimeout": {
+      "label": "`setTimeout()`"
+    },
+    "/reference/legacy/Object/Api": {
+      "label": "Api"
+    },
+    "/reference/legacy/Object/Api/canReply": {
+      "label": "`canReply()`"
+    },
+    "/reference/legacy/Object/Api/compile": {
+      "label": "`compile()`"
+    },
+    "/reference/legacy/Object/Api/gc": {
+      "label": "`gc()`"
+    },
+    "/reference/legacy/Object/Api/getActiveThreadsCount": {
+      "label": "`getActiveThreadsCount()`"
+    },
+    "/reference/legacy/Object/Api/getContext": {
+      "label": "`getContext()`"
+    },
+    "/reference/legacy/Object/Api/getLastImage": {
+      "label": "`getLastImage()`"
+    },
+    "/reference/legacy/Object/Api/getLastImageBitmap": {
+      "label": "`getLastImageBitmap()`"
+    },
+    "/reference/legacy/Object/Api/getRoomList": {
+      "label": "`getRoomList()`"
+    },
+    "/reference/legacy/Object/Api/getScriptNames": {
+      "label": "`getScriptNames()`"
+    },
+    "/reference/legacy/Object/Api/interruptThreads": {
+      "label": "`interruptThreads()`"
+    },
+    "/reference/legacy/Object/Api/isCompiled": {
+      "label": "`isCompiled()`"
+    },
+    "/reference/legacy/Object/Api/isCompiling": {
+      "label": "`isCompiling()`"
+    },
+    "/reference/legacy/Object/Api/isOn": {
+      "label": "`isOn()`"
+    },
+    "/reference/legacy/Object/Api/isTerminated": {
+      "label": "`isTerminated()`"
+    },
+    "/reference/legacy/Object/Api/makeNoti": {
+      "label": "`makeNoti()`"
+    },
+    "/reference/legacy/Object/Api/markAsRead": {
+      "label": "`markAsRead()`"
+    },
+    "/reference/legacy/Object/Api/markAsReadOnID": {
+      "label": "`markAsReadOnID()`"
+    },
+    "/reference/legacy/Object/Api/off": {
+      "label": "`off()`"
+    },
+    "/reference/legacy/Object/Api/on": {
+      "label": "`on()`"
+    },
+    "/reference/legacy/Object/Api/papagoTranslate": {
+      "label": "<feature-status source='legacy/Object/Api' feature='papagoTranslate'>`papagoTranslate()`</feature-status>"
+    },
+    "/reference/legacy/Object/Api/prepare": {
+      "label": "`prepare()`"
+    },
+    "/reference/legacy/Object/Api/reload": {
+      "label": "`reload()`"
+    },
+    "/reference/legacy/Object/Api/replyRoom": {
+      "label": "`replyRoom()`"
+    },
+    "/reference/legacy/Object/Api/replyToID": {
+      "label": "`replyToID()`"
+    },
+    "/reference/legacy/Object/Api/showToast": {
+      "label": "`showToast()`"
+    },
+    "/reference/legacy/Object/Api/UIThread": {
+      "label": "`UIThread()`"
+    },
+    "/reference/legacy/Object/Api/unload": {
+      "label": "`unload()`"
+    },
+    "/reference/legacy/Object/AppData": {
+      "label": "AppData"
+    },
+    "/reference/legacy/Object/AppData/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/legacy/Object/AppData/getBoolean": {
+      "label": "`getBoolean()`"
+    },
+    "/reference/legacy/Object/AppData/getInt": {
+      "label": "`getInt()`"
+    },
+    "/reference/legacy/Object/AppData/getString": {
+      "label": "`getString()`"
+    },
+    "/reference/legacy/Object/AppData/putBoolean": {
+      "label": "`putBoolean()`"
+    },
+    "/reference/legacy/Object/AppData/putInt": {
+      "label": "`putInt()`"
+    },
+    "/reference/legacy/Object/AppData/putString": {
+      "label": "`putString()`"
+    },
+    "/reference/legacy/Object/AppData/remove": {
+      "label": "`remove()`"
+    },
+    "/reference/legacy/Object/Bridge": {
+      "label": "Bridge"
+    },
+    "/reference/legacy/Object/Bridge/callFunctionOf": {
+      "label": "`callFunctionOf()`"
+    },
+    "/reference/legacy/Object/Bridge/evalInScript": {
+      "label": "`evalInScript()`"
+    },
+    "/reference/legacy/Object/Bridge/evaluateStringIn": {
+      "label": "`evaluateStringIn()`"
+    },
+    "/reference/legacy/Object/Bridge/getActiveScripts": {
+      "label": "`getActiveScripts()`"
+    },
+    "/reference/legacy/Object/Bridge/getGlobalVariable": {
+      "label": "<feature-status source='legacy/Object/Bridge' feature='getGlobalVariable'>`getGlobalVariable()`</feature-status>"
+    },
+    "/reference/legacy/Object/Bridge/getMemberNamesOf": {
+      "label": "`getMemberNamesOf()`"
+    },
+    "/reference/legacy/Object/Bridge/getScopeOf": {
+      "label": "`getScopeOf()`"
+    },
+    "/reference/legacy/Object/Bridge/getVariable": {
+      "label": "<feature-status source='legacy/Object/Bridge' feature='getVariable'>`getVariable()`</feature-status>"
+    },
+    "/reference/legacy/Object/Bridge/getVariableOf": {
+      "label": "`getVariableOf()`"
+    },
+    "/reference/legacy/Object/Bridge/hasVariableOf": {
+      "label": "`hasVariableOf()`"
+    },
+    "/reference/legacy/Object/Bridge/isAllowed": {
+      "label": "`isAllowed()`"
+    },
+    "/reference/legacy/Object/Bridge/isScriptActive": {
+      "label": "`isScriptActive()`"
+    },
+    "/reference/legacy/Object/Bridge/setGlobalVariable": {
+      "label": "<feature-status source='legacy/Object/Bridge' feature='setGlobalVariable'>`setGlobalVariable()`</feature-status>"
+    },
+    "/reference/legacy/Object/Bridge/setVariable": {
+      "label": "<feature-status source='legacy/Object/Bridge' feature='setVariable'>`setVariable()`</feature-status>"
+    },
+    "/reference/legacy/Object/Bridge/setVariableOf": {
+      "label": "`setVariableOf()`"
+    },
+    "/reference/legacy/Object/console": {
+      "label": "<feature-status source='legacy/Object/console' feature='console'>console</feature-status>"
+    },
+    "/reference/legacy/Object/console/clear": {
+      "label": "<feature-status source='legacy/Object/console' feature='clear'>`clear()`</feature-status>"
+    },
+    "/reference/legacy/Object/console/debug": {
+      "label": "<feature-status source='legacy/Object/console' feature='debug'>`debug()`</feature-status>"
+    },
+    "/reference/legacy/Object/console/error": {
+      "label": "<feature-status source='legacy/Object/console' feature='error'>`error()`</feature-status>"
+    },
+    "/reference/legacy/Object/console/info": {
+      "label": "<feature-status source='legacy/Object/console' feature='info'>`info()`</feature-status>"
+    },
+    "/reference/legacy/Object/console/log": {
+      "label": "<feature-status source='legacy/Object/console' feature='log'>`log()`</feature-status>"
+    },
+    "/reference/legacy/Object/DataBase": {
+      "label": "DataBase"
+    },
+    "/reference/legacy/Object/DataBase/appendDataBase": {
+      "label": "`appendDataBase()`"
+    },
+    "/reference/legacy/Object/DataBase/clearDataBase": {
+      "label": "`clearDataBase()`"
+    },
+    "/reference/legacy/Object/DataBase/exists": {
+      "label": "`exists()`"
+    },
+    "/reference/legacy/Object/DataBase/getDataBase": {
+      "label": "`getDataBase()`"
+    },
+    "/reference/legacy/Object/DataBase/getDataBaseDir": {
+      "label": "`getDataBaseDir()`"
+    },
+    "/reference/legacy/Object/DataBase/getFileSize": {
+      "label": "`getFileSize()`"
+    },
+    "/reference/legacy/Object/DataBase/listFiles": {
+      "label": "`listFiles()`"
+    },
+    "/reference/legacy/Object/DataBase/removeDataBase": {
+      "label": "`removeDataBase()`"
+    },
+    "/reference/legacy/Object/DataBase/setDataBase": {
+      "label": "`setDataBase()`"
+    },
+    "/reference/legacy/Object/DataBase/setDataBaseDir": {
+      "label": "`setDataBaseDir()`"
+    },
+    "/reference/legacy/Object/Device": {
+      "label": "Device"
+    },
+    "/reference/legacy/Object/Device/acquireWakeLock": {
+      "label": "`acquireWakeLock()`"
+    },
+    "/reference/legacy/Object/Device/getAndroidVersionCode": {
+      "label": "`getAndroidVersionCode()`"
+    },
+    "/reference/legacy/Object/Device/getAndroidVersionName": {
+      "label": "`getAndroidVersionName()`"
+    },
+    "/reference/legacy/Object/Device/getApiLevel": {
+      "label": "`getApiLevel()`"
+    },
+    "/reference/legacy/Object/Device/getBatteryHealth": {
+      "label": "`getBatteryHealth()`"
+    },
+    "/reference/legacy/Object/Device/getBatteryIntent": {
+      "label": "`getBatteryIntent()`"
+    },
+    "/reference/legacy/Object/Device/getBatteryLevel": {
+      "label": "`getBatteryLevel()`"
+    },
+    "/reference/legacy/Object/Device/getBatteryStatus": {
+      "label": "`getBatteryStatus()`"
+    },
+    "/reference/legacy/Object/Device/getBatteryTemp": {
+      "label": "`getBatteryTemp()`"
+    },
+    "/reference/legacy/Object/Device/getBatteryTemperature": {
+      "label": "`getBatteryTemperature()`"
+    },
+    "/reference/legacy/Object/Device/getBatteryVoltage": {
+      "label": "`getBatteryVoltage()`"
+    },
+    "/reference/legacy/Object/Device/getBuild": {
+      "label": "`getBuild()`"
+    },
+    "/reference/legacy/Object/Device/getConnectedNetworkType": {
+      "label": "`getConnectedNetworkType()`"
+    },
+    "/reference/legacy/Object/Device/getFreeMemory": {
+      "label": "`getFreeMemory()`"
+    },
+    "/reference/legacy/Object/Device/getFreeStorageSpace": {
+      "label": "`getFreeStorageSpace()`"
+    },
+    "/reference/legacy/Object/Device/getMaxMemory": {
+      "label": "`getMaxMemory()`"
+    },
+    "/reference/legacy/Object/Device/getModelName": {
+      "label": "`getModelName()`"
+    },
+    "/reference/legacy/Object/Device/getPhoneBrand": {
+      "label": "`getPhoneBrand()`"
+    },
+    "/reference/legacy/Object/Device/getPhoneModel": {
+      "label": "`getPhoneModel()`"
+    },
+    "/reference/legacy/Object/Device/getPlugType": {
+      "label": "`getPlugType()`"
+    },
+    "/reference/legacy/Object/Device/getTotalMemory": {
+      "label": "`getTotalMemory()`"
+    },
+    "/reference/legacy/Object/Device/getTotalStorageSpace": {
+      "label": "`getTotalStorageSpace()`"
+    },
+    "/reference/legacy/Object/Device/getWifiName": {
+      "label": "`getWifiName()`"
+    },
+    "/reference/legacy/Object/Device/isCharging": {
+      "label": "`isCharging()`"
+    },
+    "/reference/legacy/Object/Device/isPowerSaveMode": {
+      "label": "`isPowerSaveMode()`"
+    },
+    "/reference/legacy/Object/Device/isScreenOn": {
+      "label": "`isScreenOn()`"
+    },
+    "/reference/legacy/Object/Device/releaseWakeLock": {
+      "label": "`releaseWakeLock()`"
+    },
+    "/reference/legacy/Object/FileStream": {
+      "label": "FileStream"
+    },
+    "/reference/legacy/Object/FileStream/append": {
+      "label": "`append()`"
+    },
+    "/reference/legacy/Object/FileStream/copyFile": {
+      "label": "`copyFile()`"
+    },
+    "/reference/legacy/Object/FileStream/create": {
+      "label": "`create()`"
+    },
+    "/reference/legacy/Object/FileStream/createDir": {
+      "label": "`createDir()`"
+    },
+    "/reference/legacy/Object/FileStream/exists": {
+      "label": "`exists()`"
+    },
+    "/reference/legacy/Object/FileStream/getExtension": {
+      "label": "`getExtension()`"
+    },
+    "/reference/legacy/Object/FileStream/getFileName": {
+      "label": "`getFileName()`"
+    },
+    "/reference/legacy/Object/FileStream/getFileSize": {
+      "label": "`getFileSize()`"
+    },
+    "/reference/legacy/Object/FileStream/getParentPath": {
+      "label": "`getParentPath()`"
+    },
+    "/reference/legacy/Object/FileStream/getSdcardPath": {
+      "label": "`getSdcardPath()`"
+    },
+    "/reference/legacy/Object/FileStream/isDirectory": {
+      "label": "`isDirectory()`"
+    },
+    "/reference/legacy/Object/FileStream/isFile": {
+      "label": "`isFile()`"
+    },
+    "/reference/legacy/Object/FileStream/listFiles": {
+      "label": "`listFiles()`"
+    },
+    "/reference/legacy/Object/FileStream/moveFile": {
+      "label": "`moveFile()`"
+    },
+    "/reference/legacy/Object/FileStream/read": {
+      "label": "`read()`"
+    },
+    "/reference/legacy/Object/FileStream/readJSON": {
+      "label": "`readJSON()`"
+    },
+    "/reference/legacy/Object/FileStream/remove": {
+      "label": "`remove()`"
+    },
+    "/reference/legacy/Object/FileStream/save": {
+      "label": "`save()`"
+    },
+    "/reference/legacy/Object/FileStream/saveJSON": {
+      "label": "`saveJSON()`"
+    },
+    "/reference/legacy/Object/FileStream/write": {
+      "label": "`write()`"
+    },
+    "/reference/legacy/Object/FileStream/writeJSON": {
+      "label": "`writeJSON()`"
+    },
+    "/reference/legacy/Object/Log": {
+      "label": "Log"
+    },
+    "/reference/legacy/Object/Log/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/legacy/Object/Log/d": {
+      "label": "`d()`"
+    },
+    "/reference/legacy/Object/Log/debug": {
+      "label": "`debug()`"
+    },
+    "/reference/legacy/Object/Log/e": {
+      "label": "`e()`"
+    },
+    "/reference/legacy/Object/Log/error": {
+      "label": "`error()`"
+    },
+    "/reference/legacy/Object/Log/i": {
+      "label": "`i()`"
+    },
+    "/reference/legacy/Object/Log/info": {
+      "label": "`info()`"
+    },
+    "/reference/legacy/Object/Log/log": {
+      "label": "`log()`"
+    },
+    "/reference/legacy/Object/MediaSender": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='MediaSender'>MediaSender</feature-status>"
+    },
+    "/reference/legacy/Object/MediaSender/clearCache": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='clearCache'>`clearCache()`</feature-status>"
+    },
+    "/reference/legacy/Object/MediaSender/getBaseDirectory": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getBaseDirectory'>`getBaseDirectory()`</feature-status>"
+    },
+    "/reference/legacy/Object/MediaSender/getCachedUrls": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getCachedUrls'>`getCachedUrls()`</feature-status>"
+    },
+    "/reference/legacy/Object/MediaSender/getCacheSize": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getCacheSize'>`getCacheSize()`</feature-status>"
+    },
+    "/reference/legacy/Object/MediaSender/getSupportedFormats": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getSupportedFormats'>`getSupportedFormats()`</feature-status>"
+    },
+    "/reference/legacy/Object/MediaSender/returnToAppNow": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='returnToAppNow'>`returnToAppNow()`</feature-status>"
+    },
+    "/reference/legacy/Object/MediaSender/send": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='send'>`send()`</feature-status>"
+    },
+    "/reference/legacy/Object/Utils": {
+      "label": "Utils"
+    },
+    "/reference/legacy/Object/Utils/compress": {
+      "label": "`compress()`"
+    },
+    "/reference/legacy/Object/Utils/copyToClipboard": {
+      "label": "`copyToClipboard()`"
+    },
+    "/reference/legacy/Object/Utils/delay": {
+      "label": "`delay()`"
+    },
+    "/reference/legacy/Object/Utils/getAndroidVersionCode": {
+      "label": "`getAndroidVersionCode()`"
+    },
+    "/reference/legacy/Object/Utils/getAndroidVersionName": {
+      "label": "`getAndroidVersionName()`"
+    },
+    "/reference/legacy/Object/Utils/getLw": {
+      "label": "`getLw()`"
+    },
+    "/reference/legacy/Object/Utils/getLwLined": {
+      "label": "`getLwLined()`"
+    },
+    "/reference/legacy/Object/Utils/getPhoneBrand": {
+      "label": "`getPhoneBrand()`"
+    },
+    "/reference/legacy/Object/Utils/getPhoneModel": {
+      "label": "`getPhoneModel()`"
+    },
+    "/reference/legacy/Object/Utils/getRandomUserAgent": {
+      "label": "`getRandomUserAgent()`"
+    },
+    "/reference/legacy/Object/Utils/getWeatherJSON": {
+      "label": "`getWeatherJSON()`"
+    },
+    "/reference/legacy/Object/Utils/getWebText": {
+      "label": "`getWebText()`"
+    },
+    "/reference/legacy/Object/Utils/getWebText2": {
+      "label": "`getWebText2()`"
+    },
+    "/reference/legacy/Object/Utils/getZoneIdByName": {
+      "label": "`getZoneIdByName()`"
+    },
+    "/reference/legacy/Object/Utils/isUndefined": {
+      "label": "`isUndefined()`"
+    },
+    "/reference/legacy/Object/Utils/measureNanoTime": {
+      "label": "`measureNanoTime()`"
+    },
+    "/reference/legacy/Object/Utils/measureTimeMillis": {
+      "label": "`measureTimeMillis()`"
+    },
+    "/reference/legacy/Object/Utils/parse": {
+      "label": "`parse()`"
+    },
+    "/reference/legacy/Object/Utils/randomAlphanumeric": {
+      "label": "`randomAlphanumeric()`"
+    },
+    "/reference/legacy/Object/Utils/removeRLO": {
+      "label": "`removeRLO()`"
+    },
+    "/reference/legacy/Object/Utils/removeTags": {
+      "label": "`removeTags()`"
+    },
+    "/reference/legacy/Object/Utils/sleep": {
+      "label": "`sleep()`"
+    },
+    "/reference/legacy/Object/Utils/toast": {
+      "label": "`toast()`"
+    },
+    "/reference/legacy/Object/Utils/vibrate": {
+      "label": "`vibrate()`"
+    },
+    "/reference/legacy/Object/Utils/xmlToJson": {
+      "label": "`xmlToJson()`"
+    },
+    "/reference/legacy/EventListener/onBackPressed": {
+      "label": "`onBackPressed`"
+    },
+    "/reference/legacy/EventListener/onCreate": {
+      "label": "`onCreate`"
+    },
+    "/reference/legacy/EventListener/onDestroy": {
+      "label": "`onDestroy`"
+    },
+    "/reference/legacy/EventListener/onLoaded": {
+      "label": "`onLoaded`"
+    },
+    "/reference/legacy/EventListener/onNotificationPosted": {
+      "label": "`onNotificationPosted`"
+    },
+    "/reference/legacy/EventListener/onNotificationRemoved": {
+      "label": "`onNotificationRemoved`"
+    },
+    "/reference/legacy/EventListener/onPause": {
+      "label": "`onPause`"
+    },
+    "/reference/legacy/EventListener/onRestart": {
+      "label": "`onRestart`"
+    },
+    "/reference/legacy/EventListener/onResume": {
+      "label": "`onResume`"
+    },
+    "/reference/legacy/EventListener/onStart": {
+      "label": "`onStart`"
+    },
+    "/reference/legacy/EventListener/onStartCompile": {
+      "label": "`onStartCompile`"
+    },
+    "/reference/legacy/EventListener/onStop": {
+      "label": "`onStop`"
+    },
+    "/reference/legacy/EventListener/response": {
+      "label": "`response`"
+    },
+    "/reference/legacy/EventListener/secondTick": {
+      "label": "`secondTick`"
+    },
+    "/reference/legacy/Argument/ImageDB": {
+      "label": "ImageDB"
+    },
+    "/reference/legacy/Argument/ImageDB/getImage": {
+      "label": "`getImage()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getImageBase64": {
+      "label": "`getImageBase64()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getImageBitmap": {
+      "label": "`getImageBitmap()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getImageHash": {
+      "label": "`getImageHash()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getImageMD5": {
+      "label": "`getImageMD5()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getImageSHA": {
+      "label": "`getImageSHA()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getProfileBase64": {
+      "label": "`getProfileBase64()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getProfileBitmap": {
+      "label": "`getProfileBitmap()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getProfileHash": {
+      "label": "`getProfileHash()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getProfileImage": {
+      "label": "`getProfileImage()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getProfileMD5": {
+      "label": "`getProfileMD5()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getProfileSHA": {
+      "label": "`getProfileSHA()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getRoomBitmap": {
+      "label": "`getRoomBitmap()`"
+    },
+    "/reference/legacy/Argument/ImageDB/getRoomImage": {
+      "label": "`getRoomImage()`"
+    },
+    "/reference/legacy/Argument/Replier": {
+      "label": "Replier"
+    },
+    "/reference/legacy/Argument/Replier/markAsRead": {
+      "label": "`markAsRead()`"
+    },
+    "/reference/legacy/Argument/Replier/reply(String)": {
+      "label": "`reply(String)`"
+    },
+    "/reference/legacy/Argument/Replier/reply(String,String,Boolean$)": {
+      "label": "`reply(String, String, Boolean?)`"
+    },
+    "/reference/legacy/Argument/Replier/replyDelayed(String,Number)": {
+      "label": "`replyDelayed(String, Number)`"
+    },
+    "/reference/legacy/Argument/Replier/replyDelayed(String,String,Number,Boolean$)": {
+      "label": "`replyDelayed(String, String, Number, Boolean?)`"
+    },
+    "/reference/legacy/Argument/SessionManager": {
+      "label": "SessionManager"
+    },
+    "/reference/legacy/Argument/SessionManager/bindSession(String,Action$)": {
+      "label": "`bindSession(String, android.app.Notification.Action?)`"
+    },
+    "/reference/legacy/Argument/SessionManager/bindSession(String,String,Action$)": {
+      "label": "`bindSession(String, String, android.app.Notification.Action?)`"
+    },
+    "/reference/api2": {
+      "label": "API2"
+    },
+    "/reference/api2/Function/clearInterval": {
+      "label": "`clearInterval()`"
+    },
+    "/reference/api2/Function/clearTimeout": {
+      "label": "`clearTimeout()`"
+    },
+    "/reference/api2/Function/require": {
+      "label": "`require()`"
+    },
+    "/reference/api2/Function/setInterval": {
+      "label": "`setInterval()`"
+    },
+    "/reference/api2/Function/setTimeout": {
+      "label": "`setTimeout()`"
+    },
+    "/reference/api2/Object/App": {
+      "label": "App"
+    },
+    "/reference/api2/Object/App/getContext": {
+      "label": "`getContext()`"
+    },
+    "/reference/api2/Object/App/isMainThread": {
+      "label": "`isMainThread()`"
+    },
+    "/reference/api2/Object/App/runDelayed": {
+      "label": "`runDelayed()`"
+    },
+    "/reference/api2/Object/App/runOnBackgroundThread": {
+      "label": "`runOnBackgroundThread()`"
+    },
+    "/reference/api2/Object/App/runOnUiThread": {
+      "label": "`runOnUiThread()`"
+    },
+    "/reference/api2/Object/AppData": {
+      "label": "AppData"
+    },
+    "/reference/api2/Object/AppData/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/api2/Object/AppData/getBoolean": {
+      "label": "`getBoolean()`"
+    },
+    "/reference/api2/Object/AppData/getInt": {
+      "label": "`getInt()`"
+    },
+    "/reference/api2/Object/AppData/getString": {
+      "label": "`getString()`"
+    },
+    "/reference/api2/Object/AppData/putBoolean": {
+      "label": "`putBoolean()`"
+    },
+    "/reference/api2/Object/AppData/putInt": {
+      "label": "`putInt()`"
+    },
+    "/reference/api2/Object/AppData/putString": {
+      "label": "`putString()`"
+    },
+    "/reference/api2/Object/AppData/remove": {
+      "label": "`remove()`"
+    },
+    "/reference/api2/Object/Bot": {
+      "label": "Bot"
+    },
+    "/reference/api2/Object/Bot/addListener": {
+      "label": "`addListener()`"
+    },
+    "/reference/api2/Object/Bot/canReply": {
+      "label": "`canReply()`"
+    },
+    "/reference/api2/Object/Bot/compile": {
+      "label": "`compile()`"
+    },
+    "/reference/api2/Object/Bot/getListenersMap": {
+      "label": "`getListenersMap()`"
+    },
+    "/reference/api2/Object/Bot/getName": {
+      "label": "`getName()`"
+    },
+    "/reference/api2/Object/Bot/getPower": {
+      "label": "`getPower()`"
+    },
+    "/reference/api2/Object/Bot/getRootPath": {
+      "label": "`getRootPath()`"
+    },
+    "/reference/api2/Object/Bot/listeners": {
+      "label": "`listeners()`"
+    },
+    "/reference/api2/Object/Bot/markAsRead": {
+      "label": "`markAsRead()`"
+    },
+    "/reference/api2/Object/Bot/off": {
+      "label": "`off()`"
+    },
+    "/reference/api2/Object/Bot/on": {
+      "label": "`on()`"
+    },
+    "/reference/api2/Object/Bot/prependListener": {
+      "label": "`prependListener()`"
+    },
+    "/reference/api2/Object/Bot/removeAllListeners": {
+      "label": "`removeAllListeners()`"
+    },
+    "/reference/api2/Object/Bot/removeListener": {
+      "label": "`removeListener()`"
+    },
+    "/reference/api2/Object/Bot/send": {
+      "label": "`send()`"
+    },
+    "/reference/api2/Object/Bot/setCommandPrefix": {
+      "label": "`setCommandPrefix()`"
+    },
+    "/reference/api2/Object/Bot/setPower": {
+      "label": "`setPower()`"
+    },
+    "/reference/api2/Object/Bot/unload": {
+      "label": "`unload()`"
+    },
+    "/reference/api2/Object/BotManager": {
+      "label": "BotManager"
+    },
+    "/reference/api2/Object/BotManager/compile": {
+      "label": "`compile()`"
+    },
+    "/reference/api2/Object/BotManager/compileAll": {
+      "label": "`compileAll()`"
+    },
+    "/reference/api2/Object/BotManager/getBot": {
+      "label": "`getBot()`"
+    },
+    "/reference/api2/Object/BotManager/getBotCount": {
+      "label": "`getBotCount()`"
+    },
+    "/reference/api2/Object/BotManager/getBotList": {
+      "label": "`getBotList()`"
+    },
+    "/reference/api2/Object/BotManager/getBotNames": {
+      "label": "`getBotNames()`"
+    },
+    "/reference/api2/Object/BotManager/getCurrentBot": {
+      "label": "`getCurrentBot()`"
+    },
+    "/reference/api2/Object/BotManager/getPower": {
+      "label": "`getPower()`"
+    },
+    "/reference/api2/Object/BotManager/getRooms": {
+      "label": "`getRooms()`"
+    },
+    "/reference/api2/Object/BotManager/isCompiled": {
+      "label": "`isCompiled()`"
+    },
+    "/reference/api2/Object/BotManager/prepare": {
+      "label": "`prepare()`"
+    },
+    "/reference/api2/Object/BotManager/prepareAll": {
+      "label": "`prepareAll()`"
+    },
+    "/reference/api2/Object/BotManager/setPower": {
+      "label": "`setPower()`"
+    },
+    "/reference/api2/Object/BotManager/unload": {
+      "label": "`unload()`"
+    },
+    "/reference/api2/Object/Broadcast": {
+      "label": "Broadcast"
+    },
+    "/reference/api2/Object/Broadcast/getAllEvents": {
+      "label": "`getAllEvents()`"
+    },
+    "/reference/api2/Object/Broadcast/getListenerCount": {
+      "label": "`getListenerCount()`"
+    },
+    "/reference/api2/Object/Broadcast/getLocalEvents": {
+      "label": "`getLocalEvents()`"
+    },
+    "/reference/api2/Object/Broadcast/hasListeners": {
+      "label": "`hasListeners()`"
+    },
+    "/reference/api2/Object/Broadcast/hasLocalListeners": {
+      "label": "`hasLocalListeners()`"
+    },
+    "/reference/api2/Object/Broadcast/register": {
+      "label": "`register()`"
+    },
+    "/reference/api2/Object/Broadcast/send": {
+      "label": "`send()`"
+    },
+    "/reference/api2/Object/Broadcast/sendLocal": {
+      "label": "`sendLocal()`"
+    },
+    "/reference/api2/Object/Broadcast/unregister": {
+      "label": "`unregister()`"
+    },
+    "/reference/api2/Object/Broadcast/unregisterAll": {
+      "label": "`unregisterAll()`"
+    },
+    "/reference/api2/Object/console": {
+      "label": "<feature-status source='api2/Object/console' feature='console'>console</feature-status>"
+    },
+    "/reference/api2/Object/console/assert": {
+      "label": "<feature-status source='api2/Object/console' feature='assert'>`assert()`</feature-status>"
+    },
+    "/reference/api2/Object/console/clear": {
+      "label": "<feature-status source='api2/Object/console' feature='clear'>`clear()`</feature-status>"
+    },
+    "/reference/api2/Object/console/count": {
+      "label": "<feature-status source='api2/Object/console' feature='count'>`count()`</feature-status>"
+    },
+    "/reference/api2/Object/console/countReset": {
+      "label": "<feature-status source='api2/Object/console' feature='countReset'>`countReset()`</feature-status>"
+    },
+    "/reference/api2/Object/console/debug": {
+      "label": "<feature-status source='api2/Object/console' feature='debug'>`debug()`</feature-status>"
+    },
+    "/reference/api2/Object/console/error": {
+      "label": "<feature-status source='api2/Object/console' feature='error'>`error()`</feature-status>"
+    },
+    "/reference/api2/Object/console/info": {
+      "label": "<feature-status source='api2/Object/console' feature='info'>`info()`</feature-status>"
+    },
+    "/reference/api2/Object/console/log": {
+      "label": "<feature-status source='api2/Object/console' feature='log'>`log()`</feature-status>"
+    },
+    "/reference/api2/Object/console/table": {
+      "label": "<feature-status source='api2/Object/console' feature='table'>`table()`</feature-status>"
+    },
+    "/reference/api2/Object/console/time": {
+      "label": "<feature-status source='api2/Object/console' feature='time'>`time()`</feature-status>"
+    },
+    "/reference/api2/Object/console/timeEnd": {
+      "label": "<feature-status source='api2/Object/console' feature='timeEnd'>`timeEnd()`</feature-status>"
+    },
+    "/reference/api2/Object/console/timeLog": {
+      "label": "<feature-status source='api2/Object/console' feature='timeLog'>`timeLog()`</feature-status>"
+    },
+    "/reference/api2/Object/console/warn": {
+      "label": "<feature-status source='api2/Object/console' feature='warn'>`warn()`</feature-status>"
+    },
+    "/reference/api2/Object/Database": {
+      "label": "Database"
+    },
+    "/reference/api2/Object/Database/exists": {
+      "label": "`exists()`"
+    },
+    "/reference/api2/Object/Database/readObject": {
+      "label": "`readObject()`"
+    },
+    "/reference/api2/Object/Database/readString": {
+      "label": "`readString()`"
+    },
+    "/reference/api2/Object/Database/writeObject": {
+      "label": "`writeObject()`"
+    },
+    "/reference/api2/Object/Database/writeString": {
+      "label": "`writeString()`"
+    },
+    "/reference/api2/Object/Device": {
+      "label": "Device"
+    },
+    "/reference/api2/Object/Device/acquireWakeLock": {
+      "label": "`acquireWakeLock()`"
+    },
+    "/reference/api2/Object/Device/getAndroidVersionCode": {
+      "label": "`getAndroidVersionCode()`"
+    },
+    "/reference/api2/Object/Device/getAndroidVersionName": {
+      "label": "`getAndroidVersionName()`"
+    },
+    "/reference/api2/Object/Device/getApiLevel": {
+      "label": "`getApiLevel()`"
+    },
+    "/reference/api2/Object/Device/getBatteryHealth": {
+      "label": "`getBatteryHealth()`"
+    },
+    "/reference/api2/Object/Device/getBatteryIntent": {
+      "label": "`getBatteryIntent()`"
+    },
+    "/reference/api2/Object/Device/getBatteryLevel": {
+      "label": "`getBatteryLevel()`"
+    },
+    "/reference/api2/Object/Device/getBatteryStatus": {
+      "label": "`getBatteryStatus()`"
+    },
+    "/reference/api2/Object/Device/getBatteryTemp": {
+      "label": "`getBatteryTemp()`"
+    },
+    "/reference/api2/Object/Device/getBatteryTemperature": {
+      "label": "`getBatteryTemperature()`"
+    },
+    "/reference/api2/Object/Device/getBatteryVoltage": {
+      "label": "`getBatteryVoltage()`"
+    },
+    "/reference/api2/Object/Device/getBuild": {
+      "label": "`getBuild()`"
+    },
+    "/reference/api2/Object/Device/getConnectedNetworkType": {
+      "label": "`getConnectedNetworkType()`"
+    },
+    "/reference/api2/Object/Device/getFreeMemory": {
+      "label": "`getFreeMemory()`"
+    },
+    "/reference/api2/Object/Device/getFreeStorageSpace": {
+      "label": "`getFreeStorageSpace()`"
+    },
+    "/reference/api2/Object/Device/getMaxMemory": {
+      "label": "`getMaxMemory()`"
+    },
+    "/reference/api2/Object/Device/getModelName": {
+      "label": "`getModelName()`"
+    },
+    "/reference/api2/Object/Device/getPhoneBrand": {
+      "label": "`getPhoneBrand()`"
+    },
+    "/reference/api2/Object/Device/getPhoneModel": {
+      "label": "`getPhoneModel()`"
+    },
+    "/reference/api2/Object/Device/getPlugType": {
+      "label": "`getPlugType()`"
+    },
+    "/reference/api2/Object/Device/getTotalMemory": {
+      "label": "`getTotalMemory()`"
+    },
+    "/reference/api2/Object/Device/getTotalStorageSpace": {
+      "label": "`getTotalStorageSpace()`"
+    },
+    "/reference/api2/Object/Device/getWifiName": {
+      "label": "`getWifiName()`"
+    },
+    "/reference/api2/Object/Device/isCharging": {
+      "label": "`isCharging()`"
+    },
+    "/reference/api2/Object/Device/isPowerSaveMode": {
+      "label": "`isPowerSaveMode()`"
+    },
+    "/reference/api2/Object/Device/isScreenOn": {
+      "label": "`isScreenOn()`"
+    },
+    "/reference/api2/Object/Device/releaseWakeLock": {
+      "label": "`releaseWakeLock()`"
+    },
+    "/reference/api2/Object/Event": {
+      "label": "Event"
+    },
+    "/reference/api2/Object/Event/Activity.BACK_PRESSED": {
+      "label": "`Activity.BACK_PRESSED`"
+    },
+    "/reference/api2/Object/Event/Activity.CREATE": {
+      "label": "`Activity.CREATE`"
+    },
+    "/reference/api2/Object/Event/Activity.DESTROY": {
+      "label": "`Activity.DESTROY`"
+    },
+    "/reference/api2/Object/Event/Activity.PAUSE": {
+      "label": "`Activity.PAUSE`"
+    },
+    "/reference/api2/Object/Event/Activity.RESTART": {
+      "label": "`Activity.RESTART`"
+    },
+    "/reference/api2/Object/Event/Activity.RESUME": {
+      "label": "`Activity.RESUME`"
+    },
+    "/reference/api2/Object/Event/Activity.START": {
+      "label": "`Activity.START`"
+    },
+    "/reference/api2/Object/Event/Activity.STOP": {
+      "label": "`Activity.STOP`"
+    },
+    "/reference/api2/Object/Event/BATTERY_LEVEL_CHANGED": {
+      "label": "`BATTERY_LEVEL_CHANGED`"
+    },
+    "/reference/api2/Object/Event/COMMAND": {
+      "label": "`COMMAND`"
+    },
+    "/reference/api2/Object/Event/MESSAGE": {
+      "label": "`MESSAGE`"
+    },
+    "/reference/api2/Object/Event/NOTIFICATION_POSTED": {
+      "label": "`NOTIFICATION_POSTED`"
+    },
+    "/reference/api2/Object/Event/NOTIFICATION_REMOVED": {
+      "label": "`NOTIFICATION_REMOVED`"
+    },
+    "/reference/api2/Object/Event/START_COMPILE": {
+      "label": "`START_COMPILE`"
+    },
+    "/reference/api2/Object/Event/TICK": {
+      "label": "`TICK`"
+    },
+    "/reference/api2/Object/FileStream": {
+      "label": "FileStream"
+    },
+    "/reference/api2/Object/FileStream/append": {
+      "label": "`append()`"
+    },
+    "/reference/api2/Object/FileStream/copyFile": {
+      "label": "`copyFile()`"
+    },
+    "/reference/api2/Object/FileStream/create": {
+      "label": "`create()`"
+    },
+    "/reference/api2/Object/FileStream/createDir": {
+      "label": "`createDir()`"
+    },
+    "/reference/api2/Object/FileStream/exists": {
+      "label": "`exists()`"
+    },
+    "/reference/api2/Object/FileStream/getExtension": {
+      "label": "`getExtension()`"
+    },
+    "/reference/api2/Object/FileStream/getFileName": {
+      "label": "`getFileName()`"
+    },
+    "/reference/api2/Object/FileStream/getFileSize": {
+      "label": "`getFileSize()`"
+    },
+    "/reference/api2/Object/FileStream/getParentPath": {
+      "label": "`getParentPath()`"
+    },
+    "/reference/api2/Object/FileStream/getSdcardPath": {
+      "label": "`getSdcardPath()`"
+    },
+    "/reference/api2/Object/FileStream/isDirectory": {
+      "label": "`isDirectory()`"
+    },
+    "/reference/api2/Object/FileStream/isFile": {
+      "label": "`isFile()`"
+    },
+    "/reference/api2/Object/FileStream/listFiles": {
+      "label": "`listFiles()`"
+    },
+    "/reference/api2/Object/FileStream/moveFile": {
+      "label": "`moveFile()`"
+    },
+    "/reference/api2/Object/FileStream/read": {
+      "label": "`read()`"
+    },
+    "/reference/api2/Object/FileStream/readJSON": {
+      "label": "`readJSON()`"
+    },
+    "/reference/api2/Object/FileStream/remove": {
+      "label": "`remove()`"
+    },
+    "/reference/api2/Object/FileStream/save": {
+      "label": "`save()`"
+    },
+    "/reference/api2/Object/FileStream/saveJSON": {
+      "label": "`saveJSON()`"
+    },
+    "/reference/api2/Object/FileStream/write": {
+      "label": "`write()`"
+    },
+    "/reference/api2/Object/FileStream/writeJSON": {
+      "label": "`writeJSON()`"
+    },
+    "/reference/api2/Object/GlobalLog": {
+      "label": "GlobalLog"
+    },
+    "/reference/api2/Object/GlobalLog/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/api2/Object/GlobalLog/d": {
+      "label": "`d()`"
+    },
+    "/reference/api2/Object/GlobalLog/debug": {
+      "label": "`debug()`"
+    },
+    "/reference/api2/Object/GlobalLog/e": {
+      "label": "`e()`"
+    },
+    "/reference/api2/Object/GlobalLog/error": {
+      "label": "`error()`"
+    },
+    "/reference/api2/Object/GlobalLog/i": {
+      "label": "`i()`"
+    },
+    "/reference/api2/Object/GlobalLog/info": {
+      "label": "`info()`"
+    },
+    "/reference/api2/Object/GlobalLog/log": {
+      "label": "`log()`"
+    },
+    "/reference/api2/Object/Http": {
+      "label": "Http"
+    },
+    "/reference/api2/Object/Http/request(Object,Function)": {
+      "label": "`request(Object, Function)`"
+    },
+    "/reference/api2/Object/Http/request(String,Function)": {
+      "label": "`request(String, Function)`"
+    },
+    "/reference/api2/Object/Http/requestSync(Object)": {
+      "label": "`requestSync(Object)`"
+    },
+    "/reference/api2/Object/Http/requestSync(String)": {
+      "label": "`requestSync(String)`"
+    },
+    "/reference/api2/Object/Log": {
+      "label": "Log"
+    },
+    "/reference/api2/Object/Log/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/api2/Object/Log/d": {
+      "label": "`d()`"
+    },
+    "/reference/api2/Object/Log/debug": {
+      "label": "`debug()`"
+    },
+    "/reference/api2/Object/Log/e": {
+      "label": "`e()`"
+    },
+    "/reference/api2/Object/Log/error": {
+      "label": "`error()`"
+    },
+    "/reference/api2/Object/Log/i": {
+      "label": "`i()`"
+    },
+    "/reference/api2/Object/Log/info": {
+      "label": "`info()`"
+    },
+    "/reference/api2/Object/Log/log": {
+      "label": "`log()`"
+    },
+    "/reference/api2/Object/MediaSender": {
+      "label": "<feature-status source='api2/Object/MediaSender' feature='MediaSender'>MediaSender</feature-status>"
+    },
+    "/reference/api2/Object/MediaSender/clearCache": {
+      "label": "<feature-status source='api2/Object/MediaSender' feature='clearCache'>`clearCache()`</feature-status>"
+    },
+    "/reference/api2/Object/MediaSender/getBaseDirectory": {
+      "label": "<feature-status source='api2/Object/MediaSender' feature='getBaseDirectory'>`getBaseDirectory()`</feature-status>"
+    },
+    "/reference/api2/Object/MediaSender/getCachedUrls": {
+      "label": "<feature-status source='api2/Object/MediaSender' feature='getCachedUrls'>`getCachedUrls()`</feature-status>"
+    },
+    "/reference/api2/Object/MediaSender/getCacheSize": {
+      "label": "<feature-status source='api2/Object/MediaSender' feature='getCacheSize'>`getCacheSize()`</feature-status>"
+    },
+    "/reference/api2/Object/MediaSender/getSupportedFormats": {
+      "label": "<feature-status source='api2/Object/MediaSender' feature='getSupportedFormats'>`getSupportedFormats()`</feature-status>"
+    },
+    "/reference/api2/Object/MediaSender/returnToAppNow": {
+      "label": "<feature-status source='api2/Object/MediaSender' feature='returnToAppNow'>`returnToAppNow()`</feature-status>"
+    },
+    "/reference/api2/Object/MediaSender/send": {
+      "label": "<feature-status source='api2/Object/MediaSender' feature='send'>`send()`</feature-status>"
+    },
+    "/reference/api2/Object/Security": {
+      "label": "Security"
+    },
+    "/reference/api2/Object/Security/aesDecode": {
+      "label": "`aesDecode()`"
+    },
+    "/reference/api2/Object/Security/aesEncode": {
+      "label": "`aesEncode()`"
+    },
+    "/reference/api2/Object/Security/ariaDecode": {
+      "label": "`ariaDecode()`"
+    },
+    "/reference/api2/Object/Security/ariaDecodeRaw": {
+      "label": "`ariaDecodeRaw()`"
+    },
+    "/reference/api2/Object/Security/ariaEncode": {
+      "label": "`ariaEncode()`"
+    },
+    "/reference/api2/Object/Security/ariaEncodeRaw": {
+      "label": "`ariaEncodeRaw()`"
+    },
+    "/reference/api2/Object/Security/base32Decode": {
+      "label": "`base32Decode()`"
+    },
+    "/reference/api2/Object/Security/base32Encode": {
+      "label": "`base32Encode()`"
+    },
+    "/reference/api2/Object/Security/base64Decode": {
+      "label": "`base64Decode()`"
+    },
+    "/reference/api2/Object/Security/base64Encode": {
+      "label": "`base64Encode()`"
+    },
+    "/reference/api2/Object/Security/des3Decode": {
+      "label": "`des3Decode()`"
+    },
+    "/reference/api2/Object/Security/des3Encode": {
+      "label": "`des3Encode()`"
+    },
+    "/reference/api2/Object/Security/desDecode": {
+      "label": "`desDecode()`"
+    },
+    "/reference/api2/Object/Security/desEncode": {
+      "label": "`desEncode()`"
+    },
+    "/reference/api2/Object/Security/desKey": {
+      "label": "`desKey()`"
+    },
+    "/reference/api2/Object/Security/eccDecode": {
+      "label": "`eccDecode()`"
+    },
+    "/reference/api2/Object/Security/eccEncode": {
+      "label": "`eccEncode()`"
+    },
+    "/reference/api2/Object/Security/getDesKey": {
+      "label": "`getDesKey()`"
+    },
+    "/reference/api2/Object/Security/hashCode": {
+      "label": "`hashCode()`"
+    },
+    "/reference/api2/Object/Security/md2": {
+      "label": "`md2()`"
+    },
+    "/reference/api2/Object/Security/md5": {
+      "label": "`md5()`"
+    },
+    "/reference/api2/Object/Security/md55": {
+      "label": "`md55()`"
+    },
+    "/reference/api2/Object/Security/rc4Decode": {
+      "label": "`rc4Decode()`"
+    },
+    "/reference/api2/Object/Security/rc4Encode": {
+      "label": "`rc4Encode()`"
+    },
+    "/reference/api2/Object/Security/seedDecode": {
+      "label": "`seedDecode()`"
+    },
+    "/reference/api2/Object/Security/seedEncode": {
+      "label": "`seedEncode()`"
+    },
+    "/reference/api2/Object/Security/sha": {
+      "label": "`sha()`"
+    },
+    "/reference/api2/Object/Security/sha3_224": {
+      "label": "`sha3_224()`"
+    },
+    "/reference/api2/Object/Security/sha3_256": {
+      "label": "`sha3_256()`"
+    },
+    "/reference/api2/Object/Security/sha3_384": {
+      "label": "`sha3_384()`"
+    },
+    "/reference/api2/Object/Security/sha3_512": {
+      "label": "`sha3_512()`"
+    },
+    "/reference/api2/Object/Security/sha256": {
+      "label": "`sha256()`"
+    },
+    "/reference/api2/Object/Security/sha384": {
+      "label": "`sha384()`"
+    },
+    "/reference/api2/Object/Security/sha512": {
+      "label": "`sha512()`"
+    },
+    "/reference/api2/Object/Security/ulid": {
+      "label": "`ulid()`"
+    },
+    "/reference/api2/Object/Security/uuid": {
+      "label": "`uuid()`"
+    },
+    "/reference/api2/Object/Security/uuidv7": {
+      "label": "`uuidv7()`"
+    },
+    "/reference/api2/Event/activityBackPressed": {
+      "label": "`activityBackPressed`"
+    },
+    "/reference/api2/Event/activityCreate": {
+      "label": "`activityCreate`"
+    },
+    "/reference/api2/Event/activityDestroy": {
+      "label": "`activityDestroy`"
+    },
+    "/reference/api2/Event/activityPause": {
+      "label": "`activityPause`"
+    },
+    "/reference/api2/Event/activityRestart": {
+      "label": "`activityRestart`"
+    },
+    "/reference/api2/Event/activityResume": {
+      "label": "`activityResume`"
+    },
+    "/reference/api2/Event/activityStart": {
+      "label": "`activityStart`"
+    },
+    "/reference/api2/Event/activityStop": {
+      "label": "`activityStop`"
+    },
+    "/reference/api2/Event/batteryLevelChanged": {
+      "label": "`batteryLevelChanged`"
+    },
+    "/reference/api2/Event/command": {
+      "label": "`command`"
+    },
+    "/reference/api2/Event/message": {
+      "label": "`message`"
+    },
+    "/reference/api2/Event/notificationPosted": {
+      "label": "`notificationPosted`"
+    },
+    "/reference/api2/Event/notificationRemoved": {
+      "label": "`notificationRemoved`"
+    },
+    "/reference/api2/Event/startCompile": {
+      "label": "`startCompile`"
+    },
+    "/reference/api2/Event/tick": {
+      "label": "`tick`"
+    },
+    "/reference/api2/Argument/Author": {
+      "label": "Author"
+    },
+    "/reference/api2/Argument/Author/avatar": {
+      "label": "`avatar`"
+    },
+    "/reference/api2/Argument/Author/hash": {
+      "label": "`hash`"
+    },
+    "/reference/api2/Argument/Author/name": {
+      "label": "`name`"
+    },
+    "/reference/api2/Argument/Command": {
+      "label": "Command"
+    },
+    "/reference/api2/Argument/Command/args": {
+      "label": "`args`"
+    },
+    "/reference/api2/Argument/Command/author": {
+      "label": "`author`"
+    },
+    "/reference/api2/Argument/Command/channelId": {
+      "label": "`channelId`"
+    },
+    "/reference/api2/Argument/Command/command": {
+      "label": "`command`"
+    },
+    "/reference/api2/Argument/Command/content": {
+      "label": "`content`"
+    },
+    "/reference/api2/Argument/Command/image": {
+      "label": "`image`"
+    },
+    "/reference/api2/Argument/Command/isDebugRoom": {
+      "label": "`isDebugRoom`"
+    },
+    "/reference/api2/Argument/Command/isGroupChat": {
+      "label": "`isGroupChat`"
+    },
+    "/reference/api2/Argument/Command/isMention": {
+      "label": "`isMention`"
+    },
+    "/reference/api2/Argument/Command/isMultiChat": {
+      "label": "`isMultiChat`"
+    },
+    "/reference/api2/Argument/Command/logId": {
+      "label": "`logId`"
+    },
+    "/reference/api2/Argument/Command/packageName": {
+      "label": "`packageName`"
+    },
+    "/reference/api2/Argument/Command/room": {
+      "label": "`room`"
+    },
+    "/reference/api2/Argument/Command/markAsRead": {
+      "label": "`markAsRead()`"
+    },
+    "/reference/api2/Argument/Command/reply": {
+      "label": "`reply()`"
+    },
+    "/reference/api2/Argument/Image": {
+      "label": "Image"
+    },
+    "/reference/api2/Argument/Image/getBase64": {
+      "label": "`getBase64()`"
+    },
+    "/reference/api2/Argument/Image/getBitmap": {
+      "label": "`getBitmap()`"
+    },
+    "/reference/api2/Argument/Message": {
+      "label": "Message"
+    },
+    "/reference/api2/Argument/Message/author": {
+      "label": "`author`"
+    },
+    "/reference/api2/Argument/Message/channelId": {
+      "label": "`channelId`"
+    },
+    "/reference/api2/Argument/Message/content": {
+      "label": "`content`"
+    },
+    "/reference/api2/Argument/Message/image": {
+      "label": "`image`"
+    },
+    "/reference/api2/Argument/Message/isDebugRoom": {
+      "label": "`isDebugRoom`"
+    },
+    "/reference/api2/Argument/Message/isGroupChat": {
+      "label": "`isGroupChat`"
+    },
+    "/reference/api2/Argument/Message/isMention": {
+      "label": "`isMention`"
+    },
+    "/reference/api2/Argument/Message/isMultiChat": {
+      "label": "`isMultiChat`"
+    },
+    "/reference/api2/Argument/Message/logId": {
+      "label": "`logId`"
+    },
+    "/reference/api2/Argument/Message/packageName": {
+      "label": "`packageName`"
+    },
+    "/reference/api2/Argument/Message/room": {
+      "label": "`room`"
+    },
+    "/reference/api2/Argument/Message/markAsRead": {
+      "label": "`markAsRead()`"
+    },
+    "/reference/api2/Argument/Message/reply": {
+      "label": "`reply()`"
+    },
+    "/reference/api2/Argument/SessionManager": {
+      "label": "SessionManager"
+    },
+    "/reference/api2/Argument/SessionManager/bindSession(String,Action$)": {
+      "label": "`bindSession(String, android.app.Notification.Action?)`"
+    },
+    "/reference/api2/Argument/SessionManager/bindSession(String,String,Action$)": {
+      "label": "`bindSession(String, String, android.app.Notification.Action?)`"
+    },
+    "/reference/starlight": {
+      "label": "StarLight"
+    },
+    "/reference/starlight/Object/Env": {
+      "label": "Env"
+    },
+    "/reference/starlight/Object/Env/get": {
+      "label": "`get()`"
+    },
+    "/reference/starlight/Object/Env/parseFile": {
+      "label": "`parseFile()`"
+    },
+    "/reference/starlight/Object/Env/parseString": {
+      "label": "`parseString()`"
+    },
+    "/reference/starlight/Object/Java": {
+      "label": "Java"
+    },
+    "/reference/starlight/Object/Java/type": {
+      "label": "`type()`"
+    },
+    "/reference/starlight/Object/Language": {
+      "label": "Language"
+    },
+    "/reference/starlight/Object/Language/fileExtension": {
+      "label": "`fileExtension`"
+    },
+    "/reference/starlight/Object/Language/id": {
+      "label": "`id`"
+    },
+    "/reference/starlight/Object/Language/name": {
+      "label": "`name`"
+    },
+    "/reference/starlight/Object/Language/requireRelease": {
+      "label": "`requireRelease`"
+    },
+    "/reference/starlight/Object/Language/callFunction": {
+      "label": "`callFunction()`"
+    },
+    "/reference/starlight/Object/Language/destroy": {
+      "label": "`destroy()`"
+    },
+    "/reference/starlight/Object/Language/eval": {
+      "label": "`eval()`"
+    },
+    "/reference/starlight/Object/Language/release": {
+      "label": "`release()`"
+    },
+    "/reference/starlight/Object/Languages": {
+      "label": "Languages"
+    },
+    "/reference/starlight/Object/Languages/getSelf": {
+      "label": "`getSelf()`"
+    },
+    "/reference/starlight/Object/Languages/ofId": {
+      "label": "`ofId()`"
+    },
+    "/reference/starlight/Object/Notification": {
+      "label": "Notification"
+    },
+    "/reference/starlight/Object/Notification/STATE_CREATED": {
+      "label": "`STATE_CREATED`"
+    },
+    "/reference/starlight/Object/Notification/STATE_DEFAULT": {
+      "label": "`STATE_DEFAULT`"
+    },
+    "/reference/starlight/Object/Notification/STATE_DISMISSED": {
+      "label": "`STATE_DISMISSED`"
+    },
+    "/reference/starlight/Object/Notification/state": {
+      "label": "`state`"
+    },
+    "/reference/starlight/Object/Notification/create": {
+      "label": "`create()`"
+    },
+    "/reference/starlight/Object/Notification/delete": {
+      "label": "`delete()`"
+    },
+    "/reference/starlight/Object/Notification/update": {
+      "label": "`update()`"
+    },
+    "/reference/starlight/Object/NotificationBuilder": {
+      "label": "NotificationBuilder"
+    },
+    "/reference/starlight/Object/NotificationBuilder/build": {
+      "label": "`build()`"
+    },
+    "/reference/starlight/Object/NotificationBuilder/lights": {
+      "label": "`lights()`"
+    },
+    "/reference/starlight/Object/NotificationBuilder/onClick": {
+      "label": "`onClick()`"
+    },
+    "/reference/starlight/Object/NotificationBuilder/onDismiss": {
+      "label": "`onDismiss()`"
+    },
+    "/reference/starlight/Object/NotificationBuilder/setText": {
+      "label": "`setText()`"
+    },
+    "/reference/starlight/Object/NotificationBuilder/setTitle": {
+      "label": "`setTitle()`"
+    },
+    "/reference/starlight/Object/Platform": {
+      "label": "Platform"
+    },
+    "/reference/starlight/Object/Platform/getName": {
+      "label": "`getName()`"
+    },
+    "/reference/starlight/Object/Platform/getUptime": {
+      "label": "`getUptime()`"
+    },
+    "/reference/starlight/Object/Platform/getVersion": {
+      "label": "`getVersion()`"
+    },
+    "/reference/starlight/Object/Plugin": {
+      "label": "Plugin"
+    },
+    "/reference/starlight/Object/Plugin/info": {
+      "label": "`info`"
+    },
+    "/reference/starlight/Object/Plugin/getAsset": {
+      "label": "`getAsset()`"
+    },
+    "/reference/starlight/Object/Plugin/getExternalDataDirectory": {
+      "label": "`getExternalDataDirectory()`"
+    },
+    "/reference/starlight/Object/Plugin/getInternalDataDirectory": {
+      "label": "`getInternalDataDirectory()`"
+    },
+    "/reference/starlight/Object/Plugin/isEnabled": {
+      "label": "`isEnabled()`"
+    },
+    "/reference/starlight/Object/Plugins": {
+      "label": "Plugins"
+    },
+    "/reference/starlight/Object/Plugins/getAll": {
+      "label": "`getAll()`"
+    },
+    "/reference/starlight/Object/Plugins/ofId": {
+      "label": "`ofId()`"
+    },
+    "/reference/starlight/Object/Plugins/ofName": {
+      "label": "`ofName()`"
+    },
+    "/reference/starlight/Object/Project": {
+      "label": "Project"
+    },
+    "/reference/starlight/Object/Project/config": {
+      "label": "`config`"
+    },
+    "/reference/starlight/Object/Project/directory": {
+      "label": "`directory`"
+    },
+    "/reference/starlight/Object/Project/info": {
+      "label": "`info`"
+    },
+    "/reference/starlight/Object/Project/isCompiled": {
+      "label": "`isCompiled`"
+    },
+    "/reference/starlight/Object/Project/logger": {
+      "label": "`logger`"
+    },
+    "/reference/starlight/Object/Project/activeJobs": {
+      "label": "`activeJobs()`"
+    },
+    "/reference/starlight/Object/Project/callFunction": {
+      "label": "`callFunction()`"
+    },
+    "/reference/starlight/Object/Project/compile": {
+      "label": "`compile()`"
+    },
+    "/reference/starlight/Object/Project/destroy": {
+      "label": "`destroy()`"
+    },
+    "/reference/starlight/Object/Project/getDataDirectory": {
+      "label": "`getDataDirectory()`"
+    },
+    "/reference/starlight/Object/Project/getLanguage": {
+      "label": "`getLanguage()`"
+    },
+    "/reference/starlight/Object/Project/getScope": {
+      "label": "`getScope()`"
+    },
+    "/reference/starlight/Object/Project/isEventCallAllowed": {
+      "label": "`isEventCallAllowed()`"
+    },
+    "/reference/starlight/Object/Project/loadInfo": {
+      "label": "`loadInfo()`"
+    },
+    "/reference/starlight/Object/Project/rename": {
+      "label": "`rename()`"
+    },
+    "/reference/starlight/Object/Project/requestUpdate": {
+      "label": "`requestUpdate()`"
+    },
+    "/reference/starlight/Object/Project/saveInfo": {
+      "label": "`saveInfo()`"
+    },
+    "/reference/starlight/Object/Project/setEnabled": {
+      "label": "`setEnabled()`"
+    },
+    "/reference/starlight/Object/Project/stopAllJobs": {
+      "label": "`stopAllJobs()`"
+    },
+    "/reference/starlight/Object/Projects": {
+      "label": "Projects"
+    },
+    "/reference/starlight/Object/Projects/getSelf": {
+      "label": "`getSelf()`"
+    },
+    "/reference/starlight/Object/Projects/ofId": {
+      "label": "`ofId()`"
+    },
+    "/reference/starlight/Object/Projects/ofName": {
+      "label": "`ofName()`"
+    },
+    "/reference/starlight/EventListener/onMessage": {
+      "label": "`onMessage`"
+    },
+    "/reference/starlight/EventListener/onMessageDeleted": {
+      "label": "`onMessageDeleted`"
+    },
+    "/reference/starlight/EventListener/onNotificationPosted": {
+      "label": "`onNotificationPosted`"
+    },
+    "/reference/starlight/EventListener/onStartCompile": {
+      "label": "`onStartCompile`"
+    },
+    "/reference/starlight/Argument/ChatRoom": {
+      "label": "ChatRoom"
+    },
+    "/reference/starlight/Argument/ChatRoom/id": {
+      "label": "`id`"
+    },
+    "/reference/starlight/Argument/ChatRoom/isDebugRoom": {
+      "label": "`isDebugRoom`"
+    },
+    "/reference/starlight/Argument/ChatRoom/isGroupChat": {
+      "label": "`isGroupChat`"
+    },
+    "/reference/starlight/Argument/ChatRoom/name": {
+      "label": "`name`"
+    },
+    "/reference/starlight/Argument/ChatRoom/markAsRead": {
+      "label": "`markAsRead()`"
+    },
+    "/reference/starlight/Argument/ChatRoom/send": {
+      "label": "`send()`"
+    },
+    "/reference/starlight/Argument/ChatSender": {
+      "label": "ChatSender"
+    },
+    "/reference/starlight/Argument/ChatSender/id": {
+      "label": "`id`"
+    },
+    "/reference/starlight/Argument/ChatSender/name": {
+      "label": "`name`"
+    },
+    "/reference/starlight/Argument/ChatSender/profileBase64": {
+      "label": "`profileBase64`"
+    },
+    "/reference/starlight/Argument/ChatSender/profileBitmap": {
+      "label": "`profileBitmap`"
+    },
+    "/reference/starlight/Argument/ChatSender/profileHash": {
+      "label": "`profileHash`"
+    },
+    "/reference/starlight/Argument/Message": {
+      "label": "Message"
+    },
+    "/reference/starlight/Argument/Message/chatLogId": {
+      "label": "`chatLogId`"
+    },
+    "/reference/starlight/Argument/Message/hasMention": {
+      "label": "`hasMention`"
+    },
+    "/reference/starlight/Argument/Message/image": {
+      "label": "`image`"
+    },
+    "/reference/starlight/Argument/Message/message": {
+      "label": "`message`"
+    },
+    "/reference/starlight/Argument/Message/packageName": {
+      "label": "`packageName`"
+    },
+    "/reference/starlight/Argument/Message/room": {
+      "label": "`room`"
+    },
+    "/reference/starlight/Argument/Message/sender": {
+      "label": "`sender`"
+    },
+    "/reference/starlight/Argument/DeletedMessage": {
+      "label": "DeletedMessage"
+    },
+    "/reference/starlight/Argument/DeletedMessage/chatLogId": {
+      "label": "`chatLogId`"
+    },
+    "/reference/starlight/Argument/DeletedMessage/message": {
+      "label": "`message`"
+    },
+    "/reference/starlight/Argument/DeletedMessage/packageName": {
+      "label": "`packageName`"
+    },
+    "/reference/starlight/Argument/DeletedMessage/room": {
+      "label": "`room`"
+    },
+    "/reference/starlight/Argument/DeletedMessage/sender": {
+      "label": "`sender`"
+    },
+    "/reference/starlight/Plugin/Discord": {
+      "label": "Discord"
+    },
+    "/reference/starlight/Plugin/V8": {
+      "label": "V8"
+    },
+    "/reference/iris": {
+      "label": "Iris"
+    },
+    "/reference/iris/get-started": {
+      "label": "시작하기"
+    },
+    "/reference/iris/Endpoint/decrypt": {
+      "label": "`/decrypt`"
+    },
+    "/reference/iris/Endpoint/query": {
+      "label": "`/query`"
+    },
+    "/reference/iris/Endpoint/reply": {
+      "label": "`/reply`"
+    },
+    "/reference/iris/Endpoint/aot": {
+      "label": "`/aot`"
+    },
+    "/reference/iris/Endpoint/config": {
+      "label": "`/config`"
+    },
+    "/reference/iris/Endpoint/config/botport": {
+      "label": "`/config/botport`"
+    },
+    "/reference/iris/Endpoint/config/dbrate": {
+      "label": "`/config/dbrate`"
+    },
+    "/reference/iris/Endpoint/config/endpoint": {
+      "label": "`/config/endpoint`"
+    },
+    "/reference/iris/Endpoint/config/sendrate": {
+      "label": "`/config/sendrate`"
+    },
+    "/reference/iris/Endpoint/dashboard": {
+      "label": "`/dashboard`"
+    },
+    "/reference/iris/Endpoint/ws": {
+      "label": "`/ws`"
+    },
+    "/reference/irispy-client": {
+      "label": "irispy-client"
+    },
+    "/reference/irispy-client/iris.bot": {
+      "label": "`iris.bot`"
+    },
+    "/reference/irispy-client/iris.bot/Class/Bot": {
+      "label": "`iris.bot.Bot`"
+    },
+    "/reference/irispy-client/iris.bot/Class/Bot/api": {
+      "label": "`api`"
+    },
+    "/reference/irispy-client/iris.bot/Class/Bot/Bot": {
+      "label": "`Bot()`"
+    },
+    "/reference/irispy-client/iris.bot/Class/Bot/emitter": {
+      "label": "`emitter`"
+    },
+    "/reference/irispy-client/iris.bot/Class/Bot/iris_url": {
+      "label": "`iris_url`"
+    },
+    "/reference/irispy-client/iris.bot/Class/Bot/iris_ws_endpoint": {
+      "label": "`iris_ws_endpoint`"
+    },
+    "/reference/irispy-client/iris.bot/Class/Bot/on_event": {
+      "label": "`@on_event`"
+    },
+    "/reference/irispy-client/iris.bot/Class/Bot/run": {
+      "label": "`run()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.emitter": {
+      "label": "`iris.bot._internal.emitter`"
+    },
+    "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter": {
+      "label": "`iris.bot._internal.emitter.EventEmitter`"
+    },
+    "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/EventEmitter": {
+      "label": "`EventEmitter()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/emit": {
+      "label": "`emit()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/register": {
+      "label": "`register()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris": {
+      "label": "`iris.bot._internal.iris`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI": {
+      "label": "`iris.bot._internal.iris.IrisAPI`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/IrisAPI": {
+      "label": "`IrisAPI()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/decrypt": {
+      "label": "`decrypt()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/get_aot": {
+      "label": "`get_aot()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/get_info": {
+      "label": "`get_info()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/query": {
+      "label": "`query()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/reply": {
+      "label": "`reply()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/reply_media": {
+      "label": "`reply_media()`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest": {
+      "label": "`iris.bot._internal.iris.IrisRequest`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/msg": {
+      "label": "`msg`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/raw": {
+      "label": "`raw`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/room": {
+      "label": "`room`"
+    },
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/sender": {
+      "label": "`sender`"
+    },
+    "/reference/irispy-client/iris.bot.models": {
+      "label": "`iris.bot.models`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Avatar": {
+      "label": "`iris.bot.models.Avatar`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Avatar/Avatar": {
+      "label": "`Avatar()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Avatar/img": {
+      "label": "`img`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Avatar/url": {
+      "label": "`url`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext": {
+      "label": "`iris.bot.models.ChatContext`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/api": {
+      "label": "`api`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/message": {
+      "label": "`message`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/raw": {
+      "label": "`raw`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/room": {
+      "label": "`room`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/sender": {
+      "label": "`sender`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/get_next_chat": {
+      "label": "`get_next_chat()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/get_previous_chat": {
+      "label": "`get_previous_chat()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/get_source": {
+      "label": "`get_source()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/reply": {
+      "label": "`reply()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext/reply_media": {
+      "label": "`reply_media()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatImage": {
+      "label": "`iris.bot.models.ChatImage`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatImage/ChatImage": {
+      "label": "`ChatImage()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatImage/img": {
+      "label": "`img`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ChatImage/url": {
+      "label": "`url`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ErrorContext": {
+      "label": "`iris.bot.models.ErrorContext`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ErrorContext/args": {
+      "label": "`args`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ErrorContext/event": {
+      "label": "`event`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ErrorContext/exception": {
+      "label": "`exception`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/ErrorContext/func": {
+      "label": "`func`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message": {
+      "label": "`iris.bot.models.Message`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/attachment": {
+      "label": "`attachment`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/command": {
+      "label": "`command`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/has_param": {
+      "label": "`has_param`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/id": {
+      "label": "`id`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/image": {
+      "label": "`image`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/msg": {
+      "label": "`msg`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/param": {
+      "label": "`param`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/type": {
+      "label": "`type`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Message/v": {
+      "label": "`v`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Room": {
+      "label": "`iris.bot.models.Room`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Room/Room": {
+      "label": "`Room()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Room/id": {
+      "label": "`id`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Room/name": {
+      "label": "`name`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/Room/type": {
+      "label": "`type`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/User": {
+      "label": "`iris.bot.models.User`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/User/User": {
+      "label": "`User()`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/User/avatar": {
+      "label": "`avatar`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/User/id": {
+      "label": "`id`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/User/name": {
+      "label": "`name`"
+    },
+    "/reference/irispy-client/iris.bot.models/Class/User/type": {
+      "label": "`type`"
+    },
+    "/reference/irispy-client/iris.decorators": {
+      "label": "`iris.decorators`"
+    },
+    "/reference/irispy-client/iris.decorators/Decorator/has_param": {
+      "label": "`@has_param`"
+    },
+    "/reference/irispy-client/iris.decorators/Decorator/is_admin": {
+      "label": "`@is_admin`"
+    },
+    "/reference/irispy-client/iris.decorators/Decorator/is_not_banned": {
+      "label": "`@is_not_banned`"
+    },
+    "/reference/irispy-client/iris.decorators/Decorator/is_reply": {
+      "label": "`@is_reply`"
+    },
+    "/reference/irispy-client/iris.kakaolink": {
+      "label": "`iris.kakaolink`"
+    },
+    "/reference/irispy-client/iris.kakaolink/Class/IrisLink": {
+      "label": "`iris.kakaolink.IrisLink`"
+    },
+    "/reference/irispy-client/iris.kakaolink/Class/IrisLink/IrisLink": {
+      "label": "`IrisLink()`"
+    },
+    "/reference/irispy-client/iris.kakaolink/Class/IrisLink/send": {
+      "label": "`send()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule": {
+      "label": "`iris.kakaolink.KakaoLinkModule`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink": {
+      "label": "`iris.kakaolink.KakaoLinkModule.KakaoLink`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink/KakaoLink": {
+      "label": "`KakaoLink()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink/send": {
+      "label": "`send()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider": {
+      "label": "`iris.kakaolink.KakaoLinkModule.KakaoLinkAuthorizationProvider`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider/KakaoLinkAuthorizationProvider": {
+      "label": "`KakaoLinkAuthorizationProvider()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider/get_authorization": {
+      "label": "`get_authorization()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage": {
+      "label": "`iris.kakaolink.KakaoLinkModule.KakaoLinkCookieStorage`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage/KakaoLinkCookieStorage": {
+      "label": "`KakaoLinkCookieStorage()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage/load": {
+      "label": "`load()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage/save": {
+      "label": "`save()`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLinkException": {
+      "label": "`iris.kakaolink.KakaoLinkModule.KakaoLinkException`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLink2FAException": {
+      "label": "`iris.kakaolink.KakaoLinkModule.KakaoLink2FAException`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLinkLoginException": {
+      "label": "`iris.kakaolink.KakaoLinkModule.KakaoLinkLoginException`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLinkReceiverNotFoundException": {
+      "label": "`iris.kakaolink.KakaoLinkModule.KakaoLinkReceiverNotFoundException`"
+    },
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLinkSendException": {
+      "label": "`iris.kakaolink.KakaoLinkModule.KakaoLinkSendException`"
+    },
+    "/reference/irispy-client/iris.util.pykv": {
+      "label": "`iris.util.pykv`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV": {
+      "label": "`iris.util.pykv.PyKV`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/PyKV": {
+      "label": "`PyKV()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/close": {
+      "label": "`close()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/delete": {
+      "label": "`delete()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/get": {
+      "label": "`get()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/get_kv": {
+      "label": "`get_kv()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/list_keys": {
+      "label": "`list_keys()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/open": {
+      "label": "`open()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/put": {
+      "label": "`put()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/search": {
+      "label": "`search()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/search_json": {
+      "label": "`search_json()`"
+    },
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV/search_key": {
+      "label": "`search_key()`"
+    },
+    "/reference/irispy-client/Event/chat": {
+      "label": "`chat`"
+    },
+    "/reference/irispy-client/Event/del_member": {
+      "label": "`del_member`"
+    },
+    "/reference/irispy-client/Event/error": {
+      "label": "`error`"
+    },
+    "/reference/irispy-client/Event/message": {
+      "label": "`message`"
+    },
+    "/reference/irispy-client/Event/new_member": {
+      "label": "`new_member`"
+    },
+    "/reference/irispy-client/Event/unknown": {
+      "label": "`unknown`"
+    },
+    "/learn/js": {
+      "label": "JavaScript"
+    },
+    "/learn/js/basic": {
+      "label": "JavaScript 기초",
+      "image": "/svg/learn/js_basic.svg",
+      "description": "개발환경을 구축하고 JavaScript와 카카오톡봇의 기초를 학습합니다."
+    },
+    "/learn/js/basic/1-javascript-and-kakaotalkbot": {
+      "label": "JavaScript와 카카오톡봇"
+    },
+    "/learn/js/basic/2-ready-for-dev": {
+      "label": "개발 준비"
+    },
+    "/learn/js/basic/3-write-script": {
+      "label": "스크립트 작성"
+    },
+    "/learn/js/basic/4-basic-syntax-of-javascript": {
+      "label": "JavaScript의 기본 문법"
+    },
+    "/learn/js/basic/5-variable-and-data-type": {
+      "label": "변수와 자료형"
+    },
+    "/learn/js/basic/6-operator": {
+      "label": "연산자"
+    },
+    "/learn/js/basic/7-string": {
+      "label": "문자열"
+    },
+    "/learn/js/basic/8-array": {
+      "label": "배열"
+    },
+    "/learn/js/basic/9-conditionals": {
+      "label": "조건문"
+    },
+    "/learn/js/basic/10-loops": {
+      "label": "반복문"
+    },
+    "/learn/js/basic/11-function": {
+      "label": "함수"
+    },
+    "/learn/js/basic/12-basic-object": {
+      "label": "객체 기초"
+    },
+    "/learn/js/basic/conclusion": {
+      "label": "마치며"
+    },
+    "/learn/js/intermediate": {
+      "label": "JavaScript 중급",
+      "image": "/svg/learn/js_intermediate.svg",
+      "description": "카카오톡봇 개발을 위한 JavaScript의 더 많은 것을 다룹니다."
+    },
+    "/learn/js/intermediate/1-regular-expression": {
+      "label": "정규 표현식"
+    },
+    "/learn/js/advanced": {
+      "label": "JavaScript 고급",
+      "image": "/svg/learn/js_advanced.svg",
+      "description": "객체 지향 프로그래밍 등 JavaScript의 고급 개념을 학습합니다."
+    },
+    "/learn/js/advanced/1-constructor-function": {
+      "label": "생성자 함수"
+    },
+    "/learn/js/migration-to-api2": {
+      "label": "API2로 마이그레이션",
+      "image": "/svg/learn/js_migration_to_api2.svg",
+      "description": "레거시 API에서 API2로 마이그레이션하는 방법을 배웁니다."
+    },
+    "/learn/js/migration-to-api2/1-event-listener": {
+      "label": "이벤트 리스너 수정"
+    },
+    "/learn/iris": {
+      "label": "Iris"
+    },
+    "/learn/iris/installation": {
+      "label": "Iris 설치하기",
+      "image": "/svg/learn/iris_installation.svg",
+      "description": "다양한 환경에서 Iris를 설치하는 방법을 배웁니다."
+    },
+    "/learn/iris/installation/on-ubuntu": {
+      "label": "Ubuntu에 설치하기"
+    }
+  },
+  "navigation": {
+    "/reference": [
+      {
+        "label": "JavaScript 기반",
+        "description": "RhinoJS, GraalJS 기반의 카카오톡봇 개발",
+        "docs": [
+          "/reference/legacy",
+          "/reference/api2",
+          "/reference/starlight"
+        ]
+      },
+      {
+        "label": "Iris",
+        "description": "HTTP/WebSocket 기반의 카카오톡봇 개발",
+        "docs": [
+          "/reference/iris",
+          "/reference/irispy-client"
+        ]
+      }
+    ],
+    "/reference/legacy": [
+      "/reference/legacy",
+      {
+        "label": "함수",
+        "docs": [
+          "/reference/legacy/Function/clearInterval",
+          "/reference/legacy/Function/clearTimeout",
+          "/reference/legacy/Function/require",
+          "/reference/legacy/Function/setInterval",
+          "/reference/legacy/Function/setTimeout"
+        ]
+      },
+      {
+        "label": "객체",
+        "docs": [
+          "/reference/legacy/Object/Api",
+          "/reference/legacy/Object/AppData",
+          "/reference/legacy/Object/Bridge",
+          "/reference/legacy/Object/console",
+          "/reference/legacy/Object/DataBase",
+          "/reference/legacy/Object/Device",
+          "/reference/legacy/Object/FileStream",
+          "/reference/legacy/Object/Log",
+          "/reference/legacy/Object/MediaSender",
+          "/reference/legacy/Object/Utils"
+        ]
+      },
+      {
+        "label": "이벤트 리스너",
+        "docs": [
+          "/reference/legacy/EventListener/onBackPressed",
+          "/reference/legacy/EventListener/onCreate",
+          "/reference/legacy/EventListener/onDestroy",
+          "/reference/legacy/EventListener/onLoaded",
+          "/reference/legacy/EventListener/onNotificationPosted",
+          "/reference/legacy/EventListener/onNotificationRemoved",
+          "/reference/legacy/EventListener/onPause",
+          "/reference/legacy/EventListener/onRestart",
+          "/reference/legacy/EventListener/onResume",
+          "/reference/legacy/EventListener/onStart",
+          "/reference/legacy/EventListener/onStartCompile",
+          "/reference/legacy/EventListener/onStop",
+          "/reference/legacy/EventListener/response",
+          "/reference/legacy/EventListener/secondTick"
+        ]
+      },
+      {
+        "label": "인자",
+        "docs": [
+          "/reference/legacy/Argument/ImageDB",
+          "/reference/legacy/Argument/Replier",
+          "/reference/legacy/Argument/SessionManager"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/Api": [
+      "/reference/legacy/Object/Api",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/Api/canReply",
+          "/reference/legacy/Object/Api/compile",
+          "/reference/legacy/Object/Api/gc",
+          "/reference/legacy/Object/Api/getActiveThreadsCount",
+          "/reference/legacy/Object/Api/getContext",
+          "/reference/legacy/Object/Api/getLastImage",
+          "/reference/legacy/Object/Api/getLastImageBitmap",
+          "/reference/legacy/Object/Api/getRoomList",
+          "/reference/legacy/Object/Api/getScriptNames",
+          "/reference/legacy/Object/Api/interruptThreads",
+          "/reference/legacy/Object/Api/isCompiled",
+          "/reference/legacy/Object/Api/isCompiling",
+          "/reference/legacy/Object/Api/isOn",
+          "/reference/legacy/Object/Api/isTerminated",
+          "/reference/legacy/Object/Api/makeNoti",
+          "/reference/legacy/Object/Api/markAsRead",
+          "/reference/legacy/Object/Api/markAsReadOnID",
+          "/reference/legacy/Object/Api/off",
+          "/reference/legacy/Object/Api/on",
+          "/reference/legacy/Object/Api/papagoTranslate",
+          "/reference/legacy/Object/Api/prepare",
+          "/reference/legacy/Object/Api/reload",
+          "/reference/legacy/Object/Api/replyRoom",
+          "/reference/legacy/Object/Api/replyToID",
+          "/reference/legacy/Object/Api/showToast",
+          "/reference/legacy/Object/Api/UIThread",
+          "/reference/legacy/Object/Api/unload"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/AppData": [
+      "/reference/legacy/Object/AppData",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/AppData/clear",
+          "/reference/legacy/Object/AppData/getBoolean",
+          "/reference/legacy/Object/AppData/getInt",
+          "/reference/legacy/Object/AppData/getString",
+          "/reference/legacy/Object/AppData/putBoolean",
+          "/reference/legacy/Object/AppData/putInt",
+          "/reference/legacy/Object/AppData/putString",
+          "/reference/legacy/Object/AppData/remove"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/Bridge": [
+      "/reference/legacy/Object/Bridge",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/Bridge/callFunctionOf",
+          "/reference/legacy/Object/Bridge/evalInScript",
+          "/reference/legacy/Object/Bridge/evaluateStringIn",
+          "/reference/legacy/Object/Bridge/getActiveScripts",
+          "/reference/legacy/Object/Bridge/getGlobalVariable",
+          "/reference/legacy/Object/Bridge/getMemberNamesOf",
+          "/reference/legacy/Object/Bridge/getScopeOf",
+          "/reference/legacy/Object/Bridge/getVariable",
+          "/reference/legacy/Object/Bridge/getVariableOf",
+          "/reference/legacy/Object/Bridge/hasVariableOf",
+          "/reference/legacy/Object/Bridge/isAllowed",
+          "/reference/legacy/Object/Bridge/isScriptActive",
+          "/reference/legacy/Object/Bridge/setGlobalVariable",
+          "/reference/legacy/Object/Bridge/setVariable",
+          "/reference/legacy/Object/Bridge/setVariableOf"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/console": [
+      "/reference/legacy/Object/console",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/console/clear",
+          "/reference/legacy/Object/console/debug",
+          "/reference/legacy/Object/console/error",
+          "/reference/legacy/Object/console/info",
+          "/reference/legacy/Object/console/log"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/DataBase": [
+      "/reference/legacy/Object/DataBase",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/DataBase/appendDataBase",
+          "/reference/legacy/Object/DataBase/clearDataBase",
+          "/reference/legacy/Object/DataBase/exists",
+          "/reference/legacy/Object/DataBase/getDataBase",
+          "/reference/legacy/Object/DataBase/getDataBaseDir",
+          "/reference/legacy/Object/DataBase/getFileSize",
+          "/reference/legacy/Object/DataBase/listFiles",
+          "/reference/legacy/Object/DataBase/removeDataBase",
+          "/reference/legacy/Object/DataBase/setDataBase",
+          "/reference/legacy/Object/DataBase/setDataBaseDir"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/Device": [
+      "/reference/legacy/Object/Device",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/Device/acquireWakeLock",
+          "/reference/legacy/Object/Device/getAndroidVersionCode",
+          "/reference/legacy/Object/Device/getAndroidVersionName",
+          "/reference/legacy/Object/Device/getApiLevel",
+          "/reference/legacy/Object/Device/getBatteryHealth",
+          "/reference/legacy/Object/Device/getBatteryIntent",
+          "/reference/legacy/Object/Device/getBatteryLevel",
+          "/reference/legacy/Object/Device/getBatteryStatus",
+          "/reference/legacy/Object/Device/getBatteryTemp",
+          "/reference/legacy/Object/Device/getBatteryTemperature",
+          "/reference/legacy/Object/Device/getBatteryVoltage",
+          "/reference/legacy/Object/Device/getBuild",
+          "/reference/legacy/Object/Device/getConnectedNetworkType",
+          "/reference/legacy/Object/Device/getFreeMemory",
+          "/reference/legacy/Object/Device/getFreeStorageSpace",
+          "/reference/legacy/Object/Device/getMaxMemory",
+          "/reference/legacy/Object/Device/getModelName",
+          "/reference/legacy/Object/Device/getPhoneBrand",
+          "/reference/legacy/Object/Device/getPhoneModel",
+          "/reference/legacy/Object/Device/getPlugType",
+          "/reference/legacy/Object/Device/getTotalMemory",
+          "/reference/legacy/Object/Device/getTotalStorageSpace",
+          "/reference/legacy/Object/Device/getWifiName",
+          "/reference/legacy/Object/Device/isCharging",
+          "/reference/legacy/Object/Device/isPowerSaveMode",
+          "/reference/legacy/Object/Device/isScreenOn",
+          "/reference/legacy/Object/Device/releaseWakeLock"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/FileStream": [
+      "/reference/legacy/Object/FileStream",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/FileStream/append",
+          "/reference/legacy/Object/FileStream/copyFile",
+          "/reference/legacy/Object/FileStream/create",
+          "/reference/legacy/Object/FileStream/createDir",
+          "/reference/legacy/Object/FileStream/exists",
+          "/reference/legacy/Object/FileStream/getExtension",
+          "/reference/legacy/Object/FileStream/getFileName",
+          "/reference/legacy/Object/FileStream/getFileSize",
+          "/reference/legacy/Object/FileStream/getParentPath",
+          "/reference/legacy/Object/FileStream/getSdcardPath",
+          "/reference/legacy/Object/FileStream/isDirectory",
+          "/reference/legacy/Object/FileStream/isFile",
+          "/reference/legacy/Object/FileStream/listFiles",
+          "/reference/legacy/Object/FileStream/moveFile",
+          "/reference/legacy/Object/FileStream/read",
+          "/reference/legacy/Object/FileStream/readJSON",
+          "/reference/legacy/Object/FileStream/remove",
+          "/reference/legacy/Object/FileStream/save",
+          "/reference/legacy/Object/FileStream/saveJSON",
+          "/reference/legacy/Object/FileStream/write",
+          "/reference/legacy/Object/FileStream/writeJSON"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/Log": [
+      "/reference/legacy/Object/Log",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/Log/clear",
+          "/reference/legacy/Object/Log/d",
+          "/reference/legacy/Object/Log/debug",
+          "/reference/legacy/Object/Log/e",
+          "/reference/legacy/Object/Log/error",
+          "/reference/legacy/Object/Log/i",
+          "/reference/legacy/Object/Log/info",
+          "/reference/legacy/Object/Log/log"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/MediaSender": [
+      "/reference/legacy/Object/MediaSender",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/legacy/Object/MediaSender/clearCache",
+          "/reference/legacy/Object/MediaSender/getBaseDirectory",
+          "/reference/legacy/Object/MediaSender/getCachedUrls",
+          "/reference/legacy/Object/MediaSender/getCacheSize",
+          "/reference/legacy/Object/MediaSender/getSupportedFormats",
+          "/reference/legacy/Object/MediaSender/returnToAppNow",
+          "/reference/legacy/Object/MediaSender/send"
+        ]
+      }
+    ],
+    "/reference/legacy/Object/Utils": [
+      "/reference/legacy/Object/Utils",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/legacy/Object/Utils/compress",
+          "/reference/legacy/Object/Utils/copyToClipboard",
+          "/reference/legacy/Object/Utils/delay",
+          "/reference/legacy/Object/Utils/getAndroidVersionCode",
+          "/reference/legacy/Object/Utils/getAndroidVersionName",
+          "/reference/legacy/Object/Utils/getLw",
+          "/reference/legacy/Object/Utils/getLwLined",
+          "/reference/legacy/Object/Utils/getPhoneBrand",
+          "/reference/legacy/Object/Utils/getPhoneModel",
+          "/reference/legacy/Object/Utils/getRandomUserAgent",
+          "/reference/legacy/Object/Utils/getWeatherJSON",
+          "/reference/legacy/Object/Utils/getWebText",
+          "/reference/legacy/Object/Utils/getWebText2",
+          "/reference/legacy/Object/Utils/getZoneIdByName",
+          "/reference/legacy/Object/Utils/isUndefined",
+          "/reference/legacy/Object/Utils/measureNanoTime",
+          "/reference/legacy/Object/Utils/measureTimeMillis",
+          "/reference/legacy/Object/Utils/parse",
+          "/reference/legacy/Object/Utils/randomAlphanumeric",
+          "/reference/legacy/Object/Utils/removeRLO",
+          "/reference/legacy/Object/Utils/removeTags",
+          "/reference/legacy/Object/Utils/sleep",
+          "/reference/legacy/Object/Utils/toast",
+          "/reference/legacy/Object/Utils/vibrate",
+          "/reference/legacy/Object/Utils/xmlToJson"
+        ]
+      }
+    ],
+    "/reference/legacy/Argument/ImageDB": [
+      "/reference/legacy/Argument/ImageDB",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/legacy/Argument/ImageDB/getImage",
+          "/reference/legacy/Argument/ImageDB/getImageBase64",
+          "/reference/legacy/Argument/ImageDB/getImageBitmap",
+          "/reference/legacy/Argument/ImageDB/getImageHash",
+          "/reference/legacy/Argument/ImageDB/getImageMD5",
+          "/reference/legacy/Argument/ImageDB/getImageSHA",
+          "/reference/legacy/Argument/ImageDB/getProfileBase64",
+          "/reference/legacy/Argument/ImageDB/getProfileBitmap",
+          "/reference/legacy/Argument/ImageDB/getProfileHash",
+          "/reference/legacy/Argument/ImageDB/getProfileImage",
+          "/reference/legacy/Argument/ImageDB/getProfileMD5",
+          "/reference/legacy/Argument/ImageDB/getProfileSHA",
+          "/reference/legacy/Argument/ImageDB/getRoomBitmap",
+          "/reference/legacy/Argument/ImageDB/getRoomImage"
+        ]
+      }
+    ],
+    "/reference/legacy/Argument/Replier": [
+      "/reference/legacy/Argument/Replier",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/legacy/Argument/Replier/markAsRead",
+          "/reference/legacy/Argument/Replier/reply(String)",
+          "/reference/legacy/Argument/Replier/reply(String,String,Boolean$)",
+          "/reference/legacy/Argument/Replier/replyDelayed(String,Number)",
+          "/reference/legacy/Argument/Replier/replyDelayed(String,String,Number,Boolean$)"
+        ]
+      }
+    ],
+    "/reference/legacy/Argument/SessionManager": [
+      "/reference/legacy/Argument/SessionManager",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/legacy/Argument/SessionManager/bindSession(String,Action$)",
+          "/reference/legacy/Argument/SessionManager/bindSession(String,String,Action$)"
+        ]
+      }
+    ],
+    "/reference/api2": [
+      "/reference/api2",
+      {
+        "label": "함수",
+        "docs": [
+          "/reference/api2/Function/clearInterval",
+          "/reference/api2/Function/clearTimeout",
+          "/reference/api2/Function/require",
+          "/reference/api2/Function/setInterval",
+          "/reference/api2/Function/setTimeout"
+        ]
+      },
+      {
+        "label": "객체",
+        "docs": [
+          "/reference/api2/Object/App",
+          "/reference/api2/Object/AppData",
+          "/reference/api2/Object/Bot",
+          "/reference/api2/Object/BotManager",
+          "/reference/api2/Object/Broadcast",
+          "/reference/api2/Object/console",
+          "/reference/api2/Object/Database",
+          "/reference/api2/Object/Device",
+          "/reference/api2/Object/Event",
+          "/reference/api2/Object/FileStream",
+          "/reference/api2/Object/GlobalLog",
+          "/reference/api2/Object/Http",
+          "/reference/api2/Object/Log",
+          "/reference/api2/Object/MediaSender",
+          "/reference/api2/Object/Security"
+        ]
+      },
+      {
+        "label": "이벤트",
+        "docs": [
+          "/reference/api2/Event/activityBackPressed",
+          "/reference/api2/Event/activityCreate",
+          "/reference/api2/Event/activityDestroy",
+          "/reference/api2/Event/activityPause",
+          "/reference/api2/Event/activityRestart",
+          "/reference/api2/Event/activityResume",
+          "/reference/api2/Event/activityStart",
+          "/reference/api2/Event/activityStop",
+          "/reference/api2/Event/batteryLevelChanged",
+          "/reference/api2/Event/command",
+          "/reference/api2/Event/message",
+          "/reference/api2/Event/notificationPosted",
+          "/reference/api2/Event/notificationRemoved",
+          "/reference/api2/Event/startCompile",
+          "/reference/api2/Event/tick"
+        ]
+      },
+      {
+        "label": "인자",
+        "docs": [
+          "/reference/api2/Argument/Author",
+          "/reference/api2/Argument/Command",
+          "/reference/api2/Argument/Image",
+          "/reference/api2/Argument/Message",
+          "/reference/api2/Argument/SessionManager"
+        ]
+      }
+    ],
+    "/reference/api2/Object/App": [
+      "/reference/api2/Object/App",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/App/getContext",
+          "/reference/api2/Object/App/isMainThread",
+          "/reference/api2/Object/App/runDelayed",
+          "/reference/api2/Object/App/runOnBackgroundThread",
+          "/reference/api2/Object/App/runOnUiThread"
+        ]
+      }
+    ],
+    "/reference/api2/Object/AppData": [
+      "/reference/api2/Object/AppData",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/AppData/clear",
+          "/reference/api2/Object/AppData/getBoolean",
+          "/reference/api2/Object/AppData/getInt",
+          "/reference/api2/Object/AppData/getString",
+          "/reference/api2/Object/AppData/putBoolean",
+          "/reference/api2/Object/AppData/putInt",
+          "/reference/api2/Object/AppData/putString",
+          "/reference/api2/Object/AppData/remove"
+        ]
+      }
+    ],
+    "/reference/api2/Object/Bot": [
+      "/reference/api2/Object/Bot",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/Bot/addListener",
+          "/reference/api2/Object/Bot/canReply",
+          "/reference/api2/Object/Bot/compile",
+          "/reference/api2/Object/Bot/getListenersMap",
+          "/reference/api2/Object/Bot/getName",
+          "/reference/api2/Object/Bot/getPower",
+          "/reference/api2/Object/Bot/getRootPath",
+          "/reference/api2/Object/Bot/listeners",
+          "/reference/api2/Object/Bot/markAsRead",
+          "/reference/api2/Object/Bot/off",
+          "/reference/api2/Object/Bot/on",
+          "/reference/api2/Object/Bot/prependListener",
+          "/reference/api2/Object/Bot/removeAllListeners",
+          "/reference/api2/Object/Bot/removeListener",
+          "/reference/api2/Object/Bot/send",
+          "/reference/api2/Object/Bot/setCommandPrefix",
+          "/reference/api2/Object/Bot/setPower",
+          "/reference/api2/Object/Bot/unload"
+        ]
+      }
+    ],
+    "/reference/api2/Object/BotManager": [
+      "/reference/api2/Object/BotManager",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/BotManager/compile",
+          "/reference/api2/Object/BotManager/compileAll",
+          "/reference/api2/Object/BotManager/getBot",
+          "/reference/api2/Object/BotManager/getBotCount",
+          "/reference/api2/Object/BotManager/getBotList",
+          "/reference/api2/Object/BotManager/getBotNames",
+          "/reference/api2/Object/BotManager/getCurrentBot",
+          "/reference/api2/Object/BotManager/getPower",
+          "/reference/api2/Object/BotManager/getRooms",
+          "/reference/api2/Object/BotManager/isCompiled",
+          "/reference/api2/Object/BotManager/prepare",
+          "/reference/api2/Object/BotManager/prepareAll",
+          "/reference/api2/Object/BotManager/setPower",
+          "/reference/api2/Object/BotManager/unload"
+        ]
+      }
+    ],
+    "/reference/api2/Object/Broadcast": [
+      "/reference/api2/Object/Broadcast",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/Broadcast/getAllEvents",
+          "/reference/api2/Object/Broadcast/getListenerCount",
+          "/reference/api2/Object/Broadcast/getLocalEvents",
+          "/reference/api2/Object/Broadcast/hasListeners",
+          "/reference/api2/Object/Broadcast/hasLocalListeners",
+          "/reference/api2/Object/Broadcast/register",
+          "/reference/api2/Object/Broadcast/send",
+          "/reference/api2/Object/Broadcast/sendLocal",
+          "/reference/api2/Object/Broadcast/unregister",
+          "/reference/api2/Object/Broadcast/unregisterAll"
+        ]
+      }
+    ],
+    "/reference/api2/Object/console": [
+      "/reference/api2/Object/console",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/console/assert",
+          "/reference/api2/Object/console/clear",
+          "/reference/api2/Object/console/count",
+          "/reference/api2/Object/console/countReset",
+          "/reference/api2/Object/console/debug",
+          "/reference/api2/Object/console/error",
+          "/reference/api2/Object/console/info",
+          "/reference/api2/Object/console/log",
+          "/reference/api2/Object/console/table",
+          "/reference/api2/Object/console/time",
+          "/reference/api2/Object/console/timeEnd",
+          "/reference/api2/Object/console/timeLog",
+          "/reference/api2/Object/console/warn"
+        ]
+      }
+    ],
+    "/reference/api2/Object/Database": [
+      "/reference/api2/Object/Database",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/Database/exists",
+          "/reference/api2/Object/Database/readObject",
+          "/reference/api2/Object/Database/readString",
+          "/reference/api2/Object/Database/writeObject",
+          "/reference/api2/Object/Database/writeString"
+        ]
+      }
+    ],
+    "/reference/api2/Object/Device": [
+      "/reference/api2/Object/Device",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/Device/acquireWakeLock",
+          "/reference/api2/Object/Device/getAndroidVersionCode",
+          "/reference/api2/Object/Device/getAndroidVersionName",
+          "/reference/api2/Object/Device/getApiLevel",
+          "/reference/api2/Object/Device/getBatteryHealth",
+          "/reference/api2/Object/Device/getBatteryIntent",
+          "/reference/api2/Object/Device/getBatteryLevel",
+          "/reference/api2/Object/Device/getBatteryStatus",
+          "/reference/api2/Object/Device/getBatteryTemp",
+          "/reference/api2/Object/Device/getBatteryTemperature",
+          "/reference/api2/Object/Device/getBatteryVoltage",
+          "/reference/api2/Object/Device/getBuild",
+          "/reference/api2/Object/Device/getConnectedNetworkType",
+          "/reference/api2/Object/Device/getFreeMemory",
+          "/reference/api2/Object/Device/getFreeStorageSpace",
+          "/reference/api2/Object/Device/getMaxMemory",
+          "/reference/api2/Object/Device/getModelName",
+          "/reference/api2/Object/Device/getPhoneBrand",
+          "/reference/api2/Object/Device/getPhoneModel",
+          "/reference/api2/Object/Device/getPlugType",
+          "/reference/api2/Object/Device/getTotalMemory",
+          "/reference/api2/Object/Device/getTotalStorageSpace",
+          "/reference/api2/Object/Device/getWifiName",
+          "/reference/api2/Object/Device/isCharging",
+          "/reference/api2/Object/Device/isPowerSaveMode",
+          "/reference/api2/Object/Device/isScreenOn",
+          "/reference/api2/Object/Device/releaseWakeLock"
+        ]
+      }
+    ],
+    "/reference/api2/Object/Event": [
+      "/reference/api2/Object/Event",
+      {
+        "label": "상수",
+        "docs": [
+          "/reference/api2/Object/Event/Activity.BACK_PRESSED",
+          "/reference/api2/Object/Event/Activity.CREATE",
+          "/reference/api2/Object/Event/Activity.DESTROY",
+          "/reference/api2/Object/Event/Activity.PAUSE",
+          "/reference/api2/Object/Event/Activity.RESTART",
+          "/reference/api2/Object/Event/Activity.RESUME",
+          "/reference/api2/Object/Event/Activity.START",
+          "/reference/api2/Object/Event/Activity.STOP",
+          "/reference/api2/Object/Event/BATTERY_LEVEL_CHANGED",
+          "/reference/api2/Object/Event/COMMAND",
+          "/reference/api2/Object/Event/MESSAGE",
+          "/reference/api2/Object/Event/NOTIFICATION_POSTED",
+          "/reference/api2/Object/Event/NOTIFICATION_REMOVED",
+          "/reference/api2/Object/Event/START_COMPILE",
+          "/reference/api2/Object/Event/TICK"
+        ]
+      }
+    ],
+    "/reference/api2/Object/FileStream": [
+      "/reference/api2/Object/FileStream",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/FileStream/append",
+          "/reference/api2/Object/FileStream/copyFile",
+          "/reference/api2/Object/FileStream/create",
+          "/reference/api2/Object/FileStream/createDir",
+          "/reference/api2/Object/FileStream/exists",
+          "/reference/api2/Object/FileStream/getExtension",
+          "/reference/api2/Object/FileStream/getFileName",
+          "/reference/api2/Object/FileStream/getFileSize",
+          "/reference/api2/Object/FileStream/getParentPath",
+          "/reference/api2/Object/FileStream/getSdcardPath",
+          "/reference/api2/Object/FileStream/isDirectory",
+          "/reference/api2/Object/FileStream/isFile",
+          "/reference/api2/Object/FileStream/listFiles",
+          "/reference/api2/Object/FileStream/moveFile",
+          "/reference/api2/Object/FileStream/read",
+          "/reference/api2/Object/FileStream/readJSON",
+          "/reference/api2/Object/FileStream/remove",
+          "/reference/api2/Object/FileStream/save",
+          "/reference/api2/Object/FileStream/saveJSON",
+          "/reference/api2/Object/FileStream/write",
+          "/reference/api2/Object/FileStream/writeJSON"
+        ]
+      }
+    ],
+    "/reference/api2/Object/GlobalLog": [
+      "/reference/api2/Object/GlobalLog",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/GlobalLog/clear",
+          "/reference/api2/Object/GlobalLog/d",
+          "/reference/api2/Object/GlobalLog/debug",
+          "/reference/api2/Object/GlobalLog/e",
+          "/reference/api2/Object/GlobalLog/error",
+          "/reference/api2/Object/GlobalLog/i",
+          "/reference/api2/Object/GlobalLog/info",
+          "/reference/api2/Object/GlobalLog/log"
+        ]
+      }
+    ],
+    "/reference/api2/Object/Http": [
+      "/reference/api2/Object/Http",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/Http/request(Object,Function)",
+          "/reference/api2/Object/Http/request(String,Function)",
+          "/reference/api2/Object/Http/requestSync(Object)",
+          "/reference/api2/Object/Http/requestSync(String)"
+        ]
+      }
+    ],
+    "/reference/api2/Object/Log": [
+      "/reference/api2/Object/Log",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/Log/clear",
+          "/reference/api2/Object/Log/d",
+          "/reference/api2/Object/Log/debug",
+          "/reference/api2/Object/Log/e",
+          "/reference/api2/Object/Log/error",
+          "/reference/api2/Object/Log/i",
+          "/reference/api2/Object/Log/info",
+          "/reference/api2/Object/Log/log"
+        ]
+      }
+    ],
+    "/reference/api2/Object/MediaSender": [
+      "/reference/api2/Object/MediaSender",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/api2/Object/MediaSender/clearCache",
+          "/reference/api2/Object/MediaSender/getBaseDirectory",
+          "/reference/api2/Object/MediaSender/getCachedUrls",
+          "/reference/api2/Object/MediaSender/getCacheSize",
+          "/reference/api2/Object/MediaSender/getSupportedFormats",
+          "/reference/api2/Object/MediaSender/returnToAppNow",
+          "/reference/api2/Object/MediaSender/send"
+        ]
+      }
+    ],
+    "/reference/api2/Object/Security": [
+      "/reference/api2/Object/Security",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/api2/Object/Security/aesDecode",
+          "/reference/api2/Object/Security/aesEncode",
+          "/reference/api2/Object/Security/ariaDecode",
+          "/reference/api2/Object/Security/ariaDecodeRaw",
+          "/reference/api2/Object/Security/ariaEncode",
+          "/reference/api2/Object/Security/ariaEncodeRaw",
+          "/reference/api2/Object/Security/base32Decode",
+          "/reference/api2/Object/Security/base32Encode",
+          "/reference/api2/Object/Security/base64Decode",
+          "/reference/api2/Object/Security/base64Encode",
+          "/reference/api2/Object/Security/des3Decode",
+          "/reference/api2/Object/Security/des3Encode",
+          "/reference/api2/Object/Security/desDecode",
+          "/reference/api2/Object/Security/desEncode",
+          "/reference/api2/Object/Security/desKey",
+          "/reference/api2/Object/Security/eccDecode",
+          "/reference/api2/Object/Security/eccEncode",
+          "/reference/api2/Object/Security/getDesKey",
+          "/reference/api2/Object/Security/hashCode",
+          "/reference/api2/Object/Security/md2",
+          "/reference/api2/Object/Security/md5",
+          "/reference/api2/Object/Security/md55",
+          "/reference/api2/Object/Security/rc4Decode",
+          "/reference/api2/Object/Security/rc4Encode",
+          "/reference/api2/Object/Security/seedDecode",
+          "/reference/api2/Object/Security/seedEncode",
+          "/reference/api2/Object/Security/sha",
+          "/reference/api2/Object/Security/sha3_224",
+          "/reference/api2/Object/Security/sha3_256",
+          "/reference/api2/Object/Security/sha3_384",
+          "/reference/api2/Object/Security/sha3_512",
+          "/reference/api2/Object/Security/sha256",
+          "/reference/api2/Object/Security/sha384",
+          "/reference/api2/Object/Security/sha512",
+          "/reference/api2/Object/Security/ulid",
+          "/reference/api2/Object/Security/uuid",
+          "/reference/api2/Object/Security/uuidv7"
+        ]
+      }
+    ],
+    "/reference/api2/Argument/Author": [
+      "/reference/api2/Argument/Author",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/api2/Argument/Author/avatar",
+          "/reference/api2/Argument/Author/hash",
+          "/reference/api2/Argument/Author/name"
+        ]
+      }
+    ],
+    "/reference/api2/Argument/Command": [
+      "/reference/api2/Argument/Command",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/api2/Argument/Command/args",
+          "/reference/api2/Argument/Command/author",
+          "/reference/api2/Argument/Command/channelId",
+          "/reference/api2/Argument/Command/command",
+          "/reference/api2/Argument/Command/content",
+          "/reference/api2/Argument/Command/image",
+          "/reference/api2/Argument/Command/isDebugRoom",
+          "/reference/api2/Argument/Command/isGroupChat",
+          "/reference/api2/Argument/Command/isMention",
+          "/reference/api2/Argument/Command/isMultiChat",
+          "/reference/api2/Argument/Command/logId",
+          "/reference/api2/Argument/Command/packageName",
+          "/reference/api2/Argument/Command/room"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/api2/Argument/Command/markAsRead",
+          "/reference/api2/Argument/Command/reply"
+        ]
+      }
+    ],
+    "/reference/api2/Argument/Image": [
+      "/reference/api2/Argument/Image",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/api2/Argument/Image/getBase64",
+          "/reference/api2/Argument/Image/getBitmap"
+        ]
+      }
+    ],
+    "/reference/api2/Argument/Message": [
+      "/reference/api2/Argument/Message",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/api2/Argument/Message/author",
+          "/reference/api2/Argument/Message/channelId",
+          "/reference/api2/Argument/Message/content",
+          "/reference/api2/Argument/Message/image",
+          "/reference/api2/Argument/Message/isDebugRoom",
+          "/reference/api2/Argument/Message/isGroupChat",
+          "/reference/api2/Argument/Message/isMention",
+          "/reference/api2/Argument/Message/isMultiChat",
+          "/reference/api2/Argument/Message/logId",
+          "/reference/api2/Argument/Message/packageName",
+          "/reference/api2/Argument/Message/room"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/api2/Argument/Message/markAsRead",
+          "/reference/api2/Argument/Message/reply"
+        ]
+      }
+    ],
+    "/reference/api2/Argument/SessionManager": [
+      "/reference/api2/Argument/SessionManager",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/api2/Argument/SessionManager/bindSession(String,Action$)",
+          "/reference/api2/Argument/SessionManager/bindSession(String,String,Action$)"
+        ]
+      }
+    ],
+    "/reference/starlight": [
+      "/reference/starlight",
+      {
+        "label": "객체",
+        "docs": [
+          "/reference/starlight/Object/Env",
+          "/reference/starlight/Object/Java",
+          "/reference/starlight/Object/Language",
+          "/reference/starlight/Object/Languages",
+          "/reference/starlight/Object/Notification",
+          "/reference/starlight/Object/NotificationBuilder",
+          "/reference/starlight/Object/Platform",
+          "/reference/starlight/Object/Plugin",
+          "/reference/starlight/Object/Plugins",
+          "/reference/starlight/Object/Project",
+          "/reference/starlight/Object/Projects"
+        ]
+      },
+      {
+        "label": "이벤트 리스너",
+        "docs": [
+          "/reference/starlight/EventListener/onMessage",
+          "/reference/starlight/EventListener/onMessageDeleted",
+          "/reference/starlight/EventListener/onNotificationPosted",
+          "/reference/starlight/EventListener/onStartCompile"
+        ]
+      },
+      {
+        "label": "인자",
+        "docs": [
+          "/reference/starlight/Argument/ChatRoom",
+          "/reference/starlight/Argument/ChatSender",
+          "/reference/starlight/Argument/Message",
+          "/reference/starlight/Argument/DeletedMessage"
+        ]
+      },
+      {
+        "label": "플러그인",
+        "docs": [
+          "/reference/starlight/Plugin/Discord",
+          "/reference/starlight/Plugin/V8"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Env": [
+      "/reference/starlight/Object/Env",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Env/get",
+          "/reference/starlight/Object/Env/parseFile",
+          "/reference/starlight/Object/Env/parseString"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Java": [
+      "/reference/starlight/Object/Java",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Java/type"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Language": [
+      "/reference/starlight/Object/Language",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Object/Language/fileExtension",
+          "/reference/starlight/Object/Language/id",
+          "/reference/starlight/Object/Language/name",
+          "/reference/starlight/Object/Language/requireRelease"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/starlight/Object/Language/callFunction",
+          "/reference/starlight/Object/Language/destroy",
+          "/reference/starlight/Object/Language/eval",
+          "/reference/starlight/Object/Language/release"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Languages": [
+      "/reference/starlight/Object/Languages",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Languages/getSelf",
+          "/reference/starlight/Object/Languages/ofId"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Notification": [
+      "/reference/starlight/Object/Notification",
+      {
+        "label": "상수",
+        "docs": [
+          "/reference/starlight/Object/Notification/STATE_CREATED",
+          "/reference/starlight/Object/Notification/STATE_DEFAULT",
+          "/reference/starlight/Object/Notification/STATE_DISMISSED"
+        ]
+      },
+      {
+        "label": "정적 프로퍼티",
+        "docs": [
+          "/reference/starlight/Object/Notification/state"
+        ]
+      },
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Notification/create",
+          "/reference/starlight/Object/Notification/delete",
+          "/reference/starlight/Object/Notification/update"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/NotificationBuilder": [
+      "/reference/starlight/Object/NotificationBuilder",
+      {
+        "label": "메소드",
+        "docs": [
+          "/reference/starlight/Object/NotificationBuilder/build",
+          "/reference/starlight/Object/NotificationBuilder/lights",
+          "/reference/starlight/Object/NotificationBuilder/onClick",
+          "/reference/starlight/Object/NotificationBuilder/onDismiss",
+          "/reference/starlight/Object/NotificationBuilder/setText",
+          "/reference/starlight/Object/NotificationBuilder/setTitle"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Platform": [
+      "/reference/starlight/Object/Platform",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/starlight/Object/Platform/getName",
+          "/reference/starlight/Object/Platform/getUptime",
+          "/reference/starlight/Object/Platform/getVersion"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Plugin": [
+      "/reference/starlight/Object/Plugin",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Object/Plugin/info"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/starlight/Object/Plugin/getAsset",
+          "/reference/starlight/Object/Plugin/getExternalDataDirectory",
+          "/reference/starlight/Object/Plugin/getInternalDataDirectory",
+          "/reference/starlight/Object/Plugin/isEnabled"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Plugins": [
+      "/reference/starlight/Object/Plugins",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Plugins/getAll",
+          "/reference/starlight/Object/Plugins/ofId",
+          "/reference/starlight/Object/Plugins/ofName"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Project": [
+      "/reference/starlight/Object/Project",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Object/Project/config",
+          "/reference/starlight/Object/Project/directory",
+          "/reference/starlight/Object/Project/info",
+          "/reference/starlight/Object/Project/isCompiled",
+          "/reference/starlight/Object/Project/logger"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/starlight/Object/Project/activeJobs",
+          "/reference/starlight/Object/Project/callFunction",
+          "/reference/starlight/Object/Project/compile",
+          "/reference/starlight/Object/Project/destroy",
+          "/reference/starlight/Object/Project/getDataDirectory",
+          "/reference/starlight/Object/Project/getLanguage",
+          "/reference/starlight/Object/Project/getScope",
+          "/reference/starlight/Object/Project/isEventCallAllowed",
+          "/reference/starlight/Object/Project/loadInfo",
+          "/reference/starlight/Object/Project/rename",
+          "/reference/starlight/Object/Project/requestUpdate",
+          "/reference/starlight/Object/Project/saveInfo",
+          "/reference/starlight/Object/Project/setEnabled",
+          "/reference/starlight/Object/Project/stopAllJobs"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Projects": [
+      "/reference/starlight/Object/Projects",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Projects/getSelf",
+          "/reference/starlight/Object/Projects/ofId",
+          "/reference/starlight/Object/Projects/ofName"
+        ]
+      }
+    ],
+    "/reference/starlight/Argument/ChatRoom": [
+      "/reference/starlight/Argument/ChatRoom",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Argument/ChatRoom/id",
+          "/reference/starlight/Argument/ChatRoom/isDebugRoom",
+          "/reference/starlight/Argument/ChatRoom/isGroupChat",
+          "/reference/starlight/Argument/ChatRoom/name"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/starlight/Argument/ChatRoom/markAsRead",
+          "/reference/starlight/Argument/ChatRoom/send"
+        ]
+      }
+    ],
+    "/reference/starlight/Argument/ChatSender": [
+      "/reference/starlight/Argument/ChatSender",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Argument/ChatSender/id",
+          "/reference/starlight/Argument/ChatSender/name",
+          "/reference/starlight/Argument/ChatSender/profileBase64",
+          "/reference/starlight/Argument/ChatSender/profileBitmap",
+          "/reference/starlight/Argument/ChatSender/profileHash"
+        ]
+      }
+    ],
+    "/reference/starlight/Argument/Message": [
+      "/reference/starlight/Argument/Message",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Argument/Message/chatLogId",
+          "/reference/starlight/Argument/Message/hasMention",
+          "/reference/starlight/Argument/Message/image",
+          "/reference/starlight/Argument/Message/message",
+          "/reference/starlight/Argument/Message/packageName",
+          "/reference/starlight/Argument/Message/room",
+          "/reference/starlight/Argument/Message/sender"
+        ]
+      }
+    ],
+    "/reference/starlight/Argument/DeletedMessage": [
+      "/reference/starlight/Argument/DeletedMessage",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Argument/DeletedMessage/chatLogId",
+          "/reference/starlight/Argument/DeletedMessage/message",
+          "/reference/starlight/Argument/DeletedMessage/packageName",
+          "/reference/starlight/Argument/DeletedMessage/room",
+          "/reference/starlight/Argument/DeletedMessage/sender"
+        ]
+      }
+    ],
+    "/reference/iris": [
+      "/reference/iris",
+      "/reference/iris/get-started",
+      {
+        "label": "HTTP API 엔드포인트",
+        "docs": [
+          "/reference/iris/Endpoint/decrypt",
+          "/reference/iris/Endpoint/query",
+          "/reference/iris/Endpoint/reply"
+        ]
+      },
+      {
+        "label": "구성 API 엔드포인트",
+        "docs": [
+          "/reference/iris/Endpoint/aot",
+          "/reference/iris/Endpoint/config",
+          "/reference/iris/Endpoint/config/botport",
+          "/reference/iris/Endpoint/config/dbrate",
+          "/reference/iris/Endpoint/config/endpoint",
+          "/reference/iris/Endpoint/config/sendrate",
+          "/reference/iris/Endpoint/dashboard"
+        ]
+      },
+      {
+        "label": "WebSocket 엔드포인트",
+        "docs": [
+          "/reference/iris/Endpoint/ws"
+        ]
+      }
+    ],
+    "/reference/irispy-client": [
+      "/reference/irispy-client",
+      {
+        "label": "모듈",
+        "docs": [
+          "/reference/irispy-client/iris.bot",
+          "/reference/irispy-client/iris.bot._internal.emitter",
+          "/reference/irispy-client/iris.bot._internal.iris",
+          "/reference/irispy-client/iris.bot.models",
+          "/reference/irispy-client/iris.decorators",
+          "/reference/irispy-client/iris.kakaolink",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule",
+          "/reference/irispy-client/iris.util.pykv"
+        ]
+      },
+      {
+        "label": "이벤트",
+        "docs": [
+          "/reference/irispy-client/Event/chat",
+          "/reference/irispy-client/Event/del_member",
+          "/reference/irispy-client/Event/error",
+          "/reference/irispy-client/Event/message",
+          "/reference/irispy-client/Event/new_member",
+          "/reference/irispy-client/Event/unknown"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot": [
+      "/reference/irispy-client/iris.bot",
+      {
+        "label": "클래스",
+        "docs": [
+          "/reference/irispy-client/iris.bot/Class/Bot"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot/Class/Bot": [
+      "/reference/irispy-client/iris.bot/Class/Bot",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.bot/Class/Bot/Bot"
+        ]
+      },
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/irispy-client/iris.bot/Class/Bot/api",
+          "/reference/irispy-client/iris.bot/Class/Bot/emitter",
+          "/reference/irispy-client/iris.bot/Class/Bot/iris_url",
+          "/reference/irispy-client/iris.bot/Class/Bot/iris_ws_endpoint"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.bot/Class/Bot/run"
+        ]
+      },
+      {
+        "label": "인스턴스 데코레이터",
+        "docs": [
+          "/reference/irispy-client/iris.bot/Class/Bot/on_event"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot._internal.emitter": [
+      "/reference/irispy-client/iris.bot._internal.emitter",
+      {
+        "label": "클래스",
+        "docs": [
+          "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter": [
+      "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/EventEmitter"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/emit",
+          "/reference/irispy-client/iris.bot._internal.emitter/Class/EventEmitter/register"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot._internal.iris": [
+      "/reference/irispy-client/iris.bot._internal.iris",
+      {
+        "label": "클래스",
+        "docs": [
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI": [
+      "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/IrisAPI"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/decrypt",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/get_aot",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/get_info",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/query",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/reply",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI/reply_media"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest": [
+      "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/msg",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/raw",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/room",
+          "/reference/irispy-client/iris.bot._internal.iris/Class/IrisRequest/sender"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot.models": [
+      "/reference/irispy-client/iris.bot.models",
+      {
+        "label": "클래스",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/Avatar",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext",
+          "/reference/irispy-client/iris.bot.models/Class/ChatImage",
+          "/reference/irispy-client/iris.bot.models/Class/ErrorContext",
+          "/reference/irispy-client/iris.bot.models/Class/Message",
+          "/reference/irispy-client/iris.bot.models/Class/Room",
+          "/reference/irispy-client/iris.bot.models/Class/User"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot.models/Class/Avatar": [
+      "/reference/irispy-client/iris.bot.models/Class/Avatar",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/Avatar/Avatar"
+        ]
+      },
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/Avatar/img",
+          "/reference/irispy-client/iris.bot.models/Class/Avatar/url"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot.models/Class/ChatContext": [
+      "/reference/irispy-client/iris.bot.models/Class/ChatContext",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/api",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/message",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/raw",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/room",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/sender"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/get_next_chat",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/get_previous_chat",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/get_source",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/reply",
+          "/reference/irispy-client/iris.bot.models/Class/ChatContext/reply_media"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot.models/Class/ChatImage": [
+      "/reference/irispy-client/iris.bot.models/Class/ChatImage",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/ChatImage/ChatImage"
+        ]
+      },
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/ChatImage/img",
+          "/reference/irispy-client/iris.bot.models/Class/ChatImage/url"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot.models/Class/ErrorContext": [
+      "/reference/irispy-client/iris.bot.models/Class/ErrorContext",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/ErrorContext/args",
+          "/reference/irispy-client/iris.bot.models/Class/ErrorContext/event",
+          "/reference/irispy-client/iris.bot.models/Class/ErrorContext/exception",
+          "/reference/irispy-client/iris.bot.models/Class/ErrorContext/func"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot.models/Class/Message": [
+      "/reference/irispy-client/iris.bot.models/Class/Message",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/Message/attachment",
+          "/reference/irispy-client/iris.bot.models/Class/Message/command",
+          "/reference/irispy-client/iris.bot.models/Class/Message/has_param",
+          "/reference/irispy-client/iris.bot.models/Class/Message/id",
+          "/reference/irispy-client/iris.bot.models/Class/Message/image",
+          "/reference/irispy-client/iris.bot.models/Class/Message/msg",
+          "/reference/irispy-client/iris.bot.models/Class/Message/param",
+          "/reference/irispy-client/iris.bot.models/Class/Message/type",
+          "/reference/irispy-client/iris.bot.models/Class/Message/v"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot.models/Class/Room": [
+      "/reference/irispy-client/iris.bot.models/Class/Room",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/Room/Room"
+        ]
+      },
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/Room/id",
+          "/reference/irispy-client/iris.bot.models/Class/Room/name",
+          "/reference/irispy-client/iris.bot.models/Class/Room/type"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.bot.models/Class/User": [
+      "/reference/irispy-client/iris.bot.models/Class/User",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/User/User"
+        ]
+      },
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/irispy-client/iris.bot.models/Class/User/avatar",
+          "/reference/irispy-client/iris.bot.models/Class/User/id",
+          "/reference/irispy-client/iris.bot.models/Class/User/name",
+          "/reference/irispy-client/iris.bot.models/Class/User/type"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.decorators": [
+      "/reference/irispy-client/iris.decorators",
+      {
+        "label": "데코레이터",
+        "docs": [
+          "/reference/irispy-client/iris.decorators/Decorator/has_param",
+          "/reference/irispy-client/iris.decorators/Decorator/is_admin",
+          "/reference/irispy-client/iris.decorators/Decorator/is_not_banned",
+          "/reference/irispy-client/iris.decorators/Decorator/is_reply"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.kakaolink": [
+      "/reference/irispy-client/iris.kakaolink",
+      {
+        "label": "클래스",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink/Class/IrisLink"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.kakaolink/Class/IrisLink": [
+      "/reference/irispy-client/iris.kakaolink/Class/IrisLink",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink/Class/IrisLink/IrisLink"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink/Class/IrisLink/send"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule": [
+      "/reference/irispy-client/iris.kakaolink.KakaoLinkModule",
+      {
+        "label": "클래스",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage"
+        ]
+      },
+      {
+        "label": "예외",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLinkException",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLink2FAException",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLinkLoginException",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLinkReceiverNotFoundException",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Exception/KakaoLinkSendException"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink": [
+      "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink/KakaoLink"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLink/send"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider": [
+      "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider/KakaoLinkAuthorizationProvider"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkAuthorizationProvider/get_authorization"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage": [
+      "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage/KakaoLinkCookieStorage"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage/clear",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage/load",
+          "/reference/irispy-client/iris.kakaolink.KakaoLinkModule/Class/KakaoLinkCookieStorage/save"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.util.pykv": [
+      "/reference/irispy-client/iris.util.pykv",
+      {
+        "label": "클래스",
+        "docs": [
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV"
+        ]
+      }
+    ],
+    "/reference/irispy-client/iris.util.pykv/Class/PyKV": [
+      "/reference/irispy-client/iris.util.pykv/Class/PyKV",
+      {
+        "label": "생성자",
+        "docs": [
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/PyKV"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/close",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/delete",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/get",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/get_kv",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/list_keys",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/open",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/put",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/search",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/search_json",
+          "/reference/irispy-client/iris.util.pykv/Class/PyKV/search_key"
+        ]
+      }
+    ],
+    "/learn": [
+      {
+        "label": "JavaScript",
+        "description": "JavaScript 기반 카카오톡봇의 학습을 위한 자습서",
+        "docs": [
+          {
+            "path": "/learn/js",
+            "label": "바로가기"
+          }
+        ]
+      },
+      {
+        "label": "Iris",
+        "description": "다양한 언어 기반의 Iris 카카오톡봇 개발을 위한 자습서",
+        "docs": [
+          {
+            "path": "/learn/iris",
+            "label": "바로가기"
+          }
+        ]
+      }
+    ],
+    "/learn/js": [
+      "/learn/js",
+      {
+        "label": "로드맵",
+        "docs": [
+          "/learn/js/basic",
+          "/learn/js/intermediate",
+          "/learn/js/advanced",
+          "/learn/js/migration-to-api2"
+        ]
+      }
+    ],
+    "/learn/js/basic": [
+      "/learn/js/basic",
+      {
+        "label": "목차",
+        "docs": [
+          "/learn/js/basic/1-javascript-and-kakaotalkbot",
+          "/learn/js/basic/2-ready-for-dev",
+          "/learn/js/basic/3-write-script",
+          "/learn/js/basic/4-basic-syntax-of-javascript",
+          "/learn/js/basic/5-variable-and-data-type",
+          "/learn/js/basic/6-operator",
+          "/learn/js/basic/7-string",
+          "/learn/js/basic/8-array",
+          "/learn/js/basic/9-conditionals",
+          "/learn/js/basic/10-loops",
+          "/learn/js/basic/11-function",
+          "/learn/js/basic/12-basic-object"
+        ]
+      }
+    ],
+    "/learn/js/intermediate": [
+      "/learn/js/intermediate",
+      {
+        "label": "목차",
+        "docs": [
+          "/learn/js/intermediate/1-regular-expression"
+        ]
+      }
+    ],
+    "/learn/js/advanced": [
+      "/learn/js/advanced",
+      {
+        "label": "목차",
+        "docs": [
+          "/learn/js/advanced/1-constructor-function"
+        ]
+      }
+    ],
+    "/learn/js/migration-to-api2": [
+      "/learn/js/migration-to-api2",
+      {
+        "label": "목차",
+        "docs": [
+          "/learn/js/migration-to-api2/1-event-listener"
+        ]
+      }
+    ],
+    "/learn/iris": [
+      "/learn/iris",
+      {
+        "label": "로드맵",
+        "docs": [
+          "/learn/iris/installation"
+        ]
+      }
+    ],
+    "/learn/iris/installation": [
+      "/learn/iris/installation",
+      {
+        "label": "환경 별 설치방법",
+        "docs": [
+          "/learn/iris/installation/on-ubuntu"
+        ]
+      }
+    ]
+  }
+}

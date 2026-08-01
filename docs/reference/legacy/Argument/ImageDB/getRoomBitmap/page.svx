@@ -1,0 +1,11 @@
+
+방 아이콘 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.
+## 구문
+
+~~~js
+imageDB.getRoomBitmap();
+~~~
+
+### 반환값
+
+`android.graphics.Bitmap` - 방 아이콘 이미지에 대한 `android.graphics.Bitmap` 값을 반환합니다.

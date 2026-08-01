@@ -1,0 +1,11 @@
+
+프로젝트에 대한 [`Project`](/reference/starlight/Object/Project) 객체를 반환합니다.
+## 구문
+
+~~~js
+Projects.getSelf();
+~~~
+
+### 반환값
+
+`Project` - 프로젝트에 대한 `Project` 객체를 반환합니다.

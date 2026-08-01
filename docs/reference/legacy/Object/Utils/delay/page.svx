@@ -1,0 +1,15 @@
+
+일정 시간(밀리초; ms)만큼 지연합니다.
+## 구문
+
+~~~js
+Utils.delay(mil);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="mil" type="Number">
+지연할 시간(밀리초; ms)
+</param-item>
+</params>

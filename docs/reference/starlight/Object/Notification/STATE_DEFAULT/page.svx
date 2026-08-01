@@ -1,0 +1,11 @@
+
+알림이 생성되지 않았습니다.
+## 구문
+
+~~~js
+Notification.STATE_DEFAULT;
+~~~
+
+### 상수값
+
+`Number` - `0`

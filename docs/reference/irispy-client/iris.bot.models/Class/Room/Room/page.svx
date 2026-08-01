@@ -1,0 +1,21 @@
+
+새 `Room` 객체를 생성합니다.
+## 구문
+
+~~~py
+Room(id, name, api)
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="id" type="int">
+방의 id
+</param-item>
+<param-item param="name" type="str">
+방의 이름
+</param-item>
+<param-item param="api" type="iris.bot._internal.iris.IrisAPI">
+Iris API의 조작을 위한 [`IrisAPI`](/reference/irispy-client/iris.bot._internal.iris/Class/IrisAPI) 인스턴스
+</param-item>
+</params>

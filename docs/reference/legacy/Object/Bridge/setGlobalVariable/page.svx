@@ -1,0 +1,18 @@
+
+단순 자동응답에 대하여 특정 이름을 가진 `[[전체변수]]`에 값을 저장합니다.
+## 구문
+
+~~~js
+Bridge.setGlobalVariable(name, value);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="name" type="String">
+값을 저장할 `[[전체변수]]`의 이름
+</param-item>
+<param-item param="value" type="String">
+저장할 값
+</param-item>
+</params>

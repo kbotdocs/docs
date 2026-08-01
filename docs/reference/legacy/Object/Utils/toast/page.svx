@@ -1,0 +1,15 @@
+
+토스트 메시지를 표시합니다.
+## 구문
+
+~~~js
+Utils.toast(msg);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="msg" type="String">
+표시할 토스트 메시지의 내용
+</param-item>
+</params>

@@ -1,0 +1,22 @@
+
+카카오톡 데이터베이스에 대한 SQL 쿼리를 실행합니다.
+## 구문
+
+~~~py
+irisAPI.query(query)
+irisAPI.query(query, bind)
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="query" type="str">
+SQL 쿼리 문자열
+</param-item>
+<param-item param="bind" type="list[Any] | None" defaultVal="`None`" optional>
+쿼리에 대한 선택적 바인딩
+</param-item>
+</params>
+### 반환값
+
+`dict` - 쿼리 실행에 대한 결과를 반환합니다. 자세한 내용은 [여기](/reference/iris/Endpoint/query)를 참조하세요.

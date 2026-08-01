@@ -1,0 +1,11 @@
+
+API2의 [`activityDestroy`](/reference/api2/Event/activityDestroy) 이벤트입니다.
+## 구문
+
+~~~js
+Event.Activity.DESTROY;
+~~~
+
+### 상수값
+
+`String` - `"activityDestroy"`

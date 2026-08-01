@@ -1,0 +1,11 @@
+
+UUIDv7 값을 생성합니다.
+## 구문
+
+~~~js
+Security.uuidv7();
+~~~
+
+### 반환값
+
+`String` - 생성한 UUIDv7 값을 반환합니다.

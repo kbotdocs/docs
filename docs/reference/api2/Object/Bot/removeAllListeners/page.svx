@@ -1,0 +1,15 @@
+
+특정 이벤트에 대한 모든 이벤트 리스너를 제거합니다.
+## 구문
+
+~~~js
+bot.removeAllListeners(eventName);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="eventName" type="String">
+모든 이벤트 리스너를 제거할 이벤트명
+</param-item>
+</params>

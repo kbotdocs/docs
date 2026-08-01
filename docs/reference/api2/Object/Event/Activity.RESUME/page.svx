@@ -1,0 +1,11 @@
+
+API2의 [`activityResume`](/reference/api2/Event/activityResume) 이벤트입니다.
+## 구문
+
+~~~js
+Event.Activity.RESUME;
+~~~
+
+### 상수값
+
+`String` - `"activityResume"`

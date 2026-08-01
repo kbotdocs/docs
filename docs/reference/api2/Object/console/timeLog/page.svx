@@ -1,0 +1,21 @@
+
+특정 레이블의 타이머에 로그를 작성합니다. 존재하지 않는 레이블을 지정할 경우 주의 로그(`Timer '{label}' does not exist`)를 작성합니다.
+## 구문
+
+~~~js
+console.timeLog();
+console.timeLog(label);
+console.timeLog(label, arg1);
+console.timeLog(label, arg1, arg2, /* ..., */ argN);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="label" type="String" defaultVal="`&quot;default&quot;`" optional>
+평가할 조건식
+</param-item>
+<param-item param="...args" type="any" optional>
+작성할 디버그 로그의 내용 
+</param-item>
+</params>

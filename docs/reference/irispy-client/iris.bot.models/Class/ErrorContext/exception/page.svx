@@ -1,0 +1,11 @@
+
+에러에 대한 `Exception` 객체입니다.
+## 구문
+
+~~~py
+errorContext.exception
+~~~
+
+### 값
+
+`Exception` - 에러에 대한 `Exception` 객체입니다.

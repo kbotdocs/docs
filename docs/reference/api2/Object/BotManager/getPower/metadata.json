@@ -1,0 +1,8 @@
+{
+   "category" : "API2",
+   "compat" : {
+      "data" : "api2/Object/BotManager",
+      "feature" : "getPower"
+   },
+   "title" : "BotManager.getPower()"
+}

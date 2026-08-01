@@ -1,0 +1,62 @@
+
+`MediaSender` 객체는 텍스트 외의 미디어 파일을 전송할 수 있게 하는 객체입니다. 이 객체는 `MediaSender` 인스턴스를 생성하여 사용합니다.
+## 인스턴스 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`MediaSender` 객체의 인스턴스 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    <feature-status source="legacy/Object/MediaSender" feature="clearCache">[`clearCache`](/reference/legacy/Object/MediaSender/clearCache)`()`</feature-status> \
+    캐시를 삭제합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    <feature-status source="legacy/Object/MediaSender" feature="getBaseDirectory">[`getBaseDirectory`](/reference/legacy/Object/MediaSender/getBaseDirectory)`()`</feature-status> \
+    전송할 미디어 파일의 기본 디렉토리를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String[]`</span></td>
+  <td>
+    <feature-status source="legacy/Object/MediaSender" feature="getCachedUrls">[`getCachedUrls`](/reference/legacy/Object/MediaSender/getCachedUrls)`()`</feature-status> \
+    캐시에 저장된 모든 URL을 배열 형태로 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    <feature-status source="legacy/Object/MediaSender" feature="getCacheSize">[`getCacheSize`](/reference/legacy/Object/MediaSender/getCacheSize)`()`</feature-status> \
+    캐시의 크기(Byte)를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String[]`</span></td>
+  <td>
+    <feature-status source="legacy/Object/MediaSender" feature="getSupportedFormats">[`getSupportedFormats`](/reference/legacy/Object/MediaSender/getSupportedFormats)`()`</feature-status> \
+    `MediaSender` 객체가 지원하는 미디어 파일의 확장자를 배열 형태로 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    <feature-status source="legacy/Object/MediaSender" feature="returnToAppNow">[`returnToAppNow`](/reference/legacy/Object/MediaSender/returnToAppNow)`()`</feature-status> \
+    카카오톡봇 앱으로 돌아가고 정상적인 수행 여부를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    <feature-status source="legacy/Object/MediaSender" feature="send">[`send`](/reference/legacy/Object/MediaSender/send)`(roomIdentifier: any, mediaResource: any, timeoutMs?: Number = 25000)`</feature-status> \
+    특정 방에 미디어 파일을 전송하고 미디어 파일의 전송 성공 여부를 반환합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

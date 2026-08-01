@@ -1,0 +1,7 @@
+{
+   "category" : "자습서",
+   "milestone" : {
+      "next" : "learn/js/advanced/1-constructor-function"
+   },
+   "title" : "JavaScript 고급"
+}

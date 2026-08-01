@@ -1,0 +1,11 @@
+
+알림이 생성되었습니다.
+## 구문
+
+~~~js
+Notification.STATE_CREATED;
+~~~
+
+### 상수값
+
+`Number` - `1`

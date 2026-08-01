@@ -1,0 +1,11 @@
+
+API2의 [`activityCreate`](/reference/api2/Event/activityCreate) 이벤트입니다.
+## 구문
+
+~~~js
+Event.Activity.CREATE;
+~~~
+
+### 상수값
+
+`String` - `"activityCreate"`

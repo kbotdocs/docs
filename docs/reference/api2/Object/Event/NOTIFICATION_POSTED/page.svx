@@ -1,0 +1,11 @@
+
+API2의 [`notificationPosted`](/reference/api2/Event/notificationPosted) 이벤트입니다.
+## 구문
+
+~~~js
+Event.NOTIFICATION_POSTED;
+~~~
+
+### 상수값
+
+`String` - `"notificationPosted"`

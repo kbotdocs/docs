@@ -1,0 +1,11 @@
+
+프로젝트의 루트 디렉터리에 대한 `java.io.File`입니다.
+## 구문
+
+~~~js
+Project.directory;
+~~~
+
+### 값
+
+`java.io.File` - 프로젝트의 루트 디렉터리에 대한 `java.io.File`입니다.

@@ -1,0 +1,16 @@
+{
+   "category" : "irispy-client",
+   "inheritance" : [
+      {
+         "children" : [
+            {
+               "name" : "Exception",
+               "url" : "https://docs.python.org/3.13/library/exceptions.html#Exception"
+            }
+         ],
+         "name" : "BaseException",
+         "url" : "https://docs.python.org/3.13/library/exceptions.html#BaseException"
+      }
+   ],
+   "title" : "iris.kakaolink.KakaoLinkModule.KakaoLinkException"
+}

@@ -1,0 +1,11 @@
+
+API2의 [`activityRestart`](/reference/api2/Event/activityRestart) 이벤트입니다.
+## 구문
+
+~~~js
+Event.Activity.RESTART;
+~~~
+
+### 상수값
+
+`String` - `"activityRestart"`

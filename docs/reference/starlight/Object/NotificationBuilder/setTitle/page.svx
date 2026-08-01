@@ -1,0 +1,18 @@
+
+알림의 제목을 설정합니다.
+## 구문
+
+~~~js
+NotificationBuilder.setTitle(title);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="title" type="String">
+설정할 알림의 제목
+</param-item>
+</params>
+### 반환값
+
+`NotificationBuilder` - 해당 `NotificationBuilder` 객체
