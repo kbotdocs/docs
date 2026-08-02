@@ -29,7 +29,7 @@
 <table>
 <thead>
   <tr>
-  <th colspan="2">[`Message`](api2/Argument/Message)에서 상속받은 인스턴스 프로퍼티</th>
+  <th colspan="2">[`Message`](/reference/api2/Argument/Message)에서 상속받은 인스턴스 프로퍼티</th>
   </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@
 <table>
 <thead>
   <tr>
-  <th colspan="2">[`Message`](api2/Argument/Message)에서 상속받은 인스턴스 메소드</th>
+  <th colspan="2">[`Message`](/reference/api2/Argument/Message)에서 상속받은 인스턴스 메소드</th>
   </tr>
 </thead>
 <tbody>
