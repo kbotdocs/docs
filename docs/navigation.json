@@ -1141,68 +1141,14 @@
     "/reference/api2/Event/tick": {
       "label": "`tick`"
     },
-    "/reference/api2/Argument/Author": {
-      "label": "Author"
-    },
-    "/reference/api2/Argument/Author/avatar": {
-      "label": "`avatar`"
-    },
-    "/reference/api2/Argument/Author/hash": {
-      "label": "`hash`"
-    },
-    "/reference/api2/Argument/Author/name": {
-      "label": "`name`"
-    },
     "/reference/api2/Argument/Command": {
       "label": "Command"
     },
     "/reference/api2/Argument/Command/args": {
       "label": "`args`"
     },
-    "/reference/api2/Argument/Command/author": {
-      "label": "`author`"
-    },
-    "/reference/api2/Argument/Command/channelId": {
-      "label": "`channelId`"
-    },
     "/reference/api2/Argument/Command/command": {
       "label": "`command`"
-    },
-    "/reference/api2/Argument/Command/content": {
-      "label": "`content`"
-    },
-    "/reference/api2/Argument/Command/image": {
-      "label": "`image`"
-    },
-    "/reference/api2/Argument/Command/isDebugRoom": {
-      "label": "`isDebugRoom`"
-    },
-    "/reference/api2/Argument/Command/isGroupChat": {
-      "label": "`isGroupChat`"
-    },
-    "/reference/api2/Argument/Command/isMention": {
-      "label": "`isMention`"
-    },
-    "/reference/api2/Argument/Command/isMultiChat": {
-      "label": "`isMultiChat`"
-    },
-    "/reference/api2/Argument/Command/logId": {
-      "label": "`logId`"
-    },
-    "/reference/api2/Argument/Command/packageName": {
-      "label": "`packageName`"
-    },
-    "/reference/api2/Argument/Command/room": {
-      "label": "`room`"
-    },
-    "/reference/api2/Argument/Command/markAsRead": {
-      "label": "`markAsRead()`"
-    },
-    "/reference/api2/Argument/Command/reply": {
-      "label": "`reply()`"
-    },
-    "/reference/api2/Argument/Command/replyWithMarkdown": {
-      "label": "`replyWithMarkdown()`"
     },
     "/reference/api2/Argument/Image": {
       "label": "Image"
@@ -1266,6 +1212,18 @@
     },
     "/reference/api2/Argument/SessionManager/bindSession(String,String,Action$)": {
       "label": "`bindSession(String, String, android.app.Notification.Action?)`"
+    },
+    "/reference/api2/Argument/User": {
+      "label": "User"
+    },
+    "/reference/api2/Argument/User/avatar": {
+      "label": "`avatar`"
+    },
+    "/reference/api2/Argument/User/hash": {
+      "label": "`hash`"
+    },
+    "/reference/api2/Argument/User/name": {
+      "label": "`name`"
     },
     "/reference/starlight": {
       "label": "StarLight"
