@@ -1,23 +1,23 @@
 {
-  "AppData": {
-    "feature": "`AppData`",
-    "url": "/reference/legacy/Object/AppData",
+  "MediaSender": {
+    "feature": "`MediaSender`",
+    "url": "/reference/common/Object/MediaSender",
     "status": {
       "deprecated": false,
-      "experimental": false,
+      "experimental": true,
       "nonStandard": false
     },
     "support": {
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.1.2a"
+          "version": "0.7.40-alpha.02"
         }
       ],
       "autoReplyBot": [
         {
-          "status": "full_support",
-          "version": "1.0"
+          "status": "no_support",
+          "version": ""
         }
       ],
       "starLight": [
@@ -28,25 +28,25 @@
       ]
     }
   },
-  "clear": {
-    "feature": "`clear`",
-    "url": "/reference/legacy/Object/AppData/clear",
+  "clearCache": {
+    "feature": "`clearCache`",
+    "url": "/reference/common/Object/MediaSender/clearCache",
     "status": {
       "deprecated": false,
-      "experimental": false,
+      "experimental": true,
       "nonStandard": false
     },
     "support": {
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.1.2a"
+          "version": "0.7.40-alpha.02"
         }
       ],
       "autoReplyBot": [
         {
-          "status": "full_support",
-          "version": "1.0"
+          "status": "no_support",
+          "version": ""
         }
       ],
       "starLight": [
@@ -57,25 +57,25 @@
       ]
     }
   },
-  "getBoolean": {
-    "feature": "`getBoolean`",
-    "url": "/reference/legacy/Object/AppData/getBoolean",
+  "getBaseDirectory": {
+    "feature": "`getBaseDirectory`",
+    "url": "/reference/common/Object/MediaSender/getBaseDirectory",
     "status": {
       "deprecated": false,
-      "experimental": false,
+      "experimental": true,
       "nonStandard": false
     },
     "support": {
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.1.2a"
+          "version": "0.7.40-alpha.02"
         }
       ],
       "autoReplyBot": [
         {
-          "status": "full_support",
-          "version": "1.0"
+          "status": "no_support",
+          "version": ""
         }
       ],
       "starLight": [
@@ -86,25 +86,25 @@
       ]
     }
   },
-  "getInt": {
-    "feature": "`getInt`",
-    "url": "/reference/legacy/Object/AppData/getInt",
+  "getCachedUrls": {
+    "feature": "`getCachedUrls`",
+    "url": "/reference/common/Object/MediaSender/getCachedUrls",
     "status": {
       "deprecated": false,
-      "experimental": false,
+      "experimental": true,
       "nonStandard": false
     },
     "support": {
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.1.2a"
+          "version": "0.7.40-alpha.02"
         }
       ],
       "autoReplyBot": [
         {
-          "status": "full_support",
-          "version": "1.0"
+          "status": "no_support",
+          "version": ""
         }
       ],
       "starLight": [
@@ -115,25 +115,25 @@
       ]
     }
   },
-  "getString": {
-    "feature": "`getString`",
-    "url": "/reference/legacy/Object/AppData/getString",
+  "getCacheSize": {
+    "feature": "`getCacheSize`",
+    "url": "/reference/common/Object/MediaSender/getCacheSize",
     "status": {
       "deprecated": false,
-      "experimental": false,
+      "experimental": true,
       "nonStandard": false
     },
     "support": {
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.1.2a"
+          "version": "0.7.40-alpha.02"
         }
       ],
       "autoReplyBot": [
         {
-          "status": "full_support",
-          "version": "1.0"
+          "status": "no_support",
+          "version": ""
         }
       ],
       "starLight": [
@@ -144,25 +144,25 @@
       ]
     }
   },
-  "putBoolean": {
-    "feature": "`putBoolean`",
-    "url": "/reference/legacy/Object/AppData/putBoolean",
+  "getSupportedFormats": {
+    "feature": "`getSupportedFormats`",
+    "url": "/reference/common/Object/MediaSender/getSupportedFormats",
     "status": {
       "deprecated": false,
-      "experimental": false,
+      "experimental": true,
       "nonStandard": false
     },
     "support": {
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.1.2a"
+          "version": "0.7.40-alpha.02"
         }
       ],
       "autoReplyBot": [
         {
-          "status": "full_support",
-          "version": "1.0"
+          "status": "no_support",
+          "version": ""
         }
       ],
       "starLight": [
@@ -173,25 +173,25 @@
       ]
     }
   },
-  "putInt": {
-    "feature": "`putInt`",
-    "url": "/reference/legacy/Object/AppData/putInt",
+  "returnToAppNow": {
+    "feature": "`returnToAppNow`",
+    "url": "/reference/common/Object/MediaSender/returnToAppNow",
     "status": {
       "deprecated": false,
-      "experimental": false,
+      "experimental": true,
       "nonStandard": false
     },
     "support": {
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.1.2a"
+          "version": "0.7.40-alpha.02"
         }
       ],
       "autoReplyBot": [
         {
-          "status": "full_support",
-          "version": "1.0"
+          "status": "no_support",
+          "version": ""
         }
       ],
       "starLight": [
@@ -202,54 +202,25 @@
       ]
     }
   },
-  "putString": {
-    "feature": "`putString`",
-    "url": "/reference/legacy/Object/AppData/putString",
+  "send": {
+    "feature": "`send`",
+    "url": "/reference/common/Object/MediaSender/send",
     "status": {
       "deprecated": false,
-      "experimental": false,
+      "experimental": true,
       "nonStandard": false
     },
     "support": {
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.1.2a"
+          "version": "0.7.40-alpha.02"
         }
       ],
       "autoReplyBot": [
-        {
-          "status": "full_support",
-          "version": "1.0"
-        }
-      ],
-      "starLight": [
         {
           "status": "no_support",
           "version": ""
-        }
-      ]
-    }
-  },
-  "remove": {
-    "feature": "`remove`",
-    "url": "/reference/legacy/Object/AppData/remove",
-    "status": {
-      "deprecated": false,
-      "experimental": false,
-      "nonStandard": false
-    },
-    "support": {
-      "msgBot": [
-        {
-          "status": "full_support",
-          "version": "0.1.2a"
-        }
-      ],
-      "autoReplyBot": [
-        {
-          "status": "full_support",
-          "version": "1.0"
         }
       ],
       "starLight": [

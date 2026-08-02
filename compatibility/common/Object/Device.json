@@ -1,7 +1,7 @@
 {
   "Device": {
     "feature": "`Device`",
-    "url": "/reference/legacy/Object/Device",
+    "url": "/reference/common/Object/Device",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -30,7 +30,7 @@
   },
   "acquireWakeLock": {
     "feature": "`acquireWakeLock`",
-    "url": "/reference/legacy/Object/Device/acquireWakeLock",
+    "url": "/reference/common/Object/Device/acquireWakeLock",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -59,7 +59,7 @@
   },
   "getAndroidVersionCode": {
     "feature": "`getAndroidVersionCode`",
-    "url": "/reference/legacy/Object/Device/getAndroidVersionCode",
+    "url": "/reference/common/Object/Device/getAndroidVersionCode",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -88,7 +88,7 @@
   },
   "getAndroidVersionName": {
     "feature": "`getAndroidVersionName`",
-    "url": "/reference/legacy/Object/Device/getAndroidVersionName",
+    "url": "/reference/common/Object/Device/getAndroidVersionName",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -117,7 +117,7 @@
   },
   "getApiLevel": {
     "feature": "`getApiLevel`",
-    "url": "/reference/legacy/Object/Device/getApiLevel",
+    "url": "/reference/common/Object/Device/getApiLevel",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -146,7 +146,7 @@
   },
   "getBatteryHealth": {
     "feature": "`getBatteryHealth`",
-    "url": "/reference/legacy/Object/Device/getBatteryHealth",
+    "url": "/reference/common/Object/Device/getBatteryHealth",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -175,7 +175,7 @@
   },
   "getBatteryIntent": {
     "feature": "`getBatteryIntent`",
-    "url": "/reference/legacy/Object/Device/getBatteryIntent",
+    "url": "/reference/common/Object/Device/getBatteryIntent",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -204,7 +204,7 @@
   },
   "getBatteryLevel": {
     "feature": "`getBatteryLevel`",
-    "url": "/reference/legacy/Object/Device/getBatteryLevel",
+    "url": "/reference/common/Object/Device/getBatteryLevel",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -233,7 +233,7 @@
   },
   "getBatteryStatus": {
     "feature": "`getBatteryStatus`",
-    "url": "/reference/legacy/Object/Device/getBatteryStatus",
+    "url": "/reference/common/Object/Device/getBatteryStatus",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -262,7 +262,7 @@
   },
   "getBatteryTemp": {
     "feature": "`getBatteryTemp`",
-    "url": "/reference/legacy/Object/Device/getBatteryTemp",
+    "url": "/reference/common/Object/Device/getBatteryTemp",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -291,7 +291,7 @@
   },
   "getBatteryTemperature": {
     "feature": "`getBatteryTemperature`",
-    "url": "/reference/legacy/Object/Device/getBatteryTemperature",
+    "url": "/reference/common/Object/Device/getBatteryTemperature",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -320,7 +320,7 @@
   },
   "getBatteryVoltage": {
     "feature": "`getBatteryVoltage`",
-    "url": "/reference/legacy/Object/Device/getBatteryVoltage",
+    "url": "/reference/common/Object/Device/getBatteryVoltage",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -349,7 +349,7 @@
   },
   "getBuild": {
     "feature": "`getBuild`",
-    "url": "/reference/legacy/Object/Device/getBuild",
+    "url": "/reference/common/Object/Device/getBuild",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -378,7 +378,7 @@
   },
   "getConnectedNetworkType": {
     "feature": "`getConnectedNetworkType`",
-    "url": "/reference/legacy/Object/Device/getConnectedNetworkType",
+    "url": "/reference/common/Object/Device/getConnectedNetworkType",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -407,7 +407,7 @@
   },
   "getFreeMemory": {
     "feature": "`getFreeMemory`",
-    "url": "/reference/legacy/Object/Device/getFreeMemory",
+    "url": "/reference/common/Object/Device/getFreeMemory",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -436,7 +436,7 @@
   },
   "getFreeStorageSpace": {
     "feature": "`getFreeStorageSpace`",
-    "url": "/reference/legacy/Object/Device/getFreeStorageSpace",
+    "url": "/reference/common/Object/Device/getFreeStorageSpace",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -465,7 +465,7 @@
   },
   "getMaxMemory": {
     "feature": "`getMaxMemory`",
-    "url": "/reference/legacy/Object/Device/getMaxMemory",
+    "url": "/reference/common/Object/Device/getMaxMemory",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -494,7 +494,7 @@
   },
   "getModelName": {
     "feature": "`getModelName`",
-    "url": "/reference/legacy/Object/Device/getModelName",
+    "url": "/reference/common/Object/Device/getModelName",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -523,7 +523,7 @@
   },
   "getPhoneBrand": {
     "feature": "`getPhoneBrand`",
-    "url": "/reference/legacy/Object/Device/getPhoneBrand",
+    "url": "/reference/common/Object/Device/getPhoneBrand",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -552,7 +552,7 @@
   },
   "getPhoneModel": {
     "feature": "`getPhoneModel`",
-    "url": "/reference/legacy/Object/Device/getPhoneModel",
+    "url": "/reference/common/Object/Device/getPhoneModel",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -581,7 +581,7 @@
   },
   "getPlugType": {
     "feature": "`getPlugType`",
-    "url": "/reference/legacy/Object/Device/getPlugType",
+    "url": "/reference/common/Object/Device/getPlugType",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -610,7 +610,7 @@
   },
   "getTotalMemory": {
     "feature": "`getTotalMemory`",
-    "url": "/reference/legacy/Object/Device/getTotalMemory",
+    "url": "/reference/common/Object/Device/getTotalMemory",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -639,7 +639,7 @@
   },
   "getTotalStorageSpace": {
     "feature": "`getTotalStorageSpace`",
-    "url": "/reference/legacy/Object/Device/getTotalStorageSpace",
+    "url": "/reference/common/Object/Device/getTotalStorageSpace",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -668,7 +668,7 @@
   },
   "getWifiName": {
     "feature": "`getWifiName`",
-    "url": "/reference/legacy/Object/Device/getWifiName",
+    "url": "/reference/common/Object/Device/getWifiName",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -697,7 +697,7 @@
   },
   "isCharging": {
     "feature": "`isCharging`",
-    "url": "/reference/legacy/Object/Device/isCharging",
+    "url": "/reference/common/Object/Device/isCharging",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -726,7 +726,7 @@
   },
   "isPowerSaveMode": {
     "feature": "`isPowerSaveMode`",
-    "url": "/reference/legacy/Object/Device/isPowerSaveMode",
+    "url": "/reference/common/Object/Device/isPowerSaveMode",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -755,7 +755,7 @@
   },
   "isScreenOn": {
     "feature": "`isScreenOn`",
-    "url": "/reference/legacy/Object/Device/isScreenOn",
+    "url": "/reference/common/Object/Device/isScreenOn",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -784,7 +784,7 @@
   },
   "releaseWakeLock": {
     "feature": "`releaseWakeLock`",
-    "url": "/reference/legacy/Object/Device/releaseWakeLock",
+    "url": "/reference/common/Object/Device/releaseWakeLock",
     "status": {
       "deprecated": false,
       "experimental": false,

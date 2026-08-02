@@ -1,7 +1,7 @@
 {
   "FileStream": {
     "feature": "`FileStream`",
-    "url": "/reference/legacy/Object/FileStream",
+    "url": "/reference/common/Object/FileStream",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -30,7 +30,7 @@
   },
   "append": {
     "feature": "`append`",
-    "url": "/reference/legacy/Object/FileStream/append",
+    "url": "/reference/common/Object/FileStream/append",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -59,7 +59,7 @@
   },
   "copyFile": {
     "feature": "`copyFile`",
-    "url": "/reference/legacy/Object/FileStream/copyFile",
+    "url": "/reference/common/Object/FileStream/copyFile",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -88,7 +88,7 @@
   },
   "create": {
     "feature": "`create`",
-    "url": "/reference/legacy/Object/FileStream/create",
+    "url": "/reference/common/Object/FileStream/create",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -117,7 +117,7 @@
   },
   "createDir": {
     "feature": "`createDir`",
-    "url": "/reference/legacy/Object/FileStream/createDir",
+    "url": "/reference/common/Object/FileStream/createDir",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -146,7 +146,7 @@
   },
   "exists": {
     "feature": "`exists`",
-    "url": "/reference/legacy/Object/FileStream/exists",
+    "url": "/reference/common/Object/FileStream/exists",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -175,7 +175,7 @@
   },
   "getExtension": {
     "feature": "`getExtension`",
-    "url": "/reference/legacy/Object/FileStream/getExtension",
+    "url": "/reference/common/Object/FileStream/getExtension",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -204,7 +204,7 @@
   },
   "getFileName": {
     "feature": "`getFileName`",
-    "url": "/reference/legacy/Object/FileStream/getFileName",
+    "url": "/reference/common/Object/FileStream/getFileName",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -233,7 +233,7 @@
   },
   "getFileSize": {
     "feature": "`getFileSize`",
-    "url": "/reference/legacy/Object/FileStream/getFileSize",
+    "url": "/reference/common/Object/FileStream/getFileSize",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -262,7 +262,7 @@
   },
   "getParentPath": {
     "feature": "`getParentPath`",
-    "url": "/reference/legacy/Object/FileStream/getParentPath",
+    "url": "/reference/common/Object/FileStream/getParentPath",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -291,7 +291,7 @@
   },
   "getSdcardPath": {
     "feature": "`getSdcardPath`",
-    "url": "/reference/legacy/Object/FileStream/getSdcardPath",
+    "url": "/reference/common/Object/FileStream/getSdcardPath",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -320,7 +320,7 @@
   },
   "isDirectory": {
     "feature": "`isDirectory`",
-    "url": "/reference/legacy/Object/FileStream/isDirectory",
+    "url": "/reference/common/Object/FileStream/isDirectory",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -349,7 +349,7 @@
   },
   "isFile": {
     "feature": "`isFile`",
-    "url": "/reference/legacy/Object/FileStream/isFile",
+    "url": "/reference/common/Object/FileStream/isFile",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -378,7 +378,7 @@
   },
   "listFiles": {
     "feature": "`listFiles`",
-    "url": "/reference/legacy/Object/FileStream/listFiles",
+    "url": "/reference/common/Object/FileStream/listFiles",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -407,7 +407,7 @@
   },
   "moveFile": {
     "feature": "`moveFile`",
-    "url": "/reference/legacy/Object/FileStream/moveFile",
+    "url": "/reference/common/Object/FileStream/moveFile",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -436,7 +436,7 @@
   },
   "read": {
     "feature": "`read`",
-    "url": "/reference/legacy/Object/FileStream/read",
+    "url": "/reference/common/Object/FileStream/read",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -463,9 +463,9 @@
       ]
     }
   },
-  "readJSON": {
-    "feature": "`readJSON`",
-    "url": "/reference/legacy/Object/FileStream/readJSON",
+  "readJson": {
+    "feature": "`readJson`",
+    "url": "/reference/common/Object/FileStream/readJson",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -494,7 +494,7 @@
   },
   "remove": {
     "feature": "`remove`",
-    "url": "/reference/legacy/Object/FileStream/remove",
+    "url": "/reference/common/Object/FileStream/remove",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -523,7 +523,7 @@
   },
   "save": {
     "feature": "`save`",
-    "url": "/reference/legacy/Object/FileStream/save",
+    "url": "/reference/common/Object/FileStream/save",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -550,9 +550,9 @@
       ]
     }
   },
-  "saveJSON": {
-    "feature": "`saveJSON`",
-    "url": "/reference/legacy/Object/FileStream/saveJSON",
+  "saveJson": {
+    "feature": "`saveJson`",
+    "url": "/reference/common/Object/FileStream/saveJson",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -581,7 +581,7 @@
   },
   "write": {
     "feature": "`write`",
-    "url": "/reference/legacy/Object/FileStream/write",
+    "url": "/reference/common/Object/FileStream/write",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -612,9 +612,9 @@
       ]
     }
   },
-  "writeJSON": {
-    "feature": "`writeJSON`",
-    "url": "/reference/legacy/Object/FileStream/writeJSON",
+  "writeJson": {
+    "feature": "`writeJson`",
+    "url": "/reference/common/Object/FileStream/writeJson",
     "status": {
       "deprecated": false,
       "experimental": false,

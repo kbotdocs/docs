@@ -1,7 +1,7 @@
 {
-  "Author": {
-    "feature": "`Author`",
-    "url": "/reference/api2/Argument/Author",
+  "User": {
+    "feature": "`User`",
+    "url": "/reference/api2/Argument/User",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -30,7 +30,7 @@
   },
   "avatar": {
     "feature": "`avatar`",
-    "url": "/reference/api2/Argument/Author/avatar",
+    "url": "/reference/api2/Argument/User/avatar",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -67,7 +67,7 @@
   },
   "hash": {
     "feature": "`hash`",
-    "url": "/reference/api2/Argument/Author/hash",
+    "url": "/reference/api2/Argument/User/hash",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -104,7 +104,7 @@
   },
   "name": {
     "feature": "`name`",
-    "url": "/reference/api2/Argument/Author/name",
+    "url": "/reference/api2/Argument/User/name",
     "status": {
       "deprecated": false,
       "experimental": false,

@@ -1,7 +1,7 @@
 {
   "Log": {
     "feature": "`Log`",
-    "url": "/reference/legacy/Object/Log",
+    "url": "/reference/common/Object/Log",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -30,7 +30,7 @@
   },
   "clear": {
     "feature": "`clear`",
-    "url": "/reference/legacy/Object/Log/clear",
+    "url": "/reference/common/Object/Log/clear",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -59,7 +59,7 @@
   },
   "d": {
     "feature": "`d`",
-    "url": "/reference/legacy/Object/Log/d",
+    "url": "/reference/common/Object/Log/d",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -88,7 +88,7 @@
   },
   "debug": {
     "feature": "`debug`",
-    "url": "/reference/legacy/Object/Log/debug",
+    "url": "/reference/common/Object/Log/debug",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -117,7 +117,7 @@
   },
   "e": {
     "feature": "`e`",
-    "url": "/reference/legacy/Object/Log/e",
+    "url": "/reference/common/Object/Log/e",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -146,7 +146,7 @@
   },
   "error": {
     "feature": "`error`",
-    "url": "/reference/legacy/Object/Log/error",
+    "url": "/reference/common/Object/Log/error",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -175,7 +175,7 @@
   },
   "i": {
     "feature": "`i`",
-    "url": "/reference/legacy/Object/Log/i",
+    "url": "/reference/common/Object/Log/i",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -204,7 +204,7 @@
   },
   "info": {
     "feature": "`info`",
-    "url": "/reference/legacy/Object/Log/info",
+    "url": "/reference/common/Object/Log/info",
     "status": {
       "deprecated": false,
       "experimental": false,
@@ -233,7 +233,7 @@
   },
   "log": {
     "feature": "`log`",
-    "url": "/reference/legacy/Object/Log/log",
+    "url": "/reference/common/Object/Log/log",
     "status": {
       "deprecated": false,
       "experimental": false,
