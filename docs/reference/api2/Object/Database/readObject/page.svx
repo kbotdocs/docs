@@ -1,5 +1,6 @@
 
 `fileName` 이름의 파일의 내용을 `Object` 형식으로 반환합니다. 파일 내용의 형식이 `JSON`일 경우에만 가능합니다.
+파일이 존재하지 않거나 비어있을 경우 `null`을 반환합니다.
 ## 구문
 
 ~~~js
@@ -15,4 +16,4 @@ Database.readObject(fileName);
 </params>
 ### 반환값
 
-`Object` - `fileName` 이름의 파일의 내용을 `Object` 형식으로 반환합니다.
+`Object?` - `fileName` 이름의 파일의 내용을 `Object` 형식으로 반환합니다. 파일이 존재하지 않거나 비어있을 경우 `null`을 반환합니다.

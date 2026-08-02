@@ -1,0 +1,15 @@
+
+여러 앱 데이터를 삭제합니다.
+## 구문
+
+~~~js
+AppData.removeMultiple(keys);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="keys" type="String[]">
+삭제할 앱 데이터의 키가 모인 배열
+</param-item>
+</params>

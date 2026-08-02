@@ -1,23 +1,290 @@
 {
   "schemaVersion": 1,
   "docs": {
-    "/reference/legacy": {
-      "label": "레거시 API"
-    },
-    "/reference/legacy/Function/clearInterval": {
+    "/reference/common/Function/clearInterval": {
       "label": "`clearInterval()`"
     },
-    "/reference/legacy/Function/clearTimeout": {
+    "/reference/common/Function/clearTimeout": {
       "label": "`clearTimeout()`"
     },
-    "/reference/legacy/Function/require": {
+    "/reference/common/Function/require": {
       "label": "`require()`"
     },
-    "/reference/legacy/Function/setInterval": {
+    "/reference/common/Function/setInterval": {
       "label": "`setInterval()`"
     },
-    "/reference/legacy/Function/setTimeout": {
+    "/reference/common/Function/setTimeout": {
       "label": "`setTimeout()`"
+    },
+    "/reference/common/Object/AppData": {
+      "label": "AppData"
+    },
+    "/reference/common/Object/AppData/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/common/Object/AppData/contains": {
+      "label": "`contains()`"
+    },
+    "/reference/common/Object/AppData/getAll": {
+      "label": "`getAll()`"
+    },
+    "/reference/common/Object/AppData/getAllKeys": {
+      "label": "`getAllKeys()`"
+    },
+    "/reference/common/Object/AppData/getBoolean": {
+      "label": "`getBoolean()`"
+    },
+    "/reference/common/Object/AppData/getFloat": {
+      "label": "`getFloat()`"
+    },
+    "/reference/common/Object/AppData/getInt": {
+      "label": "`getInt()`"
+    },
+    "/reference/common/Object/AppData/getLong": {
+      "label": "`getLong()`"
+    },
+    "/reference/common/Object/AppData/getObject": {
+      "label": "`getObject()`"
+    },
+    "/reference/common/Object/AppData/getString": {
+      "label": "`getString()`"
+    },
+    "/reference/common/Object/AppData/isEmpty": {
+      "label": "`isEmpty()`"
+    },
+    "/reference/common/Object/AppData/putBoolean": {
+      "label": "`putBoolean()`"
+    },
+    "/reference/common/Object/AppData/putFloat": {
+      "label": "`putFloat()`"
+    },
+    "/reference/common/Object/AppData/putInt": {
+      "label": "`putInt()`"
+    },
+    "/reference/common/Object/AppData/putLong": {
+      "label": "`putLong()`"
+    },
+    "/reference/common/Object/AppData/putMultiple": {
+      "label": "`putMultiple()`"
+    },
+    "/reference/common/Object/AppData/putObject": {
+      "label": "`putObject()`"
+    },
+    "/reference/common/Object/AppData/putString": {
+      "label": "`putString()`"
+    },
+    "/reference/common/Object/AppData/remove": {
+      "label": "`remove()`"
+    },
+    "/reference/common/Object/AppData/removeMultiple": {
+      "label": "`removeMultiple()`"
+    },
+    "/reference/common/Object/AppData/size": {
+      "label": "`size()`"
+    },
+    "/reference/common/Object/Device": {
+      "label": "Device"
+    },
+    "/reference/common/Object/Device/acquireWakeLock": {
+      "label": "`acquireWakeLock()`"
+    },
+    "/reference/common/Object/Device/getAndroidVersionCode": {
+      "label": "`getAndroidVersionCode()`"
+    },
+    "/reference/common/Object/Device/getAndroidVersionName": {
+      "label": "`getAndroidVersionName()`"
+    },
+    "/reference/common/Object/Device/getApiLevel": {
+      "label": "`getApiLevel()`"
+    },
+    "/reference/common/Object/Device/getBatteryHealth": {
+      "label": "`getBatteryHealth()`"
+    },
+    "/reference/common/Object/Device/getBatteryIntent": {
+      "label": "`getBatteryIntent()`"
+    },
+    "/reference/common/Object/Device/getBatteryLevel": {
+      "label": "`getBatteryLevel()`"
+    },
+    "/reference/common/Object/Device/getBatteryStatus": {
+      "label": "`getBatteryStatus()`"
+    },
+    "/reference/common/Object/Device/getBatteryTemp": {
+      "label": "`getBatteryTemp()`"
+    },
+    "/reference/common/Object/Device/getBatteryTemperature": {
+      "label": "`getBatteryTemperature()`"
+    },
+    "/reference/common/Object/Device/getBatteryVoltage": {
+      "label": "`getBatteryVoltage()`"
+    },
+    "/reference/common/Object/Device/getBuild": {
+      "label": "`getBuild()`"
+    },
+    "/reference/common/Object/Device/getConnectedNetworkType": {
+      "label": "`getConnectedNetworkType()`"
+    },
+    "/reference/common/Object/Device/getFreeMemory": {
+      "label": "`getFreeMemory()`"
+    },
+    "/reference/common/Object/Device/getFreeStorageSpace": {
+      "label": "`getFreeStorageSpace()`"
+    },
+    "/reference/common/Object/Device/getMaxMemory": {
+      "label": "`getMaxMemory()`"
+    },
+    "/reference/common/Object/Device/getModelName": {
+      "label": "`getModelName()`"
+    },
+    "/reference/common/Object/Device/getPhoneBrand": {
+      "label": "`getPhoneBrand()`"
+    },
+    "/reference/common/Object/Device/getPhoneModel": {
+      "label": "`getPhoneModel()`"
+    },
+    "/reference/common/Object/Device/getPlugType": {
+      "label": "`getPlugType()`"
+    },
+    "/reference/common/Object/Device/getTotalMemory": {
+      "label": "`getTotalMemory()`"
+    },
+    "/reference/common/Object/Device/getTotalStorageSpace": {
+      "label": "`getTotalStorageSpace()`"
+    },
+    "/reference/common/Object/Device/getWifiName": {
+      "label": "`getWifiName()`"
+    },
+    "/reference/common/Object/Device/isCharging": {
+      "label": "`isCharging()`"
+    },
+    "/reference/common/Object/Device/isPowerSaveMode": {
+      "label": "`isPowerSaveMode()`"
+    },
+    "/reference/common/Object/Device/isScreenOn": {
+      "label": "`isScreenOn()`"
+    },
+    "/reference/common/Object/Device/releaseWakeLock": {
+      "label": "`releaseWakeLock()`"
+    },
+    "/reference/common/Object/FileStream": {
+      "label": "FileStream"
+    },
+    "/reference/common/Object/FileStream/append": {
+      "label": "`append()`"
+    },
+    "/reference/common/Object/FileStream/copyFile": {
+      "label": "`copyFile()`"
+    },
+    "/reference/common/Object/FileStream/create": {
+      "label": "`create()`"
+    },
+    "/reference/common/Object/FileStream/createDir": {
+      "label": "`createDir()`"
+    },
+    "/reference/common/Object/FileStream/exists": {
+      "label": "`exists()`"
+    },
+    "/reference/common/Object/FileStream/getExtension": {
+      "label": "`getExtension()`"
+    },
+    "/reference/common/Object/FileStream/getFileName": {
+      "label": "`getFileName()`"
+    },
+    "/reference/common/Object/FileStream/getFileSize": {
+      "label": "`getFileSize()`"
+    },
+    "/reference/common/Object/FileStream/getParentPath": {
+      "label": "`getParentPath()`"
+    },
+    "/reference/common/Object/FileStream/getSdcardPath": {
+      "label": "`getSdcardPath()`"
+    },
+    "/reference/common/Object/FileStream/isDirectory": {
+      "label": "`isDirectory()`"
+    },
+    "/reference/common/Object/FileStream/isFile": {
+      "label": "`isFile()`"
+    },
+    "/reference/common/Object/FileStream/listFiles": {
+      "label": "`listFiles()`"
+    },
+    "/reference/common/Object/FileStream/moveFile": {
+      "label": "`moveFile()`"
+    },
+    "/reference/common/Object/FileStream/read": {
+      "label": "`read()`"
+    },
+    "/reference/common/Object/FileStream/readJson": {
+      "label": "`readJson()`"
+    },
+    "/reference/common/Object/FileStream/remove": {
+      "label": "`remove()`"
+    },
+    "/reference/common/Object/FileStream/save": {
+      "label": "`save()`"
+    },
+    "/reference/common/Object/FileStream/saveJson": {
+      "label": "`saveJson()`"
+    },
+    "/reference/common/Object/FileStream/write": {
+      "label": "`write()`"
+    },
+    "/reference/common/Object/FileStream/writeJson": {
+      "label": "`writeJson()`"
+    },
+    "/reference/common/Object/Log": {
+      "label": "Log"
+    },
+    "/reference/common/Object/Log/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/common/Object/Log/d": {
+      "label": "`d()`"
+    },
+    "/reference/common/Object/Log/debug": {
+      "label": "`debug()`"
+    },
+    "/reference/common/Object/Log/e": {
+      "label": "`e()`"
+    },
+    "/reference/common/Object/Log/error": {
+      "label": "`error()`"
+    },
+    "/reference/common/Object/Log/i": {
+      "label": "`i()`"
+    },
+    "/reference/common/Object/Log/info": {
+      "label": "`info()`"
+    },
+    "/reference/common/Object/Log/log": {
+      "label": "`log()`"
+    },
+    "/reference/common/Object/MediaSender": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='MediaSender'>MediaSender</feature-status>"
+    },
+    "/reference/common/Object/MediaSender/clearCache": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='clearCache'>`clearCache()`</feature-status>"
+    },
+    "/reference/common/Object/MediaSender/getBaseDirectory": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getBaseDirectory'>`getBaseDirectory()`</feature-status>"
+    },
+    "/reference/common/Object/MediaSender/getCachedUrls": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getCachedUrls'>`getCachedUrls()`</feature-status>"
+    },
+    "/reference/common/Object/MediaSender/getCacheSize": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getCacheSize'>`getCacheSize()`</feature-status>"
+    },
+    "/reference/common/Object/MediaSender/getSupportedFormats": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getSupportedFormats'>`getSupportedFormats()`</feature-status>"
+    },
+    "/reference/common/Object/MediaSender/returnToAppNow": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='returnToAppNow'>`returnToAppNow()`</feature-status>"
+    },
+    "/reference/common/Object/MediaSender/send": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='send'>`send()`</feature-status>"
+    },
+    "/reference/legacy": {
+      "label": "레거시 API"
     },
     "/reference/legacy/Object/Api": {
       "label": "Api"
@@ -108,33 +375,6 @@
     },
     "/reference/legacy/Object/Api/unload": {
       "label": "`unload()`"
-    },
-    "/reference/legacy/Object/AppData": {
-      "label": "AppData"
-    },
-    "/reference/legacy/Object/AppData/clear": {
-      "label": "`clear()`"
-    },
-    "/reference/legacy/Object/AppData/getBoolean": {
-      "label": "`getBoolean()`"
-    },
-    "/reference/legacy/Object/AppData/getInt": {
-      "label": "`getInt()`"
-    },
-    "/reference/legacy/Object/AppData/getString": {
-      "label": "`getString()`"
-    },
-    "/reference/legacy/Object/AppData/putBoolean": {
-      "label": "`putBoolean()`"
-    },
-    "/reference/legacy/Object/AppData/putInt": {
-      "label": "`putInt()`"
-    },
-    "/reference/legacy/Object/AppData/putString": {
-      "label": "`putString()`"
-    },
-    "/reference/legacy/Object/AppData/remove": {
-      "label": "`remove()`"
     },
     "/reference/legacy/Object/Bridge": {
       "label": "Bridge"
@@ -234,207 +474,6 @@
     },
     "/reference/legacy/Object/DataBase/setDataBaseDir": {
       "label": "`setDataBaseDir()`"
-    },
-    "/reference/legacy/Object/Device": {
-      "label": "Device"
-    },
-    "/reference/legacy/Object/Device/acquireWakeLock": {
-      "label": "`acquireWakeLock()`"
-    },
-    "/reference/legacy/Object/Device/getAndroidVersionCode": {
-      "label": "`getAndroidVersionCode()`"
-    },
-    "/reference/legacy/Object/Device/getAndroidVersionName": {
-      "label": "`getAndroidVersionName()`"
-    },
-    "/reference/legacy/Object/Device/getApiLevel": {
-      "label": "`getApiLevel()`"
-    },
-    "/reference/legacy/Object/Device/getBatteryHealth": {
-      "label": "`getBatteryHealth()`"
-    },
-    "/reference/legacy/Object/Device/getBatteryIntent": {
-      "label": "`getBatteryIntent()`"
-    },
-    "/reference/legacy/Object/Device/getBatteryLevel": {
-      "label": "`getBatteryLevel()`"
-    },
-    "/reference/legacy/Object/Device/getBatteryStatus": {
-      "label": "`getBatteryStatus()`"
-    },
-    "/reference/legacy/Object/Device/getBatteryTemp": {
-      "label": "`getBatteryTemp()`"
-    },
-    "/reference/legacy/Object/Device/getBatteryTemperature": {
-      "label": "`getBatteryTemperature()`"
-    },
-    "/reference/legacy/Object/Device/getBatteryVoltage": {
-      "label": "`getBatteryVoltage()`"
-    },
-    "/reference/legacy/Object/Device/getBuild": {
-      "label": "`getBuild()`"
-    },
-    "/reference/legacy/Object/Device/getConnectedNetworkType": {
-      "label": "`getConnectedNetworkType()`"
-    },
-    "/reference/legacy/Object/Device/getFreeMemory": {
-      "label": "`getFreeMemory()`"
-    },
-    "/reference/legacy/Object/Device/getFreeStorageSpace": {
-      "label": "`getFreeStorageSpace()`"
-    },
-    "/reference/legacy/Object/Device/getMaxMemory": {
-      "label": "`getMaxMemory()`"
-    },
-    "/reference/legacy/Object/Device/getModelName": {
-      "label": "`getModelName()`"
-    },
-    "/reference/legacy/Object/Device/getPhoneBrand": {
-      "label": "`getPhoneBrand()`"
-    },
-    "/reference/legacy/Object/Device/getPhoneModel": {
-      "label": "`getPhoneModel()`"
-    },
-    "/reference/legacy/Object/Device/getPlugType": {
-      "label": "`getPlugType()`"
-    },
-    "/reference/legacy/Object/Device/getTotalMemory": {
-      "label": "`getTotalMemory()`"
-    },
-    "/reference/legacy/Object/Device/getTotalStorageSpace": {
-      "label": "`getTotalStorageSpace()`"
-    },
-    "/reference/legacy/Object/Device/getWifiName": {
-      "label": "`getWifiName()`"
-    },
-    "/reference/legacy/Object/Device/isCharging": {
-      "label": "`isCharging()`"
-    },
-    "/reference/legacy/Object/Device/isPowerSaveMode": {
-      "label": "`isPowerSaveMode()`"
-    },
-    "/reference/legacy/Object/Device/isScreenOn": {
-      "label": "`isScreenOn()`"
-    },
-    "/reference/legacy/Object/Device/releaseWakeLock": {
-      "label": "`releaseWakeLock()`"
-    },
-    "/reference/legacy/Object/FileStream": {
-      "label": "FileStream"
-    },
-    "/reference/legacy/Object/FileStream/append": {
-      "label": "`append()`"
-    },
-    "/reference/legacy/Object/FileStream/copyFile": {
-      "label": "`copyFile()`"
-    },
-    "/reference/legacy/Object/FileStream/create": {
-      "label": "`create()`"
-    },
-    "/reference/legacy/Object/FileStream/createDir": {
-      "label": "`createDir()`"
-    },
-    "/reference/legacy/Object/FileStream/exists": {
-      "label": "`exists()`"
-    },
-    "/reference/legacy/Object/FileStream/getExtension": {
-      "label": "`getExtension()`"
-    },
-    "/reference/legacy/Object/FileStream/getFileName": {
-      "label": "`getFileName()`"
-    },
-    "/reference/legacy/Object/FileStream/getFileSize": {
-      "label": "`getFileSize()`"
-    },
-    "/reference/legacy/Object/FileStream/getParentPath": {
-      "label": "`getParentPath()`"
-    },
-    "/reference/legacy/Object/FileStream/getSdcardPath": {
-      "label": "`getSdcardPath()`"
-    },
-    "/reference/legacy/Object/FileStream/isDirectory": {
-      "label": "`isDirectory()`"
-    },
-    "/reference/legacy/Object/FileStream/isFile": {
-      "label": "`isFile()`"
-    },
-    "/reference/legacy/Object/FileStream/listFiles": {
-      "label": "`listFiles()`"
-    },
-    "/reference/legacy/Object/FileStream/moveFile": {
-      "label": "`moveFile()`"
-    },
-    "/reference/legacy/Object/FileStream/read": {
-      "label": "`read()`"
-    },
-    "/reference/legacy/Object/FileStream/readJSON": {
-      "label": "`readJSON()`"
-    },
-    "/reference/legacy/Object/FileStream/remove": {
-      "label": "`remove()`"
-    },
-    "/reference/legacy/Object/FileStream/save": {
-      "label": "`save()`"
-    },
-    "/reference/legacy/Object/FileStream/saveJSON": {
-      "label": "`saveJSON()`"
-    },
-    "/reference/legacy/Object/FileStream/write": {
-      "label": "`write()`"
-    },
-    "/reference/legacy/Object/FileStream/writeJSON": {
-      "label": "`writeJSON()`"
-    },
-    "/reference/legacy/Object/Log": {
-      "label": "Log"
-    },
-    "/reference/legacy/Object/Log/clear": {
-      "label": "`clear()`"
-    },
-    "/reference/legacy/Object/Log/d": {
-      "label": "`d()`"
-    },
-    "/reference/legacy/Object/Log/debug": {
-      "label": "`debug()`"
-    },
-    "/reference/legacy/Object/Log/e": {
-      "label": "`e()`"
-    },
-    "/reference/legacy/Object/Log/error": {
-      "label": "`error()`"
-    },
-    "/reference/legacy/Object/Log/i": {
-      "label": "`i()`"
-    },
-    "/reference/legacy/Object/Log/info": {
-      "label": "`info()`"
-    },
-    "/reference/legacy/Object/Log/log": {
-      "label": "`log()`"
-    },
-    "/reference/legacy/Object/MediaSender": {
-      "label": "<feature-status source='legacy/Object/MediaSender' feature='MediaSender'>MediaSender</feature-status>"
-    },
-    "/reference/legacy/Object/MediaSender/clearCache": {
-      "label": "<feature-status source='legacy/Object/MediaSender' feature='clearCache'>`clearCache()`</feature-status>"
-    },
-    "/reference/legacy/Object/MediaSender/getBaseDirectory": {
-      "label": "<feature-status source='legacy/Object/MediaSender' feature='getBaseDirectory'>`getBaseDirectory()`</feature-status>"
-    },
-    "/reference/legacy/Object/MediaSender/getCachedUrls": {
-      "label": "<feature-status source='legacy/Object/MediaSender' feature='getCachedUrls'>`getCachedUrls()`</feature-status>"
-    },
-    "/reference/legacy/Object/MediaSender/getCacheSize": {
-      "label": "<feature-status source='legacy/Object/MediaSender' feature='getCacheSize'>`getCacheSize()`</feature-status>"
-    },
-    "/reference/legacy/Object/MediaSender/getSupportedFormats": {
-      "label": "<feature-status source='legacy/Object/MediaSender' feature='getSupportedFormats'>`getSupportedFormats()`</feature-status>"
-    },
-    "/reference/legacy/Object/MediaSender/returnToAppNow": {
-      "label": "<feature-status source='legacy/Object/MediaSender' feature='returnToAppNow'>`returnToAppNow()`</feature-status>"
-    },
-    "/reference/legacy/Object/MediaSender/send": {
-      "label": "<feature-status source='legacy/Object/MediaSender' feature='send'>`send()`</feature-status>"
     },
     "/reference/legacy/Object/Utils": {
       "label": "Utils"
@@ -637,21 +676,6 @@
     "/reference/api2": {
       "label": "API2"
     },
-    "/reference/api2/Function/clearInterval": {
-      "label": "`clearInterval()`"
-    },
-    "/reference/api2/Function/clearTimeout": {
-      "label": "`clearTimeout()`"
-    },
-    "/reference/api2/Function/require": {
-      "label": "`require()`"
-    },
-    "/reference/api2/Function/setInterval": {
-      "label": "`setInterval()`"
-    },
-    "/reference/api2/Function/setTimeout": {
-      "label": "`setTimeout()`"
-    },
     "/reference/api2/Object/App": {
       "label": "App"
     },
@@ -669,33 +693,6 @@
     },
     "/reference/api2/Object/App/runOnUiThread": {
       "label": "`runOnUiThread()`"
-    },
-    "/reference/api2/Object/AppData": {
-      "label": "AppData"
-    },
-    "/reference/api2/Object/AppData/clear": {
-      "label": "`clear()`"
-    },
-    "/reference/api2/Object/AppData/getBoolean": {
-      "label": "`getBoolean()`"
-    },
-    "/reference/api2/Object/AppData/getInt": {
-      "label": "`getInt()`"
-    },
-    "/reference/api2/Object/AppData/getString": {
-      "label": "`getString()`"
-    },
-    "/reference/api2/Object/AppData/putBoolean": {
-      "label": "`putBoolean()`"
-    },
-    "/reference/api2/Object/AppData/putInt": {
-      "label": "`putInt()`"
-    },
-    "/reference/api2/Object/AppData/putString": {
-      "label": "`putString()`"
-    },
-    "/reference/api2/Object/AppData/remove": {
-      "label": "`remove()`"
     },
     "/reference/api2/Object/Bot": {
       "label": "Bot"
@@ -895,90 +892,6 @@
     "/reference/api2/Object/Database/writeString": {
       "label": "`writeString()`"
     },
-    "/reference/api2/Object/Device": {
-      "label": "Device"
-    },
-    "/reference/api2/Object/Device/acquireWakeLock": {
-      "label": "`acquireWakeLock()`"
-    },
-    "/reference/api2/Object/Device/getAndroidVersionCode": {
-      "label": "`getAndroidVersionCode()`"
-    },
-    "/reference/api2/Object/Device/getAndroidVersionName": {
-      "label": "`getAndroidVersionName()`"
-    },
-    "/reference/api2/Object/Device/getApiLevel": {
-      "label": "`getApiLevel()`"
-    },
-    "/reference/api2/Object/Device/getBatteryHealth": {
-      "label": "`getBatteryHealth()`"
-    },
-    "/reference/api2/Object/Device/getBatteryIntent": {
-      "label": "`getBatteryIntent()`"
-    },
-    "/reference/api2/Object/Device/getBatteryLevel": {
-      "label": "`getBatteryLevel()`"
-    },
-    "/reference/api2/Object/Device/getBatteryStatus": {
-      "label": "`getBatteryStatus()`"
-    },
-    "/reference/api2/Object/Device/getBatteryTemp": {
-      "label": "`getBatteryTemp()`"
-    },
-    "/reference/api2/Object/Device/getBatteryTemperature": {
-      "label": "`getBatteryTemperature()`"
-    },
-    "/reference/api2/Object/Device/getBatteryVoltage": {
-      "label": "`getBatteryVoltage()`"
-    },
-    "/reference/api2/Object/Device/getBuild": {
-      "label": "`getBuild()`"
-    },
-    "/reference/api2/Object/Device/getConnectedNetworkType": {
-      "label": "`getConnectedNetworkType()`"
-    },
-    "/reference/api2/Object/Device/getFreeMemory": {
-      "label": "`getFreeMemory()`"
-    },
-    "/reference/api2/Object/Device/getFreeStorageSpace": {
-      "label": "`getFreeStorageSpace()`"
-    },
-    "/reference/api2/Object/Device/getMaxMemory": {
-      "label": "`getMaxMemory()`"
-    },
-    "/reference/api2/Object/Device/getModelName": {
-      "label": "`getModelName()`"
-    },
-    "/reference/api2/Object/Device/getPhoneBrand": {
-      "label": "`getPhoneBrand()`"
-    },
-    "/reference/api2/Object/Device/getPhoneModel": {
-      "label": "`getPhoneModel()`"
-    },
-    "/reference/api2/Object/Device/getPlugType": {
-      "label": "`getPlugType()`"
-    },
-    "/reference/api2/Object/Device/getTotalMemory": {
-      "label": "`getTotalMemory()`"
-    },
-    "/reference/api2/Object/Device/getTotalStorageSpace": {
-      "label": "`getTotalStorageSpace()`"
-    },
-    "/reference/api2/Object/Device/getWifiName": {
-      "label": "`getWifiName()`"
-    },
-    "/reference/api2/Object/Device/isCharging": {
-      "label": "`isCharging()`"
-    },
-    "/reference/api2/Object/Device/isPowerSaveMode": {
-      "label": "`isPowerSaveMode()`"
-    },
-    "/reference/api2/Object/Device/isScreenOn": {
-      "label": "`isScreenOn()`"
-    },
-    "/reference/api2/Object/Device/releaseWakeLock": {
-      "label": "`releaseWakeLock()`"
-    },
     "/reference/api2/Object/Event": {
       "label": "Event"
     },
@@ -1027,72 +940,6 @@
     "/reference/api2/Object/Event/TICK": {
       "label": "`TICK`"
     },
-    "/reference/api2/Object/FileStream": {
-      "label": "FileStream"
-    },
-    "/reference/api2/Object/FileStream/append": {
-      "label": "`append()`"
-    },
-    "/reference/api2/Object/FileStream/copyFile": {
-      "label": "`copyFile()`"
-    },
-    "/reference/api2/Object/FileStream/create": {
-      "label": "`create()`"
-    },
-    "/reference/api2/Object/FileStream/createDir": {
-      "label": "`createDir()`"
-    },
-    "/reference/api2/Object/FileStream/exists": {
-      "label": "`exists()`"
-    },
-    "/reference/api2/Object/FileStream/getExtension": {
-      "label": "`getExtension()`"
-    },
-    "/reference/api2/Object/FileStream/getFileName": {
-      "label": "`getFileName()`"
-    },
-    "/reference/api2/Object/FileStream/getFileSize": {
-      "label": "`getFileSize()`"
-    },
-    "/reference/api2/Object/FileStream/getParentPath": {
-      "label": "`getParentPath()`"
-    },
-    "/reference/api2/Object/FileStream/getSdcardPath": {
-      "label": "`getSdcardPath()`"
-    },
-    "/reference/api2/Object/FileStream/isDirectory": {
-      "label": "`isDirectory()`"
-    },
-    "/reference/api2/Object/FileStream/isFile": {
-      "label": "`isFile()`"
-    },
-    "/reference/api2/Object/FileStream/listFiles": {
-      "label": "`listFiles()`"
-    },
-    "/reference/api2/Object/FileStream/moveFile": {
-      "label": "`moveFile()`"
-    },
-    "/reference/api2/Object/FileStream/read": {
-      "label": "`read()`"
-    },
-    "/reference/api2/Object/FileStream/readJSON": {
-      "label": "`readJSON()`"
-    },
-    "/reference/api2/Object/FileStream/remove": {
-      "label": "`remove()`"
-    },
-    "/reference/api2/Object/FileStream/save": {
-      "label": "`save()`"
-    },
-    "/reference/api2/Object/FileStream/saveJSON": {
-      "label": "`saveJSON()`"
-    },
-    "/reference/api2/Object/FileStream/write": {
-      "label": "`write()`"
-    },
-    "/reference/api2/Object/FileStream/writeJSON": {
-      "label": "`writeJSON()`"
-    },
     "/reference/api2/Object/GlobalLog": {
       "label": "GlobalLog"
     },
@@ -1134,57 +981,6 @@
     },
     "/reference/api2/Object/Http/requestSync(String)": {
       "label": "`requestSync(String)`"
-    },
-    "/reference/api2/Object/Log": {
-      "label": "Log"
-    },
-    "/reference/api2/Object/Log/clear": {
-      "label": "`clear()`"
-    },
-    "/reference/api2/Object/Log/d": {
-      "label": "`d()`"
-    },
-    "/reference/api2/Object/Log/debug": {
-      "label": "`debug()`"
-    },
-    "/reference/api2/Object/Log/e": {
-      "label": "`e()`"
-    },
-    "/reference/api2/Object/Log/error": {
-      "label": "`error()`"
-    },
-    "/reference/api2/Object/Log/i": {
-      "label": "`i()`"
-    },
-    "/reference/api2/Object/Log/info": {
-      "label": "`info()`"
-    },
-    "/reference/api2/Object/Log/log": {
-      "label": "`log()`"
-    },
-    "/reference/api2/Object/MediaSender": {
-      "label": "<feature-status source='api2/Object/MediaSender' feature='MediaSender'>MediaSender</feature-status>"
-    },
-    "/reference/api2/Object/MediaSender/clearCache": {
-      "label": "<feature-status source='api2/Object/MediaSender' feature='clearCache'>`clearCache()`</feature-status>"
-    },
-    "/reference/api2/Object/MediaSender/getBaseDirectory": {
-      "label": "<feature-status source='api2/Object/MediaSender' feature='getBaseDirectory'>`getBaseDirectory()`</feature-status>"
-    },
-    "/reference/api2/Object/MediaSender/getCachedUrls": {
-      "label": "<feature-status source='api2/Object/MediaSender' feature='getCachedUrls'>`getCachedUrls()`</feature-status>"
-    },
-    "/reference/api2/Object/MediaSender/getCacheSize": {
-      "label": "<feature-status source='api2/Object/MediaSender' feature='getCacheSize'>`getCacheSize()`</feature-status>"
-    },
-    "/reference/api2/Object/MediaSender/getSupportedFormats": {
-      "label": "<feature-status source='api2/Object/MediaSender' feature='getSupportedFormats'>`getSupportedFormats()`</feature-status>"
-    },
-    "/reference/api2/Object/MediaSender/returnToAppNow": {
-      "label": "<feature-status source='api2/Object/MediaSender' feature='returnToAppNow'>`returnToAppNow()`</feature-status>"
-    },
-    "/reference/api2/Object/MediaSender/send": {
-      "label": "<feature-status source='api2/Object/MediaSender' feature='send'>`send()`</feature-status>"
     },
     "/reference/api2/Object/Security": {
       "label": "Security"
@@ -2288,30 +2084,176 @@
         ]
       }
     ],
+    "/reference/common": [
+      {
+        "label": "함수",
+        "docs": [
+          "/reference/common/Function/clearInterval",
+          "/reference/common/Function/clearTimeout",
+          "/reference/common/Function/require",
+          "/reference/common/Function/setInterval",
+          "/reference/common/Function/setTimeout"
+        ]
+      },
+      {
+        "label": "객체",
+        "docs": [
+          "/reference/common/Object/AppData",
+          "/reference/common/Object/Device",
+          "/reference/common/Object/FileStream",
+          "/reference/common/Object/Log",
+          "/reference/common/Object/MediaSender"
+        ]
+      }
+    ],
+    "/reference/common/Object/AppData": [
+      "/reference/common/Object/AppData",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/common/Object/AppData/clear",
+          "/reference/common/Object/AppData/contains",
+          "/reference/common/Object/AppData/getAll",
+          "/reference/common/Object/AppData/getAllKeys",
+          "/reference/common/Object/AppData/getBoolean",
+          "/reference/common/Object/AppData/getFloat",
+          "/reference/common/Object/AppData/getInt",
+          "/reference/common/Object/AppData/getLong",
+          "/reference/common/Object/AppData/getObject",
+          "/reference/common/Object/AppData/getString",
+          "/reference/common/Object/AppData/isEmpty",
+          "/reference/common/Object/AppData/putBoolean",
+          "/reference/common/Object/AppData/putFloat",
+          "/reference/common/Object/AppData/putInt",
+          "/reference/common/Object/AppData/putLong",
+          "/reference/common/Object/AppData/putMultiple",
+          "/reference/common/Object/AppData/putObject",
+          "/reference/common/Object/AppData/putString",
+          "/reference/common/Object/AppData/remove",
+          "/reference/common/Object/AppData/removeMultiple",
+          "/reference/common/Object/AppData/size"
+        ]
+      }
+    ],
+    "/reference/common/Object/Device": [
+      "/reference/common/Object/Device",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/common/Object/Device/acquireWakeLock",
+          "/reference/common/Object/Device/getAndroidVersionCode",
+          "/reference/common/Object/Device/getAndroidVersionName",
+          "/reference/common/Object/Device/getApiLevel",
+          "/reference/common/Object/Device/getBatteryHealth",
+          "/reference/common/Object/Device/getBatteryIntent",
+          "/reference/common/Object/Device/getBatteryLevel",
+          "/reference/common/Object/Device/getBatteryStatus",
+          "/reference/common/Object/Device/getBatteryTemp",
+          "/reference/common/Object/Device/getBatteryTemperature",
+          "/reference/common/Object/Device/getBatteryVoltage",
+          "/reference/common/Object/Device/getBuild",
+          "/reference/common/Object/Device/getConnectedNetworkType",
+          "/reference/common/Object/Device/getFreeMemory",
+          "/reference/common/Object/Device/getFreeStorageSpace",
+          "/reference/common/Object/Device/getMaxMemory",
+          "/reference/common/Object/Device/getModelName",
+          "/reference/common/Object/Device/getPhoneBrand",
+          "/reference/common/Object/Device/getPhoneModel",
+          "/reference/common/Object/Device/getPlugType",
+          "/reference/common/Object/Device/getTotalMemory",
+          "/reference/common/Object/Device/getTotalStorageSpace",
+          "/reference/common/Object/Device/getWifiName",
+          "/reference/common/Object/Device/isCharging",
+          "/reference/common/Object/Device/isPowerSaveMode",
+          "/reference/common/Object/Device/isScreenOn",
+          "/reference/common/Object/Device/releaseWakeLock"
+        ]
+      }
+    ],
+    "/reference/common/Object/FileStream": [
+      "/reference/common/Object/FileStream",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/common/Object/FileStream/append",
+          "/reference/common/Object/FileStream/copyFile",
+          "/reference/common/Object/FileStream/create",
+          "/reference/common/Object/FileStream/createDir",
+          "/reference/common/Object/FileStream/exists",
+          "/reference/common/Object/FileStream/getExtension",
+          "/reference/common/Object/FileStream/getFileName",
+          "/reference/common/Object/FileStream/getFileSize",
+          "/reference/common/Object/FileStream/getParentPath",
+          "/reference/common/Object/FileStream/getSdcardPath",
+          "/reference/common/Object/FileStream/isDirectory",
+          "/reference/common/Object/FileStream/isFile",
+          "/reference/common/Object/FileStream/listFiles",
+          "/reference/common/Object/FileStream/moveFile",
+          "/reference/common/Object/FileStream/read",
+          "/reference/common/Object/FileStream/readJson",
+          "/reference/common/Object/FileStream/remove",
+          "/reference/common/Object/FileStream/save",
+          "/reference/common/Object/FileStream/saveJson",
+          "/reference/common/Object/FileStream/write",
+          "/reference/common/Object/FileStream/writeJson"
+        ]
+      }
+    ],
+    "/reference/common/Object/Log": [
+      "/reference/common/Object/Log",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/common/Object/Log/clear",
+          "/reference/common/Object/Log/d",
+          "/reference/common/Object/Log/debug",
+          "/reference/common/Object/Log/e",
+          "/reference/common/Object/Log/error",
+          "/reference/common/Object/Log/i",
+          "/reference/common/Object/Log/info",
+          "/reference/common/Object/Log/log"
+        ]
+      }
+    ],
+    "/reference/common/Object/MediaSender": [
+      "/reference/common/Object/MediaSender",
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/common/Object/MediaSender/clearCache",
+          "/reference/common/Object/MediaSender/getBaseDirectory",
+          "/reference/common/Object/MediaSender/getCachedUrls",
+          "/reference/common/Object/MediaSender/getCacheSize",
+          "/reference/common/Object/MediaSender/getSupportedFormats",
+          "/reference/common/Object/MediaSender/returnToAppNow",
+          "/reference/common/Object/MediaSender/send"
+        ]
+      }
+    ],
     "/reference/legacy": [
       "/reference/legacy",
       {
         "label": "함수",
         "docs": [
-          "/reference/legacy/Function/clearInterval",
-          "/reference/legacy/Function/clearTimeout",
-          "/reference/legacy/Function/require",
-          "/reference/legacy/Function/setInterval",
-          "/reference/legacy/Function/setTimeout"
+          "/reference/common/Function/clearInterval",
+          "/reference/common/Function/clearTimeout",
+          "/reference/common/Function/require",
+          "/reference/common/Function/setInterval",
+          "/reference/common/Function/setTimeout"
         ]
       },
       {
         "label": "객체",
         "docs": [
           "/reference/legacy/Object/Api",
-          "/reference/legacy/Object/AppData",
+          "/reference/common/Object/AppData",
           "/reference/legacy/Object/Bridge",
           "/reference/legacy/Object/console",
           "/reference/legacy/Object/DataBase",
-          "/reference/legacy/Object/Device",
-          "/reference/legacy/Object/FileStream",
-          "/reference/legacy/Object/Log",
-          "/reference/legacy/Object/MediaSender",
+          "/reference/common/Object/Device",
+          "/reference/common/Object/FileStream",
+          "/reference/common/Object/Log",
+          "/reference/common/Object/MediaSender",
           "/reference/legacy/Object/Utils"
         ]
       },
@@ -2380,22 +2322,6 @@
         ]
       }
     ],
-    "/reference/legacy/Object/AppData": [
-      "/reference/legacy/Object/AppData",
-      {
-        "label": "정적 메소드",
-        "docs": [
-          "/reference/legacy/Object/AppData/clear",
-          "/reference/legacy/Object/AppData/getBoolean",
-          "/reference/legacy/Object/AppData/getInt",
-          "/reference/legacy/Object/AppData/getString",
-          "/reference/legacy/Object/AppData/putBoolean",
-          "/reference/legacy/Object/AppData/putInt",
-          "/reference/legacy/Object/AppData/putString",
-          "/reference/legacy/Object/AppData/remove"
-        ]
-      }
-    ],
     "/reference/legacy/Object/Bridge": [
       "/reference/legacy/Object/Bridge",
       {
@@ -2447,101 +2373,6 @@
           "/reference/legacy/Object/DataBase/removeDataBase",
           "/reference/legacy/Object/DataBase/setDataBase",
           "/reference/legacy/Object/DataBase/setDataBaseDir"
-        ]
-      }
-    ],
-    "/reference/legacy/Object/Device": [
-      "/reference/legacy/Object/Device",
-      {
-        "label": "정적 메소드",
-        "docs": [
-          "/reference/legacy/Object/Device/acquireWakeLock",
-          "/reference/legacy/Object/Device/getAndroidVersionCode",
-          "/reference/legacy/Object/Device/getAndroidVersionName",
-          "/reference/legacy/Object/Device/getApiLevel",
-          "/reference/legacy/Object/Device/getBatteryHealth",
-          "/reference/legacy/Object/Device/getBatteryIntent",
-          "/reference/legacy/Object/Device/getBatteryLevel",
-          "/reference/legacy/Object/Device/getBatteryStatus",
-          "/reference/legacy/Object/Device/getBatteryTemp",
-          "/reference/legacy/Object/Device/getBatteryTemperature",
-          "/reference/legacy/Object/Device/getBatteryVoltage",
-          "/reference/legacy/Object/Device/getBuild",
-          "/reference/legacy/Object/Device/getConnectedNetworkType",
-          "/reference/legacy/Object/Device/getFreeMemory",
-          "/reference/legacy/Object/Device/getFreeStorageSpace",
-          "/reference/legacy/Object/Device/getMaxMemory",
-          "/reference/legacy/Object/Device/getModelName",
-          "/reference/legacy/Object/Device/getPhoneBrand",
-          "/reference/legacy/Object/Device/getPhoneModel",
-          "/reference/legacy/Object/Device/getPlugType",
-          "/reference/legacy/Object/Device/getTotalMemory",
-          "/reference/legacy/Object/Device/getTotalStorageSpace",
-          "/reference/legacy/Object/Device/getWifiName",
-          "/reference/legacy/Object/Device/isCharging",
-          "/reference/legacy/Object/Device/isPowerSaveMode",
-          "/reference/legacy/Object/Device/isScreenOn",
-          "/reference/legacy/Object/Device/releaseWakeLock"
-        ]
-      }
-    ],
-    "/reference/legacy/Object/FileStream": [
-      "/reference/legacy/Object/FileStream",
-      {
-        "label": "정적 메소드",
-        "docs": [
-          "/reference/legacy/Object/FileStream/append",
-          "/reference/legacy/Object/FileStream/copyFile",
-          "/reference/legacy/Object/FileStream/create",
-          "/reference/legacy/Object/FileStream/createDir",
-          "/reference/legacy/Object/FileStream/exists",
-          "/reference/legacy/Object/FileStream/getExtension",
-          "/reference/legacy/Object/FileStream/getFileName",
-          "/reference/legacy/Object/FileStream/getFileSize",
-          "/reference/legacy/Object/FileStream/getParentPath",
-          "/reference/legacy/Object/FileStream/getSdcardPath",
-          "/reference/legacy/Object/FileStream/isDirectory",
-          "/reference/legacy/Object/FileStream/isFile",
-          "/reference/legacy/Object/FileStream/listFiles",
-          "/reference/legacy/Object/FileStream/moveFile",
-          "/reference/legacy/Object/FileStream/read",
-          "/reference/legacy/Object/FileStream/readJSON",
-          "/reference/legacy/Object/FileStream/remove",
-          "/reference/legacy/Object/FileStream/save",
-          "/reference/legacy/Object/FileStream/saveJSON",
-          "/reference/legacy/Object/FileStream/write",
-          "/reference/legacy/Object/FileStream/writeJSON"
-        ]
-      }
-    ],
-    "/reference/legacy/Object/Log": [
-      "/reference/legacy/Object/Log",
-      {
-        "label": "정적 메소드",
-        "docs": [
-          "/reference/legacy/Object/Log/clear",
-          "/reference/legacy/Object/Log/d",
-          "/reference/legacy/Object/Log/debug",
-          "/reference/legacy/Object/Log/e",
-          "/reference/legacy/Object/Log/error",
-          "/reference/legacy/Object/Log/i",
-          "/reference/legacy/Object/Log/info",
-          "/reference/legacy/Object/Log/log"
-        ]
-      }
-    ],
-    "/reference/legacy/Object/MediaSender": [
-      "/reference/legacy/Object/MediaSender",
-      {
-        "label": "인스턴스 메소드",
-        "docs": [
-          "/reference/legacy/Object/MediaSender/clearCache",
-          "/reference/legacy/Object/MediaSender/getBaseDirectory",
-          "/reference/legacy/Object/MediaSender/getCachedUrls",
-          "/reference/legacy/Object/MediaSender/getCacheSize",
-          "/reference/legacy/Object/MediaSender/getSupportedFormats",
-          "/reference/legacy/Object/MediaSender/returnToAppNow",
-          "/reference/legacy/Object/MediaSender/send"
         ]
       }
     ],
@@ -2630,30 +2461,30 @@
       {
         "label": "함수",
         "docs": [
-          "/reference/api2/Function/clearInterval",
-          "/reference/api2/Function/clearTimeout",
-          "/reference/api2/Function/require",
-          "/reference/api2/Function/setInterval",
-          "/reference/api2/Function/setTimeout"
+          "/reference/common/Function/clearInterval",
+          "/reference/common/Function/clearTimeout",
+          "/reference/common/Function/require",
+          "/reference/common/Function/setInterval",
+          "/reference/common/Function/setTimeout"
         ]
       },
       {
         "label": "객체",
         "docs": [
           "/reference/api2/Object/App",
-          "/reference/api2/Object/AppData",
+          "/reference/common/Object/AppData",
           "/reference/api2/Object/Bot",
           "/reference/api2/Object/BotManager",
           "/reference/api2/Object/Broadcast",
           "/reference/api2/Object/console",
           "/reference/api2/Object/Database",
-          "/reference/api2/Object/Device",
+          "/reference/common/Object/Device",
           "/reference/api2/Object/Event",
-          "/reference/api2/Object/FileStream",
+          "/reference/common/Object/FileStream",
           "/reference/api2/Object/GlobalLog",
           "/reference/api2/Object/Http",
-          "/reference/api2/Object/Log",
-          "/reference/api2/Object/MediaSender",
+          "/reference/common/Object/Log",
+          "/reference/common/Object/MediaSender",
           "/reference/api2/Object/Security"
         ]
       },
@@ -2680,11 +2511,11 @@
       {
         "label": "인자",
         "docs": [
-          "/reference/api2/Argument/Author",
           "/reference/api2/Argument/Command",
           "/reference/api2/Argument/Image",
           "/reference/api2/Argument/Message",
-          "/reference/api2/Argument/SessionManager"
+          "/reference/api2/Argument/SessionManager",
+          "/reference/api2/Argument/User"
         ]
       }
     ],
@@ -2698,22 +2529,6 @@
           "/reference/api2/Object/App/runDelayed",
           "/reference/api2/Object/App/runOnBackgroundThread",
           "/reference/api2/Object/App/runOnUiThread"
-        ]
-      }
-    ],
-    "/reference/api2/Object/AppData": [
-      "/reference/api2/Object/AppData",
-      {
-        "label": "정적 메소드",
-        "docs": [
-          "/reference/api2/Object/AppData/clear",
-          "/reference/api2/Object/AppData/getBoolean",
-          "/reference/api2/Object/AppData/getInt",
-          "/reference/api2/Object/AppData/getString",
-          "/reference/api2/Object/AppData/putBoolean",
-          "/reference/api2/Object/AppData/putInt",
-          "/reference/api2/Object/AppData/putString",
-          "/reference/api2/Object/AppData/remove"
         ]
       }
     ],
@@ -2818,41 +2633,6 @@
         ]
       }
     ],
-    "/reference/api2/Object/Device": [
-      "/reference/api2/Object/Device",
-      {
-        "label": "정적 메소드",
-        "docs": [
-          "/reference/api2/Object/Device/acquireWakeLock",
-          "/reference/api2/Object/Device/getAndroidVersionCode",
-          "/reference/api2/Object/Device/getAndroidVersionName",
-          "/reference/api2/Object/Device/getApiLevel",
-          "/reference/api2/Object/Device/getBatteryHealth",
-          "/reference/api2/Object/Device/getBatteryIntent",
-          "/reference/api2/Object/Device/getBatteryLevel",
-          "/reference/api2/Object/Device/getBatteryStatus",
-          "/reference/api2/Object/Device/getBatteryTemp",
-          "/reference/api2/Object/Device/getBatteryTemperature",
-          "/reference/api2/Object/Device/getBatteryVoltage",
-          "/reference/api2/Object/Device/getBuild",
-          "/reference/api2/Object/Device/getConnectedNetworkType",
-          "/reference/api2/Object/Device/getFreeMemory",
-          "/reference/api2/Object/Device/getFreeStorageSpace",
-          "/reference/api2/Object/Device/getMaxMemory",
-          "/reference/api2/Object/Device/getModelName",
-          "/reference/api2/Object/Device/getPhoneBrand",
-          "/reference/api2/Object/Device/getPhoneModel",
-          "/reference/api2/Object/Device/getPlugType",
-          "/reference/api2/Object/Device/getTotalMemory",
-          "/reference/api2/Object/Device/getTotalStorageSpace",
-          "/reference/api2/Object/Device/getWifiName",
-          "/reference/api2/Object/Device/isCharging",
-          "/reference/api2/Object/Device/isPowerSaveMode",
-          "/reference/api2/Object/Device/isScreenOn",
-          "/reference/api2/Object/Device/releaseWakeLock"
-        ]
-      }
-    ],
     "/reference/api2/Object/Event": [
       "/reference/api2/Object/Event",
       {
@@ -2873,35 +2653,6 @@
           "/reference/api2/Object/Event/NOTIFICATION_REMOVED",
           "/reference/api2/Object/Event/START_COMPILE",
           "/reference/api2/Object/Event/TICK"
-        ]
-      }
-    ],
-    "/reference/api2/Object/FileStream": [
-      "/reference/api2/Object/FileStream",
-      {
-        "label": "정적 메소드",
-        "docs": [
-          "/reference/api2/Object/FileStream/append",
-          "/reference/api2/Object/FileStream/copyFile",
-          "/reference/api2/Object/FileStream/create",
-          "/reference/api2/Object/FileStream/createDir",
-          "/reference/api2/Object/FileStream/exists",
-          "/reference/api2/Object/FileStream/getExtension",
-          "/reference/api2/Object/FileStream/getFileName",
-          "/reference/api2/Object/FileStream/getFileSize",
-          "/reference/api2/Object/FileStream/getParentPath",
-          "/reference/api2/Object/FileStream/getSdcardPath",
-          "/reference/api2/Object/FileStream/isDirectory",
-          "/reference/api2/Object/FileStream/isFile",
-          "/reference/api2/Object/FileStream/listFiles",
-          "/reference/api2/Object/FileStream/moveFile",
-          "/reference/api2/Object/FileStream/read",
-          "/reference/api2/Object/FileStream/readJSON",
-          "/reference/api2/Object/FileStream/remove",
-          "/reference/api2/Object/FileStream/save",
-          "/reference/api2/Object/FileStream/saveJSON",
-          "/reference/api2/Object/FileStream/write",
-          "/reference/api2/Object/FileStream/writeJSON"
         ]
       }
     ],
@@ -2930,37 +2681,6 @@
           "/reference/api2/Object/Http/request(String,Function)",
           "/reference/api2/Object/Http/requestSync(Object)",
           "/reference/api2/Object/Http/requestSync(String)"
-        ]
-      }
-    ],
-    "/reference/api2/Object/Log": [
-      "/reference/api2/Object/Log",
-      {
-        "label": "정적 메소드",
-        "docs": [
-          "/reference/api2/Object/Log/clear",
-          "/reference/api2/Object/Log/d",
-          "/reference/api2/Object/Log/debug",
-          "/reference/api2/Object/Log/e",
-          "/reference/api2/Object/Log/error",
-          "/reference/api2/Object/Log/i",
-          "/reference/api2/Object/Log/info",
-          "/reference/api2/Object/Log/log"
-        ]
-      }
-    ],
-    "/reference/api2/Object/MediaSender": [
-      "/reference/api2/Object/MediaSender",
-      {
-        "label": "인스턴스 메소드",
-        "docs": [
-          "/reference/api2/Object/MediaSender/clearCache",
-          "/reference/api2/Object/MediaSender/getBaseDirectory",
-          "/reference/api2/Object/MediaSender/getCachedUrls",
-          "/reference/api2/Object/MediaSender/getCacheSize",
-          "/reference/api2/Object/MediaSender/getSupportedFormats",
-          "/reference/api2/Object/MediaSender/returnToAppNow",
-          "/reference/api2/Object/MediaSender/send"
         ]
       }
     ],
@@ -3009,35 +2729,24 @@
         ]
       }
     ],
-    "/reference/api2/Argument/Author": [
-      "/reference/api2/Argument/Author",
-      {
-        "label": "인스턴스 프로퍼티",
-        "docs": [
-          "/reference/api2/Argument/Author/avatar",
-          "/reference/api2/Argument/Author/hash",
-          "/reference/api2/Argument/Author/name"
-        ]
-      }
-    ],
     "/reference/api2/Argument/Command": [
       "/reference/api2/Argument/Command",
       {
         "label": "인스턴스 프로퍼티",
         "docs": [
           "/reference/api2/Argument/Command/args",
-          "/reference/api2/Argument/Command/author",
-          "/reference/api2/Argument/Command/channelId",
+          "/reference/api2/Argument/Message/author",
+          "/reference/api2/Argument/Message/channelId",
           "/reference/api2/Argument/Command/command",
-          "/reference/api2/Argument/Command/content",
-          "/reference/api2/Argument/Command/image",
-          "/reference/api2/Argument/Command/isDebugRoom",
-          "/reference/api2/Argument/Command/isGroupChat",
-          "/reference/api2/Argument/Command/isMention",
-          "/reference/api2/Argument/Command/isMultiChat",
-          "/reference/api2/Argument/Command/logId",
-          "/reference/api2/Argument/Command/packageName",
-          "/reference/api2/Argument/Command/room"
+          "/reference/api2/Argument/Message/content",
+          "/reference/api2/Argument/Message/image",
+          "/reference/api2/Argument/Message/isDebugRoom",
+          "/reference/api2/Argument/Message/isGroupChat",
+          "/reference/api2/Argument/Message/isMention",
+          "/reference/api2/Argument/Message/isMultiChat",
+          "/reference/api2/Argument/Message/logId",
+          "/reference/api2/Argument/Message/packageName",
+          "/reference/api2/Argument/Message/room"
         ]
       },
       {
@@ -3093,6 +2802,17 @@
         "docs": [
           "/reference/api2/Argument/SessionManager/bindSession(String,Action$)",
           "/reference/api2/Argument/SessionManager/bindSession(String,String,Action$)"
+        ]
+      }
+    ],
+    "/reference/api2/Argument/User": [
+      "/reference/api2/Argument/User",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/api2/Argument/User/avatar",
+          "/reference/api2/Argument/User/hash",
+          "/reference/api2/Argument/User/name"
         ]
       }
     ],

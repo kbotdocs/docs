@@ -1,5 +1,5 @@
 
-특정 이벤트에 대한 이벤트 리스너를 제거합니다. `listener` 인자가 없을 경우 리스너 이벤트의 마지막 리스너를 제거합니다. 해당 메소드의 동작은 [`Bot.off`](/reference/api2/Object/Bot/off)와
+특정 이벤트에 대한 이벤트 리스너를 제거합니다. `listener` 인자가 없을 경우 리스너 이벤트의 모든 리스너를 제거합니다. 해당 메소드의 동작은 [`Bot.off`](/reference/api2/Object/Bot/off)와
 동일합니다.
 ## 구문
 

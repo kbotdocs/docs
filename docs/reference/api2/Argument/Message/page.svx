@@ -10,10 +10,10 @@
 </thead>
 <tbody>
   <tr>
-  <td><span>[`Author`](/reference/api2/Argument/Author)</span></td>
+  <td><span>[`User`](/reference/api2/Argument/User)</span></td>
   <td>
     [`author`](/reference/api2/Argument/Message/author) \
-    메시지의 발신자에 대한 [`Author`](/reference/api2/Argument/Author) 객체입니다.
+    메시지의 발신자에 대한 [`User`](/reference/api2/Argument/User) 객체입니다.
   </td>
   </tr>
   <tr>
@@ -98,24 +98,24 @@
 </thead>
 <tbody>
   <tr>
-  <td><span>`void`</span></td>
+  <td><span>`Boolean`</span></td>
   <td>
     [`markAsRead`](/reference/api2/Argument/Message/markAsRead)`()` \
-    메시지를 수신한 방의 알림을 읽음 처리합니다.
+    메시지를 수신한 방의 알림을 읽음 처리합니다. 작업의 성공 여부를 반환합니다.
   </td>
   </tr>
   <tr>
-  <td><span>`void`</span></td>
+  <td><span>`Boolean`</span></td>
   <td>
     [`reply`](/reference/api2/Argument/Message/reply)`(content: String)` \
-    메시지가 온 방에 메시지를 보냅니다.
+    메시지가 온 방에 메시지를 보냅니다. 작업의 성공 여부를 반환합니다.
   </td>
   </tr>
   <tr>
-  <td><span>`void`</span></td>
+  <td><span>`Boolean`</span></td>
   <td>
     [`replyWithMarkdown`](/reference/api2/Argument/Message/replyWithMarkdown)`(content: String)` \
-    메시지가 온 방에 Markdown 메시지를 보냅니다.
+    메시지가 온 방에 Markdown 메시지를 보냅니다. 작업의 성공 여부를 반환합니다.
   </td>
   </tr>
 </tbody>

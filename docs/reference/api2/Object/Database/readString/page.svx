@@ -1,5 +1,5 @@
 
-`fileName` 이름의 파일의 내용을 문자열로 반환합니다.
+`fileName` 이름의 파일의 내용을 문자열로 반환합니다. 파일이 존재하지 않을 경우 빈 문자열을 반환합니다.
 ## 구문
 
 ~~~js
@@ -15,4 +15,4 @@ Database.readString(fileName);
 </params>
 ### 반환값
 
-`String` - `fileName` 이름의 파일의 내용을 반환합니다.
+`String` - `fileName` 이름의 파일의 내용을 반환합니다. 파일이 존재하지 않을 경우 빈 문자열을 반환합니다.

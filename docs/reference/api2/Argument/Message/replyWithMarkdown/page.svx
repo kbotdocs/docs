@@ -13,3 +13,7 @@ msg.replyWithMarkdown(content);
 보낼 Markdown 메시지의 내용
 </param-item>
 </params>
+
+### 반환값
+
+`Boolean` - 메시지 전송에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.

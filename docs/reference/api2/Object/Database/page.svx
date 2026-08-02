@@ -13,11 +13,11 @@
   <td><span>`Boolean`</span></td>
   <td>
     [`exists`](/reference/api2/Object/Database/exists)`(fileName: String)` \
-    `fileName` 이름의 파일이 존재하는지의 여부를 반환합니다.
+    `fileName` 이름의 파일 또는 디렉토리가 존재하는지의 여부를 반환합니다.
   </td>
   </tr>
   <tr>
-  <td><span>`Object`</span></td>
+  <td><span>`Object?`</span></td>
   <td>
     [`readObject`](/reference/api2/Object/Database/readObject)`(fileName: String)` \
     `fileName` 이름의 파일의 내용을 `Object` 형식으로 반환합니다. 파일 내용의 형식이 `JSON`일 경우에만 가능합니다.

@@ -10,31 +10,31 @@ API2는 최근에 공개된 내장 API로, 레거시 API보다 더 체계적인 
 </thead>
 <tbody>
   <tr>
-  <td><span>[`clearInterval`](/reference/api2/Function/clearInterval)</span></td>
+  <td><span>[`clearInterval`](/reference/common/Function/clearInterval)</span></td>
   <td>
-    [`setInterval()`](/reference/api2/Function/setInterval)으로 생성한 반복 작업을 취소합니다.
+    [`setInterval()`](/reference/common/Function/setInterval)으로 생성한 반복 작업을 취소합니다.
   </td>
   </tr>
   <tr>
-  <td><span>[`clearTimeout`](/reference/api2/Function/clearTimeout)</span></td>
+  <td><span>[`clearTimeout`](/reference/common/Function/clearTimeout)</span></td>
   <td>
-    [`setTimeout()`](/reference/api2/Function/setTimeout)으로 생성한 타임아웃을 취소합니다.
+    [`setTimeout()`](/reference/common/Function/setTimeout)으로 생성한 타임아웃을 취소합니다.
   </td>
   </tr>
   <tr>
-  <td><span>[`require`](/reference/api2/Function/require)</span></td>
+  <td><span>[`require`](/reference/common/Function/require)</span></td>
   <td>
     모듈이나 `.json` 파일을 불러옵니다.
   </td>
   </tr>
   <tr>
-  <td><span>[`setInterval`](/reference/api2/Function/setInterval)</span></td>
+  <td><span>[`setInterval`](/reference/common/Function/setInterval)</span></td>
   <td>
     일정한 시간 간격을 두고 함수를 호출하는 반복 작업을 생성합니다.
   </td>
   </tr>
   <tr>
-  <td><span>[`setTimeout`](/reference/api2/Function/setTimeout)</span></td>
+  <td><span>[`setTimeout`](/reference/common/Function/setTimeout)</span></td>
   <td>
     설정한 시간 경과 후 실행되는 타임아웃을 생성합니다.
   </td>
@@ -57,7 +57,7 @@ API2는 최근에 공개된 내장 API로, 레거시 API보다 더 체계적인 
   </td>
   </tr>
   <tr>
-  <td><span>[`AppData`](/reference/api2/Object/AppData)</span></td>
+  <td><span>[`AppData`](/reference/common/Object/AppData)</span></td>
   <td>
     앱의 데이터에 관한 기능들을 위한 객체입니다.
   </td>
@@ -93,7 +93,7 @@ API2는 최근에 공개된 내장 API로, 레거시 API보다 더 체계적인 
   </td>
   </tr>
   <tr>
-  <td><span>[`Device`](/reference/api2/Object/Device)</span></td>
+  <td><span>[`Device`](/reference/common/Object/Device)</span></td>
   <td>
     구동 환경/기기에 관한 정보를 제공하는 메소드들을 모은 객체입니다.
   </td>
@@ -105,7 +105,7 @@ API2는 최근에 공개된 내장 API로, 레거시 API보다 더 체계적인 
   </td>
   </tr>
   <tr>
-  <td><span>[`FileStream`](/reference/api2/Object/FileStream)</span></td>
+  <td><span>[`FileStream`](/reference/common/Object/FileStream)</span></td>
   <td>
     내부 저장소의 파일을 다루는 객체입니다.
   </td>
@@ -123,13 +123,13 @@ API2는 최근에 공개된 내장 API로, 레거시 API보다 더 체계적인 
   </td>
   </tr>
   <tr>
-  <td><span>[`Log`](/reference/api2/Object/Log)</span></td>
+  <td><span>[`Log`](/reference/common/Object/Log)</span></td>
   <td>
     앱 내 스크립트 로그에 로그를 기록할 수 있게 하는 객체입니다.
   </td>
   </tr>
   <tr>
-  <td><span><feature-status source="api2/Object/MediaSender" feature="MediaSender">[`MediaSender`](/reference/api2/Object/MediaSender)</feature-status></span></td>
+  <td><span><feature-status source="common/Object/MediaSender" feature="MediaSender">[`MediaSender`](/reference/common/Object/MediaSender)</feature-status></span></td>
   <td>
     텍스트 외의 미디어 파일을 전송할 수 있게 하는 객체입니다.
   </td>
@@ -249,7 +249,7 @@ API2는 이벤트 리스너가 지정되어 있지 않으며, 여러 이벤트�
   <tr>
   <td><span>[`tick`](/reference/api2/Event/tick)</span></td>
   <td>
-    매 틱(1초)마다 발생하는 이벤트입니다.
+    매 틱마다 발생하는 이벤트입니다.
   </td>
   </tr>
 </tbody>
@@ -265,12 +265,6 @@ API2는 이벤트 리스너가 지정되어 있지 않으며, 여러 이벤트�
   </tr>
 </thead>
 <tbody>
-  <tr>
-  <td><span>[`Author`](/reference/api2/Argument/Author)</span></td>
-  <td>
-    발신자에 관한 정보를 담은 객체입니다.
-  </td>
-  </tr>
   <tr>
   <td><span>[`Command`](/reference/api2/Argument/Command)</span></td>
   <td>
@@ -294,6 +288,12 @@ API2는 이벤트 리스너가 지정되어 있지 않으며, 여러 이벤트�
   <td>
     방 세션을 수동으로 등록할 수 있게 해주는 객체입니다. [`notificationPosted`](/reference/api2/Event/notificationPosted) 이벤트의 인자로 주어집니다.
   </td>
+  <tr>
+  <td><span>[`User`](/reference/api2/Argument/User)</span></td>
+  <td>
+    발신자에 관한 정보를 담은 객체입니다.
+  </td>
+  </tr>
   </tr>
 </tbody>
 </table>

@@ -1,0 +1,164 @@
+
+`AppData` 객체는 카카오톡봇 앱 내에서 공유되는 데이터의 접근을 위한 기능들을 위한 객체입니다. `AppData` 객체로 관리하는 데이터는 `키: 값` 형태의 데이터입니다.
+
+`AppData` 객체를 통해 저장된 데이터는 카카오톡봇 앱 내에 저장되므로 스크립트를 컴파일하거나 앱을 재시작해도 유지됩니다. 또한, 스크립트의 구분이 없어 다른 스크립트에서도 동일한 데이터에 접근할 수 있습니다.
+하지만 앱 데이터를 삭제하거나, 앱을 제거, 또는 [`AppData.clear()`](/reference/common/Object/AppData/clear)를 실행하면 데이터가 삭제됩니다.
+
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`AppData` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`clear`](/reference/common/Object/AppData/clear)`()` \
+    `AppData` 객체로 저장한 모든 데이터를 삭제합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`contains`](/reference/common/Object/AppData/contains)`(key: String)` \
+    앱 데이터에 `key`로 대응되는 데이터가 존재하는지의 여부를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Object`</span></td>
+  <td>
+    [`getAll`](/reference/common/Object/AppData/getAll)`()` \
+    앱 데이터의 모든 `키: 값` 쌍이 저장된 객체를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String[]`</span></td>
+  <td>
+    [`getAllKeys`](/reference/common/Object/AppData/getAllKeys)`()` \
+    앱 데이터에 존재하는 모든 데이터의 키를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`getBoolean`](/reference/common/Object/AppData/getBoolean)`(key: String, defaultValue?: Boolean = false)` \
+    `key`에 대응하는 `Boolean`형 데이터를 반환합니다. 존재하지 않을 경우 `defaultValue`를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`getFloat`](/reference/common/Object/AppData/getFloat)`(key: String, defaultValue?: Number = 0)` \
+    `key`에 대응하는 `Number`(실수, Float)형 데이터를 반환합니다. 존재하지 않을 경우 `defaultValue`를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`getInt`](/reference/common/Object/AppData/getInt)`(key: String, defaultValue?: Number = 0)` \
+    `key`에 대응하는 `Number`(정수)형 데이터를 반환합니다. 존재하지 않을 경우 `defaultValue`를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`getLong`](/reference/common/Object/AppData/getLong)`(key: String, defaultValue?: Number = 0)` \
+    `key`에 대응하는 `Number`(실수, Long)형 데이터를 반환합니다. 존재하지 않을 경우 `defaultValue`를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Object?`</span></td>
+  <td>
+    [`getObject`](/reference/common/Object/AppData/getObject)`(key: String)` \
+    `key`에 대응하는 객체를 반환합니다. 존재하지 않을 경우 `null`을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`getString`](/reference/common/Object/AppData/getString)`(key: String, defaultValue?: String = "")` \
+    `key`에 대응하는 `String`형 데이터를 반환합니다. 존재하지 않을 경우 `defaultValue`를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`isEmpty`](/reference/common/Object/AppData/getString)`(k)` \
+    앱 데이터에 데이터가 하나도 존재하지 않는지의 여부를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`putBoolean`](/reference/common/Object/AppData/putBoolean)`(key: String, boolean: Boolean)` \
+    앱 데이터에 `key: boolean` (`String: Boolean` 형식) 데이터를 씁니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`putFloat`](/reference/common/Object/AppData/putFloat)`(key: String, float: Number)` \
+    앱 데이터에 `key: float` (`String: Number(실수, Float)` 형식) 데이터를 씁니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`putInt`](/reference/common/Object/AppData/putInt)`(key: String, integer: Number)` \
+    앱 데이터에 `key: integer` (`String: Number(정수)` 형식) 데이터를 씁니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`putLong`](/reference/common/Object/AppData/putLong)`(key: String, long: Number)` \
+    앱 데이터에 `key: long` (`String: Number(실수, Long)` 형식) 데이터를 씁니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`putMultiple`](/reference/common/Object/AppData/putMultiple)`(keys: String[])` \
+    앱 데이터에 여러 데이터를 한번에 씁니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`putObject`](/reference/common/Object/AppData/putObject)`(key: String, obj: Object)` \
+    앱 데이터에 `key: object` (`String: Object` 형식) 데이터를 씁니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`putString`](/reference/common/Object/AppData/putString)`(key: String, string: String)` \
+    앱 데이터에 `key: string` (`String: String` 형식) 데이터를 씁니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`remove`](/reference/common/Object/AppData/remove)`(key: String)` \
+    `key`에 대응하는 앱 데이터를 삭제합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`removeMultiple`](/reference/common/Object/AppData/removeMultiple)`(keys: String[])` \
+    여러 앱 데이터를 삭제합니다.
+  </td>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`size`](/reference/common/Object/AppData/size)`()` \
+    앱 데이터에 저장된 데이터의 개수를 반환합니다.
+  </td>
+  </tr>
+  </tr>
+</tbody>
+</table>

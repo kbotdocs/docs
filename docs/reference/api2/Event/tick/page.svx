@@ -1,5 +1,5 @@
 
-`tick` 이벤트는 매 틱(1초)마다 발생하는 이벤트입니다.
+`tick` 이벤트는 매 틱마다 발생하는 이벤트입니다. 1틱은 메신저봇R에서 20ms, 채팅 자동응답 봇에서 1000ms 입니다.
 ## 구문
 
 [`Bot.addListener()`](/reference/api2/Object/Bot/addListener)를 이용해 이벤트에 대한 리스너를 추가할 수 있습니다. [`Event.TICK`](/reference/api2/Object/Event/TICK)를 이용해 이벤트

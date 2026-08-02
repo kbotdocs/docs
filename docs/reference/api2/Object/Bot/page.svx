@@ -31,10 +31,10 @@
   </td>
   </tr>
   <tr>
-  <td><span>`java.util.Map<String, Function[]>`</span></td>
+  <td><span>`java.util.Map<String, java.util.LinkedList<Function>>`</span></td>
   <td>
     [`getListenersMap`](/reference/api2/Object/Bot/getListenersMap)`()` \
-    이벤트 별 리스너들의 배열을 `키: 값` 형태의 map으로 반환합니다.
+    이벤트 별 리스너들의 [`LinkedList`](#blank#https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)를 `키: 값` 형태의 map으로 반환합니다.
   </td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@
   </td>
   </tr>
   <tr>
-  <td><span>`Boolean`</span></td>
+  <td><span>`String`</span></td>
   <td>
     [`getRootPath`](/reference/api2/Object/Bot/getRootPath)`()` \
     `Bot` 객체에 대응하는 스크립트의 프로젝트 디렉토리 경로를 반환합니다.
@@ -76,7 +76,7 @@
   <td><span>`void`</span></td>
   <td>
     [`off`](/reference/api2/Object/Bot/off)`(eventName: String, listener?: (arg1?: Any, arg2?: Any, ... argN?: Any) => Any)` \
-    특정 이벤트에 대한 이벤트 리스너를 제거합니다. `listener` 인자가 없을 경우 리스너 이벤트의 마지막 리스너를 제거합니다.
+    특정 이벤트에 대한 이벤트 리스너를 제거합니다. `listener` 인자가 없을 경우 리스너 이벤트의 모든 리스너를 제거합니다.
   </td>
   </tr>
   <tr>
@@ -106,7 +106,7 @@
   <td>
     [`removeListener`](/reference/api2/Object/Bot/removeListener)`(eventName: String, listener?: (arg1?: Any, arg2?: Any, ... argN?: Any) =>
     Any)` \
-    특정 이벤트에 대한 이벤트 리스너를 제거합니다. `listener` 인자가 없을 경우 리스너 이벤트의 마지막 리스너를 제거합니다.
+    특정 이벤트에 대한 이벤트 리스너를 제거합니다. `listener` 인자가 없을 경우 리스너 이벤트의 모든 리스너를 제거합니다.
   </td>
   </tr>
   <tr>

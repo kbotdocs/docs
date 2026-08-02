@@ -1,0 +1,8 @@
+{
+   "category" : "공통 API",
+   "compat" : {
+      "data" : "common/Function/clearTimeout",
+      "feature" : "*"
+   },
+   "title" : "clearTimeout()"
+}

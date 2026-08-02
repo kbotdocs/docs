@@ -1,8 +1,0 @@
-{
-   "category" : "API2",
-   "compat" : {
-      "data" : "api2/Argument/Author",
-      "feature" : "*"
-   },
-   "title" : "Author"
-}

@@ -1,0 +1,22 @@
+
+`key`에 대응하는 `String`형 데이터를 반환합니다. 존재하지 않을 경우 `defaultValue`를 반환합니다.
+## 구문
+
+~~~js
+AppData.getString(key);
+AppData.getString(key, defaultValue);
+~~~
+
+### 매개변수
+
+<params>
+  <param-item param="key" type="String">
+    불러올 `String`형 데이터에 대응하는 키
+  </param-item>
+  <param-item param="defaultValue" type="String" defaultVal="`\"\"`" optional>
+    `key`에 대응하는 데이터가 없을 경우 반환할 값
+  </param-item>
+</params>
+### 반환값
+
+`String` - `key`에 대응하는 `String`형 데이터를 반환합니다. 존재하지 않을 경우 `defaultValue`를 반환합니다.

@@ -33,15 +33,15 @@
   <tr>
   <td><span>`void`</span></td>
   <td>
-    [`e`](/reference/api2/Object/GlobalLog/e)`(data: String, showToast?: Boolean = false)` \
-    에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    [`e`](/reference/api2/Object/GlobalLog/e)`(data: String, showToast?: Boolean = true)` \
+    에러 로그를 작성합니다. `showToast`의 값이 `false`일 경우 작성된 로그를 토스트 메시지로 출력하지 않습니다.
   </td>
   </tr>
   <tr>
   <td><span>`void`</span></td>
   <td>
-    [`error`](/reference/api2/Object/GlobalLog/error)`(data: String, showToast?: Boolean = false)` \
-    에러 로그를 작성합니다. `showToast`의 값이 `true`일 경우 작성된 로그를 토스트 메시지로 출력합니다.
+    [`error`](/reference/api2/Object/GlobalLog/error)`(data: String, showToast?: Boolean = true)` \
+    에러 로그를 작성합니다. `showToast`의 값이 `false`일 경우 작성된 로그를 토스트 메시지로 출력하지 않습니다.
   </td>
   </tr>
   <tr>

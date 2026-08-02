@@ -8,4 +8,4 @@ bot.getListenersMap();
 
 ### 반환값
 
-`java.util.Map<String, Function[]>` - 이벤트 별 리스너들의 배열을 `키: 값` 형태로 반환합니다.
+`java.util.Map<String, java.util.LinkedList<Function>>` - 이벤트 별 리스너들의 [`LinkedList`](#blank#https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)을 `키: 값` 형태로 반환합니다.

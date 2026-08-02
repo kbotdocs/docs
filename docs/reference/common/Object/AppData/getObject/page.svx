@@ -1,0 +1,18 @@
+
+`key`에 대응하는 객체를 반환합니다. 존재하지 않을 경우 `null`을 반환합니다.
+## 구문
+
+~~~js
+AppData.getObject(key);
+~~~
+
+### 매개변수
+
+<params>
+  <param-item param="key" type="String">
+    불러올 객체에 대응하는 키
+  </param-item>
+</params>
+### 반환값
+
+`Object?` - `key`에 대응하는 객체를 반환합니다. 존재하지 않을 경우 `null`을 반환합니다.

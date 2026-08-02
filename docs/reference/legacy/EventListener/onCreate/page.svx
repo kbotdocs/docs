@@ -13,7 +13,7 @@ function onCreate(savedInstanceState, activity) {
 
 <params>
 <param-item param="savedInstanceState" type="android.os.Bundle">
-스크립트 액티비티의 `onCreate`의 인자 `savedInstanceState`입니다.
+`activity`의 이전 인스턴스 상태가 담긴 `Bundle`입니다.
 </param-item>
 <param-item param="activity" type="android.app.Activity">
 해당 이벤트가 발생했을 때의 액티비티입니다.

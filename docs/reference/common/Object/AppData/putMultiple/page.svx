@@ -1,0 +1,30 @@
+
+앱 데이터에 여러 데이터를 한번에 씁니다.
+## 구문
+
+~~~js
+AppData.putMultiple(values);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="values" type="Object">
+쓸 앱 데이터의 `키: 값` 쌍을 가지는 객체
+</param-item>
+</params>
+
+## 설명
+
+`putMultiple` 메소드는 `putString`, `putLong`과 같은 여러 쓰기 메소드를 한번에 사용하는 것과 같은 동작을 위해 존재합니다.
+
+~~~js
+AppData.putMultiple({
+  "bot:name": "chatbot",
+  "bot:version": 2.3,
+  "bot:power": true
+})
+~~~
+
+위와 같이 각각 다른 타입의 값을 한번에 쓸 수 있습니다. 기본적으로 `String`, `Int`, `Float`, `Long`, `Boolean` 중 자동으로 구분하여 저장합니다. 
+그 외 구분되지 않는 값은 문자열 데이터로 저장합니다.

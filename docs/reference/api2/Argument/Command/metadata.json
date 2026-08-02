@@ -4,5 +4,11 @@
       "data" : "api2/Argument/Command",
       "feature" : "*"
    },
+   "inheritance" : [
+      {
+         "name" : "Message",
+         "url" : "api2/Argument/Message"
+      }
+   ],
    "title" : "Command"
 }

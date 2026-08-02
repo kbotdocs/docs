@@ -1,8 +1,0 @@
-{
-   "category" : "레거시 API",
-   "compat" : {
-      "data" : "legacy/Function/clearTimeout",
-      "feature" : "*"
-   },
-   "title" : "clearTimeout()"
-}

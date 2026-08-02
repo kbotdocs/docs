@@ -1,0 +1,18 @@
+
+앱 데이터에 `key: object` (`String: Object` 형식) 데이터를 씁니다.
+## 구문
+
+~~~js
+AppData.putObject(key, obj);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="key" type="String">
+쓸 앱 데이터의 키
+</param-item>
+<param-item param="obj" type="Object">
+`key`에 대한 객체
+</param-item>
+</params>

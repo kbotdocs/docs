@@ -1,0 +1,8 @@
+{
+   "category" : "공통 API",
+   "compat" : {
+      "data" : "common/Object/Log",
+      "feature" : "clear"
+   },
+   "title" : "Log.clear()"
+}

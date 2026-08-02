@@ -140,7 +140,7 @@
   </td>
   </tr>
   <tr>
-  <td><span>`String`</span></td>
+  <td><span>`Number`</span></td>
   <td>
     [`hashCode`](/reference/api2/Object/Security/hashCode)`(value: String)` \
     `value`의 해시코드를 반환합니다.

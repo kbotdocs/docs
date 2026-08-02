@@ -1,8 +1,0 @@
-{
-   "category" : "레거시 API",
-   "compat" : {
-      "data" : "legacy/Object/AppData",
-      "feature" : "putInt"
-   },
-   "title" : "AppData.putInt()"
-}

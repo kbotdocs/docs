@@ -1,0 +1,18 @@
+
+앱 데이터에 `key: long` (`String: Number(실수, Long)` 형식) 데이터를 씁니다.
+## 구문
+
+~~~js
+AppData.putLong(key, long);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="key" type="String">
+쓸 앱 데이터의 키
+</param-item>
+<param-item param="long" type="Number">
+`key`에 대한 `Number`(실수, Long)형 데이터
+</param-item>
+</params>

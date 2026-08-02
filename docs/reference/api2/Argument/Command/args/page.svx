@@ -8,4 +8,4 @@ cmd.args;
 
 ### 값
 
-`String[]` - 명령어 인자들의 배열입니다.
+`java.util.List<String>` - 명령어 인자들의 배열입니다.
