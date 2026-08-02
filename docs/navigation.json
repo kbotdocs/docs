@@ -2710,9 +2710,9 @@
       {
         "label": "인스턴스 메소드",
         "docs": [
-          "/reference/api2/Argument/Command/markAsRead",
-          "/reference/api2/Argument/Command/reply",
-          "/reference/api2/Argument/Command/replyWithMarkdown"
+          "/reference/api2/Argument/Message/markAsRead",
+          "/reference/api2/Argument/Message/reply",
+          "/reference/api2/Argument/Message/replyWithMarkdown"
         ]
       }
     ],
