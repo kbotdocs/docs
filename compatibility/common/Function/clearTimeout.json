@@ -1,7 +1,7 @@
 {
   "clearTimeout": {
     "feature": "`clearTimeout`",
-    "url": "/reference/legacy/Function/clearTimeout",
+    "url": "/reference/common/Function/clearTimeout",
     "status": {
       "deprecated": false,
       "experimental": false,

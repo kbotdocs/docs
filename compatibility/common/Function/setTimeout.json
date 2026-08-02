@@ -1,7 +1,7 @@
 {
   "setTimeout": {
     "feature": "`setTimeout`",
-    "url": "/reference/legacy/Function/setTimeout",
+    "url": "/reference/common/Function/setTimeout",
     "status": {
       "deprecated": false,
       "experimental": false,

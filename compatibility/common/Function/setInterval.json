@@ -1,7 +1,7 @@
 {
   "setInterval": {
     "feature": "`setInterval`",
-    "url": "/reference/legacy/Function/setInterval",
+    "url": "/reference/common/Function/setInterval",
     "status": {
       "deprecated": false,
       "experimental": false,
