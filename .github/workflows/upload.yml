@@ -42,13 +42,13 @@ jobs:
           if [[ "$REFRESH_CACHE_METADATA" == "true" ]]; then
             cache_flags+=(--ignore-times)
           fi
-          rclone sync ${{ github.workspace }}/docs docs-r2:${BUCKET_PREFIX}${{ secrets.R2_BUCKET }} -P \
+          rclone sync ${{ github.workspace }}/docs docs-r2:${BUCKET_PREFIX}${{ secrets.DOCS_R2_BUCKET }} -P \
             --include '*.svx' \
             --exclude '*' \
             --header-upload 'Content-Type: text/html; charset=utf-8' \
             --header-upload 'Cache-Control: public, max-age=60, stale-while-revalidate=300, stale-if-error=86400' \
             "${cache_flags[@]}"
-          rclone sync ${{ github.workspace }}/docs docs-r2:${BUCKET_PREFIX}${{ secrets.R2_BUCKET }} -P \
+          rclone sync ${{ github.workspace }}/docs docs-r2:${BUCKET_PREFIX}${{ secrets.DOCS_R2_BUCKET }} -P \
             --include '*.json' \
             --exclude '*' \
             --header-upload 'Content-Type: application/json; charset=utf-8' \
