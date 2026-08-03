@@ -7,6 +7,9 @@
     "/reference/common/Function/clearTimeout": {
       "label": "`clearTimeout()`"
     },
+    "/reference/common/Function/repeat": {
+      "label": "`repeat()`"
+    },
     "/reference/common/Function/require": {
       "label": "`require()`"
     },
@@ -15,6 +18,9 @@
     },
     "/reference/common/Function/setTimeout": {
       "label": "`setTimeout()`"
+    },
+    "/reference/common/Function/toast": {
+      "label": "`toast()`"
     },
     "/reference/common/Object/AppData": {
       "label": "AppData"
@@ -2066,9 +2072,11 @@
         "docs": [
           "/reference/common/Function/clearInterval",
           "/reference/common/Function/clearTimeout",
+          "/reference/common/Function/repeat",
           "/reference/common/Function/require",
           "/reference/common/Function/setInterval",
-          "/reference/common/Function/setTimeout"
+          "/reference/common/Function/setTimeout",
+          "/reference/common/Function/toast"
         ]
       },
       {
