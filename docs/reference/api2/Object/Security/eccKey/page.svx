@@ -18,7 +18,7 @@ ECC 키 생성에 사용할 타원곡선(elliptic curve)의 이름
 
 `Object` - 생성된 공개키와 개인키가 저장된 객체를 반환합니다. 객체의 구조는 아래와 같습니다.
 
-~~json
+~~~json
 {
   "public": "...",
   "private": "..."
