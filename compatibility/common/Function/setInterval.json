@@ -12,7 +12,7 @@
         {
           "status": "full_support",
           "detailedStatus": {
-            "bug": true
+            "seeImpl": true
           },
           "version": "0.3.3a",
           "description": "`delay` 매개변수를 생략할 수 있음."
