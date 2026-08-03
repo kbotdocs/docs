@@ -1,0 +1,176 @@
+{
+  "Database": {
+    "feature": "`Database`",
+    "url": "/reference/api2/Object/Database",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "exists": {
+    "feature": "`exists`",
+    "url": "/reference/api2/Object/Database/exists",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.6.7a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "readObject": {
+    "feature": "`readObject`",
+    "url": "/reference/api2/Object/Database/readObject",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "readString": {
+    "feature": "`readString`",
+    "url": "/reference/api2/Object/Database/readString",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "writeObject": {
+    "feature": "`writeObject`",
+    "url": "/reference/api2/Object/Database/writeObject",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "writeString": {
+    "feature": "`writeString`",
+    "url": "/reference/api2/Object/Database/writeString",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  }
+}

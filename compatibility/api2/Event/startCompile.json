@@ -1,0 +1,31 @@
+{
+  "startCompile": {
+    "feature": "`startCompile` 이벤트",
+    "url": "/reference/api2/Event/startCompile",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  }
+}

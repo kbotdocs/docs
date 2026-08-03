@@ -1,0 +1,176 @@
+{
+  "App": {
+    "feature": "`App`",
+    "url": "/reference/api2/Object/App",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.6.1a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getContext": {
+    "feature": "`getContext`",
+    "url": "/reference/api2/Object/App/getContext",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.6.1a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isMainThread": {
+    "feature": "`isMainThread`",
+    "url": "/reference/api2/Object/App/isMainThread",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "runDelayed": {
+    "feature": "`runDelayed`",
+    "url": "/reference/api2/Object/App/runDelayed",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "runOnBackgroundThread": {
+    "feature": "`runOnBackgroundThread`",
+    "url": "/reference/api2/Object/App/runOnBackgroundThread",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "runOnUiThread": {
+    "feature": "`runOnUiThread`",
+    "url": "/reference/api2/Object/App/runOnUiThread",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.6.1a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  }
+}

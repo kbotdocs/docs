@@ -1,0 +1,147 @@
+{
+  "Http": {
+    "feature": "`Http`",
+    "url": "/reference/api2/Object/Http",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "request(Object,Function)": {
+    "feature": "`request(Object, Function)`",
+    "url": "/reference/api2/Object/Http/request(Object,Function)",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "request(String,Function)": {
+    "feature": "`request(String, Function)`",
+    "url": "/reference/api2/Object/Http/request(String,Function)",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "requestSync(Object)": {
+    "feature": "`requestSync(Object)`",
+    "url": "/reference/api2/Object/Http/requestSync(Object)",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "requestSync(String)": {
+    "feature": "`requestSync(String)`",
+    "url": "/reference/api2/Object/Http/requestSync(String)",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+name: Upload content to R2
+on:
+  workflow_call:
+    inputs:
+      bucket_prefix:
+        required: true
+        type: string
+      refresh_cache_metadata:
+        required: false
+        default: false
+        type: boolean
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - name: Validate content
+        run: |
+          node scripts/validate-navigation.mjs
+          node scripts/validate-compatibility.mjs
+      - name: Install rclone
+        run: |
+          curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+          unzip rclone-current-linux-amd64.zip
+          cd rclone-*-linux-amd64
+          sudo cp rclone /usr/bin/
+          sudo chown root:root /usr/bin/rclone
+          sudo chmod 755 /usr/bin/rclone
+          sudo mkdir -p /usr/local/share/man/man1
+          sudo cp rclone.1 /usr/local/share/man/man1/
+          sudo mandb
+      - name: Configure R2 remotes
+        run: |
+          rclone config create docs-r2 s3 provider=Cloudflare access_key_id="${{ secrets.R2_ACCESS_KEY_ID }}" secret_access_key="${{ secrets.R2_SECRET_ACCESS_KEY }}" region=auto endpoint="${{ secrets.R2_ENDPOINT }}" acl=private
+          rclone config create compat-r2 s3 provider=Cloudflare access_key_id="${{ secrets.COMPAT_R2_ACCESS_KEY_ID || secrets.R2_ACCESS_KEY_ID }}" secret_access_key="${{ secrets.COMPAT_R2_SECRET_ACCESS_KEY || secrets.R2_SECRET_ACCESS_KEY }}" region=auto endpoint="${{ secrets.COMPAT_R2_ENDPOINT || secrets.R2_ENDPOINT }}" acl=private
+      - name: Upload docs to R2
+        env:
+          BUCKET_PREFIX: ${{ inputs.bucket_prefix }}
+          REFRESH_CACHE_METADATA: ${{ inputs.refresh_cache_metadata }}
+        run: |
+          cache_flags=()
+          if [[ "$REFRESH_CACHE_METADATA" == "true" ]]; then
+            cache_flags+=(--ignore-times)
+          fi
+          rclone sync ${{ github.workspace }}/docs docs-r2:${BUCKET_PREFIX}${{ secrets.R2_BUCKET }} -P \
+            --include '*.svx' \
+            --exclude '*' \
+            --header-upload 'Content-Type: text/html; charset=utf-8' \
+            --header-upload 'Cache-Control: public, max-age=60, stale-while-revalidate=300, stale-if-error=86400' \
+            "${cache_flags[@]}"
+          rclone sync ${{ github.workspace }}/docs docs-r2:${BUCKET_PREFIX}${{ secrets.R2_BUCKET }} -P \
+            --include '*.json' \
+            --exclude '*' \
+            --header-upload 'Content-Type: application/json; charset=utf-8' \
+            --header-upload 'Cache-Control: public, max-age=60, stale-while-revalidate=300, stale-if-error=86400' \
+            "${cache_flags[@]}"
+      - name: Upload compatibility data to R2
+        env:
+          BUCKET_PREFIX: ${{ inputs.bucket_prefix }}
+          REFRESH_CACHE_METADATA: ${{ inputs.refresh_cache_metadata }}
+        run: |
+          cache_flags=()
+          if [[ "$REFRESH_CACHE_METADATA" == "true" ]]; then
+            cache_flags+=(--ignore-times)
+          fi
+          rclone copy ${{ github.workspace }}/compatibility compat-r2:${BUCKET_PREFIX}${{ secrets.COMPAT_R2_BUCKET }} -P \
+            --include '*.json' \
+            --exclude '*' \
+            --header-upload 'Content-Type: application/json; charset=utf-8' \
+            --header-upload 'Cache-Control: public, max-age=60, stale-while-revalidate=300, stale-if-error=86400' \
+            "${cache_flags[@]}"

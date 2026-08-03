@@ -1,0 +1,814 @@
+{
+  "Device": {
+    "feature": "`Device`",
+    "url": "/reference/api2/Object/Device",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "acquireWakeLock": {
+    "feature": "`acquireWakeLock`",
+    "url": "/reference/api2/Object/Device/acquireWakeLock",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getAndroidVersionCode": {
+    "feature": "`getAndroidVersionCode`",
+    "url": "/reference/api2/Object/Device/getAndroidVersionCode",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getAndroidVersionName": {
+    "feature": "`getAndroidVersionName`",
+    "url": "/reference/api2/Object/Device/getAndroidVersionName",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getApiLevel": {
+    "feature": "`getApiLevel`",
+    "url": "/reference/api2/Object/Device/getApiLevel",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getBatteryHealth": {
+    "feature": "`getBatteryHealth`",
+    "url": "/reference/api2/Object/Device/getBatteryHealth",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getBatteryIntent": {
+    "feature": "`getBatteryIntent`",
+    "url": "/reference/api2/Object/Device/getBatteryIntent",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getBatteryLevel": {
+    "feature": "`getBatteryLevel`",
+    "url": "/reference/api2/Object/Device/getBatteryLevel",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getBatteryStatus": {
+    "feature": "`getBatteryStatus`",
+    "url": "/reference/api2/Object/Device/getBatteryStatus",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getBatteryTemp": {
+    "feature": "`getBatteryTemp`",
+    "url": "/reference/api2/Object/Device/getBatteryTemp",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getBatteryTemperature": {
+    "feature": "`getBatteryTemperature`",
+    "url": "/reference/api2/Object/Device/getBatteryTemperature",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getBatteryVoltage": {
+    "feature": "`getBatteryVoltage`",
+    "url": "/reference/api2/Object/Device/getBatteryVoltage",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getBuild": {
+    "feature": "`getBuild`",
+    "url": "/reference/api2/Object/Device/getBuild",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getConnectedNetworkType": {
+    "feature": "`getConnectedNetworkType`",
+    "url": "/reference/api2/Object/Device/getConnectedNetworkType",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getFreeMemory": {
+    "feature": "`getFreeMemory`",
+    "url": "/reference/api2/Object/Device/getFreeMemory",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getFreeStorageSpace": {
+    "feature": "`getFreeStorageSpace`",
+    "url": "/reference/api2/Object/Device/getFreeStorageSpace",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getMaxMemory": {
+    "feature": "`getMaxMemory`",
+    "url": "/reference/api2/Object/Device/getMaxMemory",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getModelName": {
+    "feature": "`getModelName`",
+    "url": "/reference/api2/Object/Device/getModelName",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getPhoneBrand": {
+    "feature": "`getPhoneBrand`",
+    "url": "/reference/api2/Object/Device/getPhoneBrand",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getPhoneModel": {
+    "feature": "`getPhoneModel`",
+    "url": "/reference/api2/Object/Device/getPhoneModel",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getPlugType": {
+    "feature": "`getPlugType`",
+    "url": "/reference/api2/Object/Device/getPlugType",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getTotalMemory": {
+    "feature": "`getTotalMemory`",
+    "url": "/reference/api2/Object/Device/getTotalMemory",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getTotalStorageSpace": {
+    "feature": "`getTotalStorageSpace`",
+    "url": "/reference/api2/Object/Device/getTotalStorageSpace",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getWifiName": {
+    "feature": "`getWifiName`",
+    "url": "/reference/api2/Object/Device/getWifiName",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isCharging": {
+    "feature": "`isCharging`",
+    "url": "/reference/api2/Object/Device/isCharging",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isPowerSaveMode": {
+    "feature": "`isPowerSaveMode`",
+    "url": "/reference/api2/Object/Device/isPowerSaveMode",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isScreenOn": {
+    "feature": "`isScreenOn`",
+    "url": "/reference/api2/Object/Device/isScreenOn",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "releaseWakeLock": {
+    "feature": "`releaseWakeLock`",
+    "url": "/reference/api2/Object/Device/releaseWakeLock",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "Bridge": {
+    "feature": "`Bridge`",
+    "url": "/reference/legacy/Object/Bridge",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "callFunctionOf": {
+    "feature": "`callFunctionOf`",
+    "url": "/reference/legacy/Object/Bridge/callFunctionOf",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "evalInScript": {
+    "feature": "`evalInScript`",
+    "url": "/reference/legacy/Object/Bridge/evalInScript",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "evaluateStringIn": {
+    "feature": "`evaluateStringIn`",
+    "url": "/reference/legacy/Object/Bridge/evaluateStringIn",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getActiveScripts": {
+    "feature": "`getActiveScripts`",
+    "url": "/reference/legacy/Object/Bridge/getActiveScripts",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getGlobalVariable": {
+    "feature": "`getGlobalVariable`",
+    "url": "/reference/legacy/Object/Bridge/getGlobalVariable",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": true
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getMemberNamesOf": {
+    "feature": "`getMemberNamesOf`",
+    "url": "/reference/legacy/Object/Bridge/getMemberNamesOf",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getScopeOf": {
+    "feature": "`getScopeOf`",
+    "url": "/reference/legacy/Object/Bridge/getScopeOf",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getVariable": {
+    "feature": "`getVariable`",
+    "url": "/reference/legacy/Object/Bridge/getVariable",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": true
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getVariableOf": {
+    "feature": "`getVariableOf`",
+    "url": "/reference/legacy/Object/Bridge/getVariableOf",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "hasVariableOf": {
+    "feature": "`hasVariableOf`",
+    "url": "/reference/legacy/Object/Bridge/hasVariableOf",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "isAllowed": {
+    "feature": "`isAllowed`",
+    "url": "/reference/legacy/Object/Bridge/isAllowed",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isScriptActive": {
+    "feature": "`isScriptActive`",
+    "url": "/reference/legacy/Object/Bridge/isScriptActive",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "setGlobalVariable": {
+    "feature": "`setGlobalVariable`",
+    "url": "/reference/legacy/Object/Bridge/setGlobalVariable",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": true
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "setVariable": {
+    "feature": "`setVariable`",
+    "url": "/reference/legacy/Object/Bridge/setVariable",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": true
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "setVariableOf": {
+    "feature": "`setVariableOf`",
+    "url": "/reference/legacy/Object/Bridge/setVariableOf",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  }
+}

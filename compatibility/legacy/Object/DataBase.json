@@ -1,0 +1,321 @@
+{
+  "DataBase": {
+    "feature": "`DataBase`",
+    "url": "/reference/legacy/Object/DataBase",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "appendDataBase": {
+    "feature": "`appendDataBase`",
+    "url": "/reference/legacy/Object/DataBase/appendDataBase",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "clearDataBase": {
+    "feature": "`clearDataBase`",
+    "url": "/reference/legacy/Object/DataBase/clearDataBase",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "exists": {
+    "feature": "`exists`",
+    "url": "/reference/legacy/Object/DataBase/exists",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getDataBase": {
+    "feature": "`getDataBase`",
+    "url": "/reference/legacy/Object/DataBase/getDataBase",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getDataBaseDir": {
+    "feature": "`getDataBaseDir`",
+    "url": "/reference/legacy/Object/DataBase/getDataBaseDir",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getFileSize": {
+    "feature": "`getFileSize`",
+    "url": "/reference/legacy/Object/DataBase/getFileSize",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "listFiles": {
+    "feature": "`listFiles`",
+    "url": "/reference/legacy/Object/DataBase/listFiles",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "removeDataBase": {
+    "feature": "`removeDataBase`",
+    "url": "/reference/legacy/Object/DataBase/removeDataBase",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "setDataBase": {
+    "feature": "`setDataBase`",
+    "url": "/reference/legacy/Object/DataBase/setDataBase",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "setDataBaseDir": {
+    "feature": "`setDataBaseDir`",
+    "url": "/reference/legacy/Object/DataBase/setDataBaseDir",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  }
+}

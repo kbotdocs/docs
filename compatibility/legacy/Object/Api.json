@@ -1,0 +1,896 @@
+{
+  "Api": {
+    "feature": "`Api`",
+    "url": "/reference/legacy/Object/Api",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "canReply": {
+    "feature": "`canReply`",
+    "url": "/reference/legacy/Object/Api/canReply",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "compile": {
+    "feature": "`compile`",
+    "url": "/reference/legacy/Object/Api/compile",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "partial_support",
+          "version": "1.0",
+          "description": "`compile(String, Boolean)`이 존재하지 않음."
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "gc": {
+    "feature": "`gc`",
+    "url": "/reference/legacy/Object/Api/gc",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getActiveThreadsCount": {
+    "feature": "`getActiveThreadsCount`",
+    "url": "/reference/legacy/Object/Api/getActiveThreadsCount",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.3a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getContext": {
+    "feature": "`getContext`",
+    "url": "/reference/legacy/Object/Api/getContext",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "getLastImage": {
+    "feature": "`getLastImage`",
+    "url": "/reference/legacy/Object/Api/getLastImage",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getLastImageBitmap": {
+    "feature": "`getLastImageBitmap`",
+    "url": "/reference/legacy/Object/Api/getLastImageBitmap",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getRoomList": {
+    "feature": "`getRoomList`",
+    "url": "/reference/legacy/Object/Api/getRoomList",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getScriptNames": {
+    "feature": "`getScriptNames`",
+    "url": "/reference/legacy/Object/Api/getScriptNames",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "interruptThreads": {
+    "feature": "`interruptThreads`",
+    "url": "/reference/legacy/Object/Api/interruptThreads",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.3a"
+        },
+        {
+          "status": "full_support",
+          "detailedStatus": {
+            "bug": true
+          },
+          "version": "0.7.40-alpha.03",
+          "description": "`interruptThreads(String?)`가 존재하지 않음."
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isCompiled": {
+    "feature": "`isCompiled`",
+    "url": "/reference/legacy/Object/Api/isCompiled",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isCompiling": {
+    "feature": "`isCompiling`",
+    "url": "/reference/legacy/Object/Api/isCompiling",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isOn": {
+    "feature": "`isOn`",
+    "url": "/reference/legacy/Object/Api/isOn",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "isTerminated": {
+    "feature": "`isTerminated`",
+    "url": "/reference/legacy/Object/Api/isTerminated",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.3a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "makeNoti": {
+    "feature": "`makeNoti`",
+    "url": "/reference/legacy/Object/Api/makeNoti",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "markAsRead": {
+    "feature": "`markAsRead`",
+    "url": "/reference/legacy/Object/Api/markAsRead",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.23a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "markAsReadOnID": {
+    "feature": "`markAsReadOnID`",
+    "url": "/reference/legacy/Object/Api/markAsReadOnID",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.38a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "off": {
+    "feature": "`off`",
+    "url": "/reference/legacy/Object/Api/off",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "on": {
+    "feature": "`on`",
+    "url": "/reference/legacy/Object/Api/on",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "papagoTranslate": {
+    "feature": "`papagoTranslate`",
+    "url": "/reference/legacy/Object/Api/papagoTranslate",
+    "status": {
+      "deprecated": true,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "detailedStatus": {
+            "seeImpl": true
+          },
+          "version": "0.1.2a",
+          "description": "Papago API 지원 중단으로 인해 `null`을 반환함."
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "detailedStatus": {
+            "seeImpl": true
+          },
+          "version": "1.0",
+          "description": "Papago API 지원 중단으로 인해 `\"Error Code: 051\"`을 반환함."
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "prepare": {
+    "feature": "`prepare`",
+    "url": "/reference/legacy/Object/Api/prepare",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "reload": {
+    "feature": "`reload`",
+    "url": "/reference/legacy/Object/Api/reload",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "partial_support",
+          "version": "1.0",
+          "description": "`reload(String, Boolean)`이 존재하지 않음."
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "replyRoom": {
+    "feature": "`replyRoom`",
+    "url": "/reference/legacy/Object/Api/replyRoom",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        },
+        {
+          "status": "full_support",
+          "version": "0.7.34a",
+          "description": "`room`에 방의 ID를 사용할 수 있음."
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "replyRoomWithMarkdown": {
+    "feature": "`replyRoomWithMarkdown`",
+    "url": "/reference/legacy/Object/Api/replyRoomWithMarkdown",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "replyToID": {
+    "feature": "`replyToID`",
+    "url": "/reference/legacy/Object/Api/replyToID",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.38a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "replyToIDWithMarkdown": {
+    "feature": "`replyToIDWithMarkdown`",
+    "url": "/reference/legacy/Object/Api/replyToIDWithMarkdown",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "showToast": {
+    "feature": "`showToast`",
+    "url": "/reference/legacy/Object/Api/showToast",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "UIThread": {
+    "feature": "`UIThread`",
+    "url": "/reference/legacy/Object/Api/UIThread",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "partial_support",
+          "version": "1.0",
+          "description": "`UIThread(() => Any?, (error: java.lang.Throwable?, result: Any?) => Any?)`이 존재하지 않음."
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  },
+  "unload": {
+    "feature": "`unload`",
+    "url": "/reference/legacy/Object/Api/unload",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.1.2a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  }
+}

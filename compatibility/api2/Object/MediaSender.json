@@ -1,0 +1,234 @@
+{
+  "MediaSender": {
+    "feature": "`MediaSender`",
+    "url": "/reference/api2/Object/MediaSender",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "clearCache": {
+    "feature": "`clearCache`",
+    "url": "/reference/api2/Object/MediaSender/clearCache",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getBaseDirectory": {
+    "feature": "`getBaseDirectory`",
+    "url": "/reference/api2/Object/MediaSender/getBaseDirectory",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getCachedUrls": {
+    "feature": "`getCachedUrls`",
+    "url": "/reference/api2/Object/MediaSender/getCachedUrls",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getCacheSize": {
+    "feature": "`getCacheSize`",
+    "url": "/reference/api2/Object/MediaSender/getCacheSize",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "getSupportedFormats": {
+    "feature": "`getSupportedFormats`",
+    "url": "/reference/api2/Object/MediaSender/getSupportedFormats",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "returnToAppNow": {
+    "feature": "`returnToAppNow`",
+    "url": "/reference/api2/Object/MediaSender/returnToAppNow",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "send": {
+    "feature": "`send`",
+    "url": "/reference/api2/Object/MediaSender/send",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  }
+}

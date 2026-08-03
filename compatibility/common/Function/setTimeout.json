@@ -1,0 +1,39 @@
+{
+  "setTimeout": {
+    "feature": "`setTimeout`",
+    "url": "/reference/common/Function/setTimeout",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "detailedStatus": {
+            "seeImpl": true
+          },
+          "version": "0.3.3a",
+          "description": "`func: Function, delay: Number, args?: any?[]` 형태로 인자를 받음. [#17](https://github.com/VioletXF/MessengerBot/issues/17)"
+        },
+        {
+          "status": "full_support",
+          "version": "0.7.36a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  }
+}

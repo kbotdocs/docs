@@ -1,0 +1,103 @@
+{
+  "Command": {
+    "feature": "`Command`",
+    "url": "/reference/api2/Argument/Command",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "args": {
+    "feature": "`args`",
+    "url": "/reference/api2/Argument/Command/args",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "author": "api2/Argument/Message#author",
+  "channelId": "api2/Argument/Message#channelId",
+  "command": {
+    "feature": "`command`",
+    "url": "/reference/api2/Argument/Command/command",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.3.5a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "4.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "content": "api2/Argument/Message#content",
+  "image": "api2/Argument/Message#image",
+  "isDebugRoom": "api2/Argument/Message#isDebugRoom",
+  "isGroupChat": "api2/Argument/Message#isGroupChat",
+  "isMention": "api2/Argument/Message#isMention",
+  "isMultiChat": "api2/Argument/Message#isMultiChat",
+  "logId": "api2/Argument/Message#logId",
+  "packageName": "api2/Argument/Message#packageName",
+  "room": "api2/Argument/Message#room",
+  "markAsRead": "api2/Argument/Message#markAsRead",
+  "reply": "api2/Argument/Message#reply",
+  "replyWithMarkdown": "api2/Argument/Message#replyWithMarkdown"
+}

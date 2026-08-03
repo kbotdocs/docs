@@ -1,0 +1,51 @@
+{
+  "require": {
+    "feature": "`require`",
+    "url": "/reference/common/Function/require",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "detailedStatus": {
+            "bug": true
+          },
+          "version": "0.3.3a",
+          "description": "모듈 폴더 내에 `package.json`이 존재할 경우 해당 모듈을 불러올 수 없음. [#21](https://github.com/VioletXF/MessengerBot/issues/21)"
+        },
+        {
+          "status": "full_support",
+          "detailedStatus": {
+            "seeImpl": true
+          },
+          "version": "0.7.36a",
+          "description": ["`.json` 파일을 불러올 수 있음.", "모듈 내부에서 API2의 객체를 사용할 수 없음."]
+        },
+        {
+          "status": "full_support",
+          "detailedStatus": {
+            "seeImpl": true
+          },
+          "version": "0.7.39a",
+          "description": "모듈 내부에서 API2의 객체를 사용할 수 있음."
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "full_support",
+          "version": "1.0"
+        }
+      ],
+      "starLight": [
+        {
+          "status": "full_support",
+          "version": "0.1.0a"
+        }
+      ]
+    }
+  }
+}

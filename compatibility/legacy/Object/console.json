@@ -1,0 +1,200 @@
+{
+  "console": {
+    "feature": "`console`",
+    "url": "/reference/legacy/Object/console",
+    "status": {
+      "deprecated": true,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.34a"
+        },
+        {
+          "status": "no_support",
+          "version": "0.7.38a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "clear": {
+    "feature": "`clear`",
+    "url": "/reference/legacy/Object/console/clear",
+    "status": {
+      "deprecated": true,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.34a"
+        },
+        {
+          "status": "no_support",
+          "version": "0.7.38a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "debug": {
+    "feature": "`debug`",
+    "url": "/reference/legacy/Object/console/debug",
+    "status": {
+      "deprecated": true,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.34a"
+        },
+        {
+          "status": "no_support",
+          "version": "0.7.38a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "error": {
+    "feature": "`error`",
+    "url": "/reference/legacy/Object/console/error",
+    "status": {
+      "deprecated": true,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.34a"
+        },
+        {
+          "status": "no_support",
+          "version": "0.7.38a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "info": {
+    "feature": "`info`",
+    "url": "/reference/legacy/Object/console/info",
+    "status": {
+      "deprecated": true,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.34a"
+        },
+        {
+          "status": "no_support",
+          "version": "0.7.38a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "log": {
+    "feature": "`log`",
+    "url": "/reference/legacy/Object/console/log",
+    "status": {
+      "deprecated": true,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.34a"
+        },
+        {
+          "status": "no_support",
+          "version": "0.7.38a"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  }
+}
