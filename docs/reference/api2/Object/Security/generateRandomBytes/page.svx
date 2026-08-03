@@ -1,0 +1,19 @@
+
+지정한 바이트 크기만큼의 난수를 생성합니다. 생성된 난수는 Base64로 인코딩되어 반환됩니다.
+
+## 구문
+
+~~~js
+Security.generateRandomBytes(length);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="length" type="Number">
+생성할 난수의 길이(byte)
+</param-item>
+</params>
+### 반환값
+
+`String` - 생성된 난수를 반환합니다.

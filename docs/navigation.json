@@ -274,8 +274,14 @@
     "/reference/common/Object/MediaSender/getCacheSize": {
       "label": "<feature-status source='legacy/Object/MediaSender' feature='getCacheSize'>`getCacheSize()`</feature-status>"
     },
+    "/reference/common/Object/MediaSender/getLastError": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='getLastError'>`getLastError()`</feature-status>"
+    },
     "/reference/common/Object/MediaSender/getSupportedFormats": {
       "label": "<feature-status source='legacy/Object/MediaSender' feature='getSupportedFormats'>`getSupportedFormats()`</feature-status>"
+    },
+    "/reference/common/Object/MediaSender/return": {
+      "label": "<feature-status source='legacy/Object/MediaSender' feature='return'>`return()`</feature-status>"
     },
     "/reference/common/Object/MediaSender/returnToAppNow": {
       "label": "<feature-status source='legacy/Object/MediaSender' feature='returnToAppNow'>`returnToAppNow()`</feature-status>"
@@ -1035,6 +1041,18 @@
     },
     "/reference/api2/Object/Security/eccEncode": {
       "label": "`eccEncode()`"
+    },
+    "/reference/api2/Object/Security/eccKey": {
+      "label": "`eccKey()`"
+    },
+    "/reference/api2/Object/Security/generateAESKey": {
+      "label": "`generateAESKey()`"
+    },
+    "/reference/api2/Object/Security/generateIV": {
+      "label": "`generateIV()`"
+    },
+    "/reference/api2/Object/Security/generateRandomBytes": {
+      "label": "`generateRandomBytes()`"
     },
     "/reference/api2/Object/Security/getDesKey": {
       "label": "`getDesKey()`"
@@ -2182,7 +2200,9 @@
           "/reference/common/Object/MediaSender/getBaseDirectory",
           "/reference/common/Object/MediaSender/getCachedUrls",
           "/reference/common/Object/MediaSender/getCacheSize",
+          "/reference/common/Object/MediaSender/getLastError",
           "/reference/common/Object/MediaSender/getSupportedFormats",
+          "/reference/common/Object/MediaSender/return",
           "/reference/common/Object/MediaSender/returnToAppNow",
           "/reference/common/Object/MediaSender/send"
         ]
@@ -2664,6 +2684,10 @@
           "/reference/api2/Object/Security/desKey",
           "/reference/api2/Object/Security/eccDecode",
           "/reference/api2/Object/Security/eccEncode",
+          "/reference/api2/Object/Security/eccKey",
+          "/reference/api2/Object/Security/generateAESKey",
+          "/reference/api2/Object/Security/generateIV",
+          "/reference/api2/Object/Security/generateRandomBytes",
           "/reference/api2/Object/Security/getDesKey",
           "/reference/api2/Object/Security/hashCode",
           "/reference/api2/Object/Security/md2",

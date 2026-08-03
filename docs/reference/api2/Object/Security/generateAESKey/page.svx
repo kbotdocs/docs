@@ -1,0 +1,19 @@
+
+무작위 AES 키를 생성합니다. 생성된 키는 Base64로 인코딩되어 반환됩니다.
+
+## 구문
+
+~~~js
+Security.generateAESKey(keySize);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="keySize" type="Number">
+생성할 키의 길이(bit). `128`, `192` 또는 `256`만 가능합니다.
+</param-item>
+</params>
+### 반환값
+
+`String` - 생성된 AES 키를 반환합니다.

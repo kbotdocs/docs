@@ -10,10 +10,10 @@
 </thead>
 <tbody>
   <tr>
-  <td><span>`void`</span></td>
+  <td><span>`Boolean`</span></td>
   <td>
-    <feature-status source="common/Object/MediaSender" feature="clearCache">[`clearCache`](/reference/common/Object/MediaSender/clearCache)`()`</feature-status> \
-    캐시를 삭제합니다.
+    <feature-status source="common/Object/MediaSender" feature="clearCache">[`clearCache`](/reference/common/Object/MediaSender/clearCache)`(target: String | String[] | Iterable<String>)`</feature-status> \
+    캐시를 삭제합니다. 캐시 삭제의 성공 여부를 반환합니다.
   </td>
   </tr>
   <tr>
@@ -34,7 +34,14 @@
   <td><span>`Number`</span></td>
   <td>
     <feature-status source="common/Object/MediaSender" feature="getCacheSize">[`getCacheSize`](/reference/common/Object/MediaSender/getCacheSize)`()`</feature-status> \
-    캐시의 크기(Byte)를 반환합니다.
+    캐시의 개수를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    <feature-status source="common/Object/MediaSender" feature="getLastError">[`getLastError`](/reference/common/Object/MediaSender/getLastError)`()`</feature-status> \
+    가장 최근에 실행된 `MediaSender` 작업의 오류 메시지를 반환합니다.
   </td>
   </tr>
   <tr>
@@ -47,6 +54,13 @@
   <tr>
   <td><span>`Boolean`</span></td>
   <td>
+    <feature-status source="common/Object/MediaSender" feature="return">[`return`](/reference/common/Object/MediaSender/return)`()`</feature-status> \
+    메신저 앱 또는 특정 앱으로 돌아갑니다. 동작 예약의 성공 여부를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
     <feature-status source="common/Object/MediaSender" feature="returnToAppNow">[`returnToAppNow`](/reference/common/Object/MediaSender/returnToAppNow)`()`</feature-status> \
     카카오톡봇 앱으로 돌아가고 정상적인 수행 여부를 반환합니다.
   </td>
@@ -54,8 +68,8 @@
   <tr>
   <td><span>`Boolean`</span></td>
   <td>
-    <feature-status source="common/Object/MediaSender" feature="send">[`send`](/reference/common/Object/MediaSender/send)`(roomIdentifier: any, mediaResource: any, timeoutMs?: Number = 25000)`</feature-status> \
-    특정 방에 미디어 파일을 전송하고 미디어 파일의 전송 성공 여부를 반환합니다.
+    <feature-status source="common/Object/MediaSender" feature="send">[`send`](/reference/common/Object/MediaSender/send)`(roomIdentifier: any, mediaResource: any, timeoutMs?: Number = 30000, fileName?: String = null, useCache?: Boolean = false)`</feature-status> \
+    특정 방에 미디어 파일을 전송하고 미디어 파일 전송 절차의 시작 성공 여부를 반환합니다.
   </td>
   </tr>
 </tbody>

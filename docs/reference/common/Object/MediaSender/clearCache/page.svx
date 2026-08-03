@@ -1,7 +1,19 @@
 
-캐시를 삭제합니다.
+캐시를 삭제합니다. 캐시 삭제의 성공 여부를 반환합니다.
 ## 구문
 
 ~~~js
 mediaSender.clearCache();
+mediaSender.clearCache(target);
 ~~~
+
+### 매개변수
+
+<params>
+<param-item param="target" type="String | String[] | Iterable<String>" optional>
+  삭제할 캐시의 URL. 여러 캐시를 삭제할 경우 배열 또는 `java.lang.Iterable<String>` 데이터를 전달할 수 있습니다.
+</param-item>
+</params>
+### 반환값
+
+`Boolean` - 캐시 삭제에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.

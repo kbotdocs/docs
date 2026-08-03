@@ -12,6 +12,14 @@
         {
           "status": "full_support",
           "version": "0.7.40-alpha.02"
+        },
+        {
+          "status": "full_support",
+          "detailedStatus": {
+            "bug": true
+          },
+          "version": "0.7.41-alpha.06",
+          "description": "전역 객체 생성자를 통한 메소드 호출이 불가함."
         }
       ],
       "autoReplyBot": [
@@ -144,6 +152,35 @@
       ]
     }
   },
+  "getLastError": {
+    "feature": "`getLastError`",
+    "url": "/reference/common/Object/MediaSender/getLastError",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
   "getSupportedFormats": {
     "feature": "`getSupportedFormats`",
     "url": "/reference/common/Object/MediaSender/getSupportedFormats",
@@ -157,6 +194,35 @@
         {
           "status": "full_support",
           "version": "0.7.40-alpha.02"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
+  "return": {
+    "feature": "`return`",
+    "url": "/reference/common/Object/MediaSender/return",
+    "status": {
+      "deprecated": false,
+      "experimental": true,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
         }
       ],
       "autoReplyBot": [
@@ -214,7 +280,15 @@
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.7.40-alpha.02"
+          "detailedStatus": {
+            "seeImpl": true
+          },
+          "version": "0.7.40-alpha.02",
+          "description": "`send(String | BigInt, any, Number?)`만 가능함."
+        },
+        {
+          "status": "full_support",
+          "version": "0.7.41-alpha.06"
         }
       ],
       "autoReplyBot": [

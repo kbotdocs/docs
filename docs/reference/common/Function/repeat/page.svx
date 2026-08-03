@@ -1,0 +1,27 @@
+
+특정 함수를 지정한 횟수만큼 반복하고 함수의 반환값들이 담긴 배열을 반환합니다.
+
+## 구문
+
+~~~js
+repeat(functionOrName, count);
+repeat(functionOrName, count, args);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="functionOrName" type="Function | String">
+반복해서 호출할 함수 또는 전역함수의 이름
+</param-item>
+<param-item param="count" type="Number">
+반복할 횟수
+</param-item>
+<param-item param="args" type="any" optional>
+지정한 함수에 전달할 인자. 여러 인자를 전달할 경우 배열 또는 Java의 `Iterable`로 전달합니다.
+</param-item>
+</params>
+
+### 반환값
+
+`any` - 반복 호출한 함수의 반환값을 담은 배열을 반환합니다.

@@ -1,0 +1,19 @@
+
+무작위 초기화 벡터(Initialization Vector)를 생성합니다. 생성된 IV는 Base64로 인코딩되어 반환됩니다.
+
+## 구문
+
+~~~js
+Security.generateIV(length);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="length" type="Number">
+생성할 키의 길이(byte)
+</param-item>
+</params>
+### 반환값
+
+`String` - 생성된 IV를 반환합니다.

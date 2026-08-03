@@ -129,6 +129,34 @@
   </td>
   </tr>
   <tr>
+  <td><span>`Object`</span></td>
+  <td>
+    [`eccKey`](/reference/api2/Object/Security/eccKey)`(curve: String)` \
+    지정한 타원곡선을 이용해 공개키와 개인키를 생성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`generateAESKey`](/reference/api2/Object/Security/generateAESKey)`(keySize: Number)` \
+    무작위 AES 키를 생성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`generateIV`](/reference/api2/Object/Security/generateIV)`(length: Number)` \
+    무작위 초기화 벡터(Initialization Vector)를 생성합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`generateRandomBytes`](/reference/api2/Object/Security/generateRandomBytes)`(length: Number)` \
+    지정한 바이트 크기만큼의 난수를 생성합니다.
+  </td>
+  </tr>
+  <tr>
   <td><span>`String`</span></td>
   <td>
     <noti type="warning">

@@ -1,25 +1,33 @@
 
-특정 방에 미디어 파일을 전송하고 미디어 파일의 전송 성공 여부를 반환합니다.
+특정 방에 미디어 파일을 전송하고 미디어 파일 전송 절차의 시작 성공 여부를 반환합니다.
 ## 구문
 
 ~~~js
 mediaSender.send(roomIdentifier, mediaResource);
 mediaSender.send(roomIdentifier, mediaResource, timeoutMs);
+mediaSender.send(roomIdentifier, mediaResource, timeoutMs, fileName);
+mediaSender.send(roomIdentifier, mediaResource, timeoutMs, fileName, useCache);
 ~~~
 
 ### 매개변수
 
 <params>
-<param-item param="roomIdentifier" type="any">
+<param-item param="roomIdentifier" type="String | BigInt | Room">
 미디어 파일을 전송할 방의 식별자. 식별자는 방의 이름(`String`) 또는 방의 ID(`BigInt`)를 사용할 수 있습니다.
 </param-item>
 <param-item param="mediaResource" type="any">
-전송할 미디어 파일의 리소스
+전송할 미디어 파일의 리소스. 여러 파일을 전송할 경우 리소스들의 배열을 전달할 수 있습니다.
 </param-item>
-<param-item param="timeoutMs" type="Number" defaultVal="`25000`" optional>
+<param-item param="timeoutMs" type="Number" defaultVal="`30000`" optional>
 미디어 파일 전송의 타임아웃(밀리초; ms)
+</param-item>
+<param-item param="fileName" type="String" defaultVal="`null`" optional>
+메신저 앱에 전송되었을 때의 파일 이름
+</param-item>
+<param-item param="useCache" type="Boolean" defaultVal="`false`" optional>
+URL, Base64 등으로 생성한 미디어 파일을 캐시하고 재사용할지의 여부
 </param-item>
 </params>
 ### 반환값
 
-`Boolean` - 미디어 파일의 전송에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
+`Boolean` - 미디어 파일 전송 절차의 시작에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.

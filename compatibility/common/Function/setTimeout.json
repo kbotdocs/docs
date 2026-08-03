@@ -15,7 +15,10 @@
             "seeImpl": true
           },
           "version": "0.3.3a",
-          "description": "`func: Function, delay: Number, args?: any?[]` 형태로 인자를 받음. [#17](https://github.com/VioletXF/MessengerBot/issues/17)"
+          "description": [
+            "`func: Function, delay?: Number, args?: any?[]` 형태로 인자를 받음. [#17](https://github.com/VioletXF/MessengerBot/issues/17)",
+            "`delay` 매개변수를 생략할 수 있음."
+          ]
         },
         {
           "status": "full_support",

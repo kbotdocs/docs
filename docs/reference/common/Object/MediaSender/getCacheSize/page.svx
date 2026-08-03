@@ -1,5 +1,5 @@
 
-캐시의 크기(Byte)를 반환합니다.
+캐시의 개수를 반환합니다.
 ## 구문
 
 ~~~js
@@ -8,4 +8,4 @@ mediaSender.getCacheSize();
 
 ### 반환값
 
-`Number` - 캐시의 크기(Byte)를 반환합니다.
+`Number` - 캐시의 개수를 반환합니다.

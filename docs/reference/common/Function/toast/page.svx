@@ -1,0 +1,25 @@
+
+토스트 메시지를 표시합니다.
+
+## 구문
+
+~~~js
+toast(message);
+toast(message, duration);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="message" type="String">
+표시할 토스트 메시지의 내용
+</param-item>
+<param-item param="duration" type="Number" defaultVal="`android.widget.Toast.LENGTH_SHORT = 0`" optional>
+토스트 메시지를 표시할 시간을 나타내는 정수. 아래 두 값 중 하나여야 합니다.
+
+~~~js
+android.widget.Toast.LENGTH_SHORT = 0;
+android.widget.Toast.LENGTH_LONG = 1;
+~~~
+</param-item>
+</params>

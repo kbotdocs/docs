@@ -11,7 +11,15 @@
       "msgBot": [
         {
           "status": "full_support",
-          "version": "0.3.3a"
+          "detailedStatus": {
+            "bug": true
+          },
+          "version": "0.3.3a",
+          "description": "`delay` 매개변수를 생략할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "0.7.36a"
         }
       ],
       "autoReplyBot": [

@@ -1,0 +1,11 @@
+
+가장 최근에 실행된 `MediaSender` 작업의 오류 메시지를 반환합니다.
+
+## 구문
+
+~~~js
+mediaSender.getLastError();
+~~~
+### 반환값
+
+`String` - 가장 최근에 실행된 `MediaSender` 작업의 오류 메시지를 반환합니다.

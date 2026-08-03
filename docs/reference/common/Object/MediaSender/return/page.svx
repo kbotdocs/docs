@@ -1,0 +1,23 @@
+
+메신저 앱 또는 특정 앱으로 돌아갑니다. 동작 예약의 성공 여부를 반환합니다.
+## 구문
+
+~~~js
+mediaSender.return();
+mediaSender.return(packageName);
+mediaSender.return(packageName, delayMs);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="packageName" type="String" defaultVal="메신저 앱의 패키지명" optional>
+  돌아갈 앱의 패키지명
+</param-item>
+<param-item param="delayMs" type="Number" defaultVal="`5000`" optional>
+  앱으로 돌아가기 전의 지연 시간(밀리초; ms)
+</param-item>
+</params>
+### 반환값
+
+`Boolean` - 동작 예약에 성공할 경우 `true`, 실패할 경우 `false`를 반환합니다.
