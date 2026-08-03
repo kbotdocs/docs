@@ -823,6 +823,9 @@
     "/reference/api2/Object/Broadcast/getLocalEvents": {
       "label": "`getLocalEvents()`"
     },
+    "/reference/api2/Object/Broadcast/getLocalListenerCount": {
+      "label": "`getLocalListenerCount()`"
+    },
     "/reference/api2/Object/Broadcast/hasListeners": {
       "label": "`hasListeners()`"
     },
@@ -2575,6 +2578,7 @@
           "/reference/api2/Object/Broadcast/getAllEvents",
           "/reference/api2/Object/Broadcast/getListenerCount",
           "/reference/api2/Object/Broadcast/getLocalEvents",
+          "/reference/api2/Object/Broadcast/getLocalListenerCount",
           "/reference/api2/Object/Broadcast/hasListeners",
           "/reference/api2/Object/Broadcast/hasLocalListeners",
           "/reference/api2/Object/Broadcast/register",

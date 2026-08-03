@@ -115,6 +115,35 @@
       ]
     }
   },
+  "getLocalListenerCount": {
+    "feature": "`getLocalListenerCount`",
+    "url": "/reference/api2/Object/Broadcast/getLocalListenerCount",
+    "status": {
+      "deprecated": false,
+      "experimental": false,
+      "nonStandard": false
+    },
+    "support": {
+      "msgBot": [
+        {
+          "status": "full_support",
+          "version": "0.7.40-alpha.03"
+        }
+      ],
+      "autoReplyBot": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ],
+      "starLight": [
+        {
+          "status": "no_support",
+          "version": ""
+        }
+      ]
+    }
+  },
   "hasListeners": {
     "feature": "`hasListeners`",
     "url": "/reference/api2/Object/Broadcast/hasListeners",
