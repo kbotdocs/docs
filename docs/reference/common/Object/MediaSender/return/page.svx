@@ -11,7 +11,7 @@ mediaSender.return(packageName, delayMs);
 ### 매개변수
 
 <params>
-<param-item param="packageName" type="String" defaultVal="메신저 앱의 패키지명" optional>
+<param-item param="packageName" type="String" defaultVal=카카오톡봇 앱의 패키지명" optional>
   돌아갈 앱의 패키지명
 </param-item>
 <param-item param="delayMs" type="Number" defaultVal="`5000`" optional>
