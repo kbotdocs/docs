@@ -22,8 +22,12 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "detailedStatus": {
+            "seeImpl": true
+          },
+          "version": "1.0.0",
+          "description": "앱 설정의 `onNotificationPosted 이벤트 사용`을 켜야 동작함."
         }
       ]
     }
@@ -50,8 +54,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -78,8 +82,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -106,8 +110,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }

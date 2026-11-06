@@ -27,8 +27,9 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "partial_support",
+          "version": "1.0.0",
+          "description": "구현되지 않음"
         }
       ]
     }

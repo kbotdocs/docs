@@ -524,8 +524,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "0.3.3a"
         }
       ]
     }
@@ -771,7 +771,7 @@
       "starLight": [
         {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "0.3.1a"
         }
       ]
     }

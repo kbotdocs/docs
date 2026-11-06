@@ -22,8 +22,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -51,8 +51,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -80,8 +80,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -109,8 +109,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -138,8 +138,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -167,8 +167,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -196,8 +196,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -225,8 +225,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -254,8 +254,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -283,8 +283,12 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "detailedStatus": {
+            "seeImpl": true
+          },
+          "version": "1.0.0",
+          "description": "`packageName` 매개변수가 무시됨."
         }
       ]
     }
@@ -312,8 +316,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -341,8 +345,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -370,8 +374,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -399,8 +403,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
@@ -428,8 +432,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.0.0"
         }
       ]
     }
