@@ -4,7 +4,7 @@
 
 1. [`discord.slp`](https://drive.google.com/file/d/1Q_eEmqehX7Rk7xGCgzT1TIqUDRJdgNyJ/view?usp=drive_link)과
 [`awt.slp`](https://drive.google.com/file/d/16XpEZ335X1_mDWA0CbQRpXXHtrFp4Jqe/view?usp=drive_link) 파일을
-`sdcard/reference/starlight/plugins/` 폴더 내에 추가합니다.
+`sdcard/StarLight/plugins/` 폴더 내에 추가합니다.
 2. StarLight를 재시작합니다.
 3. 하단의 **플러그인** 탭 > **Discord 플러그인** > **설정** > **봇 토큰** 에 본인의 봇 토큰을 입력합니다.
 4. StarLight 앱을 재시작하여 서버를 시작합니다.

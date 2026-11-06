@@ -10,7 +10,7 @@
 </thead>
 <tbody>
   <tr>
-  <td><span>[`MutableConfig`](https://github.com/mooner1022/reference/starlight/blob/nightly/PluginCore/src/main/java/dev/mooner/reference/starlight/plugincore/config/data/MutableConfig.kt)</span></td>
+  <td><span>[`MutableConfig`](https://github.com/mooner1022/StarLight/blob/nightly/PluginCore/src/main/java/dev/mooner/starlight/plugincore/config/data/MutableConfig.kt)</span></td>
   <td>
     [`config`](/reference/starlight/Object/Project/config) \
     프로젝트의 로컬 디렉터리에 저장되는 프로젝트 전용 구성 데이터입니다.
@@ -24,7 +24,7 @@
   </td>
   </tr>
   <tr>
-  <td><span>[`ProjectInfo`](https://github.com/mooner1022/reference/starlight/blob/nightly/PluginCore/src/main/java/dev/mooner/reference/starlight/plugincore/project/ProjectInfo.kt#L11)</span></td>
+  <td><span>[`ProjectInfo`](https://github.com/mooner1022/StarLight/blob/nightly/PluginCore/src/main/java/dev/mooner/starlight/plugincore/project/ProjectInfo.kt#L13)</span></td>
   <td>
     [`info`](/reference/starlight/Object/Project/info) \
     프로젝트에 대한 정보입니다.
@@ -38,7 +38,7 @@
   </td>
   </tr>
   <tr>
-  <td><span>[`ProjectLogger`](https://github.com/mooner1022/reference/starlight/blob/nightly/PluginCore/src/main/java/dev/mooner/reference/starlight/plugincore/logger/ProjectLogger.kt#L24)</span></td>
+  <td><span>[`ProjectLogger`](https://github.com/mooner1022/StarLight/blob/nightly/PluginCore/src/main/java/dev/mooner/starlight/plugincore/logger/ProjectLogger.kt#L23)</span></td>
   <td>
     [`logger`](/reference/starlight/Object/Project/logger) \
     프로젝트의 이벤트 로깅에 사용되는 logger입니다.
@@ -65,7 +65,7 @@
   <tr>
   <td><span>`void`</span></td>
   <td>
-    [`callFunction`](/reference/starlight/Object/Project/activeJobs)`(name: String, args: Any[], onException: (throwable:
+    [`callFunction`](/reference/starlight/Object/Project/callFunction)`(name: String, args: Any[], onException: (throwable:
     java.lang.Throwable) => Any)` \
     특정 함수의 이름과 인자를 전달받아 호출합니다.
   </td>
