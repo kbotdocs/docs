@@ -1,0 +1,95 @@
+
+`room` 방에 파일을 보냅니다. 파일이 준비되기를 기다리지 않고 바로 반환하며, 전송 결과는 반환값으로 전달됩니다.
+## 구문
+
+~~~js
+MediaSharer.send(room, files);
+MediaSharer.send(room, files, options);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="room" type="Message | ChatRoom | String | BigInt">
+파일을 보낼 방. [`Message`](/reference/starlight/Argument/Message) 객체, [`ChatRoom`](/reference/starlight/Argument/ChatRoom) 객체, 방의 ID 또는 메시지를 수신한 적이 있는 방의 이름을 사용할 수 있습니다.
+</param-item>
+<param-item param="files" type="Any | Any[]">
+보낼 파일. 파일 경로, `http(s)` URL, data URL, `base64:`로 시작하는 Base64 문자열, Java `byte[]`, `Uint8Array`, `ArrayBuffer`, `android.graphics.Bitmap`(예: [`msg.image`](/reference/starlight/Argument/Message/image)) 또는 이들의 배열을 사용할 수 있습니다. 파일의 형식은 내용으로 판별합니다. 상대 경로는 프로젝트의 디렉터리를 기준으로 합니다.
+</param-item>
+<param-item param="options" type="Object" defaultVal="`null`" optional>
+전송 옵션
+<details summary="`options` 정보">
+  ~~~json
+  {
+    "fileName": String,
+    "timeout": Number,
+    "cache": Boolean,
+    "headers": { /* Header */ },
+    "leave": String | Boolean
+  }
+  ~~~
+  <params>
+  <param-item param="fileName" type="String" optional>
+    보낼 파일의 이름. 확장자는 자동으로 붙으며, 파일이 여러 개일 경우 `name_1`, `name_2`와 같이 번호가 붙습니다.
+  </param-item>
+  <param-item param="timeout" type="Number" optional>
+    다운로드 타임아웃 (밀리초; ms)
+  </param-item>
+  <param-item param="cache" type="Boolean" optional>
+    다운로드하거나 변환한 파일의 캐시 여부. 캐시된 파일은 다시 보낼 때 다운로드하지 않습니다.
+  </param-item>
+  <param-item param="headers" type="Object" optional>
+    다운로드 request 헤더 (예: `{ Referer: "https://example.com" }`)
+  </param-item>
+  <param-item param="leave" type="String | Boolean" optional>
+    카카오톡이 파일을 받은 후 이동할 화면. `"home"`(또는 `true`), `"starlight"`, 앱의 패키지명을 사용할 수 있으며, `"stay"`(또는 `false`)일 경우 카카오톡에 머무릅니다.
+  </param-item>
+  </params>
+
+  생략한 옵션은 앱의 **설정** > **미디어 전송**의 값을 따릅니다. 알 수 없는 키가 포함된 경우 전송에 실패합니다.
+</details>
+</param-item>
+</params>
+### 반환값
+
+`Promise<MediaSendResult>` - 전송 결과에 대한 [`MediaSendResult`](https://github.com/mooner1022/StarLight/blob/nightly/PluginCore/src/main/java/dev/mooner/starlight/plugincore/chat/MediaSendResult.kt#L8) 객체로 이행되는 `Promise`를 반환합니다. Rhino 프로젝트에서는 `java.util.concurrent.CompletableFuture`를 반환하며, `join()`으로 결과를 기다릴 수 있습니다.
+전송에 실패해도 에러를 throw하지 않으며, 결과의 `ok`가 `false`가 됩니다.
+
+<details summary="`MediaSendResult` 정보">
+  <params>
+  <param-item param="ok" type="Boolean">
+    방이 파일을 받았는지의 여부
+  </param-item>
+  <param-item param="room" type="String">
+    파일을 보낸 방의 이름과 ID
+  </param-item>
+  <param-item param="sent" type="Number">
+    방이 받은 파일의 수
+  </param-item>
+  <param-item param="failed" type="Number">
+    준비하지 못해 보내지 않은 파일의 수
+  </param-item>
+  <param-item param="error" type="String?">
+    파일을 보내지 못한 이유. 방이 파일을 받은 경우 `null`입니다.
+  </param-item>
+  <param-item param="errors" type="String[]">
+    보내지 않은 파일별 이유 (`파일: 이유` 형식)
+  </param-item>
+  <param-item param="via" type="String?">
+    방에 직접 보내지 않은 경우 보낸 방법 (예: 듀얼 메신저의 `"user 95"`, `"chooser"`). 직접 보낸 경우 `null`입니다.
+  </param-item>
+  </params>
+</details>
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+export async function onMessage(msg) {
+  if (msg.message !== "!고양이") return;
+
+  const result = await MediaSharer.send(msg, "https://example.com/cat.jpg", { leave: "home" });
+  if (!result.ok)
+    msg.room.send("전송 실패: " + result.error);
+}
+~~~

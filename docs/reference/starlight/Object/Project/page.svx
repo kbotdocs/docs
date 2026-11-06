@@ -80,7 +80,7 @@
   <tr>
   <td><span>`void`</span></td>
   <td>
-    [`destroy`](/reference/starlight/Object/Project/destroy)`()` \
+    [`destroy`](/reference/starlight/Object/Project/destroy)`(requestUpdate?: Boolean = false)` \
     작동 중인 모든 `job`을 중지합니다. 프로젝트가 컴파일된 상태일 경우, `langScope`를 해제합니다.
   </td>
   </tr>
@@ -120,9 +120,16 @@
   </td>
   </tr>
   <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`queuedEvents`](/reference/starlight/Object/Project/queuedEvents)`()` \
+    프로젝트에서 실행되기를 기다리는 이벤트의 수를 반환합니다.
+  </td>
+  </tr>
+  <tr>
   <td><span>`void`</span></td>
   <td>
-    [`rename`](/reference/starlight/Object/Project/rename)`(name: String)` \
+    [`rename`](/reference/starlight/Object/Project/rename)`(name: String, preserveMainScript?: Boolean = false)` \
     프로젝트의 이름을 변경합니다.
   </td>
   </tr>

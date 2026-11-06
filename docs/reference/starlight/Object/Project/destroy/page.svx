@@ -4,4 +4,13 @@
 
 ~~~js
 Project.destroy();
+Project.destroy(requestUpdate);
 ~~~
+
+### 매개변수
+
+<params>
+<param-item param="requestUpdate" type="Boolean" defaultVal="`false`" optional>
+앱에 프로젝트 UI 업데이트를 요청할지의 여부
+</param-item>
+</params>

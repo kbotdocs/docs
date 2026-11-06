@@ -1,0 +1,19 @@
+
+캐시된 파일을 삭제하고 삭제한 파일의 수를 반환합니다. `target`이 주어질 경우, 해당하는 파일만 삭제합니다.
+## 구문
+
+~~~js
+MediaSharer.clearCache();
+MediaSharer.clearCache(target);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="target" type="String | String[]" defaultVal="`null`" optional>
+삭제할 파일의 URL, 캐시 키 또는 캐시 파일명
+</param-item>
+</params>
+### 반환값
+
+`Number` - 삭제한 파일의 수를 반환합니다.

@@ -1,5 +1,9 @@
 
 `onNotificationPosted`는 알림이 발생할 때 동작하는 이벤트 리스너입니다.
+
+<noti type="warning">
+앱의 **설정** > **알림, 이벤트**에서 **onNotificationPosted 이벤트 사용**을 활성화해야 동작합니다.
+</noti>
 ## 구문
 
 ~~~js
@@ -7,6 +11,10 @@ function onNotificationPosted(statusBarNotification) {
 
 }
 ~~~
+
+<noti type="info">
+NeonJS 프로젝트에서는 `export function onNotificationPosted(statusBarNotification) { }`와 같이 함수를 `export`해야 호출됩니다.
+</noti>
 
 ### 인자
 

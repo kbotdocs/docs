@@ -1,0 +1,31 @@
+
+메시지를 수신한 카카오톡 방들의 정보를 최근에 메시지를 수신한 순서로 반환합니다.
+## 구문
+
+~~~js
+MediaSharer.getRooms();
+~~~
+
+### 반환값
+
+[`RoomInfo[]`](https://github.com/mooner1022/StarLight/blob/nightly/app/src/main/java/dev/mooner/starlight/media/api/Results.kt#L8) - 메시지를 수신한 카카오톡 방들에 대한 `RoomInfo` 객체의 배열을 반환합니다.
+
+<details summary="`RoomInfo` 정보">
+  <params>
+  <param-item param="id" type="String">
+    방의 ID
+  </param-item>
+  <param-item param="name" type="String">
+    방의 이름
+  </param-item>
+  <param-item param="isGroupChat" type="Boolean">
+    방이 그룹 채팅방인지의 여부
+  </param-item>
+  <param-item param="lastSeen" type="Number">
+    방에서 마지막으로 메시지를 수신한 시각 (epoch 밀리초; ms)
+  </param-item>
+  <param-item param="userId" type="Number?">
+    방이 속한 Android 사용자의 ID. 기기 소유자는 `0`이며, 듀얼 메신저의 경우 다른 값을 가집니다. 알 수 없을 경우 `null`입니다.
+  </param-item>
+  </params>
+</details>

@@ -16,3 +16,4 @@ Java.type(name);
 ### 반환값
 
 `java.lang.Class<*>` - `name`에 대응하는 Java 클래스를 반환합니다.
+NeonJS 프로젝트에서는 반환된 클래스로 `new`를 이용해 객체를 생성하거나 정적 멤버에 접근할 수 있습니다. Rhino 프로젝트에서는 `java.lang.Class` 객체가 반환됩니다.

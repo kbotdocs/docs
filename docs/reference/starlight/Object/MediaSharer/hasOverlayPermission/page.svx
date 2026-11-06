@@ -1,0 +1,11 @@
+
+StarLight의 '다른 앱 위에 표시' 권한 허용 여부를 반환합니다. 권한이 없을 경우, StarLight가 화면에 표시되어 있을 때만 카카오톡으로 파일을 보낼 수 있습니다.
+## 구문
+
+~~~js
+MediaSharer.hasOverlayPermission();
+~~~
+
+### 반환값
+
+`Boolean` - 권한이 허용된 경우 `true`, 허용되지 않은 경우 `false`를 반환합니다.

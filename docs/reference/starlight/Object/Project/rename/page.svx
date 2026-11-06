@@ -4,6 +4,7 @@
 
 ~~~js
 Project.rename(name);
+Project.rename(name, preserveMainScript);
 ~~~
 
 ### 매개변수
@@ -11,5 +12,8 @@ Project.rename(name);
 <params>
 <param-item param="name" type="String">
 변경할 프로젝트의 이름
+</param-item>
+<param-item param="preserveMainScript" type="Boolean" defaultVal="`false`" optional>
+메인 스크립트 파일의 이름 유지 여부. `false`일 경우 메인 스크립트 파일의 이름도 함께 변경합니다.
 </param-item>
 </params>
