@@ -8,6 +8,10 @@ function onMessageDeleted(event) {
 }
 ~~~
 
+<noti type="info">
+NeonJS 프로젝트에서는 `export function onMessageDeleted(event) { }`와 같이 함수를 `export`해야 호출됩니다.
+</noti>
+
 ### 인자
 
 <params>

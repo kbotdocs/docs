@@ -1,0 +1,36 @@
+
+`HomeWidget` 객체는 앱 홈 화면의 **스크립트 값** 위젯에 값을 표시하기 위한 객체입니다.
+
+**스크립트 값** 위젯은 앱의 **홈** 탭에 위젯을 추가한 후, 위젯 설정의 **표시할 프로젝트**에서 값을 표시할 프로젝트를 선택해야 표시됩니다.
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`HomeWidget` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`clear`](/reference/starlight/Object/HomeWidget/clear)`()` \
+    프로젝트가 위젯에 표시한 모든 값을 제거합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`remove`](/reference/starlight/Object/HomeWidget/remove)`(key: String)` \
+    `key`로 식별되는 값을 위젯에서 제거합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`set`](/reference/starlight/Object/HomeWidget/set)`(key: String, label?: String, value: Any?)` \
+    위젯에 `key`로 식별되는 값을 표시합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

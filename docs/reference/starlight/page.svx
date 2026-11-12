@@ -1,9 +1,43 @@
 
 <noti type="info">
-StarLight는 Alpha Test 단계입니다. API의 세부 구현이 추후 변경될 수 있습니다.
+StarLight는 정식 출시 전 단계입니다. API의 세부 구현이 추후 변경될 수 있습니다. 이 문서는 StarLight 1.0.0을 기준으로 합니다.
 </noti>
 [**StarLight**](https://starlight.mooner.dev/)는 2023년 Alpha Test로 공개된 카카오톡봇 프로젝트입니다.
-레거시 API와 API2가 일부 구현되어 있습니다. 또한, StarLight는 독자적인 카카오톡봇 규격과 플러그인을 지원합니다.
+JavaScript 엔진으로 **Rhino**와 자체 개발한 **NeonJS**를 지원하며, 프로젝트마다 사용할 API 방식을 선택할 수 있습니다. 또한, StarLight는 독자적인 카카오톡봇 규격과 플러그인을 지원합니다.
+## API 방식
+
+StarLight의 프로젝트는 선택한 API 방식에 포함된 객체와 이벤트만 사용할 수 있습니다. API 방식은 여러 개를 함께 선택할 수 있으며, 여러 방식에 포함된 객체는 한 번만 추가됩니다.
+API 방식은 새 프로젝트를 만들 때 선택하고, **프로젝트 설정** > **API 방식**에서 변경할 수 있습니다. 변경한 API 방식은 프로젝트를 다시 컴파일한 후 적용됩니다. API 방식이 도입되기 전에 만든 프로젝트는 모든 API 방식이 선택된 상태로 유지됩니다.
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">StarLight의 API 방식</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>StarLight 오리지널</span></td>
+  <td>
+    이 문서에서 설명하는 StarLight의 객체, 이벤트 리스너와 `Log` 객체입니다. 새 프로젝트의 기본값입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[메신저봇 API2](/reference/api2)</span></td>
+  <td>
+    `BotManager`, `Event`, `Broadcast`, `App`, `Device`, `FileStream`, `Log` 객체와 `bot.on()`으로 등록하는 이벤트입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[메신저봇 레거시](/reference/legacy)</span></td>
+  <td>
+    `Api`, `Utils`, `DataBase`, `Bridge`, `Device`, `FileStream`, `Log` 객체와 `response`, `onNotificationPosted`, `onStartCompile` 이벤트 리스너입니다.
+  </td>
+  </tr>
+</tbody>
+</table>
+
+플러그인이 추가한 객체와 이벤트는 API 방식과 관계없이 모든 프로젝트에서 사용할 수 있습니다.
 ## 객체
 
 <table>
@@ -17,6 +51,12 @@ StarLight는 Alpha Test 단계입니다. API의 세부 구현이 추후 변경�
   <td><span>[`Env`](/reference/starlight/Object/Env)</span></td>
   <td>
     Dotenv 형식 파일의 입출력을 위한 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`HomeWidget`](/reference/starlight/Object/HomeWidget)</span></td>
+  <td>
+    앱 홈 화면의 위젯에 값을 표시하기 위한 객체입니다.
   </td>
   </tr>
   <tr>
@@ -35,6 +75,12 @@ StarLight는 Alpha Test 단계입니다. API의 세부 구현이 추후 변경�
   <td><span>[`Languages`](/reference/starlight/Object/Languages)</span></td>
   <td>
     앱이 지원하는 프로그래밍 언어에 접근하기 위한 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`MediaSharer`](/reference/starlight/Object/MediaSharer)</span></td>
+  <td>
+    이미지, 동영상 등의 파일을 방에 보내기 위한 객체입니다.
   </td>
   </tr>
   <tr>
@@ -82,6 +128,12 @@ StarLight는 Alpha Test 단계입니다. API의 세부 구현이 추후 변경�
 </tbody>
 </table>
 ## 이벤트 리스너
+
+프로젝트는 **프로젝트 설정** > **받을 이벤트**에서 선택한 이벤트만 수신합니다.
+
+<noti type="info">
+NeonJS 프로젝트에서는 `export function onMessage(event) { }`와 같이 이벤트 리스너 함수를 `export`해야 호출됩니다.
+</noti>
 
 <table>
 <thead>
@@ -157,7 +209,7 @@ StarLight는 Alpha Test 단계입니다. API의 세부 구현이 추후 변경�
 
 StarLight는 플러그인을 이용해 기본적으로 제공하지 않는 기능들을 추가할 수 있습니다. StarLight의 플러그인은 아래의 과정으로 추가할 수 있습니다.
 
-1. `.slp` 파일을 `sdcard/reference/starlight/plugins/` 폴더 내에 추가합니다.
+1. **플러그인** 탭의 **스토어**에서 플러그인을 찾아 **설치**합니다. 스토어에 없는 플러그인은 **플러그인** 탭의 **설치** 버튼으로 `.slp` 파일을 선택하거나, `.slp` 파일을 `sdcard/StarLight/plugins/` 폴더 내에 추가합니다.
 2. StarLight를 재시작합니다.
 
 [여기에서](https://drive.google.com/drive/folders/12GgPeRxWrlBbj9TV2olPmeKTPfI8KW0i) 플러그인들을 다운로드할 수 있습니다.

@@ -1267,6 +1267,18 @@
     "/reference/starlight/Object/Env/parseString": {
       "label": "`parseString()`"
     },
+    "/reference/starlight/Object/HomeWidget": {
+      "label": "HomeWidget"
+    },
+    "/reference/starlight/Object/HomeWidget/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/starlight/Object/HomeWidget/remove": {
+      "label": "`remove()`"
+    },
+    "/reference/starlight/Object/HomeWidget/set": {
+      "label": "`set()`"
+    },
     "/reference/starlight/Object/Java": {
       "label": "Java"
     },
@@ -1308,6 +1320,27 @@
     },
     "/reference/starlight/Object/Languages/ofId": {
       "label": "`ofId()`"
+    },
+    "/reference/starlight/Object/MediaSharer": {
+      "label": "MediaSharer"
+    },
+    "/reference/starlight/Object/MediaSharer/clearCache": {
+      "label": "`clearCache()`"
+    },
+    "/reference/starlight/Object/MediaSharer/findRoom": {
+      "label": "`findRoom()`"
+    },
+    "/reference/starlight/Object/MediaSharer/getRooms": {
+      "label": "`getRooms()`"
+    },
+    "/reference/starlight/Object/MediaSharer/hasOverlayPermission": {
+      "label": "`hasOverlayPermission()`"
+    },
+    "/reference/starlight/Object/MediaSharer/leave": {
+      "label": "`leave()`"
+    },
+    "/reference/starlight/Object/MediaSharer/send": {
+      "label": "`send()`"
     },
     "/reference/starlight/Object/Notification": {
       "label": "Notification"
@@ -1441,6 +1474,9 @@
     "/reference/starlight/Object/Project/loadInfo": {
       "label": "`loadInfo()`"
     },
+    "/reference/starlight/Object/Project/queuedEvents": {
+      "label": "`queuedEvents()`"
+    },
     "/reference/starlight/Object/Project/rename": {
       "label": "`rename()`"
     },
@@ -1500,6 +1536,9 @@
     },
     "/reference/starlight/Argument/ChatRoom/send": {
       "label": "`send()`"
+    },
+    "/reference/starlight/Argument/ChatRoom/sendMedia": {
+      "label": "`sendMedia()`"
     },
     "/reference/starlight/Argument/ChatSender": {
       "label": "ChatSender"
@@ -2053,7 +2092,7 @@
     "/reference": [
       {
         "label": "JavaScript 기반",
-        "description": "RhinoJS, GraalJS 기반의 카카오톡봇 개발",
+        "description": "RhinoJS, GraalJS, NeonJS 기반의 카카오톡봇 개발",
         "docs": [
           "/reference/legacy",
           "/reference/api2",
@@ -2816,9 +2855,11 @@
         "label": "객체",
         "docs": [
           "/reference/starlight/Object/Env",
+          "/reference/starlight/Object/HomeWidget",
           "/reference/starlight/Object/Java",
           "/reference/starlight/Object/Language",
           "/reference/starlight/Object/Languages",
+          "/reference/starlight/Object/MediaSharer",
           "/reference/starlight/Object/Notification",
           "/reference/starlight/Object/NotificationBuilder",
           "/reference/starlight/Object/Platform",
@@ -2865,6 +2906,17 @@
         ]
       }
     ],
+    "/reference/starlight/Object/HomeWidget": [
+      "/reference/starlight/Object/HomeWidget",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/HomeWidget/clear",
+          "/reference/starlight/Object/HomeWidget/remove",
+          "/reference/starlight/Object/HomeWidget/set"
+        ]
+      }
+    ],
     "/reference/starlight/Object/Java": [
       "/reference/starlight/Object/Java",
       {
@@ -2902,6 +2954,20 @@
         "docs": [
           "/reference/starlight/Object/Languages/getSelf",
           "/reference/starlight/Object/Languages/ofId"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/MediaSharer": [
+      "/reference/starlight/Object/MediaSharer",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/MediaSharer/clearCache",
+          "/reference/starlight/Object/MediaSharer/findRoom",
+          "/reference/starlight/Object/MediaSharer/getRooms",
+          "/reference/starlight/Object/MediaSharer/hasOverlayPermission",
+          "/reference/starlight/Object/MediaSharer/leave",
+          "/reference/starlight/Object/MediaSharer/send"
         ]
       }
     ],
@@ -3008,6 +3074,7 @@
           "/reference/starlight/Object/Project/getScope",
           "/reference/starlight/Object/Project/isEventCallAllowed",
           "/reference/starlight/Object/Project/loadInfo",
+          "/reference/starlight/Object/Project/queuedEvents",
           "/reference/starlight/Object/Project/rename",
           "/reference/starlight/Object/Project/requestUpdate",
           "/reference/starlight/Object/Project/saveInfo",
@@ -3042,7 +3109,8 @@
         "label": "인스턴스 메소드",
         "docs": [
           "/reference/starlight/Argument/ChatRoom/markAsRead",
-          "/reference/starlight/Argument/ChatRoom/send"
+          "/reference/starlight/Argument/ChatRoom/send",
+          "/reference/starlight/Argument/ChatRoom/sendMedia"
         ]
       }
     ],

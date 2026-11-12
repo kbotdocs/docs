@@ -1,0 +1,15 @@
+
+`key`로 식별되는 값을 앱 홈 화면의 **스크립트 값** 위젯에서 제거합니다.
+## 구문
+
+~~~js
+HomeWidget.remove(key);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="key" type="String">
+제거할 값의 키
+</param-item>
+</params>

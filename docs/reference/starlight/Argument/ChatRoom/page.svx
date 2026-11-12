@@ -62,5 +62,12 @@
     방에 메시지를 발신합니다. 발신 성공 여부를 반환합니다.
   </td>
   </tr>
+  <tr>
+  <td><span>`Promise<MediaSendResult>`</span></td>
+  <td>
+    [`sendMedia`](/reference/starlight/Argument/ChatRoom/sendMedia)`(files: Any, options?: Object)` \
+    방에 파일을 보냅니다.
+  </td>
+  </tr>
 </tbody>
 </table>

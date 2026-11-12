@@ -3,12 +3,14 @@
 ## JavaScript
 
 **JavaScript**는 프론트엔드, 서버 등 다양한 분야에서 사용되는 프로그래밍 언어로, 다양한 런타임, 엔진이 존재합니다. 카카오톡봇 개발에 사용할 JavaScript 엔진은 Java로 구현된
-JavaScript 엔진인 **Rhino**와 **GraalJS**입니다.
+JavaScript 엔진인 **Rhino**와 **GraalJS**, 그리고 Kotlin으로 구현된 JavaScript 엔진인 **NeonJS**입니다.
 
 Rhino 엔진은 **채팅 자동응답 봇, StarLight 그리고 메신저봇R 0.7.40-alpha.02 이하 버전**에서 사용되며, 최신 JavaScript의 feature를 완전히 지원하지 않습니다. 
 하지만 Java의 클래스를 객체로서 사용할 수 있습니다.
 
 GraalJS는 **메신저봇R 0.7.40-alpha.03 이상 버전**에서 사용됩니다. GraalJS는 Rhino 엔진보다 최신 JavaScript의 feature를 더 적극적으로 지원하며, 개선된 성능을 보입니다. Rhino 엔진과 마찬가지로 Java의 클래스를 사용할 수 있습니다.
+
+NeonJS는 **StarLight 1.0.0 이상 버전**에서 Rhino 엔진과 함께 사용됩니다. NeonJS는 ECMAScript 2025의 feature를 지원하며, `Java.type()`을 이용해 Java의 클래스를 사용할 수 있습니다.
 기초 자습서에서는 Java 클래스를 다루는 내용을 포함하지 않지만, 카카오톡봇 개발에 유용할 수 있습니다.
 
 <noti type="info">

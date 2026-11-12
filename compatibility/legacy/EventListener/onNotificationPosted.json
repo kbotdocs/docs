@@ -78,8 +78,8 @@
       ],
       "starLight": [
         {
-          "status": "full_support",
-          "version": "0.1.0a"
+          "status": "no_support",
+          "version": ""
         }
       ]
     }

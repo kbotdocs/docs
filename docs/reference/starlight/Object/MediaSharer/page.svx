@@ -1,0 +1,62 @@
+
+`MediaSharer` 객체는 이미지, 동영상 등의 파일을 방에 보내기 위한 객체입니다.
+
+카카오톡 방에는 카카오톡의 공유 화면을 열어 파일을 보내며, 디버깅 룸에서는 보낸 파일이 채팅에 바로 표시됩니다. 다운로드 타임아웃, 캐시 사용 여부, 전송 후 동작 등의 기본값은 앱의 **설정** > **미디어 전송**에서 변경할 수 있습니다.
+`MediaSharer`는 [`MediaSender`](/reference/common/Object/MediaSender) 모듈을 바탕으로 StarLight에 내장된 객체로, `MediaSender`와 사용법이 다릅니다.
+
+<noti type="warning">
+카카오톡의 채팅방이 열려 있는 동안에는 카카오톡이 알림을 보내지 않으므로 메시지를 수신할 수 없습니다. 파일을 보낸 후 카카오톡에서 나가려면 [`send()`](/reference/starlight/Object/MediaSharer/send)의 `leave` 옵션이나 [`leave()`](/reference/starlight/Object/MediaSharer/leave)를 사용하세요.
+</noti>
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`MediaSharer` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`clearCache`](/reference/starlight/Object/MediaSharer/clearCache)`(target?: String | String[])` \
+    캐시된 파일을 삭제하고 삭제한 파일의 수를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`RoomInfo?`](https://github.com/mooner1022/StarLight/blob/nightly/app/src/main/java/dev/mooner/starlight/media/api/Results.kt#L8)</span></td>
+  <td>
+    [`findRoom`](/reference/starlight/Object/MediaSharer/findRoom)`(name: String)` \
+    특정 이름의 카카오톡 방에 대한 정보를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`RoomInfo[]`](https://github.com/mooner1022/StarLight/blob/nightly/app/src/main/java/dev/mooner/starlight/media/api/Results.kt#L8)</span></td>
+  <td>
+    [`getRooms`](/reference/starlight/Object/MediaSharer/getRooms)`()` \
+    메시지를 수신한 카카오톡 방들의 정보를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`hasOverlayPermission`](/reference/starlight/Object/MediaSharer/hasOverlayPermission)`()` \
+    StarLight의 '다른 앱 위에 표시' 권한 허용 여부를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`leave`](/reference/starlight/Object/MediaSharer/leave)`(to?: String, delay?: Number)` \
+    카카오톡에서 나가 다른 화면으로 이동합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Promise<MediaSendResult>`</span></td>
+  <td>
+    [`send`](/reference/starlight/Object/MediaSharer/send)`(room: Any, files: Any, options?: Object)` \
+    방에 파일을 보냅니다.
+  </td>
+  </tr>
+</tbody>
+</table>
