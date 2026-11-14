@@ -1,0 +1,12 @@
+
+`daily()`, `cron()`, `once()`로 예약한 작업 중 아직 실행될 작업의 배열을 반환합니다. `at()`으로 보관된 작업은 포함하지 않습니다.
+
+## 구문
+
+~~~js
+Schedule.getTasks();
+~~~
+
+### 반환값
+
+[`ScheduledTask[]`](/reference/starlight/Object/ScheduledTask) - 프로젝트의 예약된 작업 배열을 반환합니다. `at()`으로 보관된 작업은 [`getStored()`](/reference/starlight/Object/Schedule/getStored)로 확인하세요.

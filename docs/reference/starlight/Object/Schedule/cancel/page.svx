@@ -1,0 +1,19 @@
+
+`at()`으로 `name`이라는 이름으로 보관된 작업을 모두 취소하고 취소한 작업의 수를 반환합니다.
+
+## 구문
+
+~~~js
+Schedule.cancel(name);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="name" type="String">
+취소할 작업의 이름
+</param-item>
+</params>
+### 반환값
+
+`Number` - 취소한 작업의 수를 반환합니다.

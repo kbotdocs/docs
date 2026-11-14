@@ -1,0 +1,40 @@
+
+`key`에 `value`의 복사본을 저장합니다. 이미 값이 있다면 바꿉니다.
+`undefined`는 저장할 수 없습니다. NeonJS는 `null`로, Rhino는 문자열 `"undefined"`로 전달하므로, 값을 지우려면 [`delete()`](/reference/starlight/Object/StoreFile/delete)를 사용하세요.
+## 구문
+
+~~~js
+store.set(key, value);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="key" type="String">
+값의 키
+</param-item>
+<param-item param="value" type="Any">
+저장할 값. `JSON.stringify()`로 쓸 수 있는 값이어야 합니다.
+</param-item>
+</params>
+### 반환값
+
+[`StoreFile`](/reference/starlight/Object/StoreFile) - 저장소 자신을 반환하므로, `store.set("a", 1).set("b", 2)`와 같이 이어서 저장할 수 있습니다.
+
+함수처럼 JSON으로 쓸 수 없는 값을 전달하면 `IllegalArgumentException`을 throw합니다.
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+const users = Store.open("users");
+
+export function onMessage(msg) {
+  if (msg.message !== "!등록") return;
+
+  const info = users.get(msg.sender.name, { count: 0 });
+  info.count++;
+  users.set(msg.sender.name, info);
+  msg.room.send(`${info.count}번째 등록입니다.`);
+}
+~~~

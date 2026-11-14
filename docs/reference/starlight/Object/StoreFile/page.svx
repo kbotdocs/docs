@@ -1,0 +1,103 @@
+
+`StoreFile` 객체는 [`Store.open()`](/reference/starlight/Object/Store/open)이 반환하는, 이름이 붙은 값의 집합입니다.
+
+모든 값은 JSON으로 저장된 복사본입니다. Rhino 프로젝트는 이벤트를 최대 3개까지 동시에 실행하므로 여러 이벤트가 같은 저장소를 동시에 사용할 수 있으며, 이전 값을 바탕으로 값을 바꿀 때는 다른 변경이 끼어들 수 없는 [`update()`](/reference/starlight/Object/StoreFile/update)를 사용하세요.
+## 인스턴스 프로퍼티
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`StoreFile` 객체의 인스턴스 프로퍼티</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`name`](/reference/starlight/Object/StoreFile/name) \
+    저장소의 이름입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`size`](/reference/starlight/Object/StoreFile/size) \
+    저장소가 가진 키의 수입니다.
+  </td>
+  </tr>
+</tbody>
+</table>
+## 인스턴스 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`StoreFile` 객체의 인스턴스 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`clear`](/reference/starlight/Object/StoreFile/clear)`()` \
+    저장소의 모든 값을 삭제합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`delete`](/reference/starlight/Object/StoreFile/delete)`(key: String)` \
+    `key`의 값을 삭제합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Any?`</span></td>
+  <td>
+    [`get`](/reference/starlight/Object/StoreFile/get)`(key: String, defaultValue?: Any)` \
+    `key`의 값의 복사본을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Object`</span></td>
+  <td>
+    [`getAll`](/reference/starlight/Object/StoreFile/getAll)`()` \
+    모든 값을 키와 값으로 이루어진 객체로 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Boolean`</span></td>
+  <td>
+    [`has`](/reference/starlight/Object/StoreFile/has)`(key: String)` \
+    `key`의 값이 있는지의 여부를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String[]`</span></td>
+  <td>
+    [`keys`](/reference/starlight/Object/StoreFile/keys)`()` \
+    저장소의 키를 배열로 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`save`](/reference/starlight/Object/StoreFile/save)`()` \
+    저장소의 변경 사항을 즉시 저장합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`StoreFile`](/reference/starlight/Object/StoreFile)</span></td>
+  <td>
+    [`set`](/reference/starlight/Object/StoreFile/set)`(key: String, value: Any)` \
+    `key`에 `value`의 복사본을 저장합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Any?`</span></td>
+  <td>
+    [`update`](/reference/starlight/Object/StoreFile/update)`(key: String, transform: Function)` \
+    `key`의 값을 `transform`이 반환한 값으로 바꾸고, 그 값을 반환합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

@@ -1,0 +1,47 @@
+
+`Format` 객체는 숫자, 날짜, 시간 길이, 한국어 조사를 문자열로 만들기 위한 객체입니다.
+
+<noti type="info">
+StarLight 1.2.0부터 사용할 수 있습니다.
+</noti>
+
+`Format`은 StarLight에 내장된 전역 객체로, 별도의 `import` 없이 사용할 수 있으며 Rhino와 NeonJS에서 똑같이 동작합니다. NeonJS에 없는 `Intl`과 `toLocaleString()`을 대신해 사용할 수 있습니다.
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Format` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`date`](/reference/starlight/Object/Format/date)`(time: Date | Number | String, pattern: String, zone?: String)` \
+    시각을 패턴에 맞는 문자열로 변환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`duration`](/reference/starlight/Object/Format/duration)`(millis: Number)` \
+    밀리초를 일, 시간, 분, 초로 변환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`josa`](/reference/starlight/Object/Format/josa)`(word: String, pair: String)` \
+    단어 뒤에 알맞은 조사를 붙입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`String`</span></td>
+  <td>
+    [`number`](/reference/starlight/Object/Format/number)`(value: Number | BigInt, fractionDigits?: Number)` \
+    숫자를 세 자리마다 쉼표로 구분한 문자열로 변환합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

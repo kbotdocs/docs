@@ -1,0 +1,34 @@
+
+`Store` 객체는 프로젝트가 컴파일과 앱 재시작 후에도 유지할 값을 JSON 파일로 저장하기 위한 객체입니다.
+
+<noti type="info">
+StarLight 1.2.0부터 사용할 수 있습니다.
+</noti>
+
+[`open()`](/reference/starlight/Object/Store/open)으로 이름이 붙은 저장소를 열면 [`StoreFile`](/reference/starlight/Object/StoreFile) 객체를 반환하며, 저장소의 값은 프로젝트 폴더의 `data/store/<이름>.json` 파일에 저장됩니다. 저장소는 프로젝트마다 따로 가지며, 다른 프로젝트의 저장소에는 접근할 수 없습니다.
+
+값은 `JSON.stringify()`로 쓸 수 있는 값(객체, 배열, 문자열, 숫자, 불리언, `null`)이며, 복사본으로 저장됩니다. 따라서 `get()`은 호출할 때마다 새 객체를 반환하고, 가져온 객체를 변경한 후에는 `set()`으로 다시 저장해야 반영됩니다. `Date`는 ISO 문자열로 저장되며, `event.sender`와 같은 Java 객체는 객체 자체가 아닌 필요한 필드만 저장하세요. NeonJS에서는 BigInt를 JSON으로 쓸 수 없으므로 64비트 ID는 `String(id)`와 같이 문자열로 저장하세요.
+
+변경 사항은 1초 이내에 백그라운드에서 저장되며, 프로젝트를 다시 컴파일하거나 끌 때와 [`save()`](/reference/starlight/Object/StoreFile/save)를 호출할 때에는 즉시 저장됩니다. 저장할 때마다 파일 전체를 쓰므로, 설정, 카운터, 사용자별 값처럼 수 MB 이하의 데이터에 적합합니다.
+
+<noti type="info">
+프로젝트가 실행되는 동안 저장소 파일을 직접 수정할 수도 있습니다. 수정한 내용은 컴파일 직후처럼 스크립트가 저장소를 다시 열 때 읽으며, 같은 키를 양쪽에서 모두 변경하지 않은 한 스크립트가 변경한 값과 함께 유지됩니다.
+</noti>
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Store` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>[`StoreFile`](/reference/starlight/Object/StoreFile)</span></td>
+  <td>
+    [`open`](/reference/starlight/Object/Store/open)`(name: String)` \
+    이름이 `name`인 저장소를 엽니다.
+  </td>
+  </tr>
+</tbody>
+</table>

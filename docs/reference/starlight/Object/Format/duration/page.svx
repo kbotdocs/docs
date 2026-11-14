@@ -1,0 +1,23 @@
+
+밀리초를 일, 시간, 분, 초로 나누어 값이 0인 단위를 뺀 문자열로 변환합니다. 기기의 언어가 한국어이면 `1시간 2분 5초`, 그 외에는 `1h 2m 5s`와 같이 표시합니다.
+## 구문
+
+~~~js
+Format.duration(millis);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="millis" type="Number">
+밀리초(ms) 단위의 시간 길이
+</param-item>
+</params>
+### 반환값
+
+`String` - 변환된 문자열을 반환합니다. 1초 미만이면 `0초`(한국어) 또는 `0s`를 반환합니다. 1초 미만의 값은 버려지며, 음수이면 앞에 `-`가 붙습니다. `millis`가 숫자가 아니거나 `NaN`, 무한대인 경우 `IllegalArgumentException`을 throw합니다.
+## 예제
+
+~~~js
+Format.duration(3725000);  // "1시간 2분 5초"
+~~~

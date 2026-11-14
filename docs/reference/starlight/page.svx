@@ -1,6 +1,6 @@
 
 <noti type="info">
-StarLight는 정식 출시 전 단계입니다. API의 세부 구현이 추후 변경될 수 있습니다. 이 문서는 StarLight 1.0.0을 기준으로 합니다.
+StarLight는 정식 출시 전 단계입니다. API의 세부 구현이 추후 변경될 수 있습니다. 이 문서는 StarLight 1.2.0을 기준으로 합니다.
 </noti>
 [**StarLight**](https://starlight.mooner.dev/)는 2023년 Alpha Test로 공개된 카카오톡봇 프로젝트입니다.
 JavaScript 엔진으로 **Rhino**와 자체 개발한 **NeonJS**를 지원하며, 프로젝트마다 사용할 API 방식을 선택할 수 있습니다. 또한, StarLight는 독자적인 카카오톡봇 규격과 플러그인을 지원합니다.
@@ -25,13 +25,13 @@ API 방식은 새 프로젝트를 만들 때 선택하고, **프로젝트 설정
   <tr>
   <td><span>[메신저봇 API2](/reference/api2)</span></td>
   <td>
-    `BotManager`, `Event`, `Broadcast`, `App`, `Device`, `FileStream`, `Log` 객체와 `bot.on()`으로 등록하는 이벤트입니다.
+    `BotManager`, `Event`, `App`, `Database`, `Broadcast`, `Device`, `FileStream`, `AppData`, `GlobalLog`, `Http`, `Security`, `Log` 객체와 `bot.on()`으로 등록하는 이벤트입니다.
   </td>
   </tr>
   <tr>
   <td><span>[메신저봇 레거시](/reference/legacy)</span></td>
   <td>
-    `Api`, `Utils`, `DataBase`, `Bridge`, `Device`, `FileStream`, `Log` 객체와 `response`, `onNotificationPosted`, `onStartCompile` 이벤트 리스너입니다.
+    `Api`, `Utils`, `DataBase`, `Bridge`, `Broadcast`, `Device`, `FileStream`, `AppData`, `GlobalLog`, `Http`, `Security`, `Log` 객체와 `response`, `onNotificationPosted`, `onNotificationRemoved`, `onStartCompile` 이벤트 리스너입니다.
   </td>
   </tr>
 </tbody>
@@ -48,9 +48,21 @@ API 방식은 새 프로젝트를 만들 때 선택하고, **프로젝트 설정
 </thead>
 <tbody>
   <tr>
+  <td><span>[`Chat`](/reference/starlight/Object/Chat)</span></td>
+  <td>
+    다음 메시지를 답변으로 기다리거나 메시지를 보낼 방을 찾기 위한 객체입니다.
+  </td>
+  </tr>
+  <tr>
   <td><span>[`Env`](/reference/starlight/Object/Env)</span></td>
   <td>
     Dotenv 형식 파일의 입출력을 위한 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`Format`](/reference/starlight/Object/Format)</span></td>
+  <td>
+    숫자, 날짜, 시간 길이, 한국어 조사를 문자열로 만들기 위한 객체입니다.
   </td>
   </tr>
   <tr>
@@ -125,6 +137,36 @@ API 방식은 새 프로젝트를 만들 때 선택하고, **프로젝트 설정
     프로젝트에 접근하기 위한 객체입니다.
   </td>
   </tr>
+  <tr>
+  <td><span>[`Schedule`](/reference/starlight/Object/Schedule)</span></td>
+  <td>
+    특정 시각이나 cron 일정에 코드를 실행하기 위한 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ScheduledTask`](/reference/starlight/Object/ScheduledTask)</span></td>
+  <td>
+    [`Schedule`](/reference/starlight/Object/Schedule)로 예약한 작업을 나타내는 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`Store`](/reference/starlight/Object/Store)</span></td>
+  <td>
+    컴파일과 앱 재시작 후에도 유지할 값을 저장하기 위한 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`StoreFile`](/reference/starlight/Object/StoreFile)</span></td>
+  <td>
+    [`Store.open()`](/reference/starlight/Object/Store/open)으로 연 저장소를 나타내는 객체입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`StoredTask`](/reference/starlight/Object/StoredTask)</span></td>
+  <td>
+    [`Schedule.at()`](/reference/starlight/Object/Schedule/at)으로 보관된 작업을 나타내는 객체입니다.
+  </td>
+  </tr>
 </tbody>
 </table>
 ## 이벤트 리스너
@@ -166,6 +208,12 @@ NeonJS 프로젝트에서는 `export function onMessage(event) { }`와 같이 �
     컴파일 요청을 감지했을 때 컴파일 시작 전에 동작하는 이벤트 리스너입니다.
   </td>
   </tr>
+  <tr>
+  <td><span>[`onUncaughtError`](/reference/starlight/EventListener/onUncaughtError)</span></td>
+  <td>
+    처리되지 않은 오류가 발생했을 때 동작하는 이벤트 리스너입니다.
+  </td>
+  </tr>
 </tbody>
 </table>
 ## 인자
@@ -201,6 +249,12 @@ NeonJS 프로젝트에서는 `export function onMessage(event) { }`와 같이 �
   <td><span>[`Message`](/reference/starlight/Argument/Message)</span></td>
   <td>
     메시지에 대한 정보를 담고 있는 객체입니다. [`onMessage`](/reference/starlight/EventListener/onMessage)의 인자로 주어집니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ScheduleRun`](/reference/starlight/Argument/ScheduleRun)</span></td>
+  <td>
+    예약된 작업의 실행에 관한 정보를 담은 객체입니다. [`Schedule`](/reference/starlight/Object/Schedule)의 콜백에 주어집니다.
   </td>
   </tr>
 </tbody>

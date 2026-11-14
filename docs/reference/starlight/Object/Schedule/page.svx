@@ -1,0 +1,105 @@
+
+`Schedule` 객체는 특정 시각이나 cron 일정에 코드를 실행하기 위한 객체입니다. 기기의 시계와 시간대를 기준으로 동작하는 StarLight 고유 전역 객체입니다.
+
+<noti type="info">
+StarLight 1.2.0부터 사용할 수 있습니다.
+</noti>
+
+~~~js
+// 매일 9시에, 시작한 뒤 메시지를 수신한 적이 있는 방에 메시지를 보냅니다.
+Schedule.daily("09:00", () => Chat.findRoom("Family")?.send("좋은 아침!"));
+// 평일 18시 30분에 실행합니다.
+Schedule.cron("30 18 * * 1-5", (run) => Log.i("schedule", `${run.lateMillis} ms 늦게 실행됨`));
+~~~
+
+[`daily()`](/reference/starlight/Object/Schedule/daily), [`cron()`](/reference/starlight/Object/Schedule/cron), [`once()`](/reference/starlight/Object/Schedule/once)로 예약한 작업은 컴파일된 코드에 속합니다.
+- 작업은 프로젝트가 컴파일되어 있고 켜져 있는 동안에만 실행됩니다. 프로젝트가 꺼져 있는 동안 예정된 실행은 건너뛰며, 컴파일 중에 예정된 실행은 컴파일이 끝날 때까지 기다립니다.
+- 프로젝트를 다시 컴파일하거나 로드를 해제하면 작업이 모두 취소됩니다. 따라서 컴파일 때마다 실행되는 최상위 코드에서 작업을 예약하세요. StarLight는 시작할 때 켜져 있는 프로젝트를 컴파일하므로, 작업도 그때 다시 예약됩니다.
+- 기기가 깨어 있는 동안에는 정시에 실행됩니다. 기기가 절전 상태일 때는 Android가 배터리 절약을 위해 알람을 모아서 처리하므로 실행이 늦어질 수 있으며, 콜백이 [`ScheduleRun`](/reference/starlight/Argument/ScheduleRun)으로 지연 시간을 전달받습니다. StarLight가 실행 중이 아닐 때 놓친 실행은 건너뛰고, 기기가 절전 중에 여러 번 놓친 실행은 한 번만 실행합니다.
+- 작업의 이전 실행이 끝나지 않았다면 그 사이에 도래한 실행은 건너뜁니다.
+- 콜백은 타이머의 콜백처럼 프로젝트의 작업으로 실행됩니다. 콜백에서 발생한 에러는 로그에 기록되며 프로젝트의 로드를 해제하지 않습니다.
+- 짧은 지연에는 `setTimeout`이나 `setInterval`을 사용하세요.
+
+[`at()`](/reference/starlight/Object/Schedule/at)은 작업을 프로젝트 폴더(`data/schedule/stored.json`)에 보관하므로, 컴파일이나 앱 재시작 이후에도 작업이 남아 있습니다. 봇이 동작하는 중에 설정하는 알림 등에 적합합니다. 작업의 처리 함수는 컴파일 때마다 실행되는 최상위 코드에서 [`on()`](/reference/starlight/Object/Schedule/on)으로 이름을 지정해 등록합니다.
+
+~~~js
+Schedule.on("remind", (data, run) => Chat.findRoom(data.room)?.send(data.text));
+export function onMessage(msg) {
+  if (msg.message === "!알림")
+    Schedule.at(Date.now() + 3600_000, "remind", { room: msg.room.name, text: "1시간이 지났습니다." });
+}
+~~~
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Schedule` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>[`StoredTask`](/reference/starlight/Object/StoredTask)</span></td>
+  <td>
+    [`at`](/reference/starlight/Object/Schedule/at)`(time: Date | Number | String, name: String, data?: Any)` \
+    이름과 데이터를 지정해 프로젝트 폴더에 보관되는 일회성 작업을 예약합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`cancel`](/reference/starlight/Object/Schedule/cancel)`(name: String)` \
+    `at()`으로 보관된 특정 이름의 작업을 모두 취소하고 취소한 작업의 수를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`cancelAll`](/reference/starlight/Object/Schedule/cancelAll)`()` \
+    `daily()`, `cron()`, `once()`로 예약한 작업을 모두 취소하고 취소한 작업의 수를 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ScheduledTask`](/reference/starlight/Object/ScheduledTask)</span></td>
+  <td>
+    [`cron`](/reference/starlight/Object/Schedule/cron)`(expression: String, callback: (run: ScheduleRun) => void)` \
+    cron 표현식이 가리키는 시각마다 콜백을 실행합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ScheduledTask`](/reference/starlight/Object/ScheduledTask)</span></td>
+  <td>
+    [`daily`](/reference/starlight/Object/Schedule/daily)`(time: String, callback: (run: ScheduleRun) => void)` \
+    매일 특정 시각에 콜백을 실행합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`StoredTask[]`](/reference/starlight/Object/StoredTask)</span></td>
+  <td>
+    [`getStored`](/reference/starlight/Object/Schedule/getStored)`()` \
+    `at()`으로 보관된 작업의 배열을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ScheduledTask[]`](/reference/starlight/Object/ScheduledTask)</span></td>
+  <td>
+    [`getTasks`](/reference/starlight/Object/Schedule/getTasks)`()` \
+    `daily()`, `cron()`, `once()`로 예약한 작업 중 아직 실행될 작업의 배열을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`void`</span></td>
+  <td>
+    [`on`](/reference/starlight/Object/Schedule/on)`(name: String, handler: (data: Any?, run: ScheduleRun) => void)` \
+    `at()`으로 보관된 작업의 처리 함수를 이름으로 등록합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ScheduledTask`](/reference/starlight/Object/ScheduledTask)</span></td>
+  <td>
+    [`once`](/reference/starlight/Object/Schedule/once)`(time: Date | Number | String, callback: (run: ScheduleRun) => void)` \
+    특정 시각에 콜백을 한 번 실행합니다.
+  </td>
+  </tr>
+</tbody>
+</table>

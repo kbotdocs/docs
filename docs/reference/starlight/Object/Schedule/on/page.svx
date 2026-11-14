@@ -1,0 +1,33 @@
+
+`at()`으로 보관된 작업을 `name`으로 실행할 `handler`를 등록합니다. 같은 이름의 이전 처리 함수는 새로 등록한 함수로 대체됩니다.
+컴파일된 버전의 처리 함수는 그 버전과 함께 사라지므로, 컴파일 때마다 실행되는 최상위 코드에서 호출하세요. 처리 함수가 없는 이름의 작업은 등록될 때까지 보관된 채로 기다립니다.
+
+## 구문
+
+~~~js
+Schedule.on(name, handler);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="name" type="String">
+`at()`에 지정한 작업의 이름. 64자 이하의 글자, 숫자, `_`, `.`, `-`만 사용할 수 있습니다.
+</param-item>
+<param-item param="handler" type="(data: Any?, run: ScheduleRun) => void">
+작업을 실행할 처리 함수. 작업의 데이터와 실행 정보를 담은 [`ScheduleRun`](/reference/starlight/Argument/ScheduleRun) 객체를 전달받습니다. 데이터는 `at()`에 전달한 값의 복사본이며, 스크립트 엔진 고유의 값입니다.
+</param-item>
+</params>
+
+`name`이 올바르지 않다면 `IllegalArgumentException`을 throw합니다.
+
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+Schedule.on("remind", (data, run) => {
+  if (run.lateMillis > 3600_000) return;  // 1시간 넘게 지난 알림은 건너뜁니다.
+  Chat.findRoom(data.room)?.send(data.text);
+});
+~~~

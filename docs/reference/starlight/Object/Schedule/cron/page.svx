@@ -1,0 +1,35 @@
+
+`expression`이 가리키는 시각마다 `callback`을 실행합니다. 기기의 시간대를 기준으로 합니다.
+
+## 구문
+
+~~~js
+Schedule.cron(expression, callback);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="expression" type="String">
+실행 일정. 5개 필드로 이루어진 cron 표현식입니다. (예: `"0 9 * * 1-5"`)
+
+필드는 `분 시 일 월 요일` 순서이며, 각 필드는 `*`, 숫자, 범위(`a-b`), 간격(`*` 또는 범위 뒤에 `/n`) 또는 이들을 쉼표로 이은 목록입니다. 월은 `JAN`~`DEC`, 요일은 `SUN`~`SAT`로 쓸 수 있으며 일요일은 0 또는 7입니다. 일과 요일을 모두 지정하면 둘 중 하나라도 맞는 날에 실행합니다.
+</param-item>
+<param-item param="callback" type="(run: ScheduleRun) => void">
+실행할 콜백. 실행 정보를 담은 [`ScheduleRun`](/reference/starlight/Argument/ScheduleRun) 객체를 전달받습니다.
+</param-item>
+</params>
+### 반환값
+
+[`ScheduledTask`](/reference/starlight/Object/ScheduledTask) - 예약한 작업을 반환합니다. 작업을 취소하려면 [`cancel()`](/reference/starlight/Object/ScheduledTask/cancel)을 사용하세요.
+
+표현식이 올바르지 않거나 한 번도 실행되지 않는 표현식이라면 `IllegalArgumentException`을, 이미 100개의 작업이 예약되어 있다면 `IllegalStateException`을 throw합니다.
+
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+Schedule.cron("0 9 * * MON-FRI", () => Log.i("schedule", "평일 9시"));  // 평일 9시
+Schedule.cron("0,30 * * * *", () => Log.i("schedule", "30분마다"));      // 매시 정각과 30분
+~~~

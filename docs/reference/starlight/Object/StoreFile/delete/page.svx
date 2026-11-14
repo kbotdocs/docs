@@ -1,0 +1,18 @@
+
+`key`의 값을 삭제합니다.
+## 구문
+
+~~~js
+store.delete(key);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="key" type="String">
+삭제할 값의 키
+</param-item>
+</params>
+### 반환값
+
+`Boolean` - `key`의 값이 있어 삭제했다면 `true`를, 없었다면 `false`를 반환합니다.

@@ -1,0 +1,132 @@
+
+`onUncaughtError`는 프로젝트의 코드에서 발생했으나 어디에서도 처리되지 않은 오류를 StarLight가 기록한 후 동작하는 이벤트 리스너입니다. Node.js의 `process.on("uncaughtException")`과 비슷하며, 오류가 발생했을 때 방에 답장하거나 오류를 따로 보고하는 데 사용할 수 있습니다.
+
+<noti type="info">
+StarLight 1.2.0부터 사용할 수 있습니다.
+</noti>
+## 구문
+
+~~~js
+function onUncaughtError(error, origin, detail) {
+
+}
+~~~
+
+<noti type="info">
+NeonJS 프로젝트에서는 `export function onUncaughtError(error, origin, detail) { }`와 같이 함수를 `export`해야 호출됩니다.
+</noti>
+
+### 인자
+
+<params>
+<param-item param="error" type="Any">
+코드가 throw한 값입니다. 스크립트가 throw한 값은 그대로 전달되므로 `error instanceof Error`, `error.message`와 같이 사용할 수 있습니다. Java 예외는 Java 객체로 전달되며, `error.message`는 읽을 수 있지만 `Error`는 아닙니다. Rhino에서 발생한 런타임 오류는 같은 종류(예: `TypeError`)의 새 오류와 그 메시지로 전달됩니다.
+</param-item>
+<param-item param="origin" type="String">
+오류의 발생 경로. `"uncaughtException"` 또는 `"unhandledRejection"`입니다. Rhino 프로젝트에서는 Promise의 거부를 감지하지 않으므로 항상 `"uncaughtException"`입니다.
+</param-item>
+<param-item param="detail" type="Object">
+오류가 발생한 위치에 대한 정보
+<details summary="`detail` 정보">
+  ~~~json
+  {
+    "source": String,
+    "args": Any[]
+  }
+  ~~~
+  <params>
+  <param-item param="source" type="String">
+    오류가 발생한 곳. 이벤트 함수의 이름(예: `onMessage`), `listener`, `promise`, `setTimeout`, `setInterval`, `Schedule.daily`와 같은 콜백의 이름 등입니다.
+  </param-item>
+  <param-item param="args" type="Any[]">
+    오류가 발생한 이벤트 함수에 전달된 인자의 배열. 이벤트 함수가 아닌 곳에서 발생한 오류는 빈 배열입니다.
+  </param-item>
+  </params>
+</details>
+</param-item>
+</params>
+
+## 오류의 발생 경로
+
+<table>
+<thead>
+  <tr>
+  <th>오류가 발생한 곳</th>
+  <th>`origin`</th>
+  <th>`detail.source`</th>
+  <th>`detail.args`</th>
+  <th>그 외 동작</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td>실행 중인 이벤트 함수</td>
+  <td>`uncaughtException`</td>
+  <td>함수의 이름 (예: `onMessage`)</td>
+  <td>함수의 인자</td>
+  <td>기록됨. **오류 발생시 비활성화**가 켜져 있으면 프로젝트가 비활성화됨</td>
+  </tr>
+  <tr>
+  <td>API2 리스너</td>
+  <td>`uncaughtException`</td>
+  <td>`listener`</td>
+  <td>빈 배열</td>
+  <td>이벤트 함수와 같음</td>
+  </tr>
+  <tr>
+  <td>`async` 이벤트 함수 (NeonJS)의 Promise가 거부된 경우</td>
+  <td>`unhandledRejection`</td>
+  <td>함수의 이름 (예: `onMessage`)</td>
+  <td>함수의 인자</td>
+  <td>기록됨</td>
+  </tr>
+  <tr>
+  <td>처리되지 않은 그 외의 Promise (NeonJS)</td>
+  <td>`unhandledRejection`</td>
+  <td>`promise`</td>
+  <td>빈 배열</td>
+  <td>기록됨</td>
+  </tr>
+  <tr>
+  <td>NeonJS 이벤트 루프의 그 외 코드 (로그에 `Uncaught exception`으로 기록됨)</td>
+  <td>`uncaughtException`</td>
+  <td>`promise`</td>
+  <td>빈 배열</td>
+  <td>기록됨</td>
+  </tr>
+  <tr>
+  <td>`setTimeout`, `setInterval` 콜백</td>
+  <td>`uncaughtException`</td>
+  <td>`setTimeout`, `setInterval`</td>
+  <td>빈 배열</td>
+  <td>기록됨</td>
+  </tr>
+  <tr>
+  <td>`Schedule` 또는 `Chat.waitFor`의 콜백</td>
+  <td>`uncaughtException`</td>
+  <td>콜백의 이름 (예: `Schedule.daily`)</td>
+  <td>빈 배열</td>
+  <td>기록됨</td>
+  </tr>
+</tbody>
+</table>
+
+## 유의 사항
+
+- 핸들러가 있어도 프로젝트가 유지되지는 않습니다. **오류 발생시 비활성화**가 켜져 있으면 이벤트 함수의 오류로 인한 프로젝트 비활성화는 핸들러가 반환한 직후에 이루어집니다. 핸들러가 첫 `await` 전에 하는 일만 실행이 보장되므로, 답장은 그 전에 보내세요.
+- `async` 이벤트 함수의 오류는 `unhandledRejection`으로 전달되며 프로젝트를 비활성화하지 않습니다. 함수가 `await`하지 않고 시작한 Promise의 오류는 `promise`로 전달되고 `detail.args`는 빈 배열입니다.
+- 핸들러가 throw한 오류나 핸들러가 반환한 Promise의 거부는 핸들러에 다시 전달되지 않고 기록되며, 설정이 켜져 있으면 이벤트 함수의 오류와 같이 프로젝트를 비활성화합니다. 타이머의 오류를 전달받은 경우에도 마찬가지입니다.
+- 핸들러는 1분에 최대 10번 호출됩니다. 초과한 오류는 한동안 기록만 되며, 이는 로그에 한 번 표시됩니다. 연속으로 3번 실패하면 프로젝트를 다시 컴파일할 때까지 호출되지 않습니다.
+- 컴파일 중 최상위 코드의 오류(컴파일 실패), 컴파일로 교체된 이전 버전의 오류, 다시 컴파일하며 엔진이 중단한 코드의 오류에는 호출되지 않습니다. 모든 오류는 이전과 같이 기록됩니다.
+- Rhino 프로젝트에서는 핸들러가 반환한 Promise를 따르지 않습니다.
+
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+export function onUncaughtError(error, origin, detail) {
+  // 첫 번째 await 전에 답장해야 합니다.
+  detail.args[0]?.room?.send("오류가 발생했어요: " + error.message);
+}
+~~~

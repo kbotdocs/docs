@@ -1,0 +1,38 @@
+
+`time`에 `callback`을 한 번 실행합니다. 이미 지난 시각이라면 바로 실행합니다.
+
+## 구문
+
+~~~js
+Schedule.once(time, callback);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="time" type="Date | Number | String">
+실행할 시각. `Date` 객체, `Date.now()`와 같은 에포크 밀리초(ms) 값 또는 ISO 8601 형식의 문자열을 사용할 수 있습니다. 시간대가 없는 `"2026-12-25T09:00"`은 기기의 시간대로, `"2026-12-25T09:00+09:00"`과 `"2026-12-25T00:00Z"`는 명시된 시간대로 해석합니다.
+</param-item>
+<param-item param="callback" type="(run: ScheduleRun) => void">
+실행할 콜백. 실행 정보를 담은 [`ScheduleRun`](/reference/starlight/Argument/ScheduleRun) 객체를 전달받습니다.
+</param-item>
+</params>
+### 반환값
+
+[`ScheduledTask`](/reference/starlight/Object/ScheduledTask) - 예약한 작업을 반환합니다. 작업을 취소하려면 [`cancel()`](/reference/starlight/Object/ScheduledTask/cancel)을 사용하세요.
+
+`time`이 위의 형식이 아니라면 `IllegalArgumentException`을, 이미 100개의 작업이 예약되어 있다면 `IllegalStateException`을 throw합니다.
+프로젝트를 다시 컴파일하거나 앱을 재시작하면 이 작업은 사라집니다. 재시작 후에도 남아야 한다면 [`at()`](/reference/starlight/Object/Schedule/at)을 사용하세요.
+
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+const reminder = Schedule.once(Date.now() + 10 * 60_000, () => {
+  Log.i("schedule", "10분이 지났습니다.");
+});
+
+// 필요 없어지면 취소합니다.
+// reminder.cancel();
+~~~

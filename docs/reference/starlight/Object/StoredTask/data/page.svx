@@ -1,0 +1,12 @@
+
+작업의 데이터입니다. 읽을 때마다 새로운 복사본을 반환합니다.
+
+## 구문
+
+~~~js
+task.data;
+~~~
+
+### 값
+
+`Any?` - [`Schedule.at()`](/reference/starlight/Object/Schedule/at)에 전달한 데이터의 복사본으로, 스크립트 엔진 고유의 값입니다.

@@ -5,7 +5,7 @@
 `MediaSharer`는 [`MediaSender`](/reference/common/Object/MediaSender) 모듈을 바탕으로 StarLight에 내장된 객체로, `MediaSender`와 사용법이 다릅니다.
 
 <noti type="warning">
-카카오톡의 채팅방이 열려 있는 동안에는 카카오톡이 알림을 보내지 않으므로 메시지를 수신할 수 없습니다. 파일을 보낸 후 카카오톡에서 나가려면 [`send()`](/reference/starlight/Object/MediaSharer/send)의 `leave` 옵션이나 [`leave()`](/reference/starlight/Object/MediaSharer/leave)를 사용하세요.
+카카오톡의 채팅방이 열려 있는 동안에는 카카오톡이 그 방의 알림을 보내지 않으므로 그 방의 메시지를 수신할 수 없습니다. 다른 방의 알림은 그대로 전달됩니다. 파일을 보낸 후 카카오톡에서 나가려면 [`send()`](/reference/starlight/Object/MediaSharer/send)의 `leave` 옵션이나 [`leave()`](/reference/starlight/Object/MediaSharer/leave)를 사용하세요.
 </noti>
 ## 정적 메소드
 
@@ -56,6 +56,20 @@
   <td>
     [`send`](/reference/starlight/Object/MediaSharer/send)`(room: Any, files: Any, options?: Object)` \
     방에 파일을 보냅니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Promise<MediaSendResult>`</span></td>
+  <td>
+    [`sendText`](/reference/starlight/Object/MediaSharer/sendText)`(room: Any, text: String, options?: Object)` \
+    방에 카카오톡의 공유 화면을 통해 텍스트를 보냅니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Promise<MediaSendResult>`</span></td>
+  <td>
+    [`sendTextToMemo`](/reference/starlight/Object/MediaSharer/sendTextToMemo)`(text: String, options?: Object)` \
+    카카오톡의 '나와의 채팅'에 텍스트를 보냅니다.
   </td>
   </tr>
 </tbody>

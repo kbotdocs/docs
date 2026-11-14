@@ -1,0 +1,12 @@
+
+실행이 예정 시각보다 늦게 시작된 시간입니다.
+
+## 구문
+
+~~~js
+run.lateMillis;
+~~~
+
+### 값
+
+`Number` - 늦게 시작된 시간(밀리초; ms)입니다. 기기가 깨어 있는 동안에는 0에 가깝습니다. [`Schedule.at()`](/reference/starlight/Object/Schedule/at)으로 보관된 작업은 StarLight나 프로젝트가 꺼져 있던 시간만큼 커질 수 있습니다.

@@ -1,0 +1,18 @@
+
+저장소에 `key`의 값이 있는지의 여부를 반환합니다. `null`로 저장된 값도 있는 것으로 봅니다.
+## 구문
+
+~~~js
+store.has(key);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="key" type="String">
+값의 키
+</param-item>
+</params>
+### 반환값
+
+`Boolean` - `key`의 값이 있다면 `true`를, 없다면 `false`를 반환합니다.

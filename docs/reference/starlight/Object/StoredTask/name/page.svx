@@ -1,0 +1,12 @@
+
+작업의 처리 함수가 등록된 이름입니다.
+
+## 구문
+
+~~~js
+task.name;
+~~~
+
+### 값
+
+`String` - [`Schedule.on()`](/reference/starlight/Object/Schedule/on)으로 처리 함수를 등록한 이름입니다.
