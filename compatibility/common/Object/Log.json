@@ -80,8 +80,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "두 번째 인자를 토스트 표시 여부가 아닌 로그 태그로만 받음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -109,8 +114,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "두 번째 인자를 토스트 표시 여부가 아닌 로그 태그로만 받음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -138,8 +148,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "두 번째 인자를 토스트 표시 여부가 아닌 로그 태그로만 받음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -167,8 +182,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "두 번째 인자를 토스트 표시 여부가 아닌 로그 태그로만 받음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -196,8 +216,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "두 번째 인자를 토스트 표시 여부가 아닌 로그 태그로만 받음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -225,8 +250,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "두 번째 인자를 토스트 표시 여부가 아닌 로그 태그로만 받음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -254,8 +284,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }

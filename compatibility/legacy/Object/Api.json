@@ -51,8 +51,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "`room`에 방의 ID를 사용할 수 없음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -466,8 +471,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "반환값이 없음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -495,8 +505,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "`room`에 방의 ID를 사용할 수 없으며, `packageName`이 무시됨."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -648,8 +663,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "인자 없이 호출할 수 없음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -712,8 +732,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "`room`에 방의 ID를 사용할 수 없음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -741,8 +766,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -799,8 +824,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -828,8 +853,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "`length`를 생략할 수 없음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }

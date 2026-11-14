@@ -312,8 +312,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "MessengerBot의 값(`temp * 10`)의 10배인 값을 소수로 반환함."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -544,8 +549,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "브랜드명(`Build.BRAND`) 대신 제품명(`Build.PRODUCT`)을 반환함."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -602,8 +612,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "AC 충전기일 때 `ac` 대신 `acc`를 반환함."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -631,8 +646,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -660,8 +675,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -689,8 +704,14 @@
       ],
       "starLight": [
         {
-          "status": "full_support",
-          "version": "0.2.0a"
+          "status": "partial_support",
+          "version": "0.2.0a",
+          "description": "Wi-Fi 상태 권한이 없어 호출하면 `SecurityException`이 발생함."
+        },
+        {
+          "status": "partial_support",
+          "version": "1.2.0",
+          "description": "위치 권한이 없어 연결된 경우에도 `<unknown ssid>`를 반환함."
         }
       ]
     }
@@ -718,8 +739,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "무선 충전 중일 때 `false`를 반환함."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }

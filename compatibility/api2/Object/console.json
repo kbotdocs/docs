@@ -25,6 +25,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -79,6 +83,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -106,8 +114,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -168,6 +176,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -206,6 +218,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -268,6 +284,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -330,6 +350,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -392,6 +416,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -454,6 +482,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -508,6 +540,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -546,6 +582,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -604,6 +644,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -662,6 +706,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -716,6 +764,10 @@
           "status": "partial_support",
           "version": "1.0.0",
           "description": "NeonJS 프로젝트에서만 사용할 수 있음."
+        },
+        {
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
