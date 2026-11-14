@@ -39,7 +39,7 @@ MediaSharer.sendText(room, text, options);
   ~~~
   <params>
   <param-item param="markdown" type="Boolean" defaultVal="`false`" optional>
-    `true`일 경우 텍스트를 마크다운으로 표시합니다. (예: `**굵게**`, `*기울임*`, `` `코드` ``, `- 목록`)
+    `true`일 경우 텍스트를 마크다운으로 표시합니다. (예: `**굵게**`, `*기울임*`, `` `코드` ``, `- 목록`) 카카오톡은 보낸 기기에서만 서식을 적용하며, 방의 다른 사람에게는 서식 없는 텍스트로 표시됩니다. (카카오톡 26.9.1 기준)
   </param-item>
   <param-item param="spoilers" type="Object[] | Number[][]" optional>
     탭하기 전까지 가려지는 부분의 목록. 각 항목은 `{ start, length }` 또는 `[start, length]` 형식이며, 0부터 세는 문자 단위의 위치와 길이입니다. `start`는 0 이상, `length`는 1 이상이어야 하며 텍스트의 범위를 벗어날 수 없습니다. 카카오톡은 마크다운 메시지에 스포일러를 표시하지 않으므로 `markdown`과 함께 사용할 수 없습니다.
@@ -70,7 +70,7 @@ MediaSharer.sendText(room, text, options);
 ### 반환값
 
 `Promise<MediaSendResult>` - 전송 결과에 대한 [`MediaSendResult`](https://github.com/mooner1022/StarLight/blob/nightly/PluginCore/src/main/java/dev/mooner/starlight/plugincore/chat/MediaSendResult.kt#L8) 객체로 이행되는 `Promise`를 반환합니다. Rhino 프로젝트에서는 `java.util.concurrent.CompletableFuture`를 반환하며, `join()`으로 결과를 기다릴 수 있습니다.
-전송에 실패해도 에러를 throw하지 않으며, 결과의 `ok`가 `false`가 됩니다. 결과의 `ok`는 카카오톡을 시작했다는 의미이며, 카카오톡이 실제로 텍스트를 보냈는지는 확인할 수 없습니다. 서식이 상대방에게도 유지되는지 또한 StarLight가 확인할 수 없습니다.
+전송에 실패해도 에러를 throw하지 않으며, 결과의 `ok`가 `false`가 됩니다. 결과의 `ok`는 카카오톡을 시작했다는 의미이며, 카카오톡이 실제로 텍스트를 보냈는지는 확인할 수 없습니다. 마크다운 서식은 보낸 기기에서만 적용되며, 방의 다른 사람에게는 서식 없는 텍스트로 표시됩니다.
 
 텍스트의 전송에 성공하면 `sent`는 `1`, `failed`는 `0`입니다. 자세한 `MediaSendResult` 정보는 [`send()`](/reference/starlight/Object/MediaSharer/send)를 참고하세요.
 ## 예제
