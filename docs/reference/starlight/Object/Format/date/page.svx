@@ -1,0 +1,31 @@
+
+시각을 `pattern`에 맞는 문자열로 변환합니다. `zone`을 생략하면 기기의 시간대를 사용하며, 월과 요일의 이름은 기기의 언어를 따릅니다.
+## 구문
+
+~~~js
+Format.date(time, pattern);
+Format.date(time, pattern, zone);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="time" type="Date | Number | String">
+변환할 시각. `Date` 객체, `Date.now()`와 같은 에포크 밀리초(ms) 또는 ISO 8601 형식의 문자열을 사용할 수 있습니다. 문자열에서 `"2026-12-25T09:00"`처럼 시간대가 없으면 `zone`과 관계없이 기기의 시간대로 해석하며, `"2026-12-25T09:00+09:00"`, `"2026-12-25T00:00Z"`처럼 시간대가 있으면 그 시간대로 해석합니다.
+</param-item>
+<param-item param="pattern" type="String">
+Java `DateTimeFormatter`의 패턴. `yyyy`(연), `M`/`MM`(월), `d`/`dd`(일), `E`(요일), `HH`(시; 0-23), `h`(시; 1-12)와 `a`(오전/오후), `mm`(분), `ss`(초) 등을 사용할 수 있습니다. `'at'`처럼 따옴표로 감싼 문자는 그대로 출력되며, `"M월 d일"`의 한글처럼 한글은 따옴표 없이 사용할 수 있습니다.
+</param-item>
+<param-item param="zone" type="String" optional>
+결과를 표시할 시간대의 ID (예: `"Asia/Seoul"`, `"UTC"`). 생략하면 기기의 시간대를 사용합니다.
+</param-item>
+</params>
+### 반환값
+
+`String` - 변환된 문자열을 반환합니다. `time`, `pattern`, `zone`이 올바르지 않은 경우 `IllegalArgumentException`을 throw합니다.
+## 예제
+
+~~~js
+Format.date(new Date(), "M월 d일 (E) HH:mm");                      // "11월 12일 (목) 09:30"
+Format.date("2026-12-25T00:00Z", "yyyy-MM-dd HH:mm", "Asia/Seoul");  // "2026-12-25 09:00"
+~~~

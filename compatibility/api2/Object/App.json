@@ -80,8 +80,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -109,8 +109,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -138,8 +138,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -167,8 +167,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "`onComplete`를 생략할 수 없음."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }

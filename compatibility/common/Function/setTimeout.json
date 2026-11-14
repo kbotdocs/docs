@@ -33,8 +33,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.2.0a",
+          "description": "Rhino 프로젝트에서 `args`를 `func`에 전달하지 않음."
+        },
+        {
           "status": "full_support",
-          "version": "0.2.0a"
+          "version": "1.2.0"
         }
       ]
     }

@@ -51,8 +51,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -80,8 +80,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -109,8 +109,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -254,8 +254,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.1.0a",
+          "description": "브랜드명(`Build.BRAND`) 대신 제품명(`Build.PRODUCT`)을 반환함."
+        },
+        {
           "status": "full_support",
-          "version": "0.1.0a"
+          "version": "1.2.0"
         }
       ]
     }
@@ -312,8 +317,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -373,6 +378,11 @@
         {
           "status": "partial_support",
           "version": "0.1.0a",
+          "description": "`getWebText(String, Boolean)`이 존재하지 않음. HTML 대신 태그를 제거한 텍스트를 반환함."
+        },
+        {
+          "status": "partial_support",
+          "version": "1.2.0",
           "description": "`getWebText(String, Boolean)`이 존재하지 않음."
         }
       ]
@@ -459,8 +469,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -488,8 +498,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -517,8 +527,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -604,8 +614,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -633,8 +643,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -662,8 +672,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -691,8 +701,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -720,8 +730,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }
@@ -749,8 +759,8 @@
       ],
       "starLight": [
         {
-          "status": "no_support",
-          "version": ""
+          "status": "full_support",
+          "version": "1.2.0"
         }
       ]
     }

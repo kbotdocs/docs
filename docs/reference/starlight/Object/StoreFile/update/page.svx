@@ -1,0 +1,37 @@
+
+`key`의 값의 복사본을 `transform`에 전달하고, `transform`이 반환한 값으로 `key`의 값을 바꿉니다. 그 사이에 저장소의 다른 변경이 끼어들 수 없으므로, 이전 값을 바탕으로 값을 바꿀 때 안전합니다.
+`transform`이 실행되는 동안 저장소를 사용하는 다른 이벤트는 기다립니다. `transform`은 짧게 작성하고, 그 안에서 저장소를 사용하지 마세요.
+## 구문
+
+~~~js
+store.update(key, transform);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="key" type="String">
+값의 키
+</param-item>
+<param-item param="transform" type="Function">
+이전 값의 복사본을 전달받아 새 값을 반환하는 함수. `key`의 값이 없는 경우 `null`을 전달받습니다.
+</param-item>
+</params>
+### 반환값
+
+`Any?` - `transform`이 반환한 새 값을 반환합니다.
+
+새 값을 JSON으로 쓸 수 없는 경우(예: 함수) `IllegalArgumentException`을 throw합니다.
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+const counters = Store.open("counters");
+
+export function onMessage(msg) {
+  const visits = counters.update("visits", (n) => (n ?? 0) + 1);
+  if (msg.message === "!방문")
+    msg.room.send(`지금까지 ${visits}번 호출되었습니다.`);
+}
+~~~

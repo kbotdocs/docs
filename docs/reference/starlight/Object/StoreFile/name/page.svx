@@ -1,0 +1,11 @@
+
+저장소의 이름입니다.
+## 구문
+
+~~~js
+store.name;
+~~~
+
+### 값
+
+`String` - [`Store.open()`](/reference/starlight/Object/Store/open)에 전달한 저장소의 이름입니다.

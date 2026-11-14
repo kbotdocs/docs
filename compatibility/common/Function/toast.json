@@ -22,8 +22,13 @@
       ],
       "starLight": [
         {
+          "status": "partial_support",
+          "version": "0.2.0a",
+          "description": "`duration`을 생략하면 `Toast.LENGTH_LONG`으로 표시함."
+        },
+        {
           "status": "full_support",
-          "version": "0.2.0a"
+          "version": "1.2.0"
         }
       ]
     }

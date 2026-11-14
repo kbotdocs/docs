@@ -1255,6 +1255,18 @@
     "/reference/starlight": {
       "label": "StarLight"
     },
+    "/reference/starlight/Object/Chat": {
+      "label": "Chat"
+    },
+    "/reference/starlight/Object/Chat/findRoom": {
+      "label": "`findRoom()`"
+    },
+    "/reference/starlight/Object/Chat/getRooms": {
+      "label": "`getRooms()`"
+    },
+    "/reference/starlight/Object/Chat/waitFor": {
+      "label": "`waitFor()`"
+    },
     "/reference/starlight/Object/Env": {
       "label": "Env"
     },
@@ -1266,6 +1278,21 @@
     },
     "/reference/starlight/Object/Env/parseString": {
       "label": "`parseString()`"
+    },
+    "/reference/starlight/Object/Format": {
+      "label": "Format"
+    },
+    "/reference/starlight/Object/Format/date": {
+      "label": "`date()`"
+    },
+    "/reference/starlight/Object/Format/duration": {
+      "label": "`duration()`"
+    },
+    "/reference/starlight/Object/Format/josa": {
+      "label": "`josa()`"
+    },
+    "/reference/starlight/Object/Format/number": {
+      "label": "`number()`"
     },
     "/reference/starlight/Object/HomeWidget": {
       "label": "HomeWidget"
@@ -1341,6 +1368,12 @@
     },
     "/reference/starlight/Object/MediaSharer/send": {
       "label": "`send()`"
+    },
+    "/reference/starlight/Object/MediaSharer/sendText": {
+      "label": "`sendText()`"
+    },
+    "/reference/starlight/Object/MediaSharer/sendTextToMemo": {
+      "label": "`sendTextToMemo()`"
     },
     "/reference/starlight/Object/Notification": {
       "label": "Notification"
@@ -1504,6 +1537,114 @@
     "/reference/starlight/Object/Projects/ofName": {
       "label": "`ofName()`"
     },
+    "/reference/starlight/Object/Schedule": {
+      "label": "Schedule"
+    },
+    "/reference/starlight/Object/Schedule/at": {
+      "label": "`at()`"
+    },
+    "/reference/starlight/Object/Schedule/cancel": {
+      "label": "`cancel()`"
+    },
+    "/reference/starlight/Object/Schedule/cancelAll": {
+      "label": "`cancelAll()`"
+    },
+    "/reference/starlight/Object/Schedule/cron": {
+      "label": "`cron()`"
+    },
+    "/reference/starlight/Object/Schedule/daily": {
+      "label": "`daily()`"
+    },
+    "/reference/starlight/Object/Schedule/getStored": {
+      "label": "`getStored()`"
+    },
+    "/reference/starlight/Object/Schedule/getTasks": {
+      "label": "`getTasks()`"
+    },
+    "/reference/starlight/Object/Schedule/on": {
+      "label": "`on()`"
+    },
+    "/reference/starlight/Object/Schedule/once": {
+      "label": "`once()`"
+    },
+    "/reference/starlight/Object/ScheduledTask": {
+      "label": "ScheduledTask"
+    },
+    "/reference/starlight/Object/ScheduledTask/active": {
+      "label": "`active`"
+    },
+    "/reference/starlight/Object/ScheduledTask/cancel": {
+      "label": "`cancel()`"
+    },
+    "/reference/starlight/Object/ScheduledTask/description": {
+      "label": "`description`"
+    },
+    "/reference/starlight/Object/ScheduledTask/nextRun": {
+      "label": "`nextRun`"
+    },
+    "/reference/starlight/Object/Store": {
+      "label": "Store"
+    },
+    "/reference/starlight/Object/Store/open": {
+      "label": "`open()`"
+    },
+    "/reference/starlight/Object/StoreFile": {
+      "label": "StoreFile"
+    },
+    "/reference/starlight/Object/StoreFile/clear": {
+      "label": "`clear()`"
+    },
+    "/reference/starlight/Object/StoreFile/delete": {
+      "label": "`delete()`"
+    },
+    "/reference/starlight/Object/StoreFile/get": {
+      "label": "`get()`"
+    },
+    "/reference/starlight/Object/StoreFile/getAll": {
+      "label": "`getAll()`"
+    },
+    "/reference/starlight/Object/StoreFile/has": {
+      "label": "`has()`"
+    },
+    "/reference/starlight/Object/StoreFile/keys": {
+      "label": "`keys()`"
+    },
+    "/reference/starlight/Object/StoreFile/name": {
+      "label": "`name`"
+    },
+    "/reference/starlight/Object/StoreFile/save": {
+      "label": "`save()`"
+    },
+    "/reference/starlight/Object/StoreFile/set": {
+      "label": "`set()`"
+    },
+    "/reference/starlight/Object/StoreFile/size": {
+      "label": "`size`"
+    },
+    "/reference/starlight/Object/StoreFile/update": {
+      "label": "`update()`"
+    },
+    "/reference/starlight/Object/StoredTask": {
+      "label": "StoredTask"
+    },
+    "/reference/starlight/Object/StoredTask/active": {
+      "label": "`active`"
+    },
+    "/reference/starlight/Object/StoredTask/cancel": {
+      "label": "`cancel()`"
+    },
+    "/reference/starlight/Object/StoredTask/data": {
+      "label": "`data`"
+    },
+    "/reference/starlight/Object/StoredTask/id": {
+      "label": "`id`"
+    },
+    "/reference/starlight/Object/StoredTask/name": {
+      "label": "`name`"
+    },
+    "/reference/starlight/Object/StoredTask/time": {
+      "label": "`time`"
+    },
     "/reference/starlight/EventListener/onMessage": {
       "label": "`onMessage`"
     },
@@ -1515,6 +1656,9 @@
     },
     "/reference/starlight/EventListener/onStartCompile": {
       "label": "`onStartCompile`"
+    },
+    "/reference/starlight/EventListener/onUncaughtError": {
+      "label": "`onUncaughtError`"
     },
     "/reference/starlight/Argument/ChatRoom": {
       "label": "ChatRoom"
@@ -1581,6 +1725,15 @@
     },
     "/reference/starlight/Argument/Message/sender": {
       "label": "`sender`"
+    },
+    "/reference/starlight/Argument/ScheduleRun": {
+      "label": "ScheduleRun"
+    },
+    "/reference/starlight/Argument/ScheduleRun/lateMillis": {
+      "label": "`lateMillis`"
+    },
+    "/reference/starlight/Argument/ScheduleRun/scheduledAt": {
+      "label": "`scheduledAt`"
     },
     "/reference/starlight/Argument/DeletedMessage": {
       "label": "DeletedMessage"
@@ -2854,7 +3007,9 @@
       {
         "label": "객체",
         "docs": [
+          "/reference/starlight/Object/Chat",
           "/reference/starlight/Object/Env",
+          "/reference/starlight/Object/Format",
           "/reference/starlight/Object/HomeWidget",
           "/reference/starlight/Object/Java",
           "/reference/starlight/Object/Language",
@@ -2866,7 +3021,12 @@
           "/reference/starlight/Object/Plugin",
           "/reference/starlight/Object/Plugins",
           "/reference/starlight/Object/Project",
-          "/reference/starlight/Object/Projects"
+          "/reference/starlight/Object/Projects",
+          "/reference/starlight/Object/Schedule",
+          "/reference/starlight/Object/ScheduledTask",
+          "/reference/starlight/Object/Store",
+          "/reference/starlight/Object/StoreFile",
+          "/reference/starlight/Object/StoredTask"
         ]
       },
       {
@@ -2875,7 +3035,8 @@
           "/reference/starlight/EventListener/onMessage",
           "/reference/starlight/EventListener/onMessageDeleted",
           "/reference/starlight/EventListener/onNotificationPosted",
-          "/reference/starlight/EventListener/onStartCompile"
+          "/reference/starlight/EventListener/onStartCompile",
+          "/reference/starlight/EventListener/onUncaughtError"
         ]
       },
       {
@@ -2884,7 +3045,8 @@
           "/reference/starlight/Argument/ChatRoom",
           "/reference/starlight/Argument/ChatSender",
           "/reference/starlight/Argument/Message",
-          "/reference/starlight/Argument/DeletedMessage"
+          "/reference/starlight/Argument/DeletedMessage",
+          "/reference/starlight/Argument/ScheduleRun"
         ]
       },
       {
@@ -2892,6 +3054,17 @@
         "docs": [
           "/reference/starlight/Plugin/Discord",
           "/reference/starlight/Plugin/V8"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Chat": [
+      "/reference/starlight/Object/Chat",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Chat/findRoom",
+          "/reference/starlight/Object/Chat/getRooms",
+          "/reference/starlight/Object/Chat/waitFor"
         ]
       }
     ],
@@ -2903,6 +3076,18 @@
           "/reference/starlight/Object/Env/get",
           "/reference/starlight/Object/Env/parseFile",
           "/reference/starlight/Object/Env/parseString"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Format": [
+      "/reference/starlight/Object/Format",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Format/date",
+          "/reference/starlight/Object/Format/duration",
+          "/reference/starlight/Object/Format/josa",
+          "/reference/starlight/Object/Format/number"
         ]
       }
     ],
@@ -2967,7 +3152,9 @@
           "/reference/starlight/Object/MediaSharer/getRooms",
           "/reference/starlight/Object/MediaSharer/hasOverlayPermission",
           "/reference/starlight/Object/MediaSharer/leave",
-          "/reference/starlight/Object/MediaSharer/send"
+          "/reference/starlight/Object/MediaSharer/send",
+          "/reference/starlight/Object/MediaSharer/sendText",
+          "/reference/starlight/Object/MediaSharer/sendTextToMemo"
         ]
       }
     ],
@@ -3094,6 +3281,92 @@
         ]
       }
     ],
+    "/reference/starlight/Object/Schedule": [
+      "/reference/starlight/Object/Schedule",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Schedule/at",
+          "/reference/starlight/Object/Schedule/cancel",
+          "/reference/starlight/Object/Schedule/cancelAll",
+          "/reference/starlight/Object/Schedule/cron",
+          "/reference/starlight/Object/Schedule/daily",
+          "/reference/starlight/Object/Schedule/getStored",
+          "/reference/starlight/Object/Schedule/getTasks",
+          "/reference/starlight/Object/Schedule/on",
+          "/reference/starlight/Object/Schedule/once"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/ScheduledTask": [
+      "/reference/starlight/Object/ScheduledTask",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Object/ScheduledTask/active",
+          "/reference/starlight/Object/ScheduledTask/description",
+          "/reference/starlight/Object/ScheduledTask/nextRun"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/starlight/Object/ScheduledTask/cancel"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/Store": [
+      "/reference/starlight/Object/Store",
+      {
+        "label": "정적 메소드",
+        "docs": [
+          "/reference/starlight/Object/Store/open"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/StoreFile": [
+      "/reference/starlight/Object/StoreFile",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Object/StoreFile/name",
+          "/reference/starlight/Object/StoreFile/size"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/starlight/Object/StoreFile/clear",
+          "/reference/starlight/Object/StoreFile/delete",
+          "/reference/starlight/Object/StoreFile/get",
+          "/reference/starlight/Object/StoreFile/getAll",
+          "/reference/starlight/Object/StoreFile/has",
+          "/reference/starlight/Object/StoreFile/keys",
+          "/reference/starlight/Object/StoreFile/save",
+          "/reference/starlight/Object/StoreFile/set",
+          "/reference/starlight/Object/StoreFile/update"
+        ]
+      }
+    ],
+    "/reference/starlight/Object/StoredTask": [
+      "/reference/starlight/Object/StoredTask",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Object/StoredTask/active",
+          "/reference/starlight/Object/StoredTask/data",
+          "/reference/starlight/Object/StoredTask/id",
+          "/reference/starlight/Object/StoredTask/name",
+          "/reference/starlight/Object/StoredTask/time"
+        ]
+      },
+      {
+        "label": "인스턴스 메소드",
+        "docs": [
+          "/reference/starlight/Object/StoredTask/cancel"
+        ]
+      }
+    ],
     "/reference/starlight/Argument/ChatRoom": [
       "/reference/starlight/Argument/ChatRoom",
       {
@@ -3139,6 +3412,16 @@
           "/reference/starlight/Argument/Message/packageName",
           "/reference/starlight/Argument/Message/room",
           "/reference/starlight/Argument/Message/sender"
+        ]
+      }
+    ],
+    "/reference/starlight/Argument/ScheduleRun": [
+      "/reference/starlight/Argument/ScheduleRun",
+      {
+        "label": "인스턴스 프로퍼티",
+        "docs": [
+          "/reference/starlight/Argument/ScheduleRun/lateMillis",
+          "/reference/starlight/Argument/ScheduleRun/scheduledAt"
         ]
       }
     ],

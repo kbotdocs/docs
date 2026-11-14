@@ -1,0 +1,62 @@
+
+`target`이 가리키는 다음 메시지를 기다립니다. 기다리는 동안 메시지가 오면 그 메시지를, 시간 안에 오지 않으면 `null`을 결과로 전달합니다. 질문 후 답변을 받는 흐름을 이벤트 사이에 상태를 저장하지 않고 작성할 수 있습니다.
+## 구문
+
+~~~js
+Chat.waitFor(target);
+Chat.waitFor(target, options);
+Chat.waitFor(target, options, callback);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="target" type="Message | ChatRoom | Api2 Message | Api2 Room">
+기다릴 메시지를 정하는 대상. [`Message`](/reference/starlight/Argument/Message) 객체(`event`) 또는 API2의 `msg`를 사용하면 같은 방에서 같은 발신자가 보내는 다음 메시지를, [`ChatRoom`](/reference/starlight/Argument/ChatRoom) 객체(`event.room`, [`Chat.findRoom()`](/reference/starlight/Object/Chat/findRoom)의 반환값) 또는 API2의 `room`을 사용하면 그 방에서 누구든 보내는 다음 메시지를 기다립니다. 발신자는 ID로 구분하며, 디버깅 룸처럼 ID가 없는 경우 이름으로 구분합니다.
+</param-item>
+<param-item param="options" type="Number | Object" defaultVal="`null`" optional>
+기다릴 시간. 밀리초(ms) 단위의 숫자 또는 `{ timeout: Number }` 객체를 사용할 수 있으며, 1부터 600000(10분)까지 지정할 수 있습니다. `null`이거나 `timeout`을 생략하면 60000(1분)입니다.
+</param-item>
+<param-item param="callback" type="Function" optional>
+답변을 받을 콜백. 답변한 `Message` 객체 또는 `null`을 인자로 호출됩니다. 콜백을 지정하면 `Promise`를 반환하지 않으며, 프로젝트의 작업으로 실행됩니다. 콜백에서 발생한 에러는 로그에 기록될 뿐 프로젝트를 중단하지 않으며, 프로젝트를 다시 컴파일하거나 언로드한 후에는 호출되지 않습니다. `await`을 사용할 수 없는 Rhino 프로젝트에서 사용하세요.
+</param-item>
+</params>
+### 반환값
+
+`Promise<Message?>` - 답변한 [`Message`](/reference/starlight/Argument/Message) 객체로 이행되는 `Promise`를 반환합니다. 시간 안에 메시지가 오지 않으면 `null`로 이행됩니다. Rhino 프로젝트에서는 `java.util.concurrent.CompletableFuture`를 반환하며, `join()`으로 결과를 기다릴 수 있습니다. `callback`을 지정한 경우에는 아무것도 반환하지 않습니다(`void`).
+
+`target`이 메시지나 방이 아니거나, 기다릴 시간이 숫자가 아니거나 범위를 벗어난 경우 `IllegalArgumentException`을 throw합니다.
+
+<noti type="info">
+- 답변이 된 메시지는 기다리는 코드에만 전달되며, 이 프로젝트의 `onMessage`, `response`, API2 리스너에는 전달되지 않습니다. 다른 프로젝트에는 평소처럼 전달됩니다.
+- 기다림을 시작시킨 메시지와, 그 전에 이미 처리된 메시지는 답변이 되지 않습니다. 기다림을 시작한 후 이 프로젝트가 처리하는 다음 메시지가 답변이 됩니다.
+- 같은 대상(같은 방의 같은 발신자 또는 같은 방)에 대해 `waitFor()`를 다시 호출하면 이전 기다림은 `null`로 끝납니다. 같은 명령을 두 번 보낸 경우가 이에 해당합니다. 한 메시지가 여러 기다림에 해당하면 모두에게 답변이 됩니다.
+- 프로젝트를 다시 컴파일하거나 언로드하면 기다림은 결과 없이 끝납니다.
+- Rhino에서 `join()`은 기다리는 동안 프로젝트의 작업자 하나를 점유하므로, 콜백을 사용하는 것이 좋습니다.
+</noti>
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+export async function onMessage(msg) {
+  if (msg.message !== "!가입") return;
+
+  msg.room.send("닉네임을 입력해주세요.");
+  const answer = await Chat.waitFor(msg, 30000);
+  msg.room.send(answer ? `${answer.message}님, 환영합니다!` : "시간이 초과되었습니다.");
+}
+~~~
+
+Rhino 프로젝트에서는 콜백을 사용합니다.
+
+~~~js
+function onMessage(msg) {
+  if (msg.message !== "!가입") return;
+
+  msg.room.send("닉네임을 입력해주세요.");
+  Chat.waitFor(msg, { timeout: 30000 }, function (answer) {
+    msg.room.send(answer ? answer.message + "님, 환영합니다!" : "시간이 초과되었습니다.");
+  });
+}
+~~~

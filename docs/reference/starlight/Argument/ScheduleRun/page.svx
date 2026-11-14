@@ -1,0 +1,31 @@
+
+`ScheduleRun` 객체는 예약된 작업의 실행에 관한 정보를 담은 객체로, [`Schedule`](/reference/starlight/Object/Schedule)의 콜백과 처리 함수에 전달됩니다.
+
+<noti type="info">
+StarLight 1.2.0부터 사용할 수 있습니다.
+</noti>
+## 인스턴스 프로퍼티
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`ScheduleRun` 객체의 인스턴스 프로퍼티</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`lateMillis`](/reference/starlight/Argument/ScheduleRun/lateMillis) \
+    실행이 예정 시각보다 늦게 시작된 시간입니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Number`</span></td>
+  <td>
+    [`scheduledAt`](/reference/starlight/Argument/ScheduleRun/scheduledAt) \
+    실행이 예정되었던 시각입니다.
+  </td>
+  </tr>
+</tbody>
+</table>

@@ -1,0 +1,12 @@
+
+`at()`으로 보관된 프로젝트의 작업을 배열로 반환합니다. 처리 함수가 등록되기를 기다리는 작업도 포함합니다.
+
+## 구문
+
+~~~js
+Schedule.getStored();
+~~~
+
+### 반환값
+
+[`StoredTask[]`](/reference/starlight/Object/StoredTask) - 보관된 작업의 배열을 반환합니다.

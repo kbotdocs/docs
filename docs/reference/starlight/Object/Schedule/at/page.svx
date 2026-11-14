@@ -1,0 +1,48 @@
+
+`time`에 `name`의 처리 함수를 실행하는 작업을 프로젝트 폴더의 `data/schedule/stored.json`에 보관합니다. 다른 작업과 달리 컴파일이나 앱 재시작 이후에도 남아 있습니다.
+
+## 구문
+
+~~~js
+Schedule.at(time, name);
+Schedule.at(time, name, data);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="time" type="Date | Number | String">
+실행할 시각. `Date` 객체, `Date.now()`와 같은 에포크 밀리초(ms) 값 또는 ISO 8601 형식의 문자열을 사용할 수 있습니다. 시간대가 없는 `"2026-12-25T09:00"`은 기기의 시간대로, `"2026-12-25T09:00+09:00"`과 `"2026-12-25T00:00Z"`는 명시된 시간대로 해석합니다. 이미 지난 시각이라면 바로 실행합니다.
+</param-item>
+<param-item param="name" type="String">
+작업의 이름. 64자 이하의 글자, 숫자, `_`, `.`, `-`만 사용할 수 있습니다. [`on()`](/reference/starlight/Object/Schedule/on)으로 등록한 같은 이름의 처리 함수가 작업을 실행합니다.
+</param-item>
+<param-item param="data" type="Any" defaultVal="`null`" optional>
+처리 함수에 전달할 데이터. `JSON.stringify()`로 변환할 수 있는 값이어야 하며, JSON으로 16 KiB 이하여야 합니다. 처리 함수는 데이터의 복사본을 받습니다. NeonJS는 `undefined`와 함수를 `null`로 보관하며, Rhino는 `undefined`를 문자열 `"undefined"`로 전달합니다.
+</param-item>
+</params>
+### 반환값
+
+[`StoredTask`](/reference/starlight/Object/StoredTask) - 보관한 작업을 반환합니다.
+
+`time`이나 `name`이 올바르지 않거나 `data`가 너무 크다면 `IllegalArgumentException`을, 이미 100개의 작업이 보관되어 있다면 `IllegalStateException`을 throw합니다. 보관 가능한 작업 수는 `daily()`, `cron()`, `once()`의 작업 수와 별개입니다.
+
+<noti type="info">
+- 작업은 프로젝트가 컴파일되어 있고 켜져 있는 동안에만 실행됩니다. StarLight가 꺼져 있었거나 프로젝트가 꺼져 있는 동안 예정 시각이 지난 작업은, 프로젝트가 다시 컴파일되어 켜졌을 때 아무리 늦었더라도 한 번 실행됩니다. 처리 함수는 `run.lateMillis`로 지연 시간을 확인해 너무 오래된 작업을 건너뛸 수 있습니다.
+- 작업은 최대 한 번만 실행됩니다. 처리 함수를 호출하기 전에 파일에서 제거되므로, 실행 도중 앱이 종료되어도 다시 실행되지 않습니다.
+- StarLight가 시작된 후 작업은 방이 복원되기를 최대 10초 기다린 다음 실행하므로, `Chat.findRoom()`으로 방을 찾을 수 있습니다.
+- [`getTasks()`](/reference/starlight/Object/Schedule/getTasks)와 [`cancelAll()`](/reference/starlight/Object/Schedule/cancelAll)은 이 작업을 포함하지 않습니다. [`getStored()`](/reference/starlight/Object/Schedule/getStored)와 [`cancel()`](/reference/starlight/Object/Schedule/cancel)을 사용하세요.
+</noti>
+
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+Schedule.on("remind", (data, run) => Chat.findRoom(data.room)?.send(data.text));
+
+export function onMessage(msg) {
+  if (msg.message === "!알림")
+    Schedule.at(Date.now() + 3600_000, "remind", { room: msg.room.name, text: "1시간이 지났습니다." });
+}
+~~~

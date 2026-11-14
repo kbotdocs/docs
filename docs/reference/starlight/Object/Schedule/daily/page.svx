@@ -1,0 +1,36 @@
+
+매일 `time`에 `callback`을 실행합니다. 기기의 시간대를 기준으로 합니다.
+
+## 구문
+
+~~~js
+Schedule.daily(time, callback);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="time" type="String">
+실행할 시각. `HH:mm` 또는 `HH:mm:ss` 형식입니다. (예: `"09:00"`, `"21:30:15"`)
+</param-item>
+<param-item param="callback" type="(run: ScheduleRun) => void">
+실행할 콜백. 실행 정보를 담은 [`ScheduleRun`](/reference/starlight/Argument/ScheduleRun) 객체를 전달받습니다.
+</param-item>
+</params>
+### 반환값
+
+[`ScheduledTask`](/reference/starlight/Object/ScheduledTask) - 예약한 작업을 반환합니다. 작업을 취소하려면 [`cancel()`](/reference/starlight/Object/ScheduledTask/cancel)을 사용하세요.
+
+시각이 올바르지 않다면 `IllegalArgumentException`을, 이미 100개의 작업이 예약되어 있다면 `IllegalStateException`을 throw합니다. 한 프로젝트에서 `daily()`, `cron()`, `once()`로 예약할 수 있는 작업은 100개까지입니다.
+
+서머타임 등으로 건너뛰는 시각은 건너뛴 구간 직후에 실행됩니다.
+
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+Schedule.daily("09:00", () => {
+  Chat.findRoom("가족")?.send("좋은 아침!");
+});
+~~~

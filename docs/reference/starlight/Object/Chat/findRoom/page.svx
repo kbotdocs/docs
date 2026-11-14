@@ -1,0 +1,33 @@
+
+`nameOrId`라는 이름이거나 해당 ID를 가진 방을 반환합니다. StarLight가 시작된 후 메시지를 수신한 방, 또는 시작될 때 메시지 알림이 아직 표시되어 있던 방 중에서 찾습니다.
+## 구문
+
+~~~js
+Chat.findRoom(nameOrId);
+~~~
+
+### 매개변수
+
+<params>
+<param-item param="nameOrId" type="String">
+방의 이름 또는 문자열로 쓴 방의 ID
+</param-item>
+</params>
+### 반환값
+
+[`ChatRoom?`](/reference/starlight/Argument/ChatRoom) - 해당하는 방의 `ChatRoom` 객체를 반환합니다. 해당하는 방이 없을 경우 `null`을 반환합니다.
+
+<noti type="info">
+메시지는 알림에 답장하는 방식으로 발신하므로, StarLight가 시작된 후 알림을 수신한 방 또는 시작될 때 알림이 아직 표시되어 있던 방에만 보낼 수 있습니다. 그 전에는 `null`을 반환합니다.
+</noti>
+## 예제
+
+NeonJS 프로젝트에서 사용하는 예제입니다.
+
+~~~js
+export function onMessage(msg) {
+  if (msg.message !== "!공지") return;
+
+  Chat.findRoom("가족방")?.send("공지가 도착했습니다.");
+}
+~~~

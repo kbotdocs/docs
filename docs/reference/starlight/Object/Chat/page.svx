@@ -1,0 +1,40 @@
+
+`Chat` 객체는 이벤트 하나를 넘어서는 채팅을 위한 객체입니다. 다음 메시지를 답변으로 기다리거나, 이벤트 없이 메시지를 보낼 방을 찾을 수 있습니다.
+
+<noti type="info">
+StarLight 1.2.0부터 사용할 수 있습니다.
+</noti>
+
+`Chat`은 StarLight에 내장된 전역 객체로, 별도의 `import` 없이 사용할 수 있습니다.
+## 정적 메소드
+
+<table>
+<thead>
+  <tr>
+  <th colspan="2">`Chat` 객체의 정적 메소드</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+  <td><span>[`ChatRoom?`](/reference/starlight/Argument/ChatRoom)</span></td>
+  <td>
+    [`findRoom`](/reference/starlight/Object/Chat/findRoom)`(nameOrId: String)` \
+    이름 또는 ID에 해당하는 방을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>[`ChatRoom[]`](/reference/starlight/Argument/ChatRoom)</span></td>
+  <td>
+    [`getRooms`](/reference/starlight/Object/Chat/getRooms)`()` \
+    메시지를 보낼 수 있는 방들을 반환합니다.
+  </td>
+  </tr>
+  <tr>
+  <td><span>`Promise<Message?>`</span></td>
+  <td>
+    [`waitFor`](/reference/starlight/Object/Chat/waitFor)`(target: Any, options?: Number | Object, callback?: Function)` \
+    다음 메시지를 기다립니다.
+  </td>
+  </tr>
+</tbody>
+</table>
